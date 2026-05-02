@@ -1,0 +1,49 @@
+name: Execute_workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      scd_ticket_id:
+        description: Single orphaned transaction SCD ticket to execute
+        required: true
+        type: string
+
+jobs:
+  execute-single-ticket:
+    runs-on: ubuntu-latest
+    environment: execute
+    permissions:
+      contents: read
+
+    env:
+      PYTHONIOENCODING: utf-8
+      SCD_TICKET_ID: ${{ inputs.scd_ticket_id }}
+      JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+      JIRA_WRITE_API_TOKEN: ${{ secrets.JIRA_WRITE_API_TOKEN }}
+      JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Run execute flow
+        shell: bash
+        run: |
+          python execute_orphaned_transaction.py | tee execute-output.txt
+
+      - name: Publish execute summary
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "## Execute Result"
+            echo
+            echo '```text'
+            cat execute-output.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
