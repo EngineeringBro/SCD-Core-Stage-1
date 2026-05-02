@@ -1,4 +1,4 @@
-name: SCD Core Stage 1 Single Ticket
+name: Scan
 
 on:
   workflow_dispatch:
