@@ -69,6 +69,8 @@ jobs:
                 'Recommendation: error',
                 `Ticket ID: ${ticketId}`,
                 'Module: unknown',
+                'Issue Body:',
+                'No issue body available.',
                 'Notes:',
                 `- No orchestrator output was captured for ${ticketId}.`,
               ].join('\n');
@@ -85,13 +87,18 @@ jobs:
             const parsedTicketId = readField('Ticket ID') || ticketId;
             const moduleName = readField('Module') || 'unknown';
 
+            const issueBodyIndex = lines.findIndex((value) => value.trim() === 'Issue Body:');
             const notesIndex = lines.findIndex((value) => value.trim() === 'Notes:');
+            const issueBodyLines = issueBodyIndex >= 0
+              ? lines.slice(issueBodyIndex + 1, notesIndex >= 0 ? notesIndex : lines.length)
+              : [];
+            const issueBody = issueBodyLines.join('\n').trim() || recommendation;
             const notesLines = notesIndex >= 0 ? lines.slice(notesIndex + 1) : ['- None'];
             const notes = notesLines.join('\n').trim() || '- None';
 
             const title = `[${recommendation}] ${parsedTicketId} - ${moduleName}`;
             const body = [
-              recommendation,
+              issueBody,
               '---',
               'Notes',
               notes,

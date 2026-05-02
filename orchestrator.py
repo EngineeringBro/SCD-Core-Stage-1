@@ -21,6 +21,7 @@ class FetchResult:
 class RouterResult:
     ticket_id: str
     module_name: str
+    ticket_details: dict[str, Any]
 
 
 @dataclass(frozen=True)
@@ -28,7 +29,9 @@ class ModuleResult:
     ticket_id: str
     module_name: str
     module_display_name: str
-    decision: str
+    recommendation: str
+    issue_body: str
+    notes: list[str]
 
 
 def run() -> str:
@@ -130,7 +133,48 @@ def route_ticket(fetch_result: FetchResult) -> RouterResult:
     if not module_name:
         raise StepFailure("router step failed: router.py returned an empty module_name")
 
-    return RouterResult(ticket_id=ticket_id, module_name=module_name)
+    return RouterResult(
+        ticket_id=ticket_id,
+        module_name=module_name,
+        ticket_details=fetch_result.ticket_details,
+    )
+
+
+def normalize_module_response(response: Any, module_file_name: str) -> tuple[str, str, list[str]]:
+    if isinstance(response, str):
+        normalized_response = response.strip()
+        if not normalized_response:
+            raise StepFailure(f"module step failed: {module_file_name} returned an empty answer")
+        return normalized_response, normalized_response, ["None"]
+
+    if not isinstance(response, dict):
+        raise StepFailure(
+            f"module step failed: {module_file_name} must return a string or a dict with recommendation/body/notes"
+        )
+
+    recommendation = str(response.get("recommendation") or "").strip()
+    issue_body = str(response.get("body") or "").strip()
+    notes_value = response.get("notes")
+
+    if not recommendation:
+        raise StepFailure(f"module step failed: {module_file_name} returned an empty recommendation")
+    if not issue_body:
+        raise StepFailure(f"module step failed: {module_file_name} returned an empty body")
+
+    notes: list[str] = []
+    if isinstance(notes_value, list):
+        notes = [str(note).strip() for note in notes_value if str(note).strip()]
+    elif isinstance(notes_value, str):
+        stripped_note = notes_value.strip()
+        if stripped_note:
+            notes = [stripped_note]
+    elif notes_value is not None:
+        raise StepFailure(f"module step failed: {module_file_name} returned invalid notes")
+
+    if not notes:
+        notes = ["None"]
+
+    return recommendation, issue_body, notes
 
 
 def run_module(router_result: RouterResult) -> ModuleResult:
@@ -174,30 +218,49 @@ def run_module(router_result: RouterResult) -> ModuleResult:
     if run_fn is None or not hasattr(run_fn, "__call__"):
         raise StepFailure(f"module step failed: run is missing from {module_file_name}")
 
-    decision = run_fn.__call__(router_result.ticket_id)
-    normalized_decision = str(decision).strip()
-    if not normalized_decision:
-        raise StepFailure(f"module step failed: {module_file_name} returned an empty answer")
+    module_response = run_fn.__call__(router_result.ticket_id, router_result.ticket_details)
+    recommendation, issue_body, notes = normalize_module_response(module_response, module_file_name)
 
     return ModuleResult(
         ticket_id=router_result.ticket_id,
         module_name=router_result.module_name,
         module_display_name=display_name,
-        decision=normalized_decision,
+        recommendation=recommendation,
+        issue_body=issue_body,
+        notes=notes,
     )
 
 
 def build_issue_description(module_result: ModuleResult) -> str:
-    module_answer = module_result.decision.strip()
-    if not module_answer:
-        raise StepFailure("issue_description step failed: module answer is empty")
+    module_recommendation = module_result.recommendation.strip()
+    if not module_recommendation:
+        raise StepFailure("issue_description step failed: module recommendation is empty")
+
+    issue_body = module_result.issue_body.strip()
+    if not issue_body:
+        raise StepFailure("issue_description step failed: module body is empty")
+
+    formatted_notes = []
+    for note in module_result.notes:
+        normalized_note = note.strip()
+        if not normalized_note:
+            continue
+        if normalized_note.startswith("-"):
+            formatted_notes.append(normalized_note)
+        else:
+            formatted_notes.append(f"- {normalized_note}")
+
+    if not formatted_notes:
+        formatted_notes = ["- None"]
 
     lines = [
-        f"Recommendation: {module_answer}",
+        f"Recommendation: {module_recommendation}",
         f"Ticket ID: {module_result.ticket_id}",
         f"Module: {module_result.module_display_name}",
+        "Issue Body:",
+        issue_body,
         "Notes:",
-        "- None",
+        *formatted_notes,
     ]
     return "\n".join(lines)
 
@@ -221,6 +284,8 @@ def build_failure_issue_description(error_message: str) -> str:
         "Recommendation: error",
         f"Ticket ID: {ticket_id}",
         "Module: unknown",
+        "Issue Body:",
+        "No issue body available.",
         "Notes:",
         f"- {error_message}",
     ]

@@ -1,0 +1,8 @@
+{
+  "ticket_id": "SCD-142125",
+  "recommendation": "SQL insert required",
+  "intro": "This is an orphaned transaction ticket. Here is everything needed to resolve the issue.",
+  "customer_name": "Jr Juin, Voltaire",
+  "staff_name": "Macheti, Hichem",
+  "step_2_text": "Execute the Jira ticket to temporarily regain write API access, then close the request after the orphaned transaction has been restored."
+}
