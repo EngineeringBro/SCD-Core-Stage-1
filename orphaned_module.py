@@ -87,10 +87,12 @@ def build_issue_body(template: dict[str, Any], extracted_values: dict[str, str])
     customer_name = str(template.get("customer_name") or "").strip()
     staff_name = str(template.get("staff_name") or "").strip()
     intro = str(template.get("intro") or "This is an orphaned transaction ticket.").strip()
+    template_ticket_id = str(template.get("ticket_id") or "SCD-_____").strip() or "SCD-_____"
     step_2_text = str(
         template.get("step_2_text")
-        or "Run Execute in order to close SCD-_____ automatically:\n1- posts a comment to the client.\n2- Leaves an AI Internal note.\n3- Assigns ticket to you.\n4- Logs 30mins to your time.\n5- Fill fields and resolve."
+        or "Run the Execute workflow to close {ticket_id} automatically:\n1- Posts a comment to the client.\n2- Leaves an internal AI note.\n3- Assigns ticket to you.\n4- Logs 30mins to your time.\n5- Fill fields and resolve."
     ).strip()
+    step_2_text = step_2_text.replace("{ticket_id}", template_ticket_id)
 
     customer_id = with_optional_label(extracted_values.get("customer_id", "Not found in ticket"), customer_name)
     staff_user_id = with_optional_label(extracted_values.get("staff_user_id", "Not found in ticket"), staff_name)
