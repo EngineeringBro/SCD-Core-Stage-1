@@ -58,20 +58,49 @@ jobs:
 
             const ticketId = process.env.SCAN_TICKET_ID;
             const filePath = 'orchestrator-output.txt';
-            let body = `No orchestrator output was captured for ${ticketId}.`;
+            let rawOutput = '';
 
             if (fs.existsSync(filePath)) {
-              body = fs.readFileSync(filePath, 'utf8').trim();
+              rawOutput = fs.readFileSync(filePath, 'utf8').trim();
             }
 
-            if (!body) {
-              body = `No orchestrator output was captured for ${ticketId}.`;
+            if (!rawOutput) {
+              rawOutput = [
+                'Recommendation: error',
+                `Ticket ID: ${ticketId}`,
+                'Module: unknown',
+                'Notes:',
+                `- No orchestrator output was captured for ${ticketId}.`,
+              ].join('\n');
             }
+
+            const lines = rawOutput.split(/\r?\n/);
+            const readField = (fieldName) => {
+              const prefix = `${fieldName}:`;
+              const line = lines.find((value) => value.startsWith(prefix));
+              return line ? line.slice(prefix.length).trim() : '';
+            };
+
+            const recommendation = readField('Recommendation') || 'unknown';
+            const parsedTicketId = readField('Ticket ID') || ticketId;
+            const moduleName = readField('Module') || 'unknown';
+
+            const notesIndex = lines.findIndex((value) => value.trim() === 'Notes:');
+            const notesLines = notesIndex >= 0 ? lines.slice(notesIndex + 1) : ['- None'];
+            const notes = notesLines.join('\n').trim() || '- None';
+
+            const title = `[${recommendation}] ${parsedTicketId} - ${moduleName}`;
+            const body = [
+              recommendation,
+              '---',
+              'Notes',
+              notes,
+            ].join('\n');
 
             const issue = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `SCD Core Stage 1 - ${ticketId}`,
+              title,
               body,
             });
 

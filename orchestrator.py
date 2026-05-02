@@ -27,6 +27,7 @@ class RouterResult:
 class ModuleResult:
     ticket_id: str
     module_name: str
+    module_display_name: str
     decision: str
 
 
@@ -141,9 +142,9 @@ def run_module(router_result: RouterResult) -> ModuleResult:
 
     module_file_names = {
         "notification": "notification_module.py",
-        "spam": "spam_module.py",
         "general": "general_module.py",
-        "orphaned": "orphaned_module.py",
+        "orphaned_transaction": "orphaned_module.py",
+        "spam": "spam_module.py",
     }
 
     module_file_name = module_file_names.get(router_result.module_name)
@@ -157,6 +158,18 @@ def run_module(router_result: RouterResult) -> ModuleResult:
         )
 
     module = load_local_module(module_file_name, f"scd_stage1_{router_result.module_name}_module")
+    module_id = str(getattr(module, "MODULE_ID", "")).strip()
+    if module_id and module_id != router_result.module_name:
+        raise StepFailure(
+            f"module step failed: {module_file_name} MODULE_ID '{module_id}' does not match '{router_result.module_name}'"
+        )
+
+    display_name = build_module_display_name(
+        router_result.module_name,
+        str(getattr(module, "DISPLAY_NAME", "")).strip(),
+        str(getattr(module, "VERSION", "")).strip(),
+    )
+
     run_fn = getattr(module, "run", None)
     if run_fn is None or not hasattr(run_fn, "__call__"):
         raise StepFailure(f"module step failed: run is missing from {module_file_name}")
@@ -169,6 +182,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
     return ModuleResult(
         ticket_id=router_result.ticket_id,
         module_name=router_result.module_name,
+        module_display_name=display_name,
         decision=normalized_decision,
     )
 
@@ -179,11 +193,36 @@ def build_issue_description(module_result: ModuleResult) -> str:
         raise StepFailure("issue_description step failed: module answer is empty")
 
     lines = [
-        f"Issue Description: {module_answer}",
-        "",
-        f"Module Output: {module_answer}",
+        f"Recommendation: {module_answer}",
         f"Ticket ID: {module_result.ticket_id}",
-        f"Selected Module: {module_result.module_name}",
+        f"Module: {module_result.module_display_name}",
+        "Notes:",
+        "- None",
+    ]
+    return "\n".join(lines)
+
+
+def build_module_display_name(module_name: str, display_name: str, version: str) -> str:
+    if display_name:
+        if version:
+            return f"{display_name} {version}"
+        return display_name
+
+    fallback_name = module_name.strip().replace("_", " ") or "unknown"
+    if version:
+        return f"{fallback_name} {version}"
+    return fallback_name
+
+
+def build_failure_issue_description(error_message: str) -> str:
+    ticket_id = os.getenv("SCAN_TICKET_ID", "unknown").strip() or "unknown"
+
+    lines = [
+        "Recommendation: error",
+        f"Ticket ID: {ticket_id}",
+        "Module: unknown",
+        "Notes:",
+        f"- {error_message}",
     ]
     return "\n".join(lines)
 
@@ -192,7 +231,7 @@ def main() -> int:
     try:
         issue_description = run()
     except StepFailure as exc:
-        print(str(exc))
+        print(build_failure_issue_description(str(exc)))
         return 1
 
     print(issue_description)

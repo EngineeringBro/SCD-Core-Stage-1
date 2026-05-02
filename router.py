@@ -5,9 +5,9 @@ from typing import Any
 
 ALLOWED_MODULE_NAMES = {
     "notification",
-    "spam",
     "general",
-    "orphaned",
+    "orphaned_transaction",
+    "spam",
 }
 
 
@@ -44,7 +44,7 @@ def build_combined_text(ticket_details: dict[str, Any]) -> str:
 
 def select_module_name(combined_text: str) -> str:
     if "orphaned transaction" in combined_text:
-        return "orphaned"
+        return "orphaned_transaction"
 
     if any(keyword in combined_text for keyword in ["spam", "robocall", "junk"]):
         return "spam"

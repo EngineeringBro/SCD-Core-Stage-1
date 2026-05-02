@@ -1,6 +1,11 @@
 from __future__ import annotations
 
 
+MODULE_ID = "orphaned_transaction"
+DISPLAY_NAME = "orphaned transaction module"
+VERSION = "v1.1"
+
+
 ALLOWED_TICKET_IDS = {
     "SCD-142125",
 }
