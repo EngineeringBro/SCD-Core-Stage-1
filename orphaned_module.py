@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import re
 from pathlib import Path
 from typing import Any
 
@@ -12,18 +11,17 @@ VERSION = "v1.1"
 
 
 TEMPLATE_DIRECTORY = Path(__file__).with_name("orphaned_transaction_tickets")
-FIELD_SPECS = [
-    ("rq_ticket", "RQ ticket", r"RQ ticket"),
-    ("customer_id", "customer_id", r"customer_id"),
-    ("loc_id", "loc_id", r"loc_id"),
-    ("terminal_id", "terminal_id", r"terminal_id"),
-    ("pm_id", "pm_id", r"pm_id"),
-    ("amount", "amount", r"amount"),
-    ("card", "card", r"card"),
-    ("timestamp", "timestamp", r"timestamp"),
-    ("staff_user_id", "staff_user_id", r"staff_user_id"),
-    ("transaction_id", "transaction_id", r"transaction_id"),
-    ("sql_query", "SQL Query", r"SQL\s+Quer(?:y|ry)"),
+REQUIRED_DETAIL_KEYS = [
+    "rq_ticket",
+    "customer_id",
+    "loc_id",
+    "terminal_id",
+    "pm_id",
+    "amount",
+    "card",
+    "timestamp",
+    "staff_user_id",
+    "transaction_id",
 ]
 
 
@@ -32,7 +30,7 @@ ALLOWED_TICKET_IDS = {
 }
 
 
-def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[str, Any]:
+def run(ticket_id: str, _ticket_details: dict[str, Any] | None = None) -> dict[str, Any]:
     normalized_ticket_id = ticket_id.strip().upper()
     if not normalized_ticket_id:
         raise ValueError("ticket_id is required")
@@ -41,9 +39,8 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         raise ValueError(f"{normalized_ticket_id} is not supported by {MODULE_ID}")
 
     template = load_ticket_template(normalized_ticket_id)
-    source_text = build_source_text(ticket_details)
-    extracted_values, notes = extract_values(source_text)
-    issue_body = build_issue_body(template, extracted_values)
+    detail_values, notes = get_detail_values(template)
+    issue_body = build_issue_body(template, detail_values)
 
     return {
         "recommendation": str(template.get("recommendation") or "SQL insert required"),
@@ -66,101 +63,24 @@ def load_ticket_template(ticket_id: str) -> dict[str, Any]:
     return template
 
 
-def build_source_text(ticket_details: dict[str, Any] | None) -> str:
-    if not isinstance(ticket_details, dict):
-        return ""
+def get_detail_values(template: dict[str, Any]) -> tuple[dict[str, str], list[str]]:
+    raw_details = template.get("transaction_details")
+    if not isinstance(raw_details, dict):
+        raise ValueError("transaction_details is required in the orphaned transaction ticket file")
 
-    issue = ticket_details.get("issue")
-    issue_fields = issue.get("fields") if isinstance(issue, dict) else None
-    comments = ticket_details.get("comments")
+    details = {str(key): str(value).strip() for key, value in raw_details.items()}
+    missing_keys = [key for key in REQUIRED_DETAIL_KEYS if not details.get(key)]
+    if missing_keys:
+        raise ValueError(
+            "transaction_details is missing required keys: " + ", ".join(missing_keys)
+        )
 
-    parts: list[str] = []
-    if isinstance(issue_fields, dict):
-        summary = str(issue_fields.get("summary") or "").strip()
-        if summary:
-            parts.append(summary)
+    sql_query = str(template.get("sql_query") or "").strip()
+    if not sql_query:
+        raise ValueError("sql_query is required in the orphaned transaction ticket file")
 
-        description = render_adf_text(issue_fields.get("description"))
-        if description:
-            parts.append(description)
-
-    if isinstance(comments, list):
-        for comment in comments:
-            if not isinstance(comment, dict):
-                continue
-            comment_text = render_adf_text(comment.get("body"))
-            if comment_text:
-                parts.append(comment_text)
-
-    return "\n".join(part for part in parts if part).strip()
-
-
-def render_adf_text(node: Any) -> str:
-    if node is None:
-        return ""
-
-    if isinstance(node, list):
-        return "".join(render_adf_text(child) for child in node)
-
-    if not isinstance(node, dict):
-        return str(node)
-
-    node_type = str(node.get("type") or "")
-    if node_type == "text":
-        return str(node.get("text") or "")
-    if node_type == "hardBreak":
-        return "\n"
-
-    content_text = "".join(render_adf_text(child) for child in node.get("content", []))
-    if node_type in {"paragraph", "heading", "blockquote"}:
-        return f"{content_text}\n"
-    if node_type == "listItem":
-        stripped_content = content_text.strip()
-        return f"- {stripped_content}\n" if stripped_content else ""
-    if node_type in {"bulletList", "orderedList", "doc"}:
-        return content_text
-
-    return content_text
-
-
-def extract_values(source_text: str) -> tuple[dict[str, str], list[str]]:
-    values: dict[str, str] = {}
-    notes: list[str] = []
-
-    for index, (field_key, display_name, label_pattern) in enumerate(FIELD_SPECS):
-        next_patterns = [pattern for _, _, pattern in FIELD_SPECS[index + 1 :]]
-        value = extract_field_value(source_text, label_pattern, next_patterns)
-        if value:
-            values[field_key] = value
-        else:
-            notes.append(f"{display_name} was not found in the Jira ticket content.")
-
-    return values, notes
-
-
-def extract_field_value(source_text: str, label_pattern: str, next_patterns: list[str]) -> str:
-    if not source_text:
-        return ""
-
-    lookahead_parts = [rf"(?:{pattern})\s*:" for pattern in next_patterns]
-    lookahead_parts.append(r"$")
-    lookahead = "|".join(lookahead_parts)
-    pattern = re.compile(
-        rf"(?:^|\n|\b){label_pattern}\s*:\s*(.*?)(?={lookahead})",
-        re.IGNORECASE | re.DOTALL,
-    )
-    match = pattern.search(source_text)
-    if not match:
-        return ""
-
-    return clean_value(match.group(1))
-
-
-def clean_value(value: str) -> str:
-    cleaned = value.replace("\r", "\n")
-    cleaned = re.sub(r"\n{2,}", "\n", cleaned)
-    cleaned = cleaned.strip()
-    return cleaned
+    details["sql_query"] = sql_query
+    return details, ["None"]
 
 
 def build_issue_body(template: dict[str, Any], extracted_values: dict[str, str]) -> str:

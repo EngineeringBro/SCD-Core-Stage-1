@@ -4,5 +4,18 @@
   "intro": "This is an orphaned transaction ticket. Here is everything needed to resolve the issue.",
   "customer_name": "Jr Juin, Voltaire",
   "staff_name": "Macheti, Hichem",
-  "step_2_text": "Execute the Jira ticket to temporarily regain write API access, then close the request after the orphaned transaction has been restored."
+  "step_2_text": "Execute the Jira ticket to temporarily regain write API access, then close the request after the orphaned transaction has been restored.",
+  "transaction_details": {
+    "rq_ticket": "2856669",
+    "customer_id": "1969351",
+    "loc_id": "236",
+    "terminal_id": "277",
+    "pm_id": "358",
+    "amount": "389.77",
+    "card": "Mastercard #0880",
+    "timestamp": "2026-05-01 15:51:25",
+    "staff_user_id": "2771",
+    "transaction_id": "523399843"
+  },
+  "sql_query": "insert into `transaction` values (null, '2841453', 'Customer', '2005841', '75', '99', 3, '213', '50.85', 'Visa #3473', '2026-04-18 16:22:49', '2742', 'in', null, '50.85', '2058296618', null, null, null, null, '0', 0, 0);"
 }
