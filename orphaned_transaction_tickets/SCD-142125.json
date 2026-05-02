@@ -4,7 +4,7 @@
   "intro": "This is an orphaned transaction ticket. Here is everything needed to resolve the issue.",
   "customer_name": "Jr Juin, Voltaire",
   "staff_name": "Macheti, Hichem",
-  "step_2_text": "Execute the Jira ticket to temporarily regain write API access, then close the request after the orphaned transaction has been restored.",
+  "step_2_text": "Run Execute in order to close SCD-_____ automatically:\n1- posts a comment to the client.\n2- Leaves an AI Internal note.\n3- Assigns ticket to you.\n4- Logs 30mins to your time.\n5- Fill fields and resolve.",
   "transaction_details": {
     "rq_ticket": "2856669",
     "customer_id": "1969351",

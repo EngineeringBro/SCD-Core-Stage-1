@@ -89,7 +89,7 @@ def build_issue_body(template: dict[str, Any], extracted_values: dict[str, str])
     intro = str(template.get("intro") or "This is an orphaned transaction ticket.").strip()
     step_2_text = str(
         template.get("step_2_text")
-        or "Execute the Jira ticket to temporarily regain write API access, then close it once the transaction has been restored."
+        or "Run Execute in order to close SCD-_____ automatically:\n1- posts a comment to the client.\n2- Leaves an AI Internal note.\n3- Assigns ticket to you.\n4- Logs 30mins to your time.\n5- Fill fields and resolve."
     ).strip()
 
     customer_id = with_optional_label(extracted_values.get("customer_id", "Not found in ticket"), customer_name)
