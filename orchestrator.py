@@ -60,25 +60,7 @@ def run_step(name: str, action: Callable[[], Any]) -> Any:
     return result
 
 
-def create_jira_read_client() -> Any:
-    module_path = Path(__file__).with_name("jira_read.py")
-    spec = spec_from_file_location("scd_stage1_jira_read", module_path)
-    if spec is None or spec.loader is None:
-        raise StepFailure("fetcher step failed: could not load jira_read.py")
-
-    module = module_from_spec(spec)
-    sys.modules[spec.name] = module
-    spec.loader.exec_module(module)
-    client_class = getattr(module, "JiraReadClient", None)
-    if client_class is None:
-        raise StepFailure("fetcher step failed: JiraReadClient is missing from jira_read.py")
-    if not isinstance(client_class, type):
-        raise StepFailure("fetcher step failed: JiraReadClient in jira_read.py is not a class")
-
-    return type.__call__(client_class)
-
-
-def load_local_module(module_file_name: str, module_label: str) -> Any:
+def load_module(module_file_name: str, module_label: str) -> Any:
     module_path = Path(__file__).with_name(module_file_name)
     spec = spec_from_file_location(module_label, module_path)
     if spec is None or spec.loader is None:
@@ -95,7 +77,12 @@ def fetch_ticket_details() -> FetchResult:
     if not scan_ticket_id:
         raise StepFailure("fetcher step failed: SCAN_TICKET_ID is required in Stage 1")
 
-    client = create_jira_read_client()
+    try:
+        from jira_read import JiraReadClient
+    except ImportError as exc:
+        raise StepFailure(f"fetcher step failed: could not import JiraReadClient from jira_read.py: {exc}") from exc
+
+    client = JiraReadClient()
     issue = client.get_issue(scan_ticket_id)
     comments = client.get_comments(scan_ticket_id)
 
@@ -120,7 +107,7 @@ def route_ticket(fetch_result: FetchResult) -> RouterResult:
     if not fetch_result.ticket_details:
         raise StepFailure("router step failed: missing ticket details from fetcher")
 
-    router_module = load_local_module("router.py", "scd_stage1_router")
+    router_module = load_module("router.py", "scd_stage1_router")
     route_ticket_fn = getattr(router_module, "route_ticket", None)
     if route_ticket_fn is None or not hasattr(route_ticket_fn, "__call__"):
         raise StepFailure("router step failed: route_ticket is missing from router.py")
@@ -204,7 +191,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
             f"module step failed: {module_file_name} does not exist yet for module '{router_result.module_name}'"
         )
 
-    module = load_local_module(module_file_name, f"scd_stage1_{router_result.module_name}_module")
+    module = load_module(module_file_name, f"scd_stage1_{router_result.module_name}_module")
     module_id = str(getattr(module, "MODULE_ID", "")).strip()
     if module_id and module_id != router_result.module_name:
         raise StepFailure(
