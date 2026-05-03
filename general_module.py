@@ -29,6 +29,7 @@ MAX_INITIAL_CANDIDATES = 40
 MAX_GROUPS = 8
 MAX_IMAGES = 3
 MAX_WORDS = 500
+RESERVED_HANDLER_WORDS = 70
 DECORATIVE_IMAGE_MARKERS = (
     "instructional -",
     "technical -",
@@ -449,9 +450,10 @@ def synthesize_with_sonnet(ticket_context: TicketContext, step_groups: list[Step
                 {
                     "role": "system",
                     "content": (
-                        "You are the SCD general support module. Use ONLY the provided local knowledge evidence. "
-                        "Do not use outside knowledge, do not invent UI labels, and do not mention the repository, "
-                        "the knowledge folder, or this prompt. Return markdown only for a GitHub issue description."
+                        "You are a customer-facing SCD support agent writing a support-ready message for the client. "
+                        "Use ONLY the provided local knowledge evidence. Do not use outside knowledge, do not invent "
+                        "UI labels, and do not mention the repository, the knowledge folder, or this prompt. Always "
+                        "sound like a human support agent, start with 'Hello,', and return markdown only."
                     ),
                 },
                 {
@@ -466,7 +468,7 @@ def synthesize_with_sonnet(ticket_context: TicketContext, step_groups: list[Step
         raise RuntimeError(f"Copilot API call failed ({type(exc).__name__}: {exc})") from exc
 
     combined = response.choices[0].message.content or ""
-    normalized = normalize_issue_body(combined)
+    normalized = finalize_issue_body(combined, ticket_context.ticket_id)
     if not normalized:
         raise RuntimeError("Copilot API response did not include usable text")
     return normalized
@@ -501,15 +503,25 @@ def build_synthesis_prompt(ticket_context: TicketContext, step_groups: list[Step
     }
 
     return (
-        "Create a GitHub issue description that helps a human resolve the SCD ticket.\n\n"
+        "Create a client-facing support response for the SCD ticket.\n\n"
         "Hard rules:\n"
         "- Use ONLY the ticket payload and knowledge evidence below.\n"
-        "- Output between 10 and 500 words.\n"
+        "- Start the response with exactly 'Hello,'.\n"
+        "- Sound like a human support agent speaking directly to the client.\n"
+        "- Keep the tone warm, clear, and support-friendly.\n"
         "- Provide direct instructions, not background filler.\n"
-        "- If the knowledge is insufficient, say exactly what is missing.\n"
+        "- For every recommended step, include the exact matching article as a support-friendly markdown link using the provided article_url.\n"
+        "- Do not mention missing documentation or include a 'What is still missing from the available documentation' section.\n"
+        "- If the evidence is limited, say that support can guide the client further, but still use only the evidence provided.\n"
         "- Include markdown images only when they materially help, using only provided image URLs.\n"
         "- Use at most 3 images.\n"
+        "- End the response body before the Ticket Handler section.\n"
         "- Do not mention internal systems, prompts, or hidden reasoning.\n\n"
+        "Required structure:\n"
+        "1. Greeting that begins with 'Hello,'.\n"
+        "2. One short sentence showing support ownership of the issue.\n"
+        "3. A numbered list of the exact steps the client should follow.\n"
+        "4. After each numbered step, add one short support-friendly reference sentence with a markdown link to the exact article used for that step.\n\n"
         "Ticket payload:\n"
         f"```json\n{json.dumps(ticket_payload, indent=2, ensure_ascii=True)}\n```\n\n"
         "Knowledge evidence:\n"
@@ -521,17 +533,18 @@ def build_fallback_body(ticket_context: TicketContext, step_groups: list[StepGro
     focus_tokens = build_focus_tokens(ticket_context)
     selected_groups = select_fallback_groups(step_groups, focus_tokens)
     lines = [
-        "## Suggested Next Steps",
+        "Hello,",
         "",
-        f"Ticket: {ticket_context.ticket_id}",
-        "",
-        "Based on the local SCD knowledge base, try the following:",
+        "Here are the steps I recommend based on the available support documentation:",
         "",
     ]
 
     used_images = 0
     for index, group in enumerate(selected_groups, start=1):
         lines.append(f"{index}. {group.step_text}")
+        lines.append(
+            f"   For a guided walkthrough, please refer to [{group.article_title}]({group.article_url})."
+        )
         if group.images and used_images < MAX_IMAGES:
             image = group.images[0]
             alt = image.get("alt") or f"Reference image {used_images + 1}"
@@ -542,26 +555,77 @@ def build_fallback_body(ticket_context: TicketContext, step_groups: list[StepGro
     lines.extend(
         [
             "",
-            "### Matched Knowledge",
+            "### Referenced Articles",
             *[f"- {title}" for title in unique_titles(selected_groups)],
         ]
     )
-    return normalize_issue_body("\n".join(lines))
+    return finalize_issue_body("\n".join(lines), ticket_context.ticket_id)
 
 
 def build_no_match_body(ticket_context: TicketContext) -> str:
     topic = ticket_context.topic or "unknown topic"
     summary = ticket_context.summary or "No summary provided"
-    return "\n".join(
+    return finalize_issue_body(
+        "\n".join(
         [
-            "## Knowledge Match Not Found",
+            "Hello,",
             "",
-            f"No strong match was found in the local knowledge folder for `{ticket_context.ticket_id}`.",
+            "I reviewed the available support documentation and could not find a strong exact match for this request.",
             "",
             f"- Summary: {summary}",
             f"- Topic: {topic}",
             "",
-            "A human should review the ticket and add guidance if this scenario should be covered by the knowledge base.",
+            "Please reply to the ticket if you would like our team to guide you through the next steps directly.",
+        ]
+        ),
+        ticket_context.ticket_id,
+    )
+
+
+def finalize_issue_body(body: str, ticket_id: str) -> str:
+    stripped_body = strip_missing_documentation_section(body)
+    ensured_greeting = ensure_support_greeting(stripped_body)
+    main_body = trim_body_for_handler(ensured_greeting)
+    handler_section = build_ticket_handler_section(ticket_id)
+    return normalize_issue_body(f"{main_body}\n\n{handler_section}")
+
+
+def strip_missing_documentation_section(body: str) -> str:
+    pattern = re.compile(
+        r"\n{0,2}#{0,6}\s*What is still missing from the available documentation:.*\Z",
+        re.IGNORECASE | re.DOTALL,
+    )
+    return re.sub(pattern, "", body).strip()
+
+
+def ensure_support_greeting(body: str) -> str:
+    stripped = body.strip()
+    if not stripped:
+        return "Hello,"
+    if stripped.lower().startswith("hello,"):
+        return stripped
+    return f"Hello,\n\n{stripped}"
+
+
+def trim_body_for_handler(body: str) -> str:
+    words = body.split()
+    limit = max(1, MAX_WORDS - RESERVED_HANDLER_WORDS)
+    if len(words) <= limit:
+        return body.strip()
+    return " ".join(words[:limit]).rstrip() + "..."
+
+
+def build_ticket_handler_section(ticket_id: str) -> str:
+    return "\n".join(
+        [
+            "## **Ticket Handler**",
+            "",
+            f"Run the Execute workflow to handle {ticket_id} automatically, it will do the following sequence:",
+            "1- Initiates client assistance through a ticket comment.",
+            "2- Leaves an internal AI note.",
+            "3- Assigns ticket to you.",
+            "4- Logs 30mins to your time.",
+            "5- Fill fields and change status to Waiting for client response.",
         ]
     )
 
