@@ -44,6 +44,7 @@ def main() -> int:
     post_public_comment(base, scd_id, headers, public_comment_markdown)
     post_internal_comment(base, scd_id, headers, ticket_details)
     assign_to_current_user(base, scd_id, creds)
+    log_work(base, scd_id, headers)
     transition_to_waiting_for_client(base, scd_id, headers)
     return 0
 
@@ -201,16 +202,6 @@ def transition_to_waiting_for_client(base: str, scd_id: str, headers: dict[str, 
 
     payload = {
         "transition": {"id": transition_id},
-        "update": {
-            "worklog": [
-                {
-                    "add": {
-                        "timeSpent": WORKLOG_TIME_SPENT,
-                        "started": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000+0000"),
-                    }
-                }
-            ]
-        },
     }
     response = api_request(
         base,
@@ -222,6 +213,23 @@ def transition_to_waiting_for_client(base: str, scd_id: str, headers: dict[str, 
         label="9d transition",
     )
     print(f"9d transition: {response}")
+
+
+def log_work(base: str, scd_id: str, headers: dict[str, str]) -> None:
+    payload = {
+        "timeSpent": WORKLOG_TIME_SPENT,
+        "started": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000+0000"),
+    }
+    response = api_request(
+        base,
+        f"/rest/api/3/issue/{scd_id}/worklog",
+        headers,
+        method="POST",
+        payload=payload,
+        expected_status=201,
+        label="9d worklog",
+    )
+    print(f"9d worklog: {response}")
 
 
 def find_transition_id(transitions: object) -> str:
