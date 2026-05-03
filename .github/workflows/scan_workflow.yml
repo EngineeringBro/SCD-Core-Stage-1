@@ -20,6 +20,7 @@ jobs:
       JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
       JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
       JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+      COPILOT_TOKEN: ${{ secrets.GH_COPILOT_OAUTH }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
     steps:
@@ -30,6 +31,11 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+
+      - name: Install Python dependencies
+        shell: bash
+        run: |
+          python -m pip install --disable-pip-version-check openai
 
       - name: Run orchestrator
         id: orchestrator

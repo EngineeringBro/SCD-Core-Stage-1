@@ -3,13 +3,16 @@ from __future__ import annotations
 import json
 import os
 import re
-import urllib.error
-import urllib.request
 from dataclasses import dataclass
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
+
+try:
+    from openai import OpenAI
+except ImportError:
+    OpenAI = None  # type: ignore
 
 
 MODULE_ID = "general"
@@ -19,9 +22,8 @@ VERSION = "v1.0"
 KNOWLEDGE_ROOT = Path(__file__).with_name("knowledge")
 KNOWLEDGEBASE_ROOT = KNOWLEDGE_ROOT / "knowledgebase"
 PAGES_ROOT = KNOWLEDGEBASE_ROOT / "spaces" / "SCD" / "pages"
-GITHUB_MODELS_CHAT_URL = "https://models.github.ai/inference/chat/completions"
-GITHUB_MODELS_CATALOG_URL = "https://models.github.ai/catalog/models"
-GITHUB_API_VERSION = "2026-03-10"
+COPILOT_BASE_URL = "https://api.business.githubcopilot.com"
+DEFAULT_COPILOT_MODEL = "claude-sonnet-4.6"
 MAX_ARTICLES = 5
 MAX_INITIAL_CANDIDATES = 40
 MAX_GROUPS = 8
@@ -212,10 +214,7 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         notes.append(f"Sonnet fallback used: {exc}")
         recommendation = "knowledge_guidance_fallback"
     else:
-        try:
-            notes.append(f"Synthesis model: {resolve_sonnet_model_id(os.environ.get('GH_TOKEN', '').strip())}")
-        except RuntimeError as exc:
-            notes.append(f"Synthesis model note unavailable: {exc}")
+        notes.append(f"Synthesis model: {resolve_copilot_model()}")
 
     return {
         "recommendation": recommendation,
@@ -433,128 +432,48 @@ def choose_anchor_text(text_blocks: list[dict[str, str]]) -> str:
 
 
 def synthesize_with_sonnet(ticket_context: TicketContext, step_groups: list[StepGroup]) -> str:
-    api_key = os.environ.get("GH_TOKEN", "").strip()
+    api_key = os.environ.get("COPILOT_TOKEN", "").strip()
     if not api_key:
-        raise RuntimeError("GH_TOKEN is not configured")
+        raise RuntimeError("COPILOT_TOKEN is not configured")
+    if OpenAI is None:
+        raise RuntimeError("openai package is not installed")
 
-    model = resolve_sonnet_model_id(api_key)
+    client = OpenAI(api_key=api_key, base_url=COPILOT_BASE_URL)
+    model = resolve_copilot_model()
     prompt = build_synthesis_prompt(ticket_context, step_groups)
-    payload = {
-        "model": model,
-        "max_tokens": 900,
-        "temperature": 0.1,
-        "messages": [
-            {
-                "role": "system",
-                "content": (
-                    "You are the SCD general support module. Use ONLY the provided local knowledge evidence. "
-                    "Do not use outside knowledge, do not invent UI labels, and do not mention the repository, "
-                    "the knowledge folder, or this prompt. Return markdown only for a GitHub issue description."
-                ),
-            },
-            {
-                "role": "user",
-                "content": prompt,
-            }
-        ],
-    }
-
-    request = urllib.request.Request(
-        GITHUB_MODELS_CHAT_URL,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Accept": "application/vnd.github+json",
-            "Authorization": f"Bearer {api_key}",
-            "X-GitHub-Api-Version": GITHUB_API_VERSION,
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
 
     try:
-        with urllib.request.urlopen(request, timeout=45) as response:
-            body = json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as exc:
-        error_body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"GitHub Models HTTP {exc.code}: {error_body[:400]}") from exc
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You are the SCD general support module. Use ONLY the provided local knowledge evidence. "
+                        "Do not use outside knowledge, do not invent UI labels, and do not mention the repository, "
+                        "the knowledge folder, or this prompt. Return markdown only for a GitHub issue description."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": prompt,
+                },
+            ],
+            max_tokens=900,
+            temperature=0.1,
+        )
+    except Exception as exc:  # noqa: BLE001
+        raise RuntimeError(f"Copilot API call failed ({type(exc).__name__}: {exc})") from exc
 
-    combined = extract_chat_completion_text(body)
+    combined = response.choices[0].message.content or ""
     normalized = normalize_issue_body(combined)
     if not normalized:
-        raise RuntimeError("GitHub Models response did not include usable text")
+        raise RuntimeError("Copilot API response did not include usable text")
     return normalized
 
 
-def resolve_sonnet_model_id(api_key: str) -> str:
-    if not api_key:
-        raise RuntimeError("GH_TOKEN is not configured")
-
-    request = urllib.request.Request(
-        GITHUB_MODELS_CATALOG_URL,
-        headers={
-            "Accept": "application/vnd.github+json",
-            "Authorization": f"Bearer {api_key}",
-            "X-GitHub-Api-Version": GITHUB_API_VERSION,
-        },
-        method="GET",
-    )
-
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            catalog = json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as exc:
-        error_body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"GitHub Models catalog HTTP {exc.code}: {error_body[:400]}") from exc
-
-    if not isinstance(catalog, list):
-        raise RuntimeError("GitHub Models catalog did not return a model list")
-
-    for entry in catalog:
-        if not isinstance(entry, dict):
-            continue
-        model_id = str(entry.get("id") or "").strip()
-        search_text = " ".join(
-            [
-                model_id,
-                str(entry.get("name") or ""),
-                str(entry.get("publisher") or ""),
-            ]
-        ).lower()
-        if model_id and any(term in search_text for term in MODEL_MATCH_TERMS):
-            return model_id
-
-    raise RuntimeError("No Claude or Sonnet model is available in the GitHub Models catalog")
-
-
-def extract_chat_completion_text(body: dict[str, Any]) -> str:
-    if not isinstance(body, dict):
-        return ""
-
-    choices = body.get("choices")
-    if not isinstance(choices, list):
-        return ""
-
-    text_parts: list[str] = []
-    for choice in choices:
-        if not isinstance(choice, dict):
-            continue
-        message = choice.get("message")
-        if not isinstance(message, dict):
-            continue
-        content = message.get("content")
-        if isinstance(content, str) and content.strip():
-            text_parts.append(content.strip())
-            continue
-        if isinstance(content, list):
-            for item in content:
-                if not isinstance(item, dict):
-                    continue
-                if item.get("type") == "text":
-                    text = str(item.get("text") or "").strip()
-                    if text:
-                        text_parts.append(text)
-
-    return "\n".join(text_parts)
+def resolve_copilot_model() -> str:
+    return os.environ.get("COPILOT_MODEL", DEFAULT_COPILOT_MODEL).strip() or DEFAULT_COPILOT_MODEL
 
 
 def build_synthesis_prompt(ticket_context: TicketContext, step_groups: list[StepGroup]) -> str:
