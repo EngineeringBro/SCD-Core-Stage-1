@@ -206,12 +206,16 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
 
     try:
         body = synthesize_with_sonnet(ticket_context, step_groups)
-        notes.append(f"Synthesis model: {resolve_sonnet_model_id(os.environ.get('GH_TOKEN', '').strip())}")
         recommendation = "knowledge_guidance"
     except RuntimeError as exc:
         body = build_fallback_body(ticket_context, step_groups)
         notes.append(f"Sonnet fallback used: {exc}")
         recommendation = "knowledge_guidance_fallback"
+    else:
+        try:
+            notes.append(f"Synthesis model: {resolve_sonnet_model_id(os.environ.get('GH_TOKEN', '').strip())}")
+        except RuntimeError as exc:
+            notes.append(f"Synthesis model note unavailable: {exc}")
 
     return {
         "recommendation": recommendation,
