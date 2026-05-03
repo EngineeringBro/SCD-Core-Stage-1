@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import sys
 from dataclasses import dataclass
 from importlib.util import module_from_spec, spec_from_file_location
 from pathlib import Path
@@ -66,6 +67,7 @@ def create_jira_read_client() -> Any:
         raise StepFailure("fetcher step failed: could not load jira_read.py")
 
     module = module_from_spec(spec)
+    sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     client_class = getattr(module, "JiraReadClient", None)
     if client_class is None:
@@ -83,6 +85,7 @@ def load_local_module(module_file_name: str, module_label: str) -> Any:
         raise StepFailure(f"could not load {module_file_name}")
 
     module = module_from_spec(spec)
+    sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     return module
 
