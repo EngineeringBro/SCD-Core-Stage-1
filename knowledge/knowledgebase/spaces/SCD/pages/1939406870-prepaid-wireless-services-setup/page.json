@@ -1,0 +1,129 @@
+{
+  "id": "1939406870",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1939406870",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzOTQwNjg3MA==",
+  "status": "current",
+  "title": "Prepaid Wireless Services Setup",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:34.324Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1939406870.17",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1939406870"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1939406870/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"PrepaidWirelessServicesSetup-Sellingprepaidservicesprovidesanadditionalrevenuestreamforcellphonerepaircompanies.RepairQwillhelpyoutrackeverythingyouneedtoregardingprepaidservices.\">Selling prepaid services provides an additional revenue stream for cell phone repair companies. RepairQ will help you track everything you need to regarding prepaid services.</h2><h3 id=\"PrepaidWirelessServicesSetup-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329061/Create+a+Catalog+Item\" data-linked-resource-id=\"1932329061\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Creating a Catalog Item</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329027/Creating+a+New+Item+Type\" data-linked-resource-id=\"1932329027\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Creating a New Item Type</a></p></li></ul><h2 id=\"PrepaidWirelessServicesSetup-SettingitUp\">Setting it Up</h2><p /><ol start=\"1\"><li><p>Add \u201cprepaid service\u201d as an item type</p></li><li><p>Add a catalog item for each activation and for each service refill you offer. For example</p><ol start=\"1\"><li><p>Virgin Mobile Activation</p><ol start=\"1\"><li><p>Name: Activation - Virgin Mobile</p></li><li><p>SKU: FLASH-VIRGIN</p></li><li><p>Inventoried: NO</p></li><li><p>Serialized: NO</p></li><li><p>Price: [whatever you charge]</p></li><li><p>Cost: [Price-Cost = Your Profit/Royalty, so set the cost accordingly]</p></li></ol></li><li><p>Virgin Mobile $35</p><ol start=\"1\"><li><p>Name: Virgin Mobile Top-Up - $35</p></li><li><p>SKU: TOPUP-VIRGIN-35</p></li><li><p>Inventoried: NO</p></li><li><p>Serialized: NO</p></li><li><p>Price: $35</p></li><li><p>Cost: [put whatever amount goes straight to the service provider. Price-Cost=YourRoyalties]</p></li></ol></li></ol></li></ol><h2 id=\"PrepaidWirelessServicesSetup-ChargingforActivationsandRefills\">Charging for Activations and Refills</h2><p /><ol start=\"1\"><li><p>Add activations and service refills as ticket items on a ticket (using the catalog items you setup earlier)</p></li><li><p>When you would like to remind your customers to &quot;come in to pay your bill&quot; or &quot;refill your service,&quot; generate a &quot;Marketing List&quot; report (navigate to reports &gt; marketing &gt; marketing list).</p><ol start=\"1\"><li><p>Set the date range for your desired time-period</p></li><li><p>Select the location(s)</p></li><li><p>Select the catalog item you used for their prepaid service. e.g. Virgin Mobile Top-Up- $35</p></li><li><p>Click &quot;apply filter&quot;</p></li><li><p>Print out your list and call/email/text your customers accordingly</p></li></ol></li></ol><h2 id=\"PrepaidWirelessServicesSetup-Whenyouwanttoverifyactivationnumberswiththeserviceprovider\">When you want to verify activation numbers with the service provider</h2><p /><ol start=\"1\"><li><p>Generate a &quot;Marketing List&quot; report</p></li><li><p>Set the date range for the desired time period</p></li><li><p>Select the catalog item you used for the activations. e.g. Activation - Virgin Mobile</p></li></ol>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1939406870"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1939406870/child",
+    "restrictions": "/rest/api/content/1939406870/restriction/byOperation",
+    "history": "/rest/api/content/1939406870/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1939406870/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1939406870",
+    "webui": "/spaces/SCD/pages/1939406870/Prepaid+Wireless+Services+Setup",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1939406870",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1939406870",
+    "tinyui": "/x/FgCZcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1933475953",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933475953",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzQ3NTk1Mw==",
+  "status": "current",
+  "title": "Performing a Return Repair (Rework) Ticket With a Deductible",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:09.329Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "22",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933475953.37",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933475953"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933475953/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Return Repair Ticket process allows you to perform warranty or rework repairs for your customer. You will be able to create a new ticket for the customer to replace any services or parts used in the original repair, and waive charges for any items covered under your service warranty/guarantee.</p><p /><p>This article addresses how to perform a Return Repair (rework) ticket with a deductible.</p><p /><h2 id=\"PerformingaReturnRepair(Rework)TicketWithaDeductible-SettingupaDeductibleChargeinyourCatalog\">Setting up a Deductible Charge in your Catalog</h2><p /><p>1. Setup the catalog item</p><p>1a. OPTIONAL:\u00a0You may choose to create a new Item Type\u00a0to\u00a0associate with the Catalog Item, if you don't already have an Item Type that would suit this purpose.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475953/Return%20Repair%20Deductible%201.png?api=v2\"></span><p /><p>1b. Create the catalog item for the deductible. Set the price to the amount you wish to charge for the deductible</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475953/Return%20Repair%20Deductible%202.png?api=v2\"></span><p /><p>There are a number of Return Repair (rework) scenarios that could occur, and we have a detailed walkthrough for the\u00a0most\u00a0common ways that return repairs (reworks) are started.</p><p>2. Choose one of the following scenarios:</p><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933606988/Performing+a+Return+Repair+Rework+for+the+Same+Repair+Service\" data-linked-resource-id=\"1933606988\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Return repair for\u00a0the same repair service</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770925/Performing+a+Return+Repair+rework+for+a+Different+Repair+Service\" data-linked-resource-id=\"1933770925\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Return repair for a different\u00a0repair\u00a0service</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933639775/Performing+a+Return+Repair+Rework+to+Replace+a+Defective+Part\" data-linked-resource-id=\"1933639775\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Replacing a defective part</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933508711/Performing+a+Return+Repair+Rework+Ticket+Without+the+Original+Ticket\" data-linked-resource-id=\"1933508711\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Return repair without the original ticket</a></p></li></ul><p /><p>3. Add an item\u00a0to a Return Repair ticket free of charge in one of two ways: Adding a replacement item, or adding a new item, and waiving the charge.</p><p><strong>Adding a Replacement Item</strong></p><p>Select the\u00a0item(s) from the &quot;Replacement Items&quot; list on a new\u00a0Return Repair ticket by clicking on the &quot;Replace Item&quot; button for the item(s).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475953/Return%20Repair%20Deductible%203.png?api=v2\"></span><p /><p><strong>Adding a new item, and waiving the charge</strong></p><p>Add a new item to the ticket using the ticket one of the scan / search / lookup methods.\u00a0After the item is added to the ticket, a Shift Lead or Manager can click the &quot;Waive Charge&quot; button to set the price to zero.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475953/Return%20Repair%20Deductible%204.png?api=v2\"></span><p /><p>4. Add a your deductible charge\u00a0to the ticket using the ticket one of the scan / search / lookup methods.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475953/Return%20Repair%20Deductible%205.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475953/Return%20Repair%20Deductible%206.png?api=v2\"></span><p /><p>5. OPTIONAL: Process any payments for the customer now, and save the ticket into the appropriate status.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933475953"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933475953/child",
+    "restrictions": "/rest/api/content/1933475953/restriction/byOperation",
+    "history": "/rest/api/content/1933475953/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933475953/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933475953",
+    "webui": "/spaces/SCD/pages/1933475953/Performing+a+Return+Repair+Rework+Ticket+With+a+Deductible",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933475953",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933475953",
+    "tinyui": "/x/cYA_cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1933246465",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933246465",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI0NjQ2NQ==",
+  "status": "current",
+  "title": "Automated Notification Resources",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:29.917Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 13,
+    "minorEdit": false,
+    "ncsStepVersion": "329",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933246465.58",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933246465"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246465/version/13"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Automated Notifications allow staff to inform coworkers or customers of changes in RepairQ that impact them. This automation reduces the time required to send communications, enabling efficient interactions between teams and enhancing the overall customer experience. Admins and Managers can tailor automated notifications to meet the specific needs of the business.</p><p>Automated Notifications streamline the communication process commonly associated with:</p><ul><li><p><strong>Ticket Status Updates</strong> - Automatically notify customers when their device is ready for pickup or when there are changes to their ticket status.</p></li><li><p><strong>Surveys and Feedback</strong> - Send follow-up links to experience surveys after a service is completed, gathering valuable customer feedback.</p></li><li><p><strong>Order Management</strong> - Inform Managers when new Purchase Orders are created, ensuring timely processing and oversight.</p></li><li><p><strong>Inventory Alerts</strong> - Alert Managers when inventory items are categorized as Damaged, Shrinkage, Pending RMA, or other relevant statuses.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246465/Control%20-%20f79824.png?api=v2\"></span><h3 id=\"AutomatedNotificationResources-CreateandSendNotifications\">Create and Send Notifications</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933246478\" rel=\"nofollow\">Getting Started with Automated Notifications</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933803736\" rel=\"nofollow\">Send an SMS Ticket Status Notification</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2767290399\" rel=\"nofollow\">Create an Automated SMS Notification</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2816507905\" rel=\"nofollow\">Create an Automated Email Notification</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933672639\" rel=\"nofollow\">Email a Receipt to a Customer</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936425067\" rel=\"nofollow\">Qsite\u2122 Ticket Status</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932525726\" rel=\"nofollow\">Automated Notifications: Inventory Status Changes</a></p><h3 id=\"AutomatedNotificationResources-MarketingConsentandIntegrations\">Marketing Consent and Integrations</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933803749\" rel=\"nofollow\">Customer Communication Preferences and Marketing List</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933803609\" rel=\"nofollow\">Integrations: Twilio</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932361859\" rel=\"nofollow\">Integrations: Revv/Rallio</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932460196\" rel=\"nofollow\">Send Notification Emails From Your Domain</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1937801227\" rel=\"nofollow\">Third-Party Marketing Consent</a></p><h3 id=\"AutomatedNotificationResources-NotificationQueueandCustomerManagement\">Notification Queue and Customer Management</h3><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279256/Getting+Started+The+RepairQ+Notification+Queue\" data-linked-resource-id=\"1933279256\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Notification Queue</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933869089\" rel=\"nofollow\">Required Fields for Customer Profiles</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933344786\" rel=\"nofollow\">Creating a Customer Profile</a></p><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933246465"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933246465/child",
+    "restrictions": "/rest/api/content/1933246465/restriction/byOperation",
+    "history": "/rest/api/content/1933246465/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933246465/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933246465",
+    "webui": "/spaces/SCD/pages/1933246465/Automated+Notification+Resources",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933246465",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246465",
+    "tinyui": "/x/AQA7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

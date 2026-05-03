@@ -1,0 +1,129 @@
+{
+  "id": "1934524447",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934524447",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDUyNDQ0Nw==",
+  "status": "current",
+  "title": "Maintaining an Accurate Profitability Report",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:48.890Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "48",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934524447.17",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934524447"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934524447/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h3 id=\"MaintaininganAccurateProfitabilityReport-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360593/Reports+Real-time+Profitability\" data-linked-resource-id=\"1934360593\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Real-time Profitability</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196764/Reports+Taxes\" data-linked-resource-id=\"1934196764\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Reports: Taxes</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937866763/Reporting+Resources+with+Video\" data-linked-resource-id=\"1937866763\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Reporting Resources</a></p></li></ul><p /><p>Your profitability report is calculated as follows:</p><p>(Sales Revenue + Other Income) - (Cost of Goods + Indirect Labor Costs + Overhead) = Profit Margin</p><h2 id=\"MaintaininganAccurateProfitabilityReport-Income\">Income</h2><h3 id=\"MaintaininganAccurateProfitabilityReport-SalesRevenue\">Sales Revenue</h3><p>Sales revenue is broken into separate line items for each item type and referral source. For this reason you should have an item type for each revenue stream that you want to analyze separately.</p><h3 id=\"MaintaininganAccurateProfitabilityReport-OtherIncome\">Other Income</h3><p>Currently, the only number that feeds into this is restock fees. You can set restock fees for each catalog item. A restock fee is charged to the customer for returned items.</p><h2 id=\"MaintaininganAccurateProfitabilityReport-Expenses\">Expenses</h2><h3 id=\"MaintaininganAccurateProfitabilityReport-CostofGoods\">Cost of Goods</h3><p>Cost of goods is the sum of\u00a0<em>direct labor</em>\u00a0and\u00a0<em>parts</em>.</p><h4 id=\"MaintaininganAccurateProfitabilityReport-DirectLabor\">Direct Labor</h4><p>When you create an item type with the &quot;labor&quot; checkbox enabled, all of the catalog items you add underneath the item type will be treated as direct labor costs. For each catalog item you create, you are able to enter the &quot;cost&quot; associated with that service.</p><h4 id=\"MaintaininganAccurateProfitabilityReport-Parts\">Parts</h4><p>When you create an item type with the &quot;part&quot; checkbox enabled, all of the catalog items you add underneath the item type will contribute to cost of goods. For each catalog item you create, you are able to enter the &quot;cost&quot; associated with that service. In addition, for each inventory item you add, you can specify the cost of the part.</p><h3 id=\"MaintaininganAccurateProfitabilityReport-Overhead\">Overhead</h3><p>In your location settings, there is a field to enter your &quot;overhead rate.&quot; Here is how we recommend you calculate this number:</p><p><em>Keeping in mind there are 24 hours in a day, this is calculated for\u00a0an hourly rate:</em></p><ol start=\"1\"><li><p>Add up all of your monthly bills for a location, i.e. rent, utilities, internet, cleaning, etc.</p></li><li><p>If you have any bills/expenses that are not billed monthly, divide them down to a monthly equivalent.</p></li><li><p>Add the monthly pay of any salaried employees.</p></li><li><p>Divide that sum by the\u00a0<strong>total number of hours in a month (730)</strong>. This number was calculated by:</p><ol start=\"1\"><li><p>24 hours in day, multiplied by 365 days in a year: 8760</p></li><li><p>Divide that by 12 months: 730</p></li></ol></li><li><p>This number is your hourly overhead rate; plug this into the &quot;Overhead Rate&quot; field. We have found somewhere in the vicinity of $10-20 to be the industry average.</p></li></ol><p /><h3 id=\"MaintaininganAccurateProfitabilityReport-IndirectLabor\">Indirect Labor</h3><p>RepairQ calculates all of this for you. You need to do 2 things:\u00a0</p><ol start=\"1\"><li><p>Enter the salary rate for each staff member, and make sure the &quot;require timesheet&quot; is checked on their staff profile.</p></li><li><p>Train your employees to clock-in/out in RepairQ.</p></li></ol><p>To get indirect labor cost, RepairQ calculates non-billable hours per staff member (see below) and then multiplies the non-billable hours by the staff hourly rate(s). Then RepairQ sums the Indirect Labor for each staff member to determine the total Indirect Labor.</p><ul><li><p>Total hours (per staff) = Total number of hours during the reporting period in which the staff member is clocked in.</p></li><li><p>Billable hours (per staff) = Total number of hours during the reporting period which were recorded as labor on any ticket regardless of ticket status.</p></li><li><p>Non-billable hours (per staff) = Total hours less Billable hours.</p></li><li><p>Indirect Labor (per staff) = Non-billable hours x Staff hourly rate.</p></li><li><p>Indirect Labor (*everyone) = Sum of all Indirect Labor per staff.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934524447"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934524447/child",
+    "restrictions": "/rest/api/content/1934524447/restriction/byOperation",
+    "history": "/rest/api/content/1934524447/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934524447/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934524447",
+    "webui": "/spaces/SCD/pages/1934524447/Maintaining+an+Accurate+Profitability+Report",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934524447",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934524447",
+    "tinyui": "/x/H4BOcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

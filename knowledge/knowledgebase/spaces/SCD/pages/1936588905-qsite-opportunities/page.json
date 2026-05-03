@@ -1,0 +1,129 @@
+{
+  "id": "1936588905",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936588905",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjU4ODkwNQ==",
+  "status": "current",
+  "title": "Qsite\u2122 Opportunities",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:55.851Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 10,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936588905.49",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936588905"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936588905/version/10"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qsite Opportunities is a RepairQ companion app that allows customers to search for nearby store locations, explore services and prices, generate quotes, and schedule appointments. This feature is available to our Advanced and Professional users.</p><p>Qsite features can elevate your business in many ways, including:</p><ul><li><p><strong>Enhanced Customer Experience</strong> - Customers can easily check the status of their tickets, view notes, and access store contact information, improving transparency and communication.</p></li><li><p><strong>Convenience</strong>: Qsite Opportunities simplifies the process for customers to engage with your store by offering features such as ticket status checks, service price lookups, and appointment scheduling, all from their mobile devices.</p></li><li><p><strong>Increased Efficiency</strong>: Advanced and Professional users can leverage Qsite Opportunities to streamline operations by managing ticket approvals, generating quotes, and scheduling appointments, reducing administrative tasks.</p></li><li><p><strong>Revenue Growth</strong>: The ability for customers to easily access ticket information and book appointments can lead to increased sales and service bookings, ultimately driving revenue growth for your business.</p></li></ul><h3 id=\"Qsite\u2122Opportunities-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936523327\" rel=\"nofollow\">Qsite Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425067/Qsite+Ticket+Status+-+Keep+Customers+Updated+on+Their+Tickets\" data-linked-resource-id=\"1936425067\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Status</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261226/Qsite+Opportunities+Settings+Management\" data-linked-resource-id=\"1936261226\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Opportunities Settings</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936785428/Embed+Qsite+Features+Into+Your+Website\" data-linked-resource-id=\"1936785428\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Embed Qsite\u2122 Features Into Your Website</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936982118/RepairQ+API+-+Embed+Qsite+Ticket+Status+Into+Your+Website\" data-linked-resource-id=\"1936982118\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Embed Qsite\u2122 Ticket Status Into Your Website via RepairQ APIs</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932591138\" rel=\"nofollow\">Categories: Create an Item Tree</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932230697\" rel=\"nofollow\">Categories: Create an Item Grid</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Technical - 124a6d.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588905/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"Qsite\u2122Opportunities-HowCanMyCustomersUseQsiteOpportunities?\"> How Can My Customers Use Qsite Opportunities?</h2><p>Opportunities can easily be embedded into your website for customers to find a location near them, request a quote for service and sales, and book an appointment.</p><p><strong>Note</strong>: Admins can customize Qsite branding, services offered, and other fields, based on your business needs.</p><h3 id=\"Qsite\u2122Opportunities-FindaLocation\">Find a Location</h3><p>Help customers easily locate nearby stores, saving time and effort.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Qsite Opp 1.png\" width=\"632\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588905/Qsite%20Opp%201.png?api=v2\"></span><h3 id=\"Qsite\u2122Opportunities-BuildaQuoteforSalesandServices\">Build a Quote for Sales and Services</h3><p>After finding a location, customers can select which service they would like to initiate at your store. The customer can build a quote that will automatically appear in RepairQ.</p><p><strong>Note</strong>: Customers can see what products and services you offer through a visual guide called an Item Grid. You will need to set up this feature before using Qsite Opportunities.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Qsite Opp 2.png\" width=\"517\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588905/Qsite%20Opp%202.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Qsite Opp 4.png\" width=\"632\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588905/Qsite%20Opp%204.png?api=v2\"></span><h3 id=\"Qsite\u2122Opportunities-AppointmentScheduling\">Appointment Scheduling</h3><p>After your customer has created a quote for their service, they can schedule an appointment at your store.</p><p><strong>Note</strong>: You must set up Appointment availability and windows before using Qsite Opportunities.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Qsite Opp 5.png\" width=\"647\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588905/Qsite%20Opp%205.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Qsite Opp 6.png\" width=\"517\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588905/Qsite%20Opp%206.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936588905"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936588905/child",
+    "restrictions": "/rest/api/content/1936588905/restriction/byOperation",
+    "history": "/rest/api/content/1936588905/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936588905/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936588905",
+    "webui": "/spaces/SCD/pages/1936588905/Qsite+Opportunities",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936588905",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936588905",
+    "tinyui": "/x/aQBucw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

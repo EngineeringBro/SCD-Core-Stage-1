@@ -1,0 +1,130 @@
+{
+  "id": "2030862437",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030862437",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDg2MjQzNw==",
+  "status": "current",
+  "title": "1.13.6",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T22:20:58.276Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "4",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030862437.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030862437"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030862437/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 10/03/17 2:08 CT (19:08 UTC)</p><h2 id=\"id-1.13.6-TicketNotesinNotifications\">Ticket Notes in Notifications</h2><p>A new shortcode\u00a0is available for automated notifications to include customer facing (printable) notes in ticket notifications.</p><h2 id=\"id-1.13.6-CustomFormOrder\">Custom Form Order</h2><p>The sort order of custom forms on tickets now sorts based on the\u00a0order number\u00a0from\u00a0your custom form settings.</p><h2 id=\"id-1.13.6-CashReconciliationPrint-pagebreaks\">Cash Reconciliation Print - page breaks</h2><p>The forced page break\u00a0before the &quot;notes&quot; section has been removed.\u00a0This\u00a0will reduce the number of pages printed.</p><h2 id=\"id-1.13.6-Timesheetswithduplicatestaffnames\">Timesheets with duplicate staff names</h2><p>We fixed an issue with grouping\u00a0and displaying results where\u00a0two staff have the exact\u00a0same first and last name.</p><h2 id=\"id-1.13.6-OnboardingVideos\">Onboarding Videos</h2><p>We added direct access to the onboarding videos from the dashboard.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030862437"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 93995624
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030862437/child",
+    "restrictions": "/rest/api/content/2030862437/restriction/byOperation",
+    "history": "/rest/api/content/2030862437/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030862437/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030862437",
+    "webui": "/spaces/SCD/pages/2030862437/1.13.6",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030862437",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030862437",
+    "tinyui": "/x/ZYAMeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

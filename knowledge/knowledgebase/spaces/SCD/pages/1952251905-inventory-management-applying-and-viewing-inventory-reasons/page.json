@@ -1,0 +1,129 @@
+{
+  "id": "1952251905",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1952251905",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTk1MjI1MTkwNQ==",
+  "status": "current",
+  "title": "Inventory Management: Applying and Viewing Inventory Reasons",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:25.943Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "195",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1952251905.94",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1952251905"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1952251905/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Admins can now require users to record why an item has been placed in defective status. This affects items received on Purchase Orders, marking an item as Defective/Damaged on tickets, and when manually editing the inventory item. Admins can configure a list of defect reasons when moving inventory items into this status. They can also assign a default reason that automatically applies when placing an item into Pending RMA status when receiving defective items on a Purchase Order.</p><p>Managers can use the Inventory Detail List to filter for items in damaged/defective status and add a new column, Inventory Update Reason, to track why inventory was counted as damaged or defective.</p><h3 id=\"InventoryManagement:ApplyingandViewingInventoryReasons-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1938030615/Inventory+Management+Defective+Inventory+Reason\" data-linked-resource-id=\"1938030615\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Inventory Management: Defective Inventory Reason</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656694/Saving+and+Sharing+Custom+List+Views\" data-linked-resource-id=\"1932656694\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Saving and Sharing Custom List Views</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932460163/RMA+Process+Initiate+an+RMA+From+a+Ticket\" data-linked-resource-id=\"1932460163\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">RMA Process: Initiate an RMA From a Ticket</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931116776/RMA+Process+Initiate+an+RMA+Through+Inventory+Fulfillment\" data-linked-resource-id=\"1931116776\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">RMA Process: Initiate an RMA Through Inventory Fulfillment</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952251905/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"InventoryManagement:ApplyingandViewingInventoryReasons-ApplyingaDefectiveInventoryReasonfromaTicket\">Applying a Defective Inventory Reason from a Ticket</h2><p>When using the RMA process on a ticket, the user can mark an item as defective by clicking the Damaged/Defective icon next to the ticket item. This will open a new window to update the item as Damaged or Defective.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952251905/Reason%206.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952251905/Reason%207.png?api=v2\"></span><p /><p>The user will select the item\u2019s inventory status, and then choose the Reason for Defect. Admins create the available list of <strong>Reason for Defect</strong> selections and will identify why the item has been marked in the corresponding inventory status.</p><ul><li><p><strong>Defective Item</strong> - This will initiate the RMA process for that item.</p></li><li><p><strong>Damaged Item</strong> - This will place the item into Damaged status to be recorded as inventory shrink.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"331\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952251905/Reason%208.png?api=v2\"></span><h2 id=\"InventoryManagement:ApplyingandViewingInventoryReasons-ApplyingaDefectiveInventoryReasonfromInventoryDetails\">Applying a Defective Inventory Reason from Inventory Details</h2><p>You can edit an individual inventory item\u2019s details on the Inventory Details page. When an item is changed to Pending RMA or RMA Sent status, the new field will appear to record the reason that the item was placed in that status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952251905/Reason%209.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952251905/Reason%2010.png?api=v2\"></span><h2 id=\"InventoryManagement:ApplyingandViewingInventoryReasons-ApplyingaDefectiveInventoryReasonfromaPurchaseOrder\">Applying a Defective Inventory Reason from a Purchase Order</h2><p>On the Inventory Update Reasons Overview page, the reason marked as <strong>Default on PO</strong> will automatically be applied when moving items into Defective (Pending RMA) Status on a Purchase Order.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952251905/Reason%2011.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952251905/Reason%2012.png?api=v2\"></span><h2 id=\"InventoryManagement:ApplyingandViewingInventoryReasons-ViewingInventoryUpdateReasonsontheInventoryDetailList\">Viewing Inventory Update Reasons on the Inventory Detail List</h2><p>When viewing the Inventory Detail page, you can add a new column to view Inventory Update Reasons. Use the filter options to locate items in Defective/Damaged status and view those reasons in the corresponding columns. For more information on adding new columns, saving, and sharing list views, check out our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656694/Saving+and+Sharing+Custom+List+Views\" data-linked-resource-id=\"1932656694\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Saving and Sharing Custom List Views</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952251905/Reason%2013.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1952251905"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1952251905/child",
+    "restrictions": "/rest/api/content/1952251905/restriction/byOperation",
+    "history": "/rest/api/content/1952251905/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1952251905/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1952251905",
+    "webui": "/spaces/SCD/pages/1952251905/Inventory+Management+Applying+and+Viewing+Inventory+Reasons",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1952251905",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1952251905",
+    "tinyui": "/x/AQBdd",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

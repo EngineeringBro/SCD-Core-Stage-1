@@ -1,0 +1,129 @@
+{
+  "id": "1933246513",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933246513",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI0NjUxMw==",
+  "status": "current",
+  "title": "Custom Forms: Field Groups and Form Fields",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:36.733Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933246513.45",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933246513"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246513/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Field Groups are the foundation of Custom Forms. They are user-defined requirements and triggers that change the behavior of the form. Creating a new Field Group will determine:</p><ul><li><p>the name and assigned location for the form.</p></li><li><p>which ticket types are compatible with the form.</p></li><li><p>if/when the form is required during the ticket workflow.</p></li><li><p>if the form can be filled out by a technician or customer.</p></li><li><p>If the form requires a signature before submission.</p></li></ul><p>Once a Field Group has been established, Form Fields are used to populate the form with data collection fields. Form Fields include:</p><ul><li><p>Text Input</p></li><li><p>Checkboxes</p></li><li><p>Radio Buttons</p></li><li><p>HTML</p></li><li><p>Image/File Uploads</p></li><li><p>Diagnostic Test Results</p></li></ul><h3 id=\"CustomForms:FieldGroupsandFormFields-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770795/Introduction+to+Custom+Forms+-+Start+Here\" data-linked-resource-id=\"1933770795\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Introduction to Custom Forms - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932492983/Creating+Custom+Forms\" data-linked-resource-id=\"1932492983\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating and Working with Custom Forms</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525752/Custom+Forms+Adding+Images+to+Forms\" data-linked-resource-id=\"1932525752\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Custom Forms: Adding Images to Forms</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427719/Custom+Forms+Capture+Electronic+Signatures+on+Forms\" data-linked-resource-id=\"1932427719\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Custom Forms: Capturing Electronic Signatures on Forms</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"CustomForms:FieldGroupsandFormFields-FieldGroupSelections\">Field Group Selections</h2><p>All fields with an asterisk(*) are required when creating a Custom Form.</p><p /><p><strong>Title*</strong> - Assign a title to the form.</p><p><strong>Location ID</strong> - Select which location(s) this form will be assigned. You can select all locations or a specific location.</p><p><strong>Description</strong> - Include a description to explain the purpose of the form.</p><p><strong>Ticket Type* </strong>- Select what kind of ticket type(s) will include this form to fill out during the flow.</p><p><strong>Required When</strong> - Choose if/when the form is required to be filled out during the ticket flow.</p><ul><li><p><strong>Never </strong>- The Custom Form is not required to progress the ticket but is still available to fill out.</p></li><li><p><strong>Before leaving status</strong>\u00a0 - The form must be submitted when progressing the ticket out of the assigned ticket status(es). e.g. A post-repair checklist must be submitted before moving a repair out of &quot;In Repair&quot; Status.</p></li><li><p><strong>Before entering status</strong> - This form must be submitted when moving into the assigned ticket status(es). e.g. A pre-repair condition form must be filled out before entering the &quot;In Diagnosis&quot; step of your workflow.</p></li><li><p><strong>Upon first save</strong> - This form will automatically appear when the ticket is saved for the first time by selecting any ticket status. e.g. A repair waiver must be completed when saving a Repair ticket for the first time.</p></li><li><p><strong>Upon entering status</strong> - This form will automatically appear once the ticket advances to an assigned ticket status. e.g. A sign-off form must be completed upon moving a Repair ticket into &quot;Closed&quot; status.</p></li></ul><p><strong>Object State</strong> - If selecting a required status, select the Ticket Status for the timing requirement.</p><p><strong>Manufacturers</strong> - (Used for Repair Tickets) Select a manufacturer for the specific repair device which will require this form.</p><p><strong>Warranty Providers\u00a0</strong>- If applicable, select which <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933508692/Warranty+Claims+Processing\" data-linked-resource-id=\"1933508692\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Warranty Provider</a> will have the form.</p><p><strong>Ticket Action\u00a0</strong>- Require a form if a specific <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525679/Ticket+Properties+Creating+New+Ticket+Actions\" data-linked-resource-id=\"1932525679\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Ticket Action</a> has been assigned to the ticket.</p><p><strong>Ticket Resolution</strong> - Require a form if a specific <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427638/Ticket+Properties+Require+a+Ticket+Resolution\" data-linked-resource-id=\"1932427638\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Ticket Resolution</a> has been assigned to the ticket.</p><p><strong>OEM Program</strong> - This only applies to customers who have integrated with GSX or Samsung ISP. Require a form if specific parts are used.</p><ul><li><p>Empty (This should remain the default for most users.)</p></li><li><p>Only when after-market parts are present</p></li><li><p>Only when OEM parts are present</p></li></ul><p><strong>Order</strong> - Assign a numerical value (0-100) to reorder your Custom Form list. Lower numbers appear higher on the list.</p><p><strong>Active</strong> - Toggle whether the form is active on tickets or inactive.</p><p><strong>Qpop Enabled</strong> - Toggle whether this form can be seen only on the business side or also pushed to a <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop Companion</a> for a customer to view/sign.</p><p><strong>Send to Qpop automatically when required</strong> - This will automatically send Qpop-enabled forms to your companion device.</p><p><strong>Require Signature on Submit</strong> - Toggle a signature requirement when submitting the form.</p><p /><h2 id=\"CustomForms:FieldGroupsandFormFields-FormFieldSelections\">Form Field Selections</h2><p>Form Fields are designed to allow users to collect information through different methods of data entry. When creating a new field, users can add supporting details or pre-populated options for input labels.</p><p /><p><strong>Label</strong> - This is the name of the label on the form. It should communicate what information the field will capture.</p><p><strong>Description/Tooltip\u00a0</strong>- This is a description or a given purpose of the Field. If a description is added, it will be added as a tooltip next to the label. Users can hover on this tip for the description.</p><p><strong>Default Value</strong> - Available for Text Input, Text Area, Multiselect, Checkbox, and Radio Fields</p><ul><li><p>Text Input/Text Area/HTML - Any text entered here will automatically populate in the text area when filling out the form.</p></li><li><p>Checkboxes - Enter <strong>Yes</strong> if you would like this box checked by default. Otherwise, leave blank.</p></li><li><p>Multiselect/Radio - Create a default selection by typing one of the options created. If you do not want a default selection, leave blank.</p></li></ul><p><strong>Options</strong> - Available for Multiselect and Radio Fields. Create a list of selectable options on the Form Field. Each option is separated by a new line.\u00a0</p><p><strong>Placeholder</strong> - Available for Text Input, Text Area, and Multiselect. This is the default background text that appears in your Text Input Area when the box is blank. This can be used to explain what kind of information should be entered in this field.</p><p><strong>Order</strong> - Assign a number (0-100) for which order the Form Fields will appear on the form. A lower number will seat the Field higher on the list.</p><p><strong>Print Visible?</strong> - Select whether or not this field is displayed when the form is printed.</p><p><strong>Active?</strong> - Select the status of this field. Inactive fields will not display on forms.</p><p><strong>Required?</strong> - Controls whether or not this field is required when submitting the form. Any required fields will include an asterisk (*) next to the field on the form.</p><p><strong>Enable Conditional Logic</strong> - This will show or hide a form field based on the values selected for another field. For example, only show the signature field if the &quot;Liquid Damage&quot; radio field is marked <strong>Yes</strong>.</p><p /><h2 id=\"CustomForms:FieldGroupsandFormFields-AvailableFormFields\">Available Form Fields</h2><h4 id=\"CustomForms:FieldGroupsandFormFields-TextInput\">Text Input</h4><p>Use this option to create a field to enter data as notes, comments, or general information.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Form%20Field%201.png?api=v2\"></span><p /><h4 id=\"CustomForms:FieldGroupsandFormFields-TextArea\">Text Area</h4><p>This field is similar to Text Input but has a larger field for entering information.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Form%20Field%202.png?api=v2\"></span><p /><h4 id=\"CustomForms:FieldGroupsandFormFields-Multiselect\">Multiselect</h4><p>Use this field to create a dropdown of selectable options.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Form%20Field%203.png?api=v2\"></span><p /><h4 id=\"CustomForms:FieldGroupsandFormFields-Checkbox\">Checkbox</h4><p>Use this field to create an option with a checkbox that can be indicated as a Yes/No or Applicable/Non-Applicable selection.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Form%20Field%204.5.png?api=v2\"></span><p /><h4 id=\"CustomForms:FieldGroupsandFormFields-Radio\">Radio</h4><p>Use this field to create a list of options where only one selection can be made.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Form%20Field%204.png?api=v2\"></span><p /><h4 id=\"CustomForms:FieldGroupsandFormFields-Signature\">Signature</h4><p>This field will allow you to capture a signature on the form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Form%20Field%205.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Form%20Field%205.5.png?api=v2\"></span><p /><h4 id=\"CustomForms:FieldGroupsandFormFields-Image\">Image</h4><p>This field will allow you to drag and drop or browse for images to add to the form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Form%20Field%206.png?api=v2\"></span><p /><h4 id=\"CustomForms:FieldGroupsandFormFields-File\">File</h4><p>This field will allow you to drag and drop or browse for files to add to the form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246513/Form%20Field%207.png?api=v2\"></span><p /><h4 id=\"CustomForms:FieldGroupsandFormFields-HTML\">HTML</h4><p>This field allows you to communicate any notices, warranties, disclaimers, or any additional information on the form. The text here can be formatted with a different typeface, bulleted or numbered lists, and can even include hyperlinks and images.</p><p /><p /><p>START 1.18.X</p><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933246513"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933246513/child",
+    "restrictions": "/rest/api/content/1933246513/restriction/byOperation",
+    "history": "/rest/api/content/1933246513/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933246513/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933246513",
+    "webui": "/spaces/SCD/pages/1933246513/Custom+Forms+Field+Groups+and+Form+Fields",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933246513",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246513",
+    "tinyui": "/x/MQA7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

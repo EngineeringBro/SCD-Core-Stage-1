@@ -1,0 +1,129 @@
+{
+  "id": "2731114524",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2731114524",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjczMTExNDUyNA==",
+  "status": "current",
+  "title": "Business Intelligence (BI) Resources",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:23.218Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "3",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2731114524.33",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2731114524"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2731114524/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ includes a powerful Business Intelligence (BI) Suite, provided through integration with Looker. This tool offers a set of visual dashboards covering key performance indicators (KPIs) essential for running a retail repair business. These reports allow you to quickly view important aspects of your business, such as sales trends, inventory levels, and repair progress, helping you make more informed decisions.</p><p>Our Business Intelligence (BI) Dashboards are available to Admin users on our Advanced and Professional plans. Users on the <strong>Advanced Plan</strong> can view a wide range of pre-built reports and dashboards, giving them access to critical insights about their business. However, they are limited to viewing these pre-made reports and cannot create new ones. <strong>Professional Plan</strong> users can view pre-built reports and build custom reports. This allows them to tailor reports to their specific needs and gain deeper insights from their data.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Control - f79824.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2731114524/Control%20-%20f79824.png?api=v2\"></span><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936785446\" rel=\"nofollow\">Business Intelligence - Analytics Dashboards</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936621637\" rel=\"nofollow\">Analytics Dashboards - Explore and Download Data</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2738651142\" rel=\"nofollow\">Business Intelligence - Create a Report</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1937670188\" rel=\"nofollow\">Business Intelligence - Inventory Forecasting</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936392337\" rel=\"nofollow\">Business Intelligence - Troubleshooting</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1937014890\" rel=\"nofollow\">Automate Customer List Exports to Mailchimp via Zapier</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2471034883\" rel=\"nofollow\">Integrations: Webhooks and APIs</a></p></li></ul><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2731114524"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2731114524/child",
+    "restrictions": "/rest/api/content/2731114524/restriction/byOperation",
+    "history": "/rest/api/content/2731114524/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2731114524/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2731114524",
+    "webui": "/spaces/SCD/pages/2731114524/Business+Intelligence+BI+Resources",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2731114524",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2731114524",
+    "tinyui": "/x/HIDJog",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

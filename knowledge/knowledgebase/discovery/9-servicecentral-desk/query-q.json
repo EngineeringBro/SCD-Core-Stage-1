@@ -1,0 +1,17 @@
+{
+  "seedQuery": "q",
+  "values": [
+    {
+      "title": "RepairQ 1.17",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2029289514",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2029289514"
+      }
+    }
+  ]
+}

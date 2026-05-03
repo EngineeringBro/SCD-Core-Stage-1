@@ -1,0 +1,129 @@
+{
+  "id": "1930494554",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1930494554",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMDQ5NDU1NA==",
+  "status": "current",
+  "title": "Inventory Management: Tracking Non-inventoried Special Order Parts",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:09.394Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1930494554.40",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1930494554"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1930494554/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>There may be times when you will need to order parts that you do not intend to carry regularly in your store. If you do not intend to keep an inventory of these items, RepairQ allows users to create a &quot;catch-all&quot; item in your catalog that can be used for various special orders. Using the Ticket Item override feature, you can track the appropriate cost and supplier information for special parts without creating individual catalog items for each special order. This tutorial will walk you through creating a non-inventoried special-order part in your catalog, with additional instructions on creating a miscellaneous labor item and the process for adding a special-order part to a ticket and overriding the cost and supplier details.</p><p>If you prefer to keep an inventory of special-order parts and bring them in on purchase orders (allowing for more tracking ability) check out our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624033/Inventory+Management+Tracking+Inventoried+Special+Order+Parts\" data-linked-resource-id=\"1932624033\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Management: Tracking Inventoried Special Order Parts</a>.</p><h3 id=\"InventoryManagement:TrackingNon-inventoriedSpecialOrderParts-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624033/Inventory+Management+Tracking+Inventoried+Special+Order+Parts\" data-linked-resource-id=\"1932624033\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Management: Tracking Inventoried Special Order Parts</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787743/Inventory+Management+Resources\" data-linked-resource-id=\"1932787743\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Inventory Management Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416/Purchase+Order+Resources\" data-linked-resource-id=\"1932427416\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Purchase Order Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672484/Tax+Calculations+for+Bundled+Items\" data-linked-resource-id=\"1933672484\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Tax Calculations for Bundled Items</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787785/Catalog+Items+Bundle+Setup\" data-linked-resource-id=\"1932787785\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Catalog Items: Bundle Relationships, Auto-Bundling, and Auto-Adding Items</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933410332/Setting+up+and+Assigning+Tax+Rates\" data-linked-resource-id=\"1933410332\" data-linked-resource-version=\"20\" data-linked-resource-type=\"page\">Setting up Taxes</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"InventoryManagement:TrackingNon-inventoriedSpecialOrderParts-AllowingCostandSupplierOverrideonCatalogItems\">Allowing Cost and Supplier Override on Catalog Items</h2><p>Admins can enable cost and supplier overrides for catalog items, allowing Managers, Inventory Managers, and Shift Leads to update the cost and supplier details directly from the ticket. This applies to both inventoried and non-inventoried items. This allows you to track the supplier for non-inventoried special order parts while still tracking the Cost of Goods Sold (COGS). These settings can be applied to the catalog item in the Pricing section of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/SOP%201.png?api=v2\"></span><h2 id=\"InventoryManagement:TrackingNon-inventoriedSpecialOrderParts-CreatingaNon-InventoriedSpecialOrderPart\">Creating a Non-Inventoried Special Order Part</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Catalog</strong>. From the Catalog Item List, create a new item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/SOP%202.png?api=v2\"></span><p /><p>2. Begin adding details for the new catalog item. We have included suggestions for some of the details, and any required selections are marked with an asterisk (*). After you have updated the information for the new catalog item, be sure to <strong>Save </strong>your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/SOP%203.png?api=v2\"></span><ul><li><p><strong>Name*</strong> - Assign a name to the catalog item. We suggest keeping it simple and using something like &quot;Special Order Part.&quot;</p><ul><li><p>Feel free to add any additional Friendly Name, Short Name, or Search Key, if you'd like.</p></li></ul></li><li><p><strong>Item</strong> <strong>Type*</strong> - If this item is used for parts, we recommend assigning &quot;Part - Other&quot; unless you are using a different method for tracking items.</p></li><li><p><strong>Manufacturer*</strong> - Assign a manufacturer for this item. Since this item will be used for different parts, we suggest &quot;N/A.&quot;</p></li><li><p><strong>SKU</strong> - We suggest using &quot;SOP&quot; as an easy way to add this item to a ticket.</p></li><li><p><strong>Cost</strong> - Leave this blank, as it will be modified after the item is added to a ticket.</p></li><li><p><strong>Price</strong> - Leave this blank, as it will be modified after the item is added to a ticket.</p></li><li><p><strong>Allow Cost Override*</strong> - Mark this checkbox. This will allow you to enter the cost of the item when added to a ticket.</p></li><li><p><strong>Allow Supplier Override*</strong> - Mark this checkbox. This will allow you to assign the supplier of the item when added to a ticket.</p></li><li><p><strong>Repairable*</strong> - Leave this box unchecked.</p></li><li><p><strong>Inventoried*</strong>\u00a0- Leave this box unchecked.</p></li><li><p><strong>Default</strong> <strong>Quantity/Hours</strong> - Set this to 1, for ease of use when adding the item to a ticket.</p></li><li><p><strong>Active*</strong> - Make sure this checkbox is marked.</p></li></ul><h2 id=\"InventoryManagement:TrackingNon-inventoriedSpecialOrderParts-CreatingaMiscellaneous/VariableLaborCatalogItem\">Creating a Miscellaneous/Variable Labor Catalog Item</h2><p>If you do not already have a miscellaneous or variable labor Catalog Item to bundle your special-order parts under, we recommend creating one.</p><p>As before, go to the Catalog Item List and add a new item. We have included suggestions for some of the details, and any required selections are marked with an asterisk (*). After you have updated the information for the new catalog item, be sure to Save your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/SOP%204.png?api=v2\"></span><ul><li><p><strong>Name*</strong> - Assign a name to the catalog item. We suggest keeping it simple and using something like &quot;Miscellaneous Labor&quot; or &quot;Variable Labor.&quot;</p><ul><li><p>Feel free to add any additional Friendly Name, Short Name, or Search Key, if you'd like.</p></li></ul></li><li><p><strong>Item</strong> <strong>Type*</strong> - Since this item is used for repairs for various devices, we recommend assigning &quot;Service - Override&quot; unless you are using a different method for tracking items.</p></li><li><p><strong>Manufacturer*</strong> - Assign a manufacturer for this item. Since this item will be used for different repairs, we suggest &quot;Internal Labor.&quot;</p></li><li><p><strong>SKU</strong> - We suggest using &quot;MISCLAB&quot; as an easy way to add this item to a ticket.</p></li><li><p><strong>Cost</strong> - Leave this blank.</p></li><li><p><strong>Price</strong> - Leave this blank.</p></li><li><p><strong>Repairable*</strong> - Leave this box unchecked.</p></li><li><p><strong>Inventoried*</strong>\u00a0- Leave this box unchecked.</p></li><li><p><strong>Default</strong> <strong>Quantity/Hours</strong> - Set this to 1, for ease of use when adding the item to a ticket.</p></li><li><p><strong>Active*</strong> - Make sure this checkbox is marked.</p></li></ul><p /><h2 id=\"InventoryManagement:TrackingNon-inventoriedSpecialOrderParts-AddingaNon-inventoriedParttoTicketswithCost/SupplierOverride\">Adding a Non-inventoried Part to Tickets with Cost/Supplier Override</h2><p /><p>1. Create/Open a new repair ticket. Attach the customer and the Repair Device. Next, add in your Miscellaneous Labor item and adjust the Unit Price for the service.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/SOP%205.png?api=v2\"></span><p /><p>2. Attach (or bundle, if you intend on absorbing the price of the item into the labor) the Special-order Part to the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/SOP%206.png?api=v2\"></span><p /><p><strong>Note</strong>: For more information on bundling items, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787785/Catalog+Items+Bundle+Setup\" data-linked-resource-id=\"1932787785\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Catalog Items: Bundle Relationships, Auto-Bundling, and Auto-Adding Items</a>.</p><p /><p>3. Click the <strong>Override button (asterisk* symbol)</strong> on the right side of the special-order ticket item to edit cost and supplier details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/SOP%207.png?api=v2\"></span><p /><p>4. On the Item Overrides pop-up, enter the cost of the item and select the supplier. After you have made your changes, click <strong>Save</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/SOP%208.png?api=v2\"></span><p /><p>5. In the Note section of the special-order item, you can add the specific part that was used for the repair.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494554/SOP%209.png?api=v2\"></span><p /><p><strong>Note</strong>: You will also notice your taxes have been applied appropriately, according to your <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279311/Introduction+to+Taxes+in+RepairQ+-+Start+Here\" data-linked-resource-id=\"1933279311\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Tax Rates</a>. In this case, we have set the taxes for the Item Type: Part - Other to apply towards the cost of the item.</p><p /><p>6. Continue with the rest of the Repair Ticket flow.</p><p /><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1930494554"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1930494554/child",
+    "restrictions": "/rest/api/content/1930494554/restriction/byOperation",
+    "history": "/rest/api/content/1930494554/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1930494554/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1930494554",
+    "webui": "/spaces/SCD/pages/1930494554/Inventory+Management+Tracking+Non-inventoried+Special+Order+Parts",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1930494554",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1930494554",
+    "tinyui": "/x/WgIRcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

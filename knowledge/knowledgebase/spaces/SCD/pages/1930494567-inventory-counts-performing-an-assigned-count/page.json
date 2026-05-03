@@ -1,0 +1,129 @@
+{
+  "id": "1930494567",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1930494567",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMDQ5NDU2Nw==",
+  "status": "current",
+  "title": "Inventory Counts: Performing an Assigned Count",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:07.984Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 10,
+    "minorEdit": false,
+    "ncsStepVersion": "1475",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1930494567.59",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1930494567"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1930494567/version/10"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Assigned counts enable managers to delegate inventory count tasks to specific staff members, allowing for a focused audit of different divisions within your store's inventory. Managers can easily assign these counts, set due dates, and manage conflicts with ongoing counts. This method is well-suited for routine inventory management, such as monthly counts. After the counts are completed and submitted by staff, an Inventory Manager or higher can review the results, reconcile any discrepancies, and make necessary adjustments before finalizing the inventory.</p><p>Staff can perform their assigned counts two ways: <a href=\"#Individual\" rel=\"nofollow\">Individual line item counts</a> or <a href=\"#Batch\" rel=\"nofollow\">batch counting</a>. The processes below will guide a Staff Member through their count after a manager has created the assignment.</p><h3 id=\"InventoryCounts:PerforminganAssignedCount-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427464/Inventory+Count+Resources\" data-linked-resource-id=\"1932427464\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Count Resources</a>  </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591186/Inventory+Counts+Cycle+Counts+Unassigned+Counts\" data-linked-resource-id=\"1932591186\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Inventory Counts: Performing Cycle Counts</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932296330\" rel=\"nofollow\">Inventory Counts: Assigning Counts</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591200/Inventory+Counts+Pausing+Reassigning+and+Deleting+Counts\" data-linked-resource-id=\"1932591200\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Inventory Counts: Pausing, Reassigning, and Deleting Counts</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932558411\" rel=\"nofollow\">Inventory Counts: Reconciling Counts</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"InventoryCounts:PerforminganAssignedCount-IndividualCountsbyLineItem\"><span class=\"confluence-anchor-link\" id=\"InventoryCounts:PerforminganAssignedCount-Individual\"><span class=\"confluence-anchor-link\" id=\"Individual\"></span></span>Counts by Line Item</h2><p>From the RepairQ Navigation Bar, go to <strong>Inventory</strong> \u2192 <strong>Inventory</strong> <strong>Counts</strong> to view your assignments. On the Inventory Counts summary page, you will see a list of current counts assigned to you. Items that have not been counted will be in <strong>Counting</strong> status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%202.png?api=v2\"></span><p /><p>Find the item that you would like to begin counting from the list. Under the Actions column, click the <strong>Options (\u22ee)</strong> <strong>button</strong> to expand additional actions, and click <strong>Count</strong> to begin the count for this item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%203.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"188\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%204.png?api=v2\"></span><p /><p>A pop-up will appear with the name of the item you are currently counting. If you are utilizing a scanner, you can scan the item's barcode, or increase the Count quantity for non-serialized items,</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%205.5.png?api=v2\"></span><h3 id=\"InventoryCounts:PerforminganAssignedCount-CountingSerializedItems\">Counting Serialized Items</h3><p>When counting serialized items, you must scan or enter the serial numbers found for the item. Multiple serial numbers can be entered by listing each number on separate lines in the <strong>Serials</strong> <strong>field</strong>. Click <strong>Save Count</strong> to submit your items as <strong>Counted</strong> status, ready for a manager to finalize.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%20101.png?api=v2\"></span><h3 id=\"InventoryCounts:PerforminganAssignedCount-Non-SerializedItems\">Non-Serialized Items</h3><p>Scan the items or enter a count total for the items. After you are finished counting, click <strong>Save Count</strong> to submit your items as <strong>Counted</strong> status, ready for a manager to finalize.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%205.png?api=v2\"></span><h2 id=\"InventoryCounts:PerforminganAssignedCount-BatchCountsbyBatch\"><span class=\"confluence-anchor-link\" id=\"InventoryCounts:PerforminganAssignedCount-Batch\"><span class=\"confluence-anchor-link\" id=\"Batch\"></span></span>Counts by Batch</h2><p>Batch counts let you count large groups of assigned inventory items at once. Batch counts are managed from the Count Sheet. Below is a breakdown of the different sections of the Count Sheet.</p><p /><p>From the RepairQ Navigation Bar, go to <strong>Inventory</strong> \u2192 <strong>Inventory</strong> <strong>Counts</strong>. On the Inventory Counts Summary page, view the Count Sheet by clicking the <strong>Count</strong> <strong>button </strong>near the top-right of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%207.png?api=v2\"></span><h3 id=\"InventoryCounts:PerforminganAssignedCount-InventoryCountSheet\">Inventory Count Sheet</h3><p>On the Count Sheet, click <strong>Load Assignments</strong> on the upper-right part of the page. This will list all counts assigned to you in the Counted Items section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%208.png?api=v2\"></span><ul><li><p><strong>Scan/Search To Count\u00a0</strong>- This field can be toggled to accept scanned barcodes and serial numbers or to keyword search items by name, SKU, etc. Items scanned/searched here will update the Current Item section.</p></li><li><p><strong>Current Item </strong>- This shows the most recently counted item and allows you to adjust the count total or view counted serial numbers.</p><ul><li><p>If the Current Item is non-serialized, you can update the count total to match the found amount and click <strong>Save Count</strong> to update the total for the Counted Items list or <strong>Cancel</strong>\u00a0to remove the current item count.</p></li><li><p>If the Current Item is serialized, you can view a list of all counted serial numbers so far. Once you have finished entering serial numbers for this item from the search field, click <strong>Save Count</strong> to update the Counted Items list or <strong>Cancel</strong> to remove the current item count.</p></li></ul></li><li><p><strong>Counted Items</strong>- Lists items in Counted status, their current count total, and available actions.</p><ul><li><p><strong>View Serials</strong> - View a list of serial numbers recorded for this item.</p></li><li><p><strong>Edit</strong> - Updates the Current Item field to allow editing options for the selected item.</p></li><li><p><strong>Remove</strong> - Removes the item from the Counted Items list.</p></li><li><p><strong>Save for Later/Save &amp; Submit</strong> - Save your progress to submit later, or submit the current count of items from the Counted Item list. Submitting the list will move these items into <strong>Counted</strong> status, ready for a Manager to make adjustments and reconcile.</p></li></ul></li><li><p><strong>Count Log </strong>- Lists scan entries, successful counts, warnings, error messages, etc. Warnings are highlighted in yellow, and errors are highlighted in red.</p></li></ul><h2 id=\"InventoryCounts:PerforminganAssignedCount-CountingItemsFromtheBatchSheet\">Counting Items From the Batch Sheet</h2><p>There are two ways to add items to your Counted Items list: Scan Mode or Lookup Mode. You can toggle between modes by clicking the <strong>Search Type icon</strong> next to the search field.</p><h3 id=\"InventoryCounts:PerforminganAssignedCount-ScanMode\">Scan Mode</h3><p>Scan SKU/UPC/Serial Number barcodes. When a barcode is scanned or entered, it is automatically added to the Current Item count.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%209.png?api=v2\"></span><h3 id=\"InventoryCounts:PerforminganAssignedCount-LookupMode\">Lookup Mode</h3><p>Search for items by their keyword, SKU, or serial number to add to the Current Items section of the Count Sheet.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"504\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%2010.png?api=v2\"></span><p /><p>Counts will update according to the Current Item listed on the Count Sheet. Non-serialized item counts will increase as the item is submitted. Make sure to click <strong>Save Count</strong> to update your current total before counting a different type of item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"502\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%2011.png?api=v2\"></span><h3 id=\"InventoryCounts:PerforminganAssignedCount-AddingMissingSerializedItems\">Adding Missing Serialized Items</h3><p>If you come across a serialized item that isn\u2019t in your inventory during the count, you can easily add it. First, click the <strong>Edit button</strong> next to the item in the Counted Items list to refresh the Current Item section. Then, scan or type the serial number to include the item in your count. Once the item is counted, click <strong>Save Count</strong> to update the total in the Counted Items list.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%2012.png?api=v2\"></span><p /><p>As items are added to the Count Sheet, a Log is kept of your count activity, the Current Item you are counting, and a Counted Item list of the items that have been tallied so far.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"502\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%2014.png?api=v2\"></span><p /><p>Continue counting your inventory by scanning or adding items to the list. During your count, you may need to pause your activity. Click <strong>Save for Later</strong> to <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591200/Inventory+Counts+Pausing+Reassigning+and+Deleting+Counts\" data-linked-resource-id=\"1932591200\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">save your current counts and finish later</a>.</p><p>If you are finished counting all items, click <strong>Save &amp; Submit</strong> items to <strong>Counted</strong> status for a manager to finalize and reconcile the count.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%2015.png?api=v2\"></span><h2 id=\"InventoryCounts:PerforminganAssignedCount-CountedStatus\">Counted Status</h2><p>Once you have saved the count, the item will be listed in <strong>Counted</strong> status on the Inventory Count page. Under the Counted column, you will see the total you have submitted for reconciliation.</p><p><strong>Note</strong>: Because we utilize a Blind Count method, you may not see totals in the In Stock, Variance, Reconciled, and other fields. This is expected, so counts cannot be edited to match the current stock value. This information, however, is visible to managers when reconciling the count.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Assignment 6.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1930494567/Assignment%206.png?api=v2\"></span><h2 id=\"InventoryCounts:PerforminganAssignedCount-Re-CountingItems\">Re-Counting Items</h2><p>If you need to update/recount any count totals, use the <strong>Count</strong> <strong>button</strong> again to change the count total/serial numbers. The count totals or serial numbers you enter will overwrite your current totals. Once an item is <strong>Counted</strong>, it is ready for a Manager to reconcile the count.</p><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1930494567"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1930494567/child",
+    "restrictions": "/rest/api/content/1930494567/restriction/byOperation",
+    "history": "/rest/api/content/1930494567/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1930494567/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1930494567",
+    "webui": "/spaces/SCD/pages/1930494567/Inventory+Counts+Performing+an+Assigned+Count",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1930494567",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1930494567",
+    "tinyui": "/x/ZwIRcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

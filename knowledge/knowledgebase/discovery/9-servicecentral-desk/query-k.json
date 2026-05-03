@@ -1,0 +1,29 @@
+{
+  "seedQuery": "k",
+  "values": [
+    {
+      "title": "Email Domain Troubleshooting",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525709",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525709"
+      }
+    },
+    {
+      "title": "Send Notification Emails From Your Domain",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932460196",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932460196"
+      }
+    }
+  ]
+}

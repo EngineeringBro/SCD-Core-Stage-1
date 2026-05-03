@@ -1,0 +1,129 @@
+{
+  "id": "1933476043",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933476043",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzQ3NjA0Mw==",
+  "status": "current",
+  "title": "How To: Add Services and Parts to a Ticket",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:08.054Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "8",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933476043.16",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933476043"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933476043/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>As a tech, you may be required to add services and/or parts to a ticket as you make repairs. To do this you need to edit the ticket you are working on.</p><p /><ol start=\"1\"><li><p>Look up the ticket by the ticket number or the device serial number. See\u00a0<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541674/Searching+for+Tickets\" data-linked-resource-id=\"1933541674\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Searching for Tickets</a> </p></li><li><p>Click the edit button to edit the ticket</p></li><li><p>OPTIONAL: Click on the &quot;Ticket Items&quot; tab to focus on the ticket items section.</p></li><li><p>Add ticket item(s) for the parts &amp; services you need to add to the ticket</p><ul><li><p>Look up the item to add or search for an item in the &quot;Add Item&quot; search box.</p></li><li><p>Click the &quot;Add Item&quot; button when you have selected the item you want</p></li></ul><ul><li><p>Quick Add: Scan or type the SKU or Serial Number of the item you want to add and press enter</p></li></ul></li><li><p>When you are done adding ticket items, click the &quot;Save&quot; button at the bottom</p></li></ol><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933476043/Add%20Parts%20and%20Service%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933476043/Add%20Parts%20and%20Service%202.png?api=v2\"></span><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933476043"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933476043/child",
+    "restrictions": "/rest/api/content/1933476043/restriction/byOperation",
+    "history": "/rest/api/content/1933476043/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933476043/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933476043",
+    "webui": "/spaces/SCD/pages/1933476043/How+To+Add+Services+and+Parts+to+a+Ticket",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933476043",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933476043",
+    "tinyui": "/x/y4A_cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

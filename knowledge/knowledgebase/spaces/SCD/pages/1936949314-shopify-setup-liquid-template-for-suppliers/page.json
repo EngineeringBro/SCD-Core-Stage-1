@@ -1,0 +1,129 @@
+{
+  "id": "1936949314",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936949314",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjk0OTMxNA==",
+  "status": "current",
+  "title": "Shopify - Setup Liquid Template (for suppliers)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:02:01.815Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "13",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936949314.15",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936949314"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936949314/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p><strong>Step 1: Login to shopify admin. \u00a0Go to Online Store.</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949314/image-20230608-180542.png?api=v2\"></span><p /><p><strong>Step 2: Go to Themes</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949314/image-20230608-180547.png?api=v2\"></span><p /><p><strong>Step 3: Click on the \u2018\u2026\u2019 next to Customize Theme and choose Edit HTML/CSS.</strong></p><a href=\"/wiki/spaces/SCD/pages/1936949314/Shopify+-+Setup+Liquid+Template+for+suppliers?preview=%2F1936949314%2F1985118291%2FInvalid+file+id+-+4baf6127-16b1-4f62-b5e8-b3a5d02d52aa\"><span style=\"background: url('/wiki/s/-640127513/6452/0000891dee48b240c5ed2f93f8ac8ad513a32a09/1000.0.0-0000891dee48/_/download/resources/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-resources/images/placeholder-medium-file.png'); width: 250px; height: 95px; display: inline-block; padding-top: 155px; margin: 2px; border: 1px solid #ddd; text-align: center; vertical-align: text-bottom; text-decoration: none; font-size: 12px; color: #000;\">Invalid file id - 4baf61\u2026</span></a><p /><p><strong>Step 4: Click \u201cAdd a new template&quot;</strong></p><a href=\"/wiki/spaces/SCD/pages/1936949314/Shopify+-+Setup+Liquid+Template+for+suppliers?preview=%2F1936949314%2F1985282113%2FInvalid+file+id+-+abdf8b44-4e12-4591-864c-5be07406e407\"><span style=\"background: url('/wiki/s/-640127513/6452/0000891dee48b240c5ed2f93f8ac8ad513a32a09/1000.0.0-0000891dee48/_/download/resources/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-resources/images/placeholder-medium-file.png'); width: 250px; height: 95px; display: inline-block; padding-top: 155px; margin: 2px; border: 1px solid #ddd; text-align: center; vertical-align: text-bottom; text-decoration: none; font-size: 12px; color: #000;\">Invalid file id - abdf8b\u2026</span></a><p /><p><strong>Step 5: Select \u201csearch\u201d and call it \u201cjson\u201d</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949314/image-20230608-180602.png?api=v2\"></span><p /><p><strong>Step 6: Select the newly created template. \u00a0Erase the default code from your newly created template. \u00a0Then copy/paste the code below. \u00a0Then click Save.</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949314/image-20230608-180609.png?api=v2\"></span><p /><p>{%- layout none -%}</p><p>{%- paginate search.results by 250 -%}</p><p>{%- if search.performed -%}</p><p>{&quot;products&quot;: [</p><p>{%- for item in search.results -%}</p><p>{%- unless item.object_type == 'product' -%}{%- continue -%}{%- endunless -%}</p><p>{{- item | json -}}</p><p>{%- unless forloop.last %},{% endunless -%}</p><p>{%- endfor -%}</p><p>]}</p><p>{%- endif -%}</p><p>{%- endpaginate -%}</p><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936949314"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936949314/child",
+    "restrictions": "/rest/api/content/1936949314/restriction/byOperation",
+    "history": "/rest/api/content/1936949314/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936949314/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936949314",
+    "webui": "/spaces/SCD/pages/1936949314/Shopify+-+Setup+Liquid+Template+for+suppliers",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936949314",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936949314",
+    "tinyui": "/x/QoBzcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "seedQuery": "t",
+  "values": [
+    {
+      "title": "Embed Qsite\u2122 Features Into Your Website",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936785428",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936785428"
+      }
+    },
+    {
+      "title": "Print Settings - Invoices",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933377656",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933377656"
+      }
+    },
+    {
+      "title": "Customer Management: Import Customer Data",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933246632",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933246632"
+      }
+    },
+    {
+      "title": "Inventory Management: Replenishment Methods",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525994",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525994"
+      }
+    },
+    {
+      "title": "Print Settings - Receipt Template",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932361958",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932361958"
+      }
+    }
+  ]
+}

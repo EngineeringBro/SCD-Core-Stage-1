@@ -1,0 +1,17 @@
+{
+  "seedQuery": "y",
+  "values": [
+    {
+      "title": "Qsite\u2122 Opportunities - Catalog and Pricing",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2424930307",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2424930307"
+      }
+    }
+  ]
+}

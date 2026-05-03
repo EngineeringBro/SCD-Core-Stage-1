@@ -1,0 +1,130 @@
+{
+  "id": "2040627350",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2040627350",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA0MDYyNzM1MA==",
+  "status": "current",
+  "title": "1.7.4.11",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-08-01T23:00:58.611Z",
+    "friendlyWhen": "Aug 02, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "3",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2040627350.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2040627350"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040627350/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This update includes some optimizations.</p><p><strong>Billing Agent</strong></p><ul><li><p>When you have billing agents with tens of thousands of tickets, the Billing Agent index/search page would take much too long to load. This problem has been resolved.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2040627350"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 430967055
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2040627350/child",
+    "restrictions": "/rest/api/content/2040627350/restriction/byOperation",
+    "history": "/rest/api/content/2040627350/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2040627350/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2040627350",
+    "webui": "/spaces/SCD/pages/2040627350/1.7.4.11",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2040627350",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040627350",
+    "tinyui": "/x/loCheQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

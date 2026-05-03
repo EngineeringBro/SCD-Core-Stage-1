@@ -1,0 +1,129 @@
+{
+  "id": "1934917701",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934917701",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDkxNzcwMQ==",
+  "status": "current",
+  "title": "Invoicing: Net Terms Billing for Customers",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:49.615Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "32",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934917701.18",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934917701"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934917701/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Invoicing is a feature available to users on our Advanced and Professional plans. You can bill customers for batches of tickets on invoices with a payment period (Net Terms) to indicate when you should be paid for those invoiced goods/services. This allows you to invoice the customer directly, rather than a third-party Billing Agent.</p><h3 id=\"Invoicing:NetTermsBillingforCustomers-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196827/Invoicing+Resources\" data-linked-resource-id=\"1934196827\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196840/Invoicing+Creating+and+Managing+Invoices\" data-linked-resource-id=\"1934196840\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing: Creating and Managing Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377743/Customer+Search\" data-linked-resource-id=\"1933377743\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Customer Search</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Managing Customer Profiles</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917701/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Invoicing:NetTermsBillingforCustomers-AllowNetTermsInvoicingforaCustomer\">Allow Net Terms Invoicing for a Customer</h2><p /><p>1. <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377743/Customer+Search\" data-linked-resource-id=\"1933377743\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Search for the customer</a> that you wish to assign a Billing Agent and view their Customer Profile.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917701/Net%20Terms%201.png?api=v2\"></span><p /><p>2. On the right side of the page, click the <strong>Edit button </strong>to make changes to their profile.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917701/Net%20Terms%202.png?api=v2\"></span><p /><p>3. On the Edit Customer pop-up, click the <strong>Billing tab </strong>on the left column. Under the Billing Terms (Net Terms) section, select <strong>Has Billing Terms</strong> and assign a Billing Cycle. These are required for invoicing the customer. After making your selections, click the <strong>Save button</strong> to finalize your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917701/Net%20Terms%203.png?api=v2\"></span><ul><li><p><strong>Has Billing Terms</strong> - If selected, this will allow you to create invoices for the customer. De-select to remove this option.</p></li><li><p><strong>Billing Cycle in Days</strong> - Enter the billing term (cycle) in days for when the invoice will be due from the customer.</p></li><li><p><strong>Prefers Batch Invoices</strong> - If selected, the default when creating an invoice will be to send a single batch invoice for all tickets listed. If not selected, the default will be to invoice each ticket separately with sequential invoice numbers. Invoice email notifications can be set up under <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notifications</a>.</p></li></ul><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934917701"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934917701/child",
+    "restrictions": "/rest/api/content/1934917701/restriction/byOperation",
+    "history": "/rest/api/content/1934917701/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934917701/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934917701",
+    "webui": "/spaces/SCD/pages/1934917701/Invoicing+Net+Terms+Billing+for+Customers",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934917701",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934917701",
+    "tinyui": "/x/RYBUcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

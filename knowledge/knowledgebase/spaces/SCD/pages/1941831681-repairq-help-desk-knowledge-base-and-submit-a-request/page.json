@@ -1,0 +1,129 @@
+{
+  "id": "1941831681",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1941831681",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTk0MTgzMTY4MQ==",
+  "status": "current",
+  "title": "RepairQ Help Desk - Knowledge Base and Submit a Request",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:27.305Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 33,
+    "minorEdit": false,
+    "ncsStepVersion": "169",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1941831681.116",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1941831681"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1941831681/version/33"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p local-id=\"4d8d146c9668\">The Help Desk is designed to enhance your support experience by offering self-help options through our Knowledge Base and allowing users to submit and manage support requests.</p><ul local-id=\"4d9b78e0e06f\"><li local-id=\"2c8d6c21b0d2\"><p local-id=\"a8a01b95175a\"><strong>Knowledge Base</strong> - Our online resource that provides self-help tutorials, instructions, and troubleshooting guides to help users find solutions to common issues and perform everyday tasks within RepairQ.</p></li><li local-id=\"6157c5369910\"><p local-id=\"2acc5916bbf8\"><strong>Submit Support Requests</strong> - Quickly submit support tickets through our application or Support website.</p></li><li local-id=\"dae7335fd633\"><p local-id=\"fb4331316e4b\"><strong>Direct Communication</strong> - Stay connected with our global Support Team to discuss your concerns and ask questions.</p></li><li local-id=\"21588775b582\"><p local-id=\"47886c83844a\"><strong>Track Progress</strong> -  Monitor the status of your support tickets and receive timely updates on any issues.</p></li></ul><p local-id=\"b907b5e9fc36\">To ensure your support request is handled quickly and securely, please use the email address associated with your User Profile in RepairQ when <a class=\"external-link\" href=\"http://servicecentral.atlassian.net/servicedesk/customer\" rel=\"nofollow\">creating a Help Desk user account</a> and when filling out the \u201cCustomer Email Address\u201d field when submitting a request. This address is used for verifying your identity and determining your available permissions for the request. Following this process helps us address your concerns securely and efficiently, helping our users receive the best support experience.</p><p local-id=\"3198772627dd\"><strong>Note</strong>: If you are corresponding via email, update your Approved Senders List with the following email addresses to ensure you receive our response: <strong>no-reply@automation.atlassian.com</strong> and <strong>jira@automation.atlassian.com</strong>. If you have not received a response promptly, we also recommend checking your spam and trash folders before sending a follow-up to our team.<br/><br/></p><h3 local-id=\"add38bd3629c\" id=\"RepairQHelpDesk-KnowledgeBaseandSubmitaRequest-AdditionalResources\">Additional Resources</h3><ul local-id=\"ea7a9ef1c645\"><li local-id=\"f8b3d29e7088\"><p local-id=\"63f6a9c7067c\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1941700634/Create+a+Help+Desk+User+Account\" data-linked-resource-id=\"1941700634\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">Create a Help Desk User Account</a></p></li><li local-id=\"9d6c27434170\"><p local-id=\"5a0bcc091b02\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494471/Help+Desk+Hours+and+Support+Requests\" data-linked-resource-id=\"1930494471\" data-linked-resource-version=\"33\" data-linked-resource-type=\"page\">Help Desk Hours and Support Requests</a></p></li><li local-id=\"75a564c6d917\"><p local-id=\"b14866c800e2\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1941143880/RepairQ+Help+Desk+-+Viewing+Requests+and+Status+Updates\" data-linked-resource-id=\"1941143880\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Help Desk - Viewing Requests and Status Updates</a></p></li><li local-id=\"56772912d993\"><p local-id=\"057c687c7498\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2013626370/RepairQ+Help+Desk+-+Organization+Management\" data-linked-resource-id=\"2013626370\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">RepairQ Help Desk - Organization Management</a></p></li><li local-id=\"f9f527ac6307\"><p local-id=\"5048094d3dd4\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624095/RepairQ+Support+Login+Authorization\" data-linked-resource-id=\"1932624095\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Support Login Authorization</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941831681/Instructional%20-%200091cd.png?api=v2\"></span><h2 local-id=\"abed38044b63\" id=\"RepairQHelpDesk-KnowledgeBaseandSubmitaRequest-NavigatingtheHelpDesk\">Navigating the Help Desk</h2><p local-id=\"6f96b843955c\">On your computer or mobile device, <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portals\" rel=\"nofollow\"><strong>click this link to view our Support Page</strong></a> and create an account or log in with your existing credentials.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"570\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941831681/HD%201.png?api=v2\"></span><h3 local-id=\"3fb800830b74\" id=\"RepairQHelpDesk-KnowledgeBaseandSubmitaRequest-SearchingtheKnowledgeBase\">Searching the Knowledge Base</h3><p local-id=\"76dfeb1ceb77\">Type a keyword or phrase in the <strong>Search Box </strong>to find articles related to your search. Click on the article to view instructions and additional resources. If you do not see your results click <strong>Show more articles </strong>to expand the result list.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"569\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941831681/HD%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"442\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941831681/HD%204.png?api=v2\"></span><p local-id=\"6310a82e8a11\" /><p local-id=\"51bc88e95ee1\">When viewing an article, you can use the breadcrumb links above the article title to go back to your search results and the Help Desk homepage.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"679\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941831681/HD%205.png?api=v2\"></span><hr local-id=\"f37968db0007\"/><h2 local-id=\"4ed36eed0f2f\" id=\"RepairQHelpDesk-KnowledgeBaseandSubmitaRequest-ReportanIssue/BugtoOurSupportTeam\">Report an Issue/Bug to Our Support Team</h2><p local-id=\"a4f6faf1485a\">On the Support Page, click <strong>Report Issue/Bug </strong>to begin a support request. Select the category that best fits your issue.</p><ul local-id=\"0749a46bbdc6\"><li local-id=\"d4f18b5f54ec\"><p local-id=\"86ee9f39fa57\"><strong>Software Issue/Bug</strong> - Use this category for any general issues/bugs encountered using RepairQ.</p></li><li local-id=\"4af82971cf4e\"><p local-id=\"3e42546f4e48\"><strong>Payment Issue</strong> - Use this category for any issues affecting your Virtual Cash Terminal (VCT), integrated payment processing, and cash transfers/cash reconciliation.</p></li><li local-id=\"1d77a68e07ae\"><p local-id=\"547bb3cf9633\"><strong>Reporting Issue</strong> - Use this category for any issues that affect your reporting/analytics.</p></li><li local-id=\"3426cf6f9fe1\"><p local-id=\"396785ffc42c\"><strong>Ticket/Workflow Issue</strong> - Use this category for any issues that affect your ticket workflow.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"571\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941831681/HD%206.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"571\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941831681/HD%207.png?api=v2\"></span><h2 local-id=\"d3ea129586ee\" id=\"RepairQHelpDesk-KnowledgeBaseandSubmitaRequest-RequestDetails\">Request Details</h2><p local-id=\"f7d81e10e09d\">Fill out your contact information, including your name, email address, and phone number. Next, add a Subject for the request.</p><ul local-id=\"14761ed121ab\"><li local-id=\"434dd7e59063\"><p local-id=\"7f70ba03763d\"><strong>Email confirmation to</strong> - The email address where the customer will receive a confirmation of their support request or ticket submission.</p></li><li local-id=\"d0f413d2b64e\"><p local-id=\"853b564c7488\"><strong>Customer Email Address</strong> - The email address associated with the customer submitting the support request, used for communication and updates. We recommend using the email address associated with your User Profile in RepairQ, so we can quickly verify your account.</p></li><li local-id=\"8bddc91a6de5\"><p local-id=\"e28de974f532\"><strong>Reporter Phone #</strong> - The phone number of the person reporting the issue, used for direct communication if needed.</p></li><li local-id=\"7675f628864b\"><p local-id=\"041a040f362b\"><strong>Subject </strong>-<strong> </strong>A brief title or summary of the issue being reported, used to quickly identify the ticket's purpose.</p><ul local-id=\"ce9d55ffb864\"><li local-id=\"8f774087382d\"><p local-id=\"453727555647\">When you fill out the Subject field, this will also search the Knowledge Base for articles that may answer your question/concern without contacting the Support Team!</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"571\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941831681/HD%2017.png?api=v2\"></span><ul local-id=\"9c9bd034b678\"><li local-id=\"ca061e4370d4\"><p local-id=\"e7bf1f26c9a7\"><strong>Description </strong>- A detailed explanation of the issue or request, including any relevant context, steps to reproduce, or observed behavior.</p><ul local-id=\"0d278d73dae9\"><li local-id=\"3d40f2400dc1\"><p local-id=\"bd7643903b6a\">Please provide your database URL, located in the address bar of your browser. For example, <em>businessname.repairq.io</em> or <em>401b-ca1001.repairq.io</em>.</p></li></ul></li><li local-id=\"9d15b56aa943\"><p local-id=\"5edd5873c228\"><strong>Ticket # or Purchase Order # (if applicable)</strong> - A unique identifier to reference the ticket in your environment or associated Purchase Order.</p></li><li local-id=\"1b02fd050131\"><p local-id=\"1f64e3753296\"><strong>Attachment </strong>- Any supporting files, such as screenshots or documents, that help explain or resolve the issue. Visual aids can help our Support Team better understand your issue.</p><ul local-id=\"ef3927299ab4\"><li local-id=\"2047f6528433\"><p local-id=\"098ae03d9d60\"><em>Windows Snipping Tool</em> - Open the tool by searching for &quot;Snipping Tool&quot; in the Start menu or use the shortcut (<strong>Windows Key + Shift + S)</strong> to open the Snip &amp; Sketch tool for capturing part of the screen.</p></li><li local-id=\"35e9a4a4d54a\"><p local-id=\"4282ab6d2882\"><em>macOS Shortcuts</em> - Use shortcuts to capture screenshots of your entire screen, a selected area, or a specific window, and also provide options for screen recording.</p><ul local-id=\"b77f69f0643d\"><li local-id=\"205b72fd606f\"><p local-id=\"09903700c511\"><strong>Shift + Command (\u2318) + 3</strong> - Captures the entire screen.</p></li><li local-id=\"0ca7c5b6fb20\"><p local-id=\"1c6e42b71a69\"><strong>Shift + Command (\u2318) + 4</strong> - Captures a selected portion of the screen.</p></li><li local-id=\"585585cdf76c\"><p local-id=\"933c91c7270e\"><strong>Shift + Command (\u2318) + 5</strong> - Opens the screenshot toolbar for more options, including capturing specific windows.</p></li></ul></li></ul></li><li local-id=\"5c2b5e137697\"><p local-id=\"60bfa48785a2\"><strong>Support Level</strong> - A categorization of the issue's urgency or complexity, indicating the priority or type of support required.</p><ul local-id=\"b921dcd06990\"><li local-id=\"748b2bf9a184\"><p local-id=\"a14faad71039\"> <strong>Low</strong> -  Ticket maintenance and updates, Assistance with correcting user inputs,  Cosmetic issues with no impact to functionality,  and General feature questions and adoption.</p></li><li local-id=\"9eba2268a5b7\"><p local-id=\"d55ace58576b\"> <strong>Medium</strong> -  Error or delays in workflows, Inventory counts and errors, and Impacts to system functionality with practical workaround available.</p></li><li local-id=\"07caeed04076\"><p local-id=\"fe957c22e9e2\"><strong>High</strong> - Significant impact on daily operations without a<br/>practical workaround available, Business support functions are unavailable<br/>(reporting, inventory updates, etc.), and  Unavailable features or functionality.</p></li><li local-id=\"93b437ffe51e\"><p local-id=\"b07c290203a3\"> <strong>Critical</strong> - Site Down, No User Access, and Inability to create tickets or perform basic transactions. <em>If submitting a ticket via email. Send to </em><a class=\"external-link\" href=\"mailto:supportteam@servicecentral.com\" rel=\"nofollow\"><em>supportteam@servicecentral.com</em></a><em> and add EMERGENCY, URGENT, or CRITICAL in the subject line.</em><br/><br/></p></li></ul></li></ul><h2 local-id=\"7be488e34f00\" id=\"RepairQHelpDesk-KnowledgeBaseandSubmitaRequest-RepairQSupportLoginAuthorization\">RepairQ Support Login Authorization</h2><p local-id=\"28ad4d5d7cc2\">RepairQ includes added security measures, allowing in-app authorization for RepairQ Support team members to access your database. These allow the Support Team to log into your database to investigate issues and assist with support tickets and even impersonate users to research those issues from the requester's point of view. To grant our Support Team access to your environment, <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932624095\" rel=\"nofollow\"><strong>click here for instructions on granting Support access</strong></a>.</p><p local-id=\"845f339b3a60\" /><p local-id=\"6e235d09428f\" /><p local-id=\"6e96ba487c20\">START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1941831681"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1941831681/child",
+    "restrictions": "/rest/api/content/1941831681/restriction/byOperation",
+    "history": "/rest/api/content/1941831681/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1941831681/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1941831681",
+    "webui": "/spaces/SCD/pages/1941831681/RepairQ+Help+Desk+-+Knowledge+Base+and+Submit+a+Request",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1941831681",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1941831681",
+    "tinyui": "/x/AQC_cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

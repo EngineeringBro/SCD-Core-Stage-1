@@ -1,0 +1,129 @@
+{
+  "id": "1938096131",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1938096131",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzODA5NjEzMQ==",
+  "status": "current",
+  "title": "Appointments: Scheduling Holidays",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:59.441Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1938096131.31",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1938096131"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1938096131/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Users can set holidays to block out the entered time for your store hours and for your appointment calendar. Holidays can be managed at the Location level, or at the Company (Global) level if you are an Admin.\u00a0</p><h3 id=\"Appointments:SchedulingHolidays-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425067/Qsite+Ticket+Status+-+Keep+Customers+Updated+on+Their+Tickets\" data-linked-resource-id=\"1936425067\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Status</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936588905/Qsite+Opportunities\" data-linked-resource-id=\"1936588905\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Qsite\u2122 Opportunities</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261226/Qsite+Opportunities+Settings+Management\" data-linked-resource-id=\"1936261226\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Opportunities Settings</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202001.png?api=v2\"></span><h2 id=\"Appointments:SchedulingHolidays-FindingYourHolidaySettings\">Finding Your Holiday Settings</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192<strong> Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202012.png?api=v2\"></span><p /><p><strong>Note:</strong>\u00a0If you are a Location Admin or below, or you only want to edit holidays for one location, instead navigate to\u00a0<strong>Settings</strong>\u00a0\u2192<strong>\u00a0Location Settings</strong>.</p><p /><p>2. On the Settings Overview page, click the Account Dropdown on the left column. From the available options, click <strong>Holidays</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202042.png?api=v2\"></span><p /><p>3. You should now be on the Holidays page, where you can see scheduled holidays and create new events or edit/delete existing events.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202058.png?api=v2\"></span><p /><h2 id=\"Appointments:SchedulingHolidays-NavigatingTheHolidayCalendar\">Navigating The Holiday Calendar</h2><p /><p>1. Use the left and right arrows above the calendar to cycle between months.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202112.png?api=v2\"></span><p /><p>2. At any point, you can use the <strong>today</strong> button to jump back to the current date and month.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202123.png?api=v2\"></span><p /><p>3. To select a day, click on the calendar cell on that date. To the right of the calendar, you will see a text field with the holiday's name.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202137.png?api=v2\"></span><p /><p><strong>Note</strong>: If there is no holiday set for that day, the field will be blank and ready for assignment.</p><p /><h2 id=\"Appointments:SchedulingHolidays-Adding,Editing,andRemovingHolidays\">Adding, Editing, and Removing Holidays</h2><p /><p>1. To add a holiday, select a date on the calendar, then on the right-hand side of the calendar type in the holiday's name.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202218.png?api=v2\"></span><p /><p>2. Continue filling out the fields to assign specific locations and whether the holiday will affect the entire day or a set time range. By default, <strong>All Day (location closed for full day)\u00a0</strong>is selected.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202230.png?api=v2\"></span><p /><p><strong>Note</strong>: You can uncheck this box and manually add a range of dates by filling out the <strong>Location Open Time </strong>and<strong> Location Close Time</strong> fields for the holiday. This is useful if your company or location takes any half-day or partial holidays.</p><p /><p>3. After entering the holiday information, click the <strong>Save</strong> <strong>button</strong> to finalize your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202257.png?api=v2\"></span><p /><p>4. To edit holiday information, select the date on the calendar, and then edit the same fields you used to add the holiday and save your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202311.png?api=v2\"></span><p /><p>5. To remove a holiday, select a date on the calendar that already has a holiday, and click <strong>Delete.</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938096131/image-20230606-202324.png?api=v2\"></span><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1938096131"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1938096131/child",
+    "restrictions": "/rest/api/content/1938096131/restriction/byOperation",
+    "history": "/rest/api/content/1938096131/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1938096131/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1938096131",
+    "webui": "/spaces/SCD/pages/1938096131/Appointments+Scheduling+Holidays",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1938096131",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1938096131",
+    "tinyui": "/x/AwCFcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

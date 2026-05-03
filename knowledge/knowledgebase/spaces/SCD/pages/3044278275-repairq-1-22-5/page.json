@@ -1,0 +1,130 @@
+{
+  "id": "3044278275",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/3044278275",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMzA0NDI3ODI3NQ==",
+  "status": "current",
+  "title": "RepairQ 1.22.5",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2025-02-24T21:52:37.112Z",
+    "friendlyWhen": "Feb 24, 2025",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1523",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$3044278275.20",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/3044278275"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3044278275/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p /><h2 id=\"RepairQ1.22.5-NewFeaturesandEnhancements\">New Features and Enhancements</h2><h3 id=\"RepairQ1.22.5-Settings\">Settings</h3><ul><li><p>We've optimized the <strong>Company General Settings</strong> page to reduce load times in larger environments.</p></li><li><p>We've streamlined the Ticket Label Customization settings (<strong>Location Settings \u2192 Ticket General Settings \u2192 Customize Ticket Edit</strong>) to show only the relevant label options based on your selected \u201cDefault View.\u201d This reduces confusion when customizing fields. If the Default View is set to:</p><ul><li><p><strong>Default</strong> - the the following fields are hidden: \u201cTax-Inclusive Unit Price (before discount)\u201d and \u201cEffective Quantity.\u201d</p></li><li><p><strong>Tax Inclusive</strong> - the following fields are hidden: \u201cUnit Price (before tax or discount)\u201d and \u201cEffective Quantity.\u201d</p></li></ul></li></ul><h3 id=\"RepairQ1.22.5-PurchaseOrdersandCatalog\">Purchase Orders and Catalog</h3><ul><li><p>We've modified the Internal PO process to remove automatic backordering. Now, when an Internal PO can't be fully fulfilled due to low stock, RepairQ can send a notification instead of creating backordered items. This change gives inventory managers better visibility into stock shortages without adding unnecessary backorders.</p></li><li><p>We've introduced new Automated Notification Triggers related to the Internal PO process:</p><ul><li><p><strong>Insufficient Stock for Internal Purchase Orders</strong> - This notification alerts you when there isn\u2019t enough available stock to fulfill an Internal Purchase Order.</p></li><li><p><strong>New Stock Available for Internal Purchase Orders</strong> - This notification triggers when new items are added outside of Purchase Orders or Imports\u2014like through manual adjustments, inventory counts, or items returned from tickets. If there are existing Internal Purchase Orders or backorders for these items, RepairQ will notify you, ensuring you're aware that newly available stock can be used to fulfill open demands.</p></li></ul></li><li><p>We've introduced an API integration that allows suppliers to send Purchase Order information directly to customer environments, streamlining the procurement process with seamless order submissions and reduced manual entry.</p></li><li><p>We've improved catalog management by automatically removing inactive, deleted, or merged items from service program catalogs and compatibility modals when they are no longer active in the catalog.</p></li></ul><p /><h2 id=\"RepairQ1.22.5-BugFixes\">Bug Fixes</h2><h3 id=\"RepairQ1.22.5-SettingsandExports\">Settings and Exports</h3><ul><li><p>We've fixed an issue where users were prevented from saving to <strong>Company General Settings</strong> without selecting a rounding method, even when the Cash Rounding feature was inactive.</p></li><li><p>We've fixed an issue where exporting large files from the <strong>Tickets</strong> page would result in an error. Pagination has been optimized to reduce memory usage, allowing large-volume exports to complete successfully.</p></li></ul><h3 id=\"RepairQ1.22.5-InventoryManagement\">Inventory Management</h3><ul><li><p>We've resolved an issue where sent RMA records couldn't be searched due to the page continuously loading when applying filters for <strong>RMA Sent</strong> status. You can now filter and search these records without any issues.</p></li><li><p> Fixed an issue that prevented filtering the Inventory Transfer list by \u201cSupplier.\u201d</p></li><li><p>Fixed an issue that caused an error message when changing the List View Total on the RMA tracking page to either 50 or 100.</p></li></ul><h3 id=\"RepairQ1.22.5-TicketsandAppointments\">Tickets and Appointments</h3><ul><li><p>We've fixed an issue where serial numbers were not being saved when adding a device to a Trade-in Ticket.</p></li><li><p>We've fixed an issue where users were unable to edit appointments due to a &quot;Concurrency Limit has been reached&quot; error when updating fields unrelated to the appointment time.</p></li></ul><h3 id=\"RepairQ1.22.5-Invoicing\">Invoicing</h3><ul><li><p>We've fixed an issue where a Billing Agent couldn't be removed from a ticket once assigned. Now, you can clear the selection by choosing &quot;Select Billing Agent&quot; from the dropdown, and the change will save correctly.</p></li><li><p>We've fixed an issue in Invoice Template settings where the SKU field visibility toggle wasn\u2019t working as expected. Now, when the SKU toggle is selected, the SKU will appear on invoices, and when deselected, it will be hidden as intended.</p></li></ul><h3 id=\"RepairQ1.22.5-Attendance/Timesheets\">Attendance/Timesheets</h3><ul><li><p>We've fixed an issue in the System Log for Timesheet entries where changes to a user's timecard displayed &quot;Timesheet (Error with timesheet relation)&quot;. The log now correctly shows the employee's name and details of the clocked hours that were changed.</p></li><li><p>We've fixed an issue when adding attendance records. The employee field was greyed out, preventing stores from adding new records. Admins and Managers can now select employees and log attendance as expected.</p></li></ul><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/3044278275"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 258982
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/3044278275/child",
+    "restrictions": "/rest/api/content/3044278275/restriction/byOperation",
+    "history": "/rest/api/content/3044278275/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/3044278275/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=3044278275",
+    "webui": "/spaces/SCD/pages/3044278275/RepairQ+1.22.5",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/3044278275",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3044278275",
+    "tinyui": "/x/AwB0tQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

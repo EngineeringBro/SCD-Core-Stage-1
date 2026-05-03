@@ -1,0 +1,129 @@
+{
+  "id": "1971814409",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1971814409",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTk3MTgxNDQwOQ==",
+  "status": "current",
+  "title": "Inventory Management: Auto-Serialization Setup",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:23.173Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1971814409.213",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1971814409"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1971814409/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Serial numbers are unique, identification numbers/alphanumeric characters assigned to products to distinguish them individually, rather than an entire range of the same product. In RepairQ, when a catalog item is marked as serialized, a serial number is required before the item can be counted and tracked in the system. If you have items that do not have serial numbers, but would like to assign one to them for tracking purposes, the auto-serialization feature can generate a serial number for those items when added/imported into inventory. This feature also works alongside our Part Core Recovery process to assign a serial number to part cores that are going back to the manufacturer.</p><p>Auto-serialization is assigned at the Item Type classification of the Catalog item, so any items that are also marked as serialized will have unique serial numbers generated for them. Catalog items under this Item Type that are inventoried but not serialized will not be affected.</p><h3 id=\"InventoryManagement:Auto-SerializationSetup-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329027/Creating+a+New+Item+Type\" data-linked-resource-id=\"1932329027\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Creating a New Item Type</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525994/Inventory+Management+Replenishment+Methods\" data-linked-resource-id=\"1932525994\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Adding Inventory Into RepairQ</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1952481286/Part+Core+Recovery+Recover+a+Part+Core+on+a+Ticket\" data-linked-resource-id=\"1952481286\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Part Core Recovery: Recover a Part Core on a Ticket</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1971814409/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"InventoryManagement:Auto-SerializationSetup-ActivateAuto-SerializationforanItemType\">Activate Auto-Serialization for an Item Type</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1971814409/Serial%201.png?api=v2\"></span><p /><p>2. On the Settings Overview page, click <strong>Item Types </strong>under the Catalog section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1971814409/Serial%202.png?api=v2\"></span><p /><p>3. On the Item Types Overview page, you can choose to <strong>Add Item Type </strong>or <strong>Edit </strong>an existing type. Auto-serialization is defined for each Item Type in your catalog.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1971814409/Serial%204.png?api=v2\"></span><p><strong>Note</strong>: You may also notice there is a new <strong>Auto Gen Serial</strong> column on the list, which notes whether Auto-Seriailze is turned ON or OFF for an Item Type.</p><p /><p>4. When creating/changing item type fields, look for the <strong>Auto Generate Serial Numbers </strong>section. Update these fields, based on your preference. After you have made your changes, be sure to <strong>Save </strong>your settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1971814409/Serial%205.png?api=v2\"></span><ul><li><p><strong>Enabled </strong>- This checkbox will enable/disable the Auto Generate feature.</p></li><li><p><strong>Serial Prefix </strong>- (Optional) Add a unique prefix that will be part of the generated serial numbers.</p><ul><li><p>You can add a prefix to note which serial numbers were generated and not issued by the manufacturer.</p></li></ul></li><li><p><strong>Serial Format</strong> - Select the serial format when generating new serial numbers.</p><ul><li><p><strong>With Hyphen </strong>- Generates a serial number with a hyphen.</p></li><li><p><strong>Without Hyphen </strong>- Generates a serial number without a hyphen.</p></li><li><p><strong>UID Without Hyphen </strong>- Generates a unique identifier (UID) that is also the Inventory ID for the item in RepairQ.</p><ul><li><p>As your inventory grows over time, the Inventory IDs for each item will increase in numerical digits, meaning if you use this method for serialization, the serial number characters will not be uniform across items.</p></li></ul></li></ul></li></ul><h2 id=\"InventoryManagement:Auto-SerializationSetup-ExamplesofAuto-SerializationinRepairQ\">Examples of Auto-Serialization in RepairQ</h2><p>Note: Entering an existing serial number while auto-serialization is turned on is currently in development.</p><h3 id=\"InventoryManagement:Auto-SerializationSetup-CatalogQuickCreate\">Catalog Quick Create</h3><p>When adding a serialized item via quick create, you will need to assign a serial number. Auto-serialization is pending development.</p><p>(Screenshots pending)</p><h3 id=\"InventoryManagement:Auto-SerializationSetup-InventorySummary\">Inventory Summary</h3><p>When adding a serialized item into inventory, the system will automatically generate a serial number into the system when the details are saved.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1971814409/Serial%206.png?api=v2\"></span><p /><h3 id=\"InventoryManagement:Auto-SerializationSetup-PurchaseOrders\">Purchase Orders</h3><p>When adding serialized items via Purchase Order, you will enter the total for <strong>Receiving </strong>items. The system will automatically generate a serial number into the system when the PO is saved.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1971814409/Serial%209.png?api=v2\"></span><h3 id=\"InventoryManagement:Auto-SerializationSetup-Trade-inTickets\">Trade-in Tickets</h3><p>When entering device details for a trade-in item, you will need to assign a serial number.  Auto-serialization is pending development.</p><p>(Screenshots pending)</p><h3 id=\"InventoryManagement:Auto-SerializationSetup-ImportingInventoryLevels\">Importing Inventory Levels</h3><p>When importing items into inventory via import adjustment, the Serial Number field can be left blank, since the system will generate a serial number when the list is imported.</p><p>(Screenshots pending)</p><p /><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1971814409"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1971814409/child",
+    "restrictions": "/rest/api/content/1971814409/restriction/byOperation",
+    "history": "/rest/api/content/1971814409/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1971814409/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1971814409",
+    "webui": "/spaces/SCD/pages/1971814409/Inventory+Management+Auto-Serialization+Setup",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1971814409",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1971814409",
+    "tinyui": "/x/CYCHdQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

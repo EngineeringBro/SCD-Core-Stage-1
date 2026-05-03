@@ -1,0 +1,129 @@
+{
+  "id": "1936851025",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936851025",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjg1MTAyNQ==",
+  "status": "current",
+  "title": "Automated Notifications: Add a Qsite\u2122 Ticket Status Link",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:50.807Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936851025.32",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936851025"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936851025/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qsite Ticket Status provides an easy way for your customers to check their ticket status. The ticket status page shows a summary of the ticket, the current status of the ticket, the balance due, and when it was last updated. Users can send customers a link to Qsite when sending outgoing notifications.</p><h3 id=\"AutomatedNotifications:AddaQsite\u2122TicketStatusLink-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notification Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803736/Send+an+SMS+Ticket+Status+Notification\" data-linked-resource-id=\"1933803736\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Sending an SMS Notification to a Customer</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523327/Qsite+Resources\" data-linked-resource-id=\"1936523327\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Qsite\u2122 Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183525.png?api=v2\"></span><h2 id=\"AutomatedNotifications:AddaQsite\u2122TicketStatusLink-SendanAutomatedNotificationwithaQsiteTicketStatusLink\">Send an Automated Notification with a Qsite Ticket Status Link</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183530.png?api=v2\"></span><p /><p>2. On the Settings Overview screen, click the <strong>Communications</strong> dropdown on the left column of the list of settings. From the list of options, click <strong>Notifications</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183539.png?api=v2\"></span><p /><p>3. On the Notification Automation Overview page, you can add a new notification by clicking <strong>Create Notification Automation</strong> or add this link to an existing notification by clicking the <strong>Edit button</strong> under the Actions column.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183545.png?api=v2\"></span><p /><p>4. For this example, we are creating a new notification. On the New Automation Notification screen, begin filling out applicable fields.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183556.png?api=v2\"></span><ul><li><p><strong>Notification</strong> <strong>Name</strong> - Give your Automated Notification a name to identify its purpose.</p></li><li><p><strong>Location</strong> - Select whether this notification is strictly for your location or all locations (if applicable).</p></li><li><p><strong>Trigger</strong> - Qsite status shortcodes are available when selecting either Ticket Notification or Ticket Status Change.</p><ul><li><p><strong>Ticket</strong> <strong>Notification</strong> - The notification is sent out manually when clicking the notification button on the ticket. You can choose whether to send it via email or SMS.</p></li><li><p><strong>Ticket Status</strong> <strong>Change</strong> - The notification is automatically queued for delivery when the ticket is placed into the assigned status. Select the ticket status based on your preference for delivery timing.</p></li></ul></li><li><p><strong>Delivery</strong> - Select whether this notification will be delivered to the customer's email or via SMS.</p><ul><li><p>For SMS, the customer will need an assigned SMS Phone number and the appropriate carrier.</p></li></ul></li></ul><h3 id=\"AutomatedNotifications:AddaQsite\u2122TicketStatusLink-NotificationShortCodes\">Notification Short Codes</h3><p>Short Codes are dynamic values that change based on the context of your notification. Qsite Short Codes are available for any notification when selecting the triggers for <strong>Ticket Notification</strong> or <strong>Ticket Status Change</strong>.</p><p>After making your selections, click <strong>Save</strong> to update your changes and create the notification.</p><h3 id=\"AutomatedNotifications:AddaQsite\u2122TicketStatusLink-MessageSubject\">Message Subject</h3><p>Create a subject for your notification, similar to the subject of an email. You can enter any of the available shortcodes above to customize the available information.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183603.png?api=v2\"></span><h3 id=\"AutomatedNotifications:AddaQsite\u2122TicketStatusLink-SendTo\">Send To</h3><p>Copy/paste <strong>{customer}</strong> into this field, so the system knows this notification will be delivered to the customer assigned to the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183608.png?api=v2\"></span><h3 id=\"AutomatedNotifications:AddaQsite\u2122TicketStatusLink-SMSMessage\">SMS Message</h3><p>Add the message that will be communicated to the customer. To include a link to check their ticket status, make sure you include <strong>{ticket_status_url}</strong> somewhere in the message. This link will allow the customer to check their ticket status, plus additional information including balance due, customer-visible notes, and your store's contact information.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183614.png?api=v2\"></span><h3 id=\"AutomatedNotifications:AddaQsite\u2122TicketStatusLink-SMSNotificationExample\">SMS Notification Example</h3><p>Below is an example of the SMS that the customer will receive and the Qsite Ticket Status page on a mobile device.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183621.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851025/image-20230607-183627.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936851025"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936851025/child",
+    "restrictions": "/rest/api/content/1936851025/restriction/byOperation",
+    "history": "/rest/api/content/1936851025/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936851025/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936851025",
+    "webui": "/spaces/SCD/pages/1936851025/Automated+Notifications+Add+a+Qsite+Ticket+Status+Link",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936851025",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936851025",
+    "tinyui": "/x/UQBycw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

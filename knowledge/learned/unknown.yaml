@@ -1,0 +1,33 @@
+topic: Unknown
+topic_slug: unknown
+entries:
+- ticket_id: SCD-141991
+  guidance: this is a test ticket that looks like a notification so the good approach
+    is to dimiss it and fill the most appropiate topics that match it with 1 minute
+    logged time to user
+  provided_by: EngineeringBro
+  provided_at: '2026-04-26T14:39:11.385630+00:00'
+  issue_number: 6
+- ticket_id: SCD-141991
+  guidance: yes it can be dismissed but the fields to be filled with are wrong, you
+    need to scan the fields choices available and then choose the most matching ones
+    then suggest it as some of the field choices you suggested arent an option in
+    our jira scd ticket fields
+  provided_by: EngineeringBro
+  provided_at: '2026-04-26T14:51:57.153710+00:00'
+  issue_number: 8
+- ticket_id: SCD-141952
+  guidance: this is an orphaned transactions ticket, goes to orphaned transactions
+    module.
+  provided_by: EngineeringBro
+  provided_at: '2026-04-27T15:07:33.778155+00:00'
+  issue_number: 10
+- ticket_id: SCD-141952
+  guidance: 'module: orphaned transaction'
+  provided_by: EngineeringBro
+  provided_at: '2026-04-27T16:32:21.724679+00:00'
+  issue_number: 13
+  module_override: orphaned_transaction
+last_updated: '2026-04-27T16:32:21.724690+00:00'
+ticket_overrides:
+  SCD-141952: orphaned_transaction

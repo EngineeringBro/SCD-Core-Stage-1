@@ -1,0 +1,23 @@
+[
+  {
+    "ticket_id": "SCD-18858",
+    "source_file": "tickets_cache_2023.jsonl.gz",
+    "match_type": "exact_portal_url_pattern",
+    "matched_pattern": "servicecentral.atlassian.net/servicedesk/customer/portals",
+    "note": "Raw cache entry contains the Jira customer portal URL pattern."
+  },
+  {
+    "ticket_id": "SCD-14296",
+    "source_file": "tickets_cache_2023.jsonl.gz",
+    "match_type": "support_page_reference",
+    "matched_pattern": "knowledge base",
+    "note": "Ticket text says the requester was blocked by a Jira support page while trying to access support."
+  },
+  {
+    "ticket_id": "SCD-2292",
+    "source_file": "tickets_cache_2023.jsonl.gz",
+    "match_type": "knowledge_base_reference",
+    "matched_pattern": "knowledge base",
+    "note": "Ticket references helpful Knowledge Base articles for PAX troubleshooting."
+  }
+]

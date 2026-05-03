@@ -1,0 +1,129 @@
+{
+  "id": "1933803669",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933803669",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzgwMzY2OQ==",
+  "status": "current",
+  "title": "Create and Redeem Gift Cards",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:15.794Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933803669.31",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933803669"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803669/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Physical or virtual gift cards can be redeemed in RepairQ after creating related item types and catalog items. This is a multi-step process to set up gift cards in RepairQ. Click on any of the links below to jump to a section.</p><ul><li><p><a href=\"#Type\" rel=\"nofollow\">Creating a Gift Card Item Type</a></p></li><li><p><a href=\"#Item\" rel=\"nofollow\">Creating a Gift Card Catalog Item</a></p></li><li><p><a href=\"#Card\" rel=\"nofollow\">Creating a Gift Card Payment Method</a></p></li><li><p><a href=\"#Purchasing\" rel=\"nofollow\">Purchasing Gift Cards</a></p></li><li><p><a href=\"#Redeeming\" rel=\"nofollow\">Redeeming Gift Cards</a></p></li></ul><h3 id=\"CreateandRedeemGiftCards-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541687/Adding+and+Applying+Credit+Balances+for+Customers\" data-linked-resource-id=\"1933541687\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Adjusting Credit Balances for Customers</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494512/Creating+a+Quick+Sale+Ticket\" data-linked-resource-id=\"1930494512\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating a Quick Sale Ticket</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CreateandRedeemGiftCards-TypeCreatingaGiftCardItemType\"><span class=\"confluence-anchor-link\" id=\"CreateandRedeemGiftCards-Type\"><span class=\"confluence-anchor-link\" id=\"Type\"></span></span>Creating a Gift Card Item Type</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong> \u2192 <strong>Catalog</strong> \u2192 <strong>Item Types</strong>.</p><p /><p>2. On the Item Type overview page, click <strong>Add Item Type</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%201.png?api=v2\"></span><p /><p>3. Begin creating the new Item Type. Make sure to name the type something similar to &quot;Gift Card&quot; and select <strong>Can Override Price</strong> before saving.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%202.png?api=v2\"></span><p /><h2 id=\"CreateandRedeemGiftCards-ItemCreatingaGiftCardCatalogItem\"><span class=\"confluence-anchor-link\" id=\"CreateandRedeemGiftCards-Item\"><span class=\"confluence-anchor-link\" id=\"Item\"></span></span>Creating a Gift Card Catalog Item</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Catalog</strong>.</p><p /><p>2. On the Catalog Item List, click <strong>Add Catalog Item (+)\u00a0</strong>on the right side of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%204.png?api=v2\"></span><p /><p>3. Begin creating the new Catalog Item. Make sure to give the item a name that is recognizable like &quot;Gift Card.&quot; Select the <strong>Gift Card item type</strong> that you created in the previous steps, and set the Manufacturer field to N/A.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%205.png?api=v2\"></span><p /><p>Continue filling out the catalog item details. Add any additional details before saving at the upper-right of the page.</p><p /><p><strong>Note</strong>: It is your discretion whether to make gift cards part of your inventory or not. If you mark them as inventory, you will have to refill quantities as they run low, and they can be cycle-counted. If the cards are not marked as inventory, you are able to sell as many as you would like.</p><p>If creating an inventory version, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525994/Inventory+Management+Replenishment+Methods\" data-linked-resource-id=\"1932525994\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">How to Add Inventory</a><strong>\u00a0</strong>for steps on this process. Once you have adjusted your inventory, continue with the below steps.</p><p /><h2 id=\"CreateandRedeemGiftCards-CardCreatingaGiftCardPaymentMethod\"><span class=\"confluence-anchor-link\" id=\"CreateandRedeemGiftCards-Card\"><span class=\"confluence-anchor-link\" id=\"Card\"></span></span>Creating a Gift Card Payment Method</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong> \u2192 <strong>Payments</strong> \u2192 <strong>Payment Methods</strong>.</p><p /><p>2. On the Payment Method page, click <strong>Add Payment Method</strong> on the right side of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%2010.png?api=v2\"></span><p /><p>3. Begin Filling out the payment method details. Name your payment method something like &quot;Gift Card&quot; and select <strong>Other</strong> as the payment type. Add any additional information and click <strong>Save</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%2011.png?api=v2\"></span><p /><h2 id=\"CreateandRedeemGiftCards-PurchasingPurchasingGiftCards\"><span class=\"confluence-anchor-link\" id=\"CreateandRedeemGiftCards-Purchasing\"><span class=\"confluence-anchor-link\" id=\"Purchasing\"></span></span>Purchasing Gift Cards</h2><p>After you have adjusted your inventory for your gift cards, they are ready to sell to customers. Adding these items to inventory before selling out will assist with tracking gift card sales.</p><p /><p>1. Create a Quick Sale ticket as usual. It's a good idea to add a customer to the ticket if you would like to easily track the purchase for future questions that may arise.</p><p /><p>2. In the Ticket Items section, use the quick search box to add the gift card.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%207.png?api=v2\"></span><p /><p>3. After adding the gift card, adjust the Unit Price of the item based on the amount the customer wants to pay.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%208.png?api=v2\"></span><p /><p>4. Complete the transaction by taking payment and closing the ticket.</p><p /><h2 id=\"CreateandRedeemGiftCards-RedeemingRedeemingGiftCards\"><span class=\"confluence-anchor-link\" id=\"CreateandRedeemGiftCards-Redeeming\"><span class=\"confluence-anchor-link\" id=\"Redeeming\"></span></span>Redeeming Gift Cards</h2><p>When assigning your VCT, first make sure the <strong>Accept Other</strong> option is selected before starting. This will allow you to record payments under Gift Card.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%209.png?api=v2\"></span><p /><p>1. Begin a new Quick Sale ticket as usual and add the purchase items to the ticket.</p><p /><p>2. When the customer redeems their gift card, click the <strong>Add Transaction</strong> button on the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%2012.png?api=v2\"></span><p /><p>3. On the Add Transaction pop-up, select <strong>Gift Card</strong> as the payment type. Add the amount of the gift card to redeem, any additional notes, and click <strong>Submit Payment</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%2013.png?api=v2\"></span><p /><p><strong>Note</strong>: If the gift card has been fully consumed, you may opt to keep it in your cash drawer to assist with balancing the VCT at the end of the day.</p><p /><p>4. The Ticket Totals section will reflect the payment, and if there is a remaining balance due, the customer can pay with an alternate payment method.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803669/Gift%20Card%2014.png?api=v2\"></span><p /><p>5. Once the ticket has a zero balance, you can close the ticket out.</p><p /><p><strong>Note</strong>: If there is a remaining credit balance, you can create/update a Customer Profile and issue the remainder as a credit balance for their profile. For more information on this process, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541687/Adding+and+Applying+Credit+Balances+for+Customers\" data-linked-resource-id=\"1933541687\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Adjusting Credit Balances for Customers</a>.</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933803669"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933803669/child",
+    "restrictions": "/rest/api/content/1933803669/restriction/byOperation",
+    "history": "/rest/api/content/1933803669/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933803669/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933803669",
+    "webui": "/spaces/SCD/pages/1933803669/Create+and+Redeem+Gift+Cards",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933803669",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803669",
+    "tinyui": "/x/lYBDcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

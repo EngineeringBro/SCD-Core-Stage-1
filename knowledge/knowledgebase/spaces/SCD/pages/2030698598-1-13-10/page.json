@@ -1,0 +1,130 @@
+{
+  "id": "2030698598",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030698598",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDY5ODU5OA==",
+  "status": "current",
+  "title": "1.13.10",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T22:20:28.766Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "7",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030698598.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030698598"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698598/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p><em>Released\u00a011/29/2017 CT</em></p><h2 id=\"id-1.13.10-PurchaseOrderUpdates\">Purchase Order\u00a0Updates</h2><p>Purchase orders received a number of updates designed to\u00a0help you process and track POs even faster.</p><h3 id=\"id-1.13.10-NewStatuses\">New Statuses</h3><p>New statuses\u00a0were added to\u00a0help track\u00a0shipping and receiving easier.</p><ul><li><p>Shipped = When an internal PO has been completely fulfilled from the\u00a0supplier\u00a0location</p></li><li><p>Partially Shipped = When an internal PO has been fulfilled in part</p></li><li><p>Partially Received = When a PO has been only partially received</p></li></ul><h3 id=\"id-1.13.10-AutoReconciliation\">Auto Reconciliation</h3><p>When receiving a PO in full, RepairQ will ask if you want to move the PO to the reconciled status automatically.</p><h3 id=\"id-1.13.10-ReceivingZeroItems\">Receiving Zero Items</h3><p>RepairQ will\u00a0no longer permit you\u00a0to\u00a0receive zero items so that the &quot;received&quot; status is not misleading.</p><h2 id=\"id-1.13.10-SupplierRMA#\">Supplier RMA #</h2><p>We added a new &quot;Supplier RMA #&quot; field to RMA batches where you can note the\u00a0RMA # that the supplier provides.</p><h2 id=\"id-1.13.10-TicketItemSearchOptimization\">Ticket Item Search Optimization</h2><p>Ticket item searches are now considerably faster, and in most cases return results in &lt; 0.5 seconds!</p><h2 id=\"id-1.13.10-InventoryLockSystem\">Inventory Lock System</h2><p>Inventory\u00a0added to a ticket will be immediately reserved system-wide. If the item is removed or the ticket is abandoned without saving, then the item will become available again. This adds an automated system for preventing double-use of an item, while releasing the item automatically in the event the item is\u00a0not used.</p><h2 id=\"id-1.13.10-PhoneNumberFormattingonTickets\">Phone Number Formatting on Tickets</h2><p>The customer's phone number on tickets\u00a0displayed an unformatted version, but now it will display\u00a0formatted according to your\u00a0locale (as it does elsewhere in RepairQ).</p><h2 id=\"id-1.13.10-InventoryCountSheet-InactiveCatalogItems\">Inventory Count Sheet - Inactive Catalog Items</h2><p>Inactive\u00a0catalog items will no longer be recognized by the scan/search to add counts on the inventory count sheet.</p><h2 id=\"id-1.13.10-InventoryValuationReports-InactiveCatalogItemfilter\">Inventory Valuation Reports - Inactive Catalog Item filter</h2><p>Inactive catalog items will now be excluded from results by default, and inactive items can be included in the results by setting the &quot;Include Inactive Catalog Items&quot; filter.</p><h2 id=\"id-1.13.10-ProductivityReportExport\">Productivity Report Export</h2><p>The &quot;Repairs by Tech&quot; productivity report export was dropping digits after commas. This has been resolved.</p><h2 id=\"id-1.13.10-CustomFormsSettings\">Custom Forms Settings</h2><p>We now prevent\u00a0configuring a &quot;before leaving status&quot; of &quot;closed&quot; or &quot;void,&quot; because it could cause trouble with closing a return.</p><h2 id=\"id-1.13.10-InventoryImport\">Inventory Import</h2><p>We now\u00a0throw feedback\u00a0errors when you\u00a0try to import inventory under a non-inventoried catalog item.</p><h2 id=\"id-1.13.10-QuickBooksOnlineIntegrationandEditingCatalogItemsorItemTypes\">QuickBooks Online Integration and Editing Catalog Items or Item Types</h2><p>If you had the QuickBooks Online Integration enabled at one location, but not others it could prevent you from editing the catalog item. This has been resolved.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030698598"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 93995758
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030698598/child",
+    "restrictions": "/rest/api/content/2030698598/restriction/byOperation",
+    "history": "/rest/api/content/2030698598/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030698598/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030698598",
+    "webui": "/spaces/SCD/pages/2030698598/1.13.10",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030698598",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698598",
+    "tinyui": "/x/ZgAKeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

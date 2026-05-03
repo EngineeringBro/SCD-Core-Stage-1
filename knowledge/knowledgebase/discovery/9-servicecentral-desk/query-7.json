@@ -1,0 +1,473 @@
+{
+  "seedQuery": "7",
+  "values": [
+    {
+      "title": "Staff Management: View and Adjust Attendance Records",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2696282113",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2696282113"
+      }
+    },
+    {
+      "title": "Reopening Reconciled Purchase Orders",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2343272460",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2343272460"
+      }
+    },
+    {
+      "title": "Reopening Closed Tickets",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2340945933",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2340945933"
+      }
+    },
+    {
+      "title": "1.10.3",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2035712069",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2035712069"
+      }
+    },
+    {
+      "title": "1.13.5",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2030862411",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2030862411"
+      }
+    },
+    {
+      "title": "1.15.8.1 - 1.15.8.6",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2030862372",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2030862372"
+      }
+    },
+    {
+      "title": "1.15.4",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2030698538",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2030698538"
+      }
+    },
+    {
+      "title": "1.17.15",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2028896262",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2028896262"
+      }
+    },
+    {
+      "title": "RepairQ Help Desk - Viewing Requests and Status Updates",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1941143880",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1941143880"
+      }
+    },
+    {
+      "title": "QZ Printing System Requirements and Printer Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936588827",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936588827"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Activating Square Integration in RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936556034",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936556034"
+      }
+    },
+    {
+      "title": "Quick Create: Add New Catalog Items on Purchase Orders",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936425167",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936425167"
+      }
+    },
+    {
+      "title": "Integrated Printing 101: Downloading QZ Tray",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936359430",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936359430"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Windows 10",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936261135",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936261135"
+      }
+    },
+    {
+      "title": "Qsite\u2122 Ticket Approval Setup - Settings and Conditions",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936228434",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936228434"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Chrome OS",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935900725",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935900725"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX A80/A920",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935572993",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935572993"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change the LAN Type on a PAX S300",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935441921",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935441921"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935376416",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935376416"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - iOS",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935343627",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935343627"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX D210",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935179789",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935179789"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your PAX S300",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934917880",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934917880"
+      }
+    },
+    {
+      "title": "Appointments: Scheduling an Appointment",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934917649",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934917649"
+      }
+    },
+    {
+      "title": "Appointments: Changing an Appointment",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934852150",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934852150"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change Your DNS Servers - Windows 10",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786834",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786834"
+      }
+    },
+    {
+      "title": "Reports: Pending Revenue and Tickets Unpaid",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934524434",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934524434"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change Your DNS Servers - macOS Ventura",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934295273",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934295273"
+      }
+    },
+    {
+      "title": "Integrations: QuickBooks Online Setup",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934229563",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934229563"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change Your DNS Servers - macOS",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934197007",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934197007"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your Bluefin PAX D210",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196978",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196978"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your Bluefin PAX A80/A920",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196946",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196946"
+      }
+    },
+    {
+      "title": "Getting Started: Inventory Search",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933738155",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933738155"
+      }
+    },
+    {
+      "title": "Accounting for Miscellaneous Fees for Online Sales",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933738036",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933738036"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933705307",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933705307"
+      }
+    },
+    {
+      "title": "Tax Calculations for Bundled Items",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933672484",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933672484"
+      }
+    },
+    {
+      "title": "Adding and Applying Credit Balances for Customers",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933541687",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933541687"
+      }
+    },
+    {
+      "title": "Configuring a Cash Drawer to Open Automatically When a Receipt is Printed",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933541484",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933541484"
+      }
+    },
+    {
+      "title": "Custom Forms: Adding Images to Forms",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525752",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525752"
+      }
+    },
+    {
+      "title": "List Filters",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525644",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525644"
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "2029191253",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029191253",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTE5MTI1Mw==",
+  "status": "current",
+  "title": "1.18.12",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T21:41:56.763Z",
+    "friendlyWhen": "Jul 20, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "23",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029191253.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029191253"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029191253/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 10/31/2022 at 11:30pm CT</p><h3 id=\"id-1.18.12-MinorChanges\">Minor Changes</h3><ul><li><p><strong>Safeware</strong> bundles can now be removed, as long as the item eligible for the warranty is also removed.</p></li><li><p>A new <strong>Tip Amount</strong> column has been added to the Cash Reconciliation Report's <strong>Transaction Tab</strong> and <strong>Gateway Tab</strong>.</p></li><li><p>Made improvements to the <strong>Waiting for Payment</strong> display for processing payments.</p></li><li><p>Payment devices now unpair automatically if RepairQ sees duplicate IDs being used\u00a0.</p></li><li><p><strong>Quick Sale Optimizations</strong> settings have been added, allowing for fewer clicks and faster transactions on Quick Sale tickets.</p></li><li><p>Updated the <strong>Square </strong>integration so that the RepairQ Ticket ID will appear as part of the transaction description in the Square merchant dashboard.</p></li></ul><h3 id=\"id-1.18.12-BugFixes\">Bug Fixes</h3><ul><li><p>Internal backorders, which had been experiencing issues when multiple purchase orders were involved, should now be calculating correctly.</p></li><li><p>Resolved a recent error caused by trying to include or exclude items within a service program's compatibility settings.</p></li><li><p>Fixed a bug that prevented the ticket status buttons from working on some Quick Sale tickets.</p></li><li><p>Removed an \u201cAll Locations\u201d filter option from Appointments List Views that was causing problems.</p></li><li><p>Fixed an issue where Global Admins were not able to search for tickets at locations other than the one they were logged in to.</p></li><li><p>Previously released as a hotfix: Fixed a problem with the Square integration that allowed the connection authorization to expire, disconnecting Square from RepairQ unintentionally.</p></li><li><p>Fixed a problem with the Appointment Summary screen where the action button would appear as a blank blue square, preventing the user from taking action.</p></li><li><p>Fixed an issue on Custom Forms where creating a \u201cWhen\u201d condition caused errors when submitting the form.</p></li><li><p>Previously released as a hotfix: In some cases, duplicate Square transactions were being recorded on tickets. We updated how the integration works, to help prevent this situation.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029191253"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 129609516
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029191253/child",
+    "restrictions": "/rest/api/content/2029191253/restriction/byOperation",
+    "history": "/rest/api/content/2029191253/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029191253/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029191253",
+    "webui": "/spaces/SCD/pages/2029191253/1.18.12",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029191253",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029191253",
+    "tinyui": "/x/VQDze",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

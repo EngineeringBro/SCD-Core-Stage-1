@@ -1,0 +1,129 @@
+{
+  "id": "1933541561",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933541561",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzU0MTU2MQ==",
+  "status": "current",
+  "title": "Sales Tax Override",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:39.559Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933541561.34",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933541561"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933541561/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>There are times that a customer may be tax-exempt, have a reduced tax rate, or your area may have a tax-free holiday. Users can choose to override a customer's tax amount at the ticket level or by waiving taxes on specific ticket items.</p><h3 id=\"SalesTaxOverride-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279311/Introduction+to+Taxes+in+RepairQ+-+Start+Here\" data-linked-resource-id=\"1933279311\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Introduction to Taxes in RepairQ - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933410332/Setting+up+and+Assigning+Tax+Rates\" data-linked-resource-id=\"1933410332\" data-linked-resource-version=\"20\" data-linked-resource-type=\"page\">Setting up Taxes</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196764/Reports+Taxes\" data-linked-resource-id=\"1934196764\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Reports: Taxes</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"SalesTaxOverride-TaxOverridesattheTicketLevel\">Tax Overrides at the Ticket Level</h2><p /><p>1. Start a new ticket and attach an existing customer or create a new Customer Profile.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%201.png?api=v2\"></span><p /><p>2. After you have attached the customer to the ticket, their details will show under the <strong>Customer &amp; billing Agent</strong> section. At the bottom of the customer's details, <strong>check the Tax Override box</strong> to allow for tax override, then in the Tax Percentage field, enter in the new tax rate for all items on the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%202.png?api=v2\"></span><p /><p>3. When adding items to the ticket, the tax will change based on the percentage amount assigned in Customer Details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%206.png?api=v2\"></span><h2 id=\"SalesTaxOverride-AllowTaxOverridesForLineItemsonaTicket\">Allow Tax Overrides For Line Items on a Ticket</h2><p /><p>1. To allow tax overrides for all locations, on the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"557\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%203.png?api=v2\"></span><p /><p>2. On the Settings Overview page, click <strong>Tickets</strong> on the left column of categories. From the dropdown, click <strong>General Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%204.png?api=v2\"></span><p /><p><strong>Note</strong>: You can limit this option to specific locations by navigating to <strong>Location Settings</strong> \u2192 <strong>Tickets</strong> \u2192 <strong>General Settings</strong>.</p><p /><p>3. On the Ticket General Settings page, <strong>toggle Enable taxable amount override on tickets to ON</strong> and click <strong>Save</strong> to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%205.png?api=v2\"></span><p /><p>4. Create a ticket in RepairQ and attach a customer to the ticket, at your discretion.</p><p /><p>5. Add a ticket item. On the item's line, click the <strong>Override Item (*)</strong> <strong>button</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%207.png?api=v2\"></span><p /><p>6. On the Item Overrides pop-up, add the Taxable Amount. <strong>This is a dollar amount that will have taxes applied to it</strong>.</p><p>For example, if the customer is charged for taxes on $5 of the purchase, then you would enter &quot;5&quot; into the Taxable Amount Field. If no taxes are applied, then you would enter &quot;0&quot; in the field. Once you have entered the amount, click <strong>Save</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%208.png?api=v2\"></span><p /><p>The line item on the ticket will reflect taxes based on the amount when applying the tax override.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%209.png?api=v2\"></span><p /><h3 id=\"SalesTaxOverride-PartialTaxReduction\">Partial Tax Reduction</h3><p>In this instance, you have a 10% tax rate for an item on your ticket. If the customer was responsible for paying the taxes on only $5 of the price, then you would type &quot;5&quot; in the taxable amount field. The tax rate of 10% will only apply to $5 of the item, so the tax will only be $0.50 for the line item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%2010.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541561/Tax%20Override%2011.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933541561"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933541561/child",
+    "restrictions": "/rest/api/content/1933541561/restriction/byOperation",
+    "history": "/rest/api/content/1933541561/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933541561/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933541561",
+    "webui": "/spaces/SCD/pages/1933541561/Sales+Tax+Override",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933541561",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933541561",
+    "tinyui": "/x/uYA-cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

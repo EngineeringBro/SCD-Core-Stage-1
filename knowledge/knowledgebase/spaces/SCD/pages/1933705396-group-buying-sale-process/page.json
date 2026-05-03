@@ -1,0 +1,129 @@
+{
+  "id": "1933705396",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933705396",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzcwNTM5Ng==",
+  "status": "current",
+  "title": "Group Buying Sale Process",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:36.946Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "49",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933705396.15",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933705396"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933705396/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Group Buying\u00a0has proven to be a useful tool to both store-owners and customers. \u00a0Because of the growing popularity of sites like Groupon, LivingSocial, and Eversave, you may find yourself desiring to start offering special deals and discounts through these sites, but may not be sure where to start. \u00a0This article is based on a real case-study from one of our customers.</p><p /><p>Typically the way a group buying site works is that the customer buys a voucher from the site (Groupon, LivingSocial etc) for a special discount for item or service. \u00a0In this particular case, the voucher can be redeemed at a cell phone repair store for the cost of a repair. \u00a0When they redeem the discount, they are only responsible for paying for the sales tax amount since they already pre-paid for the coupon to cover the entire repair cost. \u00a0On the back-end, the group buying site shares the revenue with the cell phone repair store and the customer gets a discounted price for the repair service, parts and labor included. \u00a0At the end of the day, the cell phone repair store usually loses money or breaks even on the group buying deals, but they run these as advertising campaigns to increase foot traffic and exposure in hopes of earning repeat or referral business from satisfied customers.</p><p /><p><strong>Step 1 - Manager</strong></p><p /><ul><li><p>Set up a new payment method called named after the group buying site through which the deal is offered. \u00a0In this particular case, we chose\u00a0\u201cGroupon\u201d. \u00a0When &quot;Groupon&quot; is referenced here, we are generally referencing group buying sites. \u00a0The payment method type should be \u201cOther\u201d.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%201.png?api=v2\"></span><p /><ul><li><p>Set up a labor item in the catalog to track the group buying repairs. (this step is optional but highly recommended)</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%202.png?api=v2\"></span><p /><p><strong>Step 2 - Supervisor or Manager</strong></p><p /><ul><li><p>Assign a Virtual Cash Terminal to the POS workstation and be sure to \u201cAccept Other\u201d, otherwise the Groupon\u00a0will not show up on the payment form as an available payment method.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%203.png?api=v2\"></span><p /><p><strong>Step 3 - Sales Rep</strong></p><p /><ul><li><p>Create a new Repair Ticket then add the Groupon labor item to the ticket under the ticket items section using the smart search or lookup function.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%204.png?api=v2\"></span><p /><ul><li><p>Attach the part to be used in the repair by clicking on the blue chainlink icon next to the Groupon labor item. \u00a0This will bundle the part under the Groupon to ensure the part is taken out of inventory and that the correct amount of sales tax (depending on your tax configuration) is added to the ticket without increasing the final sales price to the customer. \u00a0</p></li></ul><p /><p><em>Note: if the sales tax amount is less than you expected it is likely that the sales tax is calculated as a percentage of the part price (retail) or the part cost (wholesale). \u00a0The tax calculations are very configurable to meet your specific state laws and compliance requirements.</em></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%205.png?api=v2\"></span><p /><ul><li><p>Click on the Add Transaction Form button under the Transactions section and set the Payment Type to Groupon. \u00a0If Groupon is not an available payment method you may need to pause your Virtual Cash Terminal, choose to \u201cAccept Other\u201d, and restart your VCT. \u00a0Next enter Amount as the Face Value of the Groupon. \u00a0Optionally record the Groupon Voucher #.</p></li></ul><p /><p><em>Note: If you record the voucher number on the ticket notes as illustrated above it will shows up on the Sales by Item Detail Report. \u00a0If you record the voucher number on the payment reference then it will show up on the VCT Reconciliation (Closing Cash Register) Report. \u00a0It\u2019s handy to see it in both places and it\u2019s easy to copy and paste to record it in both places, but it\u2019s also an extra step. \u00a0It\u2019s up to you how you want to track the voucher numbers, but these are both good alternatives.</em></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%206.png?api=v2\"></span><p /><ul><li><p>Observe that the balance due is for the sale tax amount only, $10.31.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%207.png?api=v2\"></span><p /><ul><li><p>Enter the customer payment amount (or save the ticket and enter the final payment later).</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%208.png?api=v2\"></span><p /><ul><li><p>After recording the payment there is a $0 balance and the ticket is ready to advance to \u201cIn Repair\u201d and ultimately to \u201cClosed\u201d.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%209.png?api=v2\"></span><p /><p><strong>Step 4 - Shift Lead or Manager</strong></p><p /><ul><li><p>Later when you close out your Virtual Cash Terminal, you\u2019ll want to count up your Groupon vouchers and record the total in the \u201cOther\u201d section.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%2010.png?api=v2\"></span><p /><ul><li><p>After recording your total Groupon vouchers collected for the day, your totals for Net Collected and Counted Totals should balance out under the \u201cOther\u201d section.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%2011.png?api=v2\"></span><p /><ul><li><p>For cross reference purposes the Groupon payments will show up on the transaction summary at the bottom of the VCT closing sheet.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%2012.png?api=v2\"></span><p /><p><strong>Step 5 Manager</strong></p><p /><ul><li><p>For tracking the success of the Groupon campaign you can run the &quot;Sales by Item\u201d summary or details report.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%2013.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%2014.png?api=v2\"></span><p /><ul><li><p>For additional checks and balances, the cash flow summary and detail reports show all payments recorded under the Groupon payment method.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%2015.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705396/Group%20Buying%20Sale%20Process%2016.png?api=v2\"></span><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933705396"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933705396/child",
+    "restrictions": "/rest/api/content/1933705396/restriction/byOperation",
+    "history": "/rest/api/content/1933705396/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933705396/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933705396",
+    "webui": "/spaces/SCD/pages/1933705396/Group+Buying+Sale+Process",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933705396",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933705396",
+    "tinyui": "/x/tABCcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

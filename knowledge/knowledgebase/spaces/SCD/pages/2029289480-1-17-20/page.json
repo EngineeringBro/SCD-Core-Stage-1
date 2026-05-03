@@ -1,0 +1,130 @@
+{
+  "id": "2029289480",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029289480",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTI4OTQ4MA==",
+  "status": "current",
+  "title": "1.17.20",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T15:26:35.446Z",
+    "friendlyWhen": "Jul 19, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "67",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029289480.17",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029289480"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029289480/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released on 9/1/2021 at 11:30pm CT</p><h3 id=\"id-1.17.20-MinorChangesandImprovements\">Minor Changes and Improvements</h3><ul><li><p>Users with Admin priviliges can now update their company logos in Login, Navigation Bar, and Qsite Customer Portal with image file names that include spaces.</p></li><li><p>Reworked the Sales Summary by Staff export file to include all of the correct data for Percentage of Sales, Ticket Count, and Average Ticket Total columns.</p></li><li><p>Added the SKU column back to the Inventory Count page.</p></li><li><p>Added support for the PAX A80 payment device for use with the Bluefin integrated payment method.</p></li></ul><h3 id=\"id-1.17.20-BugFixes\">Bug Fixes</h3><ul><li><p>Resolved an issue where Internet Explorer would not allow a user to create a new ticket.</p></li><li><p>The Compatibility modal now works on Internet Explorer.</p></li><li><p>Fixed the Edit Views modals on the Customers, Invoices, and RMA Tracking list view pages.</p></li><li><p>Using the restock fee feature no longer causes a negative balance erroneously after a ticket has already been closed.</p></li><li><p>Fixed a bug where the automatic clock out timer does not clock users out at the set time</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029289480"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 785863915
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029289480/child",
+    "restrictions": "/rest/api/content/2029289480/restriction/byOperation",
+    "history": "/rest/api/content/2029289480/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029289480/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029289480",
+    "webui": "/spaces/SCD/pages/2029289480/1.17.20",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029289480",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029289480",
+    "tinyui": "/x/CID0e",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1936949270",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936949270",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjk0OTI3MA==",
+  "status": "current",
+  "title": "Integrated Printing 103: Adding and Assigning Printer Configurations",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:10.009Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1097",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936949270.30",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936949270"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936949270/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ utilizes QZ Tray integration for seamless printing without navigating print dialogs. This provides users with a one-click printing process for receipts, invoices, and labels directly to their assigned printer. Users can also create and customize print automation for a hands-free process for printing, further streamlining your ticket workflow.</p><p>Print Configurations tell RepairQ which printers to send print jobs to. Users can set a template of default printers used for an assigned RepairQ terminal. A configuration must be assigned to a terminal for automated printing to work. Once you have added your Integrated Printers to RepairQ, you can create and assign your print configuration(s). Once you have completed these steps, please see our additional resources for integration setup and troubleshooting.</p><h3 id=\"IntegratedPrinting103:AddingandAssigningPrinterConfigurations-NextStep\">Next Step</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936392218/Integrated+Printing+104+Creating+and+Customizing+Print+Automation\" data-linked-resource-id=\"1936392218\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Printing 104: Adding Print Automation</a></p></li></ul><h3 id=\"IntegratedPrinting103:AddingandAssigningPrinterConfigurations-PreviousSteps\">Previous Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936457750/Integrated+Printing+102+Adding+Integrated+Printers\" data-linked-resource-id=\"1936457750\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Integrated Printing 102: Adding Integrated Printers</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936359430/Integrated+Printing+101+Downloading+QZ+Tray\" data-linked-resource-id=\"1936359430\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Integrated Printing 101: Downloading QZ Tray</a></p></li></ul><h3 id=\"IntegratedPrinting103:AddingandAssigningPrinterConfigurations-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949301/Integrated+Printing+Troubleshooting\" data-linked-resource-id=\"1936949301\" data-linked-resource-version=\"17\" data-linked-resource-type=\"page\">Integrated Printing Troubleshooting</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869057/Recommended+Hardware+Troubleshooting+Resources\" data-linked-resource-id=\"1933869057\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Recommended Hardware Troubleshooting Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934229707\" rel=\"nofollow\">QZ Integrated Printing - Start Here!</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949270/image-20230608-182507.png?api=v2\"></span><h2 id=\"IntegratedPrinting103:AddingandAssigningPrinterConfigurations-AddaPrintConfiguration\">Add a Print Configuration</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949270/image-20230608-182514.png?api=v2\"></span><p /><p>2. On the Settings Overview page, there is a list of Settings Categories in the left column. Click <strong>Integrated Printing </strong>to expand the options and select\u00a0<strong>Print Configurations</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949270/image-20230608-182520.png?api=v2\"></span><p /><p>3. On the Print Configuration page, click <strong>Add Print Configuration</strong> on the right side of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949270/image-20230608-182525.png?api=v2\"></span><p /><p>4. Fill out the configuration settings, based on which printer you want to send the print job for each ticket, invoice, and label template. Once you have made your selections, be sure to <strong>Save </strong>your settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949270/image-20230608-182531.png?api=v2\"></span><ul><li><p><strong>Configuration Name </strong>- Name your configuration, so you can identify which terminal this will be paired to. This is a required field.</p></li><li><p><strong>Location </strong>- Select which location(s) will use this assigned configuration.</p></li><li><p><strong>Description </strong>- Add a description for reference.</p></li><li><p><strong>Pick a default printer for each template</strong> - These settings will tell RepairQ which printer to use for each document type.</p></li></ul><h2 id=\"IntegratedPrinting103:AddingandAssigningPrinterConfigurations-AssignaPrintConfigurationtoYourTerminal\">Assign a Print Configuration to Your Terminal</h2><p>A configuration must be assigned to a terminal for automated printing to work.</p><p /><p>On the RepairQ Navigation Bar, click on your location name. This will expand additional options. In the dropdown menu, click <strong>Print Config</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949270/image-20230608-182547.png?api=v2\"></span><p /><p>2. A <strong>Print Configuration</strong> pop-up will appear. Select your configuration from the dropdown list.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949270/image-20230608-182553.png?api=v2\"></span><p>3. After assigning a configuration, the template details will show. You can click outside of this window to close.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949270/image-20230608-182600.png?api=v2\"></span><p /><p>4. If your configuration is not connecting properly, you can refresh your configuration by clicking the <strong>Refresh Config</strong> button.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936949270/image-20230608-182605.png?api=v2\"></span><p /><h3 id=\"IntegratedPrinting103:AddingandAssigningPrinterConfigurations-NextStep:CreatingandCustomizingPrintAutomation\"><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936392218\" rel=\"nofollow\">Next Step: Creating and Customizing Print Automation</a></h3><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936949270"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936949270/child",
+    "restrictions": "/rest/api/content/1936949270/restriction/byOperation",
+    "history": "/rest/api/content/1936949270/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936949270/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936949270",
+    "webui": "/spaces/SCD/pages/1936949270/Integrated+Printing+103+Adding+and+Assigning+Printer+Configurations",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936949270",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936949270",
+    "tinyui": "/x/FoBzcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

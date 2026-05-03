@@ -1,0 +1,129 @@
+{
+  "id": "2742845447",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2742845447",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjc0Mjg0NTQ0Nw==",
+  "status": "current",
+  "title": "RepairQ 1.21.4",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:05:47.135Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "35",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2742845447.36",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2742845447"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2742845447/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h3 id=\"RepairQ1.21.4-BugFixes\">Bug Fixes</h3><ul><li><p>Fixed an issue that caused an \u2018Import failed\u2019 message when importing catalog items.</p></li><li><p>Resolved an issue where the location scope for Catalog Items was incorrectly changing from \u2018Global\u2019 to \u2018Location' after saving changes, causing some items to disappear from view in the catalog.</p></li><li><p>Resolved an issue where the effective tax-inclusive price for Inventory Labels ignored the tax-inclusive app setting, adding tax to an already tax-inclusive price.</p></li><li><p>Fixed an issue where adding a partial cash payment incorrectly set the ticket balance to $0. Now, only the entered payment amount will be applied, ensuring the remaining balance is correctly reflected.</p></li><li><p>Resolved an issue where the \u2018Not a Customer Yet\u2019 checkbox was not syncing between the General and Misc tabs when creating a Customer Profile. Now, any change made in one tab will automatically update in the other.</p></li><li><p>Resolved an issue where searching for a customer name containing an apostrophe in the Contacts search field caused a 500 error.</p></li><li><p>Fixed an issue where Supplier SKUs were not appearing in the catalog item view. Catalog items with an assigned Supplier SKU are now visible in the Catalog Item list.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2742845447"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 809293546
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2742845447/child",
+    "restrictions": "/rest/api/content/2742845447/restriction/byOperation",
+    "history": "/rest/api/content/2742845447/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2742845447/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2742845447",
+    "webui": "/spaces/SCD/pages/2742845447/RepairQ+1.21.4",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2742845447",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2742845447",
+    "tinyui": "/x/B4B8ow",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

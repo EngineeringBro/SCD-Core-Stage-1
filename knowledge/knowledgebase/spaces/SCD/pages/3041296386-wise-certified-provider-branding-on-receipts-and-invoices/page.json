@@ -1,0 +1,129 @@
+{
+  "id": "3041296386",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/3041296386",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMzA0MTI5NjM4Ng==",
+  "status": "current",
+  "title": "WISE Certified Provider Branding on Receipts and Invoices",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:46.676Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1331",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$3041296386.76",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/3041296386"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3041296386/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Show your commitment to service excellence by adding the WISE Certified logo to your customer receipts and invoices. The WISE Authorized Service Provider (ASP) designation signifies that your store meets industry-recognized standards for high-quality repairs on smartphones, tablets, and Chromebooks. To ensure authenticity, RepairQ will validate your WISE certification before enabling the receipt and invoice configuration. Once enabled, you\u2019ll have the flexibility to manually turn this feature off if needed. </p><ul><li><p><strong>Differentiate Your Business</strong> \u2013 Set your store apart from non-certified competitors.</p></li><li><p><strong>Boost Customer Confidence</strong> \u2013 Encourage repeat business by showcasing industry recognition.</p></li><li><p><strong>Support Brand Reputation</strong> \u2013 Align your shop with a recognized repair standard.</p></li></ul><h3 id=\"WISECertifiedProviderBrandingonReceiptsandInvoices-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://www.servicecentral.com/products/repair-q/partners-integrations/ctia/\" rel=\"nofollow\">WISE Partner Integration</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279270/Add+Your+Logo+to+Receipts+and+Invoices\" data-linked-resource-id=\"1933279270\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Add Your Logo to Receipts and Invoices</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"WISECertifiedProviderBrandingonReceiptsandInvoices-ActivateWISECertifiedIntegration\">Activate WISE Certified Integration</h2><p>On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Location Settings</strong>. On the settings page, under the Account section, click <strong>Integrations</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Location Settings.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Location%20Settings.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Wise 2.png\" width=\"700\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Wise%202.png?api=v2\"></span><p /><p>Under the list of available integrations, click <strong>WISE</strong>. On the integration page, make sure to <strong>Enable WISE Certification Printing</strong>, enter your <strong>WISE Code</strong>, and <strong>Save </strong>your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Wise 3.png\" width=\"700\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Wise%203.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Wise 1.png\" width=\"583\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Wise%201.png?api=v2\"></span><p /><p>Once submitted, RepairQ will reach out to WISE database to validate the ID. Changing the WISE code will verify the code again. </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Wise 4.png\" width=\"586\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Wise%204.png?api=v2\"></span><hr/><h2 id=\"WISECertifiedProviderBrandingonReceiptsandInvoices-AddWISELogotoReceiptsandInvoices\">Add WISE Logo to Receipts and Invoices</h2><p>Navigate to <strong>Location Settings </strong>and, under the Templates section, select <strong>Receipts </strong>or <strong>Invoices</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Wise 8.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Wise%208.png?api=v2\"></span><p /><p>On the Template Settings page, select <strong>Show WISE Certification Image</strong> and <strong>Save </strong>your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Wise 5.png\" width=\"308\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Wise%205.png?api=v2\"></span><hr/><h3 id=\"WISECertifiedProviderBrandingonReceiptsandInvoices-WISELogoonReceipts\">WISE Logo on Receipts</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Wise 6.png\" width=\"301\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Wise%206.png?api=v2\"></span><h3 id=\"WISECertifiedProviderBrandingonReceiptsandInvoices-WISELogoonInvoices\">WISE Logo on Invoices</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Wise 7.png\" width=\"590\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3041296386/Wise%207.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/3041296386"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/3041296386/child",
+    "restrictions": "/rest/api/content/3041296386/restriction/byOperation",
+    "history": "/rest/api/content/3041296386/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/3041296386/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=3041296386",
+    "webui": "/spaces/SCD/pages/3041296386/WISE+Certified+Provider+Branding+on+Receipts+and+Invoices",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/3041296386",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3041296386",
+    "tinyui": "/x/AoBGtQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

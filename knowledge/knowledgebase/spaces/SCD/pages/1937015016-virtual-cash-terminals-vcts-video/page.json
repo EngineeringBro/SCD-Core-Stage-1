@@ -1,0 +1,129 @@
+{
+  "id": "1937015016",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1937015016",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNzAxNTAxNg==",
+  "status": "current",
+  "title": "Virtual Cash Terminals (VCTs) (video)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:22.040Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1937015016.29",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1937015016"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937015016/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This video will be showcasing Virtual Cash Terminals (VCTs), including:</p><ul><li><p>Opening a VCT</p></li><li><p>Viewing a current VCT</p></li><li><p>Closing a VCT</p></li></ul><a class=\"external-link\" data-card-appearance=\"embed\" data-layout=\"center\" data-original-height=\"480.00\" data-original-width=\"853.34\" data-width=\"100.00\" href=\"https://youtu.be/MMlulRD6XYI\" rel=\"nofollow\">https://youtu.be/MMlulRD6XYI</a><h2 id=\"VirtualCashTerminals(VCTs)(video)-AdditionalResources\">Additional Resources</h2><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933901843/Virtual+Cash+Terminal+VCT+Setup\" data-linked-resource-id=\"1933901843\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Setting up a Virtual Cash Terminal (VCT)</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933639827/Assign+a+Virtual+Cash+Terminal+VCT+to+Accept+Payments\" data-linked-resource-id=\"1933639827\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">Starting a Virtual Cash Terminal (VCT) to Accept Payments</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541639/Close+Reconcile+a+Virtual+Cash+Terminal\" data-linked-resource-id=\"1933541639\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Closing a Virtual Cash Terminal (VCT)</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229524/Reports+Cash+Reconciliation\" data-linked-resource-id=\"1934229524\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Reports: Cash Reconciliation</a></p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1937015016"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1937015016/child",
+    "restrictions": "/rest/api/content/1937015016/restriction/byOperation",
+    "history": "/rest/api/content/1937015016/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1937015016/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1937015016",
+    "webui": "/spaces/SCD/pages/1937015016/Virtual+Cash+Terminals+VCTs+video",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1937015016",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937015016",
+    "tinyui": "/x/6IB0cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

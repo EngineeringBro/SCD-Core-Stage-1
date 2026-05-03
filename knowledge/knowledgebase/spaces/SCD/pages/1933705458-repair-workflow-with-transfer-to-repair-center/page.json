@@ -1,0 +1,129 @@
+{
+  "id": "1933705458",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933705458",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzcwNTQ1OA==",
+  "status": "current",
+  "title": "Repair Workflow with Transfer to Repair Center",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:50.392Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 2,
+    "minorEdit": false,
+    "ncsStepVersion": "2",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933705458.10",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933705458"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933705458/version/2"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<ol start=\"1\"><li><p>Customer walks into satellite location</p></li><li><p>Sales rep</p><ol start=\"1\"><li><p>create new repair ticket</p></li><li><p>lookup existing or add new customer</p></li><li><p>lookup existing or add new repair device</p></li><li><p>provide initial diagnostics information</p></li><li><p>set expected delivery date/time and not to exceed dollar amount</p></li><li><p>OPTIONAL: add ticket items (parts, labor, merchandise)</p></li><li><p>OPTIONAL: receive payments from the customer (e.g. for a deposit)</p></li><li><p>OPTIONAL: assign the ticket to the Repair Advisor</p></li><li><p>advance ticket to &quot;In Transit&quot; (or &quot;In Diagnosis&quot;)</p></li><li><p>Print ticket for customer</p></li><li><p>Print label(s) for the repair device(s) on the ticket\u00a0</p></li></ol></li><li><p>Repair Advisor</p><ol start=\"1\"><li><p>tracks in transit queue and tickets assigned to them</p></li><li><p>view / edit ticket details</p></li><li><p>OPTIONAL: conduct background check</p></li><li><p>OPTIONAL:\u00a0add ticket items (parts, labor, merchandise)</p></li><li><p>Arrange and oversee transfer to Repair Center</p></li></ol></li><li><p>Device(s) arrive at repair center</p></li><li><p>Repair Advisor</p><ol start=\"1\"><li><p>OPTIONAL: Assigns ticket to tech who will perform the repair at the service center</p></li><li><p>advance the ticket to the &quot;In Repair&quot; queue</p></li></ol></li><li><p>Technician</p><ol start=\"1\"><li><p>track in repair queue and tickets assigned to them</p></li><li><p>view / edit ticket details</p></li><li><p>perform the repair</p></li><li><p>OPTIONAL:\u00a0add ticket items (parts, labor, merchandise)</p></li><li><p>OPTIONAL:\u00a0regress ticket to pending approval queue (if waiting on customer for approval to continue)</p></li><li><p>OPTIONAL:\u00a0regress ticket to on hold queue (if waiting on parts)</p></li><li><p>OPTIONAL: assign the ticket to the Repair Advisor</p></li><li><p>advance ticket to &quot;Complete / In Transit&quot; (or &quot;pending notification&quot;)</p></li></ol></li><li><p>Repair Advisor</p><ol start=\"1\"><li><p>track\u00a0&quot;Complete / In Transit&quot;\u00a0queue\u00a0and tickets assigned to them</p></li><li><p>view / edit ticket details</p></li><li><p>OPTIONAL:\u00a0add ticket items (parts, labor, merchandise)</p></li><li><p>OPTIONAL:\u00a0set final resolution status</p></li><li><p>Arrange and oversee transfer to satellite location</p></li></ol></li><li><p>Device(s) arrive at satellite location</p></li><li><p>Repair Advisor</p><ol start=\"1\"><li><p>Advances ticket to &quot;Ready for Pickup&quot; queue</p></li><li><p>Notifies customer their device(s) are ready for pickup</p><ol start=\"1\"><li><p>OPTIONAL: Email receipt to customer from the ticket</p></li><li><p>OPTIONAL: Send sms notification to customer\u00a0from the ticket</p></li></ol></li></ol></li><li><p>Customer returns to pick up repaired device(s) at satellite location</p></li><li><p>Sales rep</p><ol start=\"1\"><li><p>lookup ticket by one of the following:</p><ol start=\"1\"><li><p>Customer Name / Phone number</p></li><li><p>Ticket #</p></li><li><p>Device Serial #</p></li></ol></li><li><p>view / edit ticket</p></li><li><p>OPTIONAL: add ticket items (parts, labor, merchandise)</p></li><li><p>Record payment(s)</p></li><li><p>Close ticket (if balance paid in full)</p></li><li><p>Print ticket for customer</p></li></ol></li></ol><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933705458"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933705458/child",
+    "restrictions": "/rest/api/content/1933705458/restriction/byOperation",
+    "history": "/rest/api/content/1933705458/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933705458/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933705458",
+    "webui": "/spaces/SCD/pages/1933705458/Repair+Workflow+with+Transfer+to+Repair+Center",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933705458",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933705458",
+    "tinyui": "/x/8gBCcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

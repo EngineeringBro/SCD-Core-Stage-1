@@ -1,0 +1,129 @@
+{
+  "id": "1932722209",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932722209",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjcyMjIwOQ==",
+  "status": "current",
+  "title": "Quick Sale Optimization Settings",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:24.095Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 13,
+    "minorEdit": false,
+    "ncsStepVersion": "241",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932722209.64",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932722209"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932722209/version/13"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Quick Sale Optimization settings allow Admins to customize behaviors and features of the sales ticket flow, allowing for fewer clicks, easier accessibility for actions, and faster transactions, on Quick Sale tickets.</p><h3 id=\"QuickSaleOptimizationSettings-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494512/Creating+a+Quick+Sale+Ticket\" data-linked-resource-id=\"1930494512\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating a Quick Sale Ticket</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377756/Create+a+Trade-In+Ticket\" data-linked-resource-id=\"1933377756\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">How to Process a Trade-in</a> </p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"QuickSaleOptimizationSettings-AccessQuickSaleOptimizationSettings\">Access Quick Sale Optimization Settings</h2><p>Navigate to\u00a0<strong>Company Settings</strong> \u2192 <strong>Tickets</strong> \u2192 <strong>General Settings</strong>. On the General Settings page, these settings are under the <strong>Ticket Items</strong> section.</p><p><strong>Note</strong>: When setting these features at the Company level, all locations are affected. These features can be overridden at the Location level. </p><p /><h3 id=\"QuickSaleOptimizationSettings-OptimizationSettings\">Optimization Settings</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"442\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Quick%20Sale%208.png?api=v2\"></span><p /><h4 id=\"QuickSaleOptimizationSettings-ShowQuickSaleButtononallUserDashboards\">Show Quick Sale Button on all User Dashboards</h4><p>This feature will show/hide a Quick Sale button on the RepairQ Dashboard home screen.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Quick%20Sale%201.png?api=v2\"></span><p /><h4 id=\"QuickSaleOptimizationSettings-ShowtheLegacySidebar\">Show the Legacy Sidebar</h4><p>With our optimization launch, the Totals section of the sidebar will default to a new location. The subtotal and amount due will show near the top of the page, aligned with the customer's details, and will include an<strong> Add Transaction</strong> button below the amount due for quick access to recording a payment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Quick%20Sale%202.png?api=v2\"></span><p /><p>Choosing to show the Legacy sidebar will move the Totals section back to the bottom of the sidebar and will remove the <strong>Add Transaction</strong> button.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Quick%20Sale%203.png?api=v2\"></span><p /><h4 id=\"QuickSaleOptimizationSettings-Showthesearchbarontheitemgrid\">Show the search bar on the item grid</h4><p>This setting will show/hide the search bar on the Item Grid. The search bar will provide results from the entire catalog and will not be restricted by your <a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Categories%3A%20Link%20Catalog%20Items%20an%20Item%20Grid&amp;linkCreation=true&amp;fromPageId=1932722209\">Item Grid</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Quick%20Sale%204.png?api=v2\"></span><p /><h4 id=\"QuickSaleOptimizationSettings-Auto-loadtheitemgridwhenstartinganewsaleticket\">Auto-load the item grid when starting a new sale ticket</h4><p>If you have set up an<a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Categories%3A%20Link%20Catalog%20Items%20an%20Item%20Grid&amp;linkCreation=true&amp;fromPageId=1932722209\"> Item Grid</a> for your catalog, turning on this feature will automatically load the grid as the first step of performing a Quick Sale, rather than clicking the <strong>Lookup Item to Add</strong> button on the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Quick%20Sale%209.png?api=v2\"></span><p /><h4 id=\"QuickSaleOptimizationSettings-Showtheminimumpriceforaticketitemonasaleticket\">Show the minimum price for a ticket item on a sale ticket</h4><p>This setting will show/hide the unit cost (listed as the Minimum Price) on the item preview screen before adding the item to the ticket. If the item price is editable, this will act as a guide to ensure that if you negotiate or adjust the price of this item for a customer, you can avoid going below the cost of the item.</p><p><strong>This does not restrict the user from changing the price below the cost; it only acts as a reminder.</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Quick Sale 7.png\" width=\"388\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Quick%20Sale%207.png?api=v2\"></span><p /><h4 id=\"QuickSaleOptimizationSettings-Showtheaddticketitempreviewafterselectinganitemonthesaleticket\">Show the add ticket item preview after selecting an item on the sale ticket</h4><p>When adding an item from the Item Grid or Item Grid Search Bar, there will be an additional screen to preview item details and select the Quantity/Hours for adding items in bulk. This preview will also show the current Instock quantity of the item before adding the item(s) to a ticket.</p><p>This preview only appears when adding items using the Item Grid by using the <strong>Lookup Item to Add</strong> button on the ticket or if the setting, <strong>Auto-load the Item Grid</strong>, is turned on.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Quick Sale 6.png\" width=\"388\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Quick%20Sale%206.png?api=v2\"></span><p /><h4 id=\"QuickSaleOptimizationSettings-AutocloseSale/Repair/Trade-inticketswhenpaidinfull\">Auto close Sale/Repair/Trade-in tickets when paid in full</h4><p>This feature will automatically progress a ticket to Closed status when the balance is paid in full. This allows for partial/split payments to be taken and will automatically close when the balance is met. Auto-close settings can be adjusted for specific ticket types. The Change Due to the customer can still be found in the Transactions section of the ticket.</p><p><strong>Note</strong>: If there is a back-ordered item on the ticket, the ticket will not close automatically.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722209/Quick%20Sale%208.gif?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932722209"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932722209/child",
+    "restrictions": "/rest/api/content/1932722209/restriction/byOperation",
+    "history": "/rest/api/content/1932722209/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932722209/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932722209",
+    "webui": "/spaces/SCD/pages/1932722209/Quick+Sale+Optimization+Settings",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932722209",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932722209",
+    "tinyui": "/x/IQAzcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

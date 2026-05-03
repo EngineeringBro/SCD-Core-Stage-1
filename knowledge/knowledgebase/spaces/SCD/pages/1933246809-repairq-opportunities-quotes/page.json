@@ -1,0 +1,129 @@
+{
+  "id": "1933246809",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933246809",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI0NjgwOQ==",
+  "status": "current",
+  "title": "RepairQ Opportunities (Quotes)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:18.736Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "110",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933246809.37",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933246809"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246809/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ offers opportunity management for contacts (leads), customers, opportunities (quotes), and appointments. Users can easily create quotes that can be printed, emailed, and converted into tickets.</p><p>A quote has all of the features of a standard ticket with a couple of key differences:</p><ul><li><p>Inventory is not pulled nor consumed for a quote.</p></li><li><p>Quotes are not included in revenue reports.</p></li></ul><p>Quotes also use the same status system that you use for tickets and repairs. Converting a quote into an active ticket is a one-click process, and once converted, the related inventory is immediately pulled to the ticket.</p><h3 id=\"RepairQOpportunities(Quotes)-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934458927\" rel=\"nofollow\">Contacts Overview</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2022080562\" rel=\"nofollow\">Quotes: Save a Ticket as a Quote</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934917634\" rel=\"nofollow\">Quotes: Convert a Quote to a Ticket</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointment Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933246465\" rel=\"nofollow\">Automated Notification Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246809/image-20230622-175648.png?api=v2\"></span><h2 id=\"RepairQOpportunities(Quotes)-CustomerQuoteToolsinRepairQ\">Customer Quote Tools in RepairQ</h2><p>Users can locate Quote features by going to the Opportunities section of the Navigation Bar.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246809/image-20230622-175651.png?api=v2\"></span><ul><li><p><strong>+ Contact</strong> - Create a new contact. This is a potential customer, i.e. lead, for your business. They are listed separately from your Customer list. They can be changed to a customer in their profile settings or by converting a quote they are assigned into a ticket.</p></li><li><p><strong>View Contacts</strong> - View your full list of contacts and customers. This list can also be sorted to show only leads.</p></li><li><p><strong>View Quotes</strong> - View a list of all quotes in your ticket queue.</p></li><li><p><strong>Appointments</strong> - Create and manage appointments for customers and leads.</p></li></ul><h2 id=\"RepairQOpportunities(Quotes)-IdentifyaQuoteinyourTicketQueue\">Identify a Quote in your Ticket Queue</h2><p>Quotes have an assigned number, just like a standard ticket. When searching your ticket queue, you can search for a ticket number or filter for <strong>Type: Quote</strong>. The Ticket Type (TT) indicator for a quote is a quotation mark symbol.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246809/image-20230622-175653.png?api=v2\"></span><p /><p>When viewing a ticket, a quote is identified by the ticket type on the upper-left hand of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246809/image-20230622-175659.png?api=v2\"></span><hr/><h2 id=\"RepairQOpportunities(Quotes)-SaveaTicketasaQuote\">Save a Ticket as a Quote</h2><p>If you create a new ticket and would like to save it as a quote for your customer, you must have a customer and a repair device, item, or labor attached to the ticket. If the ticket meets these requirements, a new selection will appear at the bottom of the ticket, along with the standard ticket save statuses. Click <strong>Save as Quote</strong> to convert the ticket to a quote, which will be searchable in your Quote List and Ticket List (if filtered to include quotes).</p><p><strong>Note</strong>: This option will only be possible when saving the ticket for the first time. If it has already been progressed to an existing status, this option will not be available.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246809/Quote%2010.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933246809"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933246809/child",
+    "restrictions": "/rest/api/content/1933246809/restriction/byOperation",
+    "history": "/rest/api/content/1933246809/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933246809/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933246809",
+    "webui": "/spaces/SCD/pages/1933246809/RepairQ+Opportunities+Quotes",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933246809",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246809",
+    "tinyui": "/x/WQE7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

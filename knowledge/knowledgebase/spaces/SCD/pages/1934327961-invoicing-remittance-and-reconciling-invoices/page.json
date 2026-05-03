@@ -1,0 +1,129 @@
+{
+  "id": "1934327961",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934327961",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDMyNzk2MQ==",
+  "status": "current",
+  "title": "Invoicing: Remittance and Reconciling Invoices",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:55.014Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "203",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934327961.22",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934327961"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934327961/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Invoicing gives your company tools to manage customers and corporate clients with net terms. Invoicing is available to users on our Advanced and Professional plans.</p><p>Once you have created an invoice, you can update the Remittance (payment) details of the invoice to make changes to the linked tickets, void the invoice, or record payments to reconcile the invoice.</p><p><strong>Note</strong>: A Virtual Cash Terminal (VCT) is not required to record payments on invoices. The transactions recorded here do not appear on the Cash Reconciliation report.</p><h3 id=\"Invoicing:RemittanceandReconcilingInvoices-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196827/Invoicing+Resources\" data-linked-resource-id=\"1934196827\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196840/Invoicing+Creating+and+Managing+Invoices\" data-linked-resource-id=\"1934196840\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing: Creating and Managing Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229611/Invoicing+Editing+Tickets+on+Invoices\" data-linked-resource-id=\"1934229611\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoices: Editing Tickets on Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917724/Invoicing+Refunding+and+Voiding+Invoices\" data-linked-resource-id=\"1934917724\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoicing: Refunding and Voiding Invoices</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Invoicing:RemittanceandReconcilingInvoices-ViewingRemittance(Payment)Details\">Viewing Remittance (Payment) Details</h2><p /><p>1. On the Navigation Bar, go to <strong>Customers</strong> \u2192 <strong>Invoices</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"564\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%201.png?api=v2\"></span><p /><p>2. On the Invoice Summary screen, you will see all recently created invoices. Click the <strong>Options button</strong> next to the invoice and select <strong>Remittance</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"224\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%203.png?api=v2\"></span><p /><p><strong>Note</strong>: When viewing an invoice, you can also click the <strong>Remittance button</strong> on the upper-right corner of the page.</p><p /><p>3. The Remittance page will show options to apply payment(s), apply discounts to existing tickets, and remove tickets from an invoice.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%204.png?api=v2\"></span><h2 id=\"Invoicing:RemittanceandReconcilingInvoices-ApplyingPayment(s)toanInvoice\">Applying Payment(s) to an Invoice</h2><h3 id=\"Invoicing:RemittanceandReconcilingInvoices-ApplyaPaymenttotheInvoice\">Apply a Payment to the Invoice</h3><p>Under the Apply Payment section of the Remittance page, enter the payment amount the customer is paying and reference notes, and select the payment method. After you have entered the information, <strong>click Apply Payment</strong>. By default, payments are distributed to the oldest tickets first. If more than one ticket balance is paid, the remainder will carry over to other older tickets.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"448\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%205.png?api=v2\"></span><p /><p>Under the Invoice Items section, the payment will apply to the tickets. Any ticket that has a balance paid in full will automatically update to Closed status, pending save.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%206.png?api=v2\"></span><h3 id=\"Invoicing:RemittanceandReconcilingInvoices-ApplyaPaymenttoaTicketontheInvoice\">Apply a Payment to a Ticket on the Invoice</h3><p>If you would like to apply a payment to a specific ticket, you can enter the payment amount under the Payment section of the line item. After entering the payment amount, update the Payment Method and add any notes under the Remittance section of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%207.png?api=v2\"></span><h2 id=\"Invoicing:RemittanceandReconcilingInvoices-PaymentDateandRevenueDate\">Payment Date and Revenue Date</h2><p>Before updating the payment record, users can adjust the payment date and revenue date. If these fields are blank, the payment information will default to the current date when saving remittance.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"224\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%2011.png?api=v2\"></span><ul><li><p><strong>Payment Date</strong> - This will update the transaction date in your Cash Flow Summary report. This is <strong>NOT</strong> the date the revenue/sales are accounted for. If you enter a date before the ticket was advanced to Waiting for Payment status, it will auto-adjust to the same date as the Waiting for Payment status change.</p></li><li><p><strong>Revenue Date</strong> - This will adjust the date when revenue/sales are accounted for. If you enter a date before the ticket was advanced to Waiting for Payment status, it will auto-adjust to the same date as the Waiting for Payment status change. This is useful if repair work was completed on one month but was not paid for until the next month, and you want your sales to show the same month the work was completed.</p></li></ul><p /><h2 id=\"Invoicing:RemittanceandReconcilingInvoices-SavingRemittance\">Saving Remittance</h2><p>Once you have applied the payment(s) and information details, click the Save Remittance button on the right side of the screen.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%208.png?api=v2\"></span><p /><p>The invoice will update with a new payment status \u2014 <strong>Partially Paid</strong> if a partial payment was taken, or <strong>Paid in Full</strong> if the entire invoice has been paid. Any tickets paid in full will update to Closed status automatically.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%209.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%2010.png?api=v2\"></span><p /><p><strong>Note</strong>: The tickets paid through an invoice will reflect payments in the Transaction section of the ticket.</p><p /><h2 id=\"Invoicing:RemittanceandReconcilingInvoices-Overpayment\">Overpayment</h2><p>When saving remittance, if the invoice has been overpaid, a pop-up will appear, asking how you would like to reconcile the overpayment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"448\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327961/Remittance%2012.png?api=v2\"></span><ul><li><p><strong>Credit</strong> <strong>Customer</strong> - This option will apply the overpayment as a Credit Balance on either the customer's or billing agent's profile, depending on which party was invoiced. The balance can be applied to future tickets/invoices.</p></li><li><p><strong>Ignore</strong> <strong>Overpayment</strong> - This option will not track the overpayment in your records, with the implication that the overpayment was reconciled outside of RepairQ e.g., cutting a check for overpayment back to the customer/billing agent.</p></li></ul><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934327961"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934327961/child",
+    "restrictions": "/rest/api/content/1934327961/restriction/byOperation",
+    "history": "/rest/api/content/1934327961/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934327961/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934327961",
+    "webui": "/spaces/SCD/pages/1934327961/Invoicing+Remittance+and+Reconciling+Invoices",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934327961",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934327961",
+    "tinyui": "/x/mYBLcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

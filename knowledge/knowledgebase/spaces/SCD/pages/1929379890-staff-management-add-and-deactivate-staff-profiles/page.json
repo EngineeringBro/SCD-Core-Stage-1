@@ -1,0 +1,129 @@
+{
+  "id": "1929379890",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1929379890",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkyOTM3OTg5MA==",
+  "status": "current",
+  "title": "Staff Management: Add and Deactivate Staff Profiles",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:05.859Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 27,
+    "minorEdit": false,
+    "ncsStepVersion": "419",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1929379890.127",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1929379890"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1929379890/version/27"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Managing staff profiles in RepairQ is key to maintaining an organized, efficient workflow and ensuring your team operates seamlessly. By creating Staff Profiles, you can control user access, track productivity, and manage labor costs effectively.</p><p>By creating individual profiles, managers can utilize the following key benefits:</p><ul><li><p><strong>Assign Roles and Permissions</strong> - Assign roles to staff members for single or multiple locations, granting them specific actions in RepairQ.</p></li><li><p><strong>Assign Pay Rates</strong> - Assigning pay rates to users helps calculate labor costs accurately.</p></li><li><p><strong>Clock In/Out with Timesheets</strong> - Users can clock in and out of RepairQ using their timesheet. This feature allows managers to track hours worked and maintain an accurate Profitability Report.</p></li><li><p><strong>Track User Actions</strong> - Managers can monitor user actions in the System Log, ensuring they know when tasks are completed and who is responsible.</p></li><li><p><strong>Track Productivity</strong> - Tickets can be attributed to staff members, enabling tracking of sales and repairs.</p></li></ul><h2 id=\"StaffManagement:AddandDeactivateStaffProfiles-AdditionalResources\">Additional Resources</h2><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921186\" rel=\"nofollow\">RepairQ Subscription Management: Change Your Subscription</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921166\" rel=\"nofollow\">Location Management: Add or Deactivate a Location</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928986689\" rel=\"nofollow\">Location Settings</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921152\" rel=\"nofollow\">Staff Management: Roles and Permissions</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936785488\" rel=\"nofollow\">Staff Management Resources (with Video)</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929379890/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"StaffManagement:AddandDeactivateStaffProfiles-CreateanewStaffMember(Profile)\">Create a new Staff Member (Profile)</h2><p /><p>On the Navigation Bar, go to <strong>Staff </strong>\u2192 <strong>Add Staff</strong>. Alternatively, when viewing the Staff Overview list, click <strong>+Add New Staff</strong> on the right side of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Adding Staff Members 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929379890/Adding%20Staff%20Members%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Adding Staff Members 2.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929379890/Adding%20Staff%20Members%202.png?api=v2\"></span><h3 id=\"StaffManagement:AddandDeactivateStaffProfiles-NewStaffRequiredFields\">New Staff Required Fields</h3><p>Other fields in the details area allow you to add contact information for notifications that can be sent via SMS to the User.</p><ul><li><p><strong>First Name/Last Name</strong> - The name of the staff member.</p></li><li><p><strong>Email </strong>- This field is used for Password resets and Notifications.</p></li><li><p><strong>Username</strong> - This is the assigned username for the staff member, which will be used when logging into RepairQ.</p></li><li><p><strong>PIN/Password </strong>- This can be a PIN code or an alphanumeric password, based on your password settings. Staff members should not share passwords.</p></li><li><p><strong>Confirm PIN/Password\u00a0</strong>- Enter the same password to confirm consistency.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Adding Staff Members 3.png\" width=\"439\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929379890/Adding%20Staff%20Members%203.png?api=v2\"></span><h3 id=\"StaffManagement:AddandDeactivateStaffProfiles-EmployeeInformation\">Employee Information</h3><p>Enter the relevant details for the user, including their assigned roles (e.g., Manager or Shift Lead), pay rate, maximum discount allowance, and whether the staff member can record worked hours when using RepairQ.</p><ul><li><p><strong>Status </strong>- Select whether the user is Active or Inactive. When inactive, the user cannot log into the system.</p></li><li><p><strong>Assigned Manager </strong>- Select the manager for this staff member. This will assist with reporting.</p></li><li><p><strong>Hourly Pay Rate ($)</strong> - Add the user\u2019s hourly pay rate. This assists with profitability reporting for labor.</p></li><li><p><strong>Max Discount </strong>- Enter the maximum discount percentage or dollar amount available for the user when discounting items.</p></li><li><p><strong>Allow Price Overrides </strong>- This option allows users to override ticket item pricing. This action replaces the current price with a new price and is different than applying a discount.</p></li><li><p><strong>Timesheet Required </strong>- Select this field to allow the user to clock in/out to record worked hours.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Adding Staff Members 4.png\" width=\"647\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929379890/Adding%20Staff%20Members%204.png?api=v2\"></span><h3 id=\"StaffManagement:AddandDeactivateStaffProfiles-AssignLocation-BasedRoles\">Assign Location-Based Roles</h3><p>Assigning specific roles to users determines their responsibilities and permissions within the software, ensuring they have access to the necessary tools and information to perform their tasks efficiently. This helps maintain security, streamline workflows, and clarify job expectations. For more information on the capabilities of each role, see <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921152\" rel=\"nofollow\"><strong>Roles and Permissions</strong></a>.</p><p><strong>Note</strong>: Non-Admin users must have at least one role assigned at a location to log in.</p><p /><p>Use the Location Dropdown to assign a location for the staff member and click <strong>+Add</strong>. The location will then be added to the user's list of location assignments. In the Role field, assign a role (or multiple roles) to the user for each applicable location. Use the <strong>Primary radio button</strong> to designate the Primary Location for the user, which will be used to identify their primary location in reports.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Adding Staff Members 5.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929379890/Adding%20Staff%20Members%205.png?api=v2\"></span><p>All roles have default access to the following operations:</p><ul><li><p><strong>Basic Operation</strong> - Log hours (if the timecard is active), perform price checks, and update their User Profile photo.</p></li><li><p><strong>Customers </strong>- View, create, and update customers, customer notes, and customer devices.</p></li><li><p><strong>Inventory</strong> - View the inventory summary, perform inventory counts, and add inventory to tickets.</p></li><li><p><strong>Tickets</strong> - View and search the Ticket Queue, view, create, and update ticket information, create and update ticket notes, add/remove ticket items, process a ticket sale/return/return repair, print/email/SMS a receipt.</p></li></ul><h3 id=\"StaffManagement:AddandDeactivateStaffProfiles-AdminAccess\">Admin Access</h3><p>Special access permissions allow overrides of the current staff roles for more granular control. Using this feature, Admins can assign standard roles to users while granting temporary special access permissions to override their default role.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Adding Staff Members 11.png\" width=\"510\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929379890/Adding%20Staff%20Members%2011.png?api=v2\"></span><ul><li><p><strong>System Admin Access</strong> - The user will receive override access to all areas of RepairQ for all locations.</p></li><li><p><strong>Admin Access </strong>- The user will receive Location Settings access for all locations, excluding settings for Ticket Approval, Ticket Action, and Ticket Resolution Types.</p></li><li><p><strong>Accountant Access</strong> - The user will have view-only access to tickets and reporting for all locations.</p></li><li><p><strong>No Special Access </strong>- The user will receive no additional permissions outside their assigned roles.</p></li></ul><h3 id=\"StaffManagement:AddandDeactivateStaffProfiles-IPWhitelist\">IP Whitelist</h3><p>This is an approved list of IP addresses to manage where your Staff Member can access RepairQ. This adds security to your database by granting users access from specific terminals.</p><p><strong>Note:\u00a0</strong>If you do not know the address of your current terminal, hover over the Tooltip on the IP Address column to view your current IP and Wildcard IP address settings. Admins are not required to have an assigned IP Address.</p><p /><p>Under IP Whitelist click on <strong>Add New IP</strong> to add a Connection Name and approved IP Address. You can add additional addresses for multiple locations and terminals.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Adding Staff Members 12.png\" width=\"640\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929379890/Adding%20Staff%20Members%2012.png?api=v2\"></span><hr/><h2 id=\"StaffManagement:AddandDeactivateStaffProfiles-DeactivateaStaffMember\">Deactivate a Staff Member</h2><p>Deactivating a User will restrict their access to RepairQ and increase your available User Count. We recommend deactivation rather than removing all roles and IP Addresses since this does not properly update your User Count and may cause issues when updating your RepairQ Subscription.</p><p><strong>Note</strong>: Staff members can be automatically deactivated after a set number of inactive days, depending on your Login Settings.</p><p /><p>When editing Employee Information, use the Status dropdown to select <strong>Terminated/Not Employed</strong> and <strong>Save</strong> your changes. The user will be restricted from logging into the system and is hidden from staff dropdown lists. You can reactivate a user by searching your Staff List for inactive users and editing the user profile.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Staff Deactivate.png\" width=\"510\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929379890/Staff%20Deactivate.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1929379890"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1929379890/child",
+    "restrictions": "/rest/api/content/1929379890/restriction/byOperation",
+    "history": "/rest/api/content/1929379890/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1929379890/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1929379890",
+    "webui": "/spaces/SCD/pages/1929379890/Staff+Management+Add+and+Deactivate+Staff+Profiles",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1929379890",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1929379890",
+    "tinyui": "/x/MgAAcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

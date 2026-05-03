@@ -1,0 +1,129 @@
+{
+  "id": "1933508774",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933508774",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzUwODc3NA==",
+  "status": "current",
+  "title": "Repair Ticket Workflow",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:04.159Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "9",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933508774.13",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933508774"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933508774/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"RepairTicketWorkflow-Walk-inRepairProcess\">Walk-in Repair Process</h2><h3 id=\"RepairTicketWorkflow-SalesRep\">Sales Rep</h3><ul><li><p>Creates a new ticket.</p><ul><li><p>Look up existing customer or add new customer</p></li><li><p>Look up existing device or add a new repair device.</p></li><li><p>Provide initial diagnostics information.</p></li><li><p>(Optional) Set expected delivery date/time and repair cost limits.</p></li><li><p>(Optional) Add ticket items - parts, labor, merchandise.</p></li></ul></li><li><p>Advance ticket status into one of the following:</p><ul><li><p>New</p></li><li><p>In Diagnosis</p></li><li><p>On Hold (if a ticket item is on back order)</p></li></ul></li><li><p>Print ticket for customer and/or office records</p></li></ul><h3 id=\"RepairTicketWorkflow-Technician\">Technician</h3><ul><li><p>Update ticket status to Pending Approval queue (for customer//manager approval)</p></li><li><p>Advance ticket to Pending Notification.\u00a0</p><ul><li><p>On Hold (if a ticket item is on back order)</p></li></ul></li><li><p>Track tickets that are In Repair or In Diagnosis status.</p></li><li><p>View/Edit ticket details.</p></li><li><p>Perform the repair.</p></li><li><p>(Optional) Add notes to the ticket.</p></li><li><p>(Optional) Add ticket items - parts, labor, merchandise</p></li><li><p>Advance the ticket status</p></li></ul><h3 id=\"RepairTicketWorkflow-Customer\">Customer</h3><ul><li><p>The customer is automatically notified via SMS/email that their device is ready for pickup. (If Automated Notifications have been set up.) If you are unable to notify the customer, the ticket will remain in pending status for the following:</p><ul><li><p>Track Pending Notification Queue</p></li><li><p>Manually Contact Customer</p></li><li><p>Advance ticket to Ready for Pickup</p></li></ul></li><li><p>Customer returns to pick up repaired device at the location.</p></li></ul><h3 id=\"RepairTicketWorkflow-SalesReporManager\">Sales Rep or Manager</h3><ul><li><p>Look up customer/ticket</p></li><li><p>view/edit ticket</p></li><li><p>(Optional) Add notes to the ticket</p></li><li><p>(Optional) add ticket items - parts, labor, merchandise</p></li><li><p>Collect/Record payment</p></li><li><p>Close Ticket</p></li></ul><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933508774"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933508774/child",
+    "restrictions": "/rest/api/content/1933508774/restriction/byOperation",
+    "history": "/rest/api/content/1933508774/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933508774/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933508774",
+    "webui": "/spaces/SCD/pages/1933508774/Repair+Ticket+Workflow",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933508774",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933508774",
+    "tinyui": "/x/pgA-cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

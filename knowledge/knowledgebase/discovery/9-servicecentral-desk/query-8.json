@@ -1,0 +1,413 @@
+{
+  "seedQuery": "8",
+  "values": [
+    {
+      "title": "Staff Management: View and Adjust Attendance Records",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2696282113",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2696282113"
+      }
+    },
+    {
+      "title": "Catalog Item Import: Rules and Fields",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2129002528",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2129002528"
+      }
+    },
+    {
+      "title": "1.7.3.x",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2040856660",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2040856660"
+      }
+    },
+    {
+      "title": "1.8.3",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2036400230",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2036400230"
+      }
+    },
+    {
+      "title": "1.20.3",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2035875867",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2035875867"
+      }
+    },
+    {
+      "title": "1.15.6",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2031157270",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2031157270"
+      }
+    },
+    {
+      "title": "1.15.8.1 - 1.15.8.6",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2030862372",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2030862372"
+      }
+    },
+    {
+      "title": "RepairQ 1.13",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2030698611",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2030698611"
+      }
+    },
+    {
+      "title": "1.15.5",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2030600209",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2030600209"
+      }
+    },
+    {
+      "title": "Integrated Printing Troubleshooting",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936949301",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936949301"
+      }
+    },
+    {
+      "title": "QZ Printing System Requirements and Printer Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936588827",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936588827"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Activating Square Integration in RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936556034",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936556034"
+      }
+    },
+    {
+      "title": "Quick Create: Add New Catalog Items on Purchase Orders",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936425167",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936425167"
+      }
+    },
+    {
+      "title": "Integrated Printing 101: Downloading QZ Tray",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936359430",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936359430"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Windows 10",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936261135",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936261135"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Windows 8",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936261121",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936261121"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Chrome OS",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935900725",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935900725"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX A80/A920",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935572993",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935572993"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change the LAN Type on a PAX S300",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935441921",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935441921"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - iOS",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935343627",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935343627"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX D210",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935179789",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935179789"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your PAX S300",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934917880",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934917880"
+      }
+    },
+    {
+      "title": "Appointments: Scheduling an Appointment",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934917649",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934917649"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change Your DNS Servers - Windows 10",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786834",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786834"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: PAX Security Certificate Installation and Testing",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786687",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786687"
+      }
+    },
+    {
+      "title": "Integrations: QuickBooks Online Setup",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934229563",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934229563"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your Bluefin PAX D210",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196978",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196978"
+      }
+    },
+    {
+      "title": "Getting Started: Inventory Search",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933738155",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933738155"
+      }
+    },
+    {
+      "title": "Accounting for Miscellaneous Fees for Online Sales",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933738036",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933738036"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933705307",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933705307"
+      }
+    },
+    {
+      "title": "Keyword Search Techniques",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933606925",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933606925"
+      }
+    },
+    {
+      "title": "Configuring a Cash Drawer to Open Automatically When a Receipt is Printed",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933541484",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933541484"
+      }
+    },
+    {
+      "title": "List Views",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932754986",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932754986"
+      }
+    },
+    {
+      "title": "Custom Forms: Adding Images to Forms",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525752",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525752"
+      }
+    }
+  ]
+}

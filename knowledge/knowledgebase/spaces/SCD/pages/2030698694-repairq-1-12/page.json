@@ -1,0 +1,130 @@
+{
+  "id": "2030698694",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030698694",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDY5ODY5NA==",
+  "status": "current",
+  "title": "RepairQ 1.12",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-21T18:49:53.167Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "28",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030698694.17",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030698694"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698694/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Full Release: 04/04/2017</p><p><a class=\"external-link\" href=\"https://www.youtube.com/embed/I_VOycSxquk\" rel=\"nofollow\">Walk Through Video</a></p><h2 id=\"RepairQ1.12-Qpop\u2122\">Qpop\u2122</h2><p><a class=\"external-link\" href=\"http://repairq.us5.list-manage2.com/track/click?u=7c56c12b1d07ffb02c352a218&amp;id=429a3c0603&amp;e=9530bf9be6\" rel=\"nofollow\">Qpop (RepairQ point-of-purchase)</a> is a companion to RepairQ that will significantly enhance customer engagement and data collection at your service counter! With Qpop, you\u2019ll have a full-time retail facing app, designed to fit your favorite tablet, to push content of interest and points of interaction for customer review and response.\u00a0</p><p>This initial Beta release includes several powerful customer interactions: marketing communications, ticket summary of items &amp; prices, electronic signatures for waivers, custom forms, and electronic signatures for integrated credit card processing.</p><p>Qpop leverages standard web technologies, so no expensive proprietary hardware is required; simply select your favorite touchscreen device and go</p><p>While we are launching Qpop Beta with a solid list of interactions, we believe this companion app will inspire new and creative ways to interact with your customers. As we collaborate with our Beta subscribers we hope to enhance the experience and add new interactions over time.</p><p>Qpop will be made available in Release 1.12 to all subscribers as a Beta feature. After the Beta has ended, the Qpop app will be included at no cost in certain subscription plans or as a la carte options. New plans &amp; options will be announced soon.</p><p>For more details, and an interactive demo, see <a class=\"external-link\" href=\"https://repairq.io/qpop/\" rel=\"nofollow\">Qpop</a>.</p><h2 id=\"RepairQ1.12-IntegratedPaymentProcessingUpgrades\">Integrated Payment Processing Upgrades</h2><p>We are introducing a new\u00a0interface and payment flow for integrated payments processed with the PAX S300 and PAX S500 EMV payment devices. The new updates are designed with\u00a0the following goals:</p><ul><li><p>to make payment processing even more user friendly, with screens that walk the user through each step in the process including what to do if anything goes wrong.</p></li><li><p>to harden the process against networking failures or potential user errors, particularly related to cancelling transactions halfway through.</p></li></ul><p>Along with this upgrade, we are also adding\u00a0a new ticket auto-saving capability where any time a payment is\u00a0processed, the ticket is\u00a0immediately and automatically saved.</p><h2 id=\"RepairQ1.12-NewSupplierIntegrations\">New Supplier Integrations</h2><p>\u00a0RepairQ is excited to announce new Integrated Suppliers coming in RepairQ 1.12. Purchasing from an Integrated Supplier takes inventory management to a new level. With the newest Integrated Supplier purchasing features, you\u2019ll be able to check stock availability and pricing right from your RepairQ purchase order. In addition, Integrated Supplier purchase orders will automatically report shipping costs, order status updates, shipment tracking information, and more!</p><p>The first of several new RepairQ Integrated Suppliers will be announced in the coming weeks so watch your inbox. This feature will be\u00a0available to all RepairQ subscribers that have a registered account with an Integrated Supplier vendor.</p><h2 id=\"RepairQ1.12-BusinessIntelligence-Part2\">Business Intelligence - Part 2</h2><p>The <a class=\"external-link\" href=\"http://repairq.us5.list-manage1.com/track/click?u=7c56c12b1d07ffb02c352a218&amp;id=83031286c7&amp;e=9530bf9be6\" rel=\"nofollow\">Business Intelligence Beta</a> is getting even better with a new way to explore the underlying data in your reports. Each report will have the option to view the underlying data and analyze it from different angles using filters and alternative visualizations. In addition, you will be able to download your report data for use outside of RepairQ. Download your report charts and graphs, or download the underlying data in several consumable formats.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030698694"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 312703853
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030698694/child",
+    "restrictions": "/rest/api/content/2030698694/restriction/byOperation",
+    "history": "/rest/api/content/2030698694/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030698694/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030698694",
+    "webui": "/spaces/SCD/pages/2030698694/RepairQ+1.12",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030698694",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698694",
+    "tinyui": "/x/xgAKeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

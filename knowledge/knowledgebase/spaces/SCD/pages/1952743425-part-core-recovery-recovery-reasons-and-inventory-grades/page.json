@@ -1,0 +1,129 @@
+{
+  "id": "1952743425",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1952743425",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTk1Mjc0MzQyNQ==",
+  "status": "current",
+  "title": "Part Core Recovery: Recovery Reasons and Inventory Grades",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:24.449Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "1928",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1952743425.68",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1952743425"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1952743425/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Part Core Recovery allows companies to recover and track parts that can be sent back to the manufacturer for reimbursement or credit. Part Cores may include screens, batteries, or other assorted parts that can be remanufactured or recycled for their materials.</p><p>This process allows stores to reduce waste and increase their margins through discounts and credits. When a catalog item is marked as recoverable and you have activated Part Core Recovery, the bad/broken core is added to inventory as recovered. Then it can be sent back via the RMA return process.</p><p><strong>Recovery Reasons </strong>allow users to record why a part <strong>cannot be recovered</strong> through this process.</p><p><strong>Inventory Grades </strong>are an extra way to classify your parts when sending them back to the supplier. This can be used to standardize the quality or grade of wear and tear of your part cores.</p><h3 id=\"PartCoreRecovery:RecoveryReasonsandInventoryGrades-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932296378/RMA+Process+Sending+RMA+Items+to+the+Supplier+RMA+Batch\" data-linked-resource-id=\"1932296378\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">RMA Process: Sending RMA Items to the Supplier</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1951694865/Part+Core+Recovery+Setup\" data-linked-resource-id=\"1951694865\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Part Core Recovery: Setup</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1952481286/Part+Core+Recovery+Recover+a+Part+Core+on+a+Ticket\" data-linked-resource-id=\"1952481286\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Part Core Recovery: Recover a Part Core on a Ticket</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952743425/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"PartCoreRecovery:RecoveryReasonsandInventoryGrades-AccessingandCreatingPartRecoveryReasons\">Accessing and Creating Part Recovery Reasons</h2><p>When viewing Company Settings, look for the Part Recovery section. Under this area, click <strong>Recovery Reasons</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952743425/Part%20Core%205.png?api=v2\"></span><p /><p>The Recovery Reasons page is designed to list all reasons a part <strong>cannot</strong> be recovered. Click <strong>Add Part Not Recovered Reason</strong> to add a new reason or click the <strong>Edit Button </strong>next to an existing reason to edit the details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952743425/Part%20Core%206.png?api=v2\"></span><p /><p>Begin creating your Part Not Recovered Reason by filling out the available fields. Make sure to click <strong>Save </strong>to submit the changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952743425/Part%20Core%207.png?api=v2\"></span><p /><ul><li><p><strong>Name</strong> - Assign a name/reason that a part core may not be returned to the supplier.</p></li><li><p><strong>Priority</strong> - Assign a number this field to seat it in the list of available reasons. A lower number will seat this item higher in the main list and in dropdown selections.</p></li></ul><h2 id=\"PartCoreRecovery:RecoveryReasonsandInventoryGrades-AccessingandCreatingInventoryGrades\">Accessing and Creating Inventory Grades</h2><p>When viewing Company Settings, look for the Part Recovery section. Under this area, click <strong>Inventory Grades</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952743425/Part%20Core%208.png?api=v2\"></span><p /><p>The Inventory Grades page is designed to assign grades to parts to classify them when returning back to the supplier. Click <strong>Add Inventory Grade</strong> to add a new grade or click the <strong>Edit Button </strong>next to an existing grade to edit the details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952743425/Part%20Core%209.png?api=v2\"></span><p /><p>Begin creating your Inventory Grade by filling out the available fields. Make sure to click <strong>Save </strong>to submit the changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1952743425/Part%20Core%2010.png?api=v2\"></span><p /><ul><li><p><strong>Name </strong>- Assign a name/grade of the part core that will be returned to the supplier.</p></li><li><p><strong>Priority </strong>- Assign a number this field to seat it in the list of available reasons. A lower number will seat this item higher in the main list and in dropdown selections.</p></li></ul><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1952743425"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1952743425/child",
+    "restrictions": "/rest/api/content/1952743425/restriction/byOperation",
+    "history": "/rest/api/content/1952743425/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1952743425/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1952743425",
+    "webui": "/spaces/SCD/pages/1952743425/Part+Core+Recovery+Recovery+Reasons+and+Inventory+Grades",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1952743425",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1952743425",
+    "tinyui": "/x/AYBkd",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

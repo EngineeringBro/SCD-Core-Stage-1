@@ -1,0 +1,129 @@
+{
+  "id": "1934295273",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934295273",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDI5NTI3Mw==",
+  "status": "current",
+  "title": "PAX Device Troubleshooting: Change Your DNS Servers - macOS Ventura",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:02.769Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "76",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934295273.17",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934295273"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934295273/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>A bad DNS route could be cached to your Internet Service Provider (ISP) and may cause connectivity issues between your payment device and RepairQ. To resolve this issue, try using Google's DNS servers in your network settings.</p><h3 id=\"PAXDeviceTroubleshooting:ChangeYourDNSServers-macOSVentura-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Troubleshooting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786834/PAX+Device+Troubleshooting+Change+Your+DNS+Servers+-+Windows+10\" data-linked-resource-id=\"1934786834\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payment Devices: Changing Your DNS Servers - macOS</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786834/PAX+Device+Troubleshooting+Change+Your+DNS+Servers+-+Windows+10\" data-linked-resource-id=\"1934786834\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payment Devices: Changing Your DNS Servers - Windows 10</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing- Start Here!</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295273/image-20230608-185724.png?api=v2\"></span><p /><h2 id=\"PAXDeviceTroubleshooting:ChangeYourDNSServers-macOSVentura-UpdatingYourConnectionSettingsinmacOS\">Updating Your Connection Settings in macOS</h2><p /><p>1. On the upper-left of your desktop screen, click the <strong>Apple logo</strong>. From the dropdown, click <strong>System Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295273/image-20230608-185732.png?api=v2\"></span><p /><p /><p>2. On the Settings menu, click <strong>Network</strong> on the left column.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295273/image-20230608-185738.png?api=v2\"></span><p /><p /><p>3. Next to your active, connected network, click <strong>Details</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295273/image-20230608-185745.png?api=v2\"></span><p /><p /><p>4. On the Wi-Fi Details page, click <strong>DNS</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295273/image-20230608-185751.png?api=v2\"></span><p /><p /><p>5. Under the DNS Server field, click the <strong>Add (+) button</strong> to add a server address. Type in the following two addresses:</p><ul><li><p>8.8.8.8</p></li><li><p>8.8.4.4</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295273/image-20230608-185759.png?api=v2\"></span><p /><p /><p>6. After you have entered the addresses, click <strong>OK</strong> to save your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295273/image-20230608-185807.png?api=v2\"></span><p /><p /><p>7. Close the settings window and any active internet browsing sessions, then restart your connection to ensure that your changes go into effect.</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934295273"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934295273/child",
+    "restrictions": "/rest/api/content/1934295273/restriction/byOperation",
+    "history": "/rest/api/content/1934295273/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934295273/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934295273",
+    "webui": "/spaces/SCD/pages/1934295273/PAX+Device+Troubleshooting+Change+Your+DNS+Servers+-+macOS+Ventura",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934295273",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934295273",
+    "tinyui": "/x/6QBLcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

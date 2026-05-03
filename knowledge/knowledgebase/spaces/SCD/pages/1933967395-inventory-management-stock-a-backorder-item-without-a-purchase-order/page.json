@@ -1,0 +1,129 @@
+{
+  "id": "1933967395",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933967395",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzk2NzM5NQ==",
+  "status": "current",
+  "title": "Inventory Management: Stock a Backorder Item Without a Purchase Order",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:31.886Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933967395.20",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933967395"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933967395/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>When a user adds an inventory item to a ticket that has zero quantity in stock it will show as a backorder item. RepairQ will create a placeholder entry in your inventory for your records. A ticket with a backorder item cannot be closed until you have replaced the placeholder with an in-stock item. Backorder items can be fulfilled manually from the ticket or automatically through a Purchase Order (PO) replenishment. If the same item has been back ordered on multiple tickets, a PO will fulfill older tickets first. The reconciled PO will also show a list of backorder fulfillments.</p><p>The tutorial below will walk you through the process of stocking a backorder item on a ticket without utilizing a PO. It is understood that the item has been ordered and received, and the user is updating the inventory item to complete the ticket.</p><h3 id=\"InventoryManagement:StockaBackorderItemWithoutaPurchaseOrder-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672497/Inventory+Management+Allow+for+Backorder+Inventory+on+Tickets\" data-linked-resource-id=\"1933672497\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Management: Allowing for Backorder Inventory</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672518/Inventory+Management+Allowing+Backorders+via+Internal+Purchase+Order\" data-linked-resource-id=\"1933672518\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Inventory Management: Allowing Backorders via Internal Purchase Order</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312056/Inventory+Management+Stock+a+Backorder+Item+With+a+Purchase+Order\" data-linked-resource-id=\"1933312056\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Inventory Management: Stock a Backorder Item With a Purchase Order</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246673/Checking+for+Items+that+Require+Reordering\" data-linked-resource-id=\"1933246673\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Checking for Items that Require Reordering</a></p></li></ul><p><strong>Note</strong>: There are a few ways to find items that are in backorder status. To search your inventory for items in backorder status, see our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246673/Checking+for+Items+that+Require+Reordering\" data-linked-resource-id=\"1933246673\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Checking for Items that Require Reordering</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933967395/image-20230627-160318.png?api=v2\"></span><p /><h2 id=\"InventoryManagement:StockaBackorderItemWithoutaPurchaseOrder-StockaBackorderItembyEditingInventoryDetailsonaTicket\">Stock a Backorder Item by Editing Inventory Details on a Ticket</h2><p /><p>1. <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541674/Searching+for+Tickets\" data-linked-resource-id=\"1933541674\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Search\u00a0for the ticket</a> with the backorder item. Click the <strong>details link</strong> next to the Catalog Item to open the details in a pop-up window.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933967395/image-20230627-160323.png?api=v2\"></span><p /><p /><p><strong>Note</strong>: When viewing the ticket details, you can verify that the item is in Back Ordered status under the Ticket Items section.\u00a0</p><p /><p>2. On the Catalog Item Details pop-up, click the <strong>view item in inventory</strong> button to open the inventory details in a new tab.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933967395/image-20230627-160327.png?api=v2\"></span><p /><p /><p>3. On the Inventory Item Management page, you can see details and the Change Log for the item. On the upper-right side of the page, click <strong>Edit Item</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933967395/image-20230627-160330.png?api=v2\"></span><p /><p /><p>4. On the Inventory Update page, select a new Inventory Status for the item. Once you are satisfied with your selection, <strong>Save</strong> your changes at the bottom of the page.</p><ul><li><p><strong>Pulled</strong> - Select this status if you have the item in your possession and are ready to reserve it for the ticket.</p></li><li><p><strong>Sold</strong> - Select this status if you have already used/sold this item and the item is no longer in your possession.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933967395/image-20230627-160332.png?api=v2\"></span><p /><p /><p>5. When viewing the ticket, you can see that the item has now been pulled to the appropriate status. You can edit the ticket to take further action to progress and/or close the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933967395/image-20230627-160335.png?api=v2\"></span><p /><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933967395"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933967395/child",
+    "restrictions": "/rest/api/content/1933967395/restriction/byOperation",
+    "history": "/rest/api/content/1933967395/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933967395/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933967395",
+    "webui": "/spaces/SCD/pages/1933967395/Inventory+Management+Stock+a+Backorder+Item+Without+a+Purchase+Order",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933967395",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933967395",
+    "tinyui": "/x/IwBGcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

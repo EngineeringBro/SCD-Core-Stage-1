@@ -1,0 +1,130 @@
+{
+  "id": "2040889418",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2040889418",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA0MDg4OTQxOA==",
+  "status": "current",
+  "title": "1.7.4.5",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-08-01T22:57:09.492Z",
+    "friendlyWhen": "Aug 02, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "3",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2040889418.10",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2040889418"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040889418/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This update\u00a0contains a few bug fixes.</p><p><strong>Reports</strong></p><ul><li><p>Default Filters - On all reports where there is a Ticket Status multi-select filter (e.g. most sales reports), the default (before you apply any filter changes) filter setting\u00a0shows only the &quot;Closed&quot; ticket status selected. However, by default these reports would filter for all statuses excluding the &quot;Void&quot; ticket status. This has been fixed by properly applying only the &quot;Closed&quot; ticket status by default.</p></li><li><p>Invoice Aging Report - Fixed some issues with grouping\u00a0invoice values, which\u00a0would sometimes inflate the amount presented for a billing agent.</p></li></ul><p><strong>Billing Agents</strong></p><ul><li><p>The figures presented for ticket count and ticket amount\u00a0on the billing agent index and on the billing agent\u00a0view\u00a0were sometimes incorrect. This has been fixed.</p></li></ul><p><strong>Enterprise Invoicing</strong></p><ul><li><p>The &quot;write off&quot; function was not working properly for tax exempt tickets. When you clicked the &quot;write off&quot; button it would calculate tax\u00a0at the normal rate rather than the ticket tax rate override.</p></li><li><p>The totals presented at the bottom of the ticket list on the remittance screen would show for all\u00a0tickets on the invoice, rather than showing for the\u00a0tickets in the current view. This has been updated so that you can view totals for the current list of tickets in the list view.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2040889418"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 430966806
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2040889418/child",
+    "restrictions": "/rest/api/content/2040889418/restriction/byOperation",
+    "history": "/rest/api/content/2040889418/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2040889418/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2040889418",
+    "webui": "/spaces/SCD/pages/2040889418/1.7.4.5",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2040889418",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040889418",
+    "tinyui": "/x/SoCleQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

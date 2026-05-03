@@ -1,0 +1,130 @@
+{
+  "id": "2029486194",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029486194",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTQ4NjE5NA==",
+  "status": "current",
+  "title": "1.17.14",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T17:46:50.578Z",
+    "friendlyWhen": "Jul 19, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "111",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029486194.21",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029486194"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029486194/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>1.17.14 is a minor update including some small features and bug fixes.</p><p>Scheduled 11:30 CT on October 26, 2020</p><h3 id=\"id-1.17.14-Improvements\">Improvements</h3><p>We\u2019ve upgraded the following list views in RepairQ, allowing users to customize which columns appear on these pages and save custom views for you or your team to use.</p><ul><li><p>Inventory Transfers</p></li><li><p>RMA Batches</p></li><li><p>Invoices</p></li></ul><p><br/>List View Exports - In a List View, you can add or remove columns. However, until now, when you exported a list, the export file only contained a pre-defined set of columns. The exported list did not reflect the view you created on screen.\u00a0Now, when you export a list, the export file will contain the columns that you set on screen. This feature is useful for exporting lists/data related to catalog, tickets, inventory and allows you to use List Views for reporting.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029486194"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 632471356
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029486194/child",
+    "restrictions": "/rest/api/content/2029486194/restriction/byOperation",
+    "history": "/rest/api/content/2029486194/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029486194/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029486194",
+    "webui": "/spaces/SCD/pages/2029486194/1.17.14",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029486194",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029486194",
+    "tinyui": "/x/coD3e",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

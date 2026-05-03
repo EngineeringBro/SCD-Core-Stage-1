@@ -1,0 +1,129 @@
+{
+  "id": "1936392218",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936392218",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjM5MjIxOA==",
+  "status": "current",
+  "title": "Integrated Printing 104: Creating and Customizing Print Automation",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:13.872Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "410",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936392218.38",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936392218"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936392218/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ utilizes QZ Tray integration for seamless printing without navigating print dialogs. This provides users with a one-click printing process for receipts, invoices, and labels directly to their assigned printer. Users can also create and customize print automation for a hands-free process for printing, further streamlining your ticket workflow.</p><p>Print Automation allows you to save time on printing documents by creating conditional triggers that automatically create print jobs, based on a ticket's status change. If you have not added print configurations for your location or run into any issues with automation, please see the previous steps of the Integrated Printing process.</p><h3 id=\"IntegratedPrinting104:CreatingandCustomizingPrintAutomation-PreviousSteps\">Previous Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949270/Integrated+Printing+103+Adding+and+Assigning+Printer+Configurations\" data-linked-resource-id=\"1936949270\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Printing 103: Adding and Assigning Printer Configurations</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936457750/Integrated+Printing+102+Adding+Integrated+Printers\" data-linked-resource-id=\"1936457750\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Integrated Printing 102: Adding Integrated Printers</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936359430/Integrated+Printing+101+Downloading+QZ+Tray\" data-linked-resource-id=\"1936359430\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Integrated Printing 101: Downloading QZ Tray</a></p></li></ul><h3 id=\"IntegratedPrinting104:CreatingandCustomizingPrintAutomation-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949301/Integrated+Printing+Troubleshooting\" data-linked-resource-id=\"1936949301\" data-linked-resource-version=\"17\" data-linked-resource-type=\"page\">Integrated Printing Troubleshooting</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869057/Recommended+Hardware+Troubleshooting+Resources\" data-linked-resource-id=\"1933869057\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Recommended Hardware Troubleshooting</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932361958\" rel=\"nofollow\">Print Settings - Receipts</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933377656\" rel=\"nofollow\">Print Settings - Invoices</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936392218/image-20230608-182309.png?api=v2\"></span><h2 id=\"IntegratedPrinting104:CreatingandCustomizingPrintAutomation-CreatingandAssigningaPrintAutomation\">Creating and Assigning a Print Automation</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936392218/image-20230608-182315.png?api=v2\"></span><p /><p>2. On the Settings Overview page, there is a list of Settings Categories on the left column. Click <strong>Integrated Printing </strong>to expand the options and select <strong>Print Automation</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936392218/image-20230608-182320.png?api=v2\"></span><p /><p>3. On the Print Automation page, click <strong>Create Print Automation</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936392218/image-20230608-182326.png?api=v2\"></span><p /><p>4. Fill out the automation settings, based on which actions you would like to create a print job. Once you are satisfied with your selections, click <strong>Save</strong> to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936392218/image-20230608-182338.png?api=v2\"></span><ul><li><p><strong>Name </strong>- Assign a name for your automation to identify your workflow. For example, \u201cTicket Close - Receipt.&quot;</p></li><li><p><strong>Description </strong>- Add a description of the automation for user reference.</p></li><li><p><strong>Location </strong>- Choose which location to assign this automation. Admins can select a single location or assign automation to all locations.</p></li><li><p><strong>Trigger </strong>- The default trigger for printing is when a ticket status changes.</p></li><li><p><strong>Condition </strong>- Select which ticket status(es) must be met to trigger the print job. Select any that you want to apply to the automation.</p></li><li><p><strong>Action </strong>- Select whether the trigger is activated when the ticket enters the assigned status or when it leaves the assigned status.</p></li><li><p><strong>Print Template </strong>- Choose whether this will print from the Ticket Receipt template, Ticket Invoice template, or Ticket Label template.</p></li><li><p><strong>Active </strong>- Toggle to activate/deactivate an automation.</p></li></ul><h2 id=\"IntegratedPrinting104:CreatingandCustomizingPrintAutomation-PrintAutomationonTickets\">Print Automation on Tickets</h2><p>To try out the new automation, create a new ticket, and save it into the status that you have selected for your automation. The print job(s) will be triggered automatically after the ticket is saved.</p><p /><p>A print job status window will appear, listing the print jobs in the queue and their current status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936392218/image-20230608-182351.png?api=v2\"></span><p /><p>Once everything has been printed, you will see <strong>Print job complete</strong> in the dialogue box for all jobs and the window will close in 3 seconds.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936392218/image-20230608-182401.png?api=v2\"></span><p /><p>If you need to make adjustments to your automation, go back to <strong>Location Settings</strong> \u2192 <strong>Integrated Printing</strong> \u2192 <strong>Print Automation </strong>and edit the automation by clicking on the <strong>Edit </strong>button on the right column under Actions.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936392218/image-20230608-182408.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936392218"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936392218/child",
+    "restrictions": "/rest/api/content/1936392218/restriction/byOperation",
+    "history": "/rest/api/content/1936392218/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936392218/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936392218",
+    "webui": "/spaces/SCD/pages/1936392218/Integrated+Printing+104+Creating+and+Customizing+Print+Automation",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936392218",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936392218",
+    "tinyui": "/x/GgBrcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1932361859",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932361859",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjM2MTg1OQ==",
+  "status": "current",
+  "title": "Integrations: Revv/Rallio",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:28.710Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "123",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932361859.38",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932361859"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932361859/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"Integrations:Revv/Rallio-WhatisRevv?\">What is Revv?</h2><p>Revv (powered by Rallio) engages customers with a simple survey automatically deployed after a closed transaction from RepairQ. The survey directs happy customers to provide a public review on local business review sites and encourages unsatisfied customers to share their concerns, privately, with you.</p><p>Revv integration looks for an SMS phone number (or, optionally, an email address) to contact the customer. In order for Revv to reach out to a customer via SMS on your behalf, there must be an\u00a0<strong>SMS Phone Number</strong> in their <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Customer Profile</a> <strong>before</strong> the ticket is in Closed status.</p><p><strong>Note</strong>: Before following this tutorial, please visit <a class=\"external-link\" href=\"https://www.rallio.com/\" rel=\"nofollow\"><strong>https://www.rallio.com</strong></a> to request a demo and sign up for an account. You will need your Auth Token and Rallio Location ID(s) before integrating with RepairQ.</p><h3 id=\"Integrations:Revv/Rallio-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933246465\" rel=\"nofollow\">Automated Notification Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933803736\" rel=\"nofollow\">Sending an SMS Notification to a Customer</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933312070\" rel=\"nofollow\">Managing Customer Profiles</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933803609\" rel=\"nofollow\">Integrations: Twilio</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361859/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Integrations:Revv/Rallio-SettingupYourRevv/RallioIntegrationwithRepairQ\">Setting up Your Revv/Rallio Integration with RepairQ</h2><p /><p>Log into RepairQ as an Admin. On the Navigation Bar, go to <strong>Settings</strong> \u2192  <strong>Company Settings</strong>. On the Settings Overview page, click <strong>Integrations</strong> under the Account section.</p><p><strong>Note</strong>: The Revv Auth Token will be saved for all locations at the Company level, but individual accounts will be set up at the Location level.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361859/REVV%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361859/REVV%202.png?api=v2\"></span><p /><p>On the Integrations page, click <strong>Rallio</strong> from the Available Integration section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361859/REVV%203.png?api=v2\"></span><p /><p>On the Rallio Integration screen, enter your Revv/Rallio Auth Token, then click <strong>Save REVV Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361859/REVV%204.png?api=v2\"></span><h2 id=\"Integrations:Revv/Rallio-SettingUpRevvforYourLocation\">Setting Up Revv for Your Location</h2><p /><p>Log into the location where you want to set up Revv integration. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>. On the Settings Overview page, click <strong>Integrations</strong> under the Account section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361859/REVV%205.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361859/REVV%206.png?api=v2\"></span><p /><p>On the Integrations page, click <strong>Rallio</strong> from the Available Integration section. On the Rallio Integration screen, enter your Revv/Rallio Location ID and additional details, then click <strong>Save REVV Settings</strong>. Once you have saved the settings, the location is set up. You will need to repeat this process for any additional locations on your database.</p><p><strong>Note</strong>: Revv will send customer information after a ticket is in Closed status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361859/REVV%209.png?api=v2\"></span><p /><ul><li><p><strong>Rallio Location ID</strong> - This is provided by REVV and is required for integration. This ID is specific to your location.</p></li><li><p><strong>Ticket Types</strong> - Select the Ticket Type(s) that you would like to send a survey.</p></li><li><p><strong>Ticket Resolutions</strong> - If using the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427638/Ticket+Properties+Require+a+Ticket+Resolution\" data-linked-resource-id=\"1932427638\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Ticket Resolutions</a> feature, select any resolutions that will qualify the ticket for a survey. This field can be left blank.</p></li><li><p><strong>Service Authorizers</strong> - If using a Service Authorizer, select any specific provider(s) that will qualify the ticket for a survey. This field can be left blank.</p></li><li><p><strong>Service Programs</strong> - Select any specific Service Program(s) that will qualify the ticket for a survey. This field can be left blank.</p></li><li><p><strong>Enable REVV for this location</strong> - This will activate communication between RepairQ and REVV.</p></li><li><p><strong>Send customer email to REVV</strong> - By default, RepairQ will send over the SMS Phone from the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Customer Profile</a>. If this option is selected, it will also send over the customer's email information.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361859/REVV%207.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932361859"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932361859/child",
+    "restrictions": "/rest/api/content/1932361859/restriction/byOperation",
+    "history": "/rest/api/content/1932361859/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932361859/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932361859",
+    "webui": "/spaces/SCD/pages/1932361859/Integrations+Revv+Rallio",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932361859",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932361859",
+    "tinyui": "/x/g4Atcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

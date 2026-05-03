@@ -1,0 +1,130 @@
+{
+  "id": "2035843139",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2035843139",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzNTg0MzEzOQ==",
+  "status": "current",
+  "title": "1.10.4",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-26T22:30:55.905Z",
+    "friendlyWhen": "Jul 27, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "28",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2035843139.14",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2035843139"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2035843139/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 01/31/2017 11:30 CT (02/01/2017 5:30 AM UTC)</p><p>This is a minor update to address bugs and add minor features.</p><h2 id=\"id-1.10.4-IntegratedPrintingUIUpdates\">Integrated Printing UI Updates</h2><p>Based on your feedback\u00a0we have a few user interface updates for integrated printing from the ticket view. Our goals with this update were:</p><ul><li><p>One\u00a0click to print a receipt/invoice/label to\u00a0a default printer</p></li><li><p>The option\u00a0to print to a different printer in the event your default printer isn't working (e.g. offline, out of paper, etc.)</p></li></ul><p>The new interface goes back to (prior to integrated printing) separate print buttons for each print template, with a new attached menu\u00a0for selecting alternate printers. If you click on the button with the icon (print, invoice, label) then it will print directly to your default printer for that print template. The default printer is defined by the\u00a0RepairQ print configuration you have assigned to your computer. If you have no print configuration assigned, then the print button\u00a0will default to the browser's print dialog.</p><h2 id=\"id-1.10.4-InventoryCountSheet\">Inventory Count Sheet</h2><p>Several upgrades to inventory counts are here!</p><h3 id=\"id-1.10.4-InventoryZeroCounts\">Inventory Zero Counts</h3><p>The system used to ignore any items with a zero count, but now you can submit items with a zero count\u00a0for reconciliation.</p><h3 id=\"id-1.10.4-LoadCountAssignments\">Load Count Assignments</h3><p>We added a\u00a0new feature for loading assignments into a count sheet. There is a new\u00a0&quot;load assignments&quot; button added to your count sheets that will load up all count assignments for the current staff member for the current location into the count sheet. Each item will be loaded with a zero count, and as you scan items (or key in the quantity by hand) the quantity will increment normally.\u00a0</p><p>Now if you are assigned to count an item and none are available to count,\u00a0the count sheet will include the item for you as a zero count, and managers have everything they need to reconcile inventory counts.</p><h2 id=\"id-1.10.4-NewInventoryCountFilters\">New\u00a0Inventory Count Filters</h2><p>Two new\u00a0inventory count filters are available:</p><h3 id=\"id-1.10.4-DateRangeFilter\">Date Range Filter</h3><p><a class=\"external-link\" href=\"https://support.repairq.io/hc/en-us/community/posts/115000308647-Inventory-Counts-need-date-range-on-filter\" rel=\"nofollow\">I</a>nventory counts\u00a0can now be filtered\u00a0by a date range, and by one of the following date types: due date, counted date, reconciled date</p><h3 id=\"id-1.10.4-VarianceFilter\">Variance Filter<br/></h3><p>Now you can filter by the variance of the count; filter for counts that\u00a0were short/zero/long</p><h2 id=\"id-1.10.4-PurchaseOrder-ReceiveAll\">Purchase Order - Receive All</h2><p>We have removed serialized items from the &quot;receive all&quot; feature because you must enter a serial number for each item received.</p><h2 id=\"id-1.10.4-TicketAnalyticsUpdate\">Ticket\u00a0Analytics Update</h2><p>We are excluding damaged item costs from the &quot;Net Profit&quot;\u00a0estimate on\u00a0the ticket view screen. This change is being made so that the ticket analytics uses the same calculation\u00a0for\u00a0cost as is used in the ticket profitability report. We now display damages as a separate line item in the analytics section, and it is not included in the &quot;Net Profit&quot; calculation.</p><p>Our original goal when\u00a0including damages\u00a0in &quot;Net Profit&quot; was to provide you with a figure\u00a0that included any items damaged by a tech during the repair, but\u00a0before we can achieve that on tickets <em>and</em> reports in the same way, we need to\u00a0introduce some additional tracking to separate damages from defectives.\u00a0Before we decide on the strategy for accomplishing this, we want to learn\u00a0more about how everyone tracks defective items on tickets, and we will be sending out a survey to gather this feedback.</p><p>Our goal is to provide you with a clear picture\u00a0of items damaged by a tech during a repair vs. items damaged elsewhere vs. defective items returned for RMA, and we will be working toward this in a future\u00a0update.\u00a0</p><h2 id=\"id-1.10.4-Dashboard-PurchaseOrderAlert\">Dashboard - Purchase Order Alert</h2><p>We now limit the number of pending (not closed/reconciled) purchase orders displayed on the dashboard.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2035843139"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 243244339
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2035843139/child",
+    "restrictions": "/rest/api/content/2035843139/restriction/byOperation",
+    "history": "/rest/api/content/2035843139/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2035843139/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2035843139",
+    "webui": "/spaces/SCD/pages/2035843139/1.10.4",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2035843139",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2035843139",
+    "tinyui": "/x/Q4BYeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

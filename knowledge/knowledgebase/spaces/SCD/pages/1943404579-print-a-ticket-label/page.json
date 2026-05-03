@@ -1,0 +1,129 @@
+{
+  "id": "1943404579",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1943404579",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTk0MzQwNDU3OQ==",
+  "status": "current",
+  "title": "Print a Ticket Label",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:07.420Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "56",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1943404579.13",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1943404579"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1943404579/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h3 id=\"PrintaTicketLabel-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425137/Creating+a+Repair+Ticket+video\" data-linked-resource-id=\"1936425137\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Creating a Repair Ticket (video)</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261245/Creating+a+Trade-In+Ticket+video\" data-linked-resource-id=\"1936261245\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Creating a Trade-In Ticket (video)</a> </p></li></ul><p /><p /><p>You can print a ticket label for a Repair Ticket at any time from the &quot;Ticket View&quot; screen. This is the screen you see after saving a ticket, and after looking up a ticket.</p><p>Just click on the blue button with the QR code icon as pictured below.</p><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-external-resource image-center\" src=\"https://i.embed.ly/1/image?url=https%3A%2F%2Flh5.googleusercontent.com%2F-EIDfXVbunio%2FUMuEAbZeY3I%2FAAAAAAAAAGI%2FfbRqGULnQ8A%2Fs1429%2Fprint-label.png&amp;key=afea23f29e5a4f63bd166897e3dc72df\" data-image-src=\"https://i.embed.ly/1/image?url=https%3A%2F%2Flh5.googleusercontent.com%2F-EIDfXVbunio%2FUMuEAbZeY3I%2FAAAAAAAAAGI%2FfbRqGULnQ8A%2Fs1429%2Fprint-label.png&amp;key=afea23f29e5a4f63bd166897e3dc72df\" loading=\"lazy\"></span>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1943404579"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1943404579/child",
+    "restrictions": "/rest/api/content/1943404579/restriction/byOperation",
+    "history": "/rest/api/content/1943404579/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1943404579/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1943404579",
+    "webui": "/spaces/SCD/pages/1943404579/Print+a+Ticket+Label",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1943404579",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1943404579",
+    "tinyui": "/x/IwDWcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

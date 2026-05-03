@@ -1,0 +1,129 @@
+{
+  "id": "1936326751",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936326751",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjMyNjc1MQ==",
+  "status": "current",
+  "title": "Universal Check In Tool",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:15.338Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "96",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936326751.16",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936326751"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936326751/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>With RepairQ 1.17, we introduced a new universal Check In tool. The Check In tool allows the user to start a new ticket or open an existing ticket using one or more claims processing workflows for those who are utilizing multiple Service Authorizers and Programs.</p><h3 id=\"UniversalCheckInTool-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933508692/Warranty+Claims+Processing\" data-linked-resource-id=\"1933508692\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Warranty Claims Processing</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936654431/Managing+Service+Authorizers\" data-linked-resource-id=\"1936654431\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Managing Service Authorizers</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936687196/Managing+Service+Programs\" data-linked-resource-id=\"1936687196\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Managing Service Programs</a> </p></li></ul><p /><p /><p>If a customer notifies you they have an open claim with a Service Authorizer you are partnered with, you will use the Check In tool to check them in.</p><p>In order to begin the check in process for any repair, hover over \u201cTickets\u201d and click \u201cCheck In\u201d.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326751/image-20230607-182111.png?api=v2\"></span><p /><p>From here you have five options to choose from in the Check In Widget. Select the button to proceed down the path of the respective action.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326751/image-20230607-182118.png?api=v2\"></span><p /><ul><li><p><strong>Appointments</strong></p><ul><li><p>Select \u201cAppointments\u201d to view all of today\u2019s appointments. This can be used to verify if the customer has booked an appointment at your location or not. You can then click the triangle \u201cStart\u201d button on any of them to begin check in from that appointment. If the customer has not booked an appointment, continue down below to \u201cStart New\u201d.</p></li><li><p>Assign the appointment to yourself or another staff member, then click \u201cStart\u201d to convert the appointment to a ticket.</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326751/image-20230607-182124.png?api=v2\"></span><p /><ul><li><p><strong>Customer Search</strong></p><ul><li><p>If you need to locate the customer in the database to find information about them, select \u201cCustomer Search\u201d to perform a search of the customer database. This would be used if you are trying to locate an existing RepairQ ticket, search for a customer\u2019s contact info to follow up, or even begin a new ticket. Use the search box to type in first name, last name, phone number, or email address.<br/></p></li><li><p>If one or multiple results are found and shown, click on the record you\u2019d like to go into.</p></li><li><p>If the customer has any Open Items (tickets, quotes, appointments), those will be shown at this time. Click on each icon to view the Open Items for the customer. Within each section, click the pencil \u201cEdit\u201d button to resume either of them.<br/></p></li><li><p>If no Open Items are found, you will be shown the customer profile summary. From here you can view profile details, past RepairQ repair history, and past repair devices. Use the tabs on the left side to click through each one, viewing past details for each section. Current status of Tickets and Appointments will be shown.<br/></p></li></ul></li><li><p><strong>Ticket Search</strong></p><ul><li><p>If you need to locate a ticket, select \u201cTicket Search\u201d to perform a search of the ticket database. This would be used if you are trying to locate an existing ticket, search for repair device history, or search for customer repair history. Use the search box to type in the ticket number, customer first/last name, or device serial number.</p></li><li><p>If no results are found, try searching again. If no results are found, the ticket may not exist under the search you are performing. If one or multiple results are found and shown, click on the ticket number to view it.</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326751/image-20230607-182131.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326751/image-20230607-182148.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326751/image-20230607-182154.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326751/image-20230607-182200.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326751/image-20230607-182206.png?api=v2\"></span><p /><ul><li><p><strong>Return</strong></p><ul><li><p>If you are performing a warranty/rework/return repair on a device from a ticket that was originally in a Service Program, search for the original ticket by typing in the ticket number, first name and last name, phone number, email address, or serial number from the original ticket. Then click the magnifying glass to search.</p></li><li><p>If a single record is found, you will be presented with your options to either start a return/rework ticket, or view the ticket if it is not eligible for rework.</p></li><li><p>If multiple records are found, you will be presented with the ticket queue, filtered to show the results RepairQ found based on your search terms.</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326751/image-20230607-182212.png?api=v2\"></span><p /><ul><li><p><strong>Start New</strong></p><ul><li><p>If no other steps in the check in tool apply, you will create a new ticket. Select \u201cStart New\u201d to start a new ticket. Select the Service Authorizer (if applicable) and Service Program (if applicable) and continue down the path of creating a new ticket.</p></li></ul></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936326751"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936326751/child",
+    "restrictions": "/rest/api/content/1936326751/restriction/byOperation",
+    "history": "/rest/api/content/1936326751/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936326751/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936326751",
+    "webui": "/spaces/SCD/pages/1936326751/Universal+Check+In+Tool",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936326751",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936326751",
+    "tinyui": "/x/XwBqcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

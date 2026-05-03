@@ -1,0 +1,129 @@
+{
+  "id": "1932493070",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932493070",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjQ5MzA3MA==",
+  "status": "current",
+  "title": "Inventory Management: Void Inventory Associated with Inactive Catalog Items",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:56.422Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932493070.26",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932493070"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932493070/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>As a rule of thumb, marking a catalog item as inactive will not void any inventory associated with that catalog entry. When checking the Inventory Valuation Report, you may see that there are inventory items that are bloating your inventory because they are linked to a catalog item that has been previously deactivated/retired. Users can bulk-edit these items out of inventory if they no longer exist.\u00a0</p><h3 id=\"InventoryManagement:VoidInventoryAssociatedwithInactiveCatalogItems-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934557185/Reports+Inventory+Valuation\" data-linked-resource-id=\"1934557185\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Inventory Valuation</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196750/Reports+Inventory+Valuation+Snapshot\" data-linked-resource-id=\"1934196750\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Reports: Inventory Valuation Snapshot</a></p></li><li><p><a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Inventory%20Management%3A%20Editing%20Inventory%20Attributes&amp;linkCreation=true&amp;fromPageId=1932493070\">Inventory Management: Editing Inventory Attributes</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787772/Merging+Catalog+Items\" data-linked-resource-id=\"1932787772\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Merging Catalog Items</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status - What Does It Mean?</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"InventoryManagement:VoidInventoryAssociatedwithInactiveCatalogItems-FindingActiveInventorywithInactiveCatalogEntries\">Finding Active Inventory with Inactive Catalog Entries</h2><p /><p>1. On the Navigation Bar, go to <strong>Inventory</strong> \u2192 <strong>Inventory Detail</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%201.png?api=v2\"></span><p /><p>2. On the Inventory Detail screen, use the filters to set <strong>Inventory Focus:</strong>\u00a0<strong>Inactive Only</strong> and <strong>Date Added</strong>: <strong>All Time</strong>. Next, click <strong>Apply</strong> to filter results.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%202.png?api=v2\"></span><p /><p>3. Set another filter for <strong>Status: Select All</strong> then edit the filter to remove the following consumed inventory statuses:</p><ul><li><p>Damaged</p></li><li><p>Sold</p></li><li><p>Voided</p></li><li><p>Parts Only</p></li><li><p>Shrinkage</p></li><li><p>RMA Credit</p></li></ul><p>Your list should only include active inventory statuses, and will look similar to this:</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%203.png?api=v2\"></span><p /><p>4. After you have updated the filter, click <strong>Apply</strong> to submit the new changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%204.png?api=v2\"></span><p /><p>5. Any items that match your filters will appear on the Inventory Detail list.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%205.png?api=v2\"></span><h2 id=\"InventoryManagement:VoidInventoryAssociatedwithInactiveCatalogItems-Bulk-EditItemsOutofInventory\">Bulk-Edit Items Out of Inventory</h2><p /><p>1. Select items by clicking their checkbox on the left side of the listed item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%206.png?api=v2\"></span><p /><p>2. After you have made your selection(s), click the Options button on the upper-right of the page. From the list of options, click Edit Selected.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%207.5.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%207.png?api=v2\"></span><p /><p>3. A Bulk Edit pop-up window will appear. You can move these out of inventory by selecting <strong>Attribute: Status </strong>and\u00a0<strong>New value: Voided</strong> (Or select any other consumed inventory status that may better fit the status of these items). Add any additional notes for your records, and make sure to click <strong>Apply</strong> to save these changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%208.png?api=v2\"></span><p /><p>This will consume these items out of your inventory and remove them from your inventory valuation reports.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932493070/Void%209.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932493070"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932493070/child",
+    "restrictions": "/rest/api/content/1932493070/restriction/byOperation",
+    "history": "/rest/api/content/1932493070/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932493070/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932493070",
+    "webui": "/spaces/SCD/pages/1932493070/Inventory+Management+Void+Inventory+Associated+with+Inactive+Catalog+Items",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932493070",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932493070",
+    "tinyui": "/x/DoEvcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

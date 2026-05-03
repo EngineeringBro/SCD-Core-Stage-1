@@ -1,0 +1,129 @@
+{
+  "id": "1934786801",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934786801",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDc4NjgwMQ==",
+  "status": "current",
+  "title": "Integrated Payments Setup: Activate Your P2PE Device",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:57.226Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "21",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934786801.21",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934786801"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786801/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Integrated Payment systems give users a secure solution for accepting payments on a payment terminal and seamlessly posting those transactions to a RepairQ ticket. This streamlines the checkout process and reduces accounting errors when compared to manually recording payments on tickets. Bluefin is currently available for customers in the United States, and Square is available in the United States and Canada. Their devices support Europay, MasterCard, Visa (<a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/236101628\" rel=\"nofollow\">EMV</a>), and Point-to-Point Encryption (<a class=\"external-link\" href=\"https://www.bluefin.com/products/p2pe-point-to-point-encryption/\" rel=\"nofollow\">P2PE</a>) payment processing for secure and reliable payment processing.</p><p>After setting up your account with Bluefin and receiving your device, the first step is to activate the device via the Bluefin P2PE Manager. <strong>If you have any questions or concerns please call Bluefin Technical Support at 1-800-675-6573.\u00a0</strong></p><h3 id=\"IntegratedPaymentsSetup:ActivateYourP2PEDevice-NextSteps(BasedonyourProcessorandDevice)\">Next Steps (Based on your Processor and Device)</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917867\" data-linked-resource-id=\"1934917867\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917867</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229806/Integrated+Payments+Setup+Configuring+a+Bluefin+PAX+A80+A920+to+Communicate+with+RepairQ\" data-linked-resource-id=\"1934229806\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Integrated Payments Setup: Configuring a Bluefin PAX A80/A920 to Communicate with RepairQ</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786847/Integrated+Payments+Setup+Adding+Bluefin+Credentials+in+RepairQ\" data-linked-resource-id=\"1934786847\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding Bluefin Credentials in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786687/Integrated+Payments+Setup+PAX+Security+Certificate+Installation+and+Testing\" data-linked-resource-id=\"1934786687\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Integrated Payments Setup: PAX Security Certificate Installation</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935376416/Integrated+Payments+Setup+Adding+a+Bluefin+PAX+Payment+Terminal+Device+in+RepairQ\" data-linked-resource-id=\"1935376416\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935769605/Integrated+Payments+Setup+Performing+a+Test+Transaction+with+a+PAX+Terminal+Device\" data-linked-resource-id=\"1935769605\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Integrated Payments Setup: Performing a Test Transaction with a PAX Terminal Device</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935507459/Integrated+Payment+Setup+Assigning+Your+PAX+Payment+Device+to+a+VCT+and+Processing+Payments\" data-linked-resource-id=\"1935507459\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payment Setup: Assigning Your PAX to a VCT and Processing Payments</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:ActivateYourP2PEDevice-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786801/image-20230622-173623.png?api=v2\"></span><p /><h2 id=\"IntegratedPaymentsSetup:ActivateYourP2PEDevice-ActivatingyourBluefinDevice\">Activating your Bluefin Device</h2><p>There are 4 general steps that must be completed before your device is active and ready to use. An additional document with detailed steps about the inspection and activation process will be provided by Bluefin. <strong>Note</strong>: Please do not open the tamper-sealed bag or throw away any packaging until the end of activation. This is to ensure proper security and setup for the device. The tamper seal will have the information required for the activation process.</p><p /><h2 id=\"IntegratedPaymentsSetup:ActivateYourP2PEDevice-LoggingIntotheP2PEManager\">Logging In to the P2PE Manager</h2><p>The P2PE manager is where you will control the state of your devices. You can access the P2PE Portal by going to <a class=\"external-link\" href=\"https://bluefin.p2pemanager.com/\" rel=\"nofollow\">https://bluefin.p2pemanager.com</a>. Prior to your device shipment, the Custodian (your company\u2019s P2PE point person) of the P2PE device will have received a login to the P2PE Manager via email from Bluefin. Look for an email with a subject similar to: <em>P2PE POI Manager: Account Created</em>.</p><p /><p>On the P2PE Portal login page, enter your User Name and Password provided in the email mentioned above.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786801/image-20230622-173628.png?api=v2\"></span><p /><h2 id=\"IntegratedPaymentsSetup:ActivateYourP2PEDevice-ChangeYourP2PEPortalPassword\">Change Your P2PE Portal Password</h2><p>Once you log in to the portal, we recommend you change your password for security purposes. Inside the &quot;change password&quot; area, you will be able to review your information and make any updates necessary as well as change your password. Follow the onscreen instructions to change your password.</p><p /><h2 id=\"IntegratedPaymentsSetup:ActivateYourP2PEDevice-InspectingandReceivingYourShipment\">Inspecting and Receiving Your Shipment</h2><p><strong>IMPORTANT: DO NOT OPEN THE TAMPER BAG.</strong> Your hardware will be wrapped in a tamper-evident bag with a numbered tamper seal on the closure. You will need to input the information from both the hardware unit and tamper seal into the P2PE Manager. <strong>PLEASE DO NOT REMOVE THE DEVICE FROM THE BAG UNTIL LATER.</strong></p><p /><p>1. At the top of the page, click on the <strong>Shipments tab</strong>. On this page, you will see all of the shipments that have been sent to you from Bluefin.</p><p /><p>2. Click the <strong>View button</strong>\u00a0next to the listed device you would like to receive.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786801/image-20230622-173632.png?api=v2\"></span><p /><p>3. Next, click the <strong>Receive button</strong> under the Received column. This will take you to the inspection page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786801/image-20230622-173636.png?api=v2\"></span><p /><p>4a. Locate the label number on the Security Seal on the outside of the bag. Then, without opening the bag, look through the plastic to find the serial number on the bottom of the device. Enter both the serial number and tamper label number into the corresponding fields.</p><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786801/image-20230622-173640.png?api=v2\"></span><p /><p /><p>4b. If you are ready to activate the device immediately and process payments, check the selection for <strong>Auto</strong> <strong>Activate</strong> <strong>device</strong>, and then click <strong>Receive</strong>.</p><p>If you are not ready to activate the device at this time, then leave the <strong>Auto Activate device box unchecked</strong>, and click <strong>Receive</strong>. This puts the device into a &quot;stored&quot; state.</p><p><strong>Note</strong>: You will not be able to use your device until it is in <strong>Activating</strong> status.</p><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786801/image-20230622-173644.png?api=v2\"></span><p /><p /><h2 id=\"IntegratedPaymentsSetup:ActivateYourP2PEDevice-ActivatingYourDevice\">Activating Your Device</h2><p /><p>1. Click the <strong>Devices</strong> <strong>tab</strong> at the top of the page. Find the device you would like to deploy and click the <strong>Edit</strong> <strong>button</strong> to the left of the row item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786801/image-20230622-173647.png?api=v2\"></span><p /><p /><p>2. Change the Device State to <strong>Activating</strong> in the drop-down menu and press <strong>Save</strong>. Your device is now ready to be used. Now you are ready to open the bag and plug in your new P2PE device.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786801/image-20230622-173652.png?api=v2\"></span><p /><p /><p><strong>Note</strong>: Once you begin processing cards, your device will automatically change from <strong>Activating</strong> to <strong>Activated</strong>\u00a0Status.</p><p /><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934786801"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934786801/child",
+    "restrictions": "/rest/api/content/1934786801/restriction/byOperation",
+    "history": "/rest/api/content/1934786801/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934786801/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934786801",
+    "webui": "/spaces/SCD/pages/1934786801/Integrated+Payments+Setup+Activate+Your+P2PE+Device",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934786801",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786801",
+    "tinyui": "/x/8YBScw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

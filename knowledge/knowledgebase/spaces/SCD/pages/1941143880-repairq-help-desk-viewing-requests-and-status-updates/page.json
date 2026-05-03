@@ -1,0 +1,129 @@
+{
+  "id": "1941143880",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1941143880",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTk0MTE0Mzg4MA==",
+  "status": "current",
+  "title": "RepairQ Help Desk - Viewing Requests and Status Updates",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:28.750Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "72",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1941143880.89",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1941143880"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1941143880/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Help Desk is designed to enhance your support experience by offering self-help options through our Knowledge Base and allowing users to submit and manage support requests.</p><p>When you create a ticket, you will be contacted via the email address you provided when submitting the request. Users can also create a user account to review their ticket progress and view a history of any issues submitted to the Support Team.</p><p><strong>Note</strong>: You will need to create a Help Desk User Account or log in using your existing User Credentials before submitting a request.</p><h3 id=\"RepairQHelpDesk-ViewingRequestsandStatusUpdates-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1941700634\" rel=\"nofollow\">Create a Help Desk User Account</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1941831681/RepairQ+Help+Desk+-+Knowledge+Base+and+Submit+a+Request\" data-linked-resource-id=\"1941831681\" data-linked-resource-version=\"33\" data-linked-resource-type=\"page\">RepairQ Help Desk - Knowledge Base and Submit a Request</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2013626370/RepairQ+Help+Desk+-+Organization+Management\" data-linked-resource-id=\"2013626370\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">RepairQ Help Desk - Organization Management</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1930494471\" rel=\"nofollow\">Contacting RepairQ Support</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656681/Submitting+a+Feature+Request\" data-linked-resource-id=\"1932656681\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Submitting a Feature Request</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624095/RepairQ+Support+Login+Authorization\" data-linked-resource-id=\"1932624095\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Support Login Authorization</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941143880/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"RepairQHelpDesk-ViewingRequestsandStatusUpdates-SupportRequestsintheHelpDesk\">Support Requests in the Help Desk</h2><p>When you submit a request via the Help Desk or by email, you will be notified via email that your request was received. Any responses from the Support Team will send in the original email thread, or you can view your requests by logging into the Help Desk.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941143880/HD%2019.png?api=v2\"></span><p /><h2 id=\"RepairQHelpDesk-ViewingRequestsandStatusUpdates-ViewingRequestsintheHelpDesk\">Viewing Requests in the Help Desk</h2><p>Once you have <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1941700634/Create+a+Help+Desk+User+Account\" data-linked-resource-id=\"1941700634\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\"><strong>created a Help Desk account</strong></a>, you can view all past and present requests.</p><p /><p>1. Log into the <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/user/login\" rel=\"nofollow\"><strong>RepairQ Help Desk</strong></a>.</p><p /><p>2. At the top-right of the Help Desk Homepage, click <strong>Requests</strong>. From the dropdown menu, select <strong>Created by me</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941143880/HD%2020.png?api=v2\"></span><p /><p>3. The Requests page will show all Open Requests by default. If you have multiple requests, you can use the filters at the top of the list to search requests by keyword, status, creator, and request type.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941143880/HD%2021.png?api=v2\"></span><p /><p>4. To view a specific request, click the Reference Number or the Summary link.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941143880/HD%2022.png?api=v2\"></span><p /><p>5. When viewing your request, you can see the status on the right side of the page. Your information and request will be at the top of the page, with any responses from the Support Team at the bottom of the page under the Activity section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941143880/HD%2023.png?api=v2\"></span><p /><p>6. If you would like to reply, click in the text box, write your message, and click Send. The conversation will update with your new comment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941143880/HD%2025.png?api=v2\"></span><p /><p>7. When your request is Resolved/Closed, you will be notified via email and on the Help Desk Ticket. Your resolved ticket will also update to the appropriate status and may disappear from the default request list view since it is completed.</p><p><strong>Note</strong>: If you need to reopen the request, simply reply to the thread, and the team will be notified.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1941143880/HD%2026.png?api=v2\"></span><p /><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1941143880"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1941143880/child",
+    "restrictions": "/rest/api/content/1941143880/restriction/byOperation",
+    "history": "/rest/api/content/1941143880/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1941143880/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1941143880",
+    "webui": "/spaces/SCD/pages/1941143880/RepairQ+Help+Desk+-+Viewing+Requests+and+Status+Updates",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1941143880",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1941143880",
+    "tinyui": "/x/SIGzcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

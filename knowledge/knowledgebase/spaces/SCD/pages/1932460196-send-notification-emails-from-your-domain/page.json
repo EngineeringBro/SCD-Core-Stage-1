@@ -1,0 +1,129 @@
+{
+  "id": "1932460196",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932460196",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjQ2MDE5Ng==",
+  "status": "current",
+  "title": "Send Notification Emails From Your Domain",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:32.415Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 13,
+    "minorEdit": false,
+    "ncsStepVersion": "124",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932460196.49",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932460196"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932460196/version/13"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>By default, RepairQ sends notification emails from a generic address, which may raise questions about authenticity among your customers, as they may not recognize the sender. Sending automated notifications from your domain can enhance your business' branding and customer trust. By updating your email server's DNS settings and verifying your domain through our outgoing mail server (Mailchimp), you can configure RepairQ to send notifications from a personalized email address, such as \u2018<strong>updates@yourdomain.com</strong>.\u2019 This reinforces your brand identity and ensures customers recognize your communications as legitimate, also improving engagement.</p><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notification Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525709/Email+Domain+Troubleshooting\" data-linked-resource-id=\"1932525709\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Email Domain Troubleshooting</a></p></li><li><p><a class=\"external-link\" href=\"https://mailchimp.com/help/verify-a-domain/\" rel=\"nofollow\">Mailchimp - Verify an Email Domain</a> (External article)</p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2816507905\" rel=\"nofollow\">Create an Automated Email Notification</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460196/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"SendNotificationEmailsFromYourDomain-AddDNS(SPFandDKIM)RecordsforSendingDomains\">Add DNS (SPF and DKIM) Records for Sending Domains</h2><p>To add DNS records for your sending domains, you must add TXT records through your hosting provider, domain registrar, or DNS provider.</p><ul><li><p>Add SPF and DKIM records and verify ownership of your sending domains before sending emails through your account. Mandrill will not send emails from unverified domains or domains without valid SPF and DKIM records, including public domains like gmail.com, yahoo.com, and more.</p></li><li><p>A rejected message with the reject reason \u2018<strong>unsigned</strong>\u2019 indicates that the sending domain hasn't been properly set up and that your account cannot send and authenticate emails from that domain.</p></li><li><p>Learn more about <a class=\"external-link\" href=\"https://mandrill.zendesk.com/hc/en-us/articles/205582267\" rel=\"nofollow\">SPF and DKIM</a>, <a class=\"external-link\" href=\"https://mandrill.zendesk.com/hc/en-us/articles/205582247\" rel=\"nofollow\">domain verification</a>, and <a class=\"external-link\" href=\"https://mandrillapp.com/settings/sending-domains\" rel=\"nofollow\">managing sending domains in your Mandrill account</a>.</p></li><li><p>Some DNS providers take longer than others to publish and push the record. If you add a completely new record, those often validate within 10-15 minutes. Changing records can take longer but can vary based on your DNS provider and TTL for the record.</p></li><li><p>Check out <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525709/Email+Domain+Troubleshooting\" data-linked-resource-id=\"1932525709\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Email Domain Troubleshooting</a> for more links and information for several hosting and DNS providers.</p></li></ul><h3 id=\"SendNotificationEmailsFromYourDomain-SPFRecord\">SPF Record</h3><p>If you don't have an SPF record, you must add one for your domain. At a minimum, the TXT record value should be the following if you are sending mail through Mandrill for that domain:</p><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">v=spf1 include:spf.mandrillapp.com ?all\n</pre>\n</div></div><p>If you already have a TXT record with SPF information, you'll need to add Mandrill's servers to that record by adding <code>include:spf.mandrillapp.com</code> in the existing record before the last operator, (which is usually <code>?all</code>, <code>~all</code>, or <code>-all</code>).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"544\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460196/Domain%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"544\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460196/Domain%203.png?api=v2\"></span><h3 id=\"SendNotificationEmailsFromYourDomain-DKIMRecord\">DKIM Record</h3><p>Add a new TXT record with the name <code>mandrill._domainkey.yourdomain.com</code> (be sure to replace <em>yourdomain.com</em> with the domain you're setting up).</p><p><strong>Note</strong>: The value for the record should be one of the options listed below. There are two options because the record contains semicolons, and some DNS providers escape semicolons for you while others require you to do it when setting up the record.</p><h4 id=\"SendNotificationEmailsFromYourDomain-Withsemicolonsescaped\">With semicolons escaped</h4><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">v=DKIM1\\; k=rsa\\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB\\;</pre>\n</div></div><h4 id=\"SendNotificationEmailsFromYourDomain-Withsemicolonsunescaped\">With semicolons unescaped</h4><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;</pre>\n</div></div><hr/><h2 id=\"SendNotificationEmailsFromYourDomain-ContactRepairQSupport\">Contact RepairQ Support</h2><p>Once you have configured your DNS settings, the next step is to contact RepairQ Support and notify the team that you have configured your DNS settings and would like to allow sending from your own server.</p><p>Please have an Account Admin <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portals\" rel=\"nofollow\"><strong>send a Support Request</strong></a> with the following details, replacing the <strong>bolded sections</strong> with your specific information and <strong>'yourdomain.com'</strong> with your company's email server domain.</p><p /><p>Subject: Email Domain Request</p><p>This is {<em><strong>Name</strong></em>} with {<strong>C</strong><em><strong>ompany Name - RepairQ URL</strong></em>}. I have set up my DNS settings to allow email notifications to be sent from our server. Please navigate to <a class=\"external-link\" href=\"https://mandrillapp.com/settings/sending-domains\" rel=\"nofollow\">https://mandrillapp.com/settings/sending-domains</a> and add <em><strong>yourdomain.com</strong></em> as a sending domain so we can continue with the process. Please send the verification email to {<em><strong>emailaddress@yourdomain</strong></em>} to validate.</p><h3 id=\"SendNotificationEmailsFromYourDomain-AccountValidation\">Account Validation</h3><p>Once RepairQ Support adds your domain to the list, we will trigger a validation email to the email address you provided. It is required that you follow the steps in the validation email to continue.</p><p><strong>Note</strong>: After you receive the validation email, please follow up with your support request by sending us the email contents so we can assist with validation.</p><hr/><h2 id=\"SendNotificationEmailsFromYourDomain-UpdateRepairQEmailSettings\">Update RepairQ Email Settings</h2><p>Once you receive confirmation from RepairQ Support that your domain has been added and verified, navigate to <strong>Settings</strong> \u2192 <strong>Company</strong> <strong>Settings</strong>. On the Settings Overview page, under the Communications section, click <strong>Email</strong> <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"544\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460196/Domain%204.png?api=v2\"></span><p /><p>On the email settings page, enter the Mailbox and Doman information based on your email address. Once you have made your selections, be sure to <strong>Save</strong> your settings.</p><p>For example, if the email address you want emails sent from is <em>support@yourdomain.com</em>,\u00a0enter your respective information into Mailbox and Domain:</p><ul><li><p>Mailbox: <em>support</em></p></li><li><p>Domain: <em>yourdomain.com</em></p></li></ul><p>Next, select the name of the sender on outbound emails to display your Location's Short Name or Location's Legal Name by inserting the respective shortcode. These details are pulled from your Location Info page.</p><ul><li><p>{location_short_name}</p></li><li><p>{location_legal_name}</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"454\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460196/Domain%205.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932460196"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932460196/child",
+    "restrictions": "/rest/api/content/1932460196/restriction/byOperation",
+    "history": "/rest/api/content/1932460196/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932460196/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932460196",
+    "webui": "/spaces/SCD/pages/1932460196/Send+Notification+Emails+From+Your+Domain",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932460196",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932460196",
+    "tinyui": "/x/pAAvcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

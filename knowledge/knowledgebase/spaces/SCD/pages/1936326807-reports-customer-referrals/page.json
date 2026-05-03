@@ -1,0 +1,129 @@
+{
+  "id": "1936326807",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936326807",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjMyNjgwNw==",
+  "status": "current",
+  "title": "Reports: Customer Referrals",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:51.051Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "90",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936326807.19",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936326807"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936326807/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"Reports:CustomerReferrals-Summary/DetailsbyCustomerReferral\">Summary/Details by Customer Referral</h2><p>Users can run Customer Referral reports that will show sales data for each Referral Method. RepairQ also offers detailed reporting by referral. You can filter your results by date, Ticket Status, Location, Item Types, or specific Catalog Items.</p><p><strong>Note</strong>: We recommend users filter these reports based on Closed tickets only. Once a ticket is closed, the date will no longer change, and the ticket has been paid in full. This also aligns with our Accounting Principles, as revenue is recorded once the ticket is fully closed.</p><h3 id=\"Reports:CustomerReferrals-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932394664/Assigning+a+Customer+Referral+Source\" data-linked-resource-id=\"1932394664\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Assigning a Customer Referral Source</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Managing Customer Profiles</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937866763/Reporting+Resources+with+Video\" data-linked-resource-id=\"1937866763\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Reporting Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326807/image-20230607-172325.png?api=v2\"></span><h2 id=\"Reports:CustomerReferrals-ViewingReportsbyCustomerReferral\">Viewing Reports by Customer Referral</h2><p /><p>1. On the Navigation Bar, go to <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326807/image-20230607-172331.png?api=v2\"></span><p /><p>2. On the Reports page, click on the <strong>Sales</strong> <strong>dropdown</strong> along the top row of report categories. From the available list, click <strong>Summary</strong> <strong>by</strong> <strong>Referral</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326807/image-20230607-172338.png?api=v2\"></span><p /><p><strong>Note</strong>: You can view a detailed list of results including the Customer's Name, Ticket Date, and Sales details by selecting <strong>Details</strong> <strong>by</strong> <strong>Referral</strong>.</p><p /><p>3. Use the available filters to scope results based on the assigned parameters.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326807/image-20230607-172346.png?api=v2\"></span><p /><ul><li><p><strong>Date</strong> <strong>Range</strong> - Set a date range for your scope of results.</p></li><li><p><strong>Ticket</strong> <strong>Status</strong> - Search by Ticket Status. We recommend <strong>Closed</strong> as the default status for accrual accounting purposes.</p></li><li><p><strong>Location</strong> - Select the location(s) for customer referral data results.</p></li><li><p><strong>Item</strong> <strong>Type</strong> - Search for a specific type or all Item Types in your Catalog. Leave this field unselected to search all types.</p></li><li><p><strong>Catalog</strong> <strong>Item</strong> - Search for specific Catalog Items by keyword.</p></li></ul><p /><p>4. Once you have set your filters, click <strong>Apply</strong> <strong>Filters\u00a0</strong>to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326807/image-20230607-172444.png?api=v2\"></span><h2 id=\"Reports:CustomerReferrals-SummarybyReferral\">Summary by Referral</h2><p>Sales Summary by Referral will show combined sales data for each Customer Referral Method. If you would like to see a breakdown of customer and sales data, click <strong>Detail</strong> <strong>Report</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326807/image-20230607-172455.png?api=v2\"></span><h2 id=\"Reports:CustomerReferrals-DetailsbyReferral\">Details by Referral</h2><p>Sales Details by Referral will show sales data for each Referral Method. If you would like to see a summary of these results, click <strong>Summary</strong> <strong>Report</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936326807/image-20230607-172507.png?api=v2\"></span><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936326807"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936326807/child",
+    "restrictions": "/rest/api/content/1936326807/restriction/byOperation",
+    "history": "/rest/api/content/1936326807/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936326807/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936326807",
+    "webui": "/spaces/SCD/pages/1936326807/Reports+Customer+Referrals",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936326807",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936326807",
+    "tinyui": "/x/lwBqcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

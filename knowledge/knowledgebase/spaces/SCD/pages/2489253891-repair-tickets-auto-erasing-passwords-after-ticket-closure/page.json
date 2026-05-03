@@ -1,0 +1,129 @@
+{
+  "id": "2489253891",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2489253891",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjQ4OTI1Mzg5MQ==",
+  "status": "current",
+  "title": "Repair Tickets: Auto-Erasing Passwords After Ticket Closure",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:13.600Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "120",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2489253891.33",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2489253891"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2489253891/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ has introduced a new feature designed to enhance the security of your business and safeguard your customers' sensitive information. Our latest update allows Admins to automatically erase device passwords, from Repair Tickets once the ticket reaches Closed status. This proactive measure ensures that any customer information associated with the repair process is securely removed, providing added protection and peace of mind after the repair is complete. Key benefits include:</p><ul><li><p><strong>Improved Service Experience</strong> - Provides a secure and reliable service experience, fostering customer loyalty.</p></li><li><p><strong>Privacy Protection and Compliance </strong>- Ensure personal device passwords are not stored on tickets, reducing the risk of exposing or misusing personal data, and following data protection regulations and industry standards.</p></li></ul><h3 id=\"RepairTickets:Auto-ErasingPasswordsAfterTicketClosure-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932624082\" rel=\"nofollow\">Application Settings Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933803723\" rel=\"nofollow\">Creating a Repair Ticket</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2489253891/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"RepairTickets:Auto-ErasingPasswordsAfterTicketClosure-ActivatePasswordAuto-Erase\">Activate Password Auto-Erase</h2><p>On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>. On the Settings Overview page, under the <strong>Tickets </strong>category, click <strong>General Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Erase Passwords 1.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2489253891/Erase%20Passwords%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Erase Passwords 2.png\" width=\"503\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2489253891/Erase%20Passwords%202.png?api=v2\"></span><p /><p>On the Ticket Settings page, under the <strong>Automations </strong>section, activate the setting for <strong>Auto-Erase Device Passcode</strong>. Be sure to <strong>Save </strong>your settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Erase Passwords 3.png\" width=\"503\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2489253891/Erase%20Passwords%203.png?api=v2\"></span><h2 id=\"RepairTickets:Auto-ErasingPasswordsAfterTicketClosure-DevicePasswordsonRepairTickets\">Device Passwords on Repair Tickets</h2><p>During a repair, the technician may need to access the phone\u2019s operating system and apps to diagnose issues, back up data, and test the device after repair to ensure everything functions correctly. This information is collected during the device intake process. When viewing a Repair Ticket, the Password is visible to the user.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Erase Passwords 4.png\" width=\"780\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2489253891/Erase%20Passwords%204.png?api=v2\"></span><p /><p>When the Auto-Erase feature is active, the Password information is deleted from the system when a user progresses the ticket to <strong>Closed </strong>status. For locations processing claims, the password is deleted when progressing to the <strong>Device Returned </strong>step.</p><p><strong>Note</strong>: The device history is still retained for the customer, however, if this device is added to a repair ticket in the future, you will need to capture the password again.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Erase Passwords 5.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2489253891/Erase%20Passwords%205.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2489253891"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2489253891/child",
+    "restrictions": "/rest/api/content/2489253891/restriction/byOperation",
+    "history": "/rest/api/content/2489253891/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2489253891/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2489253891",
+    "webui": "/spaces/SCD/pages/2489253891/Repair+Tickets+Auto-Erasing+Passwords+After+Ticket+Closure",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2489253891",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2489253891",
+    "tinyui": "/x/AwBfl",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

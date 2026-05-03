@@ -1,0 +1,129 @@
+{
+  "id": "1928921186",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1928921186",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkyODkyMTE4Ng==",
+  "status": "current",
+  "title": "RepairQ Subscription Management: Change Your Subscription",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:08.816Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 19,
+    "minorEdit": false,
+    "ncsStepVersion": "168",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1928921186.87",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1928921186"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1928921186/version/19"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ provides a suite of Account Management tools for Admins, allowing you to view existing plan details, modify location and user counts, and change your subscription.\u00a0Here are some guidelines for subscription changes:</p><p><strong>Location/User Changes </strong>- Admins can make instant changes to their account anytime, without contacting Support. Track user and location counts and make real-time adjustments, ensuring up-to-date information and billing.</p><ul><li><p>If you need to add a location or user, first you must update your subscription to accommodate the additions. The summary section shows the total of active and available locations and users.</p></li><li><p>If you need to reduce your Location or User count, first you must deactivate (mark inactive) the locations and users within RepairQ before updating your account to reflect these changes.</p></li><li><p>If you have any unused locations in your Plan Summary, update your subscription to remove the additional locations. If not updated, you will continue to be charged for them.</p></li></ul><p><strong>Warehouse Locations and Sandbox Instances </strong>- These cannot be configured by users. For assistance with setting up these environments, please contact RepairQ Support.</p><p>If you have plan restrictions, need assistance changing your plan, or have additional questions about your subscription, please <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1930494471\" rel=\"nofollow\">contact RepairQ Support</a>.</p><h3 id=\"RepairQSubscriptionManagement:ChangeYourSubscription-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1929379890/Staff+Management+Add+and+Deactivate+Staff+Profiles\" data-linked-resource-id=\"1929379890\" data-linked-resource-version=\"27\" data-linked-resource-type=\"page\">Adding and Deactivating Users</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921166/Location+Management+Add+or+Deactivate+a+Location\" data-linked-resource-id=\"1928921166\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Location Management: Add or Deactivate a Location</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932230678\" rel=\"nofollow\">RepairQ Subscription Management: Read-Only Access</a></p></li><li><p><a class=\"external-link\" href=\"https://www.servicecentral.com/products/repair-q/pricing/\" rel=\"nofollow\">RepairQ Plan Pricing and Features</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1930494471\" rel=\"nofollow\">Help Desk Hours and Support Requests</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2028175373\" rel=\"nofollow\">RepairQ Onboarding Plans and Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921186/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"RepairQSubscriptionManagement:ChangeYourSubscription-ViewandUpdateYourSubscription\">View and Update Your Subscription</h2><p>On the RepairQ Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>. On the Settings Overview page, under the Account section, click <strong>RepairQ Account</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Company Settings.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921186/Company%20Settings.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Changing your RepairQ Subscription 2.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921186/Changing%20your%20RepairQ%20Subscription%202.png?api=v2\"></span><h3 id=\"RepairQSubscriptionManagement:ChangeYourSubscription-PlanDetails\">Plan Details</h3><p>The Account Overview page shows your current plan details, and there\u2019s an itemized breakdown of any additional Locations, Users, integrations, Business Analysts, Warehouses, and Sandboxes currently active on your account.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Changing your RepairQ Subscription 3.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921186/Changing%20your%20RepairQ%20Subscription%203.png?api=v2\"></span><p /><p>The Summary section of Plan Details shows the total billed amount (per month) and the Subscription cycle date. It also shows your active Location and User count and how many additional Locations and Users are available to add.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Changing your RepairQ Subscription 4.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921186/Changing%20your%20RepairQ%20Subscription%204.png?api=v2\"></span><h3 id=\"RepairQSubscriptionManagement:ChangeYourSubscription-UpdateYourPlan\">Update Your Plan</h3><p>Click <strong>Update Plan </strong>at the bottom of the summary to update your existing plan or select a new plan. You will see a new window with our current plans, pricing, and a list of features available for each plan. Click <strong>Keep Current Plan</strong> to stay on your existing plan and make changes to your location and/or user quantity. You can also select a new plan if you would like to upgrade or downgrade.</p><p><strong>Note</strong>: At the top of the Update Plan window, you can toggle between Monthly or Annual pricing.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Changing your RepairQ Subscription 5.png\" width=\"758\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921186/Changing%20your%20RepairQ%20Subscription%205.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Changing your RepairQ Subscription 6.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921186/Changing%20your%20RepairQ%20Subscription%206.png?api=v2\"></span><p /><p>On the Update Plan screen, use the arrows on the Quantity field to increase your Users and/or Locations. As you make adjustments, your summary will reflect these changes.</p><p><strong>Note:\u00a0</strong>You cannot update your account if there\u2019s a negative number of Users/Locations. You\u2019ll need to balance these numbers at zero or have a positive number for available users/locations to add. Remember that if you have a subscription with a location count higher than what is active in your database, you are still charged; you will need to reduce the total before updating your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Changing your RepairQ Subscription 7.png\" width=\"758\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921186/Changing%20your%20RepairQ%20Subscription%207.png?api=v2\"></span><p /><p>Click <strong>Yes, Update My Account</strong> to finalize your changes. You should receive a notification from our billing system that you have been charged for the changes. After updating your account, you add a new location or new users.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Changing your RepairQ Subscription 8.png\" width=\"758\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921186/Changing%20your%20RepairQ%20Subscription%208.png?api=v2\"></span><hr/><h2 id=\"RepairQSubscriptionManagement:ChangeYourSubscription-CancelYourSubscription\">Cancel Your Subscription</h2><p>If you wish to cancel your RepairQ subscription, <a class=\"external-link\" href=\"http://servicecentral.atlassian.net/servicedesk/customer\" rel=\"nofollow\"><strong>click here to submit a Cancelation Request</strong></a>. We recommend bookmarking this link for easy access in the future.</p><h3 id=\"RepairQSubscriptionManagement:ChangeYourSubscription-WhattoExpectUponCancellation\">What to Expect Upon Cancellation</h3><p>Once your subscription is canceled, you will retain access until the end of your current billing cycle. During this period, we encourage you to <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933279357\" rel=\"nofollow\">export any necessary data</a> for your records.</p><h3 id=\"RepairQSubscriptionManagement:ChangeYourSubscription-PauseYourSubscriptionwithRead-OnlyAccess\">Pause Your Subscription with Read-Only Access</h3><p>If you prefer to pause your subscription, we offer a read-only access option at $25 per month, per active location. This allows you to access and export your data as needed without a full subscription.</p><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1928921186"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1928921186/child",
+    "restrictions": "/rest/api/content/1928921186/restriction/byOperation",
+    "history": "/rest/api/content/1928921186/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1928921186/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1928921186",
+    "webui": "/spaces/SCD/pages/1928921186/RepairQ+Subscription+Management+Change+Your+Subscription",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1928921186",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1928921186",
+    "tinyui": "/x/YgD5cg",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

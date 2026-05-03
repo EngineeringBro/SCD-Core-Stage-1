@@ -1,0 +1,129 @@
+{
+  "id": "1951694865",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1951694865",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTk1MTY5NDg2NQ==",
+  "status": "current",
+  "title": "Part Core Recovery: Setup",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:27.533Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "2652",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1951694865.70",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1951694865"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1951694865/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Part Core Recovery allows companies to recover and track parts that can be sent back to the manufacturer for reimbursement or credit. Part Cores may include screens, batteries, or other assorted parts that can be remanufactured or recycled for their materials.</p><p>This process allows stores to reduce waste and increase their margins through discounts and credits. When a catalog item is marked as recoverable and you have activated Part Core Recovery, the bad/broken core is added to inventory as recovered. Then it can be sent back via the RMA return process.</p><h3 id=\"PartCoreRecovery:Setup-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932296378/RMA+Process+Sending+RMA+Items+to+the+Supplier+RMA+Batch\" data-linked-resource-id=\"1932296378\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">RMA Process: Sending RMA Items to the Supplier</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1952743425/Part+Core+Recovery+Recovery+Reasons+and+Inventory+Grades\" data-linked-resource-id=\"1952743425\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">Part Core Recovery: Recovery Reasons and Inventory Grades</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1952481286/Part+Core+Recovery+Recover+a+Part+Core+on+a+Ticket\" data-linked-resource-id=\"1952481286\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Part Core Recovery: Recover a Part Core on a Ticket</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1951694865/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"PartCoreRecovery:Setup-ActivatingPartCoreRecovery\">Activating Part Core Recovery</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1951694865/Part%20Core%201.png?api=v2\"></span><p /><p>2. On the Settings Overview screen, scroll down to the <strong>Part Recovery </strong>section and click <strong>General Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1951694865/Part%20Core%202.png?api=v2\"></span><p /><p>3. On the Part Recovery General Settings page, you can activate and customize the triggers for the recovery process. Once you have made your selections, be sure to <strong>Save </strong>your settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1951694865/Part%20Core%204.png?api=v2\"></span><ul><li><p><strong>Part Recovery </strong>- Use this to toggle ON/OFF the part recovery process.</p></li><li><p><strong>Trigger Status</strong> - Select the Ticket Status that will initiate the part recovery process.</p></li><li><p><strong>Part Recovery Inventory Condition Group</strong> - Select the inventory condition group to be shown on the part recovery screen. New conditions/groups can be created in the Catalog section of Company Settings.</p></li><li><p><strong>Default Supplier for Recovered Parts</strong> - Select the supplier that will be assigned for recovered parts.</p></li></ul><p /><h2 id=\"PartCoreRecovery:Setup-MarkingCatalogItemsasPartRecoverable\">Marking Catalog Items as Part Recoverable</h2><p>When creating or editing a catalog, selecting <strong>Is Part Recoverable</strong> will flag this item as part of the Part Core Recovery process. This field is found under the Behaviors section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1951694865/Part%20Core%203.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1951694865"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1951694865/child",
+    "restrictions": "/rest/api/content/1951694865/restriction/byOperation",
+    "history": "/rest/api/content/1951694865/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1951694865/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1951694865",
+    "webui": "/spaces/SCD/pages/1951694865/Part+Core+Recovery+Setup",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1951694865",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1951694865",
+    "tinyui": "/x/EYBUd",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

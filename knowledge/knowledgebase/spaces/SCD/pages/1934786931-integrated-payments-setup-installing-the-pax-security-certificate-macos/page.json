@@ -1,0 +1,129 @@
+{
+  "id": "1934786931",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934786931",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDc4NjkzMQ==",
+  "status": "current",
+  "title": "Integrated Payments Setup: Installing the PAX Security Certificate - macOS",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:53.147Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934786931.24",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934786931"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786931/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>If you are utilizing Bluefin or Heartland for payment integration in RepairQ, you will need to download and install a Security Certificate on each computer that will communicate with a PAX device.</p><p>This tutorial will guide you through the process of downloading, installing, and testing the required certificate on a device running macOS.</p><h3 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-macOS-NextSteps(BasedonYourProcessorandDevice)\">Next Steps (Based on Your Processor and Device)</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935376416/Integrated+Payments+Setup+Adding+a+Bluefin+PAX+Payment+Terminal+Device+in+RepairQ\" data-linked-resource-id=\"1935376416\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935998977/Integrated+Payments+Setup+Adding+a+Heartland+PAX+S300+A80+Payment+Terminal+in+RepairQ\" data-linked-resource-id=\"1935998977\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Heartland PAX S300 Payment Terminal in RepairQ</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-macOS-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Introduction to Integrated Payments - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261135/Integrated+Payments+Setup+Installing+the+PAX+Security+Certificate+-+Windows+10\" data-linked-resource-id=\"1936261135\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Integrated Payments Setup: Installing the PAX Security Certificate - Windows 10</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Troubleshooting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935507459/Integrated+Payment+Setup+Assigning+Your+PAX+Payment+Device+to+a+VCT+and+Processing+Payments\" data-linked-resource-id=\"1935507459\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payment Setup: Assigning Your PAX Payment Device to a VCT and Processing Payments</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-macOS-DownloadingthePAXSecurityCertificate\">Downloading the PAX Security Certificate</h2><p>Download the certificate: <strong><a href=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/ca.repairq.io.cer\" rel=\"nofollow\">ca.repairq.io.cer</a></strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/Mac%20Cert%201.png?api=v2\"></span><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-macOS-InstallingthePAXSecurityCertificate\">Installing the PAX Security Certificate</h2><p /><p>1. Open the Keychain Access app on your Mac.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"349\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/Mac%20Cert%202.png?api=v2\"></span><p /><p>2. On the left column of settings, look for the System Keychains section. Under this category, click <strong>System</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"897\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/Mac%20Cert%203.png?api=v2\"></span><p /><p>3. On the top menu, click <strong>File</strong> \u2192 <strong>Import</strong> <strong>Items</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"448\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/Mac%20Cert%204.png?api=v2\"></span><p /><p>4. Find the ca.repairq.io.cer file you downloaded, and select it for import.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/Mac%20Cert%205.png?api=v2\"></span><p /><p>5. After importing the file, double-click on the row with the name &quot;<strong>ca.repairq.io.cer</strong>&quot;. This will open up a window with the certificate details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"1427\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/Mac%20Cert%206.png?api=v2\"></span><p /><p>6. Click on the <strong>Trust</strong> dropdown arrow to display the options. Next to the &quot;When using this certificate&quot; field, select the <strong>Always</strong> <strong>Trust</strong> option and close the window to save the changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"514\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/Mac%20Cert%207.png?api=v2\"></span><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-macOS-TestingthePAXSecurityCertificate\">Testing the PAX Security Certificate</h2><p>Now that you have installed and trusted the security certificate, your Mac can communicate securely with your PAX device.</p><p>In your web browser (we recommend Chrome browser), navigate to <strong><a class=\"external-link\" href=\"https://test.term.repairq.io/\" rel=\"nofollow\">https://test.term.repairq.io</a></strong> to verify that the browser is configured to trust the security certificate. You should not receive any security warnings, and there should be a small green lock in the URL bar if everything is configured properly.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786931/Mac%20Cert%208.png?api=v2\"></span><p /><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934786931"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934786931/child",
+    "restrictions": "/rest/api/content/1934786931/restriction/byOperation",
+    "history": "/rest/api/content/1934786931/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934786931/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934786931",
+    "webui": "/spaces/SCD/pages/1934786931/Integrated+Payments+Setup+Installing+the+PAX+Security+Certificate+-+macOS",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934786931",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786931",
+    "tinyui": "/x/c4FScw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1932722231",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932722231",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjcyMjIzMQ==",
+  "status": "current",
+  "title": "Purchase Order Process: Creating a New Purchase Order",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:28.616Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932722231.41",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932722231"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932722231/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Purchase Orders (POs) are a key component in the procurement process, allowing users to create a fulfillment record of the products they purchase from external suppliers. Working alongside RepairQ's reporting and inventory management features, you can create Purchase Orders in the system that reflect the order details from the supplier to track spending on ordered products and inventory as well as replenish onhand quantities for real-time inventory management. Users with the Manager or Inventory Manager role can create new Purchase Orders.</p><h3 id=\"PurchaseOrderProcess:CreatingaNewPurchaseOrder-NextStep\">Next Step</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787800/Purchase+Order+Process+Receiving+Items+and+Reconciling+the+Order\" data-linked-resource-id=\"1932787800\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Purchase Order Process: Receiving Items and Reconciling the Order</a>  </p></li></ul><h3 id=\"PurchaseOrderProcess:CreatingaNewPurchaseOrder-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416/Purchase+Order+Resources\" data-linked-resource-id=\"1932427416\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Purchase Order Resources</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931411625/Purchase+Orders+Importing+and+Uploading\" data-linked-resource-id=\"1931411625\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Purchase Orders: Importing and Uploading</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787813/Inventory+Management+Reorder+Points+and+Reorder+Amounts\" data-linked-resource-id=\"1932787813\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Purchase Order Process: Setting Reorder Points and Reorder Amounts</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246673/Checking+for+Items+that+Require+Reordering\" data-linked-resource-id=\"1933246673\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Checking for Items that Require Reordering</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425167/Quick+Create+Add+New+Catalog+Items+on+Purchase+Orders\" data-linked-resource-id=\"1936425167\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Quick Create: Add New Catalog Items on Purchase Orders</a></p></li></ul><p><strong>Note</strong>: Items that you will order must be added to your catalog first before they can be added to a Purchase Order. If you are adding inventory through a non-integrated supplier, we recommend that you place your order with your supplier alongside RepairQ and use the invoice details to create the Purchase Order in the system before receiving/reconciling the inventory. With our Quick Create feature, users can create new catalog items directly from the Purchase Order screen.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"PurchaseOrderProcess:CreatingaNewPurchaseOrder-CreateaNewPurchaseOrder\">Create a New Purchase Order</h2><p /><p>On the Navigation Bar, go to <strong>Inventory</strong> \u2192 <strong> Add Purchase Order</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%201.png?api=v2\"></span><p /><p>Under the <strong>Supplier </strong>section of the PO screen, select a Supplier from the dropdown. There can only be one supplier per purchase order.</p><p><strong>Note</strong>: If your supplier is not listed on the dropdown, you can add a new supplier by clicking <strong>View &amp; Edit Suppliers</strong>. This will allow you to add different supply sources and their contact details.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"217\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%203.png?api=v2\"></span><p /><p>You can add items to a purchase order using various methods: the Reorder Required list, the Quick Add search bar, and copying items from another PO.</p><p><strong>Note</strong>: When creating a new PO, items below their Reorder Point are listed under the Add Items tab.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%206.png?api=v2\"></span><h3 id=\"PurchaseOrderProcess:CreatingaNewPurchaseOrder-ReorderRequiredList\">Reorder Required List</h3><p>Under the Reorder Required tab, you can add individual line items to the order by clicking the <strong>Add (+)</strong> button on the same row.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%204.png?api=v2\"></span><p /><p>Alternatively, you can add multiple items at once by using the checkboxes next to the line items and clicking Add all selected.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%205.png?api=v2\"></span><p /><h3 id=\"PurchaseOrderProcess:CreatingaNewPurchaseOrder-QuickAddSearchBar\">Quick Add Search Bar</h3><p>In the <strong>Quick Add search box</strong>, type in a keyword, SKU, or other identifiers for the inventory item. Any results will be listed, and you can click the correct item to add to the order list.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%207.png?api=v2\"></span><p /><h3 id=\"PurchaseOrderProcess:CreatingaNewPurchaseOrder-CopyFromAnotherPurchaseOrder\">Copy From Another Purchase Order</h3><p>This list will show previous purchase orders. On the far right column, you can click the <strong>Magnifying Lens Icon</strong> to view the PO details. If you want to add these items to your order list, click <strong>Copy Items</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%208.png?api=v2\"></span><p /><p>Once you have added all items to the order, click the <strong>Item List button</strong>. This will show all pending items for this order. For proper inventory tracking and reporting, we recommend filling out all fields to the best of your ability.</p><p><strong>Note</strong>: You can remove items from the list by clicking the <strong>red Cancel button</strong> next to the line item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%209.png?api=v2\"></span><ul><li><p><strong>Supplier</strong> <strong>SKU</strong> - (Optional) If the supplier has a unique SKU available on their website for ordering, you can add this information to the Catalog Item. This can be used as a searchable identifier for future orders</p></li><li><p><strong>Note</strong> - (Optional) Add any special notes for the ordered item.</p></li><li><p><strong>ROA</strong> <strong>(Reorder Amount)</strong> - Enter the quantity of the item you are ordering.</p></li><li><p><strong>Cost</strong> - Enter the cost of the item, i.e., the amount that you are paying the supplier for the item. This is important for maintaining accurate reporting.</p></li><li><p><strong>Price</strong> - Enter the retail price of the item, i.e., the amount that you are charging the customer. Based on the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427325/Catalog+Settings\" data-linked-resource-id=\"1932427325\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Item Type Settings</a>, this field may be restricted to enforce the price assigned in the Catalog. This is important for managing accurate reporting.</p></li></ul><p /><p>Under the Summary section of the Purchase Order, enter any additional information for the order including the vendor order number and charges/fees.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"217\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%2010.png?api=v2\"></span><ul><li><p><strong>Vendor Order Number</strong> - The order number issued by the supplier.</p></li><li><p><strong>Shipping Cost</strong> - Add any shipping fees added to the order.</p></li><li><p><strong>Taxes</strong> - Enter the taxes applied for the order.</p></li><li><p><strong>Cost Adjustments</strong> - Enter any additional charges/fees applied to the order.</p></li></ul><p /><p>Once you have added your items and filled out the additional information, click <strong>Order Items</strong> to move the PO into Ordered status.</p><p><strong>Note</strong>: A non-integrated Purchase Order can be reverted from Ordered back to New/Draft status by clicking the <strong>Revert</strong> <strong>to</strong> <strong>New</strong> <strong>button</strong> on the PO edit page, as long as there are no back order items on the order.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%2011.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932722231/Purchase%20Order%2012.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932722231"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932722231/child",
+    "restrictions": "/rest/api/content/1932722231/restriction/byOperation",
+    "history": "/rest/api/content/1932722231/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932722231/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932722231",
+    "webui": "/spaces/SCD/pages/1932722231/Purchase+Order+Process+Creating+a+New+Purchase+Order",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932722231",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932722231",
+    "tinyui": "/x/NwAzcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

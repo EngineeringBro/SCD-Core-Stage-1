@@ -1,0 +1,129 @@
+{
+  "id": "1937014916",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1937014916",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNzAxNDkxNg==",
+  "status": "current",
+  "title": "PAX Device Troubleshooting: Invalid Credit Card Entry",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:23.293Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1937014916.19",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1937014916"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937014916/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h3 id=\"PAXDeviceTroubleshooting:InvalidCreditCardEntry-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786757/PAX+Device+Troubleshooting+Ping+Your+Device+to+See+if+it+is+Reachable\" data-linked-resource-id=\"1934786757\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">PAX Device Troubleshooting: Ping Your Device to See if it is Reachable</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917880/PAX+Device+Troubleshooting+Find+the+IP+Address+Assigned+to+Your+PAX+S300\" data-linked-resource-id=\"1934917880\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">PAX Device Troubleshooting: Find the IP Address Assigned to Your PAX S300</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494471/Help+Desk+Hours+and+Support+Requests\" data-linked-resource-id=\"1930494471\" data-linked-resource-version=\"33\" data-linked-resource-type=\"page\">Contacting RepairQ Support</a></p></li></ul><p /><p>   </p><p>If you\u00a0receive an error after swiping a credit card into RepairQ that says &quot;Invalid Credit Card Entry&quot; then it means there was a problem reading the card into RepairQ. This can be due to a number of reasons:</p><ol start=\"1\"><li><p>A clear read of the card did not occur. Try swiping again, this time more slowly.</p></li><li><p>The magnetic stripe on the card could be worn out. Try manually entering\u00a0the card information into your credit card reader.</p></li><li><p>Try processing the credit card using your PayConex portal provided by Bluefin. If you are unable to swipe or key in the card using their portal,\u00a0then it is likely your card reader has\u00a0stopped working properly. Please contact Bluefin support at support@bluefin.com or\u00a0800-675-6573</p></li><li><p>Something could be interfering\u00a0between the card reader and your computer or your browser.</p><p>4a) Some browser configurations, plugins, or extensions interfere with the card reader. Try swiping the card into RepairQ using a different browser, or reinstall your browser. If that doesn't work, try another computer.</p><p>4b) Some antivirus programs scan all data transmitted through a USB connection, and this can interfere with the card reader. Turn off any antivirus software and try again.</p></li></ol><p>If none of these steps resolve the issue, please <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494471/Help+Desk+Hours+and+Support+Requests\" data-linked-resource-id=\"1930494471\" data-linked-resource-version=\"33\" data-linked-resource-type=\"page\">contact RepairQ Support</a> for further directions.</p><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1937014916"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1937014916/child",
+    "restrictions": "/rest/api/content/1937014916/restriction/byOperation",
+    "history": "/rest/api/content/1937014916/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1937014916/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1937014916",
+    "webui": "/spaces/SCD/pages/1937014916/PAX+Device+Troubleshooting+Invalid+Credit+Card+Entry",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1937014916",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937014916",
+    "tinyui": "/x/hIB0cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

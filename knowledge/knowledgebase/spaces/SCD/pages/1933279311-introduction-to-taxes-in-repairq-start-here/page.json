@@ -1,0 +1,129 @@
+{
+  "id": "1933279311",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933279311",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI3OTMxMQ==",
+  "status": "current",
+  "title": "Introduction to Taxes in RepairQ - Start Here!",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:42.244Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933279311.57",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933279311"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279311/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"IntroductiontoTaxesinRepairQ-StartHere!-HowAreTaxesRecordedinRepairQ?\">How Are Taxes Recorded in RepairQ?</h2><p>A crucial part of managing a retail business is proper control of taxes. RepairQ divides taxes into three separate categories for management: Tax Groups, Tax Classes, and Tax Rates. Users are responsible for assigning Groups, Classes, and Rates to their catalog items, based on local/state requirements to ensure that taxes are charged and recorded for your records.</p><p /><p><strong>Tax Groups </strong>determine how taxes display on tickets. RepairQ Tax Reports are calculated based on each Tax Group.\u00a0</p><p><strong>Tax Classes\u00a0</strong>define a tax type, rate, and which Tax Group to add to the tax class amount. Tax Classes that apply to an item are summed into their Tax Group. Classes are applied to specific Item Types of your catalog items for particular locations based on Tax Rates that you define.</p><p><strong>Tax Rates</strong> apply Tax Classes to specific item types for a location. This is managed at the location level, so separate locations will need to set up their tax rates for proper tracking of all applicable taxes. Changing a tax rate will not retroactively change the tax amounts saved for ticket items on closed tickets.</p><p /><p>In addition to the resources below, we recommend consulting your accountant for any questions regarding your city/state tax reporting.</p><a class=\"external-link\" data-card-appearance=\"embed\" data-layout=\"center\" data-original-height=\"480.00\" data-original-width=\"853.34\" data-width=\"100.00\" href=\"https://youtu.be/GKQ26XHGWkc\" rel=\"nofollow\">https://youtu.be/GKQ26XHGWkc</a><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279311/Control%20-%20f79824.png?api=v2\"></span><h3 id=\"IntroductiontoTaxesinRepairQ-StartHere!-TaxReferences\">Tax References</h3><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934458970/Chart+of+Accounts+-+Accounting+Journal+Entries\" data-linked-resource-id=\"1934458970\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Accounting Journal Entries - Overview</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672484/Tax+Calculations+for+Bundled+Items\" data-linked-resource-id=\"1933672484\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Tax Calculations for Bundled Items</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932394639/Tax-inclusive+Pricing+on+Tickets\" data-linked-resource-id=\"1932394639\" data-linked-resource-version=\"28\" data-linked-resource-type=\"page\">GST Inclusive Pricing/Discount Enhancements</a></p><h3 id=\"IntroductiontoTaxesinRepairQ-StartHere!-TaxSetup\">Tax Setup</h3><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933410332/Setting+up+and+Assigning+Tax+Rates\" data-linked-resource-id=\"1933410332\" data-linked-resource-version=\"20\" data-linked-resource-type=\"page\">Setting up Taxes</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934458970/Chart+of+Accounts+-+Accounting+Journal+Entries\" data-linked-resource-id=\"1934458970\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Accounting Journal Entries Overview</a></p><h3 id=\"IntroductiontoTaxesinRepairQ-StartHere!-TaxOverridesonTickets\">Tax Overrides on Tickets</h3><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541561/Sales+Tax+Override\" data-linked-resource-id=\"1933541561\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Sales Tax Override</a></p><h3 id=\"IntroductiontoTaxesinRepairQ-StartHere!-TaxReporting\">Tax Reporting</h3><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196764/Reports+Taxes\" data-linked-resource-id=\"1934196764\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Reports: Taxes</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934753845/Reports+Revenue+Cost+of+Goods+Sold+COGS+Cost+of+Services+and+Cost+of+Refurbs\" data-linked-resource-id=\"1934753845\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Revenue, Cost of Goods Sold (COGS), Cost of Services, and Cost of Refurbs</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934557185/Reports+Inventory+Valuation\" data-linked-resource-id=\"1934557185\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Inventory Valuation</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196750/Reports+Inventory+Valuation+Snapshot\" data-linked-resource-id=\"1934196750\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Reports: Inventory Valuation Snapshot</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934589953/Reports+Inventory+End+of+Year+EOY+Snapshot+Archive\" data-linked-resource-id=\"1934589953\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Reports: Inventory End of Year (EOY) Snapshot Archive</a></p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933279311"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933279311/child",
+    "restrictions": "/rest/api/content/1933279311/restriction/byOperation",
+    "history": "/rest/api/content/1933279311/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933279311/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933279311",
+    "webui": "/spaces/SCD/pages/1933279311/Introduction+to+Taxes+in+RepairQ+-+Start+Here",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933279311",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279311",
+    "tinyui": "/x/T4A7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

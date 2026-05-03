@@ -1,0 +1,129 @@
+{
+  "id": "1932525644",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932525644",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjUyNTY0NA==",
+  "status": "current",
+  "title": "List Filters",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:59.976Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "35",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932525644.23",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932525644"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932525644/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Lists are powerful tools throughout RepairQ. Most lists within RepairQ will include features such as filters, search functions, and saving favorite List Views for later use. Filters allow you to sort lists by certain classifications and groups of items, while keyword searches allow you to find specific items by name, serial number, SKU, etc.</p><h3 id=\"ListFilters-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933606925/Keyword+Search+Techniques\" data-linked-resource-id=\"1933606925\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Keyword Search Techniques</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932754986/List+Views\" data-linked-resource-id=\"1932754986\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">List Views Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656694/Saving+and+Sharing+Custom+List+Views\" data-linked-resource-id=\"1932656694\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Saving and Sharing Custom List Views</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525644/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"ListFilters-KeywordSearch\">Keyword Search</h2><p>The <strong>Keyword</strong> field allows you to search by one or more keywords that match the Catalog Name, Search Key, SKU, UPC, or Supplier SKU.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"566\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525644/Filters%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"453\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525644/Filters%202.png?api=v2\"></span><p /><p>In order to search for multiple words or an exact phrase, you can do this by using quotation marks (&quot;) around the words. For example, if you enter &quot;iPhone 6&quot; the system will provide results for all items that have [iPhone 6] in the name, rather than providing results for all items with &quot;iPhone&quot; and &quot;6&quot; in the name, like &quot;<strong>iPhone</strong> 7 <strong>6</strong>4GB.&quot;</p><p>If you want to search for something that starts with a keyword or ends with a keyword, you can use an asterisk (*) in your search to represent a wildcard. A wildcard takes the place of one or more characters in a search term. For example, if you search for [iPhone*], the system will provide results for anything that begins with iPhone. A more advanced example is searching for [iPhone*LCD], which provides results for iPhone and LCD where iPhone comes <strong>before</strong> LCD with any words in between.</p><p><strong>Note</strong>: By default, if one of the words or characters in your search is fewer than three (3) characters long, we will automatically append it to the previous word as a single keyword. For more information on keyword searches and changing your preference, see our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933606925/Keyword+Search+Techniques\" data-linked-resource-id=\"1933606925\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Keyword Search Techniques</a></p><p /><h2 id=\"ListFilters-FilterSearch\">Filter Search</h2><p>Filters allow you to search your list by category. They are consolidated under the Filter dropdown above your list. You can add multiple filters to a search.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"566\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525644/Filters%203.png?api=v2\"></span><h4 id=\"ListFilters-Location\">Location</h4><p>By default, list results are displayed for the location you are currently logged in. Changing the Location field will allow you to narrow the results to the selected location(s). Choose \u201cAll Locations\u201d to see results that span all locations. (When you are viewing results for multiple locations, the Reorder Point and Reorder Amount show the total of all amounts.)</p><h4 id=\"ListFilters-DateRange(InventoryDetail)\">Date Range (Inventory Detail)</h4><p>By default, this list displays items added to inventory during the last 90 days. There are configurations for other date ranges and the option to create a custom range based on the parameters you provide. There are also selections to filter by the date the item was added into inventory, the last date a change was made to the item details, or the last date the inventory status was updated.</p><h4 id=\"ListFilters-Bin#(InventorySummary)\">Bin # (Inventory Summary)</h4><p>The <strong>Bin #</strong> field will allow you to scan or type a catalog item bin #. \u00a0Partial searches are allowed. \u00a0If a location override exists for the bin #, the system will return results matching either the default catalog item bin # or the location override bin #.</p><h4 id=\"ListFilters-Carrier\">Carrier</h4><p>The <strong>Carrier</strong> field will allow you to narrow the results to the selected carrier. Any new carriers that you add in settings will appear here along with the default carriers that are provided.</p><h4 id=\"ListFilters-Condition\">Condition</h4><p>The\u00a0<strong>Condition</strong> field allows you to scope results to any selected inventory condition(s). Any new conditions that you add in settings will appear here along with the default conditions that are provided.</p><p /><h4 id=\"ListFilters-InventoryFocus\">Inventory Focus</h4><p>The <strong>Inventory Focus</strong> filter narrows down results to show only inventory items that match certain pre-defined criteria:</p><ul><li><p><strong>Instock</strong> - Filter results for items that have an Instock quantity.</p></li><li><p><strong>Low Stock</strong> - Filter results to show items that have fallen below their Reorder Point. This includes items that are in Instock, Back-ordered, Pulled, and Ordered status.</p><ul><li><p>If you select Low Stock and have also set multiple locations, the results may not be exactly as expected. The system will compare the total of all locations in stock and ordered, and then check to see if that is less than the total of all location reorder points.</p></li></ul></li><li><p><strong>Back Ordered</strong> - Filter results to show items that are in Back Order status.</p></li><li><p><strong>Ordered</strong> -Filter results to show the total number of items on Purchase Orders that have not been received, along with any other items in your inventory that have been placed in Ordered status. Totals can be viewed in the Ordered column of the list.</p><ul><li><p>This may include back order items that have been added to a PO and progressed to Ordered status.</p></li></ul></li><li><p><strong>Serialized Only (Inventory Detail)</strong> - Filter results to show only serialized items that are in stock. This will include items in Instock status, Pending Refurb, Pulled, and other transition inventory statuses.</p></li><li><p><strong>Parts Only (Inventory Detail)</strong> - Filter results to show only items with an item type flagged as a part. This will include items in Instock status, Pending Refurb, Pulled, and other transition inventory statuses.</p></li><li><p><strong>Inactive Items</strong> - Filter results to show only inactive catalog items. Items are designated as inactive when the Catalog Item has been marked as Inactive on the catalog item edit screen. We advise against deactivating catalog items that have live (onhand/pulled/back order) inventory quantities. We recommend voiding the items out of inventory first, then deactivating the Catalog Item.</p></li></ul><p /><h4 id=\"ListFilters-ItemType\">Item Type</h4><p>The <strong>Item</strong> <strong>Type</strong> field allows you to scope results to the selected item type. Any new item types that you add in settings will appear here along with the default types that are provided.</p><p /><h4 id=\"ListFilters-Manufacturer\">Manufacturer</h4><p>The <strong>Manufacturer</strong> allows you to narrow results to the selected manufacturer. Any new manufacturer that you add in settings will appear here along with the default manufacturers that are provided.</p><h4 id=\"ListFilters-PartsOnly\">Parts Only</h4><p>The <strong>Parts Only</strong> field will scope results to show only inventory items that have been designated as parts. This is defined by items marked as a &quot;Part&quot; in <strong>Catalog</strong> -&gt; <strong>Item</strong> <strong>Type</strong> settings.</p><p /><h4 id=\"ListFilters-Serialized\">Serialized</h4><p>The\u00a0<strong>Serialized</strong> field will narrow results to items that require a serial number when adding to/selling out of inventory. This is defined by items marked as &quot;Serialized&quot; in their Catalog Item entry.</p><p /><h4 id=\"ListFilters-Supplier\">Supplier</h4><p>The\u00a0<strong>Supplier</strong> field allows you to narrow results to the selected supplier. Any new supplier that you add in settings will appear here along with the default suppliers that are provided.</p><h4 id=\"ListFilters-InventoryProcess\">Inventory Process</h4><p>The Inventory Process filter narrows down results to show only inventory items that are in a specific inventory process:</p><ul><li><p><strong>Special</strong> <strong>Order</strong> <strong>Process</strong> - Filter results for items that are in an inventory status that is part of the ordering process: Backordered, Ordered, and Pulled. Items in Pulled status must also be linked to a ticket.</p></li><li><p><strong>Refurbish</strong> <strong>Process</strong> - Filter results for items that are in an inventory status that is part of the refurbishment process: Pending Refurb and Pending Restock statuses.</p></li><li><p><strong>RMA</strong> <strong>Process</strong> - Filter results for items that are in an inventory status that is part of the RMA process: Pending RMA and RMA Sent.</p></li><li><p><strong>Transfer</strong> <strong>Process</strong> - Filter results for items that are in an inventory status that is part of the Inventory Transfer (Internal PO) process: Pending Transfer and Pulled. Items in Pulled status must also be lined to a purchase order.</p></li><li><p><strong>Custom</strong> <strong>Statuses</strong> - Filter results for items in Other status and for all user-created statuses.</p></li></ul><p /><h4 id=\"ListFilters-Status(InventoryDetail)\">Status (Inventory Detail)</h4><p>The <strong>Status </strong>field allows you to narrow results by their current inventory status. Be sure to reset other filters as needed (Location, Carrier, Condition, focus, etc.) to see the number of items in a given status.</p><p /><h4 id=\"ListFilters-ResetFilters\">Reset Filters</h4><p>The <strong>Reset</strong> <strong>button</strong> will reset all filters back to the default state to show the broadest set of results. This will also reset the location filter back to the logged-in location.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525644/Filters%204.png?api=v2\"></span><p /><h4 id=\"ListFilters-Apply\">Apply</h4><p>The <strong>Apply</strong> <strong>button</strong> will apply the filters selected above and will reload the page with the new set of results. You can also press the RETURN key on your keyboard to retrieve results.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525644/Filters%205.png?api=v2\"></span><p /><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932525644"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932525644/child",
+    "restrictions": "/rest/api/content/1932525644/restriction/byOperation",
+    "history": "/rest/api/content/1932525644/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932525644/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932525644",
+    "webui": "/spaces/SCD/pages/1932525644/List+Filters",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932525644",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932525644",
+    "tinyui": "/x/TAAwcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

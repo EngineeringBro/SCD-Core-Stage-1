@@ -1,0 +1,129 @@
+{
+  "id": "1932754986",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932754986",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjc1NDk4Ng==",
+  "status": "current",
+  "title": "List Views",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:55.278Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 12,
+    "minorEdit": false,
+    "ncsStepVersion": "1532",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932754986.51",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932754986"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932754986/version/12"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Lists are powerful tools throughout RepairQ. Most lists within RepairQ will include features such as filters, search functions, and saving favorite List Views for later use.</p><p>Here are a few features of List Views:</p><ul><li><p>Show/hide columns.</p></li><li><p>Refined search behavior including support for multiple keywords and/or key phrases.</p></li><li><p>Save filters and columns as a List View, able to be recalled at any time.</p></li><li><p>Share List Views between users, locations, or an entire organization.</p></li><li><p>Import information via a downloadable template and export information for your records.</p></li></ul><p>There are many List Views in RepairQ. A few examples include:</p><div class=\"table-wrap\"><table data-layout=\"default\" data-local-id=\"ba9a91f4-2cf2-484f-b444-3ca7c8b08fc9\" class=\"confluenceTable\"><tbody><tr><td class=\"confluenceTd\"><p>Ticket Queue</p></td><td class=\"confluenceTd\"><p>Inventory Summary</p></td><td class=\"confluenceTd\"><p>Inventory Detail</p></td><td class=\"confluenceTd\"><p>Inventory Transfers</p></td></tr><tr><td class=\"confluenceTd\"><p>Catalog</p></td><td class=\"confluenceTd\"><p>Appointments</p></td><td class=\"confluenceTd\"><p>Customers</p></td><td class=\"confluenceTd\"><p>Invoices</p></td></tr></tbody></table></div><h3 id=\"ListViews-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427325/Catalog+Settings\" data-linked-resource-id=\"1932427325\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Catalog Settings Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787831/Purchase+Orders+List+View\" data-linked-resource-id=\"1932787831\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Purchase Orders: List View</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656694/Saving+and+Sharing+Custom+List+Views\" data-linked-resource-id=\"1932656694\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Saving and Sharing Custom List Views</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937211440/Inventory+Detail+-+List+View+Column+Updates\" data-linked-resource-id=\"1937211440\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Inventory Detail - List View Column Updates</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933606925/Keyword+Search+Techniques\" data-linked-resource-id=\"1933606925\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Keyword Search Techniques</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"ListViews-ListViews\">List Views</h2><p>When you navigate to a List View page, the top of the list includes filters and view options that affect your current view. For this example, we are viewing the Ticket Queue.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%201.png?api=v2\"></span><p /><h4 id=\"ListViews-Hide/ShowFilters\">Hide/Show Filters</h4><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%202.png?api=v2\"></span><p /><h4 id=\"ListViews-CurrentListView\">Current List View</h4><p>This will show which List View you are using. If you have created <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656694/Saving+and+Sharing+Custom+List+Views\" data-linked-resource-id=\"1932656694\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Custom Views</a>, you can select a different view from the dropdown. When a new view is selected, the page will refresh and apply the filters in the saved view.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%203.png?api=v2\"></span><p /><h4 id=\"ListViews-ViewQuantity\">View Quantity</h4><p>This shows how many records (lines) are returned with your current filter. You can change how many records you would like to view on the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%204.png?api=v2\"></span><p /><h4 id=\"ListViews-PermanentFilters\">Permanent Filters</h4><p>The filters for Location and Date Range will always be available. You can select all locations, a single location, or a combination of any locations that you have access to view. When selecting a date range, you can also select when the information was created, updated, completed, and other status filters.</p><p>By default, the location will be set to the current location you are logged into, and the date range will be set to information created within the last 90 days.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%205.png?api=v2\"></span><p /><h4 id=\"ListViews-AddFilter\">Add Filter</h4><p>Click <strong>+Filter</strong> to add new filters to your search. Locate the filter, select your options, add more filters and options, etc.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"442\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%20Filters%20GIF.gif?api=v2\"></span><p /><h4 id=\"ListViews-Keyword/KeyphraseSearch\">Keyword/Keyphrase Search</h4><p>Users can search for a product name, serial number, SKU, tag, phone number, etc. Adding multiple words to the same search will perform a search for each word, showing results that show more of the words first. Click the <strong>+Keyword button</strong> and type what you want to search for, then press Return or click Apply to view your results.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"544\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%20Filters%20GIF%202.gif?api=v2\"></span><p /><p>We updated the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933606925/Keyword+Search+Techniques\" data-linked-resource-id=\"1933606925\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">search functionality</a>\u00a0to include:</p><ul><li><p>Searching for multiple words or phrases by adding multiple keywords. In a search box (including global searches), you can also add multiple keywords by wrapping each one (or some) in double quotes. For example, you can search for <em>&quot;iPhone 8&quot; &quot;LCD&quot;</em>\u00a0(or <em>&quot;iPhone 8&quot;LCD</em> or even <em>iPhone 8&quot;LCD&quot;</em>) to find all items that match either or both.</p></li><li><p>Words with\u00a0less than 3 characters will automatically append to the previous word and they will be treated as a single keyword. For example, rather than splitting the search for <em>iPhone X\u00a0</em>into two keywords <em>iPhone</em>\u00a0and <em>X</em>, we will simply search for <em>iPhone X.</em></p></li><li><p>Wildcards (*) can split phrases into multiple search terms. For example, <em>iPhone 8*LCD</em> will search for everything that contains both <em>iPhone 8</em>\u00a0and <em>LCD</em> (where <em>iPhone 8</em> comes <strong>before</strong> <em>LCD</em>, with any number of words in between).</p></li><li><p>Pressing <strong>TAB</strong> will add the keyword(s) and allow you to start adding a new keyword, and pressing <strong>RETURN</strong> will add and apply the keyword(s) and load the results</p></li></ul><p /><h4 id=\"ListViews-Reset\">Reset</h4><p>If you need to start a new search, click <strong>Reset</strong> to bring the filters back to the default view. The Reset button is also available when adding new pending filters. Clicking it will remove all pending filters and refresh your list.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%206.png?api=v2\"></span><p /><p><strong>Note</strong>: Searches may cache based on your browser history, so don't forget to reset your filters!</p><p /><h4 id=\"ListViews-Quick-JumptoItem\">Quick-Jump to Item</h4><p>In the List View, if you click on a line item/row, RepairQ will open the information page for that item. If you click an open ticket, it will open the ticket in Edit mode. If you click a closed ticket, it will open the ticket in View mode.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%20Filters%20GIF%203.gif?api=v2\"></span><p /><h2 id=\"ListViews-ListViewOptions\">List View Options</h2><p>Click the <strong>Options button (\u22ee)</strong> on the right side of the page to see a list of available actions. List View options will vary based on the list you are viewing.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%207.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"210\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%208.png?api=v2\"></span><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656694/Saving+and+Sharing+Custom+List+Views\" data-linked-resource-id=\"1932656694\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\"><strong>Save Current View</strong></a> - This feature allows you to save the combination of filters and columns as a new view and share those views with other users and other locations.</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1993375753/List+Views+Editing+Columns\" data-linked-resource-id=\"1993375753\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\"><strong>Edit Views</strong></a> - This feature allows you to add/remove columns of data and rearrange them.</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937211440/Inventory+Detail+-+List+View+Column+Updates\" data-linked-resource-id=\"1937211440\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\"><strong>Edit Columns</strong></a> - This customization feature allows you to add, remove, and rearrange columns of information on the List View page.</p></li><li><p><a href=\"#Quick\" rel=\"nofollow\"><strong>Edit Quick Actions</strong></a> - Quick Actions allow you to personalize your lists. You can edit Quick Actions will be visible under the Actions column next to list items. If hidden, they will expand when clicking the <strong>Options button (\u22ee)</strong>.</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377786/RepairQ+Data+Import+Resources\" data-linked-resource-id=\"1933377786\" data-linked-resource-version=\"18\" data-linked-resource-type=\"page\"><strong>Import</strong></a> - Managers can download .xlsx and .csv files to bulk-import information into RepairQ. Rather than create your own import document, you can download a pre-filled template, ready for changes.</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279357/Exporting+Data+from+RepairQ\" data-linked-resource-id=\"1933279357\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\"><strong>Export</strong></a> - Managers can download export files from RepairQ as Excel-formatted spreadsheets. These exports are used for maintaining records and viewing details about your business.</p></li></ul><h2 id=\"ListViews-QuickActions\">Quick Actions</h2><p>Quick Actions are shortcuts under the Actions column, next to items on the list. Available Quick Actions will vary, based on the list you are viewing, so actions for the Ticket List will differ from Purchase Orders, Inventory Items, Customers, etc. To view a full list of available actions, click the <strong>Options button (\u22ee)</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%209.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"224\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%2010.png?api=v2\"></span><h3 id=\"ListViews-QuickEditingQuickActions\"><span class=\"confluence-anchor-link\" id=\"ListViews-Quick\"><span class=\"confluence-anchor-link\" id=\"Quick\"></span></span>Editing Quick Actions</h3><p>On the List View page, click the <strong>Options button (\u22ee)\u00a0</strong>and select <strong>Edit Quick Actions</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%209.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"217\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%2011.png?api=v2\"></span><p /><p>Select which Quick Actions you would like to add/remove and click <strong>Apply</strong> to save your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%2012.png?api=v2\"></span><p /><p>When viewing the List View page, you will see new actions next to the Options button.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932754986/List%20View%2013.png?api=v2\"></span><p /><p><strong>Note</strong>: Quick Actions preferences can be saved in a List View.</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932754986"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932754986/child",
+    "restrictions": "/rest/api/content/1932754986/restriction/byOperation",
+    "history": "/rest/api/content/1932754986/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932754986/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932754986",
+    "webui": "/spaces/SCD/pages/1932754986/List+Views",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932754986",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932754986",
+    "tinyui": "/x/KoAzcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

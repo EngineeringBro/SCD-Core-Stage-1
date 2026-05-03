@@ -1,0 +1,129 @@
+{
+  "id": "1933901843",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933901843",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzkwMTg0Mw==",
+  "status": "current",
+  "title": "Virtual Cash Terminal (VCT) Setup",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:14.493Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 16,
+    "minorEdit": false,
+    "ncsStepVersion": "701",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933901843.60",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933901843"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933901843/version/16"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Virtual Cash Terminals (VCTs) are essential tools for recording transactions on tickets within RepairQ. VCTs are designed to help track your cash flow and card payments and play a crucial role in balancing your register nightly. However, they should not be used to calculate sales records and projections. Additionally, we offer integrated payment solutions through Bluefin and Square to streamline the payment recording process. To process payments on a ticket, a computer must be assigned to a VCT, with each VCT paired to only one computer at a time due to browser caching. Locations can create multiple terminals as needed.</p><h3 id=\"VirtualCashTerminal(VCT)Setup-UpdatedVCTRequirements\">Updated VCT Requirements</h3><p>Recent updates now allow for greater flexibility in managing ticket closures without requiring a VCT or payment, ensuring that inventory is effectively managed. This aligns with our Accounting Methods, where sales and COGS are accounted for upon ticket closure, removing the necessity to post payment as long as the ticket is moved to Closed status. Note that if VCT or Ticket Payment requirements are disabled, the Cash Reconciliation report is no longer needed. For more information on this feature, see our article, <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2348187679\" rel=\"nofollow\">Virtual Cash Terminal and Ticket Payment Settings</a>.</p><h3 id=\"VirtualCashTerminal(VCT)Setup-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933639827\" rel=\"nofollow\">Assign a Virtual Cash Terminal (VCT) to Accept Payments</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933803641\" rel=\"nofollow\">Virtual Cash Terminal (VCT) Cash Transfers</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933541639\" rel=\"nofollow\">Closing a Virtual Cash Terminal (VCT)</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934229524\" rel=\"nofollow\">Reports: Cash Reconciliation</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934295157\" rel=\"nofollow\">Integrated Payment Processing - Start Here!</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2348187679\" rel=\"nofollow\">Virtual Cash Terminal and Ticket Payment Settings</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933901843/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"VirtualCashTerminal(VCT)Setup-IncreaseYourAvailableVCTCount\">Increase Your Available VCT Count</h2><p>Log into the RepairQ location where you are setting up the VCT. From the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>. On the Location Settings Overview page, under the Account section, click <strong>Location Info.</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Location Settings.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933901843/Location%20Settings.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933901843/Setting%20up%20VCT%202.png?api=v2\"></span><p /><p>On the Location Information page, Scroll down to <strong>Number of Terminals</strong>. You need to have at least 1 terminal available to receive payments. Set this number to how many terminals you plan to use to perform transactions at your location. Be sure to click <strong>Save</strong> to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933901843/VCT%203.png?api=v2\"></span><h2 id=\"VirtualCashTerminal(VCT)Setup-CreateaNewVCT\">Create a New VCT</h2><p>Navigate to <strong>Settings </strong>\u2192 <strong>Location Settings</strong>. Under the <strong>Payments </strong>section, click <strong>Cash Terminals (VCT)</strong>. The Terminal Settings page will list any VCTs. On the right side of the page, click <strong>Add Terminal</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Create VCT.png\" width=\"663\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933901843/Create%20VCT.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933901843/VCT%206.png?api=v2\"></span><h3 id=\"VirtualCashTerminal(VCT)Setup-TerminalNew\">Terminal New</h3><p>Assigning a VCT to the same computer eacy day will help with consistent daily Cash Reconciliation reporting.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Float Amount.png\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933901843/Float%20Amount.png?api=v2\"></span><ul><li><p><strong>Name </strong>- Enter a descriptive name for your cash terminal to easily identify its placement and purpose. For example, \u2018Front Desk Terminal\u2019 or 'Back Office Terminal.'</p></li><li><p><strong>Float </strong>- Assign the initial cash amount (float) for this terminal when opening for daily operations. This is the starting balance for the cash drawer.</p></li><li><p><strong>Location </strong>- Select the location where this VCT will be used. This helps associate the terminal with a specific store or service area within your business.</p><ul><li><p>Admins can select any location while Managers are limited to the locations where they have a role assigned.</p></li></ul></li></ul><h2 id=\"VirtualCashTerminal(VCT)Setup-VCTManagement\">VCT Management</h2><p>Once you create your VCT, it will be listed on the Terminal Settings page. You can view the VCT Location assignment, VCT Name, Started-On date, Status, and available Actions.</p><p>Click the <strong>Edit button</strong> to make changes or the <strong>Delete button</strong> to delete a VCT. If the VCT has ever been opened/assigned, it will be locked from deletion. This is intended to maintain proper record-keeping. If you want to retire a VCT, you can edit the name to indicate it should no longer be used.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933901843/VCT%209.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933901843"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933901843/child",
+    "restrictions": "/rest/api/content/1933901843/restriction/byOperation",
+    "history": "/rest/api/content/1933901843/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933901843/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933901843",
+    "webui": "/spaces/SCD/pages/1933901843/Virtual+Cash+Terminal+VCT+Setup",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933901843",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933901843",
+    "tinyui": "/x/EwBFcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

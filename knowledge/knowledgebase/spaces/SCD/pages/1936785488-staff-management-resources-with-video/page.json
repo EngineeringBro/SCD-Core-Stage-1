@@ -1,0 +1,129 @@
+{
+  "id": "1936785488",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936785488",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjc4NTQ4OA==",
+  "status": "current",
+  "title": "Staff Management Resources (with Video)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:43.618Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "605",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936785488.39",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936785488"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936785488/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This video will showcase Staff Management, including:</p><ul><li><p>Creating staff members</p></li><li><p>Editing staff members</p></li><li><p>Terminating staff members</p></li><li><p>Attendance records</p></li><li><p>Staff announcements</p></li></ul><a class=\"external-link\" data-card-appearance=\"embed\" data-layout=\"center\" data-original-height=\"480.00\" data-original-width=\"853.34\" data-width=\"100.00\" href=\"https://youtu.be/1_Jo7rGL-gU\" rel=\"nofollow\">https://youtu.be/1_Jo7rGL-gU</a><p> <span class=\"confluence-embedded-file-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-inline\" alt=\"Control - f79824.png\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785488/Control%20-%20f79824.png?api=v2\"></span> </p><h3 id=\"StaffManagementResources(withVideo)-StaffProfileManagement\">Staff Profile Management</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921152\" rel=\"nofollow\">Staff Management: Roles and Permissions</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929379890\" rel=\"nofollow\">Staff Management: Add and Deactivate Staff Profiles</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933836372\" rel=\"nofollow\">Staff Management: Import and Export Staff Profiles</a></p><h3 id=\"StaffManagementResources(withVideo)-LoginandPasswordSettings\">Login and Password Settings</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2024734723\" rel=\"nofollow\">Staff Management Settings</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921099\" rel=\"nofollow\">Getting Started: Log In and Password Reset</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929248790\" rel=\"nofollow\">Staff Management: Update Your Username and Password</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2028634130\" rel=\"nofollow\">Switch Between Staff Profiles Without Logging Out of RepairQ</a></p><h3 id=\"StaffManagementResources(withVideo)-TimecardandAttendance\">Timecard and Attendance</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928986634\" rel=\"nofollow\">Getting Started: Clock In/Out of RepairQ</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2696282113\" rel=\"nofollow\">Staff Management: View and Adjust Attendance Records</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2933194804\" rel=\"nofollow\">Staff Management: Auto Clock-Out and Overtime Alerts</a></p><h3 id=\"StaffManagementResources(withVideo)-Communication\">Communication</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933803521\" rel=\"nofollow\">Dashboard Announcements</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932525726\" rel=\"nofollow\">Automated Notifications: Inventory Status Changes</a></p><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936785488"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936785488/child",
+    "restrictions": "/rest/api/content/1936785488/restriction/byOperation",
+    "history": "/rest/api/content/1936785488/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936785488/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936785488",
+    "webui": "/spaces/SCD/pages/1936785488/Staff+Management+Resources+with+Video",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936785488",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936785488",
+    "tinyui": "/x/UABxcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

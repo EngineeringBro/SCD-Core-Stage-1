@@ -1,0 +1,129 @@
+{
+  "id": "1934229524",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934229524",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDIyOTUyNA==",
+  "status": "current",
+  "title": "Reports: Cash Reconciliation",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:55.472Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "77",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934229524.28",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934229524"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934229524/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>When a Virtual Cash Terminal (VCT) is closed, staff will fill out a form to compare their current cash drawer balance to the transactions/cash transfers applied while the drawer was open. This allows staff to see any variance in cash flow. The Cash Reconciliation Report page allows you to view all of your past (VCT) reconciliation sheets for a specific time period, along with links to view the report in full detail.</p><h3 id=\"Reports:CashReconciliation-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2717089793\" rel=\"nofollow\">Virtual Cash Terminal (VCT) Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541639/Close+Reconcile+a+Virtual+Cash+Terminal\" data-linked-resource-id=\"1933541639\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Closing a Virtual Cash Terminal (VCT)</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295071/Reports+Cash+Flow\" data-linked-resource-id=\"1934295071\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Reports: Cash Flow</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933639827/Assign+a+Virtual+Cash+Terminal+VCT+to+Accept+Payments\" data-linked-resource-id=\"1933639827\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">Starting a Virtual Cash Terminal (VCT) to Accept Payments</a>  </p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229524/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"Reports:CashReconciliation-ViewingCashReconciliationReportHistory\">Viewing Cash Reconciliation Report History</h2><p>On the Navigation Bar, go to\u00a0<strong>Reports</strong>. On the Reports page, click on the\u00a0<strong>Cash Reconciliation</strong> link under the Cash Reconciliation category.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229524/Reconciliation%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229524/Reconciliation%202.png?api=v2\"></span><p /><p>Use the filters to scope results based on the assigned parameters. Once you have selected your filters, click <strong>Apply Filters</strong>\u00a0to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229524/Reconciliation%203.png?api=v2\"></span><ul><li><p><strong>Item</strong>\u00a0<strong>Date</strong>\u00a0- Select the date range for the list of Reconciliation Reports. If you want to view a report for a VCT that was closed on the current day, select tomorrow's date for the end date.</p></li><li><p><strong>Location</strong>\u00a0- Select a specific location or run an aggregate report for multiple stores.</p></li><li><p><strong>Date</strong> <strong>Type</strong> - Select to view reports based on their Opened date or Closed date. By default, this field is set to view by Closed date.</p></li></ul><p /><p>(Optional) Click\u00a0<strong>Hide/Show Filters</strong> on the upper-right side of the page to collapse/expand the filters when viewing reports.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"217\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229524/Reconciliation%204.png?api=v2\"></span><hr/><h2 id=\"Reports:CashReconciliation-CashReconciliationbyDateandTerminal\">Cash Reconciliation by Date and Terminal</h2><p>The Reconciliation Report list gives you details about past reporting, including the Report ID with a link to view the report in full detail, Open/Close dates for the VCT, Terminal Name, Location, Net Cash (the Cash Over/Short amount in the report), and Cash On Hand (the beginning balance when the VCT was assigned).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229524/Reconciliation%205.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934229524"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934229524/child",
+    "restrictions": "/rest/api/content/1934229524/restriction/byOperation",
+    "history": "/rest/api/content/1934229524/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934229524/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934229524",
+    "webui": "/spaces/SCD/pages/1934229524/Reports+Cash+Reconciliation",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934229524",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934229524",
+    "tinyui": "/x/FABKcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

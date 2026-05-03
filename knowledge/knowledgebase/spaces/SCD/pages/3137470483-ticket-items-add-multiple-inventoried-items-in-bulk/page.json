@@ -1,0 +1,130 @@
+{
+  "id": "3137470483",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/3137470483",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMzEzNzQ3MDQ4Mw==",
+  "status": "current",
+  "title": "Ticket Items: Add Multiple Inventoried Items in Bulk",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2025-02-28T22:33:28.812Z",
+    "friendlyWhen": "Mar 01, 2025",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1586",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$3137470483.29",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/3137470483"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3137470483/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>When adding inventoried items to a ticket, RepairQ pulls them as individual line items rather than allowing a quantity adjustment. While non-inventory items\u2014such as labor, services, or items without individual stock tracking\u2014can have their quantity adjusted freely, inventoried items must be added as separate line items to maintain to track inventory movement (Instock \u2192 Pulled \u2192 Sold). We\u2019ve streamlined this process by providing a way to adding multiple quantites of the same inventoried item to a ticket. This feature is especially useful for high-volume sales or repairs requiring multiple identical parts.</p><p><strong>Note:</strong> For best performance, keep the total number of line items per ticket to 75 or fewer.</p><h3 id=\"TicketItems:AddMultipleInventoriedItemsinBulk-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1930494512\" rel=\"nofollow\">Create a Quick Sale Ticket</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1937015029\" rel=\"nofollow\">Quick Create: Add New Catalog Items on Tickets</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3137470483/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"TicketItems:AddMultipleInventoriedItemsinBulk-AddMultipleInventoriedItemstoaTicket\">Add Multiple Inventoried Items to a Ticket</h2><p>When creating or editing a ticket, click the <strong>Look Up</strong> button instead of using the Smart Search box. In the <strong>Add Ticket Item</strong> pop-up, use <strong>Advanced Search</strong> to find the catalog item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Add Bulk Item 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3137470483/Add%20Bulk%20Item%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Add Bulk Item 2.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3137470483/Add%20Bulk%20Item%202.png?api=v2\"></span><p /><p>In the <strong>Add Ticket Item</strong> pop-up, use the search fields to find the item, add the quantity to add to the ticket, and click <strong>Add Item</strong>.</p><p><strong>Note:</strong> For best performance, keep the total number of line items per ticket to 75 or fewer.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Add Bulk Item 3.png\" width=\"332\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3137470483/Add%20Bulk%20Item%203.png?api=v2\"></span><p /><p>The items are added to your ticket as individual line items in Pulled status. To remove extra items, click the <strong>Delete button (red X)</strong> to return them to Instock status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Add Bulk Item 4.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3137470483/Add%20Bulk%20Item%204.png?api=v2\"></span><p /><p /><p>START 1.22.X</p><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/3137470483"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 264072
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/3137470483/child",
+    "restrictions": "/rest/api/content/3137470483/restriction/byOperation",
+    "history": "/rest/api/content/3137470483/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/3137470483/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=3137470483",
+    "webui": "/spaces/SCD/pages/3137470483/Ticket+Items+Add+Multiple+Inventoried+Items+in+Bulk",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/3137470483",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3137470483",
+    "tinyui": "/x/EwACuw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

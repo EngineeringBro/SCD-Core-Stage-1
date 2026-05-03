@@ -1,0 +1,129 @@
+{
+  "id": "3020390411",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/3020390411",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMzAyMDM5MDQxMQ==",
+  "status": "current",
+  "title": "Customer Balance Alerts",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:45.477Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "1057",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$3020390411.51",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/3020390411"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3020390411/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ now offers settings to notify you when a customer has unpaid balances on other tickets. The ability to display customer balance alerts offers several key benefits:</p><ul><li><p><strong>Streamlined Operations</strong> - By notifying staff of outstanding balances before completing a transaction, this feature encourages customers to settle unpaid amounts, helping maintain cash flow for the business. Staff can quickly view and address all unpaid tickets in one place, saving time and ensuring no balances are overlooked.</p></li><li><p><strong>Customer Accountability</strong> - Customers are less likely to forget or delay payments when outstanding balances are proactively addressed during their visit. Businesses can minimize the risk of unpaid amounts accumulating over time by addressing unpaid balances before processing new transactions.</p></li></ul><h3 id=\"CustomerBalanceAlerts-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2602893319\" rel=\"nofollow\">Customer General Settings</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2348187679\" rel=\"nofollow\">Virtual Cash Terminal: Ticket Payment Settings</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3020390411/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CustomerBalanceAlerts-TicketViewNotifications\">Ticket View Notifications</h2><p>A banner at the top of the ticket and a message under the Totals section will display if the customer has unpaid balances. From there, you can open a detailed list of tickets with balances due, with links to view or edit the related ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer Balance Notifications 3.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3020390411/Customer%20Balance%20Notifications%203.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer Balance Notifications 2 - Copy.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3020390411/Customer%20Balance%20Notifications%202%20-%20Copy.png?api=v2\"></span><h2 id=\"CustomerBalanceAlerts-PaymentRequestInterruptions\">Payment Request Interruptions</h2><p>When adding a payment (via cash shortcut or Add Transaction), a popup will appear listing other tickets with unpaid balances for the customer, helping you manage these outstanding amounts before processing the payment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer Balance Notifications 4.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3020390411/Customer%20Balance%20Notifications%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer Balance Notifications 2.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3020390411/Customer%20Balance%20Notifications%202.png?api=v2\"></span><hr/><h2 id=\"CustomerBalanceAlerts-Enable/DisableCustomerBalanceAlerts\">Enable/Disable Customer Balance Alerts</h2><p>From the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>. On the settings page, under the Customers section, go to <strong>General Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Company Settings.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3020390411/Company%20Settings.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer Balance Notifications 1.png\" width=\"687\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3020390411/Customer%20Balance%20Notifications%201.png?api=v2\"></span><p /><p>On the Customer General Settings page, under the \u201cShow Customer Balance Alert on Tickets\u201d section, use the toggles to enable/disable the alerts and <strong>Save </strong>your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer Balance Notifications 5.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3020390411/Customer%20Balance%20Notifications%205.png?api=v2\"></span><ul><li><p><strong>Display a message when viewing tickets\u2026 </strong>- (Ticket view notifications) A banner at the top of the ticket and a message under the Totals section will display if the customer has unpaid balances. From there, you can open a detailed list of tickets with balances due.</p></li><li><p><strong>Display a modal to interrupt payment requests\u2026</strong> - (Payment request interruptions) When adding a payment (via cash shortcut or Add Transaction), a popup will appear listing other tickets with unpaid balances for the customer, helping you manage these outstanding amounts before processing the payment.</p></li></ul><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/3020390411"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/3020390411/child",
+    "restrictions": "/rest/api/content/3020390411/restriction/byOperation",
+    "history": "/rest/api/content/3020390411/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/3020390411/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=3020390411",
+    "webui": "/spaces/SCD/pages/3020390411/Customer+Balance+Alerts",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/3020390411",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3020390411",
+    "tinyui": "/x/C4AHt",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

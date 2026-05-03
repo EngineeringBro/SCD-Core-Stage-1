@@ -1,0 +1,129 @@
+{
+  "id": "1931411625",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1931411625",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMTQxMTYyNQ==",
+  "status": "current",
+  "title": "Purchase Orders: Importing and Uploading",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:40.716Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1931411625.36",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1931411625"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1931411625/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Importing spreadsheets is an efficient way to add or update batches of records, streamlining your data management. Users can use our provided import template to create Purchase Orders which saves time, reduces errors, and simplifies your workflow.</p><p>Import capabilities are restricted to users with Admin, Manager, and Inventory Manager roles. This ensures that only authorized personnel handle critical data operations, maintaining data integrity and security.</p><h3 id=\"PurchaseOrders:ImportingandUploading-ImportRules\">Import Rules</h3><p><strong>Column Matching</strong> - Columns are matched by header name. We recommend using the header names provided in our templates to ensure a successful import of the column values.</p><p><strong>Unrecognized Columns</strong> - Any columns added outside the provided template will be ignored.</p><p><strong>Required Values</strong> - Required values differ based on the import, such as tickets, customers, purchase orders, etc. Refer to the specific import guidelines for each category to ensure all necessary fields are included.</p><p><strong>Import Updates </strong>- If a line in the import file matches an existing record in RepairQ, the item will be updated with the data from your spreadsheet. Matches are made in the following order: SKU, Supplier SKU, and Name.</p><p><strong>Accepted File Formats</strong> - RepairQ accepts Excel (.xlsx), Comma-Separated Values (.csv), and Tab-Separated Values (.txt). We recommend using .xlsx files for the best upload experience.</p><h3 id=\"PurchaseOrders:ImportingandUploading-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933377786\" rel=\"nofollow\">RepairQ Data Import Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932427416\" rel=\"nofollow\">Purchase Order Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932394561\" rel=\"nofollow\">Purchase Orders: Exporting</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931411625/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"PurchaseOrders:ImportingandUploading-DownloadingthePurchaseOrder(PO)Template\">Downloading the Purchase Order (PO) Template</h2><p /><p>1. On the Navigation Bar, go to <strong>Inventory</strong> \u2192 <strong>View Purchase</strong> <strong>Orders</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931411625/PO%20Import%201.png?api=v2\"></span><p /><p>2. On the PO List page, click the <strong>Options button (\u22ee)</strong> on the upper-right of the page. From the available list of options, click <strong>Import</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931411625/PO%20Import%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"204\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931411625/PO%20Import%203.png?api=v2\"></span><p /><p>3. The Import Purchase Order module will appear below the PO list. Click <strong>Purchase Order Import Template</strong> to download the import template. The file will be in .xlsx format.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931411625/PO%20Import%204.png?api=v2\"></span><p /><p>4. The template file will include all columns of data available for import. Fill in each field for each purchase order item. At a minimum, the fields marked with an asterisk (*) below are required for upload.</p><p><strong>Note</strong>: Any columns added by the user will be ignored when uploading since they will be unrecognizable by the system.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931411625/PO%20Import%205.png?api=v2\"></span><ul><li><p><strong>Catalog</strong> <strong>Item*</strong> - This is the Name, SKU, or UPC of the item added to the PO. It must match an existing item in your catalog.</p></li><li><p><strong>Supplier</strong> <strong>SKU</strong> - If you have a Supplier SKU for the item, you can assign it here.</p></li><li><p><strong>Qty*</strong> - This is the Reorder Amount (ROA) of the item.</p></li><li><p><strong>Cost*</strong> - This is the cost of the item from the Supplier.</p></li><li><p><strong>Price*</strong> - This is the retail price of the item.</p></li><li><p><strong>Note</strong> - Add any special notes for the ordered item.</p></li><li><p><strong>Location</strong> - This optional field is used for your records only. The Location assignment for the PO will be selected before uploading the template.</p></li><li><p><strong>Supplier</strong> - This optional field is used for your records only. The supplier assignment for the PO will be selected before uploading the template.</p></li><li><p><strong>Vendor</strong> <strong>Order</strong> <strong>ID</strong> - This information is visible in the order details when viewing the PO.</p></li><li><p><strong>Backordered</strong> <strong>Tickets</strong> - This field is no longer applicable and can be ignored.</p></li><li><p><strong>Use</strong> <strong>FIFO</strong> - By default, this field is True/Yes when blank. If you add an item to a PO that has a placeholder in back order status on a ticket, one of the items will automatically pull into reserved/pulled status for that inventory item when the PO is received. If you do not want one of these items to be fulfilled on a backorder ticket, put &quot;N&quot; under the column for the line item. For more information on backorder items, see our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672497/Inventory+Management+Allow+for+Backorder+Inventory+on+Tickets\" data-linked-resource-id=\"1933672497\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Management: Allowing for Backorder Inventory.</a></p></li></ul><p /><p>5. After you have filled out your template, be sure to save your changes. It's also helpful to name the file something that is easily recognizable and in a location that can be easily accessed with your File Explorer.</p><p><strong>Note</strong>: We recommend using .xlsx files for the best upload experience. If saving the file as a tab-delimited text file (.txt), you may receive a warning message. You can continue past the warning to save the file.</p><p /><h2 id=\"PurchaseOrders:ImportingandUploading-UploadingthePurchaseOrderTemplate\">Uploading the Purchase Order Template</h2><p>After you have saved your uploaded file, you are ready to import it into RepairQ.</p><p /><p>1. On the PO List page, look for the Import Purchase Order module below the PO list. Select the <strong>Supplier</strong> for the order, the <strong>Location</strong> the PO is intended for, and the <strong>Status</strong> of the PO (New or Ordered).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931411625/PO%20Import%206.png?api=v2\"></span><p /><p>2. Once you have made your selections, click <strong>Choose</strong> <strong>File</strong> to select your import file via the file explorer. Click <strong>Import</strong> to begin the upload process.</p><p><strong>Note</strong>: Larger import files may take time to process. Please be patient and do not navigate away from the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931411625/PO%20Import%207.png?api=v2\"></span><h2 id=\"PurchaseOrders:ImportingandUploading-ImportFeedback\">Import Feedback</h2><p>After you import the file, you will be directed to the Import Landing page. Here, you can see details regarding the import status, including a link to view the new PO, and whether the import was confirmed or rejected. If an import is rejected, this page will list the errors it encountered. Purchase Order imports are aborted if any of the items are rejected, so you can make the necessary changes to your import file and re-import without producing any duplicates. If the import was successful, you can manage your PO as you would any other Purchase Order in RepairQ.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931411625/PO%20Import%208.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1931411625"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1931411625/child",
+    "restrictions": "/rest/api/content/1931411625/restriction/byOperation",
+    "history": "/rest/api/content/1931411625/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1931411625/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1931411625",
+    "webui": "/spaces/SCD/pages/1931411625/Purchase+Orders+Importing+and+Uploading",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1931411625",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1931411625",
+    "tinyui": "/x/qQAfcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_expands": [
+    "field"
+  ],
+  "id": "115",
+  "_links": {
+    "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/115"
+  },
+  "name": "General Enquiries",
+  "description": "Not sure where to start? Submit your question here and our team will point you in the right direction.",
+  "helpText": "",
+  "defaultName": "General Enquiries",
+  "issueTypeId": "10167",
+  "serviceDeskId": "9",
+  "portalId": "9",
+  "groupIds": [
+    "303"
+  ],
+  "icon": {
+    "id": "10508",
+    "_links": {
+      "iconUrls": {
+        "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10508?size=large",
+        "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10508?size=small",
+        "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10508?size=xsmall",
+        "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10508?size=medium"
+      }
+    }
+  },
+  "restrictionStatus": "OPEN",
+  "canCreateRequest": true
+}

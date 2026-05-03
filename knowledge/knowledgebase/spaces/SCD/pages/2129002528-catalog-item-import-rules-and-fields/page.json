@@ -1,0 +1,129 @@
+{
+  "id": "2129002528",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2129002528",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjEyOTAwMjUyOA==",
+  "status": "current",
+  "title": "Catalog Item Import: Rules and Fields",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:52.334Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 12,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2129002528.97",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2129002528"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2129002528/version/12"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ offers convenient inventory management by allowing users to add and update Catalog Items via an import file. Users can effortlessly create catalog items, registering the items and services in your store. This process is streamlined through import files, supporting .xlsx (Excel), .csv (comma-separated values), and .txt (tab-separated values), with .xlsx recommended for the best experience.</p><ul><li><p><strong>Efficient Inventory Management </strong>- Easily add, modify, and maintain items in your Catalog.</p></li><li><p><strong>Streamlined Data Entry</strong> - Quickly upload items in bulk, reducing errors and saving time.</p></li><li><p><strong>Flexibility </strong>- Keep up with the latest devices and services as they become available.</p></li></ul><p>Import capabilities are restricted to users with Admin, Manager, and Inventory Manager roles. This ensures that only authorized personnel handle critical data operations, maintaining data integrity and security.</p><h3 id=\"CatalogItemImport:RulesandFields-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624014/Catalog+Management+Import+Catalog+Items\" data-linked-resource-id=\"1932624014\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Catalog Management: Importing Catalog Items</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2131165196/Catalog+Management+Importing+Catalog+Edits\" data-linked-resource-id=\"2131165196\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Catalog Management: Importing Catalog Item Changes</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329061/Create+a+Catalog+Item\" data-linked-resource-id=\"1932329061\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Creating a Catalog Item</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787743/Inventory+Management+Resources\" data-linked-resource-id=\"1932787743\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Inventory Management Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933377786\" rel=\"nofollow\">RepairQ Data Import Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2129002528/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"CatalogItemImport:RulesandFields-CatalogImportTemplate\">Catalog Import Template</h2><p>For instructions on downloading the import template, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624014/Catalog+Management+Import+Catalog+Items\" data-linked-resource-id=\"1932624014\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Catalog Management: Importing Catalog Items</a>.</p><p>When working with the Catalog Import Template, you must have the correct header names (provided in the template) to import the column values successfully. The order of the columns does not matter as long as the correct information is under the assigned header name. Only the values you wish to add or update need to be present in the import file, and any unrecognized column headers will be ignored.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"756\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2129002528/Import%20Catalog%20Item%2023.png?api=v2\"></span><h3 id=\"CatalogItemImport:RulesandFields-CatalogImportRules\">Catalog Import Rules</h3><p>When importing data, RepairQ will compare the information to existing entries first. If no matches are found for a record in your import file, RepairQ will create a new catalog item record from the import row.</p><ul><li><p><strong>Column Matching</strong> - Columns are matched by header name. We recommend using the header names provided in our templates to ensure a successful import of the column values. Matches are made when comparing the following categories, in this order: SKU, Supplier SKU, and Name.</p></li><li><p><strong>Required Values</strong> - Required values for creating a catalog item are Item Type, Manufacturer, Name, and Active.</p></li><li><p><strong>Unrecognized Columns</strong> - Any columns added outside the provided template will be ignored.</p></li><li><p><strong>Import Updates </strong>- If a line in the import file matches an existing record in RepairQ, the item will be updated with the data from your spreadsheet. Matches are made in the following order: SKU, Supplier SKU, and Name.</p><ul><li><p>When updating an existing entry, one of these fields must be present and match the corresponding Catalog Item you wish to change. For example, if you are trying to update an Item Name, including the matching SKU will help identify the item, then an update will be made to the name, rather than a new item created.</p></li></ul></li><li><p><strong>Accepted File Formats</strong> - RepairQ accepts Excel (.xlsx), Comma-Separated Values (.csv), and Tab-Separated Values (.txt). We recommend using .xlsx files for the best upload experience.</p></li></ul><h3 id=\"CatalogItemImport:RulesandFields-RequiredImportTemplateFields\">Required Import Template Fields</h3><p>The following fields are required to create a new catalog item in RepairQ:</p><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329027/Creating+a+New+Item+Type\" data-linked-resource-id=\"1932329027\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\"><strong>Item Type</strong></a> - This is a classification of the catalog item. This must match an existing Item Type in your Catalog settings. </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2131951619/Creating+a+New+Manufacturer\" data-linked-resource-id=\"2131951619\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\"><strong>Manufacturer</strong></a><strong>\u00a0</strong>- Assign the manufacturer of this catalog item. This must match an existing Manufacturer in your Catalog Settings.</p></li><li><p><strong>Name </strong>- This is the primary name to identify the Catalog Item. This must be unique for each item.</p></li><li><p><strong>Active </strong>- Active Catalog Items are searchable in lists and can be added to tickets.</p><ul><li><p>Use the number one \u201c1\u201d to mark the item as active.</p></li><li><p>Use the number zero \u201c0\u201d to mark the item as inactive. This is used when retiring an item from use. An inactive catalog item cannot be added to a ticket and will be removed from the default Catalog List view.</p></li><li><p>Deactivating a Catalog Item does not remove the inventory of that item. If retiring an item, we recommend purging the inventory first.</p></li><li><p>You can still locate and reactivate items by filtering your Catalog list for Attibrute = Inactive.</p></li></ul></li></ul><h3 id=\"CatalogItemImport:RulesandFields-OptionalCatalogItemFields\">Optional Catalog Item Fields</h3><p>These additional fields aid in comprehensive product management. As RepairQ evolves, this list will change:</p><ul><li><p><strong>UPC</strong> - Universal Product Code. This unique identifier is used to track stock and inventory of your items.</p></li><li><p><strong>SKU</strong> - Stock Keeping Unit. Similar to a UPC, this unique identifier offers a more detailed identification than barcodes. SKUs can include product details like size, color, and style, providing additional inventory info.</p></li><li><p><strong>Supplier SKUs</strong> - This is used for integrated Purchase Orders. Catalog items can be linked with a Supplier SKU to identify the same item from your supplier\u2019s inventory when placing an order with a supplier.</p><ul><li><p>Data in the Supplier SKU field must include the Supplier name and SKU in the following format: \u201c<strong>SupplierNameSKU</strong>\u201d. e.g., \u201c<strong>Apple:AP123\u201d</strong>.</p></li><li><p>You can add multiple Supplier SKUs, separated by commas: \u201c<strong>SupplierName:SKU,SupplierName:SKU</strong>\u201d.</p></li></ul></li><li><p><strong>Friendly Name\u00a0</strong>- This is an alternative, customer-friendly name shown on receipts.</p></li><li><p><strong>Categories\u00a0</strong>- This is used for establishing an <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591138/Catalog+Management+Organize+Your+Catalog+with+Category+Trees+and+Item+Grids\" data-linked-resource-id=\"1932591138\" data-linked-resource-version=\"18\" data-linked-resource-type=\"page\">Item Tree</a>. Categories organize your Catalog Items in parent/child relationships. Item Trees are the underlying structure of navigating <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932230697/Item+Grid+Management+Link+Catalog+Items+to+the+Category+Tree\" data-linked-resource-id=\"1932230697\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Item Grids</a> in RepairQ.</p><ul><li><p>Your Item Tree must be established before assigning categories to items since the data must be spelled exactly as it is in RepairQ.</p></li><li><p>Data in the Categories field must be in the following format: <strong>Category&gt;Subcategory&gt;Subcategory&gt;etc</strong><em><strong>.</strong> </em>e.g., <strong>Smartphones&gt;Apple&gt;iPhone 8</strong></p></li></ul></li><li><p><strong>Search Keys</strong> - Additional searchable keywords for the Catalog Item. This can be used when searching your inventory page, for an item to add to a ticket, etc.</p><ul><li><p>Multiple search keys must be separated with a comma, without spaces. e.g., '<strong>searchkey1,searchkey2,searchkey3</strong>'.</p></li></ul></li><li><p><strong>Repairable\u00a0</strong>- Marking a Catalog Item as repairable allows users to add it to a Repair Ticket.</p><ul><li><p>Use the number one \u201c1\u201d to mark the item as repairable. Use the number zero \u201c0\u201d to restrict the item from being added to a Repair Ticket.</p></li></ul></li><li><p><strong>Inventoried\u00a0</strong>- Items marked as inventoried have a quantity that can be tracked in RepairQ. These items must be stocked to be used on tickets and can be replenished via Purchase Orders, inventory adjustments, and Inventory Counts. Non-inventoried items can be added to tickets however, there is no way to track the amount of this item in your possession.</p><ul><li><p>Use the number one \u201c1\u201d to mark an item as inventoried. Once this item is added to a ticket or purchase order, this field will be locked for editing to maintain data integrity.</p></li><li><p>Use the number zero \u201c0\u201d to mark an item as non-inventoried. This is typically used for labor, services, and other items that do not require a physical quantity on a ticket. Once this item is added to a ticket, this field will be locked for editing.</p></li></ul></li><li><p><strong>Serialized\u00a0</strong>- Items marked as serialized will require a serial number when the item is added to your inventory and added to a ticket.</p><ul><li><p>Use the number one \u201c1\u201d to mark an item as serialized. Only items marked as inventoried can be marked as serialized. Once this item has been added to a ticket or purchase order, this field will be locked for editing.</p></li><li><p>Use the number zero \u201c0\u201d to mark the item as non-serialized. Once this item has been added to a ticket or purchase order, this field will be locked for editing.</p></li></ul></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787813/Inventory+Management+Reorder+Points+and+Reorder+Amounts\" data-linked-resource-id=\"1932787813\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\"><strong>Reorder Point</strong></a> - (For Inventoried items) Reorder Points are designed to notify managers on the dashboard and during the PO process when the in-stock quantity for an item falls <strong>below </strong>the assigned reorder point quantity.</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787813/Inventory+Management+Reorder+Points+and+Reorder+Amounts\" data-linked-resource-id=\"1932787813\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\"><strong>Reorder Amount</strong></a> - (For Inventoried items) Reorder Amounts are designed to make ordering easier by assigning a default quantity to reorder when adding an item to a Purchase Order.</p></li><li><p><strong>Price</strong> - This is the retail price of the item. This is the amount that the customer pays to purchase the item. This may be affected by factors like profit margin, market demand, etc.</p><ul><li><p>If a price is entered for the Catalog Item, it will automatically be applied when adding the item to a ticket or into inventory.</p></li></ul></li><li><p><strong>Advertised Price</strong> - By default, the \u201cPrice\u201d field is used for standard retail pricing. If the item has a special, advertised price on Qsite, that price can be entered here.</p></li><li><p><strong>Is Advertised Price </strong>- This flags the item to use the Advertised Price when shown on Qsite.</p><ul><li><p>Use the number one \u201c1\u201d to allow for advertisement on Qsite. Use the number zero \u201c0\u201d to restrict the item from being advertised on Qsite.</p></li></ul></li><li><p><strong>Price Including Tax</strong> - If utilizing <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1986560223/Tax-inclusive+Pricing+Resources\" data-linked-resource-id=\"1986560223\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Tax-Inclusive Pricing</a>, you can enter the after-tax price of the item here. RepairQ will refactor the price and tax of the item based on your <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933410332/Setting+up+and+Assigning+Tax+Rates\" data-linked-resource-id=\"1933410332\" data-linked-resource-version=\"20\" data-linked-resource-type=\"page\">assigned taxes for the Item Type</a>.</p></li><li><p><strong>Cost</strong> - This is the expense of your business to produce, acquire, or deliver that item. This may be affected by factors like your purchase price of the item, materials, labor, overhead, and other associated costs.</p><ul><li><p>If a cost is entered for the Catalog Item, it will automatically be applied when adding an item to your inventory.</p></li></ul></li><li><p><strong>Restocking Fee</strong> - Restocking fees are often used when a return requires significant effort to bring the product back to a sellable condition. Assigning a restocking fee to a Catalog Item will charge that additional amount when the item is <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770876/Processing+a+Return+on+a+Ticket\" data-linked-resource-id=\"1933770876\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">returned on a ticket</a>.</p></li><li><p><strong>Default Qty/Hours</strong> - This allows you to assign a default quantity/labor hour amount when adding the item to a ticket.</p></li><li><p><strong>Allow Cost Override</strong> - This allows you to change the cost of the item when added to a ticket.</p><ul><li><p>Use the number one \u201c1\u201d to allow for Cost Override. Use the number zero \u201c0\u201d to restrict the item from overrides.</p></li></ul></li><li><p><strong>Allow Supplier Override</strong> - This allows you to change the item's supplier when added to a ticket.</p><ul><li><p>Use the number one \u201c1\u201d to allow for Supplier Override. Use the number zero \u201c0\u201d to restrict the item from overrides.</p></li></ul></li><li><p><strong>Note</strong> - If you have an additional note for this Catalog Item, you can add it in this field.</p></li><li><p><strong>Bin</strong> - This is generally used for inventory organization. If you plan to keep this item in a designated area (bin), you can label that location with this field.</p></li></ul><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2129002528"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2129002528/child",
+    "restrictions": "/rest/api/content/2129002528/restriction/byOperation",
+    "history": "/rest/api/content/2129002528/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2129002528/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2129002528",
+    "webui": "/spaces/SCD/pages/2129002528/Catalog+Item+Import+Rules+and+Fields",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2129002528",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2129002528",
+    "tinyui": "/x/IADmfg",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

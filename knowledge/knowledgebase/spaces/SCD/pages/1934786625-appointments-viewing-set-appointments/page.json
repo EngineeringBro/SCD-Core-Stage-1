@@ -1,0 +1,129 @@
+{
+  "id": "1934786625",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934786625",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDc4NjYyNQ==",
+  "status": "current",
+  "title": "Appointments: Viewing Set Appointments",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:58:03.217Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934786625.35",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934786625"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786625/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>After you've created an appointment, it will appear on the Appointments List View page. When viewing this page, you can search for appointments by Name, Device, Request type, and more. For more on how list views and searching function, please see our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932754986/List+Views\" data-linked-resource-id=\"1932754986\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Custom List Views, Filters, and Columns</a>.</p><p><strong>Additional Resources</strong></p><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246822/Appointments+General+Settings\" data-linked-resource-id=\"1933246822\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Appointment Settings Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917649/Appointments+Scheduling+an+Appointment\" data-linked-resource-id=\"1934917649\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Appointments: Scheduling an Appointment</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934852150/Appointments+Changing+an+Appointment\" data-linked-resource-id=\"1934852150\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Appointments: Changing an Appointment</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491709/Appointments+Canceling+an+Appointment\" data-linked-resource-id=\"1934491709\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Appointments: Canceling an Appointment</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2138963973/Appointments+Creating+Automated+Confirmations+and+Reminders\" data-linked-resource-id=\"2138963973\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Appointments: Creating Automated Confirmations and Reminders</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786625/image-20230622-174323.png?api=v2\"></span><h2 id=\"Appointments:ViewingSetAppointments-ViewingtheAppointmentList\">Viewing the Appointment List</h2><p /><p>On the Navigation Bar, go to <strong>Opportunities \u2192 Appointments</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786625/image-20230622-174326.png?api=v2\"></span><p /><p /><p /><h2 id=\"Appointments:ViewingSetAppointments-NavigatingListViews\">Navigating List Views</h2><p>Scheduled appointments can be viewed by List,\u00a0Day,\u00a0Week, or\u00a0Month. When viewing each style, you can cycle between views with the left and right arrows. There is also a Today button that appears when viewing past or future appointments in either Day, Week, or Month, which will bring you back to the current date.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786625/image-20230622-174329.png?api=v2\"></span><p /><p /><p /><ul><li><p><strong>List View </strong>(Displayed in months)</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786625/image-20230622-174332.png?api=v2\"></span><p /><p /><ul><li><p><strong>Day View</strong></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786625/image-20230622-174336.png?api=v2\"></span><p /><p /><ul><li><p><strong>Week View</strong></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786625/image-20230622-174339.png?api=v2\"></span><p /><p /><p /><ul><li><p><strong>Month View</strong></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786625/image-20230622-174342.png?api=v2\"></span><p /><p /><h2 id=\"Appointments:ViewingSetAppointments-ViewinganAppointment\">Viewing an Appointment</h2><p>Click on an available appointment to view details, set an assignee, make edits to the appointment, or start the appointment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786625/Appointment%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786625/Appointment%202.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934786625"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934786625/child",
+    "restrictions": "/rest/api/content/1934786625/restriction/byOperation",
+    "history": "/rest/api/content/1934786625/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934786625/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934786625",
+    "webui": "/spaces/SCD/pages/1934786625/Appointments+Viewing+Set+Appointments",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934786625",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786625",
+    "tinyui": "/x/QYBScw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

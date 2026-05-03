@@ -1,0 +1,129 @@
+{
+  "id": "1936982118",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936982118",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjk4MjExOA==",
+  "status": "current",
+  "title": "RepairQ API - Embed Qsite\u2122 Ticket Status Into Your Website",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:49.570Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "762",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936982118.25",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936982118"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936982118/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>You can enhance your customer experience by embedding Qsite\u2122 Ticket Status directly into your company\u2019s website using our APIs. This integration allows customers to check their ticket status without leaving your site. Customers can enter their Ticket Number and Last Name to retrieve real-time ticket  details\u2014just like they would on the standalone Qsite Ticket Status page.</p><p><strong>Note</strong>: This feature is still in Beta, and you may encounter bugs. We appreciate your feedback as we continue to refine the integration.</p><h3 id=\"RepairQAPI-EmbedQsite\u2122TicketStatusIntoYourWebsite-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523327/Qsite+Resources\" data-linked-resource-id=\"1936523327\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Qsite Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936785428/Embed+Qsite+Features+Into+Your+Website\" data-linked-resource-id=\"1936785428\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Embed Qsite\u2122 Features Into Your Website</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2471034883\" rel=\"nofollow\">Integrations: Webhooks and APIs</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936982118/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"RepairQAPI-EmbedQsite\u2122TicketStatusIntoYourWebsite-HowItWorks\">How It Works</h2><p>To implement Qsite Ticket Status<strong> </strong>API, you will need to:</p><ul><li><p><strong>Collect Customer Inputs</strong></p><ul><li><p>Prompt the customer to enter their <strong>Ticket Number</strong> and <strong>Last Name</strong> on your website.</p></li><li><p>This ensures a semi-anonymous security check before displaying ticket details.</p></li></ul></li><li><p><strong>Make an API Request</strong></p><ul><li><p>Send a request to the Qsite Ticket Status endpoint with the provided details.</p></li><li><p>The API response will return the same ticket information that is available through the standalone ticket status page.</p></li></ul></li><li><p><strong>Display the Ticket Details</strong></p><ul><li><p>Present the returned data in a user-friendly format on your website.</p></li><li><p>Ensure the information remains clear and secure for customer access.</p></li></ul></li></ul><hr/><h3 id=\"RepairQAPI-EmbedQsite\u2122TicketStatusIntoYourWebsite-Giventicketnumber(envspecific)andcustomerlastname(toverifyforsemi-anonymoussecurity)\">Given ticket number (env specific) and customer last name (to verify for semi-anonymous security)</h3><ul><li><p>GET\u200b \u200bhttps://\u200bsubdomain\u200b.repairq.io/api/ticket/\u200bnumber\u200b?last_name=\u200bname</p><ul><li><p>E.g.<strong> </strong>GET \u200bhttps://subdomain.repairq.io/api/ticket/69631?last_name=Smith</p></li></ul></li></ul><p /><h3 id=\"RepairQAPI-EmbedQsite\u2122TicketStatusIntoYourWebsite-Sampleoutput,iffound\">Sample output, if found</h3><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">HTTP/1.1 200 OK\n</pre>\n</div></div><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">{&quot;success&quot;:true,&quot;message&quot;:&quot;Record\nFound&quot;,&quot;data&quot;:{&quot;totalCount&quot;:1,&quot;ticket&quot;:{&quot;status&quot;:&quot;closed&quot;,&quot;status_label&quot;:&quot;Closed&quot;,&quot;sta\ntus_updated_on&quot;:&quot;2016-06-14 15:50:08&quot;,&quot;status_updated_on_str&quot;:&quot;6\\/14\\/16 3:50 PM&quot;}}}\n</pre>\n</div></div><p /><h3 id=\"RepairQAPI-EmbedQsite\u2122TicketStatusIntoYourWebsite-Prettyprinted\">Pretty printed</h3><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">{\n  &quot;success&quot;: true,\n  &quot;message&quot;: &quot;Record Found&quot;,\n  &quot;data&quot;: {\n</pre>\n</div></div><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">    &quot;totalCount&quot;: 1,\n    &quot;ticket&quot;: {\n</pre>\n</div></div><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">      &quot;status&quot;: &quot;closed&quot;,\n      &quot;status_label&quot;: &quot;Closed&quot;,\n      &quot;status_updated_on&quot;: &quot;2016-06-14 15:50:08&quot;,\n      &quot;status_updated_on_str&quot;: &quot;6\\/14\\/16 3:50 PM&quot;\n</pre>\n</div></div><p>} }</p><p>}</p><p /><h3 id=\"RepairQAPI-EmbedQsite\u2122TicketStatusIntoYourWebsite-NotFoundorNotMatched\">Not Found or Not Matched</h3><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">HTTP/1.1 401 Not Authorized: Ticket not found or last_name does not match\n</pre>\n</div></div><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">{&quot;success&quot;:false,&quot;message&quot;:&quot;Not Authorized: Ticket not found or last_name does not\nmatch&quot;,&quot;data&quot;:{&quot;errorCode&quot;:&quot;401&quot;,&quot;message&quot;:&quot;Not Authorized: Ticket not found or\nlast_name does not match&quot;}}\n</pre>\n</div></div><p /><h3 id=\"RepairQAPI-EmbedQsite\u2122TicketStatusIntoYourWebsite-Prettyprinted.1\">Pretty printed</h3><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">{\n  &quot;success&quot;: false,\n  &quot;message&quot;: &quot;Not Authorized: Ticket not found or last_name does not match&quot;,\n  &quot;data&quot;: {\n</pre>\n</div></div><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">    &quot;errorCode&quot;: &quot;401&quot;,\n</pre>\n</div></div><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">    &quot;message&quot;: &quot;Not Authorized: Ticket not found or last_name does not match&quot;\n  }\n</pre>\n</div></div><p>}\u00a0</p><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936982118"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936982118/child",
+    "restrictions": "/rest/api/content/1936982118/restriction/byOperation",
+    "history": "/rest/api/content/1936982118/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936982118/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936982118",
+    "webui": "/spaces/SCD/pages/1936982118/RepairQ+API+-+Embed+Qsite+Ticket+Status+Into+Your+Website",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936982118",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936982118",
+    "tinyui": "/x/ZgB0cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

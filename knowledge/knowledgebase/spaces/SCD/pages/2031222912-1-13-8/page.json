@@ -1,0 +1,130 @@
+{
+  "id": "2031222912",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2031222912",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMTIyMjkxMg==",
+  "status": "current",
+  "title": "1.13.8",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T22:23:50.525Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "8",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2031222912.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2031222912"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031222912/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released\u00a010/23/2017 2:16PM CT (19:16 UTC)</p><h2 id=\"id-1.13.8-SupplierSKUImport\">Supplier\u00a0SKU Import</h2><p>We added a new import/export tool for Supplier SKUs so you can manage your Supplier SKUs in batches!</p><h2 id=\"id-1.13.8-TicketStatusQRCode\">Ticket Status QR Code</h2><p>We fixed an issue that would\u00a0prevent QR codes from showing on printed receipts.</p><h2 id=\"id-1.13.8-BackorderingNewSerializedItems\">Backordering New Serialized Items</h2><p>We\u00a0updated the ticket item search logic to allow for backordering new serialized items from a ticket.</p><h2 id=\"id-1.13.8-AccountingJournal-OpenBeta\">Accounting Journal - Open Beta</h2><p>The accounting journal is now in open beta! See\u00a0the <a class=\"external-link\" href=\"https://support.repairq.io/hc/en-us/articles/115000086113-Accounting-Journal-Entries-Overview\" rel=\"nofollow\">Accounting Journal Entries Overview</a>\u00a0for directions on how to use it.</p><p>\u00a0</p><h2 id=\"id-1.13.8-QuickBooksOnlineIntegration-OpenBeta\">QuickBooks Online Integration - Open Beta</h2><p>The QuickBooks Online Integration is now in open beta! See the <a class=\"external-link\" href=\"https://support.repairq.io/hc/en-us/articles/115001256973-Quickbooks-Online-Integration\" rel=\"nofollow\">QuickBooks Online Integration page</a>\u00a0for details on how to get started.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2031222912"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 93995738
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2031222912/child",
+    "restrictions": "/rest/api/content/2031222912/restriction/byOperation",
+    "history": "/rest/api/content/2031222912/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2031222912/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2031222912",
+    "webui": "/spaces/SCD/pages/2031222912/1.13.8",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2031222912",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031222912",
+    "tinyui": "/x/gAASeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

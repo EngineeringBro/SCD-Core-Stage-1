@@ -1,0 +1,130 @@
+{
+  "id": "2036957278",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2036957278",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzNjk1NzI3OA==",
+  "status": "current",
+  "title": "1.18.3",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-27T18:29:07.878Z",
+    "friendlyWhen": "Jul 27, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "8",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2036957278.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2036957278"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036957278/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 04/04/2022 at 11:30pm CT</p><h3 id=\"id-1.18.3-MinorChanges\">Minor Changes</h3><ul><li><p>Improved Square Integration so that it requires logging in with the correct credentials, even if a user was previously logged into Square on that browser session.</p></li><li><p>Improved the Square Integration's UI for clarity, based on client feedback.</p></li><li><p>On the Cash Reconciliation page, separated &quot;payment amount&quot; and &quot;tip amount from&quot; in the Gateway Transactions list, for clarity.</p></li></ul><h3 id=\"id-1.18.3-BugFixes\">Bug Fixes</h3><ul><li><p>For the Square Integration, resolved an issue where the &quot;Tip First&quot; and &quot;Tip Last&quot; options were not working correctly.</p></li><li><p>Fixed an issue where trying to download a Ticket Approval redirected the user to a failure error page.</p></li><li><p>Resolved behavior on internal purchase orders where items rejected on the order would still create unwanted items in &quot;Backordered&quot; status.</p></li><li><p>For certain customers utilizing GSX service programs, implemented multiple bug fixes for the FedEx integration, especially resolving an issue where the RMA Tracking page being filtered for &quot;sent&quot; items caused an Error500.</p></li><li><p>Resolved a problem where clicking the Import Compatibility download button would not do anything.</p></li><li><p>Fixed a bug where uploading Branding Images worked inconsistently.</p></li><li><p>Fixed a bug where replacing Branding Images worked inconsistently.</p></li><li><p>Fixed a bug where In some cases, Catalog Items would not display under the correct category tree in Qsite.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2036957278"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 22
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2036957278/child",
+    "restrictions": "/rest/api/content/2036957278/restriction/byOperation",
+    "history": "/rest/api/content/2036957278/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2036957278/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2036957278",
+    "webui": "/spaces/SCD/pages/2036957278/1.18.3",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2036957278",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036957278",
+    "tinyui": "/x/XoBpeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

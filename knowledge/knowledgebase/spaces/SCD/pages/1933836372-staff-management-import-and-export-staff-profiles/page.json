@@ -1,0 +1,129 @@
+{
+  "id": "1933836372",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933836372",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzgzNjM3Mg==",
+  "status": "current",
+  "title": "Staff Management: Import and Export Staff Profiles",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:47.412Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 16,
+    "minorEdit": false,
+    "ncsStepVersion": "230",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933836372.65",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933836372"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933836372/version/16"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Importing staff is an efficient way to add or edit staff members in bulk, saving time and reducing manual entry. Import capabilities are restricted to users with Admin and Manager roles. This ensures that only authorized personnel handle critical data operations, maintaining data integrity and security.</p><p>RepairQ accepts Excel (.xlsx), Comma-Separated Values (.csv), and Tab-Separated Values (.txt). We recommend using .xlsx files for the best upload experience.</p><p><strong>Note</strong>: When importing staff updates, any user updated with this import process will have their password reset, so notify the staff members after completing the import.</p><h3 id=\"StaffManagement:ImportandExportStaffProfiles-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933377786\" rel=\"nofollow\">RepairQ Data Import Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929379890\" rel=\"nofollow\">Staff Management: Add and Deactivate Staff Profiles</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936785488\" rel=\"nofollow\">Staff Management Resources (with Video)</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921099\" rel=\"nofollow\">Getting Started: Login and User Profile Management</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2024734723\" rel=\"nofollow\">Staff Management Settings</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921152\" rel=\"nofollow\">Staff Management: Roles and Permissions</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836372/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"StaffManagement:ImportandExportStaffProfiles-DownloadtheStaffImportTemplate\">Download the Staff Import Template</h2><p /><p>On the Navigation Bar, go to <strong>Staff </strong>\u2192 <strong>View Staff</strong>. At the bottom of the Staff List, click <strong>Download Import Template</strong> to download an Excel file with your staff members.</p><p><strong>Note</strong>: The information on the import template will reflect your filtered list of active users.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Staff 2.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836372/Import%20Staff%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Staff 3.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836372/Import%20Staff%203.png?api=v2\"></span><hr/><h2 id=\"StaffManagement:ImportandExportStaffProfiles-StaffImportTemplate\">Staff Import Template</h2><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Staff 4.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836372/Import%20Staff%204.png?api=v2\"></span><h3 id=\"StaffManagement:ImportandExportStaffProfiles-NewStaffRecords\">New Staff Records</h3><p>Imports are matched by the column name when creating or updating users. Any unrecognized column headers will be ignored. If no matches are found for a record in your import file, RepairQ will create a new staff record from the import row.</p><p><strong>Note</strong>: After importing your staff list, have your staff members use the Password Reset feature on the login screen to assign a new PIN/Passcode. Alternatively, a manager or an admin can reset their password manually by editing their staff record.</p><h4 id=\"StaffManagement:ImportandExportStaffProfiles-RequiredFields\">Required Fields</h4><ul><li><p><strong>First Name </strong>- The first name of the staff member/user</p></li><li><p><strong>Last Name </strong>- The last name of the staff member/user</p></li><li><p><strong>Email </strong>- The contact email address of the user</p></li><li><p><strong>Username </strong>- A unique identifier used to access the environment</p></li></ul><h4 id=\"StaffManagement:ImportandExportStaffProfiles-RecommendedOptionalFields\">Recommended Optional Fields</h4><p>The following fields are not required to create a new staff member, however, leaving these blank will require updates to the user profile before they can successfully log into the environment:</p><ul><li><p><strong>Active </strong>- (yes/no) This will determine whether the user is active or inactive in the environment. Inactive staff profiles are hidden and are retrieved by filtering your Staff List for Inactive users.</p></li><li><p><strong>IPs </strong>- A trusted list of IP addresses allowed to access the environment. This helps to keep the system secure by blocking access from unknown, unauthorized, or potentially harmful IP addresses.</p><ul><li><p>Trusted IP data is recognized in \u201cName:IP Address\u201d format. For example, \u201cWhitelist Name:8.8.8.8\u201d</p></li><li><p>To enable access from any location, use \u201cAnywhere:*.*.*.*\u201d</p></li></ul></li><li><p><strong>Role Type </strong>- There are three levels of staff access in your environment.</p><ul><li><p> User - Default access to locations with an assigned role for basic operations, customers, inventory, and tickets. Restricts the user from administrative access.</p></li><li><p>Admin - Full permission for all Company and Location settings, operations, permissions, and data.</p></li><li><p>Accountant - Read-only access at all locations for viewing tickets and standard reports, with report export access.</p></li></ul></li><li><p><strong>Location Roles </strong>- Assign location-based roles for the user. These include store operations, store settings, and store-level decision-making.</p><ul><li><p>Roles are recognized in \u201cLocation Short Name:Role\u201d format. If assigning multiple roles for the same location, they are comma-separated, with no spaces.</p><ul><li><p>Single Location, Single Role - \u201cRepairQ Tulsa:assistant_manager\u201d</p></li><li><p>Single Location, Multiple Roles - \u201cRepairQ Tulsa:billing_manager,sales_manager\u201d</p></li></ul></li><li><p> If a user has roles at multiple locations, these are separated by the pipe symbol ( | ) with no spaces.</p><ul><li><p>Multiple Locations, Single Role - \u201cRepairQ Tulsa:billing_manager|RepairQ Bville:billing_manager\u201d</p></li><li><p>Multiple Locations, Multiple Roles - \u201cRepairQ Tulsa:billing_manager,sales_manager|RepairQ Bville:billing_manager,sales_manager\u201d</p></li></ul></li><li><p>For a detailed list of responsibilities for each role, see <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921152\" rel=\"nofollow\">Roles and Permissions</a>.</p><ul><li><p>Invoicing = billing_manager</p></li><li><p>Technician = technical_manager</p></li><li><p>Sales = sales_manager</p></li><li><p>Shift Lead = shift_lead</p></li><li><p>Inventory Manager = inventory_manager</p></li><li><p>Manager = assistant_manager</p></li><li><p>Location Admin = manager</p></li></ul></li></ul></li></ul><h4 id=\"StaffManagement:ImportandExportStaffProfiles-OptionalFields\">Optional Fields</h4><p>These fields are optional, but filling them out will assign preferred contact methods, set discount limits, and manage timecards and labor costs.</p><ul><li><p><strong>Contact Method </strong>- The user\u2019s preferred contact method</p></li><li><p><strong>Primary Phone </strong>- The user\u2019s primary phone number</p></li><li><p><strong>Alternate Phone </strong>- The user\u2019s alternate phone number</p></li><li><p><strong>SMS Phone </strong>- The user\u2019s mobile number (required for automated notifications)</p></li><li><p><strong>SMS Carrier </strong>- The user\u2019s mobile carrier (required for automated notifications)</p><ul><li><p>Carrier assignments are managed in <strong>Company Settings </strong>\u2192 <strong>Catalog </strong>\u2192 <strong>Carriers</strong>.</p></li></ul></li><li><p><strong>Hourly Pay Rate </strong>- This is used for tracking labor in your Profitability Reports. (no symbol required)</p></li><li><p><strong>Discount</strong> <strong>Limit Type </strong>- (\u201camount\u201d or \u201cpercentage\u201d) Set a discount limit based on a set amount or percentage. </p></li><li><p><strong>Discount Limit</strong>: 0-100 - Assign a numerical amount based on the Limit Type. (no symbol required)</p></li><li><p><strong>Timesheet Required </strong>- (yes/no) Choose whether the user must clock in to record hours worked.</p></li></ul><h3 id=\"StaffManagement:ImportandExportStaffProfiles-UpdateStaffRecords\">Update Staff Records</h3><p>If a record in your import file matches an existing record, it will be updated with the new data from your spreadsheet. The following fields identify matches for your records:</p><ul><li><p>Username</p></li><li><p>Email</p></li></ul><hr/><h2 id=\"StaffManagement:ImportandExportStaffProfiles-ImporttheStaffTemplate\">Import the Staff Template</h2><p>When ready to\u00a0upload your import,\u00a0navigate to <strong>Staff </strong>\u2192 <strong>View Staff</strong>. At the bottom of the Staff List, click <strong>Choose File </strong>and select your file from the file explorer. Next, click <strong>Import</strong>.\u00a0RepairQ will begin processing your import file. You will be notified via email when the import is complete, and you can check the Import Queue for any additional details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Staff 5.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836372/Import%20Staff%205.png?api=v2\"></span><h2 id=\"StaffManagement:ImportandExportStaffProfiles-ImportRules\">Import Rules</h2><p>Columns are matched on the header name, so you must have the correct header names (provided in the template) to import the column values successfully. Any unrecognized column headers will be ignored; only the values you wish to add or update need to be present in the import file. If no matches are found for a record in your import file, RepairQ will create a new User Profile record from the import row.</p><hr/><h2 id=\"StaffManagement:ImportandExportStaffProfiles-ExportingStaffLists\">Exporting Staff Lists</h2><p>You can export a list of Staff members for your records or to make changes to staff in bulk.</p><p>On the Navigation Bar, go to <strong>Staff </strong>\u2192 <strong>View</strong> <strong>Staff</strong>. Use the filters on the left column to narrow the list based on your requirements (Name, Location, Status, User Type, Role), then click <strong>Apply Results</strong>. If you are satisfied with the results on the list, click <strong>Download Import Template</strong> at the bottom of the page. The file will include all the information based on your filtered results.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Staff 6.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836372/Import%20Staff%206.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933836372"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933836372/child",
+    "restrictions": "/rest/api/content/1933836372/restriction/byOperation",
+    "history": "/rest/api/content/1933836372/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933836372/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933836372",
+    "webui": "/spaces/SCD/pages/1933836372/Staff+Management+Import+and+Export+Staff+Profiles",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933836372",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933836372",
+    "tinyui": "/x/VABEcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

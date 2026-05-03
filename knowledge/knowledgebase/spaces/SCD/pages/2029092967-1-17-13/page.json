@@ -1,0 +1,130 @@
+{
+  "id": "2029092967",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029092967",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTA5Mjk2Nw==",
+  "status": "current",
+  "title": "1.17.13",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T17:28:02.906Z",
+    "friendlyWhen": "Jul 19, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "78",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029092967.18",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029092967"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029092967/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>1.17.13 is a minor update including some small features and bug fixes.</p><p>11:30 CT on September 28, 2020</p><h3 id=\"id-1.17.13-BugFixesandImprovements\">Bug Fixes and Improvements</h3><ul><li><p>Invoice Creation</p><ul><li><p>Fixed display of device serial and description - During the first step of creating an invoice, the columns for device description and serial number were blank. We fixed this so that now you will see the device description and serial number. This will help you confirm that you are creating invoices for the correct device(s).</p></li><li><p>Fixed an issue with filter on invoice creation - When filtering invoices through the end of a month, invoices for the last day of the month were being excluded. This has been fixed so that invoices from the last day of the month are included.</p></li></ul></li><li><p>Integrated Payments</p><ul><li><p>Fixed a duplicate record error - In some cases, a record of a credit card transaction was duplicated, leading users to believe a credit card might have been charged (or refunded) multiple times for the same transaction. We added additional measures to prevent duplicate records from being created for a single transaction.</p></li></ul></li><li><p>Refurb tickets\u00a0</p><ul><li><p>Refurb tickets were getting stuck in an open status in some cases. We fixed the issue so that you can no longer stock the refurb item into inventory without also closing the refurb ticket.</p></li></ul></li><li><p>App Performance</p><ul><li><p>We reduced the time it takes to load a number of pages throughout the app.</p></li></ul></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029092967"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 479079667
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029092967/child",
+    "restrictions": "/rest/api/content/2029092967/restriction/byOperation",
+    "history": "/rest/api/content/2029092967/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029092967/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029092967",
+    "webui": "/spaces/SCD/pages/2029092967/1.17.13",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029092967",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029092967",
+    "tinyui": "/x/Z4Dxe",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

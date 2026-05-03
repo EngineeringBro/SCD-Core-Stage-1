@@ -1,0 +1,129 @@
+{
+  "id": "1933377703",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933377703",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzM3NzcwMw==",
+  "status": "current",
+  "title": "Creating Warranties and Disclaimers",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:14.726Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933377703.22",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933377703"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933377703/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"CreatingWarrantiesandDisclaimers-UsingWarranties/DisclaimersinRepairQ\">Using Warranties/Disclaimers in RepairQ</h2><p>Warranties and Disclaimers are the best way to communicate the scope of rights and responsibilities of your business to a customer on their receipts.</p><p>There are two types of Warranties/Disclaimers that can be created in RepairQ: Global and Item Type. Warranties/Disclaimers will be attached to tickets when an item is added to the ticket that matches the item type/manufacturer specified in the disclaimer settings. If no item type or catalog item is set, it will be attached as a global warranty.</p><h3 id=\"CreatingWarrantiesandDisclaimers-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361958/Print+Settings+-+Receipt+Template\" data-linked-resource-id=\"1932361958\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Print Settings - Receipts</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377703/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CreatingWarrantiesandDisclaimers-CreatingaNewWarranty/Disclaimer\">Creating a New Warranty/Disclaimer</h2><p /><p>1. Log into RepairQ as an Admin. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377703/Warranty%201.png?api=v2\"></span><p /><p><strong>Note</strong>: A Location Admin can add a Warranty/Disclaimer by navigating to <strong>Location Settings</strong>.</p><p /><p>2. On the Settings Overview page, click <strong>Tickets</strong> on the left column of categories. From the expanded dropdown selection, click <strong>Warranty/Disclaimer</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377703/Warranty%202.png?api=v2\"></span><p /><p>3. On the Warranties/Disclaimers page, click <strong>Add Warranty</strong> on the right side.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377703/Warranty%203.png?api=v2\"></span><p /><p>4. Fill out the Warranty/Disclaimer form, based on your preference. Once you are satisfied with your selections, click <strong>Save</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377703/Warranty%204.png?api=v2\"></span><ul><li><p><strong>Location</strong> - Select whether the disclaimer will be assigned to all locations or a specific location.</p></li><li><p><strong>Ticket Types</strong> - Assign which Ticket Types will have this disclaimer attached.</p></li><li><p><strong>Item Type</strong> - Select whether this disclaimer will be assigned to all types or to a specific Item Type.</p><ul><li><p><strong>Apply To All</strong> - This will apply as a <a href=\"#Global\" rel=\"nofollow\">Global Warranty/Disclaimer</a>.</p></li><li><p><strong>Item Type Selected</strong> - This will apply as an<a href=\"#Item\" rel=\"nofollow\"> Item Type Warranty/Disclaimer</a>.</p><ul><li><p><strong>Manufacturers</strong> - If an Item Type is selected, you can also select which manufacturer(s) will have this disclaimer applied to them.</p></li></ul></li></ul></li><li><p><strong>Warranty Text</strong> - This is the content of your warranty/disclaimer. This information is defined by the user/company. Include any details regarding your policies that you would like to communicate to your customer.</p></li><li><p><strong>Priority</strong> - Assign a number, beginning at zero, to rearrange the order of disclaimers on the overview list. A lower number will seat higher on the overview list.</p></li></ul><p /><p>5. When viewing your list of Warranties/Disclaimers, they can be edited or deleted by using the buttons under the Actions column, respectively.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377703/Warranty%208.png?api=v2\"></span><h3 id=\"CreatingWarrantiesandDisclaimers-ItemItemTypeWarranty/DisclaimerExample\"><span class=\"confluence-anchor-link\" id=\"CreatingWarrantiesandDisclaimers-Item\"><span class=\"confluence-anchor-link\" id=\"Item\"></span></span>Item Type Warranty/Disclaimer Example</h3><p>Item Type Warranties are set by selecting a specific Item Type. All Catalog Items with this assigned Item Type will have this disclaimer attached. You can also apply a disclaimer based on the manufacturer of the product.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377703/Warranty%206.png?api=v2\"></span><h3 id=\"CreatingWarrantiesandDisclaimers-GlobalGlobalWarranty/DisclaimerExample\"><span class=\"confluence-anchor-link\" id=\"CreatingWarrantiesandDisclaimers-Global\"><span class=\"confluence-anchor-link\" id=\"Global\"></span></span>Global Warranty/Disclaimer Example</h3><p>Global Warranties are set by selecting the field for Item Type: Apply To All.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377703/Warranty%207.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933377703"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933377703/child",
+    "restrictions": "/rest/api/content/1933377703/restriction/byOperation",
+    "history": "/rest/api/content/1933377703/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933377703/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933377703",
+    "webui": "/spaces/SCD/pages/1933377703/Creating+Warranties+and+Disclaimers",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933377703",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933377703",
+    "tinyui": "/x/pwA9cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

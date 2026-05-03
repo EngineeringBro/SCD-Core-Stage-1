@@ -1,0 +1,130 @@
+{
+  "id": "2030698670",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030698670",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDY5ODY3MA==",
+  "status": "current",
+  "title": "1.12.3",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-21T18:34:47.158Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "7",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030698670.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030698670"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698670/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 04/10/17 12:38PM CT (17:38 UTC)</p><h2 id=\"id-1.12.3-QpopRequestsWhenDisconnected\">Qpop\u00a0Requests When\u00a0Disconnected</h2><p>When your Qpop companion is offline and you try to send a payment signature request or a custom form request, RepairQ will respond with a more helpful status window.</p><h2 id=\"id-1.12.3-QpopPairing&amp;ConnectivityImprovements\">Qpop Pairing &amp; Connectivity Improvements</h2><p>Both Qpop and RepairQ terminals will handle disconnections more gracefully, automatically re-establishing a connection when possible and retaining pairing with more reliability.</p><h2 id=\"id-1.12.3-iOSQpopapp\">iOS Qpop app</h2><p>When running Qpop as an app (instead of in the browser), clicking the cancel button on payment signatures or custom forms\u00a0would open the page in Safari instead of inside the Qpop app screen. This has been fixed.</p><h2 id=\"id-1.12.3-QpopCustomForms\">Qpop\u00a0Custom Forms</h2><p>We increased the portion of the screen\u00a0that displays\u00a0custom form &amp; waiver content.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030698670"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 312703985
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030698670/child",
+    "restrictions": "/rest/api/content/2030698670/restriction/byOperation",
+    "history": "/rest/api/content/2030698670/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030698670/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030698670",
+    "webui": "/spaces/SCD/pages/2030698670/1.12.3",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030698670",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698670",
+    "tinyui": "/x/rgAKeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

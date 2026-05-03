@@ -1,0 +1,129 @@
+{
+  "id": "3351805970",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/3351805970",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMzM1MTgwNTk3MA==",
+  "status": "current",
+  "title": "Login Troubleshooting",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:16.905Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "666",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$3351805970.35",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/3351805970"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3351805970/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>A recent RepairQ update reworks its browser cookie logic.  Because of this, some browsers may experience a loop when attempting to login.  To fix this, the old cookie needs to be deleted so a new one can generate.</p><p /><h2 id=\"LoginTroubleshooting-\ud83c\udf6aHowtoDeleteaSpecificCookiefromaWebsite\">\ud83c\udf6a How to Delete a Specific Cookie from a Website</h2><p>Use the steps below to delete a cookie <strong>just for one site</strong> (not all cookies).</p><h3 id=\"LoginTroubleshooting-\ud83d\udd35GoogleChrome\">\ud83d\udd35 Google Chrome</h3><ol start=\"1\"><li><p><strong>Open Chrome</strong> and go to the website.</p></li><li><p>Click the <strong>icon(lock or two lines with circles)</strong> to the <strong>left of the URL bar</strong>.</p></li><li><p>Click <strong>&quot;Cookies and site data&quot;</strong>.</p></li><li><p>In the popup, click <strong>&quot;Manage on-site device data\u201d</strong>.</p></li><li><p>You\u2019ll see a list of cookies grouped by domain.</p></li><li><p>Find repairq.io</p></li><li><p>Click <strong>&quot;Remove&quot;</strong> or the trash can icon.</p></li><li><p>Refresh the page to apply the change.</p></li></ol><p /><h3 id=\"LoginTroubleshooting-\ud83d\udfe3Safari(macOS)\">\ud83d\udfe3 Safari (macOS)</h3><blockquote><p>Safari doesn't have a lock icon with cookie access like Chrome or Edge. You\u2019ll need to go through <strong>Preferences</strong>.</p></blockquote><ol start=\"1\"><li><p>Open <strong>Safari</strong> and go to the website</p></li><li><p>Open <strong>Safari</strong> and go to <strong>Safari \u2192 Settings</strong> (or press <code>Cmd + ,</code>).</p></li><li><p>Click the <strong>&quot;Privacy&quot;</strong> tab.</p></li><li><p>Click <strong>&quot;Manage Website Data...&quot;</strong></p></li><li><p>In the search bar, type <strong>repairq.io</strong>.</p></li><li><p>Select <strong>repairq.io </strong>from the list.</p></li><li><p>Click <strong>&quot;Remove&quot;</strong></p></li><li><p>Click <strong>&quot;Done&quot;</strong>.</p></li><li><p>Refresh the page.</p></li></ol><p /><h3 id=\"LoginTroubleshooting-\ud83d\udd35MicrosoftEdge\">\ud83d\udd35 Microsoft Edge</h3><ol start=\"1\"><li><p>Open <strong>Edge</strong> and navigate to the website.</p></li><li><p>Click the <strong>lock icon</strong> to the <strong>left of the URL bar</strong>.</p></li><li><p>Click <strong>&quot;Cookies and Site Data&quot; </strong>then select <strong>\u201cCookies\u201d</strong>.</p></li><li><p>In the popup, you\u2019ll see a list of websites.</p></li><li><p>Select repairq.io</p></li><li><p>Click <strong>&quot;Remove&quot;</strong> or the trash icon.</p></li><li><p>Click <strong>&quot;Done&quot;</strong>, then refresh the site.</p></li></ol>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/3351805970"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/3351805970/child",
+    "restrictions": "/rest/api/content/3351805970/restriction/byOperation",
+    "history": "/rest/api/content/3351805970/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/3351805970/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=3351805970",
+    "webui": "/spaces/SCD/pages/3351805970/Login+Troubleshooting",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/3351805970",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3351805970",
+    "tinyui": "/x/EoDIxw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

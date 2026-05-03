@@ -1,0 +1,129 @@
+{
+  "id": "1934786770",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934786770",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDc4Njc3MA==",
+  "status": "current",
+  "title": "Integrated Payments: Supported Devices",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:58.609Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "9",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934786770.18",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934786770"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786770/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ offers integrated payment processing through <a class=\"external-link\" href=\"https://www.bluefinpartner.com/repairq/\" rel=\"nofollow\">Bluefin Payment Systems,</a> <a class=\"external-link\" href=\"https://www.heartlandpaymentsystems.com/\" rel=\"nofollow\">Heartland Payment Systems</a>, and <a class=\"external-link\" href=\"https://squareup.com/signup?country_code=us&amp;signup_token=5193B6FB67\" rel=\"nofollow\">Square</a>. Bluefin and Heartland integration is currently available for customers in the United States, and Square is available in the United States and Canada.</p><p>RepairQ supports Europay, MasterCard, Visa (<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917825/EMV+Frequently+Asked+Questions+-+FAQ\" data-linked-resource-id=\"1934917825\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">EMV</a>), and Point-to-Point Encryption (<a class=\"external-link\" href=\"https://www.bluefin.com/products/p2pe-point-to-point-encryption/\" rel=\"nofollow\">P2PE</a>) payment processing for secure and reliable payment processing. For an introduction to integrated payments, additional resources, and tutorials, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">start here</a>!</p><p><strong>Note:\u00a0</strong>For payment processing with Bluefin or Heartland, you must order and receive your payment terminals directly from our partner. Each device is injected with a key at their provisioning facility and arrives at your location with tamper seals to protect you from insecure or tampered devices. Square Terminal can be purchased from Square, <a class=\"external-link\" href=\"https://squareup.com/shop/hardware/us/en/products/terminal-credit-card-machine\" rel=\"nofollow\">here</a>, or purchased through an authorized retailer.</p><h3 id=\"IntegratedPayments:SupportedDevices-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917825/EMV+Frequently+Asked+Questions+-+FAQ\" data-linked-resource-id=\"1934917825\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">EMV Frequently Asked Questions - FAQ</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786770/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"IntegratedPayments:SupportedDevices-SupportedBluefinDevices\">Supported Bluefin Devices</h2><h3 id=\"IntegratedPayments:SupportedDevices-PAXS300\">PAX S300</h3><p>This device has the ability to read EMV chip cards, NFC, and magnetic strips, and it has a keypad for keyed entry. It is both EMV and P2PE enabled. This device must be connected to the internet, and your point of sale terminal must be able to connect to it over your local network. You must connect it with an ethernet cable to your network. We recommend that you use a wired connection to your router without a network switch.</p><h3 id=\"IntegratedPayments:SupportedDevices-PAXD210\">PAX D210</h3><p>This device has the ability to read EMV chip cards, NFC, and magnetic strips, and it has a keypad for keyed entry. It is both EMV and P2PE enabled. This device must be connected to your 2.4 GHz WiFi network, and your point of sale terminal must be connected to your local network.</p><h3 id=\"IntegratedPayments:SupportedDevices-PAXA80/A920\">PAX A80/A920</h3><p>This Android device has the ability to read EMV chip cards, NFC, and magnetic strips, and it has a touch screen for keyed entry. It is both EMV and P2PE enabled. This device can be connected to your 2.4 GHz WiFi network, and your point of sale terminal must be connected to your local network. We recommend that you use a wired connection to your router without a network switch.</p><h3 id=\"IntegratedPayments:SupportedDevices-IDTECHSREDKey\">IDTECH SREDKey</h3><p>This device has the ability to read magnetic strips, and it has a keypad for keyed entry. It is P2PE enabled. This device connects to your point-of-sale terminal via a USB port.</p><h3 id=\"IntegratedPayments:SupportedDevices-IDTECHM130\">IDTECH M130</h3><p>This device has the ability to read magnetic strips, and it has a keypad for keyed entry. It is P2PE enabled. This device connects to your point-of-sale terminal via a USB port.</p><h2 id=\"IntegratedPayments:SupportedDevices-SupportedHeartlandDevices\">Supported Heartland Devices</h2><h3 id=\"IntegratedPayments:SupportedDevices-PAXS300.1\">PAX S300</h3><p>This device has the ability to read EMV chip cards, NFC, and magnetic strips, and it has a keypad for keyed entry. It is both EMV and P2PE enabled. This device must be connected to the internet, and your point of sale terminal must be able to connect to it over your local network. You must connect it with an ethernet cable to your network. We recommend that you use a wired connection to your router without a network switch.</p><h2 id=\"IntegratedPayments:SupportedDevices-SupportedSquareDevices\">Supported Square Devices</h2><h3 id=\"IntegratedPayments:SupportedDevices-SquareTerminal(A-SKU-0584)\">Square Terminal (A-SKU-0584)</h3><p>This device has the ability to read EMV chip cards, NFC, and magnetic strips, and it has a touch screen for keyed entry. It is both EMV and P2PE enabled. This device must be connected to your 2.4 GHz WiFi network, and your point of sale terminal must be connected to your local network.</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934786770"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934786770/child",
+    "restrictions": "/rest/api/content/1934786770/restriction/byOperation",
+    "history": "/rest/api/content/1934786770/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934786770/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934786770",
+    "webui": "/spaces/SCD/pages/1934786770/Integrated+Payments+Supported+Devices",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934786770",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786770",
+    "tinyui": "/x/0oBScw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

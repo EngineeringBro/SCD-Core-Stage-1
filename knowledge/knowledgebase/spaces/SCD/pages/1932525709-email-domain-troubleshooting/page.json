@@ -1,0 +1,129 @@
+{
+  "id": "1932525709",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932525709",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjUyNTcwOQ==",
+  "status": "current",
+  "title": "Email Domain Troubleshooting",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:31.180Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "299",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932525709.27",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932525709"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932525709/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>To send emails from your own domain using RepairQ software, you'll need to update the DNS settings in your email server to authorize email sending, as well as verify your email address through our outgoing mail server, (Mailchimp). Once verified, you can configure our application\u2019s Email Settings to specify the &quot;From&quot; email address and set the Location name that will appear as the sender. The information below includes required DNS details and basic troubleshooting resources.</p><h3 id=\"EmailDomainTroubleshooting-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932460196/Send+Notification+Emails+From+Your+Domain\" data-linked-resource-id=\"1932460196\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Sending Notification Emails From Your Domain</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notification Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://mailchimp.com/help/verify-a-domain/\" rel=\"nofollow\">Mailchimp - Verify an Email Domain</a> (external resource article)</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Technical - 124a6d.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525709/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"EmailDomainTroubleshooting-DNSProviders\">DNS Providers</h2><p>To help you quickly configure DNS settings, we've included links to DNS management guides for several popular hosting and DNS providers.</p><p>Follow the links below to access step-by-step instructions for each platform. If your hosting provider isn't listed here, look for similar DNS management settings in your account. Most providers offer support resources that guide you through accessing and updating DNS records. Search for &quot;[Provider Name] DNS Management&quot; for more information.</p><div class=\"table-wrap\"><table data-table-width=\"760\" data-layout=\"default\" data-local-id=\"b636d22a-50eb-476e-bb26-5017c29639bc\" class=\"confluenceTable\"><tbody><tr><th class=\"confluenceTh\"><p>Provider</p></th><th class=\"confluenceTh\"><p>Links</p></th><th class=\"confluenceTh\"><p>Formatting Notes</p></th></tr><tr><td class=\"confluenceTd\"><p><strong>CPanel</strong> (general)</p><p>Many hosting providers offer CPanel to manage your domain. CPanel instructions are often similar among hosts that offer this option.</p></td><td class=\"confluenceTd\"><p><a class=\"external-link\" href=\"https://my.bluehost.com/cgi/help/559\" rel=\"nofollow\">Bluehost</a></p><p><a class=\"external-link\" href=\"http://support.godaddy.com/help/article/4597/setup-dns-using-cpanel\" rel=\"nofollow\">GoDaddy</a></p></td><td class=\"confluenceTd\"><p>DKIM record typically escaped automatically.</p><p>The 'name' of your DKIM record should be</p><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">mandrill._domainkey.yourdomain.com</pre>\n</div></div><p>where <em>yourdomain.com</em> is replaced by the domain name where you're adding the record. Most hosts that utilize cPanel don't automatically add the domain name to the end of the record name.</p></td></tr><tr><td class=\"confluenceTd\"><p>Amazon Route 53</p></td><td class=\"confluenceTd\"><p><a class=\"external-link\" href=\"http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/rrsets-working-with.html\" rel=\"nofollow\">Route 53 console</a></p><p><a class=\"external-link\" href=\"http://docs.aws.amazon.com/Route53/latest/APIReference/API_ChangeResourceRecordSets.html\" rel=\"nofollow\">Route 53 API</a></p></td><td class=\"confluenceTd\"><p /></td></tr><tr><td class=\"confluenceTd\"><p>CloudFlare</p></td><td class=\"confluenceTd\"><p><a class=\"external-link\" href=\"http://support.cloudflare.com/kb/adding-sites-cloudflare/how-do-i-add-a-spf-record\" rel=\"nofollow\">SPF records</a></p><p><a class=\"external-link\" href=\"http://support.cloudflare.com/kb/adding-sites-cloudflare/how-do-i-add-dkim-records\" rel=\"nofollow\">DKIM records</a></p></td><td class=\"confluenceTd\"><p>DKIM record escaped automatically.</p></td></tr><tr><td class=\"confluenceTd\"><p>DNS Made Easy</p></td><td class=\"confluenceTd\"><p><a class=\"external-link\" href=\"http://help.dnsmadeeasy.com/spry_menu/txt-record/\" rel=\"nofollow\">DNS Made Easy</a></p></td><td class=\"confluenceTd\"><p>The 'Value' field where you enter the content for each record must be enclosed in quotes.</p></td></tr><tr><td class=\"confluenceTd\"><p>DreamHost</p></td><td class=\"confluenceTd\"><p><a class=\"external-link\" href=\"http://wiki.dreamhost.com/Custom_DNS\" rel=\"nofollow\">DreamHost</a></p></td><td class=\"confluenceTd\"><p /></td></tr><tr><td class=\"confluenceTd\"><p>DynDNS</p></td><td class=\"confluenceTd\"><p><a class=\"external-link\" href=\"http://dyn.com/support/record-types-standard-dns/\" rel=\"nofollow\">DynDNS</a></p></td><td class=\"confluenceTd\"><p>The 'data' field where you enter the value for each record must be enclosed in double-quotes.</p></td></tr><tr><td class=\"confluenceTd\"><p>GoDaddy</p></td><td class=\"confluenceTd\"><p><a class=\"external-link\" href=\"http://support.godaddy.com/help/article/198/setting-up-dns-with-your-parallels-plesk-panel-9-server-and-domain-with-us\" rel=\"nofollow\">Plesk Panel 9</a></p><p><a class=\"external-link\" href=\"http://support.godaddy.com/help/article/6891/setting-up-dns-with-your-parallels-plesk-panel-10-server-and-domain-with-us\" rel=\"nofollow\">Plesk Panel 10</a></p></td><td class=\"confluenceTd\"><p /></td></tr><tr><td class=\"confluenceTd\"><p>Hover</p></td><td class=\"confluenceTd\"><p><a class=\"external-link\" href=\"https://help.hover.com/entries/21204757-how-to-edit-dns-records-a-cname-mx-txt-and-srv\" rel=\"nofollow\">Hover</a></p></td><td class=\"confluenceTd\"><p /></td></tr><tr><td class=\"confluenceTd\"><p>ZoneEdit</p></td><td class=\"confluenceTd\"><p><a class=\"external-link\" href=\"https://dotster.secure.force.com/zoneeditpkb/KnowledgeArticleDetail?Id=kA260000000CbYd&amp;articleType=How_To__kav\" rel=\"nofollow\">ZoneEdit</a></p></td><td class=\"confluenceTd\"><p /></td></tr></tbody></table></div><p>If your host or DNS provider isn't listed above, consult their customer support or help documentation for detailed guidance. Since each provider may have unique steps for adding or editing DNS records, their technical support or resources will be the best source for information on any provider-specific requirements or formatting guidelines.</p><h2 id=\"EmailDomainTroubleshooting-ValidateYourDNSRecordsforEmailAuthentication\">Validate Your DNS Records for Email Authentication</h2><p>After adding the required DNS records, please allow up to 24 hours for the changes to fully take effect. If you encounter any issues with record validation, you can view detailed error messages in Mandrill for more information. Additionally, you may use third-party resources to verify your records or obtain further insights if needed:</p><ul><li><p><strong>MXToolbox</strong> (<a class=\"external-link\" href=\"https://mxtoolbox.com/\" rel=\"nofollow\">mxtoolbox.com</a>)<br/>MXToolbox offers tools for checking DNS, MX, SPF, and other records to help identify issues quickly.</p></li><li><p><strong>DNS Checker</strong> (<a class=\"external-link\" href=\"https://dnschecker.org/\" rel=\"nofollow\">dnschecker.org</a>)<br/>DNS Checker allows you to verify DNS record propagation across multiple global locations, which is useful to ensure records are correctly updated worldwide.</p></li><li><p><strong>Google Admin Toolbox Dig</strong> (<a class=\"external-link\" href=\"http://toolbox.googleapps.com\" rel=\"nofollow\">toolbox.googleapps.com</a>)<br/>This Google tool provides a straightforward interface to look up DNS records and confirm they are set up correctly.</p></li><li><p><strong>SPF Validator </strong>(<a class=\"external-link\" href=\"http://www.kitterman.com/spf/validate.html\" rel=\"nofollow\">http://www.kitterman.com/spf/validate.html</a>)<br/>Use the SPF Validator to check if your SPF records are properly configured. Enter your domain name in the first text box and click <em>Get SPF Record</em> to view a diagnostic of your SPF setup. The validator will search for a TXT record with the required SPF information. If your domain has an &quot;SPF&quot; type record, consider adding a matching &quot;TXT&quot; record for broader compatibility.</p><ul><li><p>If you already have an SPF record, edit the existing one instead of adding a new one, as the SPF specification requires only one TXT record containing SPF information for each domain.</p></li></ul></li><li><p><strong>DKIMCore Validator</strong> (<a class=\"external-link\" href=\"http://dkimcore.org/tools/keycheck.html\" rel=\"nofollow\">http://dkimcore.org/tools/keycheck.html</a>)<br/>To check the validity of your DKIM record, use the DKIMCore Validator. Enter \u201cmandrill\u201d as the selector and your domain name in the designated fields. This tool will confirm that your DKIM record is correctly configured for secure email delivery.</p></li></ul><h2 id=\"EmailDomainTroubleshooting-DKIMRecordFormattingIssues\">DKIM Record Formatting Issues</h2><p>If you've added the DKIM record but still receive an error indicating that it\u2019s missing, your DNS provider may require a different formatting. The DKIM record provided by Mandrill includes semicolons that are escaped with a backslash. For example, the record will start like this:</p><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\"> v=DKIM1\\; k=rsa\\; p=...</pre>\n</div></div><p>and ends like this:</p><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\"> \\;</pre>\n</div></div><ul><li><p><code>v=DKIM1\\;</code> specifies the version.</p></li><li><p><code>k=rsa\\;</code> indicates the key type, which is usually RSA.</p></li><li><p><code>p=</code> followed by a long alphanumeric string is the public key itself, which can be hundreds of characters long and typically ends with the final character of that key.</p></li></ul><p /><p>If you've added the DKIM record but it\u2019s still showing as missing or invalid, here are a few things to check:</p><ul><li><p><strong>Backslash and Semicolon Formatting</strong><br/>Some DNS providers don\u2019t require semicolons to be escaped with a backslash. If you\u2019re experiencing issues, try removing the backslashes directly before the semicolons at the beginning and end of the DKIM record. This adjustment can help make the record compatible with your provider's formatting requirements.</p></li><li><p><strong>Publishing and Propagation Times</strong><br/>Keep in mind that DNS providers vary in how quickly they publish and push updates. New records often validate within 10-15 minutes, while changes to existing records can take longer, depending on the provider and the TTL (Time To Live) set for the record. If validation issues persist, allow additional time for the record to propagate and verify again later.</p></li></ul><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932525709"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932525709/child",
+    "restrictions": "/rest/api/content/1932525709/restriction/byOperation",
+    "history": "/rest/api/content/1932525709/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932525709/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932525709",
+    "webui": "/spaces/SCD/pages/1932525709/Email+Domain+Troubleshooting",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932525709",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932525709",
+    "tinyui": "/x/jQAwcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

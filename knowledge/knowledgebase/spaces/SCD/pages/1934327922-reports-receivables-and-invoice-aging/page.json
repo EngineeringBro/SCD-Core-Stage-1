@@ -1,0 +1,129 @@
+{
+  "id": "1934327922",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934327922",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDMyNzkyMg==",
+  "status": "current",
+  "title": "Reports: Receivables and Invoice Aging",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:58.945Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "75",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934327922.20",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934327922"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934327922/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Receivables report allows you to view any tickets in Waiting for Payment or Invoiced status.</p><p>The Invoice Aging Report lists unpaid invoices by date range and can be used to determine which invoices are overdue for payment.</p><h3 id=\"Reports:ReceivablesandInvoiceAging-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196827/Invoicing+Resources\" data-linked-resource-id=\"1934196827\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196840/Invoicing+Creating+and+Managing+Invoices\" data-linked-resource-id=\"1934196840\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing: Creating and Managing Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934327961/Invoicing+Remittance+and+Reconciling+Invoices\" data-linked-resource-id=\"1934327961\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoicing: Remittance and Reconciling Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934524434/Reports+Pending+Revenue+and+Tickets+Unpaid\" data-linked-resource-id=\"1934524434\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Pending Revenue and Tickets Unpaid</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327922/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Reports:ReceivablesandInvoiceAging-ViewingtheReceivablesReport\">Viewing the Receivables Report</h2><p>1. On the Navigation Bar, go to <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"566\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327922/Receivables%201.png?api=v2\"></span><p /><p>2. On the Reports page, click the <strong>Accounting dropdown</strong> along the top row of report categories. From the available list, click <strong>Receivables</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327922/Receivables%202.png?api=v2\"></span><p /><p>3. Use the available filters to scope results based on the assigned parameters. Once you have set your filters, click <strong>Apply Filters\u00a0</strong>to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327922/Receivables%203.png?api=v2\"></span><ul><li><p><strong>Date Range</strong> - Set a date range based on when the ticket was created.</p></li><li><p><strong>Location</strong> - Select the location(s) for tickets at specific stores.</p></li><li><p><strong>Billing</strong> <strong>Agent</strong> - Select any/all applicable Billing Agents.</p></li><li><p><strong>Invoiced</strong> <strong>Only</strong> - Select this option to limit the report for tickets in Invoiced status.</p></li></ul><p /><p>4. The report will include a summary of the total amount due for unpaid tickets and a detailed list of all tickets with an unpaid balance. Under the Ticket ID column, you can click the link to view the unpaid ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327922/Receivables%206.png?api=v2\"></span><p /><p><strong>Note</strong>: We recommend opening the ticket link in a new tab, so you don't have to run the report multiple times. Be sure to close all extra tabs before making changes in RepairQ.</p><p /><p>5. (Optional) On the upper-right corner of the page, you have the option to <strong>Export to Excel</strong> and <strong>Hide Filters</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327922/Receivables%207.png?api=v2\"></span><h2 id=\"Reports:ReceivablesandInvoiceAging-ViewingtheInvoicingAgingReport\">Viewing the Invoicing Aging Report</h2><p>1. On the Reports page, click on the <strong>Accounting dropdown</strong> along the top row of report categories. From the available list, click <strong>Invoicing Aging</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327922/Receivables%205.png?api=v2\"></span><p /><p>2. The report will list a summary of unpaid amounts grouped by date range. Below the summary, is a list of all Customers/Billing agents including past due amounts, net payments, and their balance due.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327922/Receivables%208.png?api=v2\"></span><p /><p>3. You can click the <strong>Customer/Billing agent name</strong> to view their Account Profile, which includes detailed contact information, linked customers, and more. You can download the report by clicking To Excel at the top right of the page. The download will consist of the information set by your filters.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327922/Receivables%209.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934327922"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934327922/child",
+    "restrictions": "/rest/api/content/1934327922/restriction/byOperation",
+    "history": "/rest/api/content/1934327922/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934327922/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934327922",
+    "webui": "/spaces/SCD/pages/1934327922/Reports+Receivables+and+Invoice+Aging",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934327922",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934327922",
+    "tinyui": "/x/coBLcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

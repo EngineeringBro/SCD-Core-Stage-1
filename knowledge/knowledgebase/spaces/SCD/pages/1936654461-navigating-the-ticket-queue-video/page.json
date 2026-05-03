@@ -1,0 +1,129 @@
+{
+  "id": "1936654461",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936654461",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjY1NDQ2MQ==",
+  "status": "current",
+  "title": "Navigating the Ticket Queue (video)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:30.136Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "84",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936654461.23",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936654461"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936654461/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This video will showcase the Ticket Queue and how to use it, including:</p><ul><li><p>How to filter\u00a0the view: ticket number, customer, device, etc.</p></li><li><p>How to sort the view by column</p></li></ul><a class=\"external-link\" data-card-appearance=\"embed\" data-layout=\"center\" data-original-height=\"480.00\" data-original-width=\"853.34\" data-width=\"100.00\" href=\"https://www.youtube.com/watch?v=mqORS8DMTy4\" rel=\"nofollow\">https://www.youtube.com/watch?v=mqORS8DMTy4</a><h2 id=\"NavigatingtheTicketQueue(video)-AdditionalResources\">Additional Resources</h2><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932754986/List+Views\" data-linked-resource-id=\"1932754986\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">List Views Overview</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525644/List+Filters\" data-linked-resource-id=\"1932525644\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">List Filters</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656694/Saving+and+Sharing+Custom+List+Views\" data-linked-resource-id=\"1932656694\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Saving and Sharing Custom List Views</a></p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936654461"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936654461/child",
+    "restrictions": "/rest/api/content/1936654461/restriction/byOperation",
+    "history": "/rest/api/content/1936654461/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936654461/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936654461",
+    "webui": "/spaces/SCD/pages/1936654461/Navigating+the+Ticket+Queue+video",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936654461",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936654461",
+    "tinyui": "/x/fQBvcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "2031386631",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2031386631",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMTM4NjYzMQ==",
+  "status": "current",
+  "title": "1.12.8",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-21T18:45:23.307Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "6",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2031386631.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2031386631"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031386631/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 05/16/2017 11:22 CT (16:22 UTC)</p><h2 id=\"id-1.12.8-TicketLabels\">Ticket Labels</h2><p>The diagnostic notes section on ticket labels was printing with too much whitespace for line breaks. This has been resolved.</p><p>In addition, for automated prints, a small gray line appeared at the bottom of printed labels; the small gray line has been removed.</p><h2 id=\"id-1.12.8-SuccessMessageStyling\">Success Message Styling</h2><p>The color for success messages has been\u00a0changed to be less... glaring. The new color is as pictured below:</p><h2 id=\"id-1.12.8-PAXdevicepaymentprocessing-recoveringfromnetworkconnectionfailures\">PAX device payment processing - recovering from network connection failures</h2><p>If your network connection fails between the PAX\u00a0device and the RepairQ terminal <em>while</em> processing a payment,\u00a0RepairQ may not receive the payment details from the device. In this scenario you could have a payment processed that RepairQ does not receive, and therefore is unable to\u00a0save\u00a0on the ticket.</p><p>With\u00a0this update we added a new process\u00a0that\u00a0automatically recovers from intermittent connection failures. When a network connection failure occurs, RepairQ\u00a0will still fetch\u00a0the processed payment and save it on the ticket (provided network connection is re-established while you are still working with the ticket).</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2031386631"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 312704525
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2031386631/child",
+    "restrictions": "/rest/api/content/2031386631/restriction/byOperation",
+    "history": "/rest/api/content/2031386631/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2031386631/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2031386631",
+    "webui": "/spaces/SCD/pages/2031386631/1.12.8",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2031386631",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031386631",
+    "tinyui": "/x/B4AUeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

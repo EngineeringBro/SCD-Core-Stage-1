@@ -1,0 +1,129 @@
+{
+  "id": "1934295142",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934295142",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDI5NTE0Mg==",
+  "status": "current",
+  "title": "Invoicing: Third-Party Financing Payment Options with ACH or Check",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:00.285Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "57",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934295142.20",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934295142"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934295142/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Invoicing is a feature available to users on our Advanced and Professional plans. You can bill customers for batches of tickets on invoices with a payment period (Net Terms) to indicate when you should be paid for those invoiced goods/services.</p><p>This article will walk through the workflow for billing setup, invoicing, and payment for customers who will be using a third-party financing or leasing option as a payment method to pay for any service or retail item through your location. This method is best utilized if you will receive ACH or check payments from the financing company on a weekly, monthly, etc., basis, rather than receiving payments for each individual transaction. We recommend utilizing billing agents for this method, so you are able to track the sales for that particular financing/leasing program separately.</p><p>If you will be utilizing a virtual credit card provided by the financing/leasing company, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196854/Invoicing+Third-Party+Financing+Payment+Options+with+Virtual+Credit+Cards\" data-linked-resource-id=\"1934196854\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoicing: Financing Payment Options with Virtual Credit Cards</a>.</p><h3 id=\"Invoicing:Third-PartyFinancingPaymentOptionswithACHorCheck-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196827/Invoicing+Resources\" data-linked-resource-id=\"1934196827\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing Resources</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934327935/Invoicing+Creating+Billing+Agents\" data-linked-resource-id=\"1934327935\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Invoicing: Creating Billing Agents</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196840/Invoicing+Creating+and+Managing+Invoices\" data-linked-resource-id=\"1934196840\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing: Creating and Managing Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934327961/Invoicing+Remittance+and+Reconciling+Invoices\" data-linked-resource-id=\"1934327961\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoicing: Remittance and Reconciling Invoices</a>  </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196854/Invoicing+Third-Party+Financing+Payment+Options+with+Virtual+Credit+Cards\" data-linked-resource-id=\"1934196854\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoicing: Third-Party Financing Payment Options with Virtual Credit Cards</a></p></li></ul><p><strong>Note</strong>: For this demonstration, we will assume that no sales tax is collected, which is common for certain lease/finance transactions.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Invoicing:Third-PartyFinancingPaymentOptionswithACHorCheck-CreateaBillingAgentfortheFinanceCompany\">Create a Billing Agent for the Finance Company</h2><p /><p>1. On the Navigation Bar, go to <strong>Customers</strong> \u2192 <strong>Billing Agents</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"566\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%20.5.png?api=v2\"></span><p /><p>2. Add a new Billing Agent and fill out the appropriate information, using the finance company's details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"453\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%202.png?api=v2\"></span><h2 id=\"Invoicing:Third-PartyFinancingPaymentOptionswithACHorCheck-CreateaTicketandAttachtheBillingAgent\">Create a Ticket and Attach the Billing Agent</h2><p /><p>1. Create a new Quick Sale or Repair ticket and attach your customer. Under the customer information, make sure <strong>Tax Override</strong> is checked and the <strong>Tax Percentage has been entered as 0%</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%203.png?api=v2\"></span><p /><p><strong>Note</strong>: A user with the Shift Lead role or higher will have access to this option.</p><p /><p>2. Assign the Financing Company as the billing agent.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%204.png?api=v2\"></span><p /><p>3. Add items to the ticket that will be paid using the financing option. Any items that will not be paid under financing should be sold out on a separate ticket.</p><p /><p>4. Process the application through the financing company and gain approval for the ticket total and obtain all approval information based on your company workflow procedure. Enter all of the approval information into the notes section at the bottom of the ticket.</p><p /><p>5. Once all steps have been followed and you have gained approval from the financing company, advance the ticket to <strong>Waiting for Payment</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%205.png?api=v2\"></span><h2 id=\"Invoicing:Third-PartyFinancingPaymentOptionswithACHorCheck-CreateanInvoicefortheBillingAgent\">Create an Invoice for the Billing Agent</h2><p /><p>1. On the Navigation Bar, go to <strong>Customers</strong> \u2192 <strong>Invoices</strong> and create a new invoice.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"566\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%206.png?api=v2\"></span><p /><p>2. Filter for tickets based on Billing Agent. Select any all tickets you wish to invoice for payment and generate invoice.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%207.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%208.png?api=v2\"></span><h2 id=\"Invoicing:Third-PartyFinancingPaymentOptionswithACHorCheck-CollectPaymentontheInvoice\">Collect Payment on the Invoice</h2><p /><p>1. View the invoice and go to the Remittance page for the invoice.</p><p /><p>2. Under the Apply Payment section of the remittance page, enter the payment amount, note the reference number (if applicable), and select the payment method. Apply the payment then save remittance. Partial payments are applied to older tickets on the invoice first.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%209.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%2010.png?api=v2\"></span><p /><p>3. Once the balance for the invoice is $0 it will reconcile as <strong>Paid in Full</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934295142/Invoice%20ACH%2012.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934295142"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934295142/child",
+    "restrictions": "/rest/api/content/1934295142/restriction/byOperation",
+    "history": "/rest/api/content/1934295142/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934295142/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934295142",
+    "webui": "/spaces/SCD/pages/1934295142/Invoicing+Third-Party+Financing+Payment+Options+with+ACH+or+Check",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934295142",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934295142",
+    "tinyui": "/x/ZgBLcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

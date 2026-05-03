@@ -1,0 +1,129 @@
+{
+  "id": "2041315378",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2041315378",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA0MTMxNTM3OA==",
+  "status": "current",
+  "title": "1.7.0.x",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:06:10.606Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 2,
+    "minorEdit": false,
+    "ncsStepVersion": "7",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2041315378.16",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2041315378"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2041315378/version/2"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p><strong>Invoice Beta Revisions:</strong></p><ul><li><p>Invoice View &amp; Print - misc styling updates</p></li><li><p>Invoice View &amp; Print -\u00a0add tax id</p></li><li><p>Invoice Email - attach Invoice PDF instead of excel</p></li><li><p>Invoice Creation - find tickets by date created or date status updated</p></li><li><p>Invoice Items - add additional columns (customer, claim number)</p></li></ul><p><strong>Features:</strong></p><ul><li><p>Purchase Order Item List - added\u00a0&quot;Pending Quantity&quot; column which shows qty\u00a0of items pending receipt on open purchase orders</p></li><li><p>Productivity Reports - add ticket status filter</p></li><li><p>Permission\u00a0Customizations - added more specificity to inventory and report\u00a0permissions so that actions are more customize-able</p></li></ul><p><strong>Bugfixes:</strong></p><ul><li><p>Check whether inventory item is editable -\u00a0fix date comparison</p></li><li><p>Purchase Order - recover from save errors without losing form data</p></li><li><p>Ticket item tax calculation fix -\u00a0bundled items taxed on cost basis, where inventory\u00a0accounting method is average cost</p></li><li><p>Ticket Item price error - prevent null price</p></li><li><p>Dashboard Admin - fix issue with showing data for all locations in aggregate</p></li><li><p>Inventory Item\u00a0edit-ability - fix date comparison that determines when an item in a terminal status is editable in some\u00a0contexts</p></li><li><p>Ticket Invoice - warranty/disclaimer display fix so that it responds to the appropriate print settings.</p></li><li><p>Serial number validation - some quirks related to serial number validation have been resolved.</p></li><li><p>Announcement Emails - email creation for announcements would\u00a0fail\u00a0in some scenarios, but this should no longer be a problem.</p></li><li><p>Announcement List - sort descending by creation date</p></li><li><p>Location based permissions for tickets and purchase orders - fixed some loopholes where managers could view tickets/pos at other locations.</p></li><li><p>Tradein Ticket - attempting to add second device before\u00a0hitting \u201ccontinue\u201d clears out the form on the\u00a0first device &lt;= FIXED</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2041315378"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 24636068
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2041315378/child",
+    "restrictions": "/rest/api/content/2041315378/restriction/byOperation",
+    "history": "/rest/api/content/2041315378/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2041315378/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2041315378",
+    "webui": "/spaces/SCD/pages/2041315378/1.7.0.x",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2041315378",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2041315378",
+    "tinyui": "/x/MgCseQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1936457750",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936457750",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjQ1Nzc1MA==",
+  "status": "current",
+  "title": "Integrated Printing 102: Adding Integrated Printers",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:12.556Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 10,
+    "minorEdit": false,
+    "ncsStepVersion": "999",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936457750.47",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936457750"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936457750/version/10"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ utilizes QZ Tray integration for seamless printing without navigating print dialogs. This provides users with a one-click printing process for receipts, invoices, and labels directly to their assigned printer. Users can also create and customize print automation for a hands-free process for printing, further streamlining your ticket workflow.</p><p>Once you have paired your printer(s) with your computer, installed QZ, and turned on Integrated Printing in RepairQ, you can begin adding printers to the integration. Once you have completed this process, please see our additional resources for further integration setup and troubleshooting.</p><h3 id=\"IntegratedPrinting102:AddingIntegratedPrinters-NextSteps\">Next Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949270/Integrated+Printing+103+Adding+and+Assigning+Printer+Configurations\" data-linked-resource-id=\"1936949270\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Printing 103: Adding and Assigning Printer Configurations</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936392218/Integrated+Printing+104+Creating+and+Customizing+Print+Automation\" data-linked-resource-id=\"1936392218\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Printing 104: Adding Print Automation</a></p></li></ul><h3 id=\"IntegratedPrinting102:AddingIntegratedPrinters-PreviousStep\">Previous Step</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936359430\" rel=\"nofollow\">Integrated Printing 101: Downloading QZ Tray</a></p></li></ul><h3 id=\"IntegratedPrinting102:AddingIntegratedPrinters-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949301/Integrated+Printing+Troubleshooting\" data-linked-resource-id=\"1936949301\" data-linked-resource-version=\"17\" data-linked-resource-type=\"page\">Integrated Printing Troubleshooting</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869057/Recommended+Hardware+Troubleshooting+Resources\" data-linked-resource-id=\"1933869057\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Recommended Hardware Troubleshooting Resources</a> </p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936457750/image-20230608-182720.png?api=v2\"></span><h2 id=\"IntegratedPrinting102:AddingIntegratedPrinters-AddanIntegratedPrintertoRepairQ\">Add an Integrated Printer to RepairQ</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936457750/image-20230608-182726.png?api=v2\"></span><p /><p>2. On the Settings Overview page, there is a list of Settings Categories in the left column. Click <strong>Integrated Printing</strong> to expand the options and select <strong>Printers</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936457750/image-20230608-182731.png?api=v2\"></span><p /><p>3. On the Printer Overview page, click Add Printer on the right side of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936457750/image-20230608-182743.png?api=v2\"></span><p /><p>4. Fill out the printer settings and make sure all required fields are populated with a selection. Below is a list of options when adding a printer. Any in bold are required/recommended settings. Once you are finished entering the print settings, click <strong>Save</strong> to finalize your changes.</p><p><strong>Note</strong>: The available settings may vary based on the type of printer selected. You will need to repeat these steps with any additional printers you plan on using with Integrated Printing.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936457750/image-20230608-182750.png?api=v2\"></span><p /><ul><li><p><strong>Printer Type</strong> - Select the printer type for this setup: Desktop, Receipt, or Label.</p></li><li><p><strong>Printer Name</strong> - These names will correspond with printers that you have added to your computer.</p></li><li><p><strong>Location</strong> - Select the assigned location for this printer. Admins can choose a specific location or all locations.</p></li><li><p><strong>Description </strong>- Add a description of this printer for reference.</p></li><li><p><strong>Color Type </strong>- Select a print color: Black &amp; White, Grayscale, or Color</p></li><li><p><strong>Orientation </strong>- Portrait, Landscape, or Reverse Landscape for paper width/height.</p></li><li><p><strong>Rotation </strong>- Default, No Rotation, 90 degrees clockwise, 180 degrees, or 90 degrees counter-clockwise.</p></li><li><p><strong>Unit of Measurement</strong> - Metric (millimeters) or Imperial (inches). Some Printers work best using millimeters. Consult the user manual for your specific printer to determine the exact dimensions. The default is Metric (millimeters) so users have more precision using millimeters.</p></li><li><p><strong>Paper Width/Height</strong> - We recommend using millimeters for more exact dimensions for receipts and labels.</p></li><li><p><strong>Image Width/Height</strong> - We recommend using millimeters for more exact dimensions for receipts and labels.</p></li><li><p><strong>Scale to Fit</strong> - Selecting this will scale the print job to fit the paper size. Try both settings to determine which works best for the printer.</p></li><li><p><strong>Top/Bottom Margin</strong> - We recommend starting at zero for each margin and adjusting as needed.</p></li><li><p><strong>Right/Left Margin</strong> - We recommend starting at zero for each margin and adjusting as needed.</p></li><li><p><strong>Printer DPI/DPIM</strong> - (Dots Per Inch/Millimeter) This controls the resolution of the print. Check your printer specs to determine what DPI is compatible with your device. We recommend starting a 0 and adjusting as needed if the default doesn't work.</p></li><li><p><strong>Rasterize </strong>- Converts images into a raster (pixel) image for printing.</p></li></ul><h2 id=\"IntegratedPrinting102:AddingIntegratedPrinters-IntegratedPrintingFromaTicket\">Integrated Printing From a Ticket</h2><p>When viewing a ticket, click the <strong>Print Receipt</strong> button along the top row of commands.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936457750/image-20230608-182803.png?api=v2\"></span><p /><p><strong>Note:</strong> As a backup, you can print from a browser dialog by clicking the dropdown next to the print icon and selecting <strong>Print With Browser Dialog</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936457750/image-20230608-182808.png?api=v2\"></span><p>\u00a0</p><p>A Status window will appear with the current status of the print job. Once the job is sent, the window will close automatically. Check your printout to confirm it was sent. If you need to make modifications to your margins, DPI, width, or height, go back to <strong>Location Settings</strong> \u2192 <strong>Integrated Printing</strong> \u2192 <strong>Printers</strong> and edit the printer settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936457750/image-20230608-182813.png?api=v2\"></span><h3 id=\"IntegratedPrinting102:AddingIntegratedPrinters-NextStep:AddingandAssigningPrinterConfigurations\"><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936949270\" rel=\"nofollow\">Next Step: Adding and Assigning Printer Configurations</a></h3><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936457750"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936457750/child",
+    "restrictions": "/rest/api/content/1936457750/restriction/byOperation",
+    "history": "/rest/api/content/1936457750/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936457750/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936457750",
+    "webui": "/spaces/SCD/pages/1936457750/Integrated+Printing+102+Adding+Integrated+Printers",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936457750",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936457750",
+    "tinyui": "/x/FgBscw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

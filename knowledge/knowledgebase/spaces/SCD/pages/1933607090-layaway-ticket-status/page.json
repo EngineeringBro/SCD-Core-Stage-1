@@ -1,0 +1,129 @@
+{
+  "id": "1933607090",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933607090",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzYwNzA5MA==",
+  "status": "current",
+  "title": "Layaway Ticket Status",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:55.857Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 10,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933607090.44",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933607090"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933607090/version/10"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>In RepairQ, tickets can be placed in Layaway status. A layaway program can benefit both you and your customers. It provides customers with a flexible payment option, allowing them to make smaller, manageable payments over time. This may increase affordability, making your products and repair services more accessible. For your business, a layaway program can boost sales, attract customers who might not have immediate funds, and improve overall customer satisfaction.</p><p><strong>Business and Customer Benefits</strong></p><ul><li><p><strong>Flexible Payment Options</strong> - Customers have additional purchase options by selecting smaller, manageable payments to suit their budget.</p></li><li><p><strong>Increased Affordability</strong> - Offering a range of payment options makes your products and services available to a broader range of customers, potentially increasing overall sales.</p></li><li><p><strong>Boost Sales</strong> <strong>and Attract Customers</strong> - Customers can acquire what they need while also building loyalty for future product sales and repair services.</p></li></ul><p><strong>Note</strong>: RepairQ uses accrual-based accounting, meaning that any money collected before closing a ticket is considered a customer deposit (liability), not revenue. Once a ticket is placed in Closed status, it will finalize the sale post to your reporting. Tickets in Layaway status should be seen as projections because as long as the ticket is still open, it's possible to sell additional items, void previously sold items, accept additional payments, or return previously accepted payments.</p><p>Your layaway program is defined by your policies and procedures. See the Additional Resources section for information about our accounting principles and other features that we offer for customer documentation, disclaimers, and communications.</p><h3 id=\"LayawayTicketStatus-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932492983/Creating+Custom+Forms\" data-linked-resource-id=\"1932492983\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating and Working with Custom Forms</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Managing Customer Profiles</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377703/Creating+Warranties+and+Disclaimers\" data-linked-resource-id=\"1933377703\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Creating Warranties and Disclaimers</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246478/Getting+Started+with+Automated+Notifications\" data-linked-resource-id=\"1933246478\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notifications: Creating an Automated Notification</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2053341206/Quick+Sale+Ticket+Status+Flow\" data-linked-resource-id=\"2053341206\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Quick Sale Ticket Status Flow</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607090/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"LayawayTicketStatus-PlacingaTicketinLayawayStatus\">Placing a Ticket in Layaway Status</h2><p /><p>1. Create a new <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494512/Creating+a+Quick+Sale+Ticket\" data-linked-resource-id=\"1930494512\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Quick Sale Ticket</a>. Make sure to link the customer to the ticket, so you can save it in Layaway status. Add the items the customer will purchase on layaway.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Layaway 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607090/Layaway%201.png?api=v2\"></span><p /><p>2. If you have set up any <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932492983/Creating+Custom+Forms\" data-linked-resource-id=\"1932492983\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Custom Forms</a> for the Layaway process, have your customer read/sign the agreement as needed.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Layaway 2.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607090/Layaway%202.png?api=v2\"></span><p /><p>3. If you require any downpayment, or the customer offers to pay towards the item, take the payment now.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Layaway 3.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607090/Layaway%203.png?api=v2\"></span><p /><p>4. At the bottom of the ticket, click <strong>Layaway </strong>to save the ticket in the appropriate status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Layaway 4.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607090/Layaway%204.png?api=v2\"></span><h2 id=\"LayawayTicketStatus-SearchingforLayawayTickets\">Searching for Layaway Tickets</h2><p>Layaway tickets are searchable in your Ticket Queue and are also found on the customer\u2019s profile. When you find the ticket, you can edit the ticket to add additional payments. After each payment, you can save the ticket in Layaway status again, or, if the ticket is paid in full, close the ticket and issue the merchandise.</p><p><strong>Note</strong>: When searching the Ticket Queue, you may need to expand the filters based on the age of the ticket and the ticket type.</p><h3 id=\"LayawayTicketStatus-QuickSearch\">Quick Search</h3><p>Use the Quick Search box to search the Ticket Queue and Customer List by the customer\u2019s name, phone number, or Ticket ID to find the sale ticket. </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Layaway 5.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607090/Layaway%205.png?api=v2\"></span><h3 id=\"LayawayTicketStatus-TicketSearch\">Ticket Search</h3><p>When viewing the Ticket Queue, use the filters to search tickets by date, ticket type, and Ticket ID.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Layaway 7.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607090/Layaway%207.png?api=v2\"></span><h3 id=\"LayawayTicketStatus-CustomerProfile\">Customer Profile</h3><p>When viewing a customer\u2019s profile, the <strong>Ticket tab </strong>will show a history of tickets for the customer.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Layaway 6.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607090/Layaway%206.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933607090"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933607090/child",
+    "restrictions": "/rest/api/content/1933607090/restriction/byOperation",
+    "history": "/rest/api/content/1933607090/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933607090/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933607090",
+    "webui": "/spaces/SCD/pages/1933607090/Layaway+Ticket+Status",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933607090",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933607090",
+    "tinyui": "/x/soBAcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "2340945933",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2340945933",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjM0MDk0NTkzMw==",
+  "status": "current",
+  "title": "Reopening Closed Tickets",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:14.936Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "150",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2340945933.35",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2340945933"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2340945933/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Admins can now update Ticket Settings to allow users with the Manager role (or above) to reopen closed tickets. This is helpful for tickets closed in error before recording all sales before finalizing the ticket. While this may seem like a departure from the default behavior, it puts more control in the hands of our users, allowing for greater flexibility in managing ticket flow and operations. This empowerment can improve efficiency and customer service outcomes without contacting the Support team.</p><p><strong>Note</strong>: Reopening closed tickets will change the accounting dates in your reports. Depending on your applied filters, this could cause tickets to be double-counted or not counted at all. We strongly recommend you align this setting with your accounting processes.</p><h3 id=\"ReopeningClosedTickets-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934360642\" rel=\"nofollow\">RepairQ Accounting Principles</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1937866763\" rel=\"nofollow\">Reporting Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932329145\" rel=\"nofollow\">Ticket Properties Override</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2340945933/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"ReopeningClosedTickets-AllowingforTicketstobeReopened\">Allowing for Tickets to be Reopened</h2><p>This allowance is at the global level, which affects all locations on your database.</p><p /><p>On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>. On the Settings page, under the Tickets section, click <strong>General Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Reopen Tickets 1.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2340945933/Reopen%20Tickets%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Reopen Tickets 2.png\" width=\"517\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2340945933/Reopen%20Tickets%202.png?api=v2\"></span><p /><p>On the Ticket General Settings page, under the General Settings section, you will see an option for \u201c<strong>Allow Reopening Closed Tickets</strong>.\u201d Make your selection for the timeframe for opening tickets and <strong>Save </strong>your settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Reopen Tickets 3.png\" width=\"305\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2340945933/Reopen%20Tickets%203.png?api=v2\"></span><ul><li><p><strong>When closed on the same day</strong> - The user can reopen a ticket the same day that it was closed.</p></li><li><p><strong>When closed on the same week</strong> - The user can reopen a ticket within 7 days of closing the ticket.</p></li><li><p><strong>When closed in the same month</strong> - The user can reopen a ticket within 30 days of closing the ticket.</p></li><li><p><strong>When closed in the same year</strong> - The user can reopen a ticket within 365 days of closing the ticket.</p></li><li><p><strong>Never allow reopening closed tickets</strong> - This will restrict the ability to reopen a ticket after it has been closed. If you need to make changes, you can void the ticket and create a new one or perform a return on the existing ticket to open it again.</p></li></ul><p /><h2 id=\"ReopeningClosedTickets-ReopenaClosedTicket\">Reopen a Closed Ticket</h2><p>Once you have established your Reopening Settings, use the Ticket Properties override to reopen a ticket that has been closed.</p><p /><p>Use the Global Search to locate the ticket by Customer Name or Ticket ID. Alternatively, when viewing the ticket queue, use the filters to sort for tickets in <strong>Closed </strong>status within the timeframe you select.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Reopen Tickets 4.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2340945933/Reopen%20Tickets%204.png?api=v2\"></span><p /><p>When viewing the ticket, click the <strong>Ticket Properties button (gear icon)</strong> on the upper right of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Reopen Tickets 5.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2340945933/Reopen%20Tickets%205.png?api=v2\"></span><p /><p>Use the Ticket Properties modal to update the Ticket Status field, then <strong>Save </strong>your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Reopen Tickets 6.png\" width=\"305\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2340945933/Reopen%20Tickets%206.png?api=v2\"></span><p /><p>The ticket will be moved out of Closed status and revert to the selected status. The Ticket Updated field will update based on when you make the change, and the ticket notes will also reflect the status change. You can now make any further changes as needed.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Reopen Tickets 7.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2340945933/Reopen%20Tickets%207.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2340945933"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2340945933/child",
+    "restrictions": "/rest/api/content/2340945933/restriction/byOperation",
+    "history": "/rest/api/content/2340945933/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2340945933/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2340945933",
+    "webui": "/spaces/SCD/pages/2340945933/Reopening+Closed+Tickets",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2340945933",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2340945933",
+    "tinyui": "/x/DQCIiw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

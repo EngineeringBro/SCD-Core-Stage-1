@@ -1,0 +1,129 @@
+{
+  "id": "1986035723",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1986035723",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTk4NjAzNTcyMw==",
+  "status": "current",
+  "title": "Tax-inclusive Pricing: Customize Ticket Display",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:31.664Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 33,
+    "minorEdit": false,
+    "ncsStepVersion": "8774",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1986035723.119",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1986035723"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1986035723/version/33"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Ticket General Settings allow you to configure the behavior and appearance of Quick Sale, Trade-in, and Repair Tickets. While you can customize these fields based on your preferences, businesses in countries with GST/VAT must ensure that tax-inclusive pricing is displayed with field names that align with your pricing structure and comply with GST/VAT guidelines. This provides clarity for both your staff and customers.</p><p>In the examples below, we'll focus on GST-friendly labeling. You can independently customize labels in both Ticket View and Ticket Edit modes. However, we recommend using the same labels in both views to prevent confusion.</p><p><strong>Note</strong>: We suggest applying these settings at the Company level to standardize labeling across all locations. However, individual locations can still customize their fields as needed. These changes are purely visual and will not impact pricing calculations.</p><h3 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-NextStepsandAdditionalResources\">Next Steps and Additional Resources</h3><p /><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/kb/view/1986560182\" rel=\"nofollow\"> Tax-inclusive Pricing: GST Invoice Template</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/kb/view/1932394639\" rel=\"nofollow\">Tax-inclusive Pricing on Tickets</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/kb/view/1933410332\" rel=\"nofollow\">Setting up and Assigning Tax Rates</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/kb/view/1984823420\" rel=\"nofollow\">Tax-Inclusive Pricing: Company and Location Setup</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/kb/view/1986560223\" rel=\"nofollow\">Tax-Inclusive Pricing Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-CustomizeTicketItemFieldsandLabels\">Customize Ticket Item Fields and Labels</h2><p>For these examples, we'll focus on GST-friendly labeling. However, you can customize the names of these fields according to your preferences. Please note that these changes are purely visual and will not affect the pricing calculations.</p><p /><p>Log into RepairQ as an Admin. On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>. On the Settings Overview page, click <strong>General Settings </strong>under the Tickets section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/GST%20Tickets%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"464\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/GST%20Tickets%202.png?api=v2\"></span><h2 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-CustomizeTicketEditMode\">Customize Ticket Edit Mode</h2><p>On the Ticket General Settings screen, locate the 'Customize Ticket Edit' section. Here, you can adjust the wording of various fields specifically for Ticket Edit Mode. The following fields are customizable and will update according to your selections.</p><p><strong>Note</strong>: If any fields are left blank, they will use the default name for the column, which is visible in the text box. These examples use a tax-inclusive pricing structure for GST.</p><h3 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-DisplayLayout\">Display Layout</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"New Tax-inclusive Settings 6.png\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/New%20Tax-inclusive%20Settings%206.png?api=v2\"></span><ul><li><p><strong>Default View</strong> - The available selections will change ticket column fields and labels based on your pricing structure.</p><ul><li><p><strong>Default</strong> - This will show unit price (without tax), Quantity/Hours, Tax, Discount, and Line Total.</p></li><li><p><strong>Tax-inclusive </strong>- (Recommended for GST) This will show tax-inclusive unit pricing, effective after-tax discounts, etc.</p></li><li><p><strong>Custom </strong>- This will allow you to toggle on/off which fields are visible on the ticket and customize the labeling of each.</p></li></ul></li></ul><h4 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-TicketViewColumns&amp;LabelOverrides\">Ticket View Columns &amp; Label Overrides</h4><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Tax-inclusive Update.png\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/Tax-inclusive%20Update.png?api=v2\"></span><ul><li><p><strong>Tax-Inclusive Unit Price</strong> - This is the unit price, before the discount.</p><ul><li><p>For GST pricing, we recommend using \u2018Unit Price (Inc GST).\u2019</p></li></ul></li><li><p><strong>Quantity or Hours</strong> - This is the quantity of the item added or labor hours applied to a service/labor. Leave this field blank to use the default label.</p></li><li><p><strong>Effective After-tax Discount</strong> - This is the discount ($ or % amount) applied to the item/service, before or after tax is applied based on your selection.</p><ul><li><p>For GST pricing, we recommend using \u2018Discount (Inc GST).\u2019</p></li></ul></li><li><p><strong>Tax </strong>- This is the tax applied to the item\u2019s retail price.</p><ul><li><p>For GST pricing, we recommend using \u2018GST.\u2019</p></li></ul></li><li><p><strong>Line Total</strong> - This is the line total for the item after all applied discounts and taxes.</p><ul><li><p>For GST pricing, we recommend using \u2018Line Total (Inc GST).\u2019</p></li></ul></li></ul><h4 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-TicketViewTotals\">Ticket View Totals</h4><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"GST Tickets 3.png\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/GST%20Tickets%203.png?api=v2\"></span><ul><li><p><strong>Tax-inclusive Ticket total Without Discounts</strong> - This includes the price of all items on the ticket before discounts are applied.</p><ul><li><p>For GST pricing, we recommend using \u2018Subtotal (Inc GST).\u2019</p></li></ul></li><li><p><strong>Total Effective After-tax Discount</strong> - This is the total of any discounts applied toward ticket items.</p><ul><li><p>For GST pricing, we recommend using \u2018Discount (Inc GST).\u2019</p></li></ul></li><li><p><strong>Total Tax </strong>- This is the total for all taxes applied to the ticket items.</p><ul><li><p>For GST Pricing, we recommend using \u2018GST.\u2019</p></li></ul></li></ul><h3 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-OtherTax-InclusiveSettings(TicketEditMode)\">Other Tax-Inclusive Settings (Ticket Edit Mode)</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/GST%20Tickets%204.png?api=v2\"></span><ul><li><p><strong>Show default Ticket Discount dropdown options, instead of below options, when tax-inclusive pricing is not enabled for the ticket\u2019s location</strong> - This allows you to show/hide the default dropdown options, instead of the below two options, if tax-inclusive pricing is not enabled for your location.</p></li><li><p><strong>\u201cBefore Tax\u201d Ticket Discount dropdown option</strong> - This is used when <u>applying a discount at the ticket level for all items</u>. This will apply a discount before taxes are applied. This option has a toggle to show/hide this selection on the ticket edit screen.</p><ul><li><p>For GST, we recommend using \u2018Before GST.\u2019 </p></li></ul></li><li><p><strong>\u201cAfter Tax\u201d Ticket Discount dropdown option</strong> - This is used when applying a <u>discount at the ticket level for all items</u>. This will apply a discount after taxes are applied. This option has a toggle to show/hide this selection on the ticket edit screen.</p><ul><li><p>For GST, we recommend using \u2018After GST.\u2019</p></li></ul></li><li><p><strong>Label for \u201cAfter Tax\u201d (Tax-Inclusive) Unit Price checkbox when editing Unit Price, if tax-inclusive pricing is enabled</strong> - This is used when <u>overriding the unit price for a single item</u>. This affects the Unit Price Editor field if you have variable pricing enabled for the catalog item (Can Override Price). If this option is checked when editing the unit price, the amount you enter will adjust for price + tax.</p><ul><li><p>For GST, we recommend using \u2018After GST.\u2019</p></li></ul></li><li><p><strong>Label for Effective \u201cAfter Tax\u201d (Tax-Inclusive) Discount when editing item Discount, if tax-inclusive pricing is enabled</strong> - This is used when <u>applying a discount for a single item</u>. This affects the Discount Editor field when adding a discount to an item, the discount will adjust for the amount + tax.</p><ul><li><p>For GST, we recommend using \u2018After GST.\u2019</p></li></ul></li></ul><h2 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-CustomizeTicketViewMode\">Customize Ticket View Mode</h2><p>You can customize labels independently in Ticket View and Ticket Edit mode. However, we recommend using the same labels in both views to avoid confusion.</p><ul><li><p><strong>Use the same settings for Ticket View as selected for Ticket Edit above</strong> - Choose whether to use the same settings for Ticket View mode as those selected for Ticket Edit Mode, or customize these labels separately.</p><ul><li><p>When this is toggled ON, all of the Ticket Edit customizations will stay consistent on the Ticket View screen and the Ticket Edit screen.</p></li><li><p>If toggled OFF, you can customize these fields to appear differently in Ticket View mode.</p></li><li><p>We Recommend turning this feature ON so labels on the Ticket View screen will match when in Ticket Edit mode.</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"GST Tickets 5.png\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/GST%20Tickets%205.png?api=v2\"></span><hr/><h2 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-TicketFieldsandLabelsAfterCustomization\">Ticket Fields and Labels After Customization</h2><p>This section features images demonstrating the impact of customizing column names and labels. These visuals provide a comparison between changes within the Ticket View and Ticket Edit UI.</p><h3 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-DisplayLayout.1\">Display Layout</h3><p>These examples illustrate the changes to column names and labels after selecting each \u2018Display Layout\u2019 in Ticket General Settings.</p><h4 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-DefaultDisplayLayout\">Default Display Layout</h4><p>The highlighted areas show the default column names and labels.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"GST Tickets 6.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/GST%20Tickets%206.png?api=v2\"></span><h4 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-\u2018Tax-inclusive\u2019DisplayLayout\">\u2018Tax-inclusive\u2019 Display Layout</h4><p>The highlighted areas show changes made to the following label settings:</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"GST Tickets 7.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/GST%20Tickets%207.png?api=v2\"></span><ul><li><p>Ticket Item Columns</p><ul><li><p><strong>Tax-Inclusive Unit Price</strong> - Unit Price \u2192 Unit Price (GST)</p></li><li><p><strong>Effective After-tax Discount</strong> - Discount \u2192 Discount (Inc GST)</p></li><li><p><strong>Line Total</strong> - Line Total \u2192 Line Total (Inc GST)</p></li></ul></li><li><p>Totals</p><ul><li><p><strong>Tax-inclusive Ticket total Without Discounts</strong> - Subtotal \u2192 Subtotal (Inc GST)</p></li><li><p><strong>Total Effective After-tax Discount</strong> - Discount \u2192 Discounts (Inc GST)</p></li><li><p><strong>Total Tax</strong> - Tax \u2192 GST</p></li></ul></li></ul><h3 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-OtherTax-InclusiveSettings\">Other Tax-Inclusive Settings</h3><p>These examples illustrate the changes to column names and labels after updating the fields under 'Other Tax-Inclusive Settings' in Ticket General Settings.</p><h4 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-TicketDiscountDropdownOptions\">Ticket Discount Dropdown Options</h4><p>The highlighted areas show changes made to the following label settings when applying a <u>discount at the ticket level for all items</u>:</p><ul><li><p><strong>\u201cBefore Tax\u201d Ticket Discount dropdown option</strong> - Before Tax \u2192 Before GST</p></li><li><p><strong>\u201cAfter Tax\u201d Ticket Discount dropdown option </strong>- After Tax \u2192 After GST</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"442\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/Tax%20Inclusive%20Ticket%20Override.png?api=v2\"></span><h4 id=\"Tax-inclusivePricing:CustomizeTicketDisplay-UnitPriceandDiscountEditorOptions\">Unit Price and Discount Editor Options</h4><p>The highlighted areas show changes made to the following label settings when applying a <u>price override or discount to a line item</u>.</p><ul><li><p><strong>Label for \u2018After Tax\u2019 (Tax-Inclusive) </strong><em><strong>Unit Price checkbox </strong></em><strong>when editing Unit Price</strong>\u2026 - After Tax \u2192 After GST.</p><ul><li><p>This is used when <u>overriding the unit price for a single item</u>.</p></li><li><p>By default, the \u201cAfter Tax\u201d selection will be checked when you adjust an amount.</p></li><li><p>e.g. If you adjust an item to $10 (with a GST Tax Rate of 10%), the item\u2019s price is $9.09 + $0.91 tax.</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/Unit%20Price%20Editor.png?api=v2\"></span><ul><li><p><strong>Label for Effective \u201cAfter Tax\u201d (Tax-Inclusive) </strong><em><strong>Discount </strong></em><strong>when editing item Discount</strong>\u2026 - After Tax \u2192 After GST</p><ul><li><p>This is used when <u>applying a discount for a single item</u>.</p></li><li><p>By default, the \u201cAfter Tax\u201d selection will be checked when you adjust an amount.</p></li><li><p>e.g. If you discount an $11 item (with a GST Tax Rate of 10%) by $1, the item\u2019s price is $9.09 + $0.91 tax, for a line total of $10.</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1986035723/Unit%20Discount%20Editor.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1986035723"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1986035723/child",
+    "restrictions": "/rest/api/content/1986035723/restriction/byOperation",
+    "history": "/rest/api/content/1986035723/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1986035723/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1986035723",
+    "webui": "/spaces/SCD/pages/1986035723/Tax-inclusive+Pricing+Customize+Ticket+Display",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1986035723",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1986035723",
+    "tinyui": "/x/C4Bgdg",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

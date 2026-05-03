@@ -1,0 +1,129 @@
+{
+  "id": "1928921166",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1928921166",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkyODkyMTE2Ng==",
+  "status": "current",
+  "title": "Location Management: Add or Deactivate a Location",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:10.268Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 10,
+    "minorEdit": false,
+    "ncsStepVersion": "581",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1928921166.72",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1928921166"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1928921166/version/10"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ provides a suite of Account Management tools for Admins, allowing you to view existing plan details, modify location and user counts, and change your subscription.</p><ul><li><p><strong>Self-service Account Management</strong> - Admins can make instant changes to their account anytime, without contacting Support. Track user and location counts and make adjustments in real time, ensuring up-to-date information and billing.</p></li><li><p><strong>Deactivating a Location </strong>- After deactivating a location, you must update your subscription to reflect this change. If not updated, you will continue to be charged for the additional location.</p></li><li><p><strong>Warehouse Locations and Sandbox Instances </strong>- These cannot be configured by users. For assistance with setting up these environments, please contact RepairQ Support.</p></li></ul><p>If you have plan restrictions, need assistance changing your plan, or have additional questions about your subscription, please <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494471/Help+Desk+Hours+and+Support+Requests\" data-linked-resource-id=\"1930494471\" data-linked-resource-version=\"33\" data-linked-resource-type=\"page\">contact RepairQ Support</a>.</p><h3 id=\"LocationManagement:AddorDeactivateaLocation-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921186/RepairQ+Subscription+Management+Change+Your+Subscription\" data-linked-resource-id=\"1928921186\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Changing Your RepairQ Subscription</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986689/Location+Settings\" data-linked-resource-id=\"1928986689\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Location Settings Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1929379890/Staff+Management+Add+and+Deactivate+Staff+Profiles\" data-linked-resource-id=\"1929379890\" data-linked-resource-version=\"27\" data-linked-resource-type=\"page\">Adding and Deactivating Users</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1930494471\" rel=\"nofollow\">Contacting RepairQ Support</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"LocationManagement:AddorDeactivateaLocation-ViewYourAccountSummary\">View Your Account Summary</h2><p>You\u2019ll need at least one available location to create a new location in RepairQ. If you need to increase your location count to accommodate the new location, you must first update your subscription.</p><p><strong>Note</strong>: For detailed instructions on updating your plan, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921186/RepairQ+Subscription+Management+Change+Your+Subscription\" data-linked-resource-id=\"1928921186\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Changing Your RepairQ Subscription</a>.</p><p /><p>Log in to RepairQ under an Admin Role. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>. On the Settings Overview page, click <strong>RepairQ Account</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"517\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%202.png?api=v2\"></span><h3 id=\"LocationManagement:AddorDeactivateaLocation-PlanDetails\">Plan Details</h3><p>The Account page displays your current subscription plan, including add-on features and monthly price. The summary section shows the total of active and available locations and users. If you need to add additional locations, you\u2019ll need to <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921186/RepairQ+Subscription+Management+Change+Your+Subscription\" data-linked-resource-id=\"1928921186\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Update your Subscription</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%203.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"619\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%204.png?api=v2\"></span><h2 id=\"LocationManagement:AddorDeactivateaLocation-AddandCreateaLocationinRepairQ\">Add and Create a Location in RepairQ</h2><p>Once you have confirmed that you have an available location to add, go back to <strong>Company Settings</strong>. On the Settings Overview page, click <strong>Locations</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%205.png?api=v2\"></span><p /><p>On the Locations Overview screen, click <strong>+Add Location</strong> on the right side of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%206.png?api=v2\"></span><p /><p>Begin filling out the New Location Form. Required fields are marked with an asterisk (*). For a detailed outline of all Location Form details, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986689/Location+Settings\" data-linked-resource-id=\"1928986689\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Location Settings Overview</a>. When satisfied with your updates, click <strong>Save</strong> at the bottom of the page.</p><ul><li><p><strong>Legal Name</strong> - Enter the legal name of your company.</p></li><li><p><strong>Short Name</strong> - Enter a Short Name for your company. It is a user-friendly business name for reports, lists, and filters.</p></li><li><p><strong>Country</strong> - Assign a country for your business location. This affects the address structure of the form.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%208.png?api=v2\"></span><ul><li><p><strong>Email</strong> - Enter an email for your business. This will be used for notifications.</p></li><li><p><strong>Primary Phone</strong> - Enter a primary contact phone number. This information can be added to receipts.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%209.png?api=v2\"></span><ul><li><p><strong>Week Start Day</strong> - This setting affects the starting day of the week for appointment scheduling and attendance.</p></li><li><p><strong>Is Active</strong> - This will mark the location as available for use and show in filters and dropdown lists.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%2010.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Location 15.png\" width=\"341\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%2015.png?api=v2\"></span><p /><p>After saving your location, it will now be listed on the Location Overview page. You can log out of your current RepairQ session and log in under the new location.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%2012.png?api=v2\"></span><hr/><h2 id=\"LocationManagement:AddorDeactivateaLocation-DeactivateDeactivateaLocation\"><span class=\"confluence-anchor-link\" id=\"LocationManagement:AddorDeactivateaLocation-Deactivate\"><span class=\"confluence-anchor-link\" id=\"Deactivate\"></span></span>Deactivate a Location</h2><p>Admins can deactivate a location in RepairQ if the location has closed and is no longer needed. The data will remain as long as the database has not been archived or deleted, however, users will not be able to log into this location. Additionally, this location will be hidden from filter selection and location lists.</p><p><strong>Note</strong>: Once you deactivate a location you\u2019ll need to <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921186/RepairQ+Subscription+Management+Change+Your+Subscription\" data-linked-resource-id=\"1928921186\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Update your Subscription</a> do make sure you are no longer charged for the inactive location.</p><p /><p>A user with the Admin role will need to log in to the RepairQ location. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>. On the Settings Overview page, click on <strong>Locations</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%205.png?api=v2\"></span><p /><p>On the Locations Overview screen, find the location you would like to deactivate. On the right side of the page, click the <strong>Edit button</strong> under the Actions column.</p><p><strong>Note</strong>: Inactive locations will be listed after all active locations.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%2013.png?api=v2\"></span><p /><p>Scroll to the bottom of the page. <strong>Uncheck</strong> <strong>the Is Active</strong> <strong>box</strong>, then click <strong>Save</strong>. The location will be deactivated, and you can view the status of your location list on the Location Overview screen.</p><p><strong>Note:\u00a0</strong>This process has only deactivated the location. To ensure your billing has been updated, you will need to <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921186/RepairQ+Subscription+Management+Change+Your+Subscription\" data-linked-resource-id=\"1928921186\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\"><strong>update your RepairQ subscription</strong></a> to reflect this change, otherwise, you will continue to be charged for the additional location.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"424\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1928921166/Location%2014.png?api=v2\"></span><hr/><h2 id=\"LocationManagement:AddorDeactivateaLocation-ActivateaPreviouslyDeactivatedLocation\">Activate a Previously Deactivated Location</h2><p>If you need to reactivate a previously deactivated (inactive) location, your subscription must have an available spot for the pending location. Edit a location, similar to the steps for <a rel=\"nofollow\">Deactivating a Location</a>, but mark the location as <strong>Active</strong>. </p><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1928921166"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1928921166/child",
+    "restrictions": "/rest/api/content/1928921166/restriction/byOperation",
+    "history": "/rest/api/content/1928921166/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1928921166/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1928921166",
+    "webui": "/spaces/SCD/pages/1928921166/Location+Management+Add+or+Deactivate+a+Location",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1928921166",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1928921166",
+    "tinyui": "/x/TgD5cg",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1934917678",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934917678",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDkxNzY3OA==",
+  "status": "current",
+  "title": "Reports: Accounting System Reporting",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:38.433Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 14,
+    "minorEdit": false,
+    "ncsStepVersion": "194",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934917678.59",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934917678"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934917678/version/14"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ empowers business owners by providing robust accounting and inventory reports tailored to extract essential data for your accounting system. These reports streamline the process of posting data to your accounting software and enhance your ability to make informed decisions based on accurate and detailed financial information.</p><ul><li><p><strong>Efficiency </strong>- Quickly extract crucial data, saving time and effort in manually gathering and inputting information into your accounting system.</p></li><li><p><strong>Accuracy </strong>- Ensure precision in your accounting records by providing detailed reports, reducing the risk of errors associated with manual data entry.</p></li><li><p><strong>Financial Insight</strong> - RepairQ offers a range of reports, including accounting summaries, journal entries, revenue and COGS, inventory usage, inventory valuation, and more.</p></li><li><p><strong>Compliance </strong>- Meet accounting standards and compliance requirements by providing organized and detailed data for your accounting system and accountant.</p></li><li><p><strong>Integration</strong> - Our integration with QuickBooks Online allows you to automate the transmission of nightly journal entries, freeing up your time to focus on core business activities.</p></li></ul><h3 id=\"Reports:AccountingSystemReporting-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934458970/Chart+of+Accounts+-+Accounting+Journal+Entries\" data-linked-resource-id=\"1934458970\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Chart of Accounts - Accounting Journal Entries</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246837/Reports+Accounting+Journal+Entries\" data-linked-resource-id=\"1933246837\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Reports: Accounting Journal Entries</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934524484/Accounting+Software+Resources\" data-linked-resource-id=\"1934524484\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Accounting Software Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229563/Integrations+QuickBooks+Online+Setup\" data-linked-resource-id=\"1934229563\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrations: QuickBooks Online Setup</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279311/Introduction+to+Taxes+in+RepairQ+-+Start+Here\" data-linked-resource-id=\"1933279311\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Introduction to Taxes in RepairQ - Start Here!</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"Reports:AccountingSystemReporting-ExportingReportsinRepairQ\">Exporting Reports in RepairQ</h2><p>Reports can be exported using the <strong>To</strong> <strong>Excel</strong> <strong>button</strong> near the top-right of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"222\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%203.png?api=v2\"></span><h2 id=\"Reports:AccountingSystemReporting-AccountingReportsinRepairQ\">Accounting Reports in RepairQ</h2><p /><p>1. On the top Navigation Bar, click  <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"752\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%201.png?api=v2\"></span><p /><p>2. On the Reports page, click the <strong>Accounting</strong> <strong>dropdown</strong> to view numerous reports designed to extract information you can post to an accounting system.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"752\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%202.png?api=v2\"></span><h3 id=\"Reports:AccountingSystemReporting-AccountingSummaryReport\">Accounting Summary Report</h3><p>The Summary Report is the best place to look for most figures you would post to your accounting system. This report was designed with the help of several accounts in the industry to gather relevant data from RepairQ. For recommendations on where to post these figures to a chart of accounts, see our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%205.png?api=v2\"></span><h3 id=\"Reports:AccountingSystemReporting-PaymentandRevenueReporting\">Payment and Revenue Reporting</h3><p>The <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934524434\" rel=\"nofollow\">Tickets Unpaid and Pending Revenue Reports</a> track tickets that still require payment (Tickets Unpaid) and tickets that haven't been closed for final reporting (Pending Revenue).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"204\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%206.png?api=v2\"></span><h3 id=\"Reports:AccountingSystemReporting-COGSReporting\">COGS Reporting</h3><p>The <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934753845/Reports+Revenue+Cost+of+Goods+Sold+COGS+Cost+of+Services+and+Cost+of+Refurbs\" data-linked-resource-id=\"1934753845\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Cost of Goods Sold (COGS) Report</a>, along with other revenue-based reports can be used to extract detailed data regarding Revenue and COGS reporting</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%207.png?api=v2\"></span><h2 id=\"Reports:AccountingSystemReporting-InventoryReportsinRepairQ\">Inventory Reports in RepairQ</h2><p>On the Reports page, click the <strong>Inventory column</strong> to display numerous reports organized to extract information you can post to an accounting system.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"752\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%209.png?api=v2\"></span><h3 id=\"Reports:AccountingSystemReporting-InventoryValuationReports\">Inventory Valuation Reports</h3><p>Use the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934557185/Reports+Inventory+Valuation\" data-linked-resource-id=\"1934557185\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Inventory Valuation Reports</a> to view a snapshot of your current inventory value, inventory movements, and details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%208.png?api=v2\"></span><h3 id=\"Reports:AccountingSystemReporting-InventoryUsageReports\">Inventory Usage Reports</h3><p>The <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934721039/Reports+Inventory+Usage\" data-linked-resource-id=\"1934721039\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Inventory Usage Reports</a> are designed to give you insight into inventory that has been consumed (no longer in your possession), whether through a sale, RMA process, shrinkage, etc.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Accounting Reports 10.png\" width=\"388\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%2010.png?api=v2\"></span><h3 id=\"Reports:AccountingSystemReporting-InventoryEndofYear(EOY)SnapshotArchive\">Inventory End of Year (EOY) Snapshot Archive</h3><p>The Inventory EOY Snapshot report provides a downloadable document that includes a list of all items in an active inventory status on the last day of the previous year. This report is available for the end of 2022 and will grow as time passes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917678/Accounting%20Reports%2011.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934917678"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934917678/child",
+    "restrictions": "/rest/api/content/1934917678/restriction/byOperation",
+    "history": "/rest/api/content/1934917678/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934917678/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934917678",
+    "webui": "/spaces/SCD/pages/1934917678/Reports+Accounting+System+Reporting",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934917678",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934917678",
+    "tinyui": "/x/LoBUcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

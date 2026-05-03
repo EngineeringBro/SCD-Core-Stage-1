@@ -1,0 +1,129 @@
+{
+  "id": "2041282652",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2041282652",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA0MTI4MjY1Mg==",
+  "status": "current",
+  "title": "1.7.2.x",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:06:17.316Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 2,
+    "minorEdit": false,
+    "ncsStepVersion": "3",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2041282652.14",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2041282652"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2041282652/version/2"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p><strong>Week starting 10.26.2015</strong></p><ul><li><p>4544 \u2013 Report Date Filters \u2013 fix end/to date filter so that\u00a0it uses the correct time again (end of the day)</p></li><li><p>4545 \u2013 Negative priced item discounts \u2013 fixed discount\u00a0permissions behavior</p></li><li><p>4546 \u2013 Fixed loading of refurb tickets that have a customer attached</p></li><li><p>4547 \u2013 Fixed loading of ticket totals for tickets with a \u201cnot to exceed amount\u201d</p></li><li><p>4548 \u2013 Admins and Location Managers have\u00a0default 100% discount permissions restored</p></li><li><p>4552 \u2013 Ticket item search/scan field \u2013 prevent form submit on enter/return key press</p></li><li><p>4549 \u2013\u00a0Ticket Item Bundle \u2013 Fixed issue where the parent item could not\u00a0be removed from the ticket without an extra ticket save (saving after all\u00a0child items were removed from under the parent)</p></li><li><p>4498 \u2013\u00a0Fixed issue where catalog item \u201cinventoried\u201d attribute\u00a0would not be save-able\u00a0from \u201cyes\u201d to \u201cno\u201d</p></li><li><p>4542 \u2013 Optimize ticket system log</p></li><li><p>4551 \u2013 Ticket item bundling \u2013 fixed an issue where sometimes you could not bundle a part to a service</p></li><li><p>4543 \u2013\u00a0Restock Inventory\u00a0Form \u2013 fix filtering of items so that non-inventoried catalog items\u00a0cannot be selected</p></li><li><p>4548 \u2013 Restore default permissions to apply 100% discount for manager role</p></li></ul><p><strong>Week starting 11.09.2015</strong></p><ul><li><p>4555 \u2013 Restore the ability to remove items in the \u201cordered\u201d status from a ticket</p></li><li><p>4566 \u2013 Catalog Item Merge \u2013 clear out SKU and\u00a0Name of the merged item so that\u00a0they can be reused</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2041282652"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 148529354
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2041282652/child",
+    "restrictions": "/rest/api/content/2041282652/restriction/byOperation",
+    "history": "/rest/api/content/2041282652/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2041282652/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2041282652",
+    "webui": "/spaces/SCD/pages/2041282652/1.7.2.x",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2041282652",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2041282652",
+    "tinyui": "/x/XICreQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

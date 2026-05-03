@@ -1,0 +1,33 @@
+{
+  "size": 2,
+  "start": 0,
+  "limit": 100,
+  "isLastPage": true,
+  "_links": {
+    "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk?limit=100",
+    "base": "https://servicecentral.atlassian.net",
+    "context": ""
+  },
+  "values": [
+    {
+      "id": "9",
+      "projectId": "10166",
+      "projectName": "ServiceCentral Desk",
+      "projectKey": "SCD",
+      "projectTypeKey": "service_desk",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9"
+      }
+    },
+    {
+      "id": "110",
+      "projectId": "10538",
+      "projectName": "ServiceManager Help Desk",
+      "projectKey": "SMHD",
+      "projectTypeKey": "service_desk",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/110"
+      }
+    }
+  ]
+}

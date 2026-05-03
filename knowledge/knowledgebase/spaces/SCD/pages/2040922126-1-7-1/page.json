@@ -1,0 +1,130 @@
+{
+  "id": "2040922126",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2040922126",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA0MDkyMjEyNg==",
+  "status": "current",
+  "title": "1.7.1",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-08-01T21:35:38.182Z",
+    "friendlyWhen": "Aug 02, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "18",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2040922126.14",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2040922126"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040922126/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"id-1.7.1-Release1.7.1Highlights\">Release 1.7.1 Highlights</h2><h3 id=\"id-1.7.1-EnterpriseInvoicing\">Enterprise Invoicing</h3><p>The Enterprise Invoicing is now officially out of beta! A number of fixes and enhancements were introduced in this release related to the new module. A few\u00a0of the more significant improvements are:</p><ul><li><p>All of the invoice notification messages are now customizable with the Notification Automation settings.</p></li><li><p>A custom order number can be assigned to any\u00a0Invoice, or you can use the\u00a0auto-numbering built into RepairQ.</p></li></ul><h3 id=\"id-1.7.1-NotificationSystemImprovements\">Notification System Improvements</h3><p>Customize the email and SMS messages for Ticket Notifications and Invoice Notifications. When you click the \u201csend email\u201d or \u201csend sms\u201d buttons for a ticket, it used to send a canned email/sms designed by RepairQ. Now you have the ability to customize these messages using the Automated Notification settings in your RepairQ application. In addition, you can have the system\u00a0<strong>attach a PDF receipt/invoice document</strong>\u00a0to\u00a0ticket and invoice emails!</p><h3 id=\"id-1.7.1-PartialRefunds\">Partial Refunds</h3><p>On an open sales ticket or return ticket it should be possible to issue a partial refund using any payment method, whether the payout method matches the original payment method or not. With the integrated credit card payment system, you should be able to refund part of a transaction using the built in one-click\u00a0refund method (which does not require the credit card), rather than only allowing a full refund of a transaction using the one-click refund method.</p><h2 id=\"id-1.7.1-ReleaseNotes\">Release Notes</h2><ul><li><p>Feature #4200: Partial payment refunds</p></li><li><p>Feature #4328: COGS Report - add location column</p></li><li><p>Feature #4256: COGS Report - add location and sales rep</p></li><li><p>Feature #4315: Ticket / Invoice / PO / Shipment Notifications - attach PDF\u00a0option</p></li><li><p>Feature #4317: Print Settings - make ticket item note printable</p></li><li><p>Feature #4332: Supplier SKU - increase character limit</p></li><li><p>Feature #4338: Ticket Receipt Dates -\u00a0add option to display &quot;entry date&quot; (date created)\u00a0on ticket receipt</p></li><li><p>Feature #4340: Ticket / Invoice Notifications -\u00a0make\u00a0ticket sms, ticket email, and all invoice notifications customizable</p></li><li><p>Feature #4345: Remove Carrier as a required field\u00a0for inventory items</p></li><li><p>Feature #4349: Change &quot;Apply&quot; button on Tax Rates page to read &quot;Apply Filters&quot;</p></li><li><p>Feature #4396: Add\u00a0Invoice Aging Report</p></li><li><p>Feature #4397: Add Receivables Report</p></li><li><p>Feature\u00a0#4273: Remove Inventory ID and Catalog number columns from list pages</p></li><li><p>Feature: Enterprise Invoicing\u00a0- add customizable invoice number (or po number) to Invoices</p></li><li><p>Bug #4235: System Log - Inventory Items - when multiple\u00a0tickets link to an inventory item, they are not properly reported in the log entry</p></li><li><p>Bug #4259: Enterprise Invoicing\u00a0- Customer/Billing Agent view/edit screen updates</p></li><li><p>Bug #4261: Enterprise Invoicing\u00a0- discount and totals issues</p></li><li><p>Bug #4286: Enterprise Invoicing - Deleted Billing Agents cannot be returned to active status</p></li><li><p>Bug: Enterprise Invoicing\u00a0- Deleted\u00a0Invoice\u00a0should\u00a0return tickets to &quot;waiting for payment&quot; status</p></li><li><p>Bug #4319: Inventory Item Log - Doesn't Load on 1.7.0</p></li><li><p>Bug #4339: Add invoicing support to aggregate reporting</p></li><li><p>Bug #4348: Edit Ticket - Scrollable Tables</p></li><li><p>Bug #4351: Missing items bug on purchase order edit</p></li><li><p>Bug #4359: Session Timeout - Users Could Tab and Select Items on the UI</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2040922126"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 430964964
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2040922126/child",
+    "restrictions": "/rest/api/content/2040922126/restriction/byOperation",
+    "history": "/rest/api/content/2040922126/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2040922126/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2040922126",
+    "webui": "/spaces/SCD/pages/2040922126/1.7.1",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2040922126",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040922126",
+    "tinyui": "/x/DgCmeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

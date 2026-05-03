@@ -1,0 +1,129 @@
+{
+  "id": "1934229806",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934229806",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDIyOTgwNg==",
+  "status": "current",
+  "title": "Integrated Payments Setup: Configuring a Bluefin PAX A80/A920 to Communicate with RepairQ",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:05.303Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "357",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934229806.21",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934229806"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934229806/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Integrated Payment systems give users a secure solution for accepting payments on a payment terminal and seamlessly posting those transactions to a RepairQ ticket. This streamlines the checkout process and reduces accounting errors when compared to manually recording payments on tickets.</p><p>After you have activated your device via the P2PE Device portal, you are ready to configure your PAX device settings to communicate with RepairQ.</p><h3 id=\"IntegratedPaymentsSetup:ConfiguringaBluefinPAXA80/A920toCommunicatewithRepairQ-PreviousSteps\">Previous Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786801/Integrated+Payments+Setup+Activate+Your+P2PE+Device\" data-linked-resource-id=\"1934786801\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Integrated Payments Setup: Activate Your P2PE Device</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:ConfiguringaBluefinPAXA80/A920toCommunicatewithRepairQ-NextSteps(BasedonYourProcessorandDevice)\">Next Steps (Based on Your Processor and Device)</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786847/Integrated+Payments+Setup+Adding+Bluefin+Credentials+in+RepairQ\" data-linked-resource-id=\"1934786847\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding Bluefin Credentials in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786687/Integrated+Payments+Setup+PAX+Security+Certificate+Installation+and+Testing\" data-linked-resource-id=\"1934786687\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Integrated Payments Setup: PAX Security Certificate Installation</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935376416/Integrated+Payments+Setup+Adding+a+Bluefin+PAX+Payment+Terminal+Device+in+RepairQ\" data-linked-resource-id=\"1935376416\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935769605/Integrated+Payments+Setup+Performing+a+Test+Transaction+with+a+PAX+Terminal+Device\" data-linked-resource-id=\"1935769605\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Integrated Payments Setup: Performing a Test Transaction with a PAX Terminal Device</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935507459/Integrated+Payment+Setup+Assigning+Your+PAX+Payment+Device+to+a+VCT+and+Processing+Payments\" data-linked-resource-id=\"1935507459\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payment Setup: Assigning Your PAX to a VCT and Processing Payments</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:ConfiguringaBluefinPAXA80/A920toCommunicatewithRepairQ-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935572993/PAX+Device+Troubleshooting+Change+the+LAN+Type+on+a+Bluefin+PAX+A80+A920\" data-linked-resource-id=\"1935572993\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX A80</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"IntegratedPaymentsSetup:ConfiguringaBluefinPAXA80/A920toCommunicatewithRepairQ-SettheDateandTimeonyourPAXA80\">Set the Date and Time on your PAX A80</h2><h3 id=\"IntegratedPaymentsSetup:ConfiguringaBluefinPAXA80/A920toCommunicatewithRepairQ-VerifytheDateandTimeoftheDevice\">Verify the Date and Time of the Device</h3><p>1. Exit any current applications. On the Android home screen, tap the <strong>Settings</strong> <strong>icon</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/A80%202.png?api=v2\"></span><p /><p>2. Enter your password, then tap <strong>OK</strong>. The default password is 9876 or pax9876@@. If neither of these passwords is accepted, contact Bluefin Support for assistance.</p><p /><p>3. Scroll down to the <strong>System</strong> section, and tap <strong>Date</strong> <strong>&amp;</strong> <strong>Time</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%202.png?api=v2\"></span><p /><p>4. Review the Date, Time, and Time Zone. If any of these are <strong>incorrect</strong>, continue with manually setting the date and time.</p><p /><h3 id=\"IntegratedPaymentsSetup:ConfiguringaBluefinPAXA80/A920toCommunicatewithRepairQ-ManuallySettingtheDateandTime\">Manually Setting the Date and Time</h3><p>1. Disable the <strong>Automatic Date &amp; Time</strong> and <strong>Automatic Time Zone toggle buttons</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%203.png?api=v2\"></span><p /><p>2. Make sure that the <strong>Date</strong> and <strong>Time</strong> settings are current. Tap each field to update the information.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%204.png?api=v2\"></span><p /><p>3. Select your Time Zone, and choose whether to use a 12 or 24-hour format.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%2011.png?api=v2\"></span><p /><p>4. After you are finished making changes, back out of all options and return to the Home Screen.</p><h2 id=\"IntegratedPaymentsSetup:ConfiguringaBluefinPAXA80/A920toCommunicatewithRepairQ-SetUpanEthernetConnection-PAXA80\">Set Up an Ethernet Connection - PAX A80</h2><p><strong>Note</strong>: For the most stable connectivity, your PAX device should be directly connected to your router. Network switches can interrupt connections and cause transactions to fail or not properly post to RepairQ tickets.</p><p /><p>1. On the Android home screen, tap the <strong>Settings</strong> <strong>Icon</strong>. Enter your password and select OK. The default password is 9876 or pax9876@@.\u00a0If neither of these passwords is accepted, contact Bluefin Support for assistance.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%201.png?api=v2\"></span><p /><p>2. Under the Wireless &amp; Networks section, tap <strong>Ethernet</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%205.png?api=v2\"></span><p /><p>3. Enable Ethernet by <strong>tapping the on/off switch</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%206.png?api=v2\"></span><p /><p>4. Plug in your ethernet cable. Your router should automatically assign an IP address to your device. Go ahead and write down your assigned IP address, since you will use it in a later step.</p><p /><p>5. Back out of all options and return to the Home Screen.</p><p /><h2 id=\"IntegratedPaymentsSetup:ConfiguringaBluefinPAXA80/A920toCommunicatewithRepairQ-SetupaWireless(WiFi)Connection-PAXA80/A920\">Set up a Wireless (WiFi) Connection - PAX A80/A920</h2><p><strong>We recommend that the PAX A80 device be connected directly to your router via ethernet cable</strong>, but if you are using Wi-Fi, we recommend connecting to your 2.4 GHz wireless connection to the internet, and your point-of-sale terminal must be able to connect to it over your local network.</p><p /><p>1. On the Android home screen, tap the <strong>Settings</strong> <strong>Icon</strong>. Enter your password and select OK. The default password is 9876 or pax9876@@.\u00a0If neither of these passwords is accepted, contact Bluefin Support for assistance.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%201.png?api=v2\"></span><p /><p>2. Under the Wireless &amp; Networks section, tap <strong>Wi-Fi</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%2013.png?api=v2\"></span><p /><p>3. Find your available network and tap on the name. Enter your password for the network and <strong>tap</strong> <strong>Connect</strong>. The device will connect to your network and assign your IP address.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229806/Config%208.png?api=v2\"></span><p /><p>4. Back out of all options and return to the Home Screen.</p><p /><h2 id=\"IntegratedPaymentsSetup:ConfiguringaBluefinPAXA80/A920toCommunicatewithRepairQ-OPTIONAL:ChangetheLANtypeonthedeviceBACKto&quot;StaticIP&quot;\">OPTIONAL: Change the LAN type on the device BACK to &quot;Static IP&quot;</h2><p>Depending on your local network, you may need to set your PAX device to use either Static LAN Mode or DHCP LAN mode. <strong>We strongly recommend using Static IP mode</strong> on your PAX device to prevent the IP address from changing unexpectedly and interrupting your payment processing. If your router assigns a new IP address to each device daily, weekly, monthly, etc, you will need to assign a static IP to the PAX. For more information on this process, check out our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935572993/PAX+Device+Troubleshooting+Change+the+LAN+Type+on+a+Bluefin+PAX+A80+A920\" data-linked-resource-id=\"1935572993\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX A80</a>.</p><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934229806"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934229806/child",
+    "restrictions": "/rest/api/content/1934229806/restriction/byOperation",
+    "history": "/rest/api/content/1934229806/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934229806/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934229806",
+    "webui": "/spaces/SCD/pages/1934229806/Integrated+Payments+Setup+Configuring+a+Bluefin+PAX+A80+A920+to+Communicate+with+RepairQ",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934229806",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934229806",
+    "tinyui": "/x/LgFKcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

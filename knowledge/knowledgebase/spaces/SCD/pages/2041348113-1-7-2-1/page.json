@@ -1,0 +1,129 @@
+{
+  "id": "2041348113",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2041348113",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA0MTM0ODExMw==",
+  "status": "current",
+  "title": "1.7.2.1",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:06:07.213Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 2,
+    "minorEdit": false,
+    "ncsStepVersion": "8",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2041348113.15",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2041348113"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2041348113/version/2"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Welcome to RepairQ Version 1.7.2.1!</p><p>Version 1.7.2.1 is a minor feature\u00a0release that introduces a new settings page where you can define which Customer Fields\u00a0are required fields, and there is a\u00a0new Customer Segment field (for customer records) accompanied by new Sales by Customer Segment reports.</p><h2 id=\"id-1.7.2.1-Release1.7.2.1Highlights\">Release 1.7.2.1 Highlights</h2><h3 id=\"id-1.7.2.1-CustomerRequiredFieldSettings\">Customer Required Field Settings</h3><p>We added a new settings section called \u201cValidation Rules,\u201d and in this section there is a new settings page where you can select which\u00a0Customer fields you want to enforce as required fields. You will see that \u201cCustomer Referral\u201d is enforced by default, but you can\u00a0remove it as a required field, or add additional fields as required. When a field is marked as required, anyone saving a customer or\u00a0a ticket\u00a0will be required to enter information for the required field(s) to proceed. Note that there is a minimum information requirement\u00a0for\u00a0customer information\u00a0that remains unchanged: RepairQ requires\u00a0a first name, last name, and primary phone number\u00a0to save the customer.</p><h3 id=\"id-1.7.2.1-CustomerSegment\">Customer Segment</h3><p>A new customer field was added called \u201cCustomer Segment.\u201d Along with the new field there are two\u00a0new Sales by Customer Segment reports, and there is a new settings page where you can define all of the Customer Segments\u00a0available for selection (similar to the Customer Referral Source options).</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2041348113"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 65933830
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2041348113/child",
+    "restrictions": "/rest/api/content/2041348113/restriction/byOperation",
+    "history": "/rest/api/content/2041348113/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2041348113/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2041348113",
+    "webui": "/spaces/SCD/pages/2041348113/1.7.2.1",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2041348113",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2041348113",
+    "tinyui": "/x/EYCseQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

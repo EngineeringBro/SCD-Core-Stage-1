@@ -1,0 +1,129 @@
+{
+  "id": "1933279270",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933279270",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI3OTI3MA==",
+  "status": "current",
+  "title": "Add Your Logo to Receipts and Invoices",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:23.045Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933279270.21",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933279270"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279270/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Users with an Admin role can customize receipts and invoices by uploading images and applying them to print/email templates as they see fit. Logos can be added at the Company level so they can be used in all locations, but they are applied at the Location level, since receipt/invoice templates may vary by location.</p><h3 id=\"AddYourLogotoReceiptsandInvoices-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936326777/Adding+Your+Company+Logo+to+RepairQ\" data-linked-resource-id=\"1936326777\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Adding Your Company Logo to RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361958/Print+Settings+-+Receipt+Template\" data-linked-resource-id=\"1932361958\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Print Settings - Receipts</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377656/Print+Settings+-+Invoices\" data-linked-resource-id=\"1933377656\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Print Settings - Invoices</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279270/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"AddYourLogotoReceiptsandInvoices-PrintTemplateBrandingSetup\">Print Template Branding Setup</h2><p>The first step in this process is preparing your logos on your computer. You may want to use different files for your receipts and invoices, but that is at your discretion. Make sure you have the files ready to upload into RepairQ.</p><p /><p>1. Navigate to <strong>Company Settings</strong> \u2192 <strong>Miscellaneous</strong> \u2192 <strong>Branding Image Library</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279270/Logo%20Print%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279270/Logo%20Print%202.png?api=v2\"></span><p /><p>2. Next, on the Logos page, click the <strong>Add (+) button</strong> on the right side.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279270/Logo%20Print%203.png?api=v2\"></span><p /><p>3. An <strong>Add Image</strong> pop-up will appear. If stored online, you can add the URL for the image. If you upload from your computer, you can drag and drop the file into the upload area or click <strong>Browse</strong> to select the image from a file.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279270/Logo%20Print%204.png?api=v2\"></span><p /><h2 id=\"AddYourLogotoReceiptsandInvoices-AddingaLogotoYourPrintTemplate\">Adding a Logo to Your Print Template</h2><p /><p>1. Once you have uploaded your images, navigate to <strong>Location Settings</strong> \u2192 <strong>Templates</strong> \u2192 <strong>Receipts</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279270/Logo%20Print%205.png?api=v2\"></span><p /><p>2. On the Print Templates page, look for the <strong>Logo</strong> section. Select the image file name you want to attach to your receipts. A preview of the image will appear, so you can verify your selection. Once you are satisfied with your selection, be sure to <strong>Save</strong> your changes at the bottom of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279270/Logo%20Print%206.png?api=v2\"></span><p /><p>3. When you print a receipt, the image will show at the top of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279270/Logo%20Print%208.png?api=v2\"></span><p /><p>4. You can repeat this process for Invoices and Email Receipts as well.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279270/Logo%20Print%209.png?api=v2\"></span><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933279270"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933279270/child",
+    "restrictions": "/rest/api/content/1933279270/restriction/byOperation",
+    "history": "/rest/api/content/1933279270/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933279270/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933279270",
+    "webui": "/spaces/SCD/pages/1933279270/Add+Your+Logo+to+Receipts+and+Invoices",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933279270",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279270",
+    "tinyui": "/x/JoA7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1936359430",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936359430",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjM1OTQzMA==",
+  "status": "current",
+  "title": "Integrated Printing 101: Downloading QZ Tray",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:15.132Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "124",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936359430.44",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936359430"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936359430/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ utilizes QZ Tray integration for seamless printing without navigating print dialogs. This provides users with a one-click printing process for receipts, invoices, and labels directly to their assigned printer. Users can also create and customize print automation for a hands-free process for printing, further streamlining your ticket workflow.</p><ul><li><p><strong>Effortless Printing</strong> - Skip the hassle of print dialogs and save time by generating receipts, invoices, and labels, through a single-click process.</p></li><li><p><strong>Streamlined Workflow</strong> - Automated Printing saves time and effort by reducing manual printing tasks and creating a smoother experience for the user and customer.</p></li><li><p><strong>Personalized Print Automation</strong> - Customize automation by directing different document types to specific printers (receipt, desk, label).</p></li></ul><p>Before installing QZ Tray, make sure all of your computers using this integration meet the <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936588827\" rel=\"nofollow\">Minimum System Requirements</a>. Once you have verified, continue below for setup resources. Once you have completed this process, please see our additional resources for further integration setup and troubleshooting.</p><h3 id=\"IntegratedPrinting101:DownloadingQZTray-NextSteps\">Next Steps</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936457750\" rel=\"nofollow\">Integrated Printing 102: Adding Integrated Printers</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936949270\" rel=\"nofollow\">Integrated Printing 103: Adding and Assigning Printer Configurations</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936392218\" rel=\"nofollow\">Integrated Printing 104: Adding Print Automation</a></p></li></ul><h3 id=\"IntegratedPrinting101:DownloadingQZTray-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934229707\" rel=\"nofollow\">Introduction to QZ Integrated Printing - Start Here!</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936588827/QZ+Printing+System+Requirements+and+Printer+Settings\" data-linked-resource-id=\"1936588827\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">QZ Integrated Printing System Requirements</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949301/Integrated+Printing+Troubleshooting\" data-linked-resource-id=\"1936949301\" data-linked-resource-version=\"17\" data-linked-resource-type=\"page\">Integrated Printing Troubleshooting</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869057/Recommended+Hardware+Troubleshooting+Resources\" data-linked-resource-id=\"1933869057\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Recommended Hardware Troubleshooting Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936588827\" rel=\"nofollow\">QZ Printing System Requirements and Printer Settings</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-182941.png?api=v2\"></span><h2 id=\"IntegratedPrinting101:DownloadingQZTray-DownloadingandInstallingQZ\">Downloading and Installing QZ</h2><p>By default, RepairQ sends print jobs to your printer through a browser dialog. To print from your browser, you need to connect your printer to your computer. This step exists outside of RepairQ since the pairing exists between your OS and your printer. If you need assistance with this process, check out our <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869057/Recommended+Hardware+Troubleshooting+Resources\" data-linked-resource-id=\"1933869057\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Recommended Hardware Resources</a>.</p><p /><p>1. Log in to the location you would like to activate integrated printing. From the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-182947.png?api=v2\"></span><p /><p>2. On the Settings Overview page, click <strong>Integrations</strong> under the Account section. Alternatively, you can find Integrations under the Account settings dropdown on the left column.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-182952.png?api=v2\"></span><p /><p>3. On the Integration page, look for the Available Integrations settings and click <strong>QZ Printing</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183000.png?api=v2\"></span><p /><p>4. On the QZ Integration page, click <strong>Download QZ</strong>. This will open a new window with download options for your operating system. Windows, Mac OS, and Linux are all supported.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183006.png?api=v2\"></span><p /><p>5. Download the latest version of the <strong>QZ Tray application \u2014 v2.2.1</strong>. We recommend downloading approved versions, rather than pre-release versions, so if you need you download a previous version of QZ, see the <a class=\"external-link\" href=\"https://github.com/qzind/tray/tags\" rel=\"nofollow\">QZ Archive page</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183012.png?api=v2\"></span><p /><p>6. Open the downloaded installer to install QZ Tray on your computer. The installer will walk you through the installation steps.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183023.png?api=v2\"></span><p /><p>7. Once you have installed the QZ Tray application on your computer, the application should start running. Depending on your computer's OS, you will see a small <strong>QZ receipt printer icon</strong> on your application tray/status bar.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183030.png?api=v2\"></span><p /><p>8. Click the <strong>QZ Tray Icon</strong> and select <strong>About\u00a0</strong>to get your current version details.</p><h3 id=\"IntegratedPrinting101:DownloadingQZTray-Windows10andHigher\">Windows 10 and Higher</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183036.png?api=v2\"></span><h3 id=\"IntegratedPrinting101:DownloadingQZTray-macOS\">macOS</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183043.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"446\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183049.png?api=v2\"></span><p /><p>9. Go back to your QZ Integration settings in RepairQ. Check the box next to <strong>Enable Integrated Printing.\u00a0</strong>Next, select the QZ Tray Version that matches your installed version, and click <strong>Save QZ Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183056.png?api=v2\"></span><p /><p>10. When navigating to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>, the Settings Overview page includes new options for Integrated Printing. The dropdown has new sections for adding your Integrated Printers, creating Print Configurations, and customizing Print Automation.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359430/image-20230608-183102.png?api=v2\"></span><h3 id=\"IntegratedPrinting101:DownloadingQZTray-NextStep:AddingIntegratedPrinters\">Next Step: <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936457750\" rel=\"nofollow\">Adding Integrated Printers</a></h3><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936359430"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936359430/child",
+    "restrictions": "/rest/api/content/1936359430/restriction/byOperation",
+    "history": "/rest/api/content/1936359430/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936359430/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936359430",
+    "webui": "/spaces/SCD/pages/1936359430/Integrated+Printing+101+Downloading+QZ+Tray",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936359430",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936359430",
+    "tinyui": "/x/BoBqcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

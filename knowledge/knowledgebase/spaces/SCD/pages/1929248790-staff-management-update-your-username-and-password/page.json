@@ -1,0 +1,129 @@
+{
+  "id": "1929248790",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1929248790",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkyOTI0ODc5MA==",
+  "status": "current",
+  "title": "Staff Management: Update Your Username and Password",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:51.172Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "2",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1929248790.75",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1929248790"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1929248790/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>There are several reasons why you might need to update your staff Username or PIN/password for logging into RepairQ. Whether you've forgotten your credentials, need to enhance security, or are simply updating account details, our software makes the process straightforward.</p><p>Users with the <strong>Manager</strong> role or higher can assist in updating these credentials directly within RepairQ. Alternatively, staff members can use the <strong>Password Reset</strong> option on the login screen to securely update their password without assistance.</p><h3 id=\"StaffManagement:UpdateYourUsernameandPassword-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929379890\" rel=\"nofollow\">Staff Management: Add and Deactivate Staff Profiles</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921099\" rel=\"nofollow\">Getting Started: Login and User Profile Management</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936785488\" rel=\"nofollow\">Staff Management Resources (with Video)</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928986634\" rel=\"nofollow\">Getting Started: Clock In/Out of RepairQ</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929248790/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"StaffManagement:UpdateYourUsernameandPassword-ChangeYourUsernameandPassword\">Change Your Username and Password</h2><p /><p>A user with an Admin or Manager role will need to log into RepairQ. On the Navigation Bar, go to <strong>Staff</strong> \u2192 <strong>View Staff</strong>. On the Staff Overview page, locate the user that needs changes made. Under the Actions column, click <strong>Edit</strong>.</p><p><strong>Note:</strong> If you are working with a large number of users, there are filters on the left column of the Staff Overview page to locate a specific Staff Member.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Update Password 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929248790/Update%20Password%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Update Password 2.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929248790/Update%20Password%202.png?api=v2\"></span><p /><p>Scroll down to the <strong>Login Information</strong> section and edit/enter the new Username and/or PIN. Make sure any other required fields are filled out. Once you are satisfied with your changes, click the <strong>Save</strong> button to update your settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Update Password 3.png\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929248790/Update%20Password%203.png?api=v2\"></span><p /><p>You can view any changes made to a User Profile by viewing the Change Log at the bottom of the Staff Management page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Update Password 4.png\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929248790/Update%20Password%204.png?api=v2\"></span><hr/><h2 id=\"StaffManagement:UpdateYourUsernameandPassword-ResetYourPassword\">Reset Your Password</h2><p>If you have forgotten your PIN/Password, you can reset your password via an email link.</p><p /><p>Open your web browser and navigate to your store's URL. Your RepairQ URL will be similar to <em>https:businessname.repairq.io</em> or <em>401b-ca1001.repairq.io</em>. On the login screen, click the <strong>&quot;Forgot Password?&quot; </strong>link next to the Login button.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Reset Password 1.png\" width=\"485\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929248790/Reset%20Password%201.png?api=v2\"></span><p /><p>Enter the email address associated with your Staff Profile and click <strong>Recover</strong>. You should receive an email with a link to reset your password within a few minutes. If you don't see the email, be sure to check your spam folder. Follow the link and establish a new PIN/Password. Your PIN can be numeric or alphanumeric, based on your preference. After you have established a new PIN, you can log into RepairQ.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Reset Password 2.png\" width=\"314\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1929248790/Reset%20Password%202.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1929248790"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1929248790/child",
+    "restrictions": "/rest/api/content/1929248790/restriction/byOperation",
+    "history": "/rest/api/content/1929248790/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1929248790/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1929248790",
+    "webui": "/spaces/SCD/pages/1929248790/Staff+Management+Update+Your+Username+and+Password",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1929248790",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1929248790",
+    "tinyui": "/x/FgD_cg",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

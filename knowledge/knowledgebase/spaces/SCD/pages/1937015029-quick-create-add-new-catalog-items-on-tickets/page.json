@@ -1,0 +1,129 @@
+{
+  "id": "1937015029",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1937015029",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNzAxNTAyOQ==",
+  "status": "current",
+  "title": "Quick Create: Add New Catalog Items on Tickets",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:55.409Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "194",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1937015029.32",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1937015029"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937015029/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Catalog Quick Create allows users to create new catalog items directly from purchase orders and tickets. The field details for adding a Catalog Item may differ depending on the customization of your item. For a detailed explanation of these fields, check out our <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932623898\" rel=\"nofollow\">RepairQ Catalog Overview</a>. You will need to set up the Quick Create feature before you can create catalog items on a ticket.</p><p>There are a few things to remember for Quick Create items:</p><ul><li><p>Items are created at the Global level, i.e. all locations will have access to this catalog item.</p></li><li><p>All roles that have access to creating tickets can quick-create catalog items.</p></li><li><p>Admins can choose which Item Types are used for Quick Create.</p></li></ul><h3 id=\"QuickCreate:AddNewCatalogItemsonTickets-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261290\" rel=\"nofollow\">Catalog Quick Create: Activation</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425167\" rel=\"nofollow\">Quick Create: Add New Catalog Items on Purchase Orders</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937473555\" rel=\"nofollow\">Quick Create: Catalog Item Created Context</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416\" rel=\"nofollow\">Purchase Order Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494512\" rel=\"nofollow\">Creating a Quick Sale Ticket</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937015029/image-20230607-171226.png?api=v2\"></span><h2 id=\"QuickCreate:AddNewCatalogItemsonTickets-QuickCreateaCatalogItemonaQuickSaleTicket\">Quick Create a Catalog Item on a Quick Sale Ticket</h2><p>On the Navigation Bar, go to <strong>Tickets</strong> \u2192  <strong>+Quick Sale</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937015029/image-20230607-171240.png?api=v2\"></span><p /><p>Under the Ticket Items section of the ticket, use the Smart Search box to search your catalog for an existing item. If you do not find a matching item in the existing catalog, click the <strong>+Create New button</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937015029/image-20230607-171634.png?api=v2\"></span><p /><p>On the Create Catalog Item pop-up, fill out the <strong>General Information tab fields</strong>. At a minimum, fill out all of the required fields, marked by an asterisk (*). Feel free to add as much additional information as you can provide in the General Information and Additional Details sections. Additional details can be updated later by editing the catalog item. Once you have added the Catalog Item details, click <strong>Create Catalog Item</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937015029/image-20230607-171646.png?api=v2\"></span><ul><li><p><strong>Name*</strong> - Assign a unique name to the catalog item.</p></li><li><p><strong>SKU</strong>\u00a0- (Stock Keeping Unit) Assign a user-defined identifier to assist with keyword searching this item.</p></li><li><p><strong>Item Type*</strong> - Assign an item type to this item. <strong>This cannot be changed after creating the Catalog Item.</strong></p></li><li><p><strong>Manufacturer*</strong> - Assign a manufacturer for this item.</p></li><li><p><strong>Price*</strong> - Assign the amount that will be charged to the customer when purchasing this item.</p></li><li><p><strong>Notes</strong> - Add any notes related to the catalog item.</p></li><li><p><strong>Is item inventoried?*</strong> - Will you keep this item in your physical inventory? If so, you will need to keep an active quantity of this item to sell/use on tickets.\u00a0</p></li><li><p><strong>Is this item always serialized?*</strong> - If serialized, this item will require a unique serial number when adding to or leaving your inventory. <strong>This cannot be changed after creating the Catalog Item.</strong></p></li><li><p><strong>Do you have items to stock?</strong> - Do you have an available inventory of this item to sell? If yes, after creating the item, you will be able to update the onhand stock of this item.</p></li><li><p><strong>Is item repairable?</strong> - If marked repairable, this item can be added as the repair device on Repair Tickets.</p></li></ul><h3 id=\"QuickCreate:AddNewCatalogItemsonTickets-AddingStockforInventoriedItems\">Adding Stock for Inventoried Items</h3><p>If you mark the Catalog Item as inventoried and you have items to stock, you will be taken to the Add Stock screen to update your onhand quantity for the item. Continue filling out all of the required fields, marked by an asterisk (*), and click <strong>Add</strong> <strong>Stock</strong> once you have made the appropriate changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937015029/image-20230607-171708.png?api=v2\"></span><ul><li><p><strong>Restock</strong> <strong>Quantity*</strong> - Enter the stock quantity of the item.</p></li><li><p><strong>Supplier*</strong> - Select the supplier source of the item.</p></li><li><p><strong>Supplier</strong> <strong>SKU</strong> - Add the Supplier SKU for your catalog item. This is helpful when creating future Purchase Orders.</p></li><li><p><strong>Cost</strong> - Enter the cost of this item. We highly recommend entering the cost of the item now or applying a Cost Override on the ticket item before closing. Once an item has been sold, the details cannot be changed, and this could affect your COGS reporting.</p></li><li><p><strong>Price</strong> - Enter the price that you will charge the customer for this item/service.</p></li><li><p><strong>Status</strong> - Select the inventory status of the item. You can only sell the item if it is marked Instock.</p></li><li><p><strong>Condition</strong> - Enter the condition of the item.</p></li><li><p><strong>Notes</strong> - Add any additional notes for this item.</p></li></ul><h3 id=\"QuickCreate:AddNewCatalogItemsonTickets-AddingStockforSerializedItems\">Adding Stock for Serialized Items</h3><p>If you added a serialized item, you will need to enter the serial number(s) for each device before updating the stock quantity. The number of listed serial numbers should be equal to the stock quantity. Continue filling out all of the required fields, marked by an asterisk (*), and click <strong>Add</strong> <strong>Stock</strong> once you have made the appropriate changes.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937015029/image-20230607-171718.png?api=v2\"></span><ul><li><p><strong>Restock Quantity*</strong> - Enter the stock quantity of the item.</p></li><li><p><strong>Serial Numbers*</strong> - If you mark this item as a serialized item, you will be required to enter the serial numbers for each item you will stock. Serial Numbers are comma-separated and will need to equal the restock quantity that you have entered in the previous field.</p></li><li><p><strong>Supplier*</strong> - Select the supplier source of the item.</p></li><li><p><strong>Supplier SKU</strong> - Add the Supplier SKU for your catalog item. This is helpful when creating future Purchase Orders.</p></li><li><p><strong>Cost</strong> - Enter the cost of this item. We highly recommend entering the cost of the item now or applying a Cost Override on the ticket item before closing. Once an item has been sold, the details cannot be changed, and this could affect your COGS reporting.</p></li><li><p><strong>Price</strong> - Enter the price that you will charge the customer for this item/service.</p></li><li><p><strong>Status</strong> - Select the inventory status of the item. You can only sell the item if it is marked Instock.</p></li><li><p><strong>Condition*</strong> - Enter the condition of the item.</p></li><li><p><strong>Notes</strong> - Add any additional notes for this item.</p></li></ul><p><strong>Note</strong>: You can create additional catalog items by following Steps 2-4 as many times as necessary.</p><p /><p>Once you have finished creating the Catalog Item, it will be added to the ticket. If you added stock of an inventory item, one will be pulled from the on-hand quantity and added to the ticket in Pulled status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937015029/image-20230607-171727.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1937015029"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1937015029/child",
+    "restrictions": "/rest/api/content/1937015029/restriction/byOperation",
+    "history": "/rest/api/content/1937015029/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1937015029/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1937015029",
+    "webui": "/spaces/SCD/pages/1937015029/Quick+Create+Add+New+Catalog+Items+on+Tickets",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1937015029",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937015029",
+    "tinyui": "/x/9YB0cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

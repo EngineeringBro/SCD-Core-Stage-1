@@ -1,0 +1,129 @@
+{
+  "id": "1933803641",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933803641",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzgwMzY0MQ==",
+  "status": "current",
+  "title": "Virtual Cash Terminal (VCT) Cash Transfers",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:17.317Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 10,
+    "minorEdit": false,
+    "ncsStepVersion": "115",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933803641.44",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933803641"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803641/version/10"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>There may be situations where you need to transfer cash from a Virtual Cash Terminal (VCT), such as moving cash to a safe or making payouts to reimburse for services or supplies. Users with a Shift Lead, Manager, or higher role can perform these tasks, including transferring cash between VCTs or pulling cash from a VCT.</p><h3 id=\"VirtualCashTerminal(VCT)CashTransfers-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2717089793\" rel=\"nofollow\">Virtual Cash Terminal (VCT) Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933901843/Virtual+Cash+Terminal+VCT+Setup\" data-linked-resource-id=\"1933901843\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Setting up a Virtual Cash Terminal (VCT)</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933639827\" rel=\"nofollow\">Assign a Virtual Cash Terminal (VCT) to Accept Payments</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541484/Configuring+a+Cash+Drawer+to+Open+Automatically+When+a+Receipt+is+Printed\" data-linked-resource-id=\"1933541484\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">Configure a Cash Drawer to Open Automatically When a Receipt is Printed</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541639/Close+Reconcile+a+Virtual+Cash+Terminal\" data-linked-resource-id=\"1933541639\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Closing a Virtual Cash Terminal (VCT)</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229524/Reports+Cash+Reconciliation\" data-linked-resource-id=\"1934229524\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Reports: Cash Reconciliation</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803641/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"VirtualCashTerminal(VCT)CashTransfers-PerformaCashTransfer\">Perform a Cash Transfer</h2><p>Log into a computer with <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933639827/Assign+a+Virtual+Cash+Terminal+VCT+to+Accept+Payments\" data-linked-resource-id=\"1933639827\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">an assigned VCT.</a> On the Navigation Bar, click the <strong>Location Short Name</strong> to expand a list of options. On the dropdown, click <strong>Cash Transfer</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803641/Transfer%201.png?api=v2\"></span><p /><p>On the Cash Transfer pop-up, fill out the necessary information including whether you are adding or removing funds from the VCT, the Amount, the Destination or Source, and any notes for the transfer. Click <strong>Transfer Cash</strong> to confirm the transfer. A confirmation alert will notify you of the new cash balance of the VCT.</p><ul><li><p><strong>Add/Remove</strong> - Select whether you are adding cash to this VCT or removing cash from this VCT.</p></li><li><p><strong>Amount </strong>- Enter the amount that will be added to the VCT or subtracted from the VCT.</p></li><li><p><strong>From Source/To Destination</strong> - Select the Source when adding cash to the VCT or the Destination if removing cash from the VCT.</p><ul><li><p><strong>Open VCT</strong> - Cash can only be transferred between VCTs when multiple terminals are assigned. </p></li><li><p><strong>Not a VCT</strong> - Use when transferring to an outside source (Safe, Bank Deposit, etc.).</p></li></ul></li><li><p><strong>Notes </strong>- Add any additional notes to help log details about the transfer.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803641/Transfer%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803641/Transfer%205.png?api=v2\"></span><p /><h3 id=\"VirtualCashTerminal(VCT)CashTransfers-ReconciliationReportCashTransfers\">Reconciliation Report Cash Transfers</h3><p>When <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541639/Close+Reconcile+a+Virtual+Cash+Terminal\" data-linked-resource-id=\"1933541639\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">closing your VCT</a>, any transfers will be recorded in the Transfers tab of the Reconciliation Report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803641/Transfer%206.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933803641"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933803641/child",
+    "restrictions": "/rest/api/content/1933803641/restriction/byOperation",
+    "history": "/rest/api/content/1933803641/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933803641/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933803641",
+    "webui": "/spaces/SCD/pages/1933803641/Virtual+Cash+Terminal+VCT+Cash+Transfers",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933803641",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803641",
+    "tinyui": "/x/eYBDcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

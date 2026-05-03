@@ -1,0 +1,129 @@
+{
+  "id": "1933377743",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933377743",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzM3Nzc0Mw==",
+  "status": "current",
+  "title": "Customer Search",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:59.747Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 14,
+    "minorEdit": false,
+    "ncsStepVersion": "5209",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933377743.59",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933377743"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933377743/version/14"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Customer Profiles are an essential feature of RepairQ, allowing users to link Ticket history to individual profiles. This capability allows for efficient tracking of customer purchases, device repairs, and trade-ins, making it easy to access records for returns, warranty claims, and more.</p><p>By default, Admins can search for Customer Profiles from all locations, active or inactive. Staff can search for profiles from all stores where they have a role assignment, and across all locations, depending on the customer settings.</p><p>Our Quick-Search feature allows users to search for customers from any page within RepairQ. Additionally, the Customer List offers robust filtering options, enabling users to find customers or groups of customers by keyword or category. Filters can be applied based on your location role assignments, all locations (including deactivated ones), customer segments, referral sources, and more, ensuring you have the information you need at your fingertips.</p><h3 id=\"CustomerSearch-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344786/Creating+a+Customer+Profile\" data-linked-resource-id=\"1933344786\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Creating a Customer Profile</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Managing Customer Profiles</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2009006115\" rel=\"nofollow\">Deactivating a Location: Frequently Asked Questions</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2602893319\" rel=\"nofollow\">Customer General Settings</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CustomerSearch-SearchCustomersviatheQuick-SearchBar\">Search Customers via the Quick-Search Bar</h2><p>Below the right side of the Navigation Bar, click the <strong>Contacts button </strong>on the Search Bar. In the Search Box, type the customer's First Name, Last Name, Phone Number, or Email address, and click <strong>Go</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Customer%20Search%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Customer%20Search%202.png?api=v2\"></span><p /><p>If there is a matching entry for the customer, you will be directed to their Customer Profile page, where you can view ticket and repair device history, make credit adjustments, and more. If your search returns multiple results, you are directed to the Customer List, where the results will be listed.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Customer%20Search%203.png?api=v2\"></span><h2 id=\"CustomerSearch-CustomerListSearch\">Customer List Search</h2><p>On the Navigation Bar, go to <strong>Customers</strong> \u2192 <strong>View Customers</strong>. When viewing the Customer List, you can set a filter to search for customers by various fields: Created Date, Location, Referral Method, Segment, Deleted Customers, and more.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"590\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Customer%20Search%206.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"590\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Customer%20Search%207.png?api=v2\"></span><p /><p>Add keywords to search by customer Name, Phone Number, Email, Company, or Loyalty ID. Once you have added filters and keywords, click <strong>Apply</strong>. A list of customers that match your terms will be listed.</p><p><strong>Note:</strong>\u00a0If there is a single matching entry for the customer, you will be directed to their Customer Profile page, where you can view ticket and repair device history, make credit adjustments, and more. Depending on the specificity of your search, there may be multiple pages of results.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Customer%20Search%208.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Customer%20Search%2010.png?api=v2\"></span><h3 id=\"CustomerSearch-SearchingForCustomerProfilesforAllLocations(DeactivatedIncluded)\">Searching For Customer Profiles for All Locations (Deactivated Included)</h3><p>When viewing the Customer List, users can view results for all locations on the database, regardless of a user\u2019s location assignment or a location\u2019s active status.</p><p><strong>Note</strong>: If you do not want to share Customer Profiles between locations, this filter can be turned off in Customer General Settings. Users can only view results where they have a role assignment.</p><h3 id=\"CustomerSearch-LocationFilter\">Location Filter</h3><p>This filter allows you to search for Customer Profiles for any location where you have a location assignment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Search Customers 5.png\" width=\"590\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Search%20Customers%205.png?api=v2\"></span><h3 id=\"CustomerSearch-\u201cSearchAllLocations\u201dFilter\">\u201cSearch All Locations\u201d Filter</h3><p>This filter differs from \u201cLocation\u201d and allows you to search for Customer Profiles from all locations on the database, regardless of location assignment and active status. When selected, \u201cSearch All Locations\u201d will replace your Location Filter since the results include all locations on the database.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Search Customers 1.png\" width=\"590\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Search%20Customers%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Search Customers 2.5.png\" width=\"590\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Search%20Customers%202.5.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Search Customers 2.png\" width=\"590\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377743/Search%20Customers%202.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933377743"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933377743/child",
+    "restrictions": "/rest/api/content/1933377743/restriction/byOperation",
+    "history": "/rest/api/content/1933377743/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933377743/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933377743",
+    "webui": "/spaces/SCD/pages/1933377743/Customer+Search",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933377743",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933377743",
+    "tinyui": "/x/zwA9cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

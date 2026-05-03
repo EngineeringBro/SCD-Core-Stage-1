@@ -1,0 +1,129 @@
+{
+  "id": "1936425167",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936425167",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjQyNTE2Nw==",
+  "status": "current",
+  "title": "Quick Create: Add New Catalog Items on Purchase Orders",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:57.998Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "90",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936425167.31",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936425167"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936425167/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Catalog Quick Create allows users to create new catalog items directly from purchase orders and tickets. The field details for adding a Catalog Item may differ depending on the customization of your item. For a detailed explanation of these fields, check out our <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932623898/Introduction+to+the+Catalog+-+Start+Here+with+video\" data-linked-resource-id=\"1932623898\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">RepairQ Catalog Overview</a>. You will need to set up the Quick Create feature before you are able to create catalog items on a Purchase Order (PO). This tutorial will guide you through the process of adding a new Catalog Item while creating a PO.</p><p>There are a few things to remember for Quick Create items:</p><ul><li><p>Items are created at the Global level, i.e. all locations will have access to this catalog item.</p></li><li><p>All roles that have access to creating POs can quick-create catalog items.</p></li><li><p>Admins can choose which Item Types are used for Quick Create.</p></li></ul><h3 id=\"QuickCreate:AddNewCatalogItemsonPurchaseOrders-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261290/Catalog+Quick+Create+Activation\" data-linked-resource-id=\"1936261290\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Catalog Quick Create: Activation</a>  </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937015029/Quick+Create+Add+New+Catalog+Items+on+Tickets\" data-linked-resource-id=\"1937015029\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Quick Create: Add New Catalog Items on Tickets</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932722231/Purchase+Order+Process+Creating+a+New+Purchase+Order\" data-linked-resource-id=\"1932722231\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Purchase Order Process: Creating a New Purchase Order</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937473555/Quick+Create+Catalog+Item+Created+Context\" data-linked-resource-id=\"1937473555\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Quick Create: Catalog Item Created Context</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936425167/image-20230607-171935.png?api=v2\"></span><h2 id=\"QuickCreate:AddNewCatalogItemsonPurchaseOrders-QuickCreateaCatalogItemonaPurchaseOrder\">Quick Create a Catalog Item on a Purchase Order</h2><p /><p>1. On the Navigation Bar, go to <strong>Inventory</strong> \u2192  <strong>+Purchase Order</strong> to create a new PO.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936425167/image-20230607-171942.png?api=v2\"></span><p /><p>2. On the Purchase Order creation screen, assign a Supplier for the PO.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936425167/image-20230607-171948.png?api=v2\"></span><p /><p>3. Under the Add Items To The Purchase Order section of the page, use the Smart Search box to search your catalog for an item. If you do not find a matching item in the existing catalog, click the <strong>+Create New button</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936425167/image-20230607-171959.png?api=v2\"></span><p /><p>4. On the Create Catalog Item pop-up, begin filling out the fields on the <strong>General Information tab</strong>. At a minimum, fill out all of the required fields, marked by an asterisk (*). Feel free to add as much additional information as you can provide in the General Information and Additional Details sections. Additional details can be updated later by editing the catalog item.</p><ul><li><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936425167/image-20230607-172008.png?api=v2\"></span><p><strong>Name*</strong> - Assign a unique name to the catalog item.</p></li><li><p><strong>SKU</strong>\u00a0- (Stock Keeping Unit) Assign a user-defined identifier to assist with keyword searching this item.</p></li><li><p><strong>Item Type*</strong> - Assign an item type to this item. This cannot be changed after the item is linked to a PO or ticket.</p></li><li><p><strong>Manufacturer*</strong> - Assign a manufacturer for this item.</p></li><li><p><strong>Price*</strong> - Assign the amount that will be charged to the customer when purchasing this item.</p></li><li><p><strong>Notes</strong> - Add any notes related to the catalog item.</p></li><li><p><strong>Is this item always serialized?*</strong> - If serialized, this item will require a unique serial number when adding to or leaving your inventory.</p></li><li><p><strong>Is item repairable?</strong> - If marked repairable, this item can be added as the repair device on Repair Tickets.</p></li></ul><p><strong>Note</strong>: Since you are creating a Purchase Order for this new item, it will be marked as inventoried by default.\u00a0</p><p /><p>5. Once you have added the Catalog Item details, click <strong>Create Catalog Item</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"217\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936425167/image-20230607-172017.png?api=v2\"></span><p /><p><strong>Note</strong>: You can create additional catalog items by following Steps 3-5 as many times as necessary.</p><p /><p>6. Now that you are back on the New Purchase Order screen, click the <strong>Item List tab</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936425167/image-20230607-172030.png?api=v2\"></span><p /><p>7. You will see the new Catalog Item in the Item List. Update the Reorder Amount (ROA) and add information to any other fields as needed. Click <strong>Order</strong> <strong>Items</strong> to create the PO.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936425167/image-20230607-172038.png?api=v2\"></span><p /><p>8. Once your PO has been created, you can follow the standard process to receive and reconcile your items.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936425167/image-20230607-172045.png?api=v2\"></span><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936425167"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936425167/child",
+    "restrictions": "/rest/api/content/1936425167/restriction/byOperation",
+    "history": "/rest/api/content/1936425167/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936425167/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936425167",
+    "webui": "/spaces/SCD/pages/1936425167/Quick+Create+Add+New+Catalog+Items+on+Purchase+Orders",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936425167",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936425167",
+    "tinyui": "/x/z4Brcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

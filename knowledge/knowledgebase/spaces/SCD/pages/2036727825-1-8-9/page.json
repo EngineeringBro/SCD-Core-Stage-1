@@ -1,0 +1,130 @@
+{
+  "id": "2036727825",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2036727825",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzNjcyNzgyNQ==",
+  "status": "current",
+  "title": "1.8.9",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-27T16:49:56.173Z",
+    "friendlyWhen": "Jul 27, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "14",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2036727825.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2036727825"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036727825/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 10/03/16 at 1PM CT</p><p>This is a minor release with a few bug fixes.</p><h3 id=\"id-1.8.9-ReturnRepairswithSerializedItems\">Return Repairs with Serialized Items</h3><p>When attempting to replace a serialized item on a return repair ticket, the ticket save would fail\u00a0due to the error\u00a0&quot;Failed to create new inventory item for return.&quot;\u00a0This issue has been fixed.</p><h3 id=\"id-1.8.9-StaffPickLists\">Staff Pick Lists</h3><p>Some staff\u00a0pick-lists/select-boxes were not sorted alphabetically by name.\u00a0Pick lists are now sorted alphabetically.</p><h3 id=\"id-1.8.9-OptimizeLoadingCustomerDevices\">Optimize Loading Customer Devices</h3><p>Customers with thousands of devices would load\u00a0significantly slower than customers with only a few devices. The affected the customer view screen, tickets that the customer was associated with, and the customer search on tickets.\u00a0We have optimized the loading of customer devices, and now these customers will load as quickly as any other customer.</p><h3 id=\"id-1.8.9-TicketImport-BillingAgentID\">Ticket Import - Billing Agent ID</h3><p>The Ticket Import feature now accepts the Billing Agent ID as a matching value.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2036727825"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 33934141
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2036727825/child",
+    "restrictions": "/rest/api/content/2036727825/restriction/byOperation",
+    "history": "/rest/api/content/2036727825/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2036727825/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2036727825",
+    "webui": "/spaces/SCD/pages/2036727825/1.8.9",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2036727825",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036727825",
+    "tinyui": "/x/EQBmeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

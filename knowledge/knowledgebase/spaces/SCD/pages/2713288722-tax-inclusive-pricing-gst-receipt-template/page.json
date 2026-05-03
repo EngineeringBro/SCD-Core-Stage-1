@@ -1,0 +1,129 @@
+{
+  "id": "2713288722",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2713288722",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjcxMzI4ODcyMg==",
+  "status": "current",
+  "title": "Tax-inclusive Pricing: GST Receipt Template",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:01:57.994Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 2,
+    "minorEdit": false,
+    "ncsStepVersion": "819",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2713288722.61",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2713288722"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2713288722/version/2"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Print Templates allow you to choose which information appears on invoices and receipts. Certain information may be required on these documents for companies subject to GST/VAT or similar tax laws. This article will guide you through updating these details in RepairQ to ensure they are visible to your customers.</p><p>In the examples below, we'll focus on GST-friendly labeling. However, you can customize the names of these fields according to your preferences. Please note that these changes are purely visual and will not affect the pricing calculations.</p><p><strong>Note:</strong> Template settings can only be applied at the Location level, so you'll need to repeat this process for each location using tax-inclusive pricing. Be sure to save any changes before leaving the page.</p><h3 id=\"Tax-inclusivePricing:GSTReceiptTemplate-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1986560182\" rel=\"nofollow\">Tax-inclusive Pricing: GST Invoice Template</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1986035723\" rel=\"nofollow\">Tax-inclusive Pricing: Customize Ticket Display</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933410332\" rel=\"nofollow\">Setting up and Assigning Tax Rates</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1984823420\" rel=\"nofollow\">Tax-inclusive Pricing: Company and Location Setup</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1986560223\" rel=\"nofollow\">Tax-inclusive Pricing Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932394639\" rel=\"nofollow\">Tax-inclusive Pricing on Tickets</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713288722/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Tax-inclusivePricing:GSTReceiptTemplate-IncludeTaxIDandTax-inclusiveInformationonReceipts\">Include Tax ID and Tax-inclusive Information on Receipts</h2><p>On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Location Settings</strong>. On the Settings Overview page, under the Templates section, click <strong>Receipts</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"GST ReceiptsInvoice 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713288722/GST%20ReceiptsInvoice%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"GST Receipts 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713288722/GST%20Receipts%201.png?api=v2\"></span><p /><p>On the <strong>Receipt Template</strong> page, you can customize which details will be printed on your invoices. Use your discretion to include relevant fields that best suit your needs. For this demonstration, we will focus on highlighting GST-specific fields. Once you\u2019ve made your customizations, don't forget to click <strong>Save</strong> to apply your changes.</p><h3 id=\"Tax-inclusivePricing:GSTReceiptTemplate-TicketSettings\">Ticket Settings</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"GST Receipts 2.png\" width=\"434\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713288722/GST%20Receipts%202.png?api=v2\"></span><ul><li><p><strong>Ticket Items </strong>- Select this option to include a line detail for ticket items.</p></li><li><p><strong>Line Item Price/Tax Display</strong> - Select how line item prices and taxes appear on the invoice.</p><ul><li><p>For GST Customers, we recommend selecting <strong>Tax-inclusive: show tax-inclusive price, effective after-tax discount, etc</strong>.</p></li></ul></li><li><p><strong>Effective AFter-tax Discount</strong> - The total of any discounts applied toward ticket items.</p><ul><li><p>For GST, we recommend using \u2018Discount (Inc GST).\u2019</p></li></ul></li><li><p><strong>Tax </strong>- This is the total for all taxes applied to the ticket items.</p><ul><li><p>For GST, we recommend using \u2018GST.\u2019</p></li></ul></li></ul><h3 id=\"Tax-inclusivePricing:GSTReceiptTemplate-TicketTotals\">Ticket Totals</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"GST ReceiptsInvoice 6.png\" width=\"426\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713288722/GST%20ReceiptsInvoice%206.png?api=v2\"></span><ul><li><p><strong>Tax-Inclusive Ticket Total Without Discounts</strong> - This includes the price of all items on the ticket before discounts are applied.</p><ul><li><p>For GST, we recommend using \u2018Subtotal (Inc GST).\u2019</p></li></ul></li><li><p><strong>Total Effective After-Tax Discount</strong> - The total of any discounts applied toward ticket items.</p><ul><li><p>For GST, we recommend using 'Discount (Inc GST).'</p></li></ul></li></ul><hr/><h2 id=\"Tax-inclusivePricing:GSTReceiptTemplate-ViewingaReceiptAfterCustomization\">Viewing a Receipt After Customization</h2><p>After saving your template, you can print a receipt from the <strong>Ticket View</strong> page. The fields will be updated to reflect your recent changes.</p><p>This example demonstrates how the column names and labels appear after updating the receipt template:</p><ul><li><p>Ticket Items</p><ul><li><p><strong>Tax </strong>- Tax \u2192 GST</p></li></ul></li><li><p>Ticket Totals</p><ul><li><p><strong>Tax-Inclusive Ticket Total Without Discounts</strong> - Subtotal \u2192 Subtotal (Inc GST)</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"GST Receipts 3.png\" width=\"405\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713288722/GST%20Receipts%203.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2713288722"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2713288722/child",
+    "restrictions": "/rest/api/content/2713288722/restriction/byOperation",
+    "history": "/rest/api/content/2713288722/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2713288722/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2713288722",
+    "webui": "/spaces/SCD/pages/2713288722/Tax-inclusive+Pricing+GST+Receipt+Template",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2713288722",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2713288722",
+    "tinyui": "/x/EoC5oQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

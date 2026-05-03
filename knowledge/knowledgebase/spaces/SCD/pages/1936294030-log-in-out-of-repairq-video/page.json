@@ -1,0 +1,129 @@
+{
+  "id": "1936294030",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936294030",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjI5NDAzMA==",
+  "status": "current",
+  "title": "Log In/Out of RepairQ (video)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:40.171Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936294030.37",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936294030"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936294030/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This video will showcase signing in to the system, including:</p><ul><li><p>Log in/log out</p></li><li><p>Clock in/clock out</p></li><li><p>Assigning a Virtual Cash Terminal (VCT)</p></li><li><p>Switching users</p></li></ul><a class=\"external-link\" data-card-appearance=\"embed\" data-layout=\"center\" data-original-height=\"480.00\" data-original-width=\"853.34\" data-width=\"100.00\" href=\"https://youtu.be/OjWZ-aThNPA\" rel=\"nofollow\">https://youtu.be/OjWZ-aThNPA</a><h2 id=\"LogIn/OutofRepairQ(video)-AdditionalResources\"> Additional Resources</h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921099/Getting+Started+Login+Password+Reset+and+User+Profile+Customization\" data-linked-resource-id=\"1928921099\" data-linked-resource-version=\"23\" data-linked-resource-type=\"page\">Getting Started: Logging In/Out and Password Reset</a></p></li><li><p> <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986634/Getting+Started+Clock+In+Out+of+RepairQ\" data-linked-resource-id=\"1928986634\" data-linked-resource-version=\"23\" data-linked-resource-type=\"page\">Clocking In/Out of RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933901843/Virtual+Cash+Terminal+VCT+Setup\" data-linked-resource-id=\"1933901843\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Setting up a Virtual Cash Terminal (VCT)</a></p></li></ul><p> </p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936294030"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936294030/child",
+    "restrictions": "/rest/api/content/1936294030/restriction/byOperation",
+    "history": "/rest/api/content/1936294030/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936294030/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936294030",
+    "webui": "/spaces/SCD/pages/1936294030/Log+In+Out+of+RepairQ+video",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936294030",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936294030",
+    "tinyui": "/x/joBpcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

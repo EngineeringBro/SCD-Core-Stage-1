@@ -1,0 +1,260 @@
+{
+  "_expands": [
+    "field"
+  ],
+  "size": 8,
+  "start": 0,
+  "limit": 100,
+  "isLastPage": true,
+  "_links": {
+    "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype?limit=100",
+    "base": "https://servicecentral.atlassian.net",
+    "context": ""
+  },
+  "values": [
+    {
+      "_expands": [
+        "field"
+      ],
+      "id": "115",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/115"
+      },
+      "name": "General Enquiries",
+      "description": "Not sure where to start? Submit your question here and our team will point you in the right direction.",
+      "helpText": "",
+      "defaultName": "General Enquiries",
+      "issueTypeId": "10167",
+      "serviceDeskId": "9",
+      "portalId": "9",
+      "groupIds": [
+        "303"
+      ],
+      "icon": {
+        "id": "10508",
+        "_links": {
+          "iconUrls": {
+            "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10508?size=large",
+            "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10508?size=small",
+            "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10508?size=xsmall",
+            "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10508?size=medium"
+          }
+        }
+      },
+      "restrictionStatus": "OPEN",
+      "canCreateRequest": true
+    },
+    {
+      "_expands": [
+        "field"
+      ],
+      "id": "114",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/114"
+      },
+      "name": "Software Issue/Bug",
+      "description": "Found something that doesn't work as expected? Report bugs, errors, and unexpected platform behavior here.",
+      "helpText": "",
+      "defaultName": "Software Issue/Bug",
+      "issueTypeId": "10151",
+      "serviceDeskId": "9",
+      "portalId": "9",
+      "groupIds": [
+        "303"
+      ],
+      "icon": {
+        "id": "10476",
+        "_links": {
+          "iconUrls": {
+            "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10476?size=large",
+            "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10476?size=small",
+            "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10476?size=xsmall",
+            "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10476?size=medium"
+          }
+        }
+      },
+      "restrictionStatus": "OPEN",
+      "canCreateRequest": true
+    },
+    {
+      "_expands": [
+        "field"
+      ],
+      "id": "100",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/100"
+      },
+      "name": "Emailed Requests",
+      "description": "Create a problem to track the cause of one or more incidents.",
+      "helpText": "",
+      "defaultName": "Emailed Requests",
+      "issueTypeId": "10168",
+      "serviceDeskId": "9",
+      "portalId": "9",
+      "groupIds": [],
+      "icon": {
+        "id": "10520",
+        "_links": {
+          "iconUrls": {
+            "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10520?size=large",
+            "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10520?size=small",
+            "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10520?size=xsmall",
+            "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10520?size=medium"
+          }
+        }
+      },
+      "restrictionStatus": "OPEN",
+      "canCreateRequest": true
+    },
+    {
+      "_expands": [
+        "field"
+      ],
+      "id": "111",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/111"
+      },
+      "name": "Feature Implementation/Training",
+      "description": "",
+      "helpText": "",
+      "defaultName": "Feature Implementation/Training",
+      "issueTypeId": "10017",
+      "serviceDeskId": "9",
+      "portalId": "9",
+      "groupIds": [],
+      "icon": {
+        "id": "10511",
+        "_links": {
+          "iconUrls": {
+            "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10511?size=large",
+            "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10511?size=small",
+            "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10511?size=xsmall",
+            "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10511?size=medium"
+          }
+        }
+      },
+      "restrictionStatus": "OPEN",
+      "canCreateRequest": true
+    },
+    {
+      "_expands": [
+        "field"
+      ],
+      "id": "113",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/113"
+      },
+      "name": "Inventory/Ordering",
+      "description": "",
+      "helpText": "",
+      "defaultName": "Inventory/Ordering",
+      "issueTypeId": "10017",
+      "serviceDeskId": "9",
+      "portalId": "9",
+      "groupIds": [],
+      "icon": {
+        "id": "10496",
+        "_links": {
+          "iconUrls": {
+            "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10496?size=large",
+            "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10496?size=small",
+            "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10496?size=xsmall",
+            "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10496?size=medium"
+          }
+        }
+      },
+      "restrictionStatus": "OPEN",
+      "canCreateRequest": true
+    },
+    {
+      "_expands": [
+        "field"
+      ],
+      "id": "112",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/112"
+      },
+      "name": "Payment Issue",
+      "description": "",
+      "helpText": "",
+      "defaultName": "Payment Issue",
+      "issueTypeId": "10151",
+      "serviceDeskId": "9",
+      "portalId": "9",
+      "groupIds": [],
+      "icon": {
+        "id": "10484",
+        "_links": {
+          "iconUrls": {
+            "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10484?size=large",
+            "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10484?size=small",
+            "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10484?size=xsmall",
+            "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10484?size=medium"
+          }
+        }
+      },
+      "restrictionStatus": "OPEN",
+      "canCreateRequest": true
+    },
+    {
+      "_expands": [
+        "field"
+      ],
+      "id": "110",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/110"
+      },
+      "name": "Reporting Issue",
+      "description": "",
+      "helpText": "",
+      "defaultName": "Reporting Issue",
+      "issueTypeId": "10151",
+      "serviceDeskId": "9",
+      "portalId": "9",
+      "groupIds": [],
+      "icon": {
+        "id": "10512",
+        "_links": {
+          "iconUrls": {
+            "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10512?size=large",
+            "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10512?size=small",
+            "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10512?size=xsmall",
+            "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10512?size=medium"
+          }
+        }
+      },
+      "restrictionStatus": "OPEN",
+      "canCreateRequest": true
+    },
+    {
+      "_expands": [
+        "field"
+      ],
+      "id": "109",
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/109"
+      },
+      "name": "Ticket/Workflow Issue",
+      "description": "",
+      "helpText": "",
+      "defaultName": "Ticket/Workflow Issue",
+      "issueTypeId": "10151",
+      "serviceDeskId": "9",
+      "portalId": "9",
+      "groupIds": [],
+      "icon": {
+        "id": "10550",
+        "_links": {
+          "iconUrls": {
+            "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10550?size=large",
+            "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10550?size=small",
+            "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10550?size=xsmall",
+            "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10550?size=medium"
+          }
+        }
+      },
+      "restrictionStatus": "OPEN",
+      "canCreateRequest": true
+    }
+  ]
+}

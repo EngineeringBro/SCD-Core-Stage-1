@@ -1,0 +1,129 @@
+{
+  "id": "1934458927",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934458927",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDQ1ODkyNw==",
+  "status": "current",
+  "title": "Contacts Overview",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:53.983Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934458927.33",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934458927"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934458927/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>A Contact (lead) is classified as a potential customer for your business. Contact Profiles can be created to collect customer data used for sales, repairs, and marketing communication. When appointments are booked on Qsite, a Contact Profile is also created in RepairQ. Users can easily create a quote from a profile that can be printed, emailed, and converted into tickets after they are accepted.\u00a0</p><p>A Contact Profile has all of the data points of a standard Customer Profile with a couple of key differences:</p><ul><li><p>Contacts can be viewed separately on the Contacts page.</p></li><li><p>If a ticket with an assigned Contact is completed, the contact is automatically converted to a Customer.</p></li></ul><h3 id=\"ContactsOverview-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491659/Creating+a+Contact+Lead+Profile\" data-linked-resource-id=\"1934491659\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Creating a Contact (Lead) Profile</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246809/RepairQ+Opportunities+Quotes\" data-linked-resource-id=\"1933246809\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Quotes Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934262304/Quotes+Create+and+View+a+Quote\" data-linked-resource-id=\"1934262304\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Quotes: Creating and Viewing a Quote</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917634/Quotes+Convert+a+Quote+into+a+Ticket\" data-linked-resource-id=\"1934917634\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Quotes: Converting a Quote to a Ticket</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523327/Qsite+Resources\" data-linked-resource-id=\"1936523327\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Qsite\u2122 Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934458927/image-20230622-175744.png?api=v2\"></span><p /><h2 id=\"ContactsOverview-SearchingforExistingContacts\">Searching for Existing Contacts</h2><p>Users can <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377743/Customer+Search\" data-linked-resource-id=\"1933377743\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">quick-search</a> for a specific Contact or use the Navigation Bar to go to <strong>Opportunities</strong> \u2192 <strong>Contacts</strong> to view the Contact List and filter for results.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934458927/image-20230622-175747.png?api=v2\"></span><p /><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934458927/image-20230622-175750.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934458927/image-20230622-175753.png?api=v2\"></span><p /><p /><h2 id=\"ContactsOverview-ConvertinganExistingContactProfiletoaCustomerProfile\">Converting an Existing Contact Profile to a Customer Profile</h2><p>A Contact Profile will automatically convert to a Customer Profile if a ticket with that contact assigned is completed. Users can also update this information without creating a ticket. When editing a Contact Profile, go to the <strong>Misc tab</strong> on the Edit Contact pop-up.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934458927/image-20230622-175755.png?api=v2\"></span><p /><p /><p>On the Miscellaneous Tab, <strong>uncheck the box next to &quot;Not a customer yet?&quot;</strong> and <strong>Save</strong> your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934458927/image-20230622-175758.png?api=v2\"></span><p /><p /><p>When viewing the Contact List page, the Customer column will indicate whether this entry is classified as a Contact or has been converted to a Customer.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934458927/image-20230622-175802.png?api=v2\"></span><p /><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934458927"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934458927/child",
+    "restrictions": "/rest/api/content/1934458927/restriction/byOperation",
+    "history": "/rest/api/content/1934458927/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934458927/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934458927",
+    "webui": "/spaces/SCD/pages/1934458927/Contacts+Overview",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934458927",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934458927",
+    "tinyui": "/x/L4BNcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

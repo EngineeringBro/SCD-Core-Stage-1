@@ -1,0 +1,130 @@
+{
+  "id": "2037055525",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2037055525",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzNzA1NTUyNQ==",
+  "status": "current",
+  "title": "1.8.1",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-27T16:45:14.866Z",
+    "friendlyWhen": "Jul 27, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "9",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2037055525.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2037055525"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2037055525/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This is a minor release with some fixes and enhancements, primarily to the new global search feature.</p><h3 id=\"id-1.8.1-TicketSearches\">Ticket Searches</h3><p>In an effort to keep search results focused, we were excluding closed tickets from many\u00a0searches, unless explicitly included\u00a0in the ticket status filter. We have relaxed this condition considerably. Any time a search keyword is present and\u00a0no statuses are explicitly filtered, closed tickets will show on\u00a0the results page.</p><h3 id=\"id-1.8.1-SearchOptimizations\">Search Optimizations</h3><p>We optimized the ticket search considerably. Particularly where it comes to searching for numbers (phone numbers, ticket numbers, etc), RepairQ\u00a0would sometimes not return results in an acceptable amount of time.</p><h3 id=\"id-1.8.1-CustomerSearch\">Customer Search</h3><p>There were some customer search persistence issues. If you had an active customer search it would override\u00a0any search keywords used in the global customer search box.\u00a0This issue has been resolved.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2037055525"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 11
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2037055525/child",
+    "restrictions": "/rest/api/content/2037055525/restriction/byOperation",
+    "history": "/rest/api/content/2037055525/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2037055525/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2037055525",
+    "webui": "/spaces/SCD/pages/2037055525/1.8.1",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2037055525",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2037055525",
+    "tinyui": "/x/JQBreQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

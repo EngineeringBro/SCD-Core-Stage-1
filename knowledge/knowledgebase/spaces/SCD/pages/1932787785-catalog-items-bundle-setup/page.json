@@ -1,0 +1,129 @@
+{
+  "id": "1932787785",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932787785",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjc4Nzc4NQ==",
+  "status": "current",
+  "title": "Catalog Items: Bundle Setup",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:01.964Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 21,
+    "minorEdit": false,
+    "ncsStepVersion": "17",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932787785.93",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932787785"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932787785/version/21"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ allows users to bundle items within a ticket, which charges customers a flat fee for a repair service while internally tracking the individual costs of parts, inventory, and labor separately. When an item is bundled under another item on a ticket, the price of the bundled item does not contribute to the overall ticket total. Instead, the cost of the bundled item, referred to as the Child Item, becomes integrated into the existing parent item\u2019s price. This allows you to charge customers a flat fee for a repair service while internally tracking the individual costs of parts, inventory, and labor separately. For example, bundling a part under a labor item allows you to remove parts from inventory without disclosing its specific cost to the customer. This maintains transparent customer pricing while managing your internal accounting and inventory processes. Using this feature with\u00a0<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591125/Catalog+Items+Device+Compatibility\" data-linked-resource-id=\"1932591125\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Item Device Compatibility</a>\u00a0can further customize your repair process and help make tickets move along more efficiently.</p><p>Here are some benefits of bundling ticket items:</p><ul><li><p><strong>Simplified Pricing</strong> - Bundling parts under labor items enables you to offer customers a straightforward, flat fee for repair services, simplifying your pricing structures.</p></li><li><p><strong>Flexible Pricing</strong> - Charging a flat fee for labor while internally tracking part costs provides adaptability in pricing, catering to varying customer needs and market conditions.</p></li><li><p><strong>Cost Tracking</strong> - Track the cost of individual parts, allowing for accurate accounting and cost analysis. This helps you manage expenses and optimize pricing strategies.</p></li><li><p><strong>Consistent Customer Experience</strong> - Streamlined pricing structures allow for quick decision-making by customers. They will understand a clear fee for repair services and approve repairs without understanding individual part costs.</p></li></ul><h3 id=\"CatalogItems:BundleSetup-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2837905412\" rel=\"nofollow\">Bundling Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2200764440/Bundle+Parts+on+Tickets\" data-linked-resource-id=\"2200764440\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Bundling Items on Tickets</a></p></li><li><p><a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Catalog%20Items%3A%20Bundle%20Required&amp;linkCreation=true&amp;fromPageId=1932787785\">Catalog Items: Bundle Required</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2152726556/Catalog+Items+Auto-Bundle+and+Auto-Add\" data-linked-resource-id=\"2152726556\" data-linked-resource-version=\"18\" data-linked-resource-type=\"page\">Catalog Items: Auto-Bundle and Auto-Add</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672484/Tax+Calculations+for+Bundled+Items\" data-linked-resource-id=\"1933672484\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Tax Calculations for Bundled Items</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591125/Catalog+Items+Device+Compatibility\" data-linked-resource-id=\"1932591125\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Items: Device Compatibility</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"756\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787785/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CatalogItems:BundleSetup-AssigningBundleRelationshipsbyItemType\">Assigning Bundle Relationships by Item Type</h2><p>Bundling relationships are managed at the Item Type level so that all items created under this type will inherit the assigned attribute. You must have designated parent and child items to bundle items on a ticket. If an item type has neither option assigned, it cannot be bundled.</p><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787785/Bundle%201.png?api=v2\"></span><p /><p>2. On the Settings Overview page, under the Catalog<strong> </strong>section, click <strong>Item Types</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"627\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787785/Bundle%202.png?api=v2\"></span><p /><p>3. When viewing the Item Type List, find the Item Type you would like to set up for bundling and click the <strong>Edit button</strong>. If creating a new Item Type for bundling, click<strong> Add Item Type</strong> on the upper-right of the list.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787785/Bundle%2010.png?api=v2\"></span><p /><p>4. You can allow bundling as a Parent Item if you classify the Item Type as a <strong>Labor/Service</strong> or <strong>Part</strong>. Once the Item Type is flagged as such, you will see the option to <strong>Allow Bundling (as parent item)</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"347\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787785/Bundle%203.png?api=v2\"></span><p /><p>If neither option is selected, you can only bundle the item as a Child Item. You can choose whether to bundle under Parts, Labor, or both.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"351\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787785/Bundle%205.png?api=v2\"></span><p /><p>Keep in mind that an Item Type flagged as a parent item can also be flagged as a child item as well. This allows for additional bundling options. Once you\u2019ve made your selections, be sure to <strong>Save </strong>your settings.</p><p /><p>5. From the Item Type List, you can see which item types are flagged for bundling by looking at the <strong>Bundle (as parent)</strong> and <strong>Bundle (as child)</strong> columns.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787785/Bundle%204.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932787785"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932787785/child",
+    "restrictions": "/rest/api/content/1932787785/restriction/byOperation",
+    "history": "/rest/api/content/1932787785/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932787785/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932787785",
+    "webui": "/spaces/SCD/pages/1932787785/Catalog+Items+Bundle+Setup",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932787785",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932787785",
+    "tinyui": "/x/SQA0cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

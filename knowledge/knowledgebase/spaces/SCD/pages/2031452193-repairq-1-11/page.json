@@ -1,0 +1,130 @@
+{
+  "id": "2031452193",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2031452193",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMTQ1MjE5Mw==",
+  "status": "current",
+  "title": "RepairQ 1.11",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-21T18:55:13.020Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "28",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2031452193.16",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2031452193"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031452193/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Full Release: 03/01/2017</p><p><a class=\"external-link\" href=\"https://www.youtube.com/watch?v=Pr5_ZmZjbVE\" rel=\"nofollow\"><u>Watch the release walk through video.</u></a></p><h2 id=\"RepairQ1.11-BusinessIntelligence(Beta)\">Business Intelligence (Beta)</h2><p>RepairQ\u2019s Business Intelligence provides visual reporting dashboards covering the key performance indicators (KPIs) that are critical to growing a profitable repair business. This marks the beginning in a series of updates related to business intelligence and advanced analytics. We will add new KPIs and reports over time as well as custom report builder, automater &amp; broadcaster features, giving you the ability to explore and analyze your data in your own way.</p><p>In an application as data-rich as RepairQ, these tools will undoubtedly help you gain new insights into your business and extract all the value from your data.</p><p><em>*Business Intelligence\u00a0Viewer features will be provided to all Enterprise licensees in an open beta. Builder &amp; Broadcaster features will be made available to select Enterprise licensees in a closed beta.</em></p><h2 id=\"RepairQ1.11-ElectronicSignatures\">Electronic Signatures</h2><p>In 1.9, e-signatures were introduced for payments on the new PAX credit card swiper.\u00a0Now, with 1.11, your waivers, work authorization forms, and other forms will have the capability of capturing e-signatures! With 1.11, a new signature custom field type allows you to capture signatures on your ticket forms and save them securely. This is the second of three upgrades in our series of enhancements for e-signature support. 1.12 will support e-signature capture through our new tablet driven point-of-purchase application, Qpop\u2122.</p><h2 id=\"RepairQ1.11-Image&amp;FileUploads\">Image &amp; File Uploads</h2><p>Ticket Custom Forms are receiving another big upgrade with the ability to store files and images via two new input types. Capture and display images on ticket forms, or upload documents for record keeping purposes.</p><p><em>Cloud\u00a0storage is provided at no additional cost during the beta period while we gauge the amount of storage required to support your uploaded\u00a0images &amp; files. Pricing for cloud storage will available soon.</em></p><h2 id=\"RepairQ1.11-PrintTemplateBranding\">Print Template Branding</h2><p>In the past, you had to work with our support team to add your logos to receipts, invoices, emails, and labels, but now you will have control! With this update you can upload and manage a library of branding images and apply them to your print and email templates as you see fit.</p><h2 id=\"RepairQ1.11-RepairDeviceSearch\">Repair Device Search</h2><p>The new Repair Device search gives you a new tool for locating repair devices and exploring repair device history. The repair device search features a new listing page similar to tickets and inventory where you can search, filter, and drill down into individual device histories.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2031452193"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 190884701
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2031452193/child",
+    "restrictions": "/rest/api/content/2031452193/restriction/byOperation",
+    "history": "/rest/api/content/2031452193/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2031452193/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2031452193",
+    "webui": "/spaces/SCD/pages/2031452193/RepairQ+1.11",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2031452193",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031452193",
+    "tinyui": "/x/IYAVeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

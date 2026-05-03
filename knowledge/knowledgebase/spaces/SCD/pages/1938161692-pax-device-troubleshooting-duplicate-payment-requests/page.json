@@ -1,0 +1,129 @@
+{
+  "id": "1938161692",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1938161692",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzODE2MTY5Mg==",
+  "status": "current",
+  "title": "PAX Device Troubleshooting: Duplicate Payment Requests",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:19.415Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "94",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1938161692.22",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1938161692"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1938161692/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>A recent update to Chrome Browser may interfere with the transaction process when using an integrated PAX device in RepairQ. The PAX device may try to request payment numerous times, resulting in duplicate/orphaned transactions, or RepairQ may prompt you with an error that the card must be removed. There are settings within Chrome browser that you can disable to reduce the likelihood of these issues.</p><p>When Chrome sends a Private Network Access preflight, the PAX device treats the preflight like a regular request, which doubles the requests. The PAX device will allow for multiple requests to queue, and it will present any queued requests after the previous request finishes. This can result in double charges if the customer swipes twice, successes that appear to fail initially (the first swipe is successful; the second one fails), and also orphaned transactions where the first is successful, but RepairQ looks at the status of the second, failed transaction.</p><h3 id=\"PAXDeviceTroubleshooting:DuplicatePaymentRequests-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Troubleshooting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938161692/image-20230607-172641.png?api=v2\"></span><h2 id=\"PAXDeviceTroubleshooting:DuplicatePaymentRequests-UpdatingChromeBrowserSettings\">Updating Chrome Browser Settings</h2><p /><p>1. On the Chrome address bar, type <strong>chrome://flags\u00a0</strong>and press <strong>Enter</strong> on your keyboard.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"224\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938161692/image-20230606-183135.png?api=v2\"></span><p /><p>2. On the Experiments page, use the Search Bar at the top of the page to search for the keyword <strong>preflight</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938161692/image-20230606-183019.png?api=v2\"></span><p /><p>3. From the list of three (3) results, change all of the settings to <strong>Disabled</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938161692/image-20230606-183117.png?api=v2\"></span><p /><p>4. At the bottom of the page, click the <strong>Relaunch button</strong> to save your changes and launch Chrome with these changes in effect.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938161692/image-20230606-183214.png?api=v2\"></span><p /><p>5. If you experience any additional issues, we recommend using an alternative browser (Firefox, Safari, or Edge Browser).</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1938161692"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1938161692/child",
+    "restrictions": "/rest/api/content/1938161692/restriction/byOperation",
+    "history": "/rest/api/content/1938161692/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1938161692/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1938161692",
+    "webui": "/spaces/SCD/pages/1938161692/PAX+Device+Troubleshooting+Duplicate+Payment+Requests",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1938161692",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1938161692",
+    "tinyui": "/x/HACGcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

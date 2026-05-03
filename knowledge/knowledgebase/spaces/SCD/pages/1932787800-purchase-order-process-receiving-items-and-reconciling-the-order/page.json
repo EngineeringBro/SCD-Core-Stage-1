@@ -1,0 +1,129 @@
+{
+  "id": "1932787800",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932787800",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjc4NzgwMA==",
+  "status": "current",
+  "title": "Purchase Order Process: Receiving Items and Reconciling the Order",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:24.651Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "76",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932787800.22",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932787800"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932787800/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Purchase Orders (POs) are a key component in the procurement process, allowing users to create a fulfillment record of the products they purchase from external suppliers. Working alongside RepairQ's reporting and inventory management features, you can create Purchase Orders in the system that reflect the order details from the supplier to track spending on ordered products and inventory as well as replenish onhand quantities for real-time inventory management.\u00a0Users with the Manager or Inventory Manager role can receive and reconcile Purchase Orders.</p><h3 id=\"PurchaseOrderProcess:ReceivingItemsandReconcilingtheOrder-PreviousStep\">Previous Step</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932722231/Purchase+Order+Process+Creating+a+New+Purchase+Order\" data-linked-resource-id=\"1932722231\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Purchase Order Process: Creating a New Purchase Order</a> </p></li></ul><h3 id=\"PurchaseOrderProcess:ReceivingItemsandReconcilingtheOrder-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416/Purchase+Order+Resources\" data-linked-resource-id=\"1932427416\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Purchase Order Resources</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934721025/Reports+Inventory+Orders\" data-linked-resource-id=\"1934721025\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Reports: Inventory Orders</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"PurchaseOrderProcess:ReceivingItemsandReconcilingtheOrder-ReceivingItemsonaPurchaseOrder\">Receiving Items on a Purchase Order</h2><p>After an order is in <strong>Ordered</strong> or <strong>Shipped</strong> status, the user can add inventory into the system by receiving items on the PO.</p><p /><p>1. On the Navigation Bar, go to <strong>Inventory</strong> \u2192 <strong>Purchase Orders.</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"566\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%201.png?api=v2\"></span><p /><p>2. By default, the Purchase Order List page will show all POs created within the last 90 days. If needed, use the available filters to find the order you will receive inventory. Once you have found the PO, you can click the line item to begin receiving items.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%202.png?api=v2\"></span><p /><p><strong>Note</strong>: Alternatively, you can click the <strong>Options button</strong> under the Actions menu and click <strong>Edit</strong>.</p><p /><p>3. Begin comparing the inventory you have received in your shipment to the purchase order quantities.\u00a0</p><h3 id=\"PurchaseOrderProcess:ReceivingItemsandReconcilingtheOrder-ReceivingNon-SerializedItems\">Receiving Non-Serialized Items</h3><p>If receiving an item that is not serialized, update the quantity under the Receiving column, based on the amount of that item you received in the order. By default, all received items will be stocked immediately (Instock status). If the item is damaged/defective or needs to be placed into a different inventory status, you can update this under the Status field.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%203.png?api=v2\"></span><p /><p><strong>Note</strong>: Quantities for each item will be moved into inventory under the assigned status when saving the PO. For example, if you received 5 items in an order, but one of the items is damaged, it's best to update the items that are good to sell in Instock status, then, after partially receiving the PO, go back and receive the 1 damaged item under Pending RMA status.</p><h3 id=\"PurchaseOrderProcess:ReceivingItemsandReconcilingtheOrder-ReceivingSerializedItems\">Receiving Serialized Items</h3><p>If receiving an item that is serialized, click the <strong>barcode</strong> <strong>button</strong> under the Receiving column. A new pop-up field will appear for you to count the item. After you have entered the field details, click <strong>Save</strong> <strong>Count</strong> to update the received quantity on the purchase order.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%205.5.png?api=v2\"></span><ul><li><p><strong>Scan</strong> - This field will allow you to scan the serial barcode of the item and record the details.</p></li><li><p><strong>Count</strong> - This field should be equal to the amount of the item you are receiving on the order.</p></li><li><p><strong>Serials</strong> - If you are entering serial number information by hand, enter the serial for each device, one per line. You can use the Enter key to type in a new line.</p></li></ul><p /><p>4. Once you have updated the quantities for the received items, click <strong>Receive Items</strong>. This action will create inventory items based on the quantities and status you received.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%206.png?api=v2\"></span><p /><p><strong>Note</strong>: Keep in mind, that it is not required to receive all items before finalizing the purchase order. If you did not receive the full quantity of the ordered item from the supplier, or you need to pause the count and come back to the PO, this is acceptable.</p><p /><p>If this is your first time receiving items on the PO, you will be prompted to select whether you would like to receive items or receive and reconcile the Purchase Order.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"453\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%205.png?api=v2\"></span><ul><li><p><strong>No, receive only</strong> - This will move the received items into inventory and save the PO as either Partially Received or Received status. The PO will remain open for further receiving and edits before reconciliation.</p></li><li><p><strong>Yes, receive and reconcile</strong> - This will move the received items into inventory and close the PO from further edits.</p><ul><li><p>Any variances in received amounts will be recorded on the purchase order. e.g., If you ordered 5 items from the supplier, and they only provided 4 items, you can reconcile the PO with a variance. The Reconciliation details will show the variance between the ordered value and the received value. Alternatively, you can receive the shorted items into inventory and adjust them to Void Status (removes these items from inventory and reporting) or RMA Sent (if you would like to track that you are waiting for a refund on the shorted items since you paid for them).</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%207.png?api=v2\"></span><p /><p><strong>Note</strong>: Make sure to verify all received amounts before reconciling the purchase order. If you forget to receive all items before reconciling, the PO cannot be reopened. A manager can either manually adjust these items into inventory or create a new PO to correct this error.</p><p /><h2 id=\"PurchaseOrderProcess:ReceivingItemsandReconcilingtheOrder-PartialandFullyReceivedPurchaseOrders\">Partial and Fully Received Purchase Orders</h2><h3 id=\"PurchaseOrderProcess:ReceivingItemsandReconcilingtheOrder-PartiallyReceived\">Partially Received</h3><p>A purchase order moves to Partially Received status if you received only some of the items on the PO. You can receive items in as many batches as you need, and the PO will remain in this status until all items have been received in full.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%208.png?api=v2\"></span><h3 id=\"PurchaseOrderProcess:ReceivingItemsandReconcilingtheOrder-Received\">Received\u00a0</h3><p>A purchase order moves to Received status as soon as you have received all items on the PO. If you have an approval process before reconciliation, this leaves the PO open until you move it into Reconciled status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%208.png?api=v2\"></span><h2 id=\"PurchaseOrderProcess:ReceivingItemsandReconcilingtheOrder-ReconcilingaPurchaseOrder\">Reconciling a Purchase Order</h2><p>When a PO is in Partially Received or Received status, you can click the <strong>Reconciled</strong> <strong>button</strong> to mark it as Reconciled.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%2010.png?api=v2\"></span><p /><p><strong>Note</strong>: Make sure to verify all received amounts before reconciling the purchase order. If you forget to receive all items before reconciling, the PO cannot be reopened. A manager can either manually adjust these items into inventory or create a new PO to correct this error.</p><p /><p>When a PO is marked Reconciled, you will\u00a0close the order from further editing. An order does not require all items to be received before reconciliation. This status is used to note that you have received all available items and are finished with the receiving process. Any unreceived items will be noted as a variance when viewing purchase order details. All information has been finalized for reporting.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932787800/PO%20Receive%2011.png?api=v2\"></span><p /><p>Any variances in received amounts will be recorded on the purchase order. e.g., If you ordered 5 items from the supplier, and they only provided 4 items, you can reconcile the PO with a variance. The Reconciliation details will show the variance between the ordered value and the received value.</p><p /><p /><p>START 1.19.1</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932787800"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932787800/child",
+    "restrictions": "/rest/api/content/1932787800/restriction/byOperation",
+    "history": "/rest/api/content/1932787800/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932787800/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932787800",
+    "webui": "/spaces/SCD/pages/1932787800/Purchase+Order+Process+Receiving+Items+and+Reconciling+the+Order",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932787800",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932787800",
+    "tinyui": "/x/WAA0cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

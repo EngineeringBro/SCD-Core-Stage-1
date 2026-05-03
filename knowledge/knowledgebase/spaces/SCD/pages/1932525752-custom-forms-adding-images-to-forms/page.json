@@ -1,0 +1,129 @@
+{
+  "id": "1932525752",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932525752",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjUyNTc1Mg==",
+  "status": "current",
+  "title": "Custom Forms: Adding Images to Forms",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:38.001Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932525752.27",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932525752"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932525752/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"CustomForms:AddingImagestoForms-UploadImagesandFilestoCustomForms\">Upload Images and Files to Custom Forms</h2><p>Custom Forms are documents that are completed on tickets to ensure that the sales/repair process is thorough and complete. A few examples of forms that can be created are:</p><ul><li><p>Repair Intake Forms</p></li><li><p>Device Condition Forms</p></li><li><p>Pre/Post Repair Checklists</p></li></ul><p>Custom Forms include the feature of uploading images and/or files when submitting the form. This allows techs to upload photos of a device during any stage of the workflow, as well as upload any additional supporting documents that may be relevant to the ticket.</p><p><strong>Note</strong>: RepairQ provides cloud storage for uploading images and files for all plans at no additional cost. Users receive a limited amount of storage, based on their subscription \u2014 Essential (10GB), Advanced (50GB), and Professional (100GB).</p><h2 id=\"CustomForms:AddingImagestoForms-AdditionalResources\">Additional Resources</h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770795/Introduction+to+Custom+Forms+-+Start+Here\" data-linked-resource-id=\"1933770795\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Introduction to Custom Forms - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246513/Custom+Forms+Field+Groups+and+Form+Fields\" data-linked-resource-id=\"1933246513\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Custom Forms: Field Groups and Form Fields</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932492983/Creating+Custom+Forms\" data-linked-resource-id=\"1932492983\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating and Working with Custom Forms</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427719/Custom+Forms+Capture+Electronic+Signatures+on+Forms\" data-linked-resource-id=\"1932427719\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Custom Forms: Capturing Electronic Signatures on Forms</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CustomForms:AddingImagestoForms-CreatingaCustomFormwithImageandFileUploads\">Creating a Custom Form with Image and File Uploads</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%201.png?api=v2\"></span><p /><p>2. On the Settings Overview screen, click the <strong>Tickets</strong> category on the left column. From the expanded list of options, click <strong>Custom Forms</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"224\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%202.png?api=v2\"></span><p /><p>3. On the Custom Forms page, click <strong>Add Custom Form</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%203.png?api=v2\"></span><p /><p>4. Start building your custom form. Take note of the Location ID, as a form can be created for all locations or a single location. For the Object Type field, we recommend selecting <strong>all ticket types</strong>, so you have the ability to upload files for any ticket situation. Once you are satisfied with your changes, click <strong>Save field group settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%204.png?api=v2\"></span><p /><p><strong>Note</strong>: We also recommend setting the <strong>Required When</strong> dropdown to <strong>Never</strong>, because you may not want images required for every ticket.</p><p /><p>5. After saving your form, a Form Fields section will appear at the bottom of the page. Click the <strong>Select field to add to the group</strong> dropdown box and select <strong>Image</strong> to add a field for image uploads on your form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%205.png?api=v2\"></span><p /><p>6. On the New Image Field pop-up, name your field and add a description of the field. If you would like to print images uploaded on the form, make sure to click the checkbox next to <strong>Print Visible?</strong>. Additionally, make sure the checkbox next to <strong>Active?</strong> is selected, then click <strong>Save Changes</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%206.png?api=v2\"></span><p /><p>7. Back on the Form Fields section, add another field and select <strong>File </strong>to add a field for file uploads on your form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%207.png?api=v2\"></span><p /><p>8. On the New File Field pop-up, name your field and add a description of the field. If you would like to print files uploaded on the form, make sure to click the checkbox next to <strong>Print Visible?</strong>. Additionally, make sure the checkbox next to <strong>Active?</strong> is selected, then click <strong>Save Changes</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%208.png?api=v2\"></span><p /><p>9. The Form Fields section of our Custom form is now complete. They will be visible at the bottom of the form page. You can click <strong>Preview Form</strong> to get an idea of how the form will appear on a ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%209.png?api=v2\"></span><p /><h2 id=\"CustomForms:AddingImagestoForms-UploadanImagetoaCustomForm\">Upload an Image to a Custom Form</h2><p /><p>1. Create a new ticket. While you are on the ticket edit screen, there will be a Custom Forms section where your form will be visible. Under the Actions column, click the <strong>Edit Button</strong> to fill out your form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%2010.png?api=v2\"></span><p /><p>2. On the File Upload pop-up, <strong>drag and drop</strong> your images and files into the form, or click the <strong>Browse Button</strong> to search your computer for the images and files you wish to upload</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%2011.png?api=v2\"></span><p /><p>3. The uploaded image/file will show as a preview on the pop-up screen. When you are finished uploading files, click <strong>Save &amp; Submit</strong>. You will be directed back to the ticket, where you can see that the form is now in <strong>Submit Pending</strong> status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%2012.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%2013.png?api=v2\"></span><p /><p><strong>Note</strong>: You can click <strong>Save Draft</strong> if you would like to save the form as a draft if you need to add additional files/photos before submitting the form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%2014.png?api=v2\"></span><p /><p>4. After saving or progressing the ticket to a new status, the form will save as <strong>Submitted</strong> status. You can view or print the images/files from the Ticket View Screen by clicking their respective button next to the form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"448\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%2015.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"224\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932525752/Add%20Image%20to%20Custom%20Form%2016.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932525752"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932525752/child",
+    "restrictions": "/rest/api/content/1932525752/restriction/byOperation",
+    "history": "/rest/api/content/1932525752/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932525752/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932525752",
+    "webui": "/spaces/SCD/pages/1932525752/Custom+Forms+Adding+Images+to+Forms",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932525752",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932525752",
+    "tinyui": "/x/uAAwcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

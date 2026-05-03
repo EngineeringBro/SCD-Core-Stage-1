@@ -1,0 +1,130 @@
+{
+  "id": "2029682720",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029682720",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTY4MjcyMA==",
+  "status": "current",
+  "title": "1.18.13",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T21:38:42.698Z",
+    "friendlyWhen": "Jul 20, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "21",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029682720.14",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029682720"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029682720/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h3 id=\"id-1.18.13-Announcements\">Announcements</h3><ul><li><p>The Mobile Defenders integration has been retired.</p></li></ul><h3 id=\"id-1.18.13-NewFeaturesforAdvancedandProfessionalUsers\">New Features for Advanced and Professional Users</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933443149/Required+Fields+for+Repair+Devices\" data-linked-resource-id=\"1933443149\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Device Required Fields</a> - Customize the required fields for device intake on Repair Tickets.</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937801227/Third-Party+Marketing+Consent\" data-linked-resource-id=\"1937801227\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Third-Party Marketing Consent</a> - Prompt staff to ask customers for their consent to allow approved third parties to contact them.</p></li></ul><h3 id=\"id-1.18.13-Improvements\">Improvements</h3><ul><li><p>Customize overtime dashboard alerts based on hours defined in Location Settings.</p></li><li><p>Improvements to Square payment performance involving connection issues and duplicate payments.</p></li><li><p>Improvement to the date selection UI when using filters.</p></li></ul><h3 id=\"id-1.18.13-BugFixes\">Bug Fixes</h3><ul><li><p>Fixed an issue that caused an error if the ticket item preview was hidden in Quick Sale Optimization settings.</p></li><li><p>Fixed the duplicate &quot;Receive SMS Messages&quot; field when updating Validation Rules.</p></li><li><p>Fixed an issue that affected backorder items on Internal Purchase Orders.</p></li><li><p>Fixed an issue that affected the location count total when making subscription changes through Account Settings.</p></li><li><p>Fixed the blank balance issue when sending an Automated Notification with the Ticket Action trigger.</p></li><li><p>Fixed an issue that caused no results to return when filtering Invoices for &quot;All Locations&quot;.</p></li><li><p>Fixed the &quot;Inactive&quot; attribute when filtering the Catalog.</p></li><li><p>Fixed missing details (price, subtotal, and signature) line on Qpop screens.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029682720"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 129610512
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029682720/child",
+    "restrictions": "/rest/api/content/2029682720/restriction/byOperation",
+    "history": "/rest/api/content/2029682720/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029682720/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029682720",
+    "webui": "/spaces/SCD/pages/2029682720/1.18.13",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029682720",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029682720",
+    "tinyui": "/x/IID6e",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "requestTypeFields": [
+    {
+      "fieldId": "summary",
+      "name": "Summary",
+      "description": "",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "system": "summary"
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "description",
+      "name": "Description",
+      "description": "",
+      "required": false,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "system": "description"
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "attachment",
+      "name": "Attachment",
+      "description": "",
+      "required": false,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "array",
+        "items": "attachment",
+        "system": "attachment"
+      },
+      "visible": true
+    }
+  ],
+  "canRaiseOnBehalfOf": true,
+  "canAddRequestParticipants": true
+}

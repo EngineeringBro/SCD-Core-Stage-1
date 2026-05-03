@@ -1,0 +1,130 @@
+{
+  "id": "2040528904",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2040528904",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA0MDUyODkwNA==",
+  "status": "current",
+  "title": "1.7.2",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-08-01T21:36:19.199Z",
+    "friendlyWhen": "Aug 02, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "7",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2040528904.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2040528904"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040528904/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Welcome to RepairQ Version 1.7.2! The 1.7.2 release centers around the new RMA Tracking Feature, and also features some significant improvements to ticket item management, as well as some new inventory reports.</p><h2 id=\"id-1.7.2-RMATrackingFeature\">RMA Tracking Feature</h2><p>We created a new set of tools to help you track defective inventory and reconcile returns to your supplier(s). With RMA Tracking, you can quickly view all of the defective inventory items in your possession and create shipments to send back to your suppliers. Each shipment allows you to track RMAs in batches of items assigned to your supplier, instead of the tedious process of tracking each item individually. When you receive a reply from your supplier, you can update your items individually or in batches to: account for the credit issued from the supplier (RMA Credit), receive replacement items, or account for rejected items (Damaged). Along with the RMA Tracking feature, we added a few new reports which give you the ability to better track RMA Credits and RMA Rejects (Damaged).</p><h2 id=\"id-1.7.2-TicketDiscountUpdates\">Ticket Discount Updates</h2><p>We updated the ticket item discount interface so that it is easier to modify the discount applied. In addition, ticket percentage discounts now discount the same percentage for all items equally.</p><h2 id=\"id-1.7.2-TicketItemListUpdates\">Ticket Item List Updates</h2><p>In addition to improving discounts, we consolidated the ticket item list and added a few new controls. To simplify the sale of inventory and make it more process driven, we replaced the \u201cstatus\u201d select box with a few action buttons to flag items as defective or damaged, advance items to sold, or place items back into inventory. We\u00a0improved the \u201cview details\u201d link so that it reveals more information without leaving the ticket screen.</p><h2 id=\"id-1.7.2-ReleaseNotes\">Release Notes</h2><ul><li><p>Feature #4118: Ticket Transfer \u2013\u00a0add system log entries</p></li><li><p>Feature #4276: Suppliers for international clients \u2013\u00a0improve\u00a0country and state/province support for supplier records</p></li><li><p>Feature #4343: Catalog Item List Table \u2013 Limit SKU length displayed</p></li><li><p>Feature #4344: PO and Catalog Item Merge Modal \u2013 Add Field Limit Validations</p></li><li><p>Feature #4292: Track Return of Defective Merchandise Feature</p><ul><li><p>Feature #4363: RMA Tracking Index Screen</p></li><li><p>Feature #4365: Initiating RMA \u2013 UI Changes\u00a0</p></li><li><p>Feature #4366: Marking RMA as Sent Modal</p></li><li><p>Feature #4367: RMA Batches View/Index</p></li><li><p>Feature #4368: RMA Batch Packing Slip</p></li><li><p>Feature #4369: RMA Reconciliation Modal</p></li><li><p>Feature #4370: RMA Inventory Exception Reports</p></li><li><p>Feature #4509: Ticket Print RMA Labels</p></li><li><p>Feature #4526: RMA Batch \u2013 add notes</p></li><li><p>Feature #4365: Initiating RMA \u2013 UI Changes</p><ul><li><p>Feature #4371: RMA Purchase Order Receiving UI \u2013 status selection changes</p></li><li><p>Feature #4372: RMA Ticket Item Return\u00a0\u2013 status selection changes</p></li><li><p>Feature #4373: RMA Ticket Items UI for initiating Defective / Damaged</p></li><li><p>Feature #4480: RMA Ticket Item\u00a0\u2013 status selection changes</p></li></ul></li><li><p>Feature #4407: Override RMA Status Modal</p></li></ul></li><li><p>Feature #4503: Ticket Discounts Refactor</p></li><li><p>Bug #4530: Marking a bundle item as defective not removing tax if taxed on item cost</p></li><li><p>Bug #4209: Changing bundled item to damaged \u2013 taxable amount now\u00a0re-distributed between the items properly</p></li><li><p>Feature #4510: Inventory Inspect \u2013 add print label button</p></li><li><p>Bug #4162: Purchase Order \u2013 Import \u2013 Import Template</p></li><li><p>Bug #4296: Inventory Count \u2013 Shorten\u00a0long names in\u00a0the modal window header</p></li><li><p>Bug #4399: Assign VCT- Hide/Lock \u201cCash on Hand\u201d input if \u201cAccept Cash\u201d checkbox deselected</p></li><li><p>Bug #4459: Notification Index \u2013 Add explanation\u00a0for empty results</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2040528904"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 430965448
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2040528904/child",
+    "restrictions": "/rest/api/content/2040528904/restriction/byOperation",
+    "history": "/rest/api/content/2040528904/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2040528904/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2040528904",
+    "webui": "/spaces/SCD/pages/2040528904/1.7.2",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2040528904",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040528904",
+    "tinyui": "/x/CACgeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

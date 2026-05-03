@@ -1,0 +1,129 @@
+{
+  "id": "1932558411",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932558411",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjU1ODQxMQ==",
+  "status": "current",
+  "title": "Inventory Count Process: Reconciling Counts",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:49.946Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "865",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932558411.50",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932558411"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932558411/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Once a count is saved and submitted by a staff member, it will appear with \u2018<strong>Counted\u2019</strong> status on the Inventory Counts summary screen. A manager can quickly reconcile all zero-variance counts; any items with a variance must be approved individually so stock levels are updated accurately and each item is adjusted to the correct Inventory Status.</p><h3 id=\"InventoryCountProcess:ReconcilingCounts-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427464/Inventory+Count+Resources\" data-linked-resource-id=\"1932427464\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Count Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591186/Inventory+Counts+Cycle+Counts+Unassigned+Counts\" data-linked-resource-id=\"1932591186\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Inventory Counts: Cycle Counts / Unassigned Counts</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494567/Inventory+Counts+Performing+an+Assigned+Count\" data-linked-resource-id=\"1930494567\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Inventory Counts: Performing an Assigned Count</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591200/Inventory+Counts+Pausing+Reassigning+and+Deleting+Counts\" data-linked-resource-id=\"1932591200\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Inventory Counts: Pausing, Reassigning, and Deleting Counts</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932558411\" rel=\"nofollow\">Inventory Counts: Reconciling Counts</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status Overview</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"InventoryCountProcess:ReconcilingCounts-ReconcilingInventoryCounts\">Reconciling Inventory Counts</h2><p>An Inventory Manager (or higher) can navigate to <strong>Inventory</strong> \u2192 <strong>Inventory</strong> <strong>Counts</strong>\u00a0to view a summary of all pending inventory counts. The Summary page will show all pending inventory counts. By default, items in <strong>Counting</strong> and <strong>Counted</strong> status are displayed. Any variances between the counted totals and the Instock quantities are also visible.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/PO%20Reconcile%201.png?api=v2\"></span><h3 id=\"InventoryCountProcess:ReconcilingCounts-ReconcileZero-VarianceItems\">Reconcile Zero-Variance Items</h3><p>Quickly reconcile all <strong>Counted</strong> items with zero variance by clicking the <strong>Options</strong> button and selecting <strong>Reconcile All</strong>. This will move the counts to <strong>Reconciled</strong> status, completing the count process for those items.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/PO%20Reconcile%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"210\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/PO%20Reconcile%203.png?api=v2\"></span><h3 id=\"InventoryCountProcess:ReconcilingCounts-ReconcileInventoryVariances\">Reconcile Inventory Variances</h3><p>Counts with variances are reconciled at the line-item level to account for necessary inventory adjustments. In the <strong>Actions</strong> column, click the <strong>Options</strong> button to access additional actions for the counted item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/PO%20Reconcile%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"210\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/PO%20Reconcile%205.png?api=v2\"></span><ul><li><p><strong>Count</strong> - This will begin a count for an item or allow you to re-count if any items were counted in error.</p></li><li><p><strong>Edit\u00a0</strong>- This will allow you to edit the assignment.</p></li><li><p><strong>Finish/Reconcile &amp; Finish</strong> - This will begin the process of confirming a count, reconciling inventory, and finalizing the count. You will be able to make final adjustments before submission.</p></li><li><p><strong>Delete</strong> - This will delete the count from the Count Summary.</p></li></ul><h3 id=\"InventoryCountProcess:ReconcilingCounts-ReconcileNon-SerializedItemsWithaNegativeVariance\">Reconcile Non-Serialized Items With a Negative Variance</h3><p>When reconciling an item with a negative variance, you\u2019ll be prompted to select an inventory status for the missing item(s) and add any relevant notes. After verifying or correcting the variance, click <strong>Save and Mark Reconciled</strong> to complete the count. The missing item(s) will be adjusted out of inventory under the chosen status.</p><p><strong>Note</strong>: Our related article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status</a>, offers additional information on selecting the appropriate status for these items.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/PO%20Reconcile%206.png?api=v2\"></span><h3 id=\"InventoryCountProcess:ReconcilingCounts-ReconcileNon-SerializedItemsWithaPositiveVariance\">Reconcile Non-Serialized Items With a Positive Variance</h3><p>When reconciling a count with a positive variance, you\u2019ll be prompted to assign details to the found items and select an active inventory status, along with any relevant notes. After verifying or correcting the variance, click <strong>Save and Mark Reconciled</strong> to complete the count. The found item(s) will be added to the inventory under the chosen status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/PO%20Reconcile%207.png?api=v2\"></span><h3 id=\"InventoryCountProcess:ReconcilingCounts-ReconcileSerializedItemswithaNegativeVariance\">Reconcile Serialized Items with a Negative Variance</h3><p>Negative variance reconciliation includes a <strong>Missing Serials</strong> section, which lists serial numbers in inventory that weren't counted. You must assign an inventory status to these items and relevant notes. Corrections can be made to add the item back to inventory (e.g., <strong>Instock</strong>) or remove it (e.g., <strong>Shrinkage</strong>) before reconciling the count. All items must have a resolution before you can <strong>Save and Mark Reconciled</strong> to complete the process.</p><p><strong>Note</strong>: Our related article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status</a>, offers additional information on selecting the appropriate status for these items.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/PO%20Reconcile%208.png?api=v2\"></span><h3 id=\"InventoryCountProcess:ReconcilingCounts-ReconcileSerializedItemswithaPositiveVariance\">Reconcile Serialized Items with a Positive Variance</h3><p>Positive variance reconciliation includes an <strong>Invalid Serials</strong> section, where you can decide how to handle conflicting serial numbers by choosing <strong>Add (+)</strong> or <strong>Ignore</strong>. All serial numbers in this list must be resolved before you can click <strong>Save and Mark Reconciled</strong> to complete the count.</p><ul><li><p><strong>Add (+)</strong> - Assign additional information for the item before placing the item in active stock status.</p></li><li><p><strong>Ignore</strong> - This will strike through the item and exclude it from reconciliation. This item will not be adjusted into inventory.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932558411/PO%20Reconcile%209.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932558411"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932558411/child",
+    "restrictions": "/rest/api/content/1932558411/restriction/byOperation",
+    "history": "/rest/api/content/1932558411/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932558411/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932558411",
+    "webui": "/spaces/SCD/pages/1932558411/Inventory+Count+Process+Reconciling+Counts",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932558411",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932558411",
+    "tinyui": "/x/S4Awcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

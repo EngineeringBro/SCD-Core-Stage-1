@@ -1,0 +1,129 @@
+{
+  "id": "1934327847",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934327847",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDMyNzg0Nw==",
+  "status": "current",
+  "title": "Reports: Inventory Expense",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:53.006Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "33",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934327847.24",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934327847"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934327847/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Inventory Expense Report allows you to view your total inventory expenses, total retail value, and shipping costs when inventory is added to the system via Purchase Order (PO) or by inventory adjustment. Records are filtered by the date the inventory item was added/stocked into the system.</p><h3 id=\"Reports:InventoryExpense-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295071/Reports+Cash+Flow\" data-linked-resource-id=\"1934295071\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Reports: Cash Flow</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934557185/Reports+Inventory+Valuation\" data-linked-resource-id=\"1934557185\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Inventory Valuation</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937866763/Reporting+Resources+with+Video\" data-linked-resource-id=\"1937866763\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Reporting Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327847/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"Reports:InventoryExpense-ViewingtheInventoryExpenseReport\">Viewing the Inventory Expense Report</h2><p /><p>1. On the Navigation Bar, go to\u00a0<strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327847/Expense%201.png?api=v2\"></span><p /><p>2. On the Reports page, click on the\u00a0<strong>Accounting dropdown</strong>\u00a0along the top row of report categories. From the available list, click\u00a0<strong>Inventory Expense</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327847/Expense%202.png?api=v2\"></span><p /><p>3. Use the filters to scope results based on the assigned parameters. Once you have selected your filters, click <strong>Apply Filters</strong>\u00a0to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327847/Expense%203.png?api=v2\"></span><p /><ul><li><p><strong>Item</strong> <strong>Date</strong> - The date the item was added to inventory by a PO or inventory adjustment.</p></li><li><p><strong>Location</strong> - Select a specific location or run an aggregate report for multiple stores.</p></li></ul><p /><p>4. (Optional) Click\u00a0<strong>Hide/Show Filters</strong>\u00a0on the upper-right side of the page to collapse/expand the filters when viewing reports. You can also toggle between the summary and detail report from this section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327847/Expense%205.png?api=v2\"></span><p /><p>5. (Optional)\u00a0Click\u00a0<strong>To Excel</strong>\u00a0on the upper-right side of the report page to export an Excel-friendly document. The export will include any filtered data when running the report.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327847/Expense%204.png?api=v2\"></span><p /><h2 id=\"Reports:InventoryExpense-InventoryExpenseReport\">Inventory Expense Report</h2><p>The top of the report displays the totals of Inventory Cost, Cost Adjustments (the total for all shipping, taxes, and fees entered on a PO), and Retail Value of the list results. This allows you to figure out the profit margin for inventory items. The information in this report is enhanced when prices and costs are closely monitored and accurately entered.</p><p>The list of items includes a timestamp of when the item was added to inventory, the date the item was ordered (if received on a PO) with an active link to the PO view page, Item Type, Catalog Name, SKU with an active link to that item's Inventory Management page, and Cost/Price details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934327847/Expense%206.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934327847"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934327847/child",
+    "restrictions": "/rest/api/content/1934327847/restriction/byOperation",
+    "history": "/rest/api/content/1934327847/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934327847/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934327847",
+    "webui": "/spaces/SCD/pages/1934327847/Reports+Inventory+Expense",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934327847",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934327847",
+    "tinyui": "/x/J4BLcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

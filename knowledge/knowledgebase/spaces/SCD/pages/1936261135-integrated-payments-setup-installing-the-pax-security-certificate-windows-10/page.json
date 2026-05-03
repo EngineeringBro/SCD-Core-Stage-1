@@ -1,0 +1,129 @@
+{
+  "id": "1936261135",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936261135",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjI2MTEzNQ==",
+  "status": "current",
+  "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Windows 10",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:32.582Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "150",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936261135.34",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936261135"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936261135/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>If you are utilizing Bluefin or Heartland for payment integration in RepairQ, you will need to download and install a Security Certificate on each computer that will communicate with a PAX device.</p><p>This tutorial will guide you through the process of downloading, installing, and testing the required certificate.</p><h3 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-Windows10-NextSteps(BasedonyourProcessorandDevice)\">Next Steps (Based on your Processor and Device)</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935376416/Integrated+Payments+Setup+Adding+a+Bluefin+PAX+Payment+Terminal+Device+in+RepairQ\" data-linked-resource-id=\"1935376416\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935998977/Integrated+Payments+Setup+Adding+a+Heartland+PAX+S300+A80+Payment+Terminal+in+RepairQ\" data-linked-resource-id=\"1935998977\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Heartland PAX S300 Payment Terminal in RepairQ</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-Windows10-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Introduction to Integrated Payments - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Troubleshooting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786931/Integrated+Payments+Setup+Installing+the+PAX+Security+Certificate+-+macOS\" data-linked-resource-id=\"1934786931\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Integrated Payments Setup: Installing the PAX Security Certificate - macOS</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935507459/Integrated+Payment+Setup+Assigning+Your+PAX+Payment+Device+to+a+VCT+and+Processing+Payments\" data-linked-resource-id=\"1935507459\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payment Setup: Assigning Your PAX Payment Device to a VCT and Processing Payments</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"788\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184050.png?api=v2\"></span><p /><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-Windows10-DownloadingthePAXSecurityCertificate\">Downloading the PAX Security Certificate</h2><p /><p>1. Download the certificate: <strong><a href=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/ca.repairq.io.cer\" rel=\"nofollow\">ca.repairq.io.cer</a></strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"233\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184058.png?api=v2\"></span><p /><p /><p>2. In the Downloads folder on your computer, double-click the downloaded certificate to begin the installation.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"687\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184105.png?api=v2\"></span><p /><p /><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-Windows10-InstallingthePAXSecurityCertificate\">Installing the PAX Security Certificate</h2><p /><p>1. After opening the file, there will be a pop-up for the Certificate Import Wizard. Click <strong>Open</strong> to begin the process.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"459\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184113.png?api=v2\"></span><p /><p> </p><p>2. On the certificate information pop-up, click <strong>Install Certificate</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"400\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184120.png?api=v2\"></span><p /><p> </p><p>3. Choose <strong>Local Machine</strong> as the Store Location, and click <strong>Next</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"526\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184134.png?api=v2\"></span><p /><p> </p><p><strong>Note</strong>: If you are prompted to allow this app to make changes to your device, click <strong>Yes</strong>.</p><p> </p><p>4. On the Certificate Store screen, select <strong>Place all certificates in the following store</strong> and then click <strong>Browse</strong> to view a list of available certificate stores.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"527\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184143.png?api=v2\"></span><p /><p> </p><p>5. Click <strong>Trusted Root Certificate Authorities</strong> to highlight the file and click <strong>OK</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"276\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184152.png?api=v2\"></span><p /><p> </p><p>6. You should see <strong>Trusted Root Certification Authorities</strong> in the Certificate store field. Click <strong>Next</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"528\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184159.png?api=v2\"></span><p /><p> </p><p>7. On the confirmation screen, click <strong>Finish</strong> to import the certificate.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"484\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184209.png?api=v2\"></span><p /><p> </p><p>8. On the Success screen, click <strong>OK</strong> to finish the installation. Then click <strong>OK</strong> again on the Certificate Information screen to close the process.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"405\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184223.png?api=v2\"></span><p /><p> </p><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-Windows10-TestingthePAXSecurityCertificate\">Testing the PAX Security Certificate</h2><p /><p>1. In Chrome, browse to <strong><a class=\"external-link\" href=\"https://test.term.repairq.io/\" rel=\"nofollow\">https://test.term.repairq.io</a></strong> to verify that the browser is configured to trust the security certificate. Click on the lock (highlighted in green) to view the security certificate.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"404\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184233.png?api=v2\"></span><p /><p> </p><p>2. Click <strong>Connection is Secure</strong> then <strong>Certificate is Valid</strong> to view the certificate.</p><p> </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"404\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184242.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"403\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261135/image-20230608-184248.png?api=v2\"></span><p /><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936261135"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936261135/child",
+    "restrictions": "/rest/api/content/1936261135/restriction/byOperation",
+    "history": "/rest/api/content/1936261135/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936261135/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936261135",
+    "webui": "/spaces/SCD/pages/1936261135/Integrated+Payments+Setup+Installing+the+PAX+Security+Certificate+-+Windows+10",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936261135",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936261135",
+    "tinyui": "/x/DwBpcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1933803521",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933803521",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzgwMzUyMQ==",
+  "status": "current",
+  "title": "Dashboard Announcements",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:46.390Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "157",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933803521.35",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933803521"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803521/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ's announcement feature allows Admins and Managers to communicate with their staff with banner announcements that appear at the top of the RepairQ Dashboard as well as send announcements to a user's email address. These alerts show up on the dashboard above the Ticket Progress queue.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803521/Announcements%201.png?api=v2\"></span><h3 id=\"DashboardAnnouncements-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933705356\" rel=\"nofollow\">Getting Started: The RepairQ Dashboard</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936785488\" rel=\"nofollow\">Staff Management Resources (with Video)</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929379890\" rel=\"nofollow\">Staff Management: Add and Deactivate Staff Profiles</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803521/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"DashboardAnnouncements-CreateaNewAnnouncement\">Create a New Announcement</h2><p /><p>On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company</strong> <strong>Settings</strong> to create an announcement for all locations. If you would like to send an announcement to your current location only, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>. On the Settings Overview page, select the <strong>Communications dropdown</strong> from the left column of settings. From the list of options, click <strong>Announcements</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803521/Announcements%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"210\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803521/Announcements%203.png?api=v2\"></span><p /><p>On the Announcements page, click <strong>Add Announcements</strong>. Begin filling out the different fields for the announcement. You can customize which location(s)/user(s) can receive your announcements and schedule a delivery time for the message. Once you are satisfied with your announcement, click <strong>Save</strong> to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803521/Announcements%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803521/Announcements%205.png?api=v2\"></span><ul><li><p><strong>Location List</strong> - Select one or multiple locations to receive this announcement.</p></li><li><p><strong>Role List</strong> - Select which user roles will see this announcement.</p></li><li><p><strong>Content\u00a0</strong>- Type your announcement in this section.</p></li><li><p><strong>Is Global/Corporate Announcement</strong> - If this is selected, the announcement will be locked from editing/deleting by a user who does not have Admin privileges.</p></li><li><p><strong>Send Date</strong> - Select a date and time to create/send the announcement.\u00a0</p></li><li><p><strong>Expire Date</strong> - Select a date and time to stop the announcement.</p></li><li><p><strong>Deliver Type</strong> - Select a delivery method for your announcement.</p><ul><li><p>Dashboard - Deliver your announcement to the dashboard only.</p></li><li><p>Email - Deliver your announcement via email. It will be sent to the email address in their staff contact info in RepairQ.</p></li><li><p>Dashboard + Email - Deliver your announcement to both.</p></li></ul></li></ul><p /><p>After saving, your announcement will show in the list. If you need to make changes or delete the announcements, there are options available under the Action column.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803521/Announcements%207.png?api=v2\"></span><p /><p>The announcement will show on the specified date/time for all locations and users, per the announcement settings. <strong>Note</strong>: Any outgoing email announcements can be viewed in the Notification Log. You can view this list by navigating to <strong>Reports</strong> \u2192 <strong>Notifications</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803521/Announcements%208.png?api=v2\"></span><p /><p /><p>START 1.22.X\u00a0</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933803521"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933803521/child",
+    "restrictions": "/rest/api/content/1933803521/restriction/byOperation",
+    "history": "/rest/api/content/1933803521/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933803521/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933803521",
+    "webui": "/spaces/SCD/pages/1933803521/Dashboard+Announcements",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933803521",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803521",
+    "tinyui": "/x/AYBDcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

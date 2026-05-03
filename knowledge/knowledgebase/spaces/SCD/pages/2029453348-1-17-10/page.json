@@ -1,0 +1,130 @@
+{
+  "id": "2029453348",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029453348",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTQ1MzM0OA==",
+  "status": "current",
+  "title": "1.17.10",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T17:23:28.164Z",
+    "friendlyWhen": "Jul 19, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029453348.33",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029453348"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029453348/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>1.17.10 is a minor update including some small features and bug fixes.</p><p>Released 11:30 CST on July 20</p><h3 id=\"id-1.17.10-NewFeatures\">New Features</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427638/Ticket+Properties+Require+a+Ticket+Resolution\" data-linked-resource-id=\"1932427638\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Require a ticket resolution</a> before entering a specific ticket status.</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427651/Ticket+Properties+Requiring+a+Ticket+Assignee\" data-linked-resource-id=\"1932427651\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Require a ticket assignee</a> before entering a specific ticket status.</p></li></ul><h3 id=\"id-1.17.10-EnhancementsandBugFixes\">Enhancements and Bug Fixes</h3><ul><li><p>A VCT is now required when voiding a ticket so that any voided payments can be accounted for when closing the cash drawer.</p></li><li><p>Added new in-app controls to manage <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624095/RepairQ+Support+Login+Authorization\" data-linked-resource-id=\"1932624095\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ support team login access</a> to perform troubleshooting.</p></li><li><p>The inventory item list (for a given catalog item) will now show the location specific price for the catalog item instead of the default catalog item price.</p></li><li><p>The device list manufacturer filter will now show only the manufacturers that have repairable devices linked.</p></li><li><p>Performance optimizations that will reduce page load times.</p></li><li><p>We fixed an issue with Qsite that would limit the number of compatible services that would be listed for a device.</p></li><li><p>Fixed an issue with saving IP whitelist changes for a staff user.</p></li><li><p>Fixed an issue with including custom forms on claim tickets.</p></li><li><p>Fixed an issue that prevented unsetting the billing agent on the ticket.</p></li><li><p>Fixed an issue that would hide the \u201cquick links\u201d on the dashboard when the check-in widget was enabled.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029453348"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 18904818
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029453348/child",
+    "restrictions": "/rest/api/content/2029453348/restriction/byOperation",
+    "history": "/rest/api/content/2029453348/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029453348/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029453348",
+    "webui": "/spaces/SCD/pages/2029453348/1.17.10",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029453348",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029453348",
+    "tinyui": "/x/JAD3e",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

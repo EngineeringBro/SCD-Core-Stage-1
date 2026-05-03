@@ -1,0 +1,129 @@
+{
+  "id": "1935376416",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1935376416",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNTM3NjQxNg==",
+  "status": "current",
+  "title": "Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:44.890Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1935376416.31",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1935376416"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935376416/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>After you have added Bluefin integration credentials and downloaded and installed your PAX security certificate, you can register your payment device to communicate with RepairQ.</p><h3 id=\"IntegratedPaymentsSetup:AddingaBluefinPAXPaymentTerminalDeviceinRepairQ-NextSteps\">Next Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935769605/Integrated+Payments+Setup+Performing+a+Test+Transaction+with+a+PAX+Terminal+Device\" data-linked-resource-id=\"1935769605\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Integrated Payments Setup: Performing a Test Transaction with a PAX Terminal Device</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935507459/Integrated+Payment+Setup+Assigning+Your+PAX+Payment+Device+to+a+VCT+and+Processing+Payments\" data-linked-resource-id=\"1935507459\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payment Setup: Assigning Your PAX to a VCT and Processing Payments</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:AddingaBluefinPAXPaymentTerminalDeviceinRepairQ-PreviousSteps\">Previous Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786687/Integrated+Payments+Setup+PAX+Security+Certificate+Installation+and+Testing\" data-linked-resource-id=\"1934786687\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Integrated Payments Setup: PAX Security Certificate Installation</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786847/Integrated+Payments+Setup+Adding+Bluefin+Credentials+in+RepairQ\" data-linked-resource-id=\"1934786847\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding Bluefin Integration Credentials in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229806/Integrated+Payments+Setup+Configuring+a+Bluefin+PAX+A80+A920+to+Communicate+with+RepairQ\" data-linked-resource-id=\"1934229806\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Integrated Payments Setup: Configuring a Bluefin PAX A80/A920 to Communicate with RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786801/Integrated+Payments+Setup+Activate+Your+P2PE+Device\" data-linked-resource-id=\"1934786801\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Integrated Payments Setup: Activate Your P2PE Device</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:AddingaBluefinPAXPaymentTerminalDeviceinRepairQ-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Troubleshooting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917880/PAX+Device+Troubleshooting+Find+the+IP+Address+Assigned+to+Your+PAX+S300\" data-linked-resource-id=\"1934917880\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">PAX Device Troubleshooting: Find the IP Address Assigned to Your PAX S300</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935376416/image-20230608-184641.png?api=v2\"></span><p /><h2 id=\"IntegratedPaymentsSetup:AddingaBluefinPAXPaymentTerminalDeviceinRepairQ-AddingYourBluefinPaymentDevice\">Adding Your Bluefin Payment Device</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192<strong> Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935376416/image-20230608-184649.png?api=v2\"></span><p /><p /><p>2. On the Settings Overview screen, click on the <strong>Payments</strong> category dropdown on the left column. From the list of options, click <strong>Payment Devices</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935376416/image-20230608-184656.png?api=v2\"></span><p /><p /><p>3. On the Payment Terminal page, click <strong>Add a Payment Device</strong> on the right side.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935376416/image-20230608-184704.png?api=v2\"></span><p /><p /><p><strong>Note</strong>: To make adjustments to an existing payment device, click the <strong>Edit Button</strong> next to the device in the list.</p><p /><p>4. On the Payment Terminal screen, begin filling out the fields for your device.</p><ul><li><p><strong>Name</strong> - Assign a name to identify your payment device. This will be used when assigning your device to a Virtual Cash Terminal (VCT).</p></li><li><p><strong>Payment Method</strong>- Select Credit Card (Bluefin).</p></li><li><p><strong>Hardware</strong> - Choose the device model provided to you by Bluefin.</p></li><li><p><strong>IP Address\u00a0</strong>- Enter the IP Address assigned to this device. For assistance, check out <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">this page</a>.</p><ul><li><p>When entering the IP address into RepairQ, remove any left-of-zero padding from the IP octets. For example, if the IP address listed is 172.016.001.180 you should enter 172.16.1.180 into RepairQ.</p></li></ul></li><li><p><strong>IP Port</strong> - 10009</p></li><li><p><strong>Signature Source</strong> - Select whether to accept signatures for payments on your payment terminal or with <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937014846/Create+a+Qpop+Companion\" data-linked-resource-id=\"1937014846\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop Companion</a>.</p></li><li><p><strong>RequireSignature</strong> - Check this box if you would like to require an electronic signature for payments.\u00a0</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935376416/image-20230608-184713.png?api=v2\"></span><p /><p /><p>5. Once you are satisfied with your updates, click <strong>Save</strong>. Repeat this process for any additional devices.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935376416/image-20230608-184722.png?api=v2\"></span><p /><p /><p>6. After saving your settings, the Bluefin payment device will show on the Payment Terminal screen. We recommend <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935769605/Integrated+Payments+Setup+Performing+a+Test+Transaction+with+a+PAX+Terminal+Device\" data-linked-resource-id=\"1935769605\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">performing a test transaction</a> to ensure the device is working properly before opening your VCT.</p><p /><p>7. (Optional) After verifying that you are able to accept payments, we recommend changing your PAX device to use <strong>Static LAN Mode</strong> to ensure optimal connectivity. Check out <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935572993/PAX+Device+Troubleshooting+Change+the+LAN+Type+on+a+Bluefin+PAX+A80+A920\" data-linked-resource-id=\"1935572993\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Changing the LAN Type on a PAX S300</a> to learn more.</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1935376416"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1935376416/child",
+    "restrictions": "/rest/api/content/1935376416/restriction/byOperation",
+    "history": "/rest/api/content/1935376416/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1935376416/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1935376416",
+    "webui": "/spaces/SCD/pages/1935376416/Integrated+Payments+Setup+Adding+a+Bluefin+PAX+Payment+Terminal+Device+in+RepairQ",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1935376416",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935376416",
+    "tinyui": "/x/IIBbcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

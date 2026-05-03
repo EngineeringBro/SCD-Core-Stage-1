@@ -1,0 +1,129 @@
+{
+  "id": "1936785446",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936785446",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjc4NTQ0Ng==",
+  "status": "current",
+  "title": "Business Intelligence - Analytics Dashboards",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:31.015Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "1519",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936785446.47",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936785446"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936785446/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ includes a powerful Business Intelligence (BI) Suite, provided through integration with Looker. This tool offers a set of visual dashboards covering key performance indicators (KPIs) essential for running a retail repair business. These reports allow you to quickly view important aspects of your business, such as sales trends, inventory levels, and repair progress, helping you make more informed decisions.</p><p>Our Business Intelligence (BI) Dashboards are available to Admin users on our Advanced and Professional plans. Users on the <strong>Advanced Plan</strong> can view a wide range of pre-built reports and dashboards, giving them access to critical insights about their business. However, they are limited to viewing these pre-made reports and cannot create new ones. <strong>Professional Plan</strong> users can view pre-built reports and build custom reports. This allows them to tailor reports to their specific needs and gain deeper insights from their data.</p><h3 id=\"BusinessIntelligence-AnalyticsDashboards-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2731114524\" rel=\"nofollow\">Business Intelligence (BI) Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937866763/Reporting+Resources+with+Video\" data-linked-resource-id=\"1937866763\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Reporting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Technical - 124a6d.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"BusinessIntelligence-AnalyticsDashboards-DailySnapshot\">Daily Snapshot</h2><p>On the RepairQ Navigation Bar, go to <strong>Reports </strong>\u2192 <strong>Analytics</strong>. The Daily Snapshot provides a visual display of several key performance indicators (KPIs) that business owners typically monitor throughout the day. If you don't choose a location, it will default to the one you're currently logged in to. Removing the location filter will show a combined report for all locations under your account.</p><p>Once your <strong>Daily Snapshot</strong> loads, you\u2019ll see a variety of important KPIs, including:</p><ul><li><p>Gross sales and progress toward your daily average</p></li><li><p>Hours per repair compared to the daily average</p></li><li><p>Sales per man hour</p></li><li><p>Retail attachments per ticket</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Analytics 2.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/Analytics%202.png?api=v2\"></span><h2 id=\"BusinessIntelligence-AnalyticsDashboards-MonthtoDateDashboards\">Month to Date Dashboards</h2><p>Navigate to <strong>Dashboards</strong> \u2192 <strong>Month to Date</strong>, where you'll find a variety of current month-to-date dashboards.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Analytics 21.png\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/Analytics%2021.png?api=v2\"></span><h3 id=\"BusinessIntelligence-AnalyticsDashboards-Inventory\">Inventory</h3><p>Displays data on month-to-date inventory purchases, consumption, projected consumption, RMA rate, and damage rate, with comparisons to the previous month. You can also view your current <strong>Inventory on Hand</strong>, with the percentage breakdown of each status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-175018.png?api=v2\"></span><h3 id=\"BusinessIntelligence-AnalyticsDashboards-Repairs\">Repairs</h3><p>Provides insights into new repair tickets, ticket turn time, hours per repair, daily repairs per technician, rework rates, and data rates. It also includes projections for the rest of the month.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-175001.png?api=v2\"></span><h3 id=\"BusinessIntelligence-AnalyticsDashboards-Sales\">Sales</h3><p>Displays net sales for the month to date, along with projected sales, gross profit margin, average ticket amount, number of new tickets, sales pace, and more. Projections for the full month are also included.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-174941.png?api=v2\"></span><h3 id=\"BusinessIntelligence-AnalyticsDashboards-ProfitabilityEstimate\">Profitability Estimate</h3><p>Displays earnings before interest, taxes, depreciation, and amortization (EBITDA), providing insights into your current month's profitability. You'll see a breakdown of gross profit estimate, gross sales, returns/discounts, and cost of goods sold (COGS), along with projections for the rest of the month.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-174930.png?api=v2\"></span><h2 id=\"BusinessIntelligence-AnalyticsDashboards-InventoryPurchasingDashboard\">Inventory Purchasing Dashboard</h2><h3 id=\"BusinessIntelligence-AnalyticsDashboards-RMA%bySupplier\">RMA % by Supplier</h3><p>A visual graph displaying each supplier's RMA percentage over the last 90 days. The chart includes a color-coded key to help you identify which color corresponds to each supplier.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-174905.png?api=v2\"></span><h3 id=\"BusinessIntelligence-AnalyticsDashboards-InventoryPurchasesbySupplier\">Inventory Purchases by Supplier</h3><p>A visual graph showing how much you\u2019ve spent with each supplier over the last 90 days. The chart includes a color-coded key to identify which color corresponds to each supplier.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-174844.png?api=v2\"></span><h3 id=\"BusinessIntelligence-AnalyticsDashboards-InventoryCostMovement\">Inventory Cost Movement</h3><p>Displays your highest total cost items, along with their minimum, maximum, and average costs, as well as the last purchase dates.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-174829.png?api=v2\"></span><h3 id=\"BusinessIntelligence-AnalyticsDashboards-InventoryMovement\">Inventory Movement</h3><p>Displays your highest-selling inventory items, including their reorder points, four-week average sales, current stock levels, last week's sales, and sales data from previous weeks.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-174811.png?api=v2\"></span><h2 id=\"BusinessIntelligence-AnalyticsDashboards-CustomerDashboard\">Customer Dashboard</h2><p>Provides insights into customer activity over the past 30 days, including the number of first-time and repeat purchases, average customer value, average tickets per customer, and a list of your top customers along with their total spending at your location.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-174802.png?api=v2\"></span><h2 id=\"BusinessIntelligence-AnalyticsDashboards-LocationDashboard\">Location Dashboard</h2><p>Displays total sales, repair sales, and retail sales over the past 30 days, categorized by location.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-174752.png?api=v2\"></span><h2 id=\"BusinessIntelligence-AnalyticsDashboards-StaffDashboard\">Staff Dashboard</h2><p>Provides insights into staff performance over the past 30 days, including clocked hours, sales per man hour, hours per repair, rework rate, and a highlight of your top sales and technician leaders.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785446/image-20230607-174743.png?api=v2\"></span><p /><p /><p>START 1.21.1</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936785446"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936785446/child",
+    "restrictions": "/rest/api/content/1936785446/restriction/byOperation",
+    "history": "/rest/api/content/1936785446/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936785446/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936785446",
+    "webui": "/spaces/SCD/pages/1936785446/Business+Intelligence+-+Analytics+Dashboards",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936785446",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936785446",
+    "tinyui": "/x/JgBxcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

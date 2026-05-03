@@ -1,0 +1,130 @@
+{
+  "id": "2031353878",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2031353878",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMTM1Mzg3OA==",
+  "status": "current",
+  "title": "1.12.4",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-21T18:35:49.190Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "9",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2031353878.15",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2031353878"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031353878/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 04/12/17 9:49PM CT</p><h2 id=\"id-1.12.4-InternalPurchaseOrders(transfers)\">Internal Purchase Orders (transfers)</h2><ul><li><p>Internal transfers are now fully disabled if only one location is active</p></li><li><p>Inactive locations no longer show in the internal supplier list</p></li><li><p>Inventory managers can now print packing slips</p></li><li><p>Added a &quot;view serials&quot; interface to view serial numbers for inventory transferred</p></li></ul><h2 id=\"id-1.12.4-CatalogItemLabels\">Catalog Item Labels</h2><p>Display location override price on catalog item labels.</p><h2 id=\"id-1.12.4-ReconcileallcreditcardsonVCT\">Reconcile all credit cards on VCT</h2><p>Fixed and enhanced the feature that allows non-integrated credit cards to be reconciled on a single VCT.</p><h2 id=\"id-1.12.4-InactiveItemTypes\">Inactive Item Types</h2><p>Exclude catalog items from searches and list views where the parent Item Type is inactive.</p><h2 id=\"id-1.12.4-MaxDiscountAllowedforManagerRole\">Max Discount Allowed for Manager Role</h2><p>The manager role\u00a0now\u00a0no longer grants\u00a0the ability to grant\u00a0100% discount on tickets, unless no max discount is defined on their staff profile. An admin\u00a0can set the max discount that a\u00a0manager may\u00a0grant with the \u00a0&quot;max discount&quot; field, and it will be enforced as it is enforced with other user roles.</p><h2 id=\"id-1.12.4-NewLoadingIndicator\">New Loading Indicator</h2><p>We added a new loading indicator for your viewing pleasure.</p><h2 id=\"id-1.12.4-InvoiceFilters\">Invoice\u00a0Filters</h2><p>The &quot;customer&quot; and &quot;billing agent&quot; filters on the invoice screen\u00a0were not filtering as intended. These filters have been updated, and they will filter results with a stricter logic.</p><h2 id=\"id-1.12.4-BrandedLogosonEmailReceipts\">Branded\u00a0Logos on Email Receipts</h2><p>Some of you have had trouble getting logos to show up for emailed receipts and invoices.\u00a0We ironed out some wrinkles related to uploaded images on receipts &amp; invoices which should resolve any lingering issues here.</p><h2 id=\"id-1.12.4-PAXPaymentDuplicates\">PAX Payment Duplicates</h2><p>We fixed a\u00a0rare case where payments would be saved twice to the ticket after processing.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2031353878"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 312703992
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2031353878/child",
+    "restrictions": "/rest/api/content/2031353878/restriction/byOperation",
+    "history": "/rest/api/content/2031353878/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2031353878/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2031353878",
+    "webui": "/spaces/SCD/pages/2031353878/1.12.4",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2031353878",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031353878",
+    "tinyui": "/x/FgAUeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

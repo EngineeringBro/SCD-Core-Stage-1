@@ -1,0 +1,129 @@
+{
+  "id": "1934393396",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934393396",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDM5MzM5Ng==",
+  "status": "current",
+  "title": "QuickBooks Integration: Sending Journal Entries on Demand",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:32.935Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "2",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934393396.52",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934393396"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934393396/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ generates Journal Entries for various business transactions, including sales, payments, Cost of Goods Sold (COGS), inventory, and payable taxes. If you have established a Chart of Accounts (COA) for your business, you can seamlessly map the data from our application to your COA. This mapping process automates the classification of events, ensuring accurate and organized financial reporting.</p><p>The mapped data is used to generate the Journal Entries Report, a critical component for Quickbooks integration. This report provides a detailed breakdown of financial activities, enhancing your accounting process. To further streamline your accounting workflow, RepairQ allows you to export these journal entries into your accounting system\u2013QuickBooks, Xero, etc. Our integration with QuickBooks simplifies the transfer of financial information, making a seamless and efficient process for maintaining accurate records. This report can also send on-demand journal entries to QuickBooks if there is an error during upload.</p><p><strong>Accurate Financial Reporting</strong> - Generate detailed journal entries for sales, payments, COGS, inventory, and taxes payable. The Journal Entries Report is a comprehensive overview of your business transactions.</p><p><strong>Export Functionality</strong> - Export Journal Entries from RepairQ for use with your preferred accounting system, saving time and reducing errors.</p><p><strong>QuickBooks Integration</strong> - Streamline your accounting process by transmitting Journal Entry data into your asset and liability accounts in QuickBooks nightly.</p><p>For questions about your Chart of Accounts in your accounting software, please consult with a CPA on proper policies, procedures, and laws in your state.</p><h3 id=\"QuickBooksIntegration:SendingJournalEntriesonDemand-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934524484/Accounting+Software+Resources\" data-linked-resource-id=\"1934524484\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Accounting Software Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229563/Integrations+QuickBooks+Online+Setup\" data-linked-resource-id=\"1934229563\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrations: QuickBooks Online Setup</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934458970/Chart+of+Accounts+-+Accounting+Journal+Entries\" data-linked-resource-id=\"1934458970\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Chart of Accounts - Accounting Journal Entries</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917678/Reports+Accounting+System+Reporting\" data-linked-resource-id=\"1934917678\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Reports: Accounting System Reporting</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246837/Reports+Accounting+Journal+Entries\" data-linked-resource-id=\"1933246837\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Reports: Accounting Journal Entries</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246874/Journal+Entries+Set+Default+Account+Classifications\" data-linked-resource-id=\"1933246874\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Journal Entries: Set Default Account Classifications</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934393396/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"QuickBooksIntegration:SendingJournalEntriesonDemand-ManuallySendJournalEntriestoQuickBooksOnline\">Manually Send Journal Entries to QuickBooks Online</h2><p /><p>1. Log into the location that will be sending Journal Entries. On the Navigations bar, go to <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"544\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934393396/Send%20Journal%20Entry%201.png?api=v2\"></span><p /><p>2. On the Reports page, under the Accounting heading, click <strong>Journal</strong> <strong>Entries</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"204\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934393396/Send%20Journal%20Entry%202.png?api=v2\"></span><p /><p>3. On the Journal Entry Report page, set the desired range of dates, location(s), and any optional fields, then click <strong>Apply</strong> <strong>Filters</strong>. Once you receive the updated results, click <strong>Send</strong> <strong>to</strong> <strong>QuickBooks</strong>.</p><p><strong>Note</strong>: Filters <strong>must</strong> be applied before sending to QuickBooks Online.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934393396/Screenshot%202023-06-29%20at%207.23.33%20PM.png?api=v2\"></span><p /><p><strong>Tip</strong>: Hovering over the Send to QuickBooks button will display an important tooltip.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934393396/Screenshot%202023-06-29%20at%207.25.22%20PM.png?api=v2\"></span><p /><p>4. After clicking <strong>Send to QuickBooks</strong>, a warning message will appear, warning that the upload will replace all journal entries in your QuickBooks account that originated from RepairQ for the filtered date range and location(s). Click <strong>OK</strong> to acknowledge and continue.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934393396/Send%20Journal%20Entry%205.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934393396"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934393396/child",
+    "restrictions": "/rest/api/content/1934393396/restriction/byOperation",
+    "history": "/rest/api/content/1934393396/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934393396/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934393396",
+    "webui": "/spaces/SCD/pages/1934393396/QuickBooks+Integration+Sending+Journal+Entries+on+Demand",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934393396",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934393396",
+    "tinyui": "/x/NIBMcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

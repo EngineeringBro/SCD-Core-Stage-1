@@ -1,0 +1,130 @@
+{
+  "id": "2030698657",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030698657",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDY5ODY1Nw==",
+  "status": "current",
+  "title": "1.12.9",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-21T18:15:01.703Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "4",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030698657.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030698657"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698657/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 05/23/2017 2:56 PM CT (19:56 UTC)</p><h2 id=\"id-1.12.9-InternalPO(InventoryTransfer)\">Internal PO (Inventory Transfer)</h2><p>The carrier and condition columns have been removed from the receiving side of inventory transfers. The status and condition will transfer unchanged with the inventory items.</p><h2 id=\"id-1.12.9-PurchaseOrderItemList\">Purchase Order Item List</h2><p>Column widths for price/cost/status/condition will now\u00a0carry a minimum width, giving you the ability to manage them more effectively on smaller screens. In addition, the purchase order item list scrolls horizontally on smaller screens so that there is sufficient room to display all of the\u00a0columns.</p><h2 id=\"id-1.12.9-TicketTaxOverride\">Ticket Tax Override</h2><p>The tax override checkbox would not always update the ticket immediately when checked or unchecked. This has been resolved.</p><h2 id=\"id-1.12.9-Diagnostics/NotesToolbar&amp;Formatting\">Diagnostics / Notes Toolbar &amp; Formatting</h2><p>For tickets with multiple repair or tradein devices, or when adding multiple ticket notes, the\u00a0text box would not always display the text\u00a0formatting tools. This has been resolved.</p><h2 id=\"id-1.12.9-PAXPaymentProcessing\">PAX Payment Processing</h2><p>Added some additional measures\u00a0to prevent\u00a0the\u00a0intermittent &quot;Transaction # is missing for Credit Card transaction&quot; error when saving a\u00a0payment.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030698657"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 312704602
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030698657/child",
+    "restrictions": "/rest/api/content/2030698657/restriction/byOperation",
+    "history": "/rest/api/content/2030698657/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030698657/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030698657",
+    "webui": "/spaces/SCD/pages/2030698657/1.12.9",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030698657",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698657",
+    "tinyui": "/x/oQAKeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

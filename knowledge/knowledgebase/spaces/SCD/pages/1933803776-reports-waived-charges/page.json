@@ -1,0 +1,129 @@
+{
+  "id": "1933803776",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933803776",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzgwMzc3Ng==",
+  "status": "current",
+  "title": "Reports: Waived Charges",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:59.235Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "21",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933803776.18",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933803776"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803776/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Waived Charge Reports show all of the items where charges have been waived. Items placed on a Return Repair have waived charges by default, and any items sold on any ticket can be waived by a manager. The purpose of this report is to give you insight into which sales are forfeited due to a repair return, rework, or any other scenario that provides a service or item free of charge.</p><h3 id=\"Reports:WaivedCharges-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377814/Reports+Repairs+by+Device\" data-linked-resource-id=\"1933377814\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Repairs by Device</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1939570735/Reports+Repairs+by+Technician+and+Item\" data-linked-resource-id=\"1939570735\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Reports: Repairs by Technician and Item</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803762/Reports+Repairs+by+Technician\" data-linked-resource-id=\"1933803762\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Reports: Repairs by Technician</a> </p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803776/image-20230627-153204.png?api=v2\"></span><p /><h2 id=\"Reports:WaivedCharges-ViewingtheWaivedChargesSummaryReport\">Viewing the Waived Charges Summary Report</h2><p /><p>1. On the Navigation Bar, go to <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803776/image-20230627-153207.png?api=v2\"></span><p /><p /><p>2. On the Reports page, click on the <strong>Returns &amp; Adjustments dropdown </strong>along the top row of report categories. From the available list, click <strong>Waived Charges Summary</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803776/image-20230627-153210.png?api=v2\"></span><p /><p /><p><strong>Note</strong>: You can view a detailed report of waived charges by selecting<strong> Waived Charges Details</strong>.</p><p /><p>3. Use the available filters to scope results based on the assigned parameters. Once you have set your filters, click <strong>Apply Filters </strong>to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803776/image-20230627-153213.png?api=v2\"></span><p /><p /><ul><li><p><strong>Date Range </strong>- Select a date range for your scope of results.</p></li><li><p><strong>Ticket Status </strong>- Select a specific ticket status or all ticket statuses for your results. The results will reflect the date when the ticket was updated.</p></li><li><p><strong>Location </strong>- Select a specific location or an aggregate report of all locations.</p></li><li><p><strong>Item Type</strong> - Select a specific item type or all item types.</p></li><li><p><strong>Catalog</strong> <strong>Item</strong> - Keyword search for a specific catalog item.</p></li></ul><p /><p><strong>Note</strong>: You can click <strong>Hide/Show Filters </strong>on the upper-right side of the page to collapse/expand the filters when viewing reports. You can also toggle between the summary and detail report from this section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803776/image-20230627-153219.png?api=v2\"></span><p /><p /><p>4. (Optional) Click <strong>To Excel </strong>on the upper-right side of the report page to export an Excel-friendly document. The export will include any filtered data when running the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803776/image-20230627-153222.png?api=v2\"></span><p /><p /><h2 id=\"Reports:WaivedCharges-WaivedChargesSummary\">Waived Charges Summary</h2><p>The Waived Charges Summary Report gives a broad summary of the item type, catalog item, SKU, quantity, and the sum of waived amounts. Totals for all listed items are at the bottom of the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803776/image-20230627-153225.png?api=v2\"></span><p /><p /><h2 id=\"Reports:WaivedCharges-WaivedChargesDetail\">Waived Charges Detail</h2><p>The Waived Charges Detail Report provides a list of each waived item, including a link to view the ticket, waived amounts, and any notes from the item on the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803776/image-20230627-153229.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803776/image-20230627-153234.png?api=v2\"></span><p /><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933803776"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933803776/child",
+    "restrictions": "/rest/api/content/1933803776/restriction/byOperation",
+    "history": "/rest/api/content/1933803776/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933803776/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933803776",
+    "webui": "/spaces/SCD/pages/1933803776/Reports+Waived+Charges",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933803776",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803776",
+    "tinyui": "/x/AIFDcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

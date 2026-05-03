@@ -1,0 +1,129 @@
+{
+  "id": "1932394575",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932394575",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjM5NDU3NQ==",
+  "status": "current",
+  "title": "Inventory Transfers: Accepting, Rejecting, and Shipping Items on Transfer Requests",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:02.122Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 16,
+    "minorEdit": false,
+    "ncsStepVersion": "50",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932394575.60",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932394575"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932394575/version/16"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Users on our Advanced or Professional plan with multiple locations can create an Internal Transfer request from another store to replenish their inventory. An inventory transfer functions similarly to a standard PO, however, there is an approval process to transfer inventory supplied by another location or designated warehouse in RepairQ.</p><p>Supplying stores need to approve inventory transfer requests before the items can be shipped to the requesting store. Supplying stores can also reject inventory transfer requests for any reason, as there are many scenarios where a store may not be able to fulfill a request. Stores can choose to reject an entire request or partially fulfill the request, depending on the circumstance.</p><ul><li><p>Store A is requesting items that Store B cannot supply. Store B can reject every item, essentially rejecting the entire request.</p></li><li><p>Store A is requesting multiple items and Store B can only provide some of the items. Store B can ship the items that they can provide and reject any remaining items, partially fulfilling the request.</p></li><li><p>Store A is requesting a specific quantity of an inventory item and Store B cannot provide the full amount. Store B can ship the quantity they can provide and reject the remaining quantity, partially fulfilling the request.</p></li></ul><p>This article will demonstrate the process of approving/declining items requested from another location.</p><h3 id=\"InventoryTransfers:Accepting,Rejecting,andShippingItemsonTransferRequests-NextStep\">Next Step</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932787800\" rel=\"nofollow\">Purchase Order Process: Receiving Items and Reconciling the Order</a></p></li></ul><h3 id=\"InventoryTransfers:Accepting,Rejecting,andShippingItemsonTransferRequests-PreviousStep\">Previous Step</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932460177/Inventory+Transfers+Requesting+Items+From+Another+Location\" data-linked-resource-id=\"1932460177\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Inventory Transfers: Requesting Items From Another Location</a></p></li></ul><h3 id=\"InventoryTransfers:Accepting,Rejecting,andShippingItemsonTransferRequests-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416/Purchase+Order+Resources\" data-linked-resource-id=\"1932427416\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Purchase Order Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672518/Inventory+Management+Allowing+Backorders+via+Internal+Purchase+Order\" data-linked-resource-id=\"1933672518\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Inventory Management: Allowing Backorders via Internal Purchase Order</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"InventoryTransfers:Accepting,Rejecting,andShippingItemsonTransferRequests-ViewingPendingTransferRequests\">Viewing Pending Transfer Requests</h2><p /><p>Log into the location supplying the inventory to the requesting location. On the Navigation Bar, go to <strong>Inventory</strong> \u2192 <strong>Inventory</strong> <strong>Transfers</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 01.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%2001.png?api=v2\"></span><p /><p>On the Inventory Transfer Management page, use the Location filter to select the <u>location that requested the items</u> and apply the filter. This will display any Purchase Orders (POs) created and need to be fulfilled for that location. Click on the PO to view the Purchase Order Ship page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 02.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%2002.png?api=v2\"></span><p /><p>From there, you can view the details of the PO and decide whether the store will accept or reject the request. You can approve and send the entire requested quantity for a line item, a partial amount, or reject the items.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 03.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%2003.png?api=v2\"></span><h2 id=\"InventoryTransfers:Accepting,Rejecting,andShippingItemsonTransferRequests-ApprovingItemsforTransfer\">Approving Items for Transfer</h2><p>Supplying stores need to approve inventory transfer requests before the items can be shipped to the requesting store. The Item List will show your current available quantity or the requested item, the quantity ordered, and options to reject or ship the items. Use the <strong>Quantity to Ship</strong> field to enter the amount that you are sending to the requestor.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 04.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%2004.png?api=v2\"></span><h2 id=\"InventoryTransfers:Accepting,Rejecting,andShippingItemsonTransferRequests-RejectingItemsforTransfer\">Rejecting Items for Transfer</h2><p>Supplying stores can also reject inventory transfer requests for any reason. If the entire ordered quantity for an item is rejected, the item will be highlighted green and the Quantity to Ship field can no longer be toggled. You can edit the rejected amount as needed.</p><p /><p>On the Purchase Order Ship page, click the <strong>Edit</strong> button in the Quantity Rejected box corresponding to the item\u00a0you wish to reject. Enter the amount that you are rejecting, and click <strong>Apply</strong>. This will update the Count and limit the quantity that can be shipped. Repeat this step for all items that are being rejected.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 05.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%2005.png?api=v2\"></span><h2 id=\"InventoryTransfers:Accepting,Rejecting,andShippingItemsonTransferRequests-AcceptAll/RejectAllinBulk\">Accept All/Reject All in Bulk</h2><p>If you have confirmed that you are either sending all items or rejecting all items on the PO request, you can use the checkbox column to <strong>select all items</strong> and then click <strong>Edit Selected</strong>, for a choice of whether to send all items or reject all items on the request.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 06.png\" width=\"443\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%2006.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 07.png\" width=\"495\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%2007.png?api=v2\"></span><h2 id=\"InventoryTransfers:Accepting,Rejecting,andShippingItemsonTransferRequests-CreatingaShipment\">Creating a Shipment</h2><p>Once you have updated your purchase order item list, the supplying store will create a shipment for the requesting store to receive the items. You can include all items in one shipment or divide the items over multiple shipments, depending on your needs.</p><p /><p>On the Purchase Order Ship page, indicate the shipping quantity (and rejected, if applicable). Once finished, click <strong>Create</strong> <strong>Shipment</strong>. This will create the shipment and redirect you to the Shipments tab.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 08.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%2008.png?api=v2\"></span><p /><p>On the Shipments tab, you can view individual shipment details, print packing slips, and delete shipments. Click the <strong>Mark</strong> <strong>As</strong> <strong>Shipped</strong> button to the right of the line item to advance the purchase order to <strong>Shipped</strong> status. (If sending partial quantities, this will advance the PO to <strong>Partially Shipped</strong> status.) This action allows the requesting store to receive the items. If there are multiple shipments, repeat this step until the PO is in Shipped status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 09.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%2009.png?api=v2\"></span><p /><p><strong>Note</strong>: If creating multiple shipments for the PO, click <strong>Save Shipments</strong>, navigate back to the Purchase Order Ship page, and repeat the shipment creation process as needed.</p><p>RepairQ requires that a shipment be created even if all of the items in the PO are rejected since this updates the Purchase Order to a receivable status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Accept Reject Transfer Request 010.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394575/Accept%20Reject%20Transfer%20Request%20010.png?api=v2\"></span><h2 id=\"InventoryTransfers:Accepting,Rejecting,andShippingItemsonTransferRequests-ReceivingShippedItems\">Receiving Shipped Items</h2><p>For a requesting store, receiving items from an internal transfer works the same way as <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932722231/Purchase+Order+Process+Creating+a+New+Purchase+Order\" data-linked-resource-id=\"1932722231\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">receiving items on any purchase order.</a> If the supplying store rejects all items in the inventory transfer/purchase order, the requesting store will only have the option to reconcile the PO. All items requested on an internal inventory transfer must be shipped or rejected before the PO can be reconciled.</p><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932394575"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932394575/child",
+    "restrictions": "/rest/api/content/1932394575/restriction/byOperation",
+    "history": "/rest/api/content/1932394575/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932394575/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932394575",
+    "webui": "/spaces/SCD/pages/1932394575/Inventory+Transfers+Accepting+Rejecting+and+Shipping+Items+on+Transfer+Requests",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932394575",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932394575",
+    "tinyui": "/x/TwAucw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

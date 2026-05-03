@@ -1,0 +1,129 @@
+{
+  "id": "1933803736",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933803736",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzgwMzczNg==",
+  "status": "current",
+  "title": "Send an SMS Ticket Status Notification",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:40.742Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "32",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933803736.57",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933803736"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803736/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p local-id=\"8e6bf555acab\">By default, RepairQ includes a built-in notification trigger for manually sending SMS status details from the customer\u2019s ticket. This feature ensures that customers receive essential information, enhancing communication and customer satisfaction. To send an SMS notification, the following must be met:</p><ul local-id=\"284d12cf07f1\"><li local-id=\"73e69df5e1bc\"><p local-id=\"0219f26ec99c\">A Customer Profile must be linked to the ticket.</p></li><li local-id=\"1076b853d899\"><p local-id=\"095a2919159b\">The Customer Profile must have a valid mobile phone number added to the \u2018SMS Phone\u2019 field, and the correct \u2018SMS Carrier\u2019 must be selected.</p></li><li local-id=\"141764f5cc33\"><p local-id=\"1b569db6a671\">The option \u2018Receive Service SMS Notifications\u2019 must be selected in the Customer Profile.</p></li></ul><div class=\"confluence-information-macro confluence-information-macro-note\"><span class=\"aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon\"></span><div class=\"confluence-information-macro-body\"><p local-id=\"d47c3fdc9be2\">Automated Notifications are intended for transactional and relationship messaging (ticket updates, pickup notifications, internal alerts), not for marketing or promotional content. </p><p local-id=\"b926453c68d5\">For details and regulatory context, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246478/Getting+Started+with+Automated+Notifications\" data-linked-resource-id=\"1933246478\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Getting Started with Automated Notifications</a> </p></div></div><h3 local-id=\"e5281449c12a\" id=\"SendanSMSTicketStatusNotification-AdditionalResources\">Additional Resources</h3><ul local-id=\"68a120fa24a5\"><li local-id=\"203ead33f6ab\"><p local-id=\"fbd3fc8e9648\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Managing Customer Profiles</a></p></li><li local-id=\"f63beea2ec6c\"><p local-id=\"e83af2e3d874\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notification Resources</a></p></li><li local-id=\"6baf80bd0832\"><p local-id=\"8012410b5982\"><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2767290399\" rel=\"nofollow\">Create an Automated SMS Notification</a></p></li><li local-id=\"a7045a97f0b9\"><p local-id=\"94e5df59b719\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803609/Integrations+Twilio\" data-linked-resource-id=\"1933803609\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Integrations: Twilio</a></p></li><li local-id=\"85625b4b3b7b\"><p local-id=\"b250ad1ffd0d\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803749/Customer+Communication+Preferences+and+Marketing+List\" data-linked-resource-id=\"1933803749\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Reports: Marketing List</a></p></li><li local-id=\"11fa9fda7ccd\"><p local-id=\"0ad96cdf8ed1\"><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2767552554\" rel=\"nofollow\">Add a New Device Carrier</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/Instructional%20-%200091cd.png?api=v2\"></span><h2 local-id=\"bbfc0c9b968f\" id=\"SendanSMSTicketStatusNotification-SendaTicketStatusSMS\">Send a Ticket Status SMS</h2><p local-id=\"72fb7ec0a2ad\">On the Navigation Bar, go to <strong>Tickets</strong>. When viewing the Ticket Queue, you can use the filters to search for an existing ticket or create a new one.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Email 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/Email%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Email 2.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/Email%202.png?api=v2\"></span><h3 local-id=\"327e5e5a11b3\" id=\"SendanSMSTicketStatusNotification-LinkaCustomertoaTicket(NewTickets)\">Link a Customer to a Ticket (New Tickets)</h3><p local-id=\"fdb34a39970b\">Before saving a ticket or sending a notification, you must attach a customer to the ticket. Use the <strong>Attach Customer button</strong> to add an existing customer or create a new Customer Profile.</p><p local-id=\"970e3399e0c9\"><strong>Note</strong>: The customer\u2019s profile must have a valid Mobile Number and Carrier, and \u2018Receive Service SMS Notifications\u2019 must be active for the customer to receive SMS notifications. </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Email 3.5.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/Email%203.5.png?api=v2\"></span><h3 local-id=\"16cc44c6e864\" id=\"SendanSMSTicketStatusNotification-CustomerDetailsonTickets(TicketViewMode)\">Customer Details on Tickets (Ticket View Mode)</h3><p local-id=\"0c8d660e9047\">The \u2018Customer\u2019 section lists the customer\u2019s contact info. The customer must have a valid SMS Phone Number and Carrier for SMS notifications to be sent successfully.</p><p local-id=\"362f92243c89\">If the Mobile Number address is missing, or you need to update their notification settings, you can edit the ticket and click the <strong>Edit Customer button</strong> to add the missing details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"SMS 16.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/SMS%2016.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"SMS 20.png\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/SMS%2020.png?api=v2\"></span><p local-id=\"b1c877c974a7\" /><p local-id=\"632dcb0b33ce\">Ticket actions are located in the upper-right corner of the ticket. To send an SMS to the customer with their ticket status, click the <strong>Bell Icon</strong>. You will receive a notification that the email was successfully queued.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"SMS 17.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/SMS%2017.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"SMS 18.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/SMS%2018.png?api=v2\"></span><h2 local-id=\"14add8dca4ab\" id=\"SendanSMSTicketStatusNotification-NotificationQueue\">Notification Queue</h2><p local-id=\"ec3db93d3970\">To check your outgoing notification queue, use the Navigation Bar to go to <strong>Reports \u2192 Notifications</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Email 6.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/Email%206.png?api=v2\"></span><p local-id=\"89fda998b4f4\">On the Notifications Summary page, you can view a queue of all outgoing notifications.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"SMS 19.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/SMS%2019.png?api=v2\"></span><p local-id=\"dba3f4a41477\">The table includes columns to help you identify the following details:</p><ul local-id=\"a0aba7661d1d\"><li local-id=\"1eb3fa1e6f71\"><p local-id=\"77468c380d49\"><strong>Type </strong>- Indicates the type of notification sent. This can either be an automated notification or an announcement.</p></li><li local-id=\"9db17842164e\"><p local-id=\"00c60cd60712\"><strong>Subject </strong>- Displays the subject or title of the outgoing notification.</p></li><li local-id=\"048f30867048\"><p local-id=\"adc097da7168\"><strong>Message </strong>- Shows a preview of the main content of the enclosed message.</p></li><li local-id=\"c3ca1b5c4660\"><p local-id=\"bc53a4a50710\"><strong>Attachment </strong>- Lists any attached files, such as receipts, invoices, etc.</p></li><li local-id=\"f1eca3539acc\"><p local-id=\"0e90a4c517cd\"><strong>Status </strong>- Indicates whether the notification is New (pending) or Sent. Notifications have an approximate 5-minute delay before sending, during which you can cancel a queued message by clicking the <strong>Red X</strong> <strong>Button </strong>next to the notification.</p></li><li local-id=\"8e91e60aa2c3\"><p local-id=\"67ec4b691675\"><strong>To </strong>- Displays the recipient\u2019s email address or SMS phone number.</p></li><li local-id=\"67aa0c885d2d\"><p local-id=\"194a6d661588\"><strong>Created At </strong>- A timestamp indicating when the notification was queued.</p></li><li local-id=\"f62caf1ccc83\"><p local-id=\"99c960bfd2ba\"><strong>Send At </strong>- For most notifications, this will show an immediate send time. However, automated notifications may be sent on a delay based on the configured settings.</p></li><li local-id=\"b5922e15c20f\"><p local-id=\"9408aa1377ab\"><strong>Location </strong>- Displays the location that sent the notification.</p></li></ul><h3 local-id=\"018177bef947\" id=\"SendanSMSTicketStatusNotification-SMSNotification\">SMS Notification</h3><p local-id=\"75240fd83cf5\">Below is an example of the SMS your customer will receive. Check out our article, <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933246465\" rel=\"nofollow\">Automated Notification Resources</a>, for details including creating, editing, and sending notifications automatically.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"SMS Example.jpg\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803736/SMS%20Example.jpg?api=v2\"></span><p local-id=\"5cc61fc4c8d8\" /><p local-id=\"c6263a74e023\" /><p local-id=\"be7b0b6aa0ba\">START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933803736"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933803736/child",
+    "restrictions": "/rest/api/content/1933803736/restriction/byOperation",
+    "history": "/rest/api/content/1933803736/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933803736/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933803736",
+    "webui": "/spaces/SCD/pages/1933803736/Send+an+SMS+Ticket+Status+Notification",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933803736",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803736",
+    "tinyui": "/x/2IBDcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

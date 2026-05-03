@@ -1,0 +1,129 @@
+{
+  "id": "1936654474",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936654474",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjY1NDQ3NA==",
+  "status": "current",
+  "title": "Customer Management Resources (with Video)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:49.618Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "250",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936654474.34",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936654474"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936654474/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This video will be showcasing the Customer database, including:</p><ul><li><p>Adding new customers</p></li><li><p>Managing\u00a0existing customers</p></li><li><p>Marketing List exports</p></li></ul><a class=\"external-link\" data-card-appearance=\"embed\" data-layout=\"center\" data-original-height=\"480.00\" data-original-width=\"853.34\" data-width=\"100.00\" href=\"https://youtu.be/r0022CKGJPM\" rel=\"nofollow\">https://youtu.be/r0022CKGJPM</a><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Control - f79824.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654474/Control%20-%20f79824.png?api=v2\"></span><h3 id=\"CustomerManagementResources(withVideo)-CustomerProfileManagement\">Customer Profile Management</h3><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344786/Creating+a+Customer+Profile\" data-linked-resource-id=\"1933344786\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Creating a Customer Profile</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Managing Customer Profiles</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933246632\" rel=\"nofollow\">Customer Management: Importing Customer Data</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1931116664\" rel=\"nofollow\">Customer Ticket and Device History</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933541687\" rel=\"nofollow\">Adjusting Credit Balances</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933869089\" rel=\"nofollow\">Required Fields for Customer Profiles</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/2036891839\" rel=\"nofollow\">Zip Code Validation for Customers</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1932394664\" rel=\"nofollow\">Assigning a Customer Referral Source</a></p><h3 id=\"CustomerManagementResources(withVideo)-CustomerMarketing\">Customer Marketing</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933803749\" rel=\"nofollow\">Reports: Marketing List</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1932361859\" rel=\"nofollow\">Integration Setup: Revv/Rallio</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933803609\" rel=\"nofollow\">Integrations: Twilio</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1937014890\" rel=\"nofollow\">Automating Customer Lists to Mailchimp through Zapier</a></p><h3 id=\"CustomerManagementResources(withVideo)-NotificationsandReceipts\">Notifications and Receipts</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933246465\" rel=\"nofollow\">Automated Notifications Resources</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933803736\" rel=\"nofollow\">Send an SMS Ticket Status Notification</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2767290399\" rel=\"nofollow\">Create an Automated SMS Notification</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2816507905\" rel=\"nofollow\">Create an Automated Email Notification</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933672639\" rel=\"nofollow\">Email a Receipt to a Customer</a></p><h3 id=\"CustomerManagementResources(withVideo)-CustomerAppointments\">Customer Appointments</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1934491696\" rel=\"nofollow\">Appointments Overview</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1934786625\" rel=\"nofollow\">Appointments: Viewing Set Appointments</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1934917649\" rel=\"nofollow\">Appointments: Scheduling an Appointment</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1934852150\" rel=\"nofollow\">Appointments: Changing an Appointment</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1934491709\" rel=\"nofollow\">Appointments: Canceling an Appointment</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933246822\" rel=\"nofollow\">Appointment General Settings</a></p><p>\u00a0</p><p /><p> </p><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936654474"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936654474/child",
+    "restrictions": "/rest/api/content/1936654474/restriction/byOperation",
+    "history": "/rest/api/content/1936654474/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936654474/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936654474",
+    "webui": "/spaces/SCD/pages/1936654474/Customer+Management+Resources+with+Video",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936654474",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936654474",
+    "tinyui": "/x/igBvcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

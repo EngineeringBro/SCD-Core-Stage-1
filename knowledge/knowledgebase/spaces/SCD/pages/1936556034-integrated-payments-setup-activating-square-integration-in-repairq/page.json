@@ -1,0 +1,129 @@
+{
+  "id": "1936556034",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936556034",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjU1NjAzNA==",
+  "status": "current",
+  "title": "Integrated Payments Setup: Activating Square Integration in RepairQ",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:29.954Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 15,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936556034.58",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936556034"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936556034/version/15"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Integrated Payment systems give users a secure solution for accepting payments on a payment terminal and seamlessly posting those transactions to a RepairQ ticket. This streamlines the checkout process and reduces accounting errors when compared to manually recording payments on tickets.</p><p>RepairQ offers integrated payment processing through Square for customers located in the United States and Canada. If you are interested in creating an account with Square, click <a class=\"external-link\" href=\"https://squareup.com/signup?country_code=us&amp;signup_token=5193B6FB67\" rel=\"nofollow\">here.</a></p><h3 id=\"IntegratedPaymentsSetup:ActivatingSquareIntegrationinRepairQ-NextSteps\">Next Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936588814/Integrated+Payments+Setup+Add+a+Square+Terminal\" data-linked-resource-id=\"1936588814\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Square Payment Device in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936785459/Integrated+Payments+Setup+Assigning+a+Square+Terminal+to+a+Virtual+Cash+Terminal+VCT+to+Accept+Payments\" data-linked-resource-id=\"1936785459\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Integrated Payments: Assigning a Square Terminal to a Virtual Cash Terminal (VCT) to Accept Payments</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936719893/Integrated+Payments+Accepting+Payments+on+a+Square+Terminal\" data-linked-resource-id=\"1936719893\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Integrated Payments: Accepting Payments on a Square Terminal</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:ActivatingSquareIntegrationinRepairQ-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/235670167\" rel=\"nofollow\">Integrated Payment Processing - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541639/Close+Reconcile+a+Virtual+Cash+Terminal\" data-linked-resource-id=\"1933541639\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Closing a Virtual Cash Terminal (VCT)</a> </p></li><li><p><a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Tip%20Report&amp;linkCreation=true&amp;fromPageId=1936556034\">Tip Report</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"IntegratedPaymentsSetup:ActivatingSquareIntegrationinRepairQ-SettingUpSquareIntegrationwithRepairQ\">Setting Up Square Integration with RepairQ</h2><p /><p>1. Log into the RepairQ location where you will use the Square Terminal. On the top Navigation bar, go to <strong>Settings</strong> \u2192 <strong>Location</strong> <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%201.png?api=v2\"></span><p /><p>2. On the Settings Overview page, click <strong>Integrations</strong> under the Account section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%202.png?api=v2\"></span><p /><p>3. From the list of Available Integrations, select <strong>Square</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%203.png?api=v2\"></span><p /><p>4. If you do not have a Square account, click <strong>Sign up for Square</strong>\u00a0and continue this process after you have set up your account and location(s). <a class=\"external-link\" href=\"https://squareup.com/signup?country_code=us&amp;signup_token=5193B6FB67\" rel=\"nofollow\">You can also sign up for Square here</a>.</p><p>If you have already established your Square account and location, click <strong>Authorize this application</strong>.</p><p><strong>Note</strong>: If you have multiple stores that will be using Square, we recommend that you establish separate locations in the Business Information section of your Square Account Settings, as these will be assigned to each location in RepairQ.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%204.png?api=v2\"></span><p /><p>5. After you allow authorization, you will be directed to the Square login page, where you can enter your credentials. Once you are successfully logged in and permissions have been granted, you are directed back to RepairQ, where you will complete the integration process.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%20Login.png?api=v2\"></span><p /><p>6. Back on the Square integration screen in RepairQ, <strong>Select a Location</strong> from the Square Location dropdown. The listed location(s) will match the location(s) created in your Square Dashboard. Confirm that your RepairQ location and Square location match, then click <strong>Link your Square Location</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%205.png?api=v2\"></span><p /><p>7. Once you have linked your location, you are taken back to the Integration start page, where you will continue setting up your <strong>General Settings</strong>, <strong>Tip Settings</strong>, and <strong>Tip Refund Logic</strong>.</p><h3 id=\"IntegratedPaymentsSetup:ActivatingSquareIntegrationinRepairQ-GeneralSettings\">General Settings</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%206.png?api=v2\"></span><ul><li><p><strong>Enable Square </strong>- Enable/Disable the Square payment integration feature.</p></li><li><p><strong>Square Location </strong>- Select which Square location will be linked to this RepairQ location.</p></li></ul><p /><h3 id=\"IntegratedPaymentsSetup:ActivatingSquareIntegrationinRepairQ-TipSettings\">Tip Settings</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%207.png?api=v2\"></span><ul><li><p><strong>Allow Tipping</strong> - This will allow/restrict the ability to tip on transactions.</p></li><li><p><strong>Custom Tip Field</strong> - This will indicate whether custom tip amounts are allowed during the transaction flow.</p></li><li><p><strong>Separate Tip Screen</strong> - This will indicate whether tip options are presented on the screen before the signature screen during the transaction flow.</p></li><li><p><a class=\"external-link\" href=\"https://squareup.com/help/us/en/article/5069-accept-tips-with-the-square-app\" rel=\"nofollow\"><strong>Smart Tipping</strong></a> - This toggles on/off Smart Tipping. Smart tipping works as follows:</p><ul><li><p>For transactions less than (&lt;) $10 - options are \u2018No Tip\u2019, $1, $2, or $3.</p></li><li><p>For transactions greater than (&gt;) $10 - options are \u2018No Tip\u2019, 15%, 20%, or 25%.</p></li></ul></li></ul><p /><h3 id=\"IntegratedPaymentsSetup:ActivatingSquareIntegrationinRepairQ-TipRefundLogic\">Tip Refund Logic</h3><p>When a partial refund is processed for a payment with a tip amount, you can determine how the tip will be split and recorded when performing a refund on a ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%2012.png?api=v2\"></span><ul><li><p><strong>Refund Tip Amount First</strong> - Refund the tip amount first, then refund the sale amount.</p></li><li><p><strong>Refund Tip Amount Last</strong> - Refund the sale amount first, then the tip.</p></li><li><p><strong>Refund Tip Amount Pro Rata</strong> - Refund the tip in proportion to the sale amount refunded to the customer.</p><ul><li><p>e.g. A customer makes a $10 purchase and gives a 10% tip of $1.00. A partial refund of $6.00 is performed on the purchase. Square will refund a part of the tip that is proportional to the remainder of the purchase. 60% of the original amount was refunded ($6.00), so 60% of the tip will also be refunded ($0.60).</p></li></ul></li></ul><p /><p>8. Once you have made your selections click <strong>Save</strong>\u00a0on the upper right of the page to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%208.png?api=v2\"></span><p /><h2 id=\"IntegratedPaymentsSetup:ActivatingSquareIntegrationinRepairQ-(Optional)ConfirmingYourSquarePaymentGatewayisActive\">(Optional) Confirming Your Square Payment Gateway is Active</h2><p /><p>1. On the RepairQ dashboard, navigate to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>. On the Settings Overview page, go to <strong>Payments</strong> \u2192 <strong>Payment Methods</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%209.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%2010.png?api=v2\"></span><p /><p>2. On the Payment Methods overview page, look for a payment method named <strong>Credit Card (Square)</strong> with <strong>Square</strong> listed<strong> </strong>in the Gateway column. Make sure this payment method is marked <strong>Active</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%2011.png?api=v2\"></span><p /><p>3.<strong> </strong>If the payment method is not active, you can edit the payment method by clicking the <strong>Edit</strong> button under the Actions column. Make sure the <strong>Is Active </strong>field is checked, and <strong>Save </strong>your settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936556034/Square%2022.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936556034"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936556034/child",
+    "restrictions": "/rest/api/content/1936556034/restriction/byOperation",
+    "history": "/rest/api/content/1936556034/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936556034/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936556034",
+    "webui": "/spaces/SCD/pages/1936556034/Integrated+Payments+Setup+Activating+Square+Integration+in+RepairQ",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936556034",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936556034",
+    "tinyui": "/x/AoBtcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

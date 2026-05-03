@@ -1,0 +1,129 @@
+{
+  "id": "1936654431",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936654431",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjY1NDQzMQ==",
+  "status": "current",
+  "title": "Managing Service Authorizers",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:46.108Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "93",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936654431.18",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936654431"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936654431/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p><strong>This article walks through how to manage Service Authorizers (SAs) in RepairQ. SA settings are available to select customers that utilize certain RepairQ APIs for claims processing. These settings are also only available on RepairQ Advanced or Professional plans.</strong></p><p>ServiceCentral partners with OEMs, insurance providers, and warranty companies, to provide integrated service partner solutions that are 100% turn-key for repair shops. These partners are a part of the ServiceNetwork. This technology brings RepairQ retailers the ability to enroll and, after approval, instantly start receiving and processing claims referrals from integrated partners. Fully integrated to the respective partners' ecosystems, our claims service add-on to RepairQ helps guide technicians through the entire claims process; automatically reporting incoming referrals, status changes, transaction data, resolutions and financials; eliminating countless hours of manual work and helping ensure your organization meets partner requirements.</p><h3 id=\"ManagingServiceAuthorizers-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936326751/Universal+Check+In+Tool\" data-linked-resource-id=\"1936326751\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Universal Check In Tool</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933508692/Warranty+Claims+Processing\" data-linked-resource-id=\"1933508692\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Warranty Claims Processing</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936687196/Managing+Service+Programs\" data-linked-resource-id=\"1936687196\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Managing Service Programs </a></p></li></ul><p /><p /><p>Each partner is referred to as a Service Authorizer (SA). SAs will most likely be added by RepairQ development team, so you will only have access to them if you are a part of a ServiceNetwork program. These companies will send claims into the RepairQ platform, and there are different settings for an admin user to control their appearance and functionality. This article will cover:</p><ol start=\"1\"><li><p>General Settings</p></li><li><p>Qsite Settings</p></li><li><p>Scoping Custom Forms</p></li><li><p>Scoping Automated Notifications</p></li></ol><p>You must be an admin user in order to manage the SA General Settings and Qsite Settings. Scoping forms and notifications to specific SAs can be handled by a Location Admin, but we recommend working with a system administrator before making any changes.</p><h2 id=\"ManagingServiceAuthorizers-GeneralSettings\">General Settings</h2><p>To begin, head over to Settings &gt; Company Settings &gt; Tickets &gt; Service Authorizers.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181241.png?api=v2\"></span><p /><p>Here you will see a list of all SAs that you have access to. Some groups have access to &quot;Add Service Authorizer&quot;, so you will see a button for that on the top right if you have that access. Each SA will have a pencil/edit button to click to modify the SA settings. Click on the pencil to edit an SA.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181247.png?api=v2\"></span><p /><p>The General Settings include Name, Description, and whether the SA is Active or not. Make any changes you'd like in here and click &quot;Save&quot;, keeping in mind this will affect the system company-wide.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181253.png?api=v2\"></span><p /><p /><h2 id=\"ManagingServiceAuthorizers-QsiteSettings\">Qsite Settings</h2><p>On the left side column, you'll see General, as well as some Qsite Settings. These settings control what a user will see when they are booking an appointment on Qsite as a result of a new claim coming in from an SA. We will walk through how to allow users to book appointments for claim tickets down below.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181259.png?api=v2\"></span><p /><h3 id=\"ManagingServiceAuthorizers-Theme\">Theme</h3><p>Some insurance/warranty providers or OEMs may ask that you brand the appointment generating tool to match their colors and content language. The SA Qsite Theme settings allow you to modify the primary brand color as well as the content that is displayed to the customer if an error is encountered. Make any changes you'd like then click &quot;Save&quot;.</p><a href=\"/wiki/spaces/SCD/pages/1936654431/Managing+Service+Authorizers?preview=%2F1936654431%2F1984233481%2FInvalid+file+id+-+f145b3c9-9f16-4a61-b545-385fb6556859\"><span style=\"background: url('/wiki/s/-640127513/6452/0000891dee48b240c5ed2f93f8ac8ad513a32a09/1000.0.0-0000891dee48/_/download/resources/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-resources/images/placeholder-medium-file.png'); width: 250px; height: 95px; display: inline-block; padding-top: 155px; margin: 2px; border: 1px solid #ddd; text-align: center; vertical-align: text-bottom; text-decoration: none; font-size: 12px; color: #000;\">Invalid file id - f145b3\u2026</span></a><p /><h3 id=\"ManagingServiceAuthorizers-Ticket\">Ticket</h3><p>The Ticket settings allow you to configure the content language displayed when RepairQ shows the customer the details of their service/claim. Make any changes you want then click &quot;Save&quot;.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181312.png?api=v2\"></span><p /><h3 id=\"ManagingServiceAuthorizers-Appointments\">Appointments</h3><p>The Appointments settings allow you to turn on or off the ability to book appointments on Qsite for that specific SA, as well as modify the content language. Make any changes you want then click &quot;Save&quot;.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181324.png?api=v2\"></span><p /><p /><h2 id=\"ManagingServiceAuthorizers-ScopingCustomForms\">Scoping Custom Forms</h2><p>RepairQ's standard Custom Forms feature allows you to create many different forms, for things like repair waivers, post-repair diagnostic forms, image/file uploads, etc. Those forms can be scoped to specific ticket types, warranty providers, and now, Service Authorizers and Service Programs. This will allow you to create specific forms for each SA or SP to align with the requirements from the SA. An example of this would be a unique diagnostic form they might require, visual inspection form, or unique repair waiver content that needs a signature pre-repair.</p><p>Head over to Company Settings &gt; Tickets &gt; Custom Forms to view your current forms or create new forms. Click to edit an existing one, or create a new form. In the &quot;Ticket Type&quot; section, you'll find all different ticket types that you have access to. If your company is processing claims from SAs, you'll see &quot;Claim&quot; as an option.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181333.png?api=v2\"></span><p /><p>Once that box is checked, some new options will appear that will allow you to scope the Custom Form to a specific SA or SP.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181340.png?api=v2\"></span><p /><p>Click on each dropdown box to select the desired SA or SP, and the custom form will only populate and be required on claim tickets underneath the respective SA or SP. Once you select an SA, you can then choose to select an SP, or to leave it open for all SPs under that SA.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181346.png?api=v2\"></span><p /><p /><h2 id=\"ManagingServiceAuthorizers-ScopingAutomatedNotifications\">Scoping Automated Notifications</h2><p>RepairQ's standard Automated Notifications feature allows you to send out alerts to customers, locations and employees about changes that affect them. Using this feature significantly enhances internal and external communications regarding tickets, purchase orders, and other items. Those notifications can be scoped to specific ticket types, statuses, resolutions, and now, Service Authorizers and Service Programs. This will allow you to create specific notifications for each SA or SP to align with the requirements from the SA. An example of this would be a unique email they might require to be sent to the customer when their device is ready for pickup.</p><p>Head over to Company Settings &gt; Communications &gt; Notifications to view your current notifications or create new notifications. Click to edit an existing one, or create a new one. Scope the trigger to &quot;Ticket Status Change&quot;, then if your company is processing claims from SAs, you'll see &quot;Claim Tickets&quot; as an option under Additional Trigger. Select &quot;Claim Tickets&quot;.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181352.png?api=v2\"></span><p /><p>Click on each dropdown box to select the desired SA or SP, and the notification will only be triggered on claim tickets underneath the respective SA or SP. Once you select an SA, you can then choose to select an SP, or to leave it open for all SPs under that SA.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936654431/image-20230607-181358.png?api=v2\"></span><p /><p /><p>To learn more about Service Programs, <a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/360026610534\" rel=\"nofollow\">click here</a>.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936654431"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936654431/child",
+    "restrictions": "/rest/api/content/1936654431/restriction/byOperation",
+    "history": "/rest/api/content/1936654431/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936654431/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936654431",
+    "webui": "/spaces/SCD/pages/1936654431/Managing+Service+Authorizers",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936654431",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936654431",
+    "tinyui": "/x/XwBvcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

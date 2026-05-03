@@ -1,0 +1,46 @@
+<p>You can enhance your customer experience by embedding Qsite™ Ticket Status directly into your company’s website using our APIs. This integration allows customers to check their ticket status without leaving your site. Customers can enter their Ticket Number and Last Name to retrieve real-time ticket  details—just like they would on the standalone Qsite Ticket Status page.</p><p><strong>Note</strong>: This feature is still in Beta, and you may encounter bugs. We appreciate your feedback as we continue to refine the integration.</p><h3 id="RepairQAPI-EmbedQsite™TicketStatusIntoYourWebsite-AdditionalResources">Additional Resources</h3><ul><li><p><a href="https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523327/Qsite+Resources" data-linked-resource-id="1936523327" data-linked-resource-version="14" data-linked-resource-type="page">Qsite Resources</a></p></li><li><p><a href="https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936785428/Embed+Qsite+Features+Into+Your+Website" data-linked-resource-id="1936785428" data-linked-resource-version="4" data-linked-resource-type="page">Embed Qsite™ Features Into Your Website</a></p></li><li><p><a class="external-link" href="https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2471034883" rel="nofollow">Integrations: Webhooks and APIs</a></p></li></ul><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-center" alt="Instructional - 0091cd.png" width="760" src="https://servicecentral.atlassian.net/wiki/download/attachments/1936982118/Instructional%20-%200091cd.png?api=v2"></span><h2 id="RepairQAPI-EmbedQsite™TicketStatusIntoYourWebsite-HowItWorks">How It Works</h2><p>To implement Qsite Ticket Status<strong> </strong>API, you will need to:</p><ul><li><p><strong>Collect Customer Inputs</strong></p><ul><li><p>Prompt the customer to enter their <strong>Ticket Number</strong> and <strong>Last Name</strong> on your website.</p></li><li><p>This ensures a semi-anonymous security check before displaying ticket details.</p></li></ul></li><li><p><strong>Make an API Request</strong></p><ul><li><p>Send a request to the Qsite Ticket Status endpoint with the provided details.</p></li><li><p>The API response will return the same ticket information that is available through the standalone ticket status page.</p></li></ul></li><li><p><strong>Display the Ticket Details</strong></p><ul><li><p>Present the returned data in a user-friendly format on your website.</p></li><li><p>Ensure the information remains clear and secure for customer access.</p></li></ul></li></ul><hr/><h3 id="RepairQAPI-EmbedQsite™TicketStatusIntoYourWebsite-Giventicketnumber(envspecific)andcustomerlastname(toverifyforsemi-anonymoussecurity)">Given ticket number (env specific) and customer last name (to verify for semi-anonymous security)</h3><ul><li><p>GET​ ​https://​subdomain​.repairq.io/api/ticket/​number​?last_name=​name</p><ul><li><p>E.g.<strong> </strong>GET ​https://subdomain.repairq.io/api/ticket/69631?last_name=Smith</p></li></ul></li></ul><p /><h3 id="RepairQAPI-EmbedQsite™TicketStatusIntoYourWebsite-Sampleoutput,iffound">Sample output, if found</h3><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">HTTP/1.1 200 OK
+</pre>
+</div></div><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">{&quot;success&quot;:true,&quot;message&quot;:&quot;Record
+Found&quot;,&quot;data&quot;:{&quot;totalCount&quot;:1,&quot;ticket&quot;:{&quot;status&quot;:&quot;closed&quot;,&quot;status_label&quot;:&quot;Closed&quot;,&quot;sta
+tus_updated_on&quot;:&quot;2016-06-14 15:50:08&quot;,&quot;status_updated_on_str&quot;:&quot;6\/14\/16 3:50 PM&quot;}}}
+</pre>
+</div></div><p /><h3 id="RepairQAPI-EmbedQsite™TicketStatusIntoYourWebsite-Prettyprinted">Pretty printed</h3><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Record Found&quot;,
+  &quot;data&quot;: {
+</pre>
+</div></div><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">    &quot;totalCount&quot;: 1,
+    &quot;ticket&quot;: {
+</pre>
+</div></div><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">      &quot;status&quot;: &quot;closed&quot;,
+      &quot;status_label&quot;: &quot;Closed&quot;,
+      &quot;status_updated_on&quot;: &quot;2016-06-14 15:50:08&quot;,
+      &quot;status_updated_on_str&quot;: &quot;6\/14\/16 3:50 PM&quot;
+</pre>
+</div></div><p>} }</p><p>}</p><p /><h3 id="RepairQAPI-EmbedQsite™TicketStatusIntoYourWebsite-NotFoundorNotMatched">Not Found or Not Matched</h3><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">HTTP/1.1 401 Not Authorized: Ticket not found or last_name does not match
+</pre>
+</div></div><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">{&quot;success&quot;:false,&quot;message&quot;:&quot;Not Authorized: Ticket not found or last_name does not
+match&quot;,&quot;data&quot;:{&quot;errorCode&quot;:&quot;401&quot;,&quot;message&quot;:&quot;Not Authorized: Ticket not found or
+last_name does not match&quot;}}
+</pre>
+</div></div><p /><h3 id="RepairQAPI-EmbedQsite™TicketStatusIntoYourWebsite-Prettyprinted.1">Pretty printed</h3><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">{
+  &quot;success&quot;: false,
+  &quot;message&quot;: &quot;Not Authorized: Ticket not found or last_name does not match&quot;,
+  &quot;data&quot;: {
+</pre>
+</div></div><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">    &quot;errorCode&quot;: &quot;401&quot;,
+</pre>
+</div></div><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">    &quot;message&quot;: &quot;Not Authorized: Ticket not found or last_name does not match&quot;
+  }
+</pre>
+</div></div><p>} </p><p /><p /><p>START 1.22.X</p>

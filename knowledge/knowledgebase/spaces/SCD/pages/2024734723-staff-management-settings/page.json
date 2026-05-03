@@ -1,0 +1,130 @@
+{
+  "id": "2024734723",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2024734723",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyNDczNDcyMw==",
+  "status": "current",
+  "title": "Staff Management Settings",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2024-12-20T21:52:56.016Z",
+    "friendlyWhen": "Dec 20, 2024",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "187",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2024734723.195",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2024734723"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2024734723/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Admins can customize user verification settings when staff clocks in/out of the system and when switching User Profiles within the application. We\u2019ve also included additional password security settings when a staff member creates or changes their PIN/Password and auto-deactivation for profiles with no System Log activity.</p><ul><li><p><strong>Quick Switch Settings</strong> - Admins can allow/restrict the ability for Staff to switch between profiles without logging out of their current location, allowing for time-saving changes while managing multiple users on a terminal.</p></li><li><p><strong>Timecard Verification Settings</strong> - Admins can change whether the user must type in their Username and PIN/Password or only their PIN/Password to clock in/out of the system.</p></li><li><p><strong>Password Security </strong>- Admins can require users to establish a unique, strong password for added security.</p></li><li><p><strong>Auto-Deactivation for Inactive Staff Profiles</strong> - Automatically deactivate staff after a set number of inactive days.</p></li></ul><p><strong>Note</strong>: We recommend using RepairQ in a single tab/window since switching users only updates your current page/tab. Any additional screens/tabs not updated with new information can create issues when submitting data.</p><h3 id=\"StaffManagementSettings-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929379890\" rel=\"nofollow\">Staff Management: Add and Deactivate Staff Profiles</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2028634130\" rel=\"nofollow\">Quick-Switch Between Staff Profiles in RepairQ</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928986634\" rel=\"nofollow\">Getting Started: Clock In/Out of RepairQ</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929248790\" rel=\"nofollow\">Staff Management: Update Your Username and Password</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936785488\" rel=\"nofollow\">Staff Management Resources (with Video)</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2024734723/Invalid%20file%20id%20-%20aa74d03a-f778-4009-86d1-a9bb2070cffb?api=v2\"></span><h2 id=\"StaffManagementSettings-AccessStaffUsernameandPasswordSettings\">Access Staff Username and Password Settings</h2><p>Log into your environment as an Admin. From the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>. On the Settings Overview page, scroll down until you see the <strong>Miscellaneous </strong>category. From the available options, click <strong>Miscellaneous</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2024734723/Switch%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2024734723/Switch%202.png?api=v2\"></span><h3 id=\"StaffManagementSettings-StaffManagementSettings\">Staff Management Settings</h3><p>Manage automatic termination of inactive Staff Profiles, switching profiles, and Password/PIN security requirements.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Misc 8.png\" width=\"601\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2024734723/Misc%208.png?api=v2\"></span><ul><li><p><strong>Mark Staff \u201cTerminated/Not Employed\u201d after N days of activity </strong>- Automatically deactivate staff after a set number of inactive days. Users can no longer access the environment if they show no System Log activity based on the Total Days assigned.</p></li><li><p><strong>Enable Fast User Switching</strong> - Activate or deactivate the Switch User option from the Navigation Bar. When active, this allows fast switching between users if a user is already logged into the system.</p></li><li><p><strong>Allow PIN-only user switch and timeclock</strong> - When selected, staff will be prompted to enter only their PIN/Password to switch users or when clocking in/out of the system. When unchecked, the user must enter their Username and PIN/Password.</p></li><li><p><strong>Show optional Username field with PIN-only</strong> - When selected, this setting works with the above feature to show both the optional Username and required PIN/Password fields when switching users or clocking in/out. The user can enter both fields or leave the Username field blank and only enter their PIN/Password.</p></li><li><p><strong>Require unique PIN</strong> - When activated, users must create a unique PIN/Password when establishing login credentials. When inactive, staff members can use a PIN/Password that may match another user\u2019s password.</p><ul><li><p>If you leave this feature deactivated, we recommend disabling \u201cAllow PIN-only user switch and timeclock\u201d to avoid conflicts if a user enters an identical PIN/Password to another user.</p></li></ul></li><li><p><strong>Require strong PIN/Password</strong> - Enforce a stronger format for user passwords.</p><ul><li><p>Passwords must include at least 6 characters, contain at least one uppercase letter and one lowercase letter, and must contain at least one symbol (~!@#$%^&amp;*()-_=+[{]}\\|.;:\u2018\u201c,.&lt;&gt;/?).</p></li></ul></li></ul><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2024734723"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 218429
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2024734723/child",
+    "restrictions": "/rest/api/content/2024734723/restriction/byOperation",
+    "history": "/rest/api/content/2024734723/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2024734723/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2024734723",
+    "webui": "/spaces/SCD/pages/2024734723/Staff+Management+Settings",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2024734723",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2024734723",
+    "tinyui": "/x/AwCve",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

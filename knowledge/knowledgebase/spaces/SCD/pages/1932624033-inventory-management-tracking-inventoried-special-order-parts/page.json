@@ -1,0 +1,129 @@
+{
+  "id": "1932624033",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932624033",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjYyNDAzMw==",
+  "status": "current",
+  "title": "Inventory Management: Tracking Inventoried Special Order Parts",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:45.679Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932624033.40",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932624033"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932624033/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>There may be times when you will need to special order parts that you do not intend to carry regularly in your store. RepairQ allows users to create a &quot;placeholder&quot; item in your catalog that can be used for various special orders without creating individual catalog items for each order. Since this item is inventoried, you can keep a record of how many specialty parts you have on hand.</p><p>Working alongside Automated Notifications, RepairQ can notify your Inventory Manager when tickets are in Backorder status, so special orders can be made as quickly as possible.</p><p>If you prefer not to keep an inventory of special-order parts, but still want to report COGS for these items, you can create a &quot;catch-all&quot; catalog item and assign cost information for reporting. For more information on this process, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494554/Inventory+Management+Tracking+Non-inventoried+Special+Order+Parts\" data-linked-resource-id=\"1930494554\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Inventory Management: Tracking Non-inventoried Special Order Parts</a>.</p><h3 id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-Quick-JumptoaSection\">Quick-Jump to a Section</h3><ul><li><p><a href=\"#Status\" rel=\"nofollow\">Create an Inventory Status for Special Order Items</a></p></li><li><p><a href=\"#Catalog\" rel=\"nofollow\">Create a Catalog Item for Inventoried Special Order Parts</a></p></li><li><p><a href=\"#Ticket\" rel=\"nofollow\">Create a Ticket with Backorder Item(s)</a></p></li><li><p><a href=\"#Ordering\" rel=\"nofollow\">Ordering and Receiving Special Parts</a></p></li></ul><h3 id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494554/Inventory+Management+Tracking+Non-inventoried+Special+Order+Parts\" data-linked-resource-id=\"1930494554\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Inventory Management: Tracking Non-inventoried Special Order Parts</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787743/Inventory+Management+Resources\" data-linked-resource-id=\"1932787743\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Inventory Management Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416/Purchase+Order+Resources\" data-linked-resource-id=\"1932427416\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Purchase Order Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246478/Getting+Started+with+Automated+Notifications\" data-linked-resource-id=\"1933246478\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notifications: Creating an Automated Notification</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672484/Tax+Calculations+for+Bundled+Items\" data-linked-resource-id=\"1933672484\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Tax Calculations for Bundled Items</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787785/Catalog+Items+Bundle+Setup\" data-linked-resource-id=\"1932787785\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Catalog Items: Bundle Relationships, Auto-Bundling, and Auto-Adding Items</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-StatusCreateanInventoryStatusforSpecialOrderItems\"><span class=\"confluence-anchor-link\" id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-Status\"><span class=\"confluence-anchor-link\" id=\"Status\"></span></span>Create an Inventory Status for Special Order Items</h2><p /><p>1. An Admin will need to navigate to <strong>Company</strong> <strong>Settings</strong> \u2192 <strong>Catalog</strong> \u2192 <strong>Inventory</strong> <strong>Statuses</strong>. On the Inventory Status overview page, click <strong>Add Inventory Status</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%201.png?api=v2\"></span><p /><p>2. Fill out the information for the new inventory status. We recommend naming the status something recognizable, like &quot;SOP Ordered.&quot; Be sure to <strong>Save</strong> your changes before leaving the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%202.png?api=v2\"></span><h2 id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-CatalogCreateaCatalogItemforInventoriedSpecialOrderParts\"><span class=\"confluence-anchor-link\" id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-Catalog\"><span class=\"confluence-anchor-link\" id=\"Catalog\"></span></span>Create a Catalog Item for Inventoried Special Order Parts</h2><p>An Admin, Manager, or Inventory Manager can create a new Catalog Item. First, navigate to <strong>Settings</strong> \u2192 <strong>Catalog</strong> \u2192 <strong>Add</strong> <strong>New</strong> <strong>Item</strong>. Begin adding details for the new catalog item. We have included suggestions for some of the details, and any required selections are marked with an asterisk (*). After you have updated the information for the new catalog item, be sure to <strong>Save</strong> your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%203.png?api=v2\"></span><ul><li><p><strong>Name*</strong> - Assign a name to the catalog item. We suggest keeping it simple and using something like &quot;Special Order Part - Inventoried.&quot;</p><ul><li><p>Feel free to add any additional Friendly Name, Short Name, or Search Key, if you'd like.</p></li></ul></li><li><p><strong>Item</strong> <strong>Type*</strong> - If this item is used for parts, we recommend assigning &quot;Part - Other&quot; unless you are using a different method for tracking items.</p></li><li><p><strong>Manufacturer*</strong> - Assign a manufacturer for this item. Since this item will be used for different parts, we suggest &quot;N/A.&quot;</p></li><li><p><strong>SKU</strong> - We suggest using &quot;SOPI&quot; as an easy way to add this item to a ticket.</p></li><li><p><strong>Note</strong> - If you'd like, you can add a note that this item will be used as a placeholder for special-order parts.</p></li><li><p><strong>Cost</strong> - Leave this blank, as this is only a placeholder for the actual part.</p></li><li><p><strong>Price</strong> - Leave this blank, as this is only a placeholder for the actual part.</p></li><li><p><strong>Repairable*</strong> - Leave this box unchecked.</p></li><li><p><strong>Inventoried*</strong> - Make sure this checkbox <strong>is selected</strong>.</p></li><li><p><strong>Serialized*</strong> - Leave this box unchecked.</p></li><li><p><strong>Default</strong> <strong>Quantity/Hours</strong> - Set this to 1, for ease of use when adding the item to a ticket.</p></li><li><p><strong>Active*</strong> - Make sure this checkbox is marked.</p></li></ul><p /><h2 id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-TicketCreateaTicketwithBackorderItem(s)\"><span class=\"confluence-anchor-link\" id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-Ticket\"><span class=\"confluence-anchor-link\" id=\"Ticket\"></span></span>Create a Ticket with Backorder Item(s)</h2><p /><p>1. Create/Open a new repair ticket. Attach the customer and the Repair Device. Next, add the inventoried special-order item placeholder(s) in <strong>Back Ordered</strong> status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%204.png?api=v2\"></span><p /><p>2. Add a note to the ticket item with the specific part that should be ordered. It's also helpful to include a link to the item or a vendor SKU to assist with the order. Save the ticket as Hold/Back Ordered status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%207.png?api=v2\"></span><p /><p><strong>Note</strong>: You can create an <a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/13156876676379\" rel=\"nofollow\">Automated Notification</a> to send a notification to a designated recipient when a ticket is in Hold/Back Ordered status.\u00a0</p><p /><p>3. (Optional) Assign this ticket to the appropriate Inventory Manager and save the ticket as Hold/Back Ordered status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%206.png?api=v2\"></span><p /><h2 id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-OrderingOrderingandReceivingSpecialParts\"><span class=\"confluence-anchor-link\" id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-Ordering\"><span class=\"confluence-anchor-link\" id=\"Ordering\"></span></span>Ordering and Receiving Special Parts</h2><p>Depending on your RepairQ Notification setup, Managers/Inventory Managers may receive a notification that a ticket has been placed on Hold as a result of a back-order item.</p><h4 id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-OrderingItems\">Ordering Items</h4><p>These steps can be followed while you place an order with your supplier of choice for each back-order item. If the previous steps were followed, there should be details in the Note section of each item to identify it.</p><p /><p>1. An Admin, Manager, or Inventory Manager can navigate to <strong>Inventory</strong> \u2192 <strong>Inventory</strong> <strong>Detail\u00a0</strong>and filter the list for <strong>Status: Back Ordered\u00a0</strong>and/or keyword search for the special order catalog item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%208.png?api=v2\"></span><p /><p><strong>Note</strong>: If you do not see the Note column in your results, you can <a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/12315955344027\" rel=\"nofollow\">edit your list view</a> to include this information.</p><p /><p>2. As you order the items, edit each inventory item to record the supplier, cost, note, and any other details, then advance the item's status to <strong>SOP Ordered</strong>. After updating this information, be sure to <strong>Save</strong> your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%209.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%2010.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%2011.png?api=v2\"></span><h3 id=\"InventoryManagement:TrackingInventoriedSpecialOrderParts-ReceivingSpecialOrderItems\">Receiving Special Order Items</h3><p>These steps can be completed after you have received the inventory at your location.</p><p /><p>1. An Admin, Manager, or Inventory Manager can navigate to <strong>Inventory</strong> \u2192 <strong>Inventory</strong> <strong>Detail\u00a0</strong>and filter the list for <strong>Status: SOP Ordered</strong> and/or keyword search for the special order catalog item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%2012.png?api=v2\"></span><p /><p>2. As you receive items, edit each one to update the supplier, cost, note, and any other details as needed, then advance the status to <strong>Pulled</strong>. After updating this information, be sure to <strong>Save</strong> your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%2013.png?api=v2\"></span><p><strong>Note</strong>: If you are receiving multiple special orders of the same item, you can use the <a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/214919368\" rel=\"nofollow\">Bulk Edit</a> feature to update attributes for those items as a group.</p><p /><p>3. View the inventory details for each item. In the Change Log section of the page, use the Ticket Link to view the ticket with each special-order item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%2014.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%2015.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%2016.png?api=v2\"></span><p /><p>4. Edit the Ticket Assignee field to the technician who will complete the repair and save the ticket status as <strong>In Diagnosis</strong> or <strong>In</strong> <strong>Repair</strong>, so the ticket can continue moving through the repair process. At this point, the tech can resume the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%2017.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624033/ISOP%2018.png?api=v2\"></span><p /><p><strong>Note</strong>: You can create an <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525726/Automated+Notifications+Inventory+Status+Changes\" data-linked-resource-id=\"1932525726\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Automated Notification</a> to send a notification to a designated recipient when a ticket moves to <strong>In Diagnosis</strong> or <strong>In Repair</strong> status.</p><p /><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932624033"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932624033/child",
+    "restrictions": "/rest/api/content/1932624033/restriction/byOperation",
+    "history": "/rest/api/content/1932624033/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932624033/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932624033",
+    "webui": "/spaces/SCD/pages/1932624033/Inventory+Management+Tracking+Inventoried+Special+Order+Parts",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932624033",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932624033",
+    "tinyui": "/x/oYAxcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1902379348",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1902379348",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkwMjM3OTM0OA==",
+  "status": "current",
+  "title": "ServiceCentral Desk",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:03:30.587Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "24",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1902379348.22",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1902379348/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h1 id=\"ServiceCentralDesk-WelcometoServiceCentralDesk\">Welcome to ServiceCentral Desk</h1>\n<p>Your comprehensive guide to using the RepairQ platform. Browse by category below to find the help you need.</p>\n\n<hr/>\n\n<h2 id=\"ServiceCentralDesk-\ud83d\udcdaKnowledgeBaseCategories\">\ud83d\udcda Knowledge Base Categories</h2>\n\n<div class=\"table-wrap\"><table class=\"confluenceTable\">\n<tbody>\n<tr>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udcdaGettingStarted\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538138894\" rel=\"nofollow\">\ud83d\udcda Getting Started</a></h3><p>Learn the basics of RepairQ</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83c\udfabTickets&amp;Repairs\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538433542\" rel=\"nofollow\">\ud83c\udfab Tickets &amp; Repairs</a></h3><p>Create and manage tickets</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udce6CatalogManagement\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538237128\" rel=\"nofollow\">\ud83d\udce6 Catalog Management</a></h3><p>Manage your product catalog</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udccaInventoryManagement\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538237149\" rel=\"nofollow\">\ud83d\udcca Inventory Management</a></h3><p>Track and manage inventory</p></td>\n</tr>\n<tr>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\uded2PurchaseOrders\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538204407\" rel=\"nofollow\">\ud83d\uded2 Purchase Orders</a></h3><p>POs, receiving, and RMAs</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udc65Customers&amp;Contacts\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538433565\" rel=\"nofollow\">\ud83d\udc65 Customers &amp; Contacts</a></h3><p>Customer profiles and history</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udcb3Payments&amp;Devices\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4537549527\" rel=\"nofollow\">\ud83d\udcb3 Payments &amp; Devices</a></h3><p>Payment processing and VCTs</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udcb0Pricing&amp;Taxes\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4537910056\" rel=\"nofollow\">\ud83d\udcb0 Pricing &amp; Taxes</a></h3><p>Pricing, discounts, and taxes</p></td>\n</tr>\n<tr>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83e\uddfeInvoicing&amp;Refunds\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4537910077\" rel=\"nofollow\">\ud83e\uddfe Invoicing &amp; Refunds</a></h3><p>Invoices and billing</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udcc8Reports&amp;BI\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538302474\" rel=\"nofollow\">\ud83d\udcc8 Reports &amp; BI</a></h3><p>Analytics and dashboards</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udda8\ufe0fPrinting&amp;Labels\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538302495\" rel=\"nofollow\">\ud83d\udda8\ufe0f Printing &amp; Labels</a></h3><p>Printers and print settings</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udd14Notifications\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538302516\" rel=\"nofollow\">\ud83d\udd14 Notifications</a></h3><p>Automated alerts and emails</p></td>\n</tr>\n<tr>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udcddCustomForms\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538138916\" rel=\"nofollow\">\ud83d\udcdd Custom Forms</a></h3><p>Forms and signatures</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83c\udf10QsitePortal\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538171667\" rel=\"nofollow\">\ud83c\udf10 Qsite Portal</a></h3><p>Customer-facing portal</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udcf1QpopApp\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538204429\" rel=\"nofollow\">\ud83d\udcf1 Qpop App</a></h3><p>Companion app</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udd17Integrations\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538204450\" rel=\"nofollow\">\ud83d\udd17 Integrations</a></h3><p>APIs and webhooks</p></td>\n</tr>\n<tr>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udcbcAccounting\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538433586\" rel=\"nofollow\">\ud83d\udcbc Accounting</a></h3><p>Journal entries and QB</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udc64Staff&amp;Locations\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538302538\" rel=\"nofollow\">\ud83d\udc64 Staff &amp; Locations</a></h3><p>Staff management</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83d\udcc5Appointments\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4537910099\" rel=\"nofollow\">\ud83d\udcc5 Appointments</a></h3><p>Scheduling and reminders</p></td>\n<td class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83c\udfa7HelpDesk\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4538270181\" rel=\"nofollow\">\ud83c\udfa7 Help Desk</a></h3><p>Support and troubleshooting</p></td>\n</tr>\n<tr>\n<td colspan=\"4\" class=\"confluenceTd\"><h3 id=\"ServiceCentralDesk-\ud83c\udd95What&#39;sNew\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/4537910120\" rel=\"nofollow\">\ud83c\udd95 What's New</a></h3><p>Release notes and platform updates</p></td>\n</tr>\n</tbody>\n</table></div>\n\n<hr/>\n\n<h2 id=\"ServiceCentralDesk-\ud83d\udd0dQuickSearch\">\ud83d\udd0d Quick Search</h2>\n<p>Can't find what you're looking for? Use the search bar above or browse all articles alphabetically.</p>\n\n<h2 id=\"ServiceCentralDesk-\ud83d\udcdeNeedHelp?\">\ud83d\udcde Need Help?</h2>\n<p>If you can't find the answer you're looking for, contact our support team.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1902379348"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 871
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1902379348/child",
+    "restrictions": "/rest/api/content/1902379348/restriction/byOperation",
+    "history": "/rest/api/content/1902379348/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1902379348/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1902379348",
+    "webui": "/spaces/SCD/overview",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1902379348",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1902379348",
+    "tinyui": "/x/VAFkcQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

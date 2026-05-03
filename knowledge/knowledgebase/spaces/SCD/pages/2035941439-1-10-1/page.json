@@ -1,0 +1,130 @@
+{
+  "id": "2035941439",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2035941439",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzNTk0MTQzOQ==",
+  "status": "current",
+  "title": "1.10.1",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-26T22:27:13.983Z",
+    "friendlyWhen": "Jul 27, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "6",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2035941439.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2035941439"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2035941439/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 01/25/2017 at 9:04 PM UTC / 3:04 PM CT\u00a0</p><p>This is a minor update to address bugs and add minor features.</p><h2 id=\"id-1.10.1-IntegratedPrinting\">Integrated Printing</h2><p><strong>Ticket Invoices</strong></p><p>We resolved a few issues related to layout and fonts\u00a0for integrated prints.</p><p><strong>Ticket Receipts</strong></p><p>We resolved a few issues related to layout for integrated prints.</p><p><strong>Manual\u00a0print menu (on the ticket view)</strong></p><p>The print menu will now only load printers that you have defined in RepairQ, rather than loading all printers installed on your system. We implemented this change to prevent printer clutter in your print menus, and because you will have much better results if you add\u00a0your printer settings into RepairQ.</p><p>In addition, the\u00a0print menu will now show\u00a0the fallback option to &quot;print with\u00a0the browser dialog&quot; without any delay\u00a0when you do not have the QZ Tray application running.</p><p><strong>Print Status</strong></p><p>The print status window now properly reports\u00a0connection errors when the QZ Tray application is not running.</p><p><strong>Printer Settings</strong></p><p>We added some inline help popovers to the printer settings page to help\u00a0everyone with configuration.</p><h2 id=\"id-1.10.1-Non-integratedprinting\">Non-integrated printing</h2><p>For your convenience, we restored the &quot;print&quot; button to all print pages, and all print pages will open the print dialog on page load.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2035941439"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 243242815
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2035941439/child",
+    "restrictions": "/rest/api/content/2035941439/restriction/byOperation",
+    "history": "/rest/api/content/2035941439/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2035941439/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2035941439",
+    "webui": "/spaces/SCD/pages/2035941439/1.10.1",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2035941439",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2035941439",
+    "tinyui": "/x/PwBaeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

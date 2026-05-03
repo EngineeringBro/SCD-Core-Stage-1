@@ -1,0 +1,129 @@
+{
+  "id": "1936261206",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936261206",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjI2MTIwNg==",
+  "status": "current",
+  "title": "Qpop\u2122 Companion Recommended Image Resolutions",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:16.604Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936261206.44",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936261206"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936261206/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"Qpop\u2122CompanionRecommendedImageResolutions-RecommendedImageResolutions\">Recommended Image Resolutions</h2><p>A user with the Location Admin role or higher can add/edit Qpop devices, and a user with Shift Lead or higher can pair and launch Qpop Companion.\u00a0The below measurements are in pixels.</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523288/Qpop+Companion+System+Requirements\" data-linked-resource-id=\"1936523288\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Qpop\u2122 Companion System Requirements</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261206/image-20230608-180314.png?api=v2\"></span><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-iPad9.7&quot;(Non-RetinaModels)\">iPad 9.7&quot; (Non-Retina Models)</h3><p>Welcome/Idle Screen: 1024w x 768h<br/>Ticket Summary: 512w x 768h</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-iPadMini7.9&quot;\">iPad Mini 7.9&quot;</h3><p>Welcome/Idle Screen: 1024w x 768h<br/>Ticket Summary: 512w x 768h</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-iPad9.7&quot;(RetinaModels)\">iPad 9.7&quot; (Retina Models)</h3><p>Welcome/Idle Screen: 2048w x 1536h<br/>Ticket Summary: 1024w x 1536h</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-iPadMini7.9&quot;.1\">iPad Mini 7.9&quot;</h3><p>Welcome/Idle Screen: 2048w x 1536h<br/>Ticket Summary: 1024w x 1536h</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-iPadPro9.7&quot;\">iPad Pro 9.7&quot;</h3><p>Welcome/Idle Screen: 2048w x 1536h<br/>Ticket Summary: 1024w x 1536h</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-iPadPro12.9&quot;\"><br/>iPad Pro 12.9&quot;</h3><p>Welcome/Idle Screen: 2732w x 2048h<br/>Ticket Summary: 1366w x 2048h</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-SamsungGalaxyTabS8.4&quot;\"><br/>Samsung Galaxy Tab S 8.4&quot;</h3><p>Welcome/Idle Screen: 2560w x 1600h<br/>Ticket Summary: 1280w x 1600h</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-SamsungGalaxyTabS2/3\"><br/>Samsung Galaxy Tab S2/3</h3><p>Welcome/Idle Screen: 2048w x 1536h<br/>Ticket Summary: 1024w x 1536h</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-SamsungGalaxyTabA9.7&quot;\"><br/>Samsung Galaxy Tab A 9.7&quot;</h3><p>Welcome/Idle Screen: 1024w x 768h<br/>Ticket Summary: 512w x 768h</p><h3 id=\"Qpop\u2122CompanionRecommendedImageResolutions-SamsungGalaxyTabA10.1&quot;\"><br/>Samsung Galaxy Tab A 10.1&quot;</h3><p>Welcome/Idle Screen: 1920w x 1200h<br/>Ticket Summary: 960w x 1200h</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936261206"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936261206/child",
+    "restrictions": "/rest/api/content/1936261206/restriction/byOperation",
+    "history": "/rest/api/content/1936261206/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936261206/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936261206",
+    "webui": "/spaces/SCD/pages/1936261206/Qpop+Companion+Recommended+Image+Resolutions",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936261206",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936261206",
+    "tinyui": "/x/VgBpcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

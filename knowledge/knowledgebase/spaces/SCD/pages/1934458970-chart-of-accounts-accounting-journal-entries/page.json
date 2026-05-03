@@ -1,0 +1,129 @@
+{
+  "id": "1934458970",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934458970",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDQ1ODk3MA==",
+  "status": "current",
+  "title": "Chart of Accounts - Accounting Journal Entries",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:31.716Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "1891",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934458970.47",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934458970"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934458970/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ generates Journal Entries for various business transactions, including sales, payments, Cost of Goods Sold (COGS), inventory, and payable taxes. If you have established a Chart of Accounts (COA) for your business, you can seamlessly map the data from our application to your COA. This mapping process automates the classification of events, ensuring accurate and organized financial reporting.</p><p>The mapped data is utilized to generate the Journal Entries Report, a critical component for Quickbooks integration. This report provides a detailed breakdown of financial activities, enhancing your accounting process. To further streamline your accounting workflow, RepairQ allows you to export these journal entries into your accounting system\u2013QuickBooks, Xero, and other software. Our integration with QuickBooks simplifies the transfer of financial information, making a seamless and efficient process for maintaining accurate records.</p><p><strong>Note</strong>: Our QuickBooks integration currently allows for data transmission into Asset and Liability accounts. QuickBooks Online requires a Vendor or Customer for these accounts, but we are currently unable to send this information. If you have AR and AP accounts, you will need to create duplicates in QuickBooks and mark them as assets or liabilities for data to come through properly. If you attempt to link a RepairQ account with an AR or AP designated in QuickBooks, the interaction will not function.</p><p>For questions about your Chart of Accounts in your accounting software, please consult with a CPA on proper policies, procedures, and laws in your state.</p><h3 id=\"ChartofAccounts-AccountingJournalEntries-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934524484/Accounting+Software+Resources\" data-linked-resource-id=\"1934524484\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Accounting Software Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229563/Integrations+QuickBooks+Online+Setup\" data-linked-resource-id=\"1934229563\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrations: QuickBooks Online Setup</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246837/Reports+Accounting+Journal+Entries\" data-linked-resource-id=\"1933246837\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Reports: Accounting Journal Entries</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917678/Reports+Accounting+System+Reporting\" data-linked-resource-id=\"1934917678\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Reports: Accounting System Reporting</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934458970/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"ChartofAccounts-AccountingJournalEntries-TypesofAccounts\">Types of Accounts</h2><h3 id=\"ChartofAccounts-AccountingJournalEntries-CustomerDeposits(paymentsonticketsbeforethedateofticketclosure)\">Customer Deposits (payments on tickets before the date of ticket closure)</h3><ul><li><p>This\u00a0<strong>liability </strong>account is credited when a customer makes a payment on a ticket before the date of ticket closure. The payment type account is debited as described below.</p></li><li><p>On the date of ticket closure, this <strong>liability</strong> account is debited and the applicable revenue account is credited as described below.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-PaymentType-Cash(PaymentMethodofCash)\">Payment Type - Cash (Payment Method of Cash)</h3><ul><li><p>This\u00a0<strong>asset </strong>account is debited when a cash payment is made on a ticket. If the ticket remains open on the date of payment then the customer deposits account is credited as described above, otherwise, if the ticket closes on the date of payment, the applicable revenue account is credited as described below.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-PaymentType-Check(PaymentMethodofCheck)\">Payment Type - Check (Payment Method of Check)</h3><ul><li><p>This\u00a0<strong>asset </strong>account is debited when a check payment is made on a ticket. If the ticket remains open on the date of payment then the customer deposits account is credited as described above, otherwise, if the ticket closes on the date of payment, the applicable revenue account is credited as described below.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-PaymentType-CreditCard(PaymentMethodofCreditCard)\">Payment Type - Credit Card (Payment Method of Credit Card)</h3><ul><li><p>This\u00a0<strong>asset </strong>account is debited when a credit card payment is made on a ticket. If the ticket remains open on the date of payment then the customer deposits account is credited as described above, otherwise, if the ticket closes on the date of payment, the applicable revenue account is credited as described below.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-PaymentType-Other(PaymentMethodofOther)\">Payment Type - Other (Payment Method of Other)</h3><ul><li><p>This\u00a0<strong>asset\u00a0</strong>account is debited when any other type of payment is made on a ticket. If the ticket remains open on the date of payment then the customer deposits account is credited as described above, otherwise, if the ticket closes on the date of payment, the applicable revenue account is credited as described below.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-PaymentType-StoreCredit(PaymentMethodofStoreCredit)\">Payment Type - Store Credit (Payment Method of Store Credit)</h3><ul><li><p>This\u00a0<strong>asset </strong>account is debited when a store credit payment is made on a ticket. If the ticket remains open on the date of payment then the customer deposits account is credited as described above, otherwise, if the ticket closes on the date of payment, the applicable revenue account is credited as described below.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-Inventory(InventoryAssetAccount)\">Inventory (Inventory Asset Account)</h3><ul><li><p>This <strong>asset </strong>account is debited when inventory is received and credited when inventory is sold/consumed.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryAdded(viapurchaseorder,trade-in,ormanually)\">Inventory Added (via purchase order, trade-in, or manually)</h3><ul><li><p>This\u00a0<strong>liability </strong>account is credited when inventory is received. The Inventory account is debited as part of this event.</p></li><li><p>This applies to inventory adjustments made <strong>on</strong> the first day an inventory item has a non-zero cost.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryAdjustment(manualchangestoinventoryitems)\">Inventory Adjustment (manual changes to inventory items)</h3><ul><li><p>This\u00a0<strong>liability </strong>account is credited when the cost of an inventory item is increased after the initial receipt or debited when the cost of an inventory item is decreased after the initial receipt. This account catches all the cost adjustments typically made to correct user errors when the cost was inputted on a PO or when manually adjusting inventory. The Inventory account is debited or credited counter to the adjustment account as part of this event.</p></li><li><p>This applies to inventory adjustments made <strong>after</strong> the first day an inventory item has a non-zero cost.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryTrade-in(inventoryaddedviatrade-intickets)\">Inventory Trade-in (inventory added via trade-in tickets)</h3><ul><li><p>This\u00a0<strong>temporary asset or expense account</strong> is debited when inventory is purchased from a consumer on a trade-in ticket. This debit is balanced by an equal credit to Customer Deposits. In this same event, the &quot;Inventory&quot; account is equally debited, and the &quot;Inventory Added&quot; account is credited.</p></li><li><p>To avoid double counting the cost of a trade-in, it is generally recommended to link &quot;Inventory Tradein&quot; to the same account as &quot;Inventory Added&quot;, so a trade-in event appears as one debit to &quot;Inventory&quot; and one credit to &quot;Customer Deposits&quot;.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryTransfer(inventorytoorfromanotherlocationviainternaltransfers)\">Inventory Transfer (inventory to or from another location via internal transfers)</h3><ul><li><p>This\u00a0<strong>asset/liability</strong> account is debited at the location sending inventory and credited at the location receiving inventory.</p></li><li><p>Note, in the same transfer event, the &quot;Inventory&quot; asset account is, equally and oppositely, debited at the location receiving inventory and credited at the location sending inventory.</p></li><li><p>Inventory transfer is essentially a current liability (AP) at the receiving location and a current asset at the sending store (AR). You cannot split outbound/inbound transfers into separate accounts, so you must choose to post to either a current liability account or a current asset account. The journal will make the appropriate debit/credit adjustments to the account based on whether it's inbound or outbound.</p></li><li><p>If the location is an inventory warehouse that mostly sends outbound transfers, you should map Inventory Transfer to a current <strong>asset</strong> account.</p></li><li><p>If the location is a retail store that mostly receives inbound transfers, you should map Inventory Transfers to a current <strong>liability</strong> account.</p></li><li><p>If the location is a retail store that equally receives inbound and sends outbound transfers, then you could set it up either way.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-POShippingExpense\">PO Shipping Expense</h3><ul><li><p>This\u00a0<strong>expense</strong> account is debited by the amount of shipping cost on a Purchase Order when it is advanced to Reconciled. A credit to the PO Shipping Payable account occurs as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-POShippingPayable\">PO Shipping Payable</h3><ul><li><p>This\u00a0<strong>liability</strong> account is credited by the amount of shipping cost on a Purchase Order when it is advanced to Reconciled. A debit to the PO Shipping Expense account occurs as part of this event.</p></li><li><p>It may be helpful to link PO Shipping Payable to the same liability account as Inventory Added described above since you will likely be paying for the entire Purchase Order (inventory + shipping) using a single payment.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-POTaxesExpense\">PO Taxes Expense</h3><ul><li><p>This\u00a0<strong>expense</strong> account is debited by the amount of taxes on a Purchase Order when it is advanced to Reconciled. A credit to the PO Taxes Payable account occurs as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-POTaxesPayable\">PO Taxes Payable</h3><ul><li><p>This\u00a0<strong>liability</strong> account is credited by the amount of taxes on a Purchase Order when it is advanced to Reconciled. A debit to the PO Taxes Expense account occurs as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-POCostAdjExpense\">PO Cost Adj Expense</h3><ul><li><p>This\u00a0<strong>expense</strong> account is debited by the amount of &quot;other cost adjustments&quot; on a Purchase Order when it is advanced to Reconciled. A credit to the PO Cost Adj Payable account occurs as part of this event.</p></li><li><p>The &quot;other cost adjustments&quot; field is most commonly used for non-tax fees and other items not in the RepairQ catalog, especially with integrated purchase orders in order to capture the difference between the total order cost on the supplier website and the total PO cost in RepairQ. If there is a variance it could mean that additional products were purchased on the supplier's website that did not appear on the original PO.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-POCostAdjPayable\">PO Cost Adj Payable</h3><ul><li><p>This\u00a0<strong>liability</strong> account is credited by the amount of &quot;other cost adjustments&quot; on a Purchase Order when it is advanced to Reconciled. A debit to the PO Cost Adj Expense account occurs as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-CostofGoodsSold(consumedontickets)\">Cost of Goods Sold (consumed on tickets)</h3><ul><li><p>This <strong>expense</strong> account\u00a0is debited to record permanent removal from inventory\u00a0as sold, typically used for when an inventory item is sold and accounted on the ticket closure date. The Inventory account is credited as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-COGS,Adjustment\">COGS, Adjustment</h3><ul><li><p>This\u00a0<strong>liability</strong> account\u00a0is credited if the cost for an inventory item increases while in the sold status or is debited if the cost for an inventory item decreases while in the sold status. Since sold is a terminal status and inventory items are no longer editable once they reach a terminal status, this account should never receive any debits or credits. The Cost of Goods Sold account is debited or credited counter to the adjustment account as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-Revenue:Sales(Taxable)\">Revenue: Sales (Taxable)</h3><ul><li><p>This\u00a0<strong>revenue</strong> account is credited when a ticket is closed. All taxable revenue is credited to this account as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-Revenue:Sales(Non-Taxable)\">Revenue: Sales (Non-Taxable)</h3><ul><li><p>This\u00a0<strong>revenue</strong> account is credited when a ticket is closed. All non-taxable revenue is credited to this account as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-SalesTaxPayable(TaxCollected/PayableAmount)\">Sales Tax Payable (Tax Collected/Payable Amount)</h3><ul><li><p>This\u00a0<strong>liability</strong> account is credited when a ticket is closed. The amount of sales tax that is collected is credited to this account as part of this event. When tax is remitted to the government at a later date, this account should be debited in the accounting system.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryDamaged(consumedviaDamagedstatus)\">Inventory Damaged (consumed via Damaged status)</h3><ul><li><p>This <strong>expense</strong> account is debited to record permanent removal from inventory as damaged, typically used when a tech damages a part during installation on a repair.\u00a0 The Inventory account is credited as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryDamagedAdjustment\">Inventory Damaged Adjustment</h3><ul><li><p>This\u00a0<strong>liability</strong> account\u00a0is credited if the cost for an inventory item increases while in the damaged status or is debited if the cost for an inventory item decreases while in the damaged status. Since damaged is a terminal status and inventory items are no longer editable once they reach a terminal status, this account should never receive any debits or credits. The Inventory Damaged account is debited or credited counter to the adjustment account as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryParts(consumedviaPartsOnlystatus)\">Inventory Parts (consumed via Parts Only status)</h3><ul><li><p>This <strong>expense</strong> account\u00a0is debited to record permanent removal from inventory\u00a0as parts only, typically used for devices that were purchased for parts and all usable parts have been removed leaving a scrapped phone in inventory. The Inventory account is credited as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryPartsAdjustment\">Inventory Parts Adjustment</h3><ul><li><p>This\u00a0<strong>liability</strong> account\u00a0is credited if the cost for an inventory item increases while in the Parts Only status or is debited if the cost for an inventory item decreases while in the Parts Only status. Since Parts Only is a terminal status and inventory items are no longer editable once they reach a terminal status, this account should never receive any debits or credits. The Inventory Parts account is debited or credited counter to the adjustment account as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryRMACredit(consumedviaRMACreditstatus)\">Inventory RMA Credit (consumed via RMA Credit status)</h3><ul><li><p>This <strong>asset</strong> account\u00a0is debited to record permanent removal from inventory\u00a0as RMA Credit, typically used to reconcile RMA credits due from\u00a0suppliers for returned defective parts. The Inventory account is credited as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryRMACreditAdjustment\">Inventory RMA Credit Adjustment</h3><ul><li><p>This\u00a0<strong>liability</strong> account\u00a0is credited if the cost for an inventory item increases while in the RMA Credit status or is debited if the cost for an inventory item decreases while in the RMA Credit status. Since RMA Credit is a terminal status and inventory items are no longer editable once they reach a terminal status, this account should never receive any debits or credits. The Inventory RMA Credit account is debited or credited counter to the adjustment account as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryShrinkage(consumedviaShrinkagestatus)\">Inventory Shrinkage (consumed via Shrinkage status)</h3><ul><li><p>This <strong>expense</strong> account is debited to record permanent removal from inventory as shrinkage, typically used during the reconciliation of an inventory count when the physical count was short as compared to the system inventory record. The Inventory account is credited as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryShrinkageAdjustment\">Inventory Shrinkage Adjustment</h3><ul><li><p>This\u00a0<strong>liability</strong> account\u00a0is credited if the cost for an inventory item increases while in the shrinkage status or is debited if the cost for an inventory item decreases while in the shrinkage status. Since shrinkage is a terminal status and inventory items are no longer editable once they reach a terminal status, this account should never receive any debits or credits. The Inventory\u00a0Shrinkage account is debited or credited counter to the adjustment account as part of this event.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryVoided(consumedviaVoidedstatus)\">Inventory Voided (consumed via Voided status)</h3><ul><li><p>This <strong>expense</strong> account\u00a0is debited to record permanent removal from inventory\u00a0as voided, typically used to reverse inventory that was added by mistake. The Inventory account is credited as part of this event.</p></li><li><p>An inventory item voided on the same day it was added does not appear in the journal at all.</p></li></ul><h3 id=\"ChartofAccounts-AccountingJournalEntries-InventoryVoidedAdjustment\">Inventory Voided Adjustment</h3><ul><li><p>This\u00a0<strong>liability</strong> account\u00a0is credited if the cost for an inventory item increases while in the voided status or is debited if the cost for an inventory item decreases while in the voided status. Since voided is a terminal status and inventory items are no longer editable once they reach a terminal status, this account should never receive any debits or credits. The Inventory Voided account is debited or credited counter to the adjustment account as part of this event.</p></li></ul><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934458970"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934458970/child",
+    "restrictions": "/rest/api/content/1934458970/restriction/byOperation",
+    "history": "/rest/api/content/1934458970/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934458970/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934458970",
+    "webui": "/spaces/SCD/pages/1934458970/Chart+of+Accounts+-+Accounting+Journal+Entries",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934458970",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934458970",
+    "tinyui": "/x/WoBNcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

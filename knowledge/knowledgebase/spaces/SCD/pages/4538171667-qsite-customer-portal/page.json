@@ -1,0 +1,129 @@
+{
+  "id": "4538171667",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/4538171667",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvNDUzODE3MTY2Nw==",
+  "status": "current",
+  "title": "\ud83c\udf10 Qsite (Customer Portal)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:44:47.914Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$4538171667.4",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/4538171667"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/4538171667/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"id-\ud83c\udf10Qsite(CustomerPortal)-Welcometo\ud83c\udf10Qsite(CustomerPortal)\">Welcome to \ud83c\udf10 Qsite (Customer Portal)</h2>\n<p>Customer-facing portal for ticket status, approvals, and self-service.</p>\n\n<h3 id=\"id-\ud83c\udf10Qsite(CustomerPortal)-\ud83d\udccbArticlesinThisCategory\">\ud83d\udccb Articles in This Category</h3>\n<img class=\"wysiwyg-unknown-macro\" src=\"https://servicecentral.atlassian.net/wiki/plugins/servlet/confluence/placeholder/unknown-macro?name=content-by-label&amp;locale=en_US&amp;version=2\" />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/4538171667"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 272496
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/4538171667/child",
+    "restrictions": "/rest/api/content/4538171667/restriction/byOperation",
+    "history": "/rest/api/content/4538171667/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/4538171667/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=4538171667",
+    "webui": "/spaces/SCD/pages/4538171667/Qsite+Customer+Portal",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/4538171667",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/4538171667",
+    "tinyui": "/x/EwF-DgE",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1932427719",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932427719",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjQyNzcxOQ==",
+  "status": "current",
+  "title": "Custom Forms: Capture Electronic Signatures on Forms",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:40.516Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 13,
+    "minorEdit": false,
+    "ncsStepVersion": "1606",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932427719.61",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932427719"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932427719/version/13"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Custom Forms help ensure a thorough and complete sales or repair process by allowing you to collect essential information directly on tickets. You can create forms for various purposes, such as:</p><ul><li><p>Repair Intake Forms</p></li><li><p>Repair Waivers/Work Authorizations</p></li><li><p>Trade-In Condition Checklists</p></li></ul><p>Custom Forms can also include a <strong>digital signature requirement</strong>, allowing you to capture and securely store customer signatures before submission. This eliminates paperwork, streamlines workflows, and ensures all necessary approvals are documented. Additionally, Custom Forms integrate with a <strong>Qpop Companion</strong>, providing a customer-facing screen for viewing and signing forms. If a customer requests a copy, you can easily print the signed form directly from the ticket.</p><h3 id=\"CustomForms:CaptureElectronicSignaturesonForms-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1937047567\" rel=\"nofollow\">Qpop\u2122 Companion Resources (with Video)</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770795/Introduction+to+Custom+Forms+-+Start+Here\" data-linked-resource-id=\"1933770795\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Introduction to Custom Forms - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246513/Custom+Forms+Field+Groups+and+Form+Fields\" data-linked-resource-id=\"1933246513\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Custom Forms: Field Groups and Form Fields</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932492983/Creating+Custom+Forms\" data-linked-resource-id=\"1932492983\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating and Working with Custom Forms</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CustomForms:CaptureElectronicSignaturesonForms-AddaRequiredSignaturetoaFormField\">Add a Required Signature to a Form Field</h2><p>The below information covers adding form fields to an existing Custom Form. For instructions on creating a new Custom Form, see our article, <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933770795\" rel=\"nofollow\">Introduction to Custom Forms - Start Here!</a></p><p /><p>On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>. On the Settings Overview screen, under the <strong>Tickets </strong>categry, click <strong>Custom Forms</strong>.</p><p><strong>Note</strong>: Depending on the scope of the form, this feature can also be managed by going to <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Signature 1.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%201.png?api=v2\"></span><p /><p>On the Custom Forms page, find the form that you would like to change and click the <strong>Edit button</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2010.png?api=v2\"></span><p /><p>When updating your Custom Form, scroll down and check the box next to <strong>Require Signature on Submit</strong>. A new field for <strong>Signature Label</strong> will appear. This is the wording that will appear above the signature area on the form. Once you are satisfied with your changes, click <strong>Save field group settings</strong>.</p><p><strong>Note</strong>: Optionally, if you click the box next to<strong> Qpop enabled</strong>, there will be an additional option to send forms to your Qpop Companion for a signature.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2012.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2014.png?api=v2\"></span><p /><p>A pop-up will appear, confirming if you want to update all unsubmitted forms with these new settings. Click <strong>Yes</strong> to confirm and finish your edits. All existing forms will have a signature requirement but previously submitted forms will remain unaffected.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2013.png?api=v2\"></span><hr/><h2 id=\"CustomForms:CaptureElectronicSignaturesonForms-CaptureaSignatureonaCustomForm\">Capture a Signature on a Custom Form</h2><p>Create a new ticket that includes your Custom Form. While you are on the Ticket Edit screen, your form will be visible under the Custom Forms section. Under the Actions column, click the <strong>Edit button</strong> to view and sign your form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2016.png?api=v2\"></span><p /><p>The form you are submitting will appear in a pop-up. If you are on a computer, you (or your customer) can read through the form and click <strong>I agree</strong>.</p><p><strong>Note</strong>: If you are using Qpop Companion, you can click <strong>Send to QPOP</strong> for the customer to read and sign on the tablet.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2017.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2018.png?api=v2\"></span><p /><p>The next page will show a signature line to acknowledge the form. You can sign with your mouse (or a stylus if you are using a touchscreen device) then click/tap <strong>Done Signing</strong>. You will receive a confirmation that their portion of the process is complete. Click <strong>Close</strong> to submit the form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2019.png?api=v2\"></span><p /><p>You will be directed back to the ticket, where you can see that the form is now in <strong>Submit Pending</strong> status. After saving or progressing the ticket to a new status, the form will save as <strong>Submitted</strong> status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"466\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2021.png?api=v2\"></span><hr/><h2 id=\"CustomForms:CaptureElectronicSignaturesonForms-PrintaSignedForm\">Print a Signed Form</h2><h3 id=\"CustomForms:CaptureElectronicSignaturesonForms-CustomFormSettings\">Custom Form Settings</h3><p>If you would to print a copy of the signed form for customer records, when editing your form fields, make sure that <strong>Print Visible</strong> is selected.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%208.png?api=v2\"></span><p /><h3 id=\"CustomForms:CaptureElectronicSignaturesonForms-Print/ViewActionsonTickets\">Print/View Actions on Tickets</h3><p>When viewing a ticket with submitted forms, Admins and Managers can choose whether to view or print the form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2022.png?api=v2\"></span><ul><li><p><strong>Magnifying Glass Icon</strong> - View the signed form (with \u201cSigned Electronically\u201d as the signature).</p></li><li><p><strong>Printer Icon </strong>- Print a copy of the signed form (with \u201cSigned Electronically\u201d as the signature).</p></li><li><p><strong>Completed Form Icon</strong> - View and print a copy of the form with the visible signature.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427719/Signature%2023.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932427719"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932427719/child",
+    "restrictions": "/rest/api/content/1932427719/restriction/byOperation",
+    "history": "/rest/api/content/1932427719/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932427719/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932427719",
+    "webui": "/spaces/SCD/pages/1932427719/Custom+Forms+Capture+Electronic+Signatures+on+Forms",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932427719",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932427719",
+    "tinyui": "/x/x4Eucw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

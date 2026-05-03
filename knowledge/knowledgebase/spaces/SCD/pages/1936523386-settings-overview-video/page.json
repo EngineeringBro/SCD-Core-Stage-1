@@ -1,0 +1,129 @@
+{
+  "id": "1936523386",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936523386",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjUyMzM4Ng==",
+  "status": "current",
+  "title": "Settings Overview (video)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:37.257Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936523386.42",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936523386"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936523386/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This video will showcase the Settings of RepairQ, including:</p><ul><li><p>RepairQ Account and how to modify your subscription</p></li><li><p>Integrations</p></li><li><p>Locations: store info, tax settings, location specific integrations, reset location data</p></li><li><p>Terminals (VCTs)</p></li><li><p>Announcements</p></li><li><p>Notifications (email and SMS)</p></li><li><p>Print Settings: receipts, invoices, emails, and labels</p></li><li><p>Customers: referrals, segments, contact methods</p></li><li><p>Tickets: Custom Forms, statuses, taxes, Payment Methods, Ticket Resolutions, Warranties/Disclaimers, warranty claims, and invoicing</p></li><li><p>Inventory: Item Types, Manufacturers, Catalog, Carriers, Suppliers, Shippers, conditions, statuses, and Purchase Orders</p></li><li><p>Other: image library, Validation Rules, Miscellaneous</p></li></ul><a class=\"external-link\" data-card-appearance=\"embed\" data-layout=\"center\" data-original-height=\"480.00\" data-original-width=\"853.34\" data-width=\"100.00\" href=\"https://youtu.be/2cPemjAatHw\" rel=\"nofollow\">https://youtu.be/2cPemjAatHw</a><p> Additionial Resources</p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921186/RepairQ+Subscription+Management+Change+Your+Subscription\" data-linked-resource-id=\"1928921186\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">RepairQ Subscription Management: Changing Your Subscription</a> </p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933410332/Setting+up+and+Assigning+Tax+Rates\" data-linked-resource-id=\"1933410332\" data-linked-resource-version=\"20\" data-linked-resource-type=\"page\">Setting up Taxes</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986689/Location+Settings\" data-linked-resource-id=\"1928986689\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Location Settings Overview</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notification Resources</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361958/Print+Settings+-+Receipt+Template\" data-linked-resource-id=\"1932361958\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Print Settings - Receipts</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377656/Print+Settings+-+Invoices\" data-linked-resource-id=\"1933377656\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Print Settings - Invoices</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Managing Customer Profiles</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932394664/Assigning+a+Customer+Referral+Source\" data-linked-resource-id=\"1932394664\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Assigning a Customer Referral Source</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932492983/Creating+Custom+Forms\" data-linked-resource-id=\"1932492983\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating and Working with Custom Forms</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329027/Creating+a+New+Item+Type\" data-linked-resource-id=\"1932329027\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Creating a New Item Type</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931018355/The+RepairQ+Catalog\" data-linked-resource-id=\"1931018355\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Overview</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361894/Company+Miscellaneous+Application+Settings\" data-linked-resource-id=\"1932361894\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Miscellaneous Application Settings Overview</a>      </p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936523386"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936523386/child",
+    "restrictions": "/rest/api/content/1936523386/restriction/byOperation",
+    "history": "/rest/api/content/1936523386/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936523386/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936523386",
+    "webui": "/spaces/SCD/pages/1936523386/Settings+Overview+video",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936523386",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936523386",
+    "tinyui": "/x/egBtcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

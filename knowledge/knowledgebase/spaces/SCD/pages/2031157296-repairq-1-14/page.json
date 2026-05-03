@@ -1,0 +1,130 @@
+{
+  "id": "2031157296",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2031157296",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMTE1NzI5Ng==",
+  "status": "current",
+  "title": "RepairQ 1.14",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T22:10:17.525Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "3",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2031157296.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2031157296"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031157296/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"RepairQ1.14-EnterpriseManagement\">Enterprise Management</h2><p>Managing large organizations is now much easier, and you can configure specific settings for local and regional differences.</p><h3 id=\"RepairQ1.14-SettingsLocalization\">Settings Localization</h3><p>Nearly all settings now have\u00a0two layers, company-wide, and location specific. Now you can\u00a0more effectively manage the differences between your company-wide standards and your local or regional location\u00a0differences.</p><p>Settings that\u00a0can now be defined\u00a0per location are as follows:</p><ul><li><p>Referral Sources</p></li><li><p>Ticket Custom Forms</p></li><li><p>Ticket Status Labels</p></li><li><p>Ticket Resolutions</p></li><li><p>Warranty Claims</p></li><li><p>Invoicing\u00a0labels and settings</p></li><li><p>Shippers</p></li><li><p>Payment Methods</p></li><li><p>Tax Groups</p></li><li><p>Tax Classes</p></li><li><p>Manufacturers</p></li><li><p>Suppliers</p></li><li><p>Purchase Order Status Labels</p></li><li><p>Miscellaneous Settings (some of them)</p></li></ul><h3 id=\"RepairQ1.14-CatalogLocalization\">Catalog Localization</h3><p>Enforcing company wide standards, while allowing for customization or local differences is now easier than ever. New location overrides are available to help you standardize your company catalog but allow for differing location pricing, costs,\u00a0identifiers, and more.\u00a0In addition, you can now create catalog items that\u00a0are scoped to one or more specific locations. No more cluttering up your catalog with duplicate or misnamed items. Now you have the ability to enforce your company-wide standards while\u00a0giving the right amount of control to individual managers and store owners.</p><h3 id=\"RepairQ1.14-NewStaffRoles\">New Staff Roles</h3><p>Two new staff roles were introduced, and one role changed names.</p><p><strong>&quot;Manager&quot; is now &quot;Location Admin&quot;</strong></p><p>The Manager role is now called a &quot;Location Admin.&quot; This user has control over all of the settings that are specific to the location(s) they manage. This role is appropriate for store owners and administrators.</p><p><strong>New &quot;Manager&quot; Role</strong></p><p>This new role is designed to separate the &quot;Location Admin&quot; from a\u00a0classic &quot;Store Manager.&quot; The manager role has elevated\u00a0to perform the kinds of tasks required of an in-store manager, but they cannot\u00a0change most\u00a0settings.</p><p><strong>New &quot;Location Advisor&quot; Role</strong></p><p>This new role is designed to give read-only access to given stores in\u00a0the same capacity as the &quot;Accountant&quot; super-role. The &quot;Location Advisor&quot; can view reports, lists,\u00a0history, etc, but they cannot edit or delete anything.</p><h3 id=\"RepairQ1.14-SwitchLocationFeature\">Switch Location Feature</h3><p>In the past, too many clicks were required to login to a different location. You can now switch locations much easier for PO creation and receiving, inventory adjustments, and time tracking. The new \u201cSwitch Location\u201d box will only show you the locations in which you have an active role, making the list much smaller for large organizations.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2031157296"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 60158345
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2031157296/child",
+    "restrictions": "/rest/api/content/2031157296/restriction/byOperation",
+    "history": "/rest/api/content/2031157296/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2031157296/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2031157296",
+    "webui": "/spaces/SCD/pages/2031157296/RepairQ+1.14",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2031157296",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031157296",
+    "tinyui": "/x/MAAReQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "2040627270",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2040627270",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA0MDYyNzI3MA==",
+  "status": "current",
+  "title": "1.7.1.x",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-08-01T22:47:53.034Z",
+    "friendlyWhen": "Aug 02, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "7",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2040627270.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2040627270"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040627270/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p><strong>Week starting\u00a007.06.2015</strong></p><ul><li><p>4408 \u2013 Customer view screen\u00a0would be inaccessible\u00a0after updating the associated Billing Agent. The error displayed was:\u00a0Property \u201cBillingAgent.name\u201d is not defined. This issue has been resolved.</p></li><li><p>4412 \u2013 Inventory Restock Form \u2013 fixed issue where serialized inventory items would not be\u00a0created</p></li><li><p>4416 \u2013 System Log \u2013 Fixed a view error where invoice items were\u00a0logged</p></li><li><p>4419 \u2013 Credit Card\u00a0Swipe field hidden when refunding non Credit Card\u00a0transaction</p></li><li><p>4420 \u2013\u00a0Invoice Notifications \u2013 fixed issue where \u201cInvoice Single Email\u201d could sometimes send to the ticket customer instead of the invoice billing contact. Fixed {billing_contact} send to\u00a0variable.</p></li><li><p>4421 \u2013\u00a0Enterprise Invoicing Payment Remittance \u2013 fixed issue where applying a remittance would not properly distribute payments towards tickets with tax</p></li><li><p>4418 \u2013 Invoice Remittance \u2013 Fixed an issue where writing off partially paid invoice items would not\u00a0apply the correct discount amount to the ticket</p></li></ul><p><strong>Week\u00a0starting 07.13.2015</strong></p><ul><li><p>4431 \u2013\u00a0Integrated Credit Card Payments \u2013 restored the ability to post a CREDIT transaction type for processing</p></li><li><p>4413 \u2013 Fixed an issue where returns for\u00a0a serialized item would sometimes\u00a0create a new\u00a0inventory item for the return, and also update the sold inventory item\u2019s status leaving you with duplicate inventory items</p></li><li><p>4437 \u2013 Fixed an issue where the send_on date would be set improperly, resulting in\u00a0notifications that would never be sent (stuck in the \u201cnew\u201d status)</p></li></ul><p><strong>Week\u00a0starting 07.20.2015</strong></p><ul><li><p>4427 \u2013 Fixed issue where some of the inventory item automated notification variables\u00a0were not returning values</p></li><li><p>4441 \u2013 Fixed a few issues where Automated\u00a0Notification PDFs\u00a0couldn\u2019t be generated</p></li><li><p>4354 \u2013\u00a0Mobile Defenders Purchase Order integration \u2013 improved stock check to use a more reliable\u00a0\u201cavailable stock qty\u201d</p></li><li><p>4443 \u2013 Added \u201cNo Resolution Set\u201d option to ticket\u00a0resolution filters so that you can filter for tickets where resolution is not set (null)</p></li><li><p>4447 \u2013 Fixed an issue where location overrides would\u00a0be deleted when a user did\u00a0not have permissions at those locations. In addition, location override updates were added to the System Log and Catalog Item log</p></li><li><p>4444 \u2013 Enterprise Invoicing \u2013 Fixed a display bug on the remittance screen where the ticket discount was pulling the wrong value, causing the\u00a0balance due to\u00a0display the wrong value</p></li><li><p>4442 \u2013\u00a0Prevent adding out of stock items to a return ticket, because you\u00a0will not have an open ticket to track the fulfillment of backordered items</p></li><li><p>4422 \u2013 Invoice refund button \u2013 prevent clicking the same payment refund button more than once before the refund finishes processing</p></li></ul><p><strong>Week\u00a0starting 07.27.2015</strong></p><ul><li><p>4423 \u2013 Add new purchase order permissions for ordering items, receiving items, and reconciling\u00a0orders</p></li><li><p>4410 \u2013 Add Invoice Status Triggers to notification system \u2013 <strong>now you can trigger\u00a0notifications based on invoice status changes</strong></p></li><li><p>4450 \u2013 Fixed an issue where attachment\u00a0PDFs were\u00a0not correctly named with .pdf extension</p></li><li><p>4451 \u2013\u00a0Fixed issue where some ticket notification short-codes/template-tags were not working for ticket status change notifications</p></li><li><p>4428 \u2013 Add invoice custom order id to available notification\u00a0short-codes/template-tags</p></li><li><p>4460 \u2013 Enterprise\u00a0Invoice Print \u2013 Fixed an issue where discounts were not displayed properly</p></li></ul><p><strong>Week\u00a0starting 08.03.2015</strong></p><ul><li><p>4467 \u2013\u00a0Inventory Manager Permissions \u2013 restore default permissions to\u00a0print labels and assign counts</p></li></ul><ul><li><p>4342 \u2013 Fixed an issue where\u00a0adding bundled parts with a quantity greater than 1\u00a0did\u00a0not\u00a0throw an alert if you exceeded the\u00a0available in-stock quantity</p></li></ul><p><strong>Week\u00a0starting 08.11.2015</strong></p><ul><li><p>4468 \u2013 Fixed issue on ticket label where today\u2019s date displayed in place of the promised by date if the promised by date\u00a0was blank (not set)</p></li><li><p>4464 \u2013\u00a0Customer view \u2013 we added list of linked tickets for each device in the device list. In addition, we added the \u201cItem/Device\u201d info column to the ticket list on the customer view</p></li><li><p>4278 \u2013\u00a0Catalog Import \u2013\u00a0throw an error when an item is set as labor and inventoried at the same time</p></li><li><p>4475 \u2013 Fixed an issue where logos would not be displayed\u00a0on emailed PDFs</p></li><li><p>4415 \u2013 Fixed issue where specific attendance filters would multiply the time reported</p></li><li><p>4383 \u2013 Added \u201cItems/Devices\u201d column to customer view list of tickets</p></li></ul><p><strong>Week\u00a0starting 08.17.2015</strong></p><ul><li><p>4476 \u2013\u00a0Relabel \u201cInventory Catalog\u201d to \u201cInventory Summary by Catalog Item\u201d</p></li><li><p>4472 \u2013 Fixed an issue where when poor internet connectivity is present, it could cause the ticket discount recalculation (which updates tax due) to lag long enough that it fails\u00a0to update the ticket items before the ticket is\u00a0saved, resulting in an invalid taxable or non-taxable amount reported for the ticket item(s)</p></li><li><p>4458 \u2013\u00a0Remove \u201cNo Resolution\u201d as an option for the Ticket Resolution pick list on tickets, but retain it for report filters</p></li><li><p>4483 \u2013\u00a0Add ticket status and ticket status date to the following reports: Revenue, Cost of Goods, Cost of Services, Cost of Refurbs, Cash Flow Detail, Sales Tax Detail</p></li></ul><p><strong>Week starting 08.24.2015</strong></p><ul><li><p>4487 \u2013 Apply currency formatting to all fields on\u00a0the Cash Reconciliation / Close VCT\u00a0Screen</p></li><li><p>4471 \u2013 Fixed attendance page \u201creset filters\u201d button where not all filters would be properly reset</p></li><li><p>4465 \u2013 Updated \u201cReceived/Reconciled Cost\u201d calculation on Purchase Order view so that it\u00a0always accurately reflects\u00a0the value at\u00a0the time of the Purchase Order.</p></li><li><p>4465 \u2013 Added new optional\u00a0enterprise\u00a0feature that allows for a cost markup on Internal Purchase Orders (Inventory Transfers)</p></li><li><p>4486 \u2013 Added \u201cRemittance Info\u201d to location settings, and made it available for display on the ticket invoice print template</p></li><li><p>4491 \u2013 Fixed an issue where the\u00a0incorrect item\u00a0cost\u00a0would sometimes be pulled for the initial tax calculation on\u00a0bundled parts</p></li><li><p>4494 \u2013 Optimized ticket item and price check searches so that they return results\u00a0considerably faster now</p></li></ul><p><strong>Week Starting 08.31.15</strong></p><ul><li><p>4308 \u2013 Cost of Goods Report \u2013 update shipping\u00a0costs to use the ticket date filter</p></li></ul><p><strong>Week Starting 09.21.15</strong></p><ul><li><p>4502 \u2013\u00a0Fixed an issue where you sometimes couldn\u2019t\u00a0bundle\u00a0the same\u00a0part\u00a0more than once\u00a0in a single edit on a single ticket</p></li><li><p>4499 \u2013\u00a0Return Ticket \u2013 allow save without returned items for alternative refund\u00a0practices</p></li><li><p>4503 \u2013 Return Ticket \u2013 fixed an issue with returning a serialized item\u00a0on a ticket\u00a0where a return was already processed for a different serialized item</p></li><li><p>4513 \u2013 Fixed an issue related to\u00a0receiving items on a purchase order. When you have the same catalog item with inventory items in the \u201cordered\u201d status linked to\u00a0more than one purchase order at the same time, received items would not always\u00a0fulfill\u00a0the correct\u00a0\u201cordered\u201d inventory items.</p></li></ul><p><strong>Week Starting 09.28.15</strong></p><ul><li><p>4497 \u2013 Ticket Invoice Print \u2013 when billing agent is attached, show both the billing agent info and the customer info, instead of just the billing agent info.</p></li><li><p>4523 \u2013 Constrain the size of\u00a0user profile pic in the navbar</p></li><li><p>4481 \u2013 On a ticket save, when processing more than one credit card transaction through\u00a0bluefin and one payment\u00a0is successful and the other is declined, we added a safeguard so that when the ticket is\u00a0saved again it does not reprocess any already successful payments</p></li></ul><p><strong>Week Starting 10.05.15</strong></p><ul><li><p>4528 \u2013 Fixed issue where payment alerts could\u00a0get\u00a0cleared prematurely</p></li><li><p>4527 \u2013 Fixed issue with removing a pending store credit transaction, where removing the transaction would not re-adjust the customer\u2019s store credit balance appropriately</p></li></ul><p><strong>Week Starting 10.12.15</strong></p><ul><li><p>4538 \u2013\u00a0Updated the \u201cnet collected\u201d figure displayed at the top of cash reconciliation reports so that it is simply a net cash flow figure; now it is no longer reduced by discounts\u00a0and taxes.</p></li></ul><p><strong>Week Starting 10.19.15</strong></p><ul><li><p>4540 \u2013 Fixed\u00a0permissions for internal transfer \u201cship\u201d action</p></li><li><p>4477 \u2013 Voiding a tradein ticket now handles the tradein inventory item properly. Instead of moving the item to \u201cinstock\u201d status it moves the inventory item to the \u201cvoid\u201d status</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2040627270"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 430965208
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2040627270/child",
+    "restrictions": "/rest/api/content/2040627270/restriction/byOperation",
+    "history": "/rest/api/content/2040627270/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2040627270/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2040627270",
+    "webui": "/spaces/SCD/pages/2040627270/1.7.1.x",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2040627270",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040627270",
+    "tinyui": "/x/RoCheQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

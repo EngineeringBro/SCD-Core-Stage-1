@@ -1,0 +1,129 @@
+{
+  "id": "1933836359",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933836359",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzgzNjM1OQ==",
+  "status": "current",
+  "title": "Getting Started: Customer Device Search",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:44.878Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "45",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933836359.20",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933836359"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933836359/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>With RepairQ, you can save and track the history of customers' individual repair devices. This article will guide you in how to easily search for those items in two different ways. Whichever keywords you choose to use when searching remember that the more specific you are, the fewer results you have to browse!</p><h3 id=\"GettingStarted:CustomerDeviceSearch-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705409/Getting+Started+The+RepairQ+Global+Search+Bar\" data-linked-resource-id=\"1933705409\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Global Search Bar</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377743/Customer+Search\" data-linked-resource-id=\"1933377743\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Customer Search</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933606925/Keyword+Search+Techniques\" data-linked-resource-id=\"1933606925\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Keyword Search Techniques</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"GettingStarted:CustomerDeviceSearch-FindingCustomerDevicesUsingtheGlobalSearchBar\">Finding Customer Devices Using the Global Search Bar</h2><p>Near the top of RepairQ's homepage, you will find the Global Search bar. This is set to\u00a0<strong>Tickets </strong>by default, but its fifth setting focuses on <strong>Devices</strong>. When using this to find inventory items, you can search by the device name as specified by the catalog, by the device's SKU, by its individual serial number (if applicable), and also by the name of the customer associated with the device.</p><p /><p>1. From the home page of RepairQ, be sure the <strong>Inventory </strong>setting for the Global Search is selected.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%201.png?api=v2\"></span><p /><p>2. Enter a keyword for the device into the Global Search Bar.</p><p><strong>Note:</strong> This keyword should be a catalog item name, SKU number, serial number, or customer name. In the example below, we're using the keyword <strong>iPhone</strong>, which will return a list of any devices with\u00a0<strong>iPhone</strong> in their name.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%202.png?api=v2\"></span><p /><p>3. Click <strong>Go</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%203.png?api=v2\"></span><p /><p>4. If done correctly, you should now either be on the general <strong>Devices </strong>page or if there is a single result, the <strong>Device Details</strong> page for that specific item</p><p /><h3 id=\"GettingStarted:CustomerDeviceSearch-UnderstandingDevicesSearchResults\">Understanding Devices Search Results</h3><p>If you search using a keyword that applies to multiple items, RepairQ will show all possible results on the <strong>Devices</strong> page. For instance, searching for the keyword <strong>iPhone</strong>\u00a0produces several results for different iPhone products that had been registered as customer devices.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%204.png?api=v2\"></span><p /><p>The below example demonstrates a search using the keywords <strong>iPhone 4S 16GB Gold</strong>. RepairQ returned a single result and directed us to the Device View page. You can see that the upper-left part of the page lists the device name and shows us the specific details and history of that item only.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%205.png?api=v2\"></span><p /><p>For this example, entering the device's serial number will take you to the device's view<strong>\u00a0</strong>page again. Keep in mind that typing in a partial serial number might return multiple devices that share that partial number.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%206.png?api=v2\"></span><p /><p>Lastly, you can search for a device using the name of the associated customer as a keyword, as shown below.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%207.png?api=v2\"></span><p /><h2 id=\"GettingStarted:CustomerDeviceSearch-FindingCustomerDeviceswithDeviceListSearch\">Finding Customer Devices with Device List Search</h2><p>The <strong>Devices</strong> page will show you customer devices listed individually. You can search using the same keyword logic as before. You can also narrow down your search results with other filters, such as the date they were added to the system, the last diagnostic note that was used for the device, their last ticket number, what carrier they are listed under, and many other filters.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%208.png?api=v2\"></span><p /><p><strong>Note: </strong>For a more comprehensive article on how to search through a list view, please see our article on <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932754986/List+Views\" data-linked-resource-id=\"1932754986\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Custom List Views, Filters, and Columns</a>.</p><p /><h3 id=\"GettingStarted:CustomerDeviceSearch-CustomerDeviceSearchInstructions\">Customer Device Search Instructions</h3><p>For this example of how to look for an item in the Device list, we will be looking for Frank Carl's iPhone 5S 16GB Gold, which we know was last on a ticket in <strong>New</strong> status.</p><p /><p>1. Using the navigation bar at the top of RepairQ, go to <strong>Customers</strong> \u2192<strong> Devices</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%209.png?api=v2\"></span><p /><p>2. Select <strong>+Filter</strong> \u2192<strong> Ticket Status</strong> \u2192<strong> New</strong>, then select\u00a0<strong>Apply</strong>. This will narrow our results down to devices currently on tickets in New status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%2010.png?api=v2\"></span><p /><p>3. Under the\u00a0<strong>Actions</strong> column, select the <strong>View</strong> icon to see the device's view page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%2011.png?api=v2\"></span><p /><p>If done correctly, we should be viewing Frank Carl's iPhone 5S 16GB Gold.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836359/Customer%20Device%20Search%2012.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933836359"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933836359/child",
+    "restrictions": "/rest/api/content/1933836359/restriction/byOperation",
+    "history": "/rest/api/content/1933836359/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933836359/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933836359",
+    "webui": "/spaces/SCD/pages/1933836359/Getting+Started+Customer+Device+Search",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933836359",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933836359",
+    "tinyui": "/x/RwBEcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

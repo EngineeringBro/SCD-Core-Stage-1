@@ -1,0 +1,130 @@
+{
+  "id": "1932197889",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932197889",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjE5Nzg4OQ==",
+  "status": "current",
+  "title": "RepairQ 1.18 Capabilities and Features",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-06-13T20:45:58.271Z",
+    "friendlyWhen": "Jun 13, 2023",
+    "message": "",
+    "number": 13,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932197889.85",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932197889"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932197889/version/13"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Click any of the links below to jump to the corresponding section.</p><ul><li><p><a href=\"#Square\" rel=\"nofollow\">Square Payments Integration</a></p></li><li><p><a href=\"#Catalog\" rel=\"nofollow\">Catalog Management</a></p></li><li><p><a href=\"#Tickets\" rel=\"nofollow\">Tickets and Workflow</a></p></li><li><p><a href=\"#Actions\" rel=\"nofollow\">Ticket Actions</a></p></li><li><p><a href=\"#Grid\" rel=\"nofollow\">Grid-friendly Item\u00a0 Names</a></p></li><li><p><a href=\"#Vendor\" rel=\"nofollow\">Add Vendor SKU to Column List View</a></p></li><li><p><a href=\"#Approvals\" rel=\"nofollow\">Approvals</a></p></li><li><p><a href=\"#Tax\" rel=\"nofollow\">Sales Tax Override</a></p></li><li><p><a href=\"#PO\" rel=\"nofollow\">Purchase Orders</a></p></li><li><p><a href=\"#Notifications\" rel=\"nofollow\">Notifications</a></p></li><li><p><a href=\"#Appointments\" rel=\"nofollow\">Appointment Enhancements</a></p></li><li><p><a href=\"#Performance\" rel=\"nofollow\">Performance Enhancements</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932197889/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"RepairQ1.18CapabilitiesandFeatures-SquareSquarePaymentsIntegration\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Square\"><span class=\"confluence-anchor-link\" id=\"Square\"></span></span><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936556034/Integrated+Payments+Setup+Activating+Square+Integration+in+RepairQ\" data-linked-resource-id=\"1936556034\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Square Payments Integration</a></h2><p>(currently available to US and Canadian customers)</p><ul><li><p>We built an integration to Square so you can accept payments in RepairQ using a Square Terminal. (At this time, RepairQ only supports Square Terminal. Square Register and other peripherals are not compatible.)</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936719893/Integrated+Payments+Accepting+Payments+on+a+Square+Terminal\" data-linked-resource-id=\"1936719893\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Accept card and digital wallet payments from your customers via Square Terminal</a></p></li><li><p>Use multiple Square Terminals at each location, and across multiple locations, all tied to the same Square payments account</p></li><li><p>Integrate with an existing Square payments account, or create a new one as part of the Square configuration process -\u00a0<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936588814/Integrated+Payments+Setup+Add+a+Square+Terminal\" data-linked-resource-id=\"1936588814\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\"><strong>Be sure to log out of your Square device before integrating with RepairQ.</strong></a></p></li><li><p>Cancel a Square payment prior to the final authorization</p></li><li><p>Refund Square payments from within RepairQ (the Square portal is updated automatically) or from the Square portal (RepairQ is updated automatically).</p></li><li><p>By configuration, specify how tips are to be refunded</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936556034/Integrated+Payments+Setup+Activating+Square+Integration+in+RepairQ\" data-linked-resource-id=\"1936556034\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Configure Square to receive tips via the Square Terminal</a> (At this time, receiving tips is only allowed as part of Square-integrated transactions).</p></li><li><p>Configure Square tipping options including custom tipping, Smart Tipping, and a separate tipping screen</p><ul><li><p>The custom tip option enables you to pre-configure three tip amounts for a customer to choose or allow customers to enter a custom tip amount during the card payment</p></li><li><p>Smart tipping presents pre-calculated amounts or percentages to a customer, enabling easy selection of a tip amount during the card payment</p></li><li><p>Specify whether the customer encounters the tip experience as a separate screen before the signature screen during card payment.</p></li></ul></li><li><p>Turn Square Tipping on or off at the location level.</p></li><li><p>Toggle the option to present the customer with the option to select a receipt preference</p></li><li><p>Tip Reporting</p><ul><li><p>Tips are reported as a short-term liability and are not counted as revenue in RepairQ reports</p></li><li><p>Added Square to the \u201cReconciliation Report\u201d for end-of-day payments reconciliation</p></li><li><p>The RepairQ Summary Report contains a line item totaling tips collected for the given time period</p></li><li><p>A new <a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Tip%20Report&amp;linkCreation=true&amp;fromPageId=1932197889\">Tip report</a> is available for users with the correct permissions</p><ul><li><p>The report enables managers to relate tips collected to a ticket, the received payment location, terminal, and date.</p></li></ul></li><li><p>Added a tip line item to the Reconciliation Report used to close a VCT</p></li></ul></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-CatalogCatalogManagement\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Catalog\"><span class=\"confluence-anchor-link\" id=\"Catalog\"></span></span>Catalog Management</h2><ul><li><p>Import Compatibility and Bundling settings via Import/Export tool</p><ul><li><p>Define compatibility and bundling relationships by downloading the import template, and importing compatibility and bundling catalog changes and updates</p></li></ul></li><li><p>Enables administrators to edit catalog item compatibility and bundling in bulk</p></li><li><p>Import price overrides for ticket items</p><ul><li><p>Admins can specify location-specific pricing (price overrides) and other location-specific data using the import tool. This enables admins to easily set the pricing on catalog items in bulk at the location level.</p></li></ul></li><li><p>Added new <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770795/Introduction+to+Custom+Forms+-+Start+Here\" data-linked-resource-id=\"1933770795\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">custom form</a> triggers that are based on ticket items\u00a0</p><ul><li><p>Require a custom form when OEM parts are added (or skip when not present) OR require when aftermarket parts are added (or skip when not present)</p></li></ul></li><li><p>Added the ability to filter catalog list view by \u201cPrice Advertised\u201d</p></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-TicketsTicketsandWorkflow\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Tickets\"><span class=\"confluence-anchor-link\" id=\"Tickets\"></span></span>Tickets and Workflow</h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787785/Catalog+Items+Bundle+Setup\" data-linked-resource-id=\"1932787785\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Auto-add ticket items</a></p><ul><li><p>Setup parts to be auto-added to a ticket. Auto-adding differs from auto-bundling as follows:</p></li><li><p>With auto-add, RepairQ will automatically add parts to a ticket based on a \u201cparent\u201d item however, those items will still display their cost on each ticket item, vs. auto-bundling where the cost is hidden and only the tax is shown</p></li><li><p>Individual ticket items that are auto-added are totaled in the total ticket price</p></li></ul></li><li><p>We updated the<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770876/Processing+a+Return+on+a+Ticket\" data-linked-resource-id=\"1933770876\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\"> returns process</a> to standardize the returns flow and give the RepairQ user more information about the original ticket all in one place. The user can now view a ticket summary that includes the close date of the original ticket, and a link to view the Terms and Conditions to help them determine if a Return is covered by the policy. The updates include the following:</p><ul><li><p>The <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705307/Performing+a+Return+Repair+Rework+Ticket\" data-linked-resource-id=\"1933705307\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">return repair button</a> on repair tickets has been removed</p></li><li><p>To initiate any kind of return, click the returns button on the ticket</p></li><li><p>A pop-up modal will display a summary of the ticket and a link to view the Terms and Conditions</p></li><li><p>If the return is a repair return, (meaning you initiated the return from a repair ticket) the user will see a &quot;start repair return&quot; button. The user can click this button to start the standard repair return process.</p></li><li><p>If the return is not a repair return, the user will only see a &quot;start return&quot; button on the modal. The user can click this button to start the standard return process.</p><ul><li><p>For RepairQ customers utilizing service programs, they will only see a repair return option on the modal if the service program supports repair returns.</p></li></ul></li></ul></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-ActionsTicketactions\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Actions\"><span class=\"confluence-anchor-link\" id=\"Actions\"></span></span><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525679/Ticket+Properties+Creating+New+Ticket+Actions\" data-linked-resource-id=\"1932525679\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Ticket actions</a></h2><ul><li><p>Ticket actions are a new feature that can be set by a user on each ticket.</p><ul><li><p>Users can utilize ticket actions to make workflows more detailed and effective.</p></li><li><p>Configure custom ticket actions</p></li></ul></li><li><p>Set <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770795/Introduction+to+Custom+Forms+-+Start+Here\" data-linked-resource-id=\"1933770795\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">custom forms</a> to trigger based on a ticket action</p></li><li><p>Set <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">notifications</a> to be sent based on a ticket action</p></li><li><p>Set an <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936228434/Qsite+Ticket+Approval+Setup+-+Settings+and+Conditions\" data-linked-resource-id=\"1936228434\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">approval</a> to trigger based on a ticket action</p></li><li><p>Report on ticket actions in the following standard RepairQ reports</p><ul><li><p>Sales &gt; Profitability by Ticket</p></li><li><p>Productivity &gt; [All reports]</p></li></ul></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932754986/List+Views\" data-linked-resource-id=\"1932754986\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">View and filter Ticket Actions</a></p></li><li><p>Add Ticket Actions as a column in the Ticket List View</p></li><li><p>Filter by Ticket Actions in Ticket List View</p></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-GridGrid-friendlyItemNames\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Grid\"><span class=\"confluence-anchor-link\" id=\"Grid\"></span></span><a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Categories%3A%20Link%20Catalog%20Items%20an%20Item%20Grid&amp;linkCreation=true&amp;fromPageId=1932197889\">Grid-friendly Item Names</a></h2><ul><li><p>Use the catalog item \u201cfriendly name\u201d as the display name for items in the item grid. This improves the look and feel of the item grid, and makes finding items in a grid easier and faster.</p></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-VendorAddVendorSKUColumntoListView\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Vendor\"><span class=\"confluence-anchor-link\" id=\"Vendor\"></span></span><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932754986/List+Views\" data-linked-resource-id=\"1932754986\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Add Vendor SKU Column to List View</a></h2><ul><li><p>Users can add the Vendor SKU column to list views, and save views with this column included</p></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-ApprovalsApprovals\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Approvals\"><span class=\"confluence-anchor-link\" id=\"Approvals\"></span></span><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936228434/Qsite+Ticket+Approval+Setup+-+Settings+and+Conditions\" data-linked-resource-id=\"1936228434\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Approvals</a></h2><ul><li><p>Require a customer Approval request to be sent to the customer when a ticket is associated with a Ticket Action</p></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-TaxSalesTaxOverride\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Tax\"><span class=\"confluence-anchor-link\" id=\"Tax\"></span></span><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541561/Sales+Tax+Override\" data-linked-resource-id=\"1933541561\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Sales Tax Override</a></h2><ul><li><p>Admins can toggle this feature on/off</p></li><li><p>Once enabled, users can enter the taxable amount for each line item on a ticket, and RepairQ will adjust the tax due on that item, plus adjust to the total tax due on the ticket</p></li><li><p>In some cases, the user can select the supplier of the ticket item while overriding the taxable amount</p></li><li><p>While editing a ticket, users can override taxes on specific ticket items, enabling tax to be collected on all, none, or a partial amount of any ticket item. This feature can be used for situations such as tax holidays where certain items may be exempt from tax</p></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-POPurchaseOrders\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-PO\"><span class=\"confluence-anchor-link\" id=\"PO\"></span></span><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932722231/Purchase+Order+Process+Creating+a+New+Purchase+Order\" data-linked-resource-id=\"1932722231\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Purchase Orders</a></h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931411625/Purchase+Orders+Importing+and+Uploading\" data-linked-resource-id=\"1931411625\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">POs imported via the bulk import tool</a> can be saved in New or Ordered status</p></li><li><p>Import parameters include Location, Supplier, and PO Status (New, Ordered)</p></li><li><p>When creating POs, filter items by Item Type to narrow your item reorder list for easier sorting and ordering</p></li><li><p>Created bulk import/export POs for any location using a PO import tool</p></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-NotificationsNotifications\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Notifications\"><span class=\"confluence-anchor-link\" id=\"Notifications\"></span></span><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Notifications</a></h2><ul><li><p>Sending a Custom Form can be triggered by a ticket status change, or by clicking the email button on the ticket</p></li><li><p>Added the ability to trigger a notification for a Return Repair Ticket, separately from a regular Repair Ticket</p></li><li><p>Added the ability to attach Custom Forms to outgoing email notifications</p></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-AppointmentsAppointmentEnhancements\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Appointments\"><span class=\"confluence-anchor-link\" id=\"Appointments\"></span></span><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointment Enhancements</a></h2><ul><li><p>Customer name</p></li><li><p>Assignee name</p></li><li><p>Customer service address</p></li><li><p>Device name</p></li><li><p>Added an Appointment Summary modal, which can be toggled as the default modal for viewing appointment details (versus showing the default Edit modal)</p></li><li><p>Service Address is now an available column in the Appointment List View</p></li><li><p>Added the ability to use appointment windows, instead of time-based appointments. Admins can specify the number of concurrent appointments possible in a given appointment window.</p></li><li><p>Added the ability to create custom appointment statuses tied to core appointment states</p></li><li><p>Toggle the default information that displays on an appointment block in a calendar view:</p></li><li><p>Created a Day calendar view and applied the standard RepairQ List View filtering and styling to all appointment views, enabling users to better search and filter appointments, and save views that can be recalled instantly by each user</p></li><li><p>Appointments now have a dedicated section in Settings to manage all preferences related to setting and interacting with appointments and calendar views.</p></li></ul><h2 id=\"RepairQ1.18CapabilitiesandFeatures-PerformancePerformanceenhancements\"><span class=\"confluence-anchor-link\" id=\"RepairQ1.18CapabilitiesandFeatures-Performance\"><span class=\"confluence-anchor-link\" id=\"Performance\"></span></span>Performance enhancements</h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591138/Catalog+Management+Organize+Your+Catalog+with+Category+Trees+and+Item+Grids\" data-linked-resource-id=\"1932591138\" data-linked-resource-version=\"18\" data-linked-resource-type=\"page\">Optimized category trees</a> to deliver faster app performance when loading layouts with grid views</p></li></ul><p /><p /><p>START 1.18.X</p><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932197889"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 1015782938
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932197889/child",
+    "restrictions": "/rest/api/content/1932197889/restriction/byOperation",
+    "history": "/rest/api/content/1932197889/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932197889/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932197889",
+    "webui": "/spaces/SCD/pages/1932197889/RepairQ+1.18+Capabilities+and+Features",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932197889",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932197889",
+    "tinyui": "/x/AQArcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

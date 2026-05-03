@@ -1,0 +1,129 @@
+{
+  "id": "1932427609",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932427609",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjQyNzYwOQ==",
+  "status": "current",
+  "title": "Reports: Inventory Shrinkage",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:05.691Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932427609.30",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932427609"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932427609/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Inventory Usage Summary Report is an easy way to view all inventory that has been adjusted out as Shrinkage for any given amount of time.</p><h3 id=\"Reports:InventoryShrinkage-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status - What Does It Mean?</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934557185/Reports+Inventory+Valuation\" data-linked-resource-id=\"1934557185\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Inventory Valuation</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934721039/Reports+Inventory+Usage\" data-linked-resource-id=\"1934721039\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Reports: Inventory Usage</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196750/Reports+Inventory+Valuation+Snapshot\" data-linked-resource-id=\"1934196750\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Reports: Inventory Valuation Snapshot</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"Reports:InventoryShrinkage-ViewingShrinkageHistorywiththeInventoryUsageReport\">Viewing Shrinkage History with the Inventory Usage Report</h2><p /><p>1. On the Navigation Bar, go to <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Shrink%201.png?api=v2\"></span><p /><p>2. On the Reports page, click on the <strong>Inventory</strong> <strong>dropdown</strong> along the top row of report categories. From the available list, click <strong>Inventory Usage</strong> <strong>Summary</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Shrink%202.png?api=v2\"></span><p /><p><strong>Note</strong>: You can view a detailed list of inventory items that are in Shrinkage status by selecting <strong>Inventory</strong> <strong>Usage Detail</strong>.</p><p /><p>3. Use the available filters to scope results based on the assigned parameters. Once you have set your filters, click <strong>Apply</strong> <strong>Filters</strong> to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Shrink%203.png?api=v2\"></span><ul><li><p><strong>Date Range</strong> - Select a date range for your scope of results.</p></li><li><p><strong>Location</strong> - Select a specific location or run an aggregate report for multiple stores.</p></li><li><p><strong>Supplier</strong> - This is used to filter your search for items from a specific supplier.</p></li></ul><p><strong>Note</strong>: The date filters will search for items based on the date an item was moved into a consumed inventory status. If an inventory item is attached to a ticket, then the effective ticket date (the date the ticket status was last updated) will be used for the date filter so that you can match the inventory usage reports up with the other sales and accounting reports in RepairQ.</p><p /><p><strong>Note</strong>: You can click <strong>Hide/Show Filters</strong> on the upper-right side of the page to collapse/expand the filters when viewing reports. You can also toggle between the summary and detail report from this section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Shrink%208.png?api=v2\"></span><p /><p>4. (Optional) Click <strong>To Excel</strong> on the upper-right side of the report page to export an Excel-friendly document. The export will include any filtered data when running the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Shrink%209.png?api=v2\"></span><p /><h2 id=\"Reports:InventoryShrinkage-Shrinkage(Usage)Summary\">Shrinkage (Usage) Summary</h2><p>The Inventory Usage Summary report will show a summarized breakdown of item types, quantities, and various cost/price details for each consumed status. You can click on each status tab for a breakdown of each category. Click the <strong>Shrinkage Tab</strong> to see all inventory items that have been adjusted out as shrink.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Shrink%205.png?api=v2\"></span><p /><h2 id=\"Reports:InventoryShrinkage-Shrinkage(Usage)Detail\">Shrinkage (Usage) Detail</h2><p>The Inventory Usage Detail report will show a breakdown of catalog items, quantities, and cost/price details for each consumed status. You can click on each status tab for a breakdown of each category.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Shrink%206.png?api=v2\"></span><p /><p>The Detail Report also has Item Type and Catalog Item filters. Use these filters to filter\u00a0the report for specific Item Types or Catalog Item searches.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Shrink%207.5.png?api=v2\"></span><p /><p>If you would like to view additional historical data for an inventory item, click <strong>View</strong> <strong>Details</strong>. You will be taken to the Inventory Summary page where you can see a full list of past and current inventory items with their Inventory Status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427609/Shrink%207.png?api=v2\"></span><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932427609"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932427609/child",
+    "restrictions": "/rest/api/content/1932427609/restriction/byOperation",
+    "history": "/rest/api/content/1932427609/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932427609/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932427609",
+    "webui": "/spaces/SCD/pages/1932427609/Reports+Inventory+Shrinkage",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932427609",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932427609",
+    "tinyui": "/x/WYEucw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

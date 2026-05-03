@@ -1,0 +1,130 @@
+{
+  "id": "2029682707",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029682707",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTY4MjcwNw==",
+  "status": "current",
+  "title": "1.18.10",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T21:28:22.917Z",
+    "friendlyWhen": "Jul 20, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "45",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029682707.13",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029682707"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029682707/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p><em>Released 08/29/2022 at 11:30pm CT</em></p><h3 id=\"id-1.18.10-Improvements\">Improvements</h3><ul><li><p>Users can now enable and disable an Open Item List (found under <strong>Company Settings \u2192 Tickets \u2192 General Settings</strong>) which toggles the list of open tickets and appointments a customer has open when adding them to a new ticket.</p></li><li><p>Broadened the ticket statuses that Appointment Reminders can be sent out from to include &quot;Technician Assigned&quot;, &quot;Accepted&quot;, and &quot;Rejected&quot; statuses.</p></li></ul><h3 id=\"id-1.18.10-BugFixes\">Bug Fixes</h3><ul><li><p>Resolved an issue where trying to create any ticket type would sometimes return an error preventing progression.</p></li><li><p>The ticket balance and customer balance, which had been previously calculating incorrectly in automated notifications, now display as intended.</p></li><li><p>Fixed the Appointment Summary &quot;Start&quot; button, which previously did not display any text.</p></li><li><p>Square terminals no longer allow transactions when the integration is turned off.</p></li><li><p>Resolved an issue where RepairQ was calculating a customer's available credit incorrectly after a store credit transaction was removed from a ticket.</p></li><li><p>Return repairs now show custom forms when saved.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029682707"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 129608517
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029682707/child",
+    "restrictions": "/rest/api/content/2029682707/restriction/byOperation",
+    "history": "/rest/api/content/2029682707/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029682707/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029682707",
+    "webui": "/spaces/SCD/pages/2029682707/1.18.10",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029682707",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029682707",
+    "tinyui": "/x/E4D6e",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "requestTypeFields": [
+    {
+      "fieldId": "customfield_10033",
+      "name": "Customer Email Address",
+      "description": "",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10033
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "customfield_10034",
+      "name": "Phone Number",
+      "description": "",
+      "required": false,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10034
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "summary",
+      "name": "Subject",
+      "description": "",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "system": "summary"
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "description",
+      "name": "Description",
+      "description": "Please enter the details of your request. A member of our support staff will respond as soon as possible.",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "system": "description"
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "customfield_10146",
+      "name": "Ticket # or Purchase Order # (if applicable)",
+      "description": "",
+      "required": false,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+        "customId": 10146
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "attachment",
+      "name": "Attachment",
+      "description": "",
+      "required": false,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "array",
+        "items": "attachment",
+        "system": "attachment"
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "priority",
+      "name": "Priority / Severity",
+      "description": "Business Impact: Critical = Catastrophic; High = Major; Medium = Moderate; Low = Minimal",
+      "required": false,
+      "defaultValues": [
+        {
+          "value": "10003",
+          "label": "4 - Low",
+          "children": []
+        }
+      ],
+      "validValues": [
+        {
+          "value": "10000",
+          "label": "1 - Critical",
+          "children": []
+        },
+        {
+          "value": "10001",
+          "label": "2 - High",
+          "children": []
+        },
+        {
+          "value": "10002",
+          "label": "3 - Medium",
+          "children": []
+        },
+        {
+          "value": "10003",
+          "label": "4 - Low",
+          "children": []
+        },
+        {
+          "value": "10004",
+          "label": "System",
+          "children": []
+        }
+      ],
+      "jiraSchema": {
+        "type": "priority",
+        "system": "priority"
+      },
+      "visible": true
+    }
+  ],
+  "canRaiseOnBehalfOf": true,
+  "canAddRequestParticipants": true
+}

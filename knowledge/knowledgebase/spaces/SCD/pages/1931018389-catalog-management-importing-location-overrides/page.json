@@ -1,0 +1,129 @@
+{
+  "id": "1931018389",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1931018389",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMTAxODM4OQ==",
+  "status": "current",
+  "title": "Catalog Management: Importing Location Overrides",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:17.093Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1931018389.22",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1931018389"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1931018389/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>You can add\u00a0new catalog item location overrides or update existing catalog item\u00a0location overrides\u00a0in RepairQ with an import file. Import file formats accepted are .xlsx (Excel), .csv (comma separated values) and .txt (tab separated values). For the best\u00a0experience we recommend using .xlsx files.</p><h3 id=\"CatalogManagement:ImportingLocationOverrides-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931018355/The+RepairQ+Catalog\" data-linked-resource-id=\"1931018355\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624014/Catalog+Management+Import+Catalog+Items\" data-linked-resource-id=\"1932624014\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Cataog Management: Importing Catalog Items</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377786/RepairQ+Data+Import+Resources\" data-linked-resource-id=\"1933377786\" data-linked-resource-version=\"18\" data-linked-resource-type=\"page\">RepairQ Data Import Resources</a> </p></li></ul><h2 id=\"CatalogManagement:ImportingLocationOverrides-ImportLocationOverrides\">Import Location Overrides</h2><p>To get started, navigate to your Catalog under the Settings options of your navbar.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931018389/Import%20Location%20Overrides%201.png?api=v2\"></span><p /><p>Next, filter your catalog to only show the items you wish to update or modify, using filters and keywords found on the top of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931018389/Import%20Location%20Overrides%202.png?api=v2\"></span><p /><p>Once you have chosen any filters you would like to use and have applied those filters, select the Action menu to the right side of the page (next to the plus-shaped Add icon). This will give you a list of actions, including the Import action. Go ahead and select that.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931018389/Import%20Location%20Overrides%203.png?api=v2\"></span><p /><p>After selecting Import, scroll down to the bottom of the page to find import options.</p><p>If you want to CREATE NEW location overrides, click the &quot;Download Location Overrides With Defaults&quot; button to download an Excel file with your current catalog items with the company default pricing and ROA/ROP entered, ready for\u00a0changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931018389/Import%20Location%20Overrides%204.png?api=v2\"></span><p /><p>If you want to UPDATE your existing location overrides, click the &quot;Download Location Overrides&quot; button to download an Excel file with your current catalog item location overrides, ready for\u00a0changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1931018389/Import%20Location%20Overrides%205.png?api=v2\"></span><p /><p>The file will include all of the location overrides for the catalog items\u00a0filtered into the current view along with all of the columns available for import.\u00a0The list of importable fields will change over time as RepairQ evolves. The list is currently as follows:</p><ul><li><p>Hide Item (0 for &quot;no&quot;, 1 for &quot;yes&quot;)</p></li><li><p>Location</p></li><li><p>Catalog Item</p></li><li><p>Reorder Point</p></li><li><p>Reorder Amount</p></li><li><p>Bin</p></li><li><p>Price</p></li><li><p>Advertised Price</p></li><li><p>Is Price Advertised\u00a0(0 for &quot;no&quot;, 1 for &quot;yes&quot;)</p></li><li><p>Price Including Tax</p></li><li><p>Cost</p></li><li><p>Friendly Name</p></li><li><p>Note</p></li><li><p>Search Keys</p></li></ul><p><strong>Import Rules</strong></p><p>Columns are matched on the header name, so you must have the correct header names (as provided in the\u00a0template) to successfully import the column values. The order of the columns does not matter. Any unrecognized column headers will be ignored. Only the values you wish to add or update need to be present in the import file.</p><p><strong>Updating Existing\u00a0Location Overrides</strong></p><p>If a record in your import file matches a record in RepairQ, the existing record will be updated with the data from your spreadsheet. Matches are made for the catalog item on the following fields, in this order:</p><ol start=\"1\"><li><p>Name</p></li><li><p>SKU</p></li><li><p>UPC</p></li><li><p>Vendor\u00a0SKU</p></li></ol><p>Once a catalog item is matched,\u00a0a lookup is performed for location overrides to update using the matched catalog item and the location from your import file. Locations are matched using the location &quot;Short Name.&quot;</p><p><strong>Import Feedback</strong></p><p>When you are ready to\u00a0upload your import,\u00a0select your file in the import\u00a0input and click the &quot;Import&quot; button.\u00a0RepairQ will\u00a0process your import file and when finished you will be redirected to an import feedback page. This page will\u00a0inform you\u00a0of the success or failure of each row in your import file.</p><p><em>Note:\u00a0Some imports may take time to process. Please be patient and do not navigate away from the page.</em></p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1931018389"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1931018389/child",
+    "restrictions": "/rest/api/content/1931018389/restriction/byOperation",
+    "history": "/rest/api/content/1931018389/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1931018389/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1931018389",
+    "webui": "/spaces/SCD/pages/1931018389/Catalog+Management+Importing+Location+Overrides",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1931018389",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1931018389",
+    "tinyui": "/x/lQAZcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1932624055",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932624055",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjYyNDA1NQ==",
+  "status": "current",
+  "title": "Inventory Status Overview",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:44.386Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "26",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932624055.43",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932624055"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932624055/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Every Inventory Item in RepairQ has a status associated with it. This allows users to keep a full history of the item. For example, when an item is attached to a ticket and sold, the item leaves the Instock count, but it is not removed from records entirely \u2014 the item's status changes from Instock to Pulled to Sold status.</p><p>Users can manually change the status of inventory items.</p><p>Users also have the ability to create new statuses for their unique tracking needs.</p><p>At the most basic level, Inventory Statuses can be categorized into three separate groups:</p><ul><li><p><strong>Live</strong> <strong>Inventory</strong> - Inventory that is physically in your possession.</p></li><li><p><strong>Transition</strong> <strong>Inventory</strong> - Inventory that is transitioning into or out of your Live Inventory.</p></li><li><p><strong>Consumed</strong> <strong>Inventory</strong> - Inventory that is no longer in your possession, but records still remain in RepairQ for reporting purposes.</p><ul><li><p>Items in Consumed Inventory status are no longer editable, for data integrity purposes.</p></li></ul></li></ul><h3 id=\"InventoryStatusOverview-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787743/Inventory+Management+Resources\" data-linked-resource-id=\"1932787743\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Inventory Management Resources</a>  </p></li><li><p><a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Inventory%20Management%3A%20Editing%20Inventory%20Attributes&amp;linkCreation=true&amp;fromPageId=1932624055\">Inventory Management: Updating Inventory Attributes</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934721039/Reports+Inventory+Usage\" data-linked-resource-id=\"1934721039\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Reports: Inventory Usage</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427464/Inventory+Count+Resources\" data-linked-resource-id=\"1932427464\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Count Process: Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932460177/Inventory+Transfers+Requesting+Items+From+Another+Location\" data-linked-resource-id=\"1932460177\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Inventory Transfers: Requesting Items From Another Location</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624055/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"InventoryStatusOverview-LiveInventory\">Live Inventory</h2><ul><li><p><strong>Instock</strong> - Only inventory items that are set to Instock status can be added to a ticket. An item must be Instock to sell or use in a repair.</p></li><li><p><strong>Pulled</strong> - This is for an inventory item that is reserved for a specific ticket or internal transfer.</p></li><li><p><strong>Pending</strong> <strong>Refurbishment</strong> - This is for an item that needs to be repaired/refurbished before being resold or consumed for spare parts.</p></li><li><p><strong>Pending Restock (Ready to Stock)</strong> - This is an item that is awaiting manager approval, or might need repackaging before moving to the Instock status.</p></li><li><p><strong>Pending RMA</strong> - This is a defective item that is awaiting return to the supplier.</p></li><li><p><strong>Other</strong> - This is used for your own record-keeping purpose.</p></li></ul><h2 id=\"InventoryStatusOverview-TransitionInventory\">Transition\u00a0Inventory</h2><ul><li><p><strong>Backordered</strong> - When you add an inventory item to a ticket that is not in stock, it creates a new inventory item with the Backordered status as a placeholder.</p></li><li><p><strong>Ordered</strong> - A back-ordered item that has been ordered, is advanced to Ordered status.</p></li><li><p><strong>Pending</strong> <strong>Transfer</strong> - An item that is allocated to a shipment for an internal transfer between two RepairQ locations is moved into the &quot;Pending Transfer&quot; status. The item is in Pending Transfer status until it is received by the location receiving the transfer.</p></li><li><p><strong>RMA</strong> <strong>Sent</strong> -This is for an item that has been returned to a supplier. The item should remain in RMA Sent status until a response is received from the supplier regarding the return.</p></li></ul><h2 id=\"InventoryStatusOverview-ConsumedInventory\">Consumed Inventory</h2><ul><li><p><strong>Sold</strong> - This item is no longer in your possession and has been recorded for sales reporting.</p></li><li><p><strong>Shrinkage</strong> - This item was lost/stolen. It is no longer in your possession and has been recorded for historical sales reporting as a loss.</p></li><li><p><strong>Void</strong> - This removes the item from inventory and from historical reporting.</p></li><li><p><strong>RMA</strong> <strong>Credit</strong> - This indicates that the supplier has given you credit for the defective item. Credit may include a refund or a replacement of the item, which should be placed into inventory as a new item.</p></li><li><p><strong>Damaged (RMA Rejected)</strong> - This indicates that the supplier has denied credit for the defective item, and this is reported as a loss.</p></li><li><p><strong>Parts</strong> <strong>Only</strong> - This is reserved for a device that is not usable as an inventory item, but parts may be salvaged for other repairs. Any parts pulled out of an item in Parts Only status should be entered as new inventory items.</p></li></ul><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932624055"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932624055/child",
+    "restrictions": "/rest/api/content/1932624055/restriction/byOperation",
+    "history": "/rest/api/content/1932624055/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932624055/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932624055",
+    "webui": "/spaces/SCD/pages/1932624055/Inventory+Status+Overview",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932624055",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932624055",
+    "tinyui": "/x/t4Axcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

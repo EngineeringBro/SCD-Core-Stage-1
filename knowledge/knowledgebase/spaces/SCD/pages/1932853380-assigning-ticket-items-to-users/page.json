@@ -1,0 +1,129 @@
+{
+  "id": "1932853380",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932853380",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjg1MzM4MA==",
+  "status": "current",
+  "title": "Assigning Ticket Items to Users",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:22.723Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "25",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932853380.20",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932853380"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932853380/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>When creating or editing a ticket, ticket items can be assigned to specific users. This is useful for tracking transactions made by sales users, as well as tracking which users will be performing a service on a device. Beyond a historical record, these assigned fields can also be used to track metrics in reports.</p><p>The\u00a0<strong>Sold By</strong> field is for the user who gets credit for the sold ticket item\u2014usually a staff member with the Sales role. A Manager can view the Staff Leaderboard and the Sales by Staff Summary/Detail reports to see which staff member was assigned to these items.</p><p>The\u00a0<strong>Repaired By</strong> field is for the user that will be performing this service\u2014usually a staff member with the Technician role. The hours logged for the service will be multiplied by the\u00a0assignee's pay rate to calculate the Labor Cost. Labor is best reflected in Cost of Service and Wage Expense Reports.</p><p><strong>Note:</strong> Labor can be toggled on or off on several other reports, such as Profitability Report, the Repairs by Tech, and Repairs by Tech and Item reports.</p><h3 id=\"AssigningTicketItemstoUsers-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934753798/Reports+Sales+Summary+and+Sales+Details\" data-linked-resource-id=\"1934753798\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Sales Summary and Sales Details</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934753845/Reports+Revenue+Cost+of+Goods+Sold+COGS+Cost+of+Services+and+Cost+of+Refurbs\" data-linked-resource-id=\"1934753845\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Revenue, Cost of Goods Sold (COGS), Cost of Services, and Cost of Refurbs</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934557198/Reports+Wage+Expense\" data-linked-resource-id=\"1934557198\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Wage Expense</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934524447/Maintaining+an+Accurate+Profitability+Report\" data-linked-resource-id=\"1934524447\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">Maintaining an Accurate Profitability Report</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1939570735/Reports+Repairs+by+Technician+and+Item\" data-linked-resource-id=\"1939570735\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Reports: Repairs by Technician and Item</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931411672/Ticket+Properties+Resources\" data-linked-resource-id=\"1931411672\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Ticket Properties Overview</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932853380/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"AssigningTicketItemstoUsers-AssigningUsersforParts,Accessories,andServices\">Assigning Users for Parts, Accessories, and Services</h2><p /><p>1. Using the Navigation Bar at the top of RepairQ, go to <strong>Tickets</strong> \u2192<strong> Repair</strong> to start a new Repair Ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932853380/Assigning%20Ticket%20Items%20to%20Users%201.png?api=v2\"></span><p /><p><strong>Note:</strong> Alternatively, if you would like to use a pre-existing ticket, go to <strong>Tickets </strong>-&gt;<strong> Ticket Queue</strong>, and search for the desired ticket.</p><p /><p>2. After entering information for the customer and the repair device, scroll to the <strong>Ticket Items</strong> section and attach the desired ticket items (such as parts for a repair, accessories for the device, or services performed).</p><p /><p>3. In the Relations field of the ticket item, there are drop-down menus related to the context of the item added to the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932853380/Assigning%20Ticket%20Items%20to%20Users%202.png?api=v2\"></span><ul><li><p><strong>Sold By</strong> - (Staff icon) This field allows you to select the staff member who will get credit for selling this item.</p></li><li><p><strong>Repaired By</strong> - (Wrench icon) When adding a part, this field allows you to select the staff member who is performing the repair.</p></li><li><p><strong>Used For Device</strong> - (Device icon) If performing multiple device repairs on one ticket, this allows you to select which repair device the ticket item is intended for.</p></li></ul><p /><p>4. Using the drop-down menus, assign the appropriate users in <strong>Sold By</strong> and <strong>Repaired By</strong> fields, then select a status near the bottom of the page to save the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932853380/Assigning%20Ticket%20Items%20to%20Users%203.png?api=v2\"></span><p /><p><strong>Note:</strong> Different users can be selected for each, as indicated by the above screenshot, but the system does not require these to be separate users.</p><p /><p>5. On the Ticket View page, the Ticket Items section will include the Relations column to reflect the Sold By and Repaired By assignees. If this information is inaccurate, you can edit the ticket to update the fields and save the ticket again.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932853380/Assigning%20Ticket%20Items%20to%20Users%204.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932853380"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932853380/child",
+    "restrictions": "/rest/api/content/1932853380/restriction/byOperation",
+    "history": "/rest/api/content/1932853380/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932853380/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932853380",
+    "webui": "/spaces/SCD/pages/1932853380/Assigning+Ticket+Items+to+Users",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932853380",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932853380",
+    "tinyui": "/x/hAA1cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

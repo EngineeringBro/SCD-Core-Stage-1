@@ -1,0 +1,130 @@
+{
+  "id": "2029289514",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029289514",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTI4OTUxNA==",
+  "status": "current",
+  "title": "RepairQ 1.17",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T18:27:04.866Z",
+    "friendlyWhen": "Jul 19, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "128",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029289514.38",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029289514"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029289514/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Phased release beginning 4/28/2020 05:00:00 UTC</p><p>The powerful enhancements and improved functionality in Release 1.17 will open your repair shop to expanded business opportunities, give you new tools to communicate with customers and save you time. These improvements will help reduce human error, shorten customer wait time, eliminate redundancy and provide your business with the additional tools necessary to begin doing online and mail-in business. We\u2019ve added these improvements to help you do more business, do it smarter and do it more efficiently. Let\u2019s walk through the Release 1.17 features. See the bottom of this post for documentation related to all of the changes.</p><h2 id=\"RepairQ1.17-MajorFeatures\">Major Features</h2><h3 id=\"RepairQ1.17-Approvals\">Approvals</h3><p>Approvals is a new feature that helps your repair shop request and record consumer consent for a repair. With the initial release of Approvals, you can configure your requirements once, then request consumers consent prior to or during a repair. Starting with a simple status change, choose how you want it delivered, and wait for a consumer to respond. Consumers can view, make notes, and accept or reject your request for approval. This enhancement makes it easy for you to initiate more online business and provides a means to track mail-in repairs as well.</p><p><strong>Technicians creating Approvals:</strong></p><ul><li><p>Approval can be required for a specific status or it can be requested on demand</p></li><li><p>Shop user manages Approvals within a ticket</p></li><li><p>Configurations available:</p><ul><li><p>Approvals delivered with notifications</p></li><li><p>Approvals can require certain steps</p></li><li><p>Approvals can have an expiration</p></li><li><p>Approvals can be requested for any ticket types, including quotes</p></li></ul></li></ul><p><strong>Consumers receiving Approvals:</strong></p><ul><li><p>Receive a text or email</p></li><li><p>Clicks a link in Notification to load Qsite Approvals</p></li><li><p>Views approval summary including Approval Note from Tech</p></li><li><p>Optionally views invoice details</p></li><li><p>Optionally views terms</p></li><li><p>Accepts or declines approval</p></li><li><p>Optionally Leaves a note for your shop</p></li></ul><p><strong>Technicians responding on behalf of consumer:</strong></p><ul><li><p>Record a verbal approval using a manual Approval in RepairQ</p></li><li><p>Capture who Accepted or Rejected the Approval and a Note</p></li><li><p>Helps support California compliance for seeking approvals for services</p></li></ul><h3 id=\"RepairQ1.17-ListViews\">List Views</h3><p>Lists are powerful, functional tools throughout RepairQ. In fact, the \u2018Q\u2019 comes from managing your \u2018queue\u2019 of repairs. In 1.17, we\u2019ve redesigned how Lists look and respond, as well as added new functionality! Most lists within RepairQ will utilize these improvements, including refactoring filters, updated search functions, and saving your favorite list views for later use.</p><ul><li><p>Filters and search in most List screens have moved from the left panel to a new Filter and Keywords panel directly above your list results. This migration might result in a slight disruption to existing users, but the move will help open screen real estate to view more data and include more filters and features over time. Bottom line: the change is worth it.</p></li><li><p>Refined user interface for picking and adding filters</p></li><li><p>New filter functionality, including new filter options</p></li><li><p>Show/hide columns, including new column options</p></li><li><p>Refined search behavior including support for keyphrases and wildcards</p></li><li><p>Save filters and columns as a List View to be recalled at any time</p></li><li><p>Share List Views between users, locations, or an entire organization</p></li></ul><h3 id=\"RepairQ1.17-CustomForms-ConditionalFields\">Custom Forms - Conditional Fields</h3><p>We also wanted to show some love to Custom Forms in this release. 1.17 introduces the ability to add conditional fields, new triggers for required forms, and automatically present forms to the user based on the unique situation.</p><ul><li><p>Form fields can now be shown or hidden conditionally based on other form field values</p></li><li><p>Automatically present all required forms when event is triggered</p></li><li><p>New required event:</p><ul><li><p>Upon entering a status</p></li></ul></li><li><p>Additional required filters:</p><ul><li><p>Manufacturer of the repair device</p></li></ul></li></ul><h2 id=\"RepairQ1.17-MinorFeatures\">Minor Features</h2><h3 id=\"RepairQ1.17-Check-In\">Check-In</h3><p>Whether your customer is arriving for their appointment, needs to pick up a repaired device, start a return, start a new repair, or buy something, RepairQ\u2019s Check-In allows you to efficiently choose the right check-in process no matter the reason. This new check-in experience brings all of the path options into one place.</p><ul><li><p>Start \u2018Check-In\u2019 anytime from RepairQ\u2019s menu</p></li><li><p>View a single panel with all the most common customer answers to \u2018What brings you in today?\u2019</p><ul><li><p>Appointments - \u201cI have an appointment today.\u201d</p></li><li><p>Customer Search - \u201cI was in last week\u2026\u201d</p></li><li><p>Ticket Search - \u201cI have a repair to pick up.\u201d</p></li><li><p>Start Ticket - \u201cI would like to\u2026 (Buy, Sell, Repair, Get a Quote, etc).\u201d</p></li><li><p>Start Return - \u201cI need to return this.\u201d</p></li></ul></li><li><p>Each choice takes you immediately to a search, list, or new ticket appropriate for the situation!</p></li></ul><h2 id=\"RepairQ1.17-OtherEnhancements\">Other Enhancements</h2><h3 id=\"RepairQ1.17-Search\">Search</h3><p>In 1.17, we've added new search enhancements of keyword phrases and wildcards. Prior to 1.17, searching in RepairQ was fairly one dimensional. Every word (separated by a space) was used as a partial match keyword, regardless of the order of those keywords. For example:</p><ul><li><p>Searching iPhone 6 Black would return results that included \u201ciPhone\u201d and \u201c6\u201d and \u201cBlack\u201d regardless of what order those words were in the results.</p></li><li><p>Results could include: \u2018iPhone 6 64GB Black\u2019 AND \u2018iPhone Black Case Model 78964\u2019</p></li></ul><p>After 1.17, searching in RepairQ adds the ability to use keyword phrases and wildcards, helping users refine search results by requiring that certain words are always in a certain order to qualify as a result.</p><ul><li><p>Searching \u201ciPhone 6\u201d (and) \u201cBlack\u201d would return \u2018iPhone 6 64GB Black\u2019 but would not return \u2018iPhone Black Case Model 78964\u2019 because \u2018iPhone\u2019 and \u20186\u2019 were not in the correct phrase order.</p></li></ul><p>Additionally, to help optimize searches, keywords with less than 3 characters will be automatically combined into a phrase with the previously searched term.</p><ul><li><p>Example:\u00a0Searching iPhone 6 will result in a search for \u201ciPhone 6\u201d; both words as an exact phrase.</p></li></ul><p>\u00a0</p><h3 id=\"RepairQ1.17-KnowledgeBaseArticles/References\">Knowledge Base Articles / References</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936228434/Qsite+Ticket+Approval+Setup+-+Settings+and+Conditions\" data-linked-resource-id=\"1936228434\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Ticket Approvals</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932754986/List+Views\" data-linked-resource-id=\"1932754986\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Custom List Views</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770795/Introduction+to+Custom+Forms+-+Start+Here\" data-linked-resource-id=\"1933770795\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Custom Forms Conditional Fields</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936326751/Universal+Check+In+Tool\" data-linked-resource-id=\"1936326751\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Check In Tool</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933606925/Keyword+Search+Techniques\" data-linked-resource-id=\"1933606925\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Enhanced Search</a></p></li><li><p><a class=\"external-link\" href=\"https://service.ringcentral.com/recording/share/Z3oM5wcu32T_ctkSrq4rpihh3i5Ba8JhojUYX_NrMbKwIumekTziMw\" rel=\"nofollow\">Recorded Release Webinar</a></p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029289514"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 18904600
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029289514/child",
+    "restrictions": "/rest/api/content/2029289514/restriction/byOperation",
+    "history": "/rest/api/content/2029289514/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029289514/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029289514",
+    "webui": "/spaces/SCD/pages/2029289514/RepairQ+1.17",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029289514",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029289514",
+    "tinyui": "/x/KoD0e",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

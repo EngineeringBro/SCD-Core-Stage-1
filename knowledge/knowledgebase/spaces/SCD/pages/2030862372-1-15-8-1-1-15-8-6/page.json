@@ -1,0 +1,130 @@
+{
+  "id": "2030862372",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030862372",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDg2MjM3Mg==",
+  "status": "current",
+  "title": "1.15.8.1 - 1.15.8.6",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T22:01:10.195Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "296",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030862372.20",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030862372"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030862372/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h3 id=\"id-1.15.8.1-1.15.8.6-1.15.8.1BugFixes(12/18/2018)\">1.15.8.1 Bug Fixes (12/18/2018)</h3><ul><li><p>Versioning fixes to force cache refresh on files</p></li></ul><h3 id=\"id-1.15.8.1-1.15.8.6-1.15.8.2BugFixesandEnhancements(1/8/2019)\">1.15.8.2 Bug Fixes and Enhancements (1/8/2019)</h3><ul><li><p>Device description is now searchable on the device list</p></li><li><p>Fixed issue with retaining role selection when saving new staff members</p></li><li><p>Ticket browse permission applied to customer and billing agent ticket lists</p></li><li><p>Qpop pairing fix related to timezone handling</p></li></ul><h3 id=\"id-1.15.8.1-1.15.8.6-1.15.8.3BugFixesandEnhancements(2/7/2019)\">1.15.8.3 Bug Fixes and Enhancements (2/7/2019)</h3><ul><li><p>Catalog item import button is now available when catalog is empty</p></li><li><p>PO notification supplier email tag for internal supplier now uses supplier location's email</p></li><li><p>Fixed issue where ordered items could get orphaned when a backordered item is not fulfilled on the expected purchase order (the item reverts to back ordered when not fulfilled)</p></li><li><p>Location override bin number is now searchable</p></li><li><p>Billing agents no longer default to deactivated for some user roles</p></li><li><p>Updated supplier integration prompts</p></li><li><p>Fixed issue where assignments could not be made to the admin user</p></li><li><p>Fixed default location when purchase order is saved</p></li><li><p>Fixed device list filter reset button</p></li><li><p>Fixed issue with selecting bundle option when adding a new item type</p></li><li><p>Fixed an issue with bundled item price display on ticket invoice template</p></li></ul><h3 id=\"id-1.15.8.1-1.15.8.6-1.15.8.4BugFixesandEnhancements(2/12/2019)\">1.15.8.4 Bug Fixes and Enhancements (2/12/2019)</h3><ul><li><p>Added the ability to display ticket item SKU barcodes on the ticket receipt and invoice print templates. See print template settings to enable this new feature.\u00a0</p></li><li><p>Fixed some issues with processing payments with the SREDKey device and PAX device interchangeably in the same VCT session (before the fix you would need to de-assign and re-assign the VCT with the desired payment device selected).</p></li><li><p>Fixed an issue with picking PAX payment devices on a VCT when both Bluefin and Heartland integrations are enabled at the same time.</p></li><li><p>Improvements to ticket barcode legibility. Barcode scanners should now scan much more effectively.</p></li></ul><h3 id=\"id-1.15.8.1-1.15.8.6-1.15.8.5Enhancements(2/13/2019)\">1.15.8.5 Enhancements (2/13/2019)</h3><ul><li><p>Refined the ticket barcode width for clearer and more compact printing</p></li></ul><h3 id=\"id-1.15.8.1-1.15.8.6-1.15.8.6BugFixesandEnhancements(2/20/2019)\">1.15.8.6 Bug Fixes and Enhancements (2/20/2019)</h3><ul><li><p>Dashboard ticket number counts were including quotes, but quotes are not displayed on the ticket queue by default. Quotes are now excluded from the counts.</p></li><li><p>RMA Tracking supplier filter was not as explicit as it should be, and now it will filter for only the selected supplier</p></li><li><p>We added a &quot;select all&quot; to the location filter on the invoice creation screen</p></li><li><p>We fixed an issue with filtering warranty/disclaimers by ticket type</p></li><li><p>When searching inventory for a serial number, the result returned will now be the most recent item, rather than the first record of the serial number</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030862372"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 230865498
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030862372/child",
+    "restrictions": "/rest/api/content/2030862372/restriction/byOperation",
+    "history": "/rest/api/content/2030862372/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030862372/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030862372",
+    "webui": "/spaces/SCD/pages/2030862372/1.15.8.1+-+1.15.8.6",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030862372",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030862372",
+    "tinyui": "/x/JIAMeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

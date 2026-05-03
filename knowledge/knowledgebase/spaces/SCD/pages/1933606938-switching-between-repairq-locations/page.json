@@ -1,0 +1,129 @@
+{
+  "id": "1933606938",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933606938",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzYwNjkzOA==",
+  "status": "current",
+  "title": "Switching Between RepairQ Locations",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:48.636Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933606938.32",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933606938"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933606938/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Users with RepairQ Advanced and RepairQ Professional plans have the ability to switch between locations without logging out of their current location. This allows for time-saving changes while managing multiple locations.</p><p>We recommend using RepairQ in a single tab/window since changing locations only updates your current page. Any additional screens/tabs have not been updated with new information and can create issues when submitting data.</p><h3 id=\"SwitchingBetweenRepairQLocations-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921099/Getting+Started+Login+Password+Reset+and+User+Profile+Customization\" data-linked-resource-id=\"1928921099\" data-linked-resource-version=\"23\" data-linked-resource-type=\"page\">Logging In/Out and Password Reset</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986634/Getting+Started+Clock+In+Out+of+RepairQ\" data-linked-resource-id=\"1928986634\" data-linked-resource-version=\"23\" data-linked-resource-type=\"page\">Clocking In/Out of RepairQ</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933606938/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"SwitchingBetweenRepairQLocations-SwitchBetweenLocationsWithoutLoggingOutofRepairQ\">Switch Between Locations Without Logging Out of RepairQ</h2><p /><p>1. On the RepairQ Navigation Bar, click on the <strong>Location Dropdown</strong> and select <strong>Switch Location</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933606938/Switch%20Location%201.png?api=v2\"></span><p /><p>2. A Switch Location pop-up will appear. Click the dropdown to see a list of your active locations. Find the location you want to switch to and click it.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"453\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933606938/Switch%20Location%202.png?api=v2\"></span><p /><p>3. RepairQ will reload, and you will now be logged into the new location.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933606938/Switch%20Location%203.png?api=v2\"></span><p /><p>START 1.18.X</p><p /><p /><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933606938"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933606938/child",
+    "restrictions": "/rest/api/content/1933606938/restriction/byOperation",
+    "history": "/rest/api/content/1933606938/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933606938/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933606938",
+    "webui": "/spaces/SCD/pages/1933606938/Switching+Between+RepairQ+Locations",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933606938",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933606938",
+    "tinyui": "/x/GoBAcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

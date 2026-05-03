@@ -1,0 +1,130 @@
+{
+  "id": "3110567937",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/3110567937",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMzExMDU2NzkzNw==",
+  "status": "current",
+  "title": "Inventory Management: Create a Supplier",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2025-02-20T18:12:28.438Z",
+    "friendlyWhen": "Feb 20, 2025",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "3140",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$3110567937.77",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/3110567937"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3110567937/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>In RepairQ, managing suppliers is essential for smooth procurement and inventory management. Supplier information is necessary when creating a Purchase Order or replenishing inventory. Purchase Orders help track products and parts ordered from external suppliers, replenish stock levels, and track spending. Supplier management also allows you to add RMA contact information and return details, making it easier to handle product returns and streamline the return merchandise authorization process directly within RepairQ.</p><ul><li><p><strong>Purchase Orders</strong> - Generate accurate POs by linking products directly to their suppliers.</p></li><li><p><strong>Spending Insights</strong> - Track supplier-specific costs to better analyze purchasing trends and manage budgets.</p></li><li><p><strong>RMA Process:</strong> Manage product returns by storing supplier RMA contacts and return instructions in one place.</p></li></ul><p><strong>Additional Resources</strong></p><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932427416\" rel=\"nofollow\">Purchase Order Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936818210\" rel=\"nofollow\">Catalog Items: Assign a Supplier SKU</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932525994\" rel=\"nofollow\">Inventory Management: Replenishment Methods</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932525631\" rel=\"nofollow\">Return Merchandise Authorization (RMA) Tracking Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3110567937/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"InventoryManagement:CreateaSupplier-ViewtheSupplierList\">View the Supplier List</h2><p>From the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company</strong> <strong>Settings</strong>. Under the Catalog section, select <strong>Suppliers</strong>.</p><p><strong>Note</strong>: This list can also be managed at the Location level by going to <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Company Settings.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3110567937/Company%20Settings.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Create Supplier 1.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3110567937/Create%20Supplier%201.png?api=v2\"></span><p /><p>The Supplier Overview page shows a list of pre-populated and added suppliers.</p><p><strong>Note</strong>: You can edit existing suppliers by selecting the <strong>Edit Button (pencil icon)</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Create Supplier 6.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3110567937/Create%20Supplier%206.png?api=v2\"></span><hr/><h2 id=\"InventoryManagement:CreateaSupplier-CreateaNewSupplier\">Create a New Supplier</h2><p>To create a new supplier, select <strong>Add Supplier</strong>. Fill out the required and optional fields as needed. At minimum, the <strong>Supplier Name </strong>and <strong>Is Active</strong> <strong>checkbox </strong>are required. After adding the supplier details, be sure to <strong>Save </strong>your changes.</p><p><strong>Note</strong>: To remove (deactivate) the Supplier from dropdown lists and reports, uncheck the <strong>Is Active</strong> field.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Create Supplier 2.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3110567937/Create%20Supplier%202.png?api=v2\"></span><p /><h3 id=\"InventoryManagement:CreateaSupplier-GeneralSupplierInformation\">General Supplier Information</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Create Supplier 3.png\" width=\"320\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3110567937/Create%20Supplier%203.png?api=v2\"></span><ul><li><p><strong>Location </strong>- Select the location that will use this Supplier. Admins can select All Locations if this supplier is used at all locations.</p></li><li><p><strong>Name </strong>- The full legal name of the supplier or vendor.</p></li><li><p><strong>Short Name </strong>- An abbreviated version of the supplier\u2019s name, helpful for quick identification in reports and POs.</p></li><li><p><strong>Address 1 &amp; Address 2</strong> - The supplier\u2019s physical address, with Address 2 for additional details like suite or unit numbers.</p></li><li><p><strong>Country, City, State, Zip </strong>- Full location details for accurate shipping, POs, and return documentation.</p></li><li><p><strong>Phone</strong> - The supplier\u2019s main contact number for inquiries about orders or returns.</p></li><li><p><strong>Email </strong>- The general email for the supplier, used for communicating about orders or returns.</p></li><li><p><strong>Primary</strong> <strong>Contact </strong>- The name of the main person responsible for managing your account or orders.</p></li><li><p><strong>Website </strong>- A link to the supplier\u2019s website for quick access to support.</p></li><li><p><strong>Note </strong>- Any additional details about the supplier.</p></li></ul><p /><h3 id=\"InventoryManagement:CreateaSupplier-Procurement&amp;OrderManagement\">Procurement &amp; Order Management</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Create Supplier 4.png\" width=\"320\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3110567937/Create%20Supplier%204.png?api=v2\"></span><ul><li><p><strong>Express Leadtime </strong>- The expected delivery time (in days) for expedited orders, helping plan urgent stock replenishments.</p></li><li><p><strong>Standard Leadtime </strong>- The usual delivery time (in days) for regular orders, important for managing inventory levels and timing reorders.</p></li><li><p><strong>Payment Terms </strong>- The agreed-upon payment schedule with the supplier (e.g., Net 30), useful for financial tracking and planning.</p></li></ul><p /><h3 id=\"InventoryManagement:CreateaSupplier-RMA(ReturnMerchandiseAuthorization)Details\">RMA (Return Merchandise Authorization) Details</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Create Supplier 5.png\" width=\"320\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/3110567937/Create%20Supplier%205.png?api=v2\"></span><ul><li><p><strong>Return Policy </strong>- A summary of the supplier\u2019s return guidelines, outlining what items are eligible and under what conditions.</p></li><li><p><strong>Return Method </strong>- The preferred method for returning items.</p><ul><li><p><strong>Email </strong>- Indicates that RMAs should be submitted by emailing the supplier.</p></li><li><p><strong>RMA Through Website</strong> - Indicates if RMAs can be submitted through the supplier\u2019s website.</p></li></ul></li><li><p><strong>Return Period (Days)</strong> - The number of days you have to return items after receiving them, based on the supplier\u2019s policy</p></li><li><p><strong>Return Period Start Date</strong> - Specifies whether the return window starts from the shipment date, delivery date, or invoice date.</p><ul><li><p><strong>Ordered </strong>- The return period starts from the date the Purchase Order was placed with the supplier.</p></li><li><p><strong>Received </strong>-  The return period starts from the date the items are physically received at your location.</p></li></ul></li><li><p><strong>RMA Email</strong> - The contact email for initiating the RMA process through the supplier.</p></li></ul><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/3110567937"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 262614
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/3110567937/child",
+    "restrictions": "/rest/api/content/3110567937/restriction/byOperation",
+    "history": "/rest/api/content/3110567937/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/3110567937/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=3110567937",
+    "webui": "/spaces/SCD/pages/3110567937/Inventory+Management+Create+a+Supplier",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/3110567937",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/3110567937",
+    "tinyui": "/x/AYBnuQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

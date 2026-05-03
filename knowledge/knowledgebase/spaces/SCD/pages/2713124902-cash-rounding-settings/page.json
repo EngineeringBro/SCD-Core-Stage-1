@@ -1,0 +1,129 @@
+{
+  "id": "2713124902",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2713124902",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjcxMzEyNDkwMg==",
+  "status": "current",
+  "title": "Cash Rounding Settings",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:24.770Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 18,
+    "minorEdit": false,
+    "ncsStepVersion": "98",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2713124902.125",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2713124902"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2713124902/version/18"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>In certain regions, cash rounding is applied to cash transactions due to the unavailability of smaller currency denominations. When cash rounding is enabled in our system, it automatically adjusts cash totals to the nearest appropriate unit (e.g., 5 cents). This simplifies cash payments by eliminating the need for small coins.</p><p><strong>Note:</strong> Cash rounding only affects cash transactions. The exact transaction total will still be charged for payments made via credit card, debit card, or other electronic methods.</p><h3 id=\"CashRoundingSettings-HowCashRoundingWorks\">How Cash Rounding Works</h3><p>Cash transactions may be rounded either up or down to the nearest available 5-cent denomination based on the following typical practices:</p><p><strong>Rounding Down </strong>- If the total ends in 1 or 2 units, it is rounded down to the nearest rounding unit.</p><ul><li><p>A total of $10.41 is rounded down to $10.40.</p></li><li><p>A total of $15.62 is rounded down to $15.60.</p></li></ul><p><strong>Rounding Up </strong>- If the total ends in 3 or 4 units, it is rounded up to the nearest rounding unit.</p><ul><li><p>A total of $10.43 is rounded up to $10.45.</p></li><li><p>A total of $15.64 is rounded up to $15.65.</p></li></ul><h3 id=\"CashRoundingSettings-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1986560223\" rel=\"nofollow\">Tax-inclusive Pricing Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933410332\" rel=\"nofollow\">Setting Up and Assigning Tax Rates</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934196764\" rel=\"nofollow\">Reports: Taxes</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Technical - 124a6d.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713124902/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"CashRoundingSettings-ApplicationinRepairQ\">Application in RepairQ</h2><p>RepairQ can automatically adjust totals for cash payments to the nearest 5-cents. Here\u2019s how it works:</p><p><strong>Display Total </strong>- The original transaction total is displayed.</p><p><strong>Cash Payment Rounding</strong> - When the selected payment type is Cash, RepairQ applies the necessary rounding based on the applied rounding in your Settings page.</p><p><strong>Receipts</strong> - The original total and the rounded cash amount are shown on receipts for transparency.</p><p><strong>Reports</strong> - Reporting reflects the rounded cash amounts for reconciliation purposes, while original totals are preserved for accounting accuracy.</p><hr/><h2 id=\"CashRoundingSettings-ActivateCashRounding\">Activate Cash Rounding</h2><p>An Admin must log in to view these settings. On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>. On the Settings Overview page, under the Account section, click <strong>General Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Rounding 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713124902/Rounding%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Rounding 2.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713124902/Rounding%202.png?api=v2\"></span><p /><p>On the General Settings screen, under the Cash Rounding section, activate the <strong>Enable Cash Rounding</strong> toggle and select your preferred rounding method. Be sure to <strong>Save </strong>your changes to apply the new settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Rounding 3.png\" width=\"316\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713124902/Rounding%203.png?api=v2\"></span><h3 id=\"CashRoundingSettings-RoundMethod\">Round Method</h3><p><strong>Cash Rounding: Nearest 5\u00a2 </strong>- When rounding to the nearest $0.05, amounts ending in .01 to .02 cents are rounded down, and amounts ending in .03 to .04 cents are rounded up.</p><ul><li><p>$2.01 is rounded down to $2.00</p></li><li><p>$2.03 is rounded up to $2.05</p></li></ul><hr/><h2 id=\"CashRoundingSettings-CashRoundingWhenAcceptingPayments\">Cash Rounding When Accepting Payments</h2><p>In this scenario, the customer\u2019s total was $43.99, and they paid with $45 in cash. The system settings are configured to use the Australian Cash Rounding method. When applying a Cash payment, the following apply:</p><ul><li><p><strong>Amount </strong>- The original amount paid by the customer.</p></li><li><p><strong>Cash Rounding </strong>- The purchase price was $43.99, and the Australian Cash Rounding method rounded it up to $44.00.</p></li><li><p><strong>Change </strong>- With the adjusted price of $44.00 and a $45.00 payment, the customer is owed $1.00 in change.</p></li><li><p><strong>Applied </strong>- This amount is applied to the balance, excluding the rounded adjustment.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Rounding 4.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713124902/Rounding%204.png?api=v2\"></span><h2 id=\"CashRoundingSettings-CashRoundingonReceiptsandInvoices\">Cash Rounding on Receipts and Invoices</h2><h3 id=\"CashRoundingSettings-Receipts\">Receipts</h3><p>Under the Payment section of the receipt, the customer can view the cash amount paid, the change given, and any rounding adjustment applied.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Rounding 5.png\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713124902/Rounding%205.png?api=v2\"></span><h3 id=\"CashRoundingSettings-Invoices\">Invoices</h3><p>Under the Payment details on the invoice, the customer can view both the rounding adjustment and the payment amount.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Rounding 6.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713124902/Rounding%206.png?api=v2\"></span><h2 id=\"CashRoundingSettings-CashRoundingonRefunds\">Cash Rounding on Refunds</h2><p>In this scenario, the customer\u2019s total was $43.99, and they paid $44 in cash after Cash Rounding. When applying a Cash refund in full, the following apply:</p><ul><li><p><strong>Amount </strong>- The original amount taken by the store that will be refunded ($44.00).</p></li><li><p><strong>Cash Rounding </strong>- The purchase price was $43.99, and the Cash Rounding method rounded it up to $44.00.</p></li><li><p><strong>Change </strong>- No change due; this applies to change given back when a purchase is made.</p></li><li><p><strong>Applied </strong>- This is the original amount charged, excluding the rounded adjustment ($39.99).</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Rounding 7.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2713124902/Rounding%207.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2713124902"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2713124902/child",
+    "restrictions": "/rest/api/content/2713124902/restriction/byOperation",
+    "history": "/rest/api/content/2713124902/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2713124902/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2713124902",
+    "webui": "/spaces/SCD/pages/2713124902/Cash+Rounding+Settings",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2713124902",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2713124902",
+    "tinyui": "/x/JgC3oQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

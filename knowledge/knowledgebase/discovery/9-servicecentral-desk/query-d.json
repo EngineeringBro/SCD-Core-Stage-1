@@ -1,0 +1,17 @@
+{
+  "seedQuery": "d",
+  "values": [
+    {
+      "title": "Create a Repair Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803723",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803723"
+      }
+    }
+  ]
+}

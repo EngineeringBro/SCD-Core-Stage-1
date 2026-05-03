@@ -1,0 +1,129 @@
+{
+  "id": "1935572993",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1935572993",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNTU3Mjk5Mw==",
+  "status": "current",
+  "title": "PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX A80/A920",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:40.861Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "351",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1935572993.36",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1935572993"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935572993/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Depending on your local network, you may need to set your PAX device to use either DHCP LAN mode or Static LAN mode.</p><p><strong>Dynamic Host Configuration Protocol (DHCP)</strong> - This is a network standard used to automate the process of configuring devices on IP networks. Internet-enabled devices connected to your home or work network are automatically assigned an IP address by your router. Since this is a dynamic assignment, it may change if the router or device is restarted.</p><p><strong>Static IP</strong> - This setting allows your device to accept an assigned IP address, however, the address is kept until you cancel the IP reservation or remove the device from your network. This is helpful to ensure that your device will remember the same IP address, in the event the router or device is restarted.</p><h3 id=\"PAXDeviceTroubleshooting:ChangetheLANTypeonaBluefinPAXA80/A920-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Troubleshooting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196946/PAX+Device+Troubleshooting+Find+the+IP+Address+Assigned+to+Your+Bluefin+PAX+A80+A920\" data-linked-resource-id=\"1934196946\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Integrated Payment Devices: Find the IP Address Assigned to Your Bluefin PAX A80/A920</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786757/PAX+Device+Troubleshooting+Ping+Your+Device+to+See+if+it+is+Reachable\" data-linked-resource-id=\"1934786757\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Integrated Payment Devices: Ping Your Device to See if it is Reachable</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934197020/PAX+Device+Troubleshooting+Update+Your+IP+Address+in+RepairQ\" data-linked-resource-id=\"1934197020\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">PAX Device Troubleshooting: Update Your IP Address in RepairQ</a></p></li></ul><p><strong>Note</strong>: You will need your IP address if you are changing your LAN type to Static.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"PAXDeviceTroubleshooting:ChangetheLANTypeonaBluefinPAXA80/A920-ChangingtoDHCPtoReceiveaNewIPAddress(WiFi)\">Changing to DHCP to Receive a New IP Address (WiFi)</h2><p /><p>1. On your PAX A80, exit the Bluefin Application by pressing the <strong>red Cancel Key</strong>. When prompted to exit, tap <strong>OK</strong> (or press the <strong>green Enter key</strong>).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%201.png?api=v2\"></span><p /><p>2. On the home screen, tap the <strong>Settings icon</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%202.png?api=v2\"></span><p /><p>3. On the Password screen, enter your password and then tap the <strong>Checkmark</strong> Icon. Then tap <strong>OK</strong>.</p><p>Alternatively, you can enter your password and press the <strong>green Enter key twice</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%203.png?api=v2\"></span><p /><p><strong>Note</strong>: The default password for a Bluefin PAX A80 is &quot;9876&quot; or &quot;pax9876@@&quot;. If you need to reset your password, you will need to contact <a class=\"external-link\" href=\"https://www.bluefin.com/support/merchant/\" rel=\"nofollow\">Bluefin Support</a>.</p><p /><p>4. On the Settings page, locate the Wireless &amp; networks section. Under this section, tap <strong>Wi-Fi</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%204.5.png?api=v2\"></span><p /><p>5. On the Wi-Fi screen, <strong>press and hold</strong> the name of your active network connection. Additional settings will appear. Tap <strong>Modify network</strong>.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%205.png?api=v2\"></span><p /><p>6. On the network settings page, tap the <strong>Dropdown Arrow</strong> next to Advanced Options. Scroll down to the IP Settings section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%206.png?api=v2\"></span><p /><p>7. Next to the IP Settings section, tap the <strong>Dropdown Arrow</strong> arrow and select <strong>DHCP</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%208.png?api=v2\"></span><p /><p>8. Tap <strong>Save</strong> to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%207.png?api=v2\"></span><p /><p>9. Power-cycle your device by pressing and holding the <strong>red Cancel/Power button</strong>. Then tap <strong>Reboot</strong> and <strong>OK</strong>.</p><p /><h2 id=\"PAXDeviceTroubleshooting:ChangetheLANTypeonaBluefinPAXA80/A920-ChangingtoStaticModetoSaveYourIPAddress(WiFi)\">Changing to Static Mode to Save Your IP Address (WiFi)</h2><p>If the IP address assigned to your PAX device changes, you will need to update the IP address in your RepairQ Payment Device settings before RepairQ will be able to communicate with the device again. To prevent this from happening, you can set up the device to use a static IP.</p><p /><p>1. You can follow the above steps (1-6) until you are in the IP Settings section.</p><p /><p>2. Next to the IP Settings section, tap the <strong>Dropdown Arrow</strong> and select <strong>Static</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%208.5.png?api=v2\"></span><p /><p>3. Enter your current IP address and tap <strong>Save</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935572993/A80%209.png?api=v2\"></span><p /><p>4. Tap the <strong>Home button</strong> to go back to the home screen.</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1935572993"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1935572993/child",
+    "restrictions": "/rest/api/content/1935572993/restriction/byOperation",
+    "history": "/rest/api/content/1935572993/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1935572993/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1935572993",
+    "webui": "/spaces/SCD/pages/1935572993/PAX+Device+Troubleshooting+Change+the+LAN+Type+on+a+Bluefin+PAX+A80+A920",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1935572993",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935572993",
+    "tinyui": "/x/AYBecw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "2131951619",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2131951619",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjEzMTk1MTYxOQ==",
+  "status": "current",
+  "title": "Creating a New Manufacturer",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:49.357Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2131951619.72",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2131951619"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2131951619/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Manufacturer field is a classification of items in your store to help organize your catalog. This field serves to identify and specify the company or entity that produced or created the item. Manufacturer details are required when creating Catalog Items and are used when filtering lists and reports. By default, we provide a list of popular manufacturers, and you can add more as needed.</p><p>This information is essential for several purposes, including:</p><ul><li><p><strong>Product Identification </strong>- Uniquely identify each item by its manufacturer, ensuring that customers and staff can easily recognize the brand or source of the item.</p></li><li><p><strong>Warranty and Support </strong>- The manufacturer\u2019s name is crucial for warranty and support purposes. If a customer encounters issues with a device, knowing the manufacturer is important for seeing warranty replacement and support.</p></li></ul><h3 id=\"CreatingaNewManufacturer-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329027/Creating+a+New+Item+Type\" data-linked-resource-id=\"1932329027\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Creating a New Item Type</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624014/Catalog+Management+Import+Catalog+Items\" data-linked-resource-id=\"1932624014\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Catalog Management: Importing Catalog Items</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329061/Create+a+Catalog+Item\" data-linked-resource-id=\"1932329061\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Creating a Catalog Item</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"768\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2131951619/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CreatingaNewManufacturer-AddingaNewManufacturer\">Adding a New Manufacturer</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"669\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2131951619/Manufacturer%201.png?api=v2\"></span><p /><p><strong>Note</strong>: Admins can add a manufacturer for all locations by going to Settings \u2192 Company Settings.</p><p /><p>2. On the Settings Overview page, scroll to the <strong>Catalog </strong>section. From the available categories, click <strong>Manufacturers</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"502\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2131951619/Manufacturer%202.png?api=v2\"></span><p /><p>3. The Manufacturer Overview page lists all available manufacturers with options to add, edit, and delete (if the manufacturer has never been assigned to an item). On the upper-right of the list, click <strong>Add Manufacturer</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2131951619/Manufacturer%203.png?api=v2\"></span><p /><p>4. Begin filling out the fields for the new Manufacturer. When you are finished, be sure to <strong>Save </strong>your settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"292\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2131951619/Screenshot%202023-11-03%20173104.png?api=v2\"></span><ul><li><p><strong>Name </strong>- The name of the Manufacturer.</p></li><li><p><strong>Location </strong>- Select the location this Manufacturer will be added to. By default, you can only select locations where you have an assigned role, however, Admins can select a location or All Locations.</p></li><li><p><strong>URL </strong>- (Optional) Add the Manufacturer's website for additional reference and support.</p></li><li><p><strong>Note </strong>- Add any additional reference notes for this Manufacturer.</p></li><li><p><strong>Is Active </strong>- Select this box to make the Manufacturer visible on list dropdowns and filters. When unchecked, the manufacturer is Inactive and cannot be assigned to items, and is removed from filters.</p></li></ul><p /><p>5. After saving the new manufacturer, it will be listed alphabetically. The filter at the top of the list allows you to show <strong>All Manufacturers</strong>, <strong>Active Manufacturers</strong>, and <strong>Inactive Manufacturers</strong>. Under the Actions Column, you can edit existing lines or delete an item if it hasn\u2019t been assigned to a Catalog Item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2131951619/Manufacturer%205.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2131951619"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2131951619/child",
+    "restrictions": "/rest/api/content/2131951619/restriction/byOperation",
+    "history": "/rest/api/content/2131951619/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2131951619/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2131951619",
+    "webui": "/spaces/SCD/pages/2131951619/Creating+a+New+Manufacturer",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2131951619",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2131951619",
+    "tinyui": "/x/AwATfw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

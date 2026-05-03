@@ -1,0 +1,129 @@
+{
+  "id": "1932361958",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932361958",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjM2MTk1OA==",
+  "status": "current",
+  "title": "Print Settings - Receipt Template",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:02:04.267Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "966",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932361958.37",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932361958"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932361958/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ's Print Template pages allow users to select which information appears on an invoice or receipt.</p><p>Print Template settings are separated by printing type (invoice or receipt), but their pages are similar in structure and available options. For additional information on updating your invoice template, please see our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377656/Print+Settings+-+Invoices\" data-linked-resource-id=\"1933377656\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Print Settings - Invoices</a>.</p><p><strong>Note:</strong> Template Settings\u00a0is a very long page. It is very important to save any changes you have made before navigating away from the page!</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160507.png?api=v2\"></span><h2 id=\"PrintSettings-ReceiptTemplate-ReceiptTemplateSettings\">Receipt Template Settings</h2><p /><p>1. Using the Navigation Bar near the top of RepairQ, go to <strong>Settings</strong> \u2192<strong> Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160510.png?api=v2\"></span><p /><p>2. From the Settings Overview page, use the left-hand sidebar to go to <strong>Templates</strong> \u2192<strong> Receipts</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160512.png?api=v2\"></span><p /><p>3. You should now see your <strong>Receipt Settings </strong>page, with your location's name at the top.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160515.png?api=v2\"></span><h2 id=\"PrintSettings-ReceiptTemplate-ReceiptSettings\">Receipt Settings</h2><h3 id=\"PrintSettings-ReceiptTemplate-Location\">Location</h3><p>This is the location where the settings are applied. If you navigated to this page through your Location Settings, or if you only have access to one location, then this drop-down menu will always be greyed out.</p><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"250\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160518.png?api=v2\"></span><h3 id=\"PrintSettings-ReceiptTemplate-Logo\">Logo</h3><p>This will allow you to choose a graphic to print on your template, chosen from your <strong>Image Library</strong>. See <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279270/Add+Your+Logo+to+Receipts+and+Invoices\" data-linked-resource-id=\"1933279270\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Adding Your Logo to Print Templates</a> for additional information.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"250\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160520.png?api=v2\"></span><h2 id=\"PrintSettings-ReceiptTemplate-TicketInfo\">Ticket Info</h2><p>The ticket Info section is a group of much smaller segments, each focused on information about the ticket to be printed on the invoice. The first has a single setting, and a TOGGLE ALL option. These settings (except for\u00a0Rep Name) will rely on ticket data and information entered into your Location Info<strong>\u00a0</strong>page.</p><p><strong>Note: </strong>For more information on the Location Info page, please see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986689/Location+Settings\" data-linked-resource-id=\"1928986689\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Location Settings Overview</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160523.png?api=v2\"></span><p /><ul><li><p><strong>TOGGLE ALL</strong> -\u00a0This can be found in several of the sections on this page. Clicking it will <strong>check</strong> or <strong>uncheck</strong> all checkboxes in a single section.</p></li><li><p><strong>Claim Number</strong> - If the ticket has a claim number, this will show the claim ID.</p></li><li><p><strong>Hide Ticket Number</strong> - This will hide the ticket number.</p></li><li><p><strong>Hide Totals</strong> - This will hide the totals for each ticket item.</p></li><li><p><strong>Location Address</strong> - This will include the address listed in your Location Info.</p></li><li><p><strong>Location Email</strong> - This will include the email listed in your Location Info.</p></li><li><p><strong>Location Legal Name</strong> - This will include the legal name of your business listed in your Location Info.</p></li><li><p><strong>Location Phone</strong> - This will include the primary phone number of your location listed in your Location Info.</p></li><li><p><strong>Not to Exceed Amount</strong> - This will include the Not to Exceed Amount noted on the Repair Ticket.</p></li><li><p><strong>Promised By </strong>- This will include the Promised By date noted on the Repair Ticket.</p></li><li><p><strong>Rep Name</strong> - This refers to the name of the user assigned to the ticket.</p></li><li><p><strong>Tax ID</strong> - The tax ID listed on your\u00a0Location Info page.</p></li><li><p><strong>Ticket Entry Date</strong> - The date the ticket was created.</p></li><li><p><strong>Today's Date</strong> - The current date.</p></li></ul><h3 id=\"PrintSettings-ReceiptTemplate-CustomerDetails\">Customer Details</h3><p>The Customer section on your receipt can be toggled off completely by unchecking the Customer checkbox. These settings will rely on the information within the profile of the customer attached to the ticket. Once toggled on, the information will be displayed on any printed invoice.</p><p><strong>Note:</strong> For more information on customer profiles, please see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344786/Creating+a+Customer+Profile\" data-linked-resource-id=\"1933344786\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Creating a Customer Profile</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160526.png?api=v2\"></span><ul><li><p><strong>TOGGLE ALL</strong> -\u00a0This can be found in several of the sections on this page. Clicking it will check or uncheck all checkboxes in a single section.</p></li><li><p><strong>Name</strong> - The customer's name, as listed on their profile.</p></li><li><p><strong>Company</strong> - Any company listed on the customer's profile.</p></li><li><p><strong>Contact Method</strong> - The customer's preferred contact method.</p></li><li><p><strong>Primary Phone</strong> - The customer's primary phone number.</p></li><li><p><strong>Alt Phone</strong> - Any alternate phone number on their profile, if captured.</p></li><li><p><strong>Full Address</strong> - The customer's full address, as listed on their profile.</p></li><li><p><strong>Credit Balance</strong> - The customer's current credit balance, if any.</p></li><li><p><strong>Credit Limit</strong> - The customer's credit limit, if entered.</p></li><li><p><strong>Loyalty Card ID</strong> - The customer's loyalty ID, if they have been given one.</p></li></ul><h3 id=\"PrintSettings-ReceiptTemplate-RepairDeviceDetails\">Repair Device Details</h3><p>The Repair Device Detail<strong> </strong>section on your invoice can be toggled off completely by unchecking the\u00a0Repair Devices checkbox. These settings will rely on the information of any repair device(s) listed on the ticket. Once toggled on, the information will be displayed on any printed invoice.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160529.png?api=v2\"></span><ul><li><p><strong>Primary Label</strong> - This is how the repair device will be listed on the invoice, either by its name or by its SKU.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160531.png?api=v2\"></span><ul><li><p><strong>TOGGLE ALL</strong> -\u00a0This can be found in several of the sections on this page. Clicking it will <strong>check</strong> or <strong>uncheck</strong> all checkboxes in a single section.</p></li><li><p><strong>Serial Number</strong> - The repair device's serial number.</p></li><li><p><strong>Description</strong> - Any description of the device captured on the ticket.</p></li><li><p><strong>Manufacturer</strong> - The manufacturer of the repair device.</p></li><li><p><strong>Carrier</strong> - The service carrier of the repair device, if any. (For instance, if the device is a phone, is the carrier AT&amp;T, Verizon, etc?)</p></li><li><p><strong>Password</strong> - Any customer-supplied password for the repair device.</p></li><li><p><strong>Diagnostics</strong> - Any diagnostics recorded on the ticket for the repair device.</p></li><li><p><strong>In Possession Details</strong> - If the repair device has been listed as stored within the <strong>Logistics</strong> section of the ticket (for instance <strong>Bin #1</strong>, or perhaps\u00a0<strong>Repair Station #2</strong>), it will be printed here.</p></li><li><p><strong>In Transit Details</strong> - If any transit information has been saved within the <strong>Logistics</strong> section of the ticket, it will be printed here.</p></li></ul><h3 id=\"PrintSettings-ReceiptTemplate-TicketItems\">Ticket Items</h3><p>The next section allows for more control over the itemized items on the invoice. As with most of the sections on the\u00a0Receipt Settings<strong> </strong>page, it\u00a0can be toggled off in its entirety by unchecking the Ticket Items<strong>\u00a0</strong>checkbox.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160534.png?api=v2\"></span><ul><li><p><strong>Hide Totals</strong> - This will hide the totals for each ticket item if checked.</p></li><li><p><strong>Show Ticket Item Notes</strong> - Any notes left by users on individual ticket items.</p></li><li><p><strong>Line Item Price/Tax Display</strong> - This dropdown menu gives several options for how line item prices and taxes are displayed.</p><ul><li><p>Show Price and tax separately</p><ul><li><p>Price is displayed right aligned with the line item title</p></li><li><p>Price is displayed in item details with the discount amount.</p></li><li><p>The tax amount is displayed as part of the item details under the item title.</p></li></ul></li><li><p>Tax-inclusive: Show tax-inclusive, effective after-tax discount, etc.</p></li><li><p>Show price and tax summed</p><ul><li><p>Price plus tax is displayed aligned with the line item title</p></li></ul></li><li><p>Show only price and discount</p><ul><li><p>Price is displayed right aligned with the line item title</p></li><li><p>Price is displayed in item details with the discount amount.</p></li></ul></li></ul></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160537.png?api=v2\"></span><ul><li><p><strong>Discount</strong> - The display label that will indicate the discount on your invoice.</p></li><li><p><strong>Tax</strong> - The display label that will indicate the taxes on your invoice.</p></li><li><p><strong>Bundle Receipt Display</strong> - This drop-down menu gives several options for how to display bundled items.</p><ul><li><p>Show part and labor prices when bundled</p><ul><li><p>Price and tax (depending on the Line Item Price/Tax display setting) are displayed in the item details for both the labor and the part in the bundle (parent and child).\u00a0</p></li></ul></li><li><p>Show only part price when bundled</p><ul><li><p>Price and tax (depending on the Line Item Price/Tax display setting) are displayed in the item details for only the part in the bundle (parent or child).</p></li></ul></li><li><p>Show only labor price when bundled</p><ul><li><p>Price and tax (depending on the Line Item Price/Tax display setting) are displayed in the item details for only the labor in the bundle (parent or child).\u00a0</p></li></ul></li><li><p>Show only line total when bundled</p><ul><li><p>Price and tax (depending on the Line Item Price/Tax display setting) are displayed in the item details for only the parent item in the bundle.</p></li><li><p>Any tax applied to child items is summed in the displayed tax amount on the parent item.</p></li></ul></li></ul></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160543.png?api=v2\"></span><ul><li><p>\u00a0<strong>Ticket Items to Show by Status</strong> - Any ticket item with a status that matches one of the checked boxes will be printed on the invoice.</p><ul><li><p><strong>Pending</strong></p></li><li><p><strong>Sold</strong></p></li><li><p><strong>Damaged</strong></p></li><li><p><strong>Void</strong></p></li><li><p><strong>Return</strong></p></li><li><p><strong>Exchange</strong></p></li><li><p><strong>Complete</strong></p></li></ul></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160545.png?api=v2\"></span><ul><li><p><strong>Show Ticket Item Barcode</strong> - If checked, a ticket item barcode will appear on the invoice. This will also allow the user to choose a format and size for the barcode.</p><ul><li><p><strong>Barcode Format</strong></p></li><li><p><strong>Barcode Size</strong></p></li></ul></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160548.png?api=v2\"></span><p /><ul><li><p><strong>Ticket Totals</strong> - The display labels that will indicate the <strong>Ticket Subtotal</strong> and <strong>Total Discount</strong> lines on your invoice.</p></li></ul><h3 id=\"PrintSettings-ReceiptTemplate-MiscellaneousSettings\">Miscellaneous Settings</h3><p>The last several segments are miscellaneous settings for transaction information, viewing their ticket status on Qsite, and <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377703/Creating+Warranties+and+Disclaimers\" data-linked-resource-id=\"1933377703\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">warranty and disclaimer information</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160550.png?api=v2\"></span><ul><li><p><strong>Transactions</strong> - If checked, the invoice will show any transactions on the ticket. This will also allow the user to include the customer's signature (if using<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\"> Integrated Payments</a>) and an option to show the tip amount paid from Square transactions.</p><ul><li><p><strong>Show Signature Line</strong></p></li><li><p><strong>Show Tips (Square Only)</strong></p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160553.png?api=v2\"></span><ul><li><p><strong>Ticket Status URL</strong> - Includes two checkboxes that allow users to display a Qsite website URL and a QRcode for the customer to check the status of their ticket.</p></li><li><p>For more information on Qsite features, check out <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523327/Qsite+Resources\" data-linked-resource-id=\"1936523327\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Status and Qsite Opportunities</a>.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160555.png?api=v2\"></span><ul><li><p><strong>Ticket Barcode</strong> - Includes a barcode that can be scanned on the invoice. RepairQ users can scan the invoice and pull up the ticket using the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705409/Getting+Started+The+RepairQ+Global+Search+Bar\" data-linked-resource-id=\"1933705409\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Global Search Bar</a>.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160558.png?api=v2\"></span><ul><li><p><strong>Notes</strong> - Checking this box will print any customer-facing, ticket notes on the invoice, and will also allow the user to enter a <strong>Notes Label</strong> to display on the invoice.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932361958/image-20230627-160603.png?api=v2\"></span><ul><li><p><strong>Warranties and Disclaimers</strong> -\u00a0Checking this box will show any relevant warranty to show on the invoice, and will also allow the user to enter a <strong>Warranty / Disclaimer Label</strong> to display on the invoice.</p></li></ul><p /><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932361958"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932361958/child",
+    "restrictions": "/rest/api/content/1932361958/restriction/byOperation",
+    "history": "/rest/api/content/1932361958/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932361958/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932361958",
+    "webui": "/spaces/SCD/pages/1932361958/Print+Settings+-+Receipt+Template",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932361958",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932361958",
+    "tinyui": "/x/5oAtcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

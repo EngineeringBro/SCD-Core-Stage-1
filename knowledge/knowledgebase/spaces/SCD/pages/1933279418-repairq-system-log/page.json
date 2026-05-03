@@ -1,0 +1,129 @@
+{
+  "id": "1933279418",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933279418",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI3OTQxOA==",
+  "status": "current",
+  "title": "RepairQ System Log",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:02:03.052Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "208",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933279418.26",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933279418"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279418/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The System Log is a comprehensive record of changes and activities within RepairQ, capturing events such as Staff login details, Ticket modifications, Customer Profile updates, Catalog adjustments, Inventory changes, and more. The System Log also includes filtering options, allowing users to find specific actions within a defined date range. Additionally, it provides direct links to affected tickets, inventory items, and customer profiles, making it easier to access and review modifications. The System Log is accessible to users with Admin, Manager, and Shift Lead permissions, ensuring that key personnel can effectively monitor and manage system activities. Benefits include:</p><ul><li><p><strong>Accountability</strong> - Track changes and activities, hold users accountable for their actions, providing a detailed audit trail for compliance and review purposes.</p></li><li><p><strong>Security</strong> - Monitor suspicious activities, enhancing security and preventing unauthorized access.</p></li><li><p><strong>Data Integrity</strong> - Maintain data integrity by tracking all changes made to the system</p></li></ul><h3 id=\"RepairQSystemLog-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937866763\" rel=\"nofollow\">Reporting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465\" rel=\"nofollow\">Automated Notification Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929379890\" rel=\"nofollow\">Adding and Deactivating Staff Members</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279418/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"RepairQSystemLog-ViewingtheSystemLog\">Viewing the System Log</h2><p /><p>On the RepairQ Navigation Bar, go to <strong>Reports</strong> \u2192 <strong>System</strong> <strong>Log</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279418/System%20Log%201.png?api=v2\"></span><h2 id=\"RepairQSystemLog-SystemLogData\">System Log Data</h2><p>At a glance, the log shows details regarding changes made including the date of the change, who made the change, and the previous and current value of the attribute that was changed. You can use the page navigation links at the bottom of the log to jump to a specific page or scroll through consecutive pages.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279418/System%20Log%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"442\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279418/System%20Log%203.png?api=v2\"></span><h2 id=\"RepairQSystemLog-SystemLogFilters\">System Log Filters</h2><p>On the left-hand side of the page, filters will help narrow down the list of data you can view. Narrow your results by selecting filters and click <strong>Apply Filters</strong> to refresh the page with results that fall within those parameters.</p><ul><li><p><strong>Location</strong> - Select to scope log changes for all (any) locations or select a specific location that you have access to.</p></li><li><p><strong>Staff</strong> - Select to scope changes made by a specific staff user or all (any) users.</p></li><li><p><strong>From Date/To Date</strong> - Select a start date/end date for the list of results. These can be set independently to filter information from a certain date to the current or from the past up until a certain date. Leave these fields blank to search for all time.</p></li><li><p><strong>Item</strong> - Select a category related to updates logged in the Changed Item column. This will look for specific events, like user log-in, purchase order changes, updating catalog items, etc.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"210\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279418/System%20Log%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279418/System%20Log%205.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933279418"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933279418/child",
+    "restrictions": "/rest/api/content/1933279418/restriction/byOperation",
+    "history": "/rest/api/content/1933279418/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933279418/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933279418",
+    "webui": "/spaces/SCD/pages/1933279418/RepairQ+System+Log",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933279418",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279418",
+    "tinyui": "/x/uoA7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

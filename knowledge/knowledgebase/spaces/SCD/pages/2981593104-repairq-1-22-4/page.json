@@ -1,0 +1,129 @@
+{
+  "id": "2981593104",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2981593104",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjk4MTU5MzEwNA==",
+  "status": "current",
+  "title": "RepairQ 1.22.4",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:05:33.134Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "744",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2981593104.68",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2981593104"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2981593104/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h3 id=\"RepairQ1.22.4-SettingsandOperations\">Settings and Operations</h3><ul><li><p>Resolved an issue where saving settings on the <strong>Account \u2192 General Settings</strong> screen without configuring all currency fields resulted in missing values for Coins and Bills in the Reconciliation Report.</p></li><li><p>Resolved an issue where exports using (Queued Tasks) would fail and return an error. Users can now successfully export their ticket queue without encountering errors.</p></li><li><p>Resolved an issue where staff members without a location assignment were unsearchable in the Staff List. Users can now search for staff without location assignments by clearing the Location filter when searching the Staff List.</p></li><li><p>Resolved an issue where staff members without a location assignment were excluded from inactivity tracking and the auto-deactivation processes. These users are now correctly identified as inactive and included in the auto-deactivation tool.</p></li></ul><h3 id=\"RepairQ1.22.4-Appointments\">Appointments</h3><ul><li><p>Resolved an issue where Appointment concurrency limits were not enforced when creating appointments within the UI while Appointment Windows were enabled.</p></li><li><p>Resolved an issue where the Day View of the Appointment Calendar only displayed the appointment time and customer name, even when additional fields (Assignee Name, Device Name, etc.) were configured to appear. These fields are now correctly displayed in the appointment blocks on the Day view, ensuring consistency with the Week and Month views.</p></li></ul><h3 id=\"RepairQ1.22.4-CustomFormsandAutomatedNotifications\">Custom Forms and Automated Notifications</h3><ul><li><p>Resolved an issue where attempting to save a new Custom Form Field resulted in an error message: &quot;Template type cannot be blank.&quot;</p></li><li><p>Updated the Automated Notification creation form by marking the <strong>Ticket Actions</strong> field as required with an asterisk (*).</p></li></ul><h3 id=\"RepairQ1.22.4-InventoryManagement\">Inventory Management</h3><ul><li><p>Resolved<strong> </strong>an issue where users encountered an Error 500 when filtering items by keywords on the Catalog page. Searching for items using keywords now functions as expected without errors.</p></li><li><p>Resolved an issue where creating an RMA batch caused the modal to remain in a loading state without generating any action. This process now completes as expected.</p></li></ul><h3 id=\"RepairQ1.22.4-TicketsandQuotes\">Tickets and Quotes</h3><ul><li><p>Resolved an issue where the &quot;Add Stock&quot; modal failed to appear when adding inventoried, in-stock items using the Catalog Quick Create feature on a ticket.</p></li><li><p>Resolved an issue where updates to the <strong>Logistics</strong> section of a repair ticket were not saved if a user made edits to customer information after entering logistics details. Logistics settings are now retained after customer edits.</p></li><li><p>Resolved an issue where editing serialized items on a Trade-in ticket caused the Serial Number field to be removed. This issue affected tickets with multiple items, requiring users to re-enter serial numbers after saving changes. Items now retain their serial numbers correctly after being edited</p></li><li><p>Resolved an issue where customers with net billing terms encountered a &quot;Customer not found for invoicing&quot; error when creating an invoice. Invoices for customers with net billing terms can now be created without any errors.</p></li><li><p>Resolved an issue preventing users from closing quotes without requiring payment. Users can now resume moving quotes to Closed status anytime, restoring the previous functionality.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2981593104"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 1015782356
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2981593104/child",
+    "restrictions": "/rest/api/content/2981593104/restriction/byOperation",
+    "history": "/rest/api/content/2981593104/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2981593104/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2981593104",
+    "webui": "/spaces/SCD/pages/2981593104/RepairQ+1.22.4",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2981593104",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2981593104",
+    "tinyui": "/x/EIC3sQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

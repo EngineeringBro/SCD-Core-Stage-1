@@ -1,0 +1,129 @@
+{
+  "id": "1933541687",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933541687",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzU0MTY4Nw==",
+  "status": "current",
+  "title": "Adding and Applying Credit Balances for Customers",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:52:58.203Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933541687.23",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933541687"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933541687/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Customers can carry credit balances to use towards purchases and services. Credits can be applied to the customer through refunds, trade-in purchases, and manual adjustments to their customer profile. Credits can be applied toward ticket balances just like any other payment method.</p><p>In order to issue or apply Store Credit, make sure that when you <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933639827/Assign+a+Virtual+Cash+Terminal+VCT+to+Accept+Payments\" data-linked-resource-id=\"1933639827\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">open your Virtual Cash Terminal (VCT)</a> you have selected <strong>Accept Store Credit</strong> as an acceptable payment type.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153925.png?api=v2\"></span><p /><h2 id=\"AddingandApplyingCreditBalancesforCustomers-ViewingandAdjustingaCustomer\u2019sCreditBalance\">Viewing and Adjusting a Customer\u2019s Credit Balance</h2><p /><p>1. <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377743/Customer+Search\" data-linked-resource-id=\"1933377743\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Quick-search for a customer</a> or use the Navigation Bar to go to <strong>Customers</strong> \u2192 <strong>View Customers</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153826.png?api=v2\"></span><p /><p /><p>2. On the Customer Overview page, you can search for customers by keyword or filter by category. Once you have found your customer, click the <strong>Options\u00a0</strong>button on the right side of the page to expand additional options and select <strong>View</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153830.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153832.png?api=v2\"></span><p /><p /><p>3. On the Customer Profile page, click <strong>Credit</strong> from the left column of options to view your customer's Credit Balance, Credit Limit, and Credit Available. Below these amounts is a history of any credits and/or debits that have been applied to their account with links to the tickets where they were applied.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153835.png?api=v2\"></span><p /><p /><p><strong>Balance</strong> -\u00a0 This is the current balance of credit the customer has. This balance may be negative if the customer has consumed all of their Credit Balance and is using part of their Credit Limit. If there is a negative balance, there will be an alert next to their Credit tab.</p><p><strong>Credit Limit\u00a0</strong>- This is a line of credit issued to the customer. A customer can hold a negative balance up to their limit. You can edit a customer profile to add a credit limit for a customer.</p><p><strong>Credit Available</strong> - This is the total credit available to the customer between their Credit Balance and Credit Limit.</p><p /><p>4. When viewing the Credit tab of the customer's profile, click the <strong>Add</strong> button on the right side of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153839.png?api=v2\"></span><p /><p /><p>5. A Balance Adjustment pop-up will appear. This will allow you to make your adjustment and add any additional notes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153842.png?api=v2\"></span><p /><p /><p><strong>Direction:\u00a0</strong>This dropdown allows you to add a credit to their balance or debit an amount from their existing balance.</p><p><strong>Amount:\u00a0</strong>This is the amount of the credit/debit you apply.</p><p><strong>Location:\u00a0</strong>This is the location that is applying the credit to the account.</p><p><strong>Note:\u00a0</strong>This is to note the reason why you are applying the credit.</p><p /><p>6. Click <strong>Save</strong> to apply your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153845.png?api=v2\"></span><p /><p /><p>7. Balance adjustments will show on the credit history section of the customer profile. If you would like to delete any manually created debits or credits, you can click the <strong>red X icon</strong> under the Action column.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153848.png?api=v2\"></span><p /><p /><p><strong>Note:\u00a0</strong>Manual credit adjustments that are added or deleted do not show in the Change Log for the customer.</p><p /><h2 id=\"AddingandApplyingCreditBalancesforCustomers-CreditLimits\">Credit Limits</h2><p>When <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">creating or editing a customer profile</a>, the Pricing tab allows you to add a Store Credit Limit to the customer. This allows the customer to hold a negative balance up to their limit.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153852.png?api=v2\"></span><p /><p /><h2 id=\"AddingandApplyingCreditBalancesforCustomers-AddingCreditsFromaTransaction\">Adding Credits From a Transaction</h2><p>When issuing a payout to the customer from either a Trade-In or return, you can apply the balance to the customer as a Store Credit. You cannot apply store credit to a customer if they do not have a profile and are not attached to the ticket. See <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344786/Creating+a+Customer+Profile\" data-linked-resource-id=\"1933344786\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Creating a Customer Profile</a> for additional information.</p><p /><p>1. When\u00a0<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933639827/Assign+a+Virtual+Cash+Terminal+VCT+to+Accept+Payments\" data-linked-resource-id=\"1933639827\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">assigning the VCT</a>, make sure the option <strong>Accept Store Credit</strong> is selected before starting the VCT. Store Credit cannot be applied to a customer unless this option is not checked.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153855.png?api=v2\"></span><p /><p /><p /><p>2. Continue with the Trade-In or Return transaction as usual. When there is a pending balance to issue back to the customer, click <strong>Add Transaction\u00a0</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153859.png?api=v2\"></span><p /><p /><p>3. On the Add Transaction pop-up, select <strong>Store Credit</strong> as the payment type. Add additional reference notes, if necessary, and click <strong>Submit Refund</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153902.png?api=v2\"></span><p /><p>4. When viewing the Credit tab of the Customer Profile, you will see the credit applied to their account.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153905.png?api=v2\"></span><p /><p /><h2 id=\"AddingandApplyingCreditBalancesforCustomers-AcceptingPaymentsWithStoreCredit\">Accepting Payments With Store Credit</h2><p>When the customer is ready to use the credit, you will create a normal transaction and attach the customer to the ticket. When taking payment, click <strong>Add Payment</strong>\u00a0 \u2192\u00a0 <strong>Payment Type:</strong>\u00a0<strong>Store Credit</strong> to use the credit from the customer's account.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541687/image-20230627-153909.png?api=v2\"></span><p /><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933541687"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933541687/child",
+    "restrictions": "/rest/api/content/1933541687/restriction/byOperation",
+    "history": "/rest/api/content/1933541687/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933541687/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933541687",
+    "webui": "/spaces/SCD/pages/1933541687/Adding+and+Applying+Credit+Balances+for+Customers",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933541687",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933541687",
+    "tinyui": "/x/N4E-cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

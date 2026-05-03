@@ -1,0 +1,30 @@
+{
+  "_expands": [
+    "field"
+  ],
+  "id": "112",
+  "_links": {
+    "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttype/112"
+  },
+  "name": "Payment Issue",
+  "description": "",
+  "helpText": "",
+  "defaultName": "Payment Issue",
+  "issueTypeId": "10151",
+  "serviceDeskId": "9",
+  "portalId": "9",
+  "groupIds": [],
+  "icon": {
+    "id": "10484",
+    "_links": {
+      "iconUrls": {
+        "48x48": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10484?size=large",
+        "24x24": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10484?size=small",
+        "16x16": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10484?size=xsmall",
+        "32x32": "https://servicecentral.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10484?size=medium"
+      }
+    }
+  },
+  "restrictionStatus": "OPEN",
+  "canCreateRequest": true
+}

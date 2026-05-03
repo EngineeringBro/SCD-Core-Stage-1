@@ -1,0 +1,129 @@
+{
+  "id": "1936359503",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936359503",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjM1OTUwMw==",
+  "status": "current",
+  "title": "Capture Integrated Payment Signatures on a Qpop Companion",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:31.314Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936359503.49",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936359503"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936359503/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qpop is a customer-facing application designed to enhance interaction and engagement at the point of sale through a dedicated touchscreen interface. Always facing the customer, Qpop allows for seamless interaction during the sales process by:</p><ul><li><p>Displaying in-store advertisements and promotions</p></li><li><p>Showing real-time ticket details for customer review</p></li><li><p>Presenting electronic forms and waivers for acknowledgment</p></li><li><p>Capturing electronic signatures for payments via integrated devices</p></li></ul><p>Qpop Companion works with Bluefin integrated payment systems, allowing customers to sign for their transactions on the companion device.</p><h3 id=\"CaptureIntegratedPaymentSignaturesonaQpopCompanion-PreviousSteps\">Previous Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936490516/Pair+a+Qpop+Companion\" data-linked-resource-id=\"1936490516\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Pair a Qpop Companion</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1937014846\" rel=\"nofollow\">Create a Qpop Companion</a></p></li></ul><h3 id=\"CaptureIntegratedPaymentSignaturesonaQpopCompanion-OptionalFeaturesandAdditionalResources\">Optional Features and Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949331/Send+Custom+Forms+to+Your+Qpop+Companion+Device\" data-linked-resource-id=\"1936949331\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Send Custom Forms to a Qpop Companion</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936654410/Qpop+Companion+Troubleshooting\" data-linked-resource-id=\"1936654410\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Troubleshooting</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359503/image-20230608-173034.png?api=v2\"></span><h2 id=\"CaptureIntegratedPaymentSignaturesonaQpopCompanion-SendPaymentSignaturestoQpop\">Send Payment Signatures to Qpop</h2><p>On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>. On the Settings Overview page, there is a list of settings categories in the left column. Click <strong>Payments </strong>to expand the dropdown and then click <strong>Payment Devices</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359503/image-20230608-173039.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"253\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359503/image-20230608-173044.png?api=v2\"></span><p /><p>On the Payment Terminal page, locate the device you want to record signatures with Qpop. Under the Actions column, click the <strong>Edit button</strong>. When editing the payment device settings, on the Signature Source field, select <strong>Qpop Companion</strong> from the dropdown and click the <strong>Require Signature</strong> box. Once you are satisfied with your changes, click <strong>Save</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Payment 3.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359503/Payment%203.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"522\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359503/image-20230608-173054.png?api=v2\"></span><p /><p>When requesting Bluefin card payment in RepairQ, the customer will swipe/insert their card into the PAX device as usual. During the payment process, Qpop will prompt the customer for their signature on the tablet. After signing, the customer will tap <strong>Done Signing</strong> to complete the transaction.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936359503/image-20230608-173105.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936359503"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936359503/child",
+    "restrictions": "/rest/api/content/1936359503/restriction/byOperation",
+    "history": "/rest/api/content/1936359503/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936359503/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936359503",
+    "webui": "/spaces/SCD/pages/1936359503/Capture+Integrated+Payment+Signatures+on+a+Qpop+Companion",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936359503",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936359503",
+    "tinyui": "/x/T4Bqcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "2030698585",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030698585",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDY5ODU4NQ==",
+  "status": "current",
+  "title": "1.13.4",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T22:19:04.955Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "4",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030698585.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030698585"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698585/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 08/29/2017 12:41 CT (17:42 UTC)</p><h2 id=\"id-1.13.4-PAXPaymentsandTicketAuto-save\">PAX Payments and Ticket Auto-save</h2><p>RepairQ auto-saves the ticket when a payment is processed on the PAX device. If you process a payment on the PAX device when the ticket is not save-able (e.g.\u00a0missing required information), then RepairQ saves the payment onto the ticket for you. If you\u00a0are working with a new ticket, then a ticket in the &quot;new/draft&quot; status is saved\u00a0for you with the payment and the customer attached so that\u00a0even if you abandon the ticket before correcting the errors and re-saving, you retain the record of the payment in RepairQ.\u00a0If you process multiple credit card payments on a ticket\u00a0while the ticket is not save-able, then it could result in\u00a0duplicate\u00a0tickets.</p><p>We have resolved the issue that allowed these\u00a0duplicate\u00a0tickets to be created.</p><h2 id=\"id-1.13.4-SignedCustomFormDownloads\">Signed Custom Form Downloads</h2><p>We fixed an issue that would prevent some forms from being download-able due to a permissions error.</p><h2 id=\"id-1.13.4-TicketNotificationButtons\">Ticket Notification Buttons</h2><p>If the customer\u00a0is opted\u00a0out of notifications, notifications to the customer will\u00a0not be sent, but the ticket email &amp; sms buttons\u00a0gave the impression that notifications could still be sent to the customer. We have updated the feedback messaging to\u00a0clearly indicate when messages are not created due to notification preferences or invalid contact info.</p><h2 id=\"id-1.13.4-TicketDefective/DamagedNotes\">Ticket Defective / Damaged Notes</h2><p>The\u00a0notes from the defective / damaged\u00a0window\u00a0on\u00a0tickets\u00a0were not being saved on the inventory item record.\u00a0Now the notes save on the inventory item.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030698585"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 93994963
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030698585/child",
+    "restrictions": "/rest/api/content/2030698585/restriction/byOperation",
+    "history": "/rest/api/content/2030698585/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030698585/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030698585",
+    "webui": "/spaces/SCD/pages/2030698585/1.13.4",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030698585",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698585",
+    "tinyui": "/x/WQAKeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

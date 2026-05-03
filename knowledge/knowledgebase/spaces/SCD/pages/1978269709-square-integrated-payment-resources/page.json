@@ -1,0 +1,129 @@
+{
+  "id": "1978269709",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1978269709",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTk3ODI2OTcwOQ==",
+  "status": "current",
+  "title": "Square Integrated Payment Resources",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:18.024Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "74",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1978269709.38",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1978269709"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1978269709/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Integrated Payment systems give users a secure solution for accepting payments on a payment terminal and seamlessly posting those transactions to a RepairQ ticket. This streamlines the checkout process and reduces accounting errors when compared to manually recording payments on tickets.</p><p>RepairQ offers integrated payment processing through Square for customers located in the United States and Canada. If you are interested in creating an account with Square, click <a class=\"external-link\" href=\"https://squareup.com/signup?country_code=us&amp;signup_token=5193B6FB67\" rel=\"nofollow\">here.</a></p><p><strong>Note</strong>: The Square Terminal is the only authorized device for RepairQ. Users can use the Terminal to accept and record payments to tickets. The Square Register is not compatible. </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1978269709/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"SquareIntegratedPaymentResources-SquareIntegratedPaymentsSetup\">Square Integrated Payments Setup</h2><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936556034/Integrated+Payments+Setup+Activating+Square+Integration+in+RepairQ\" data-linked-resource-id=\"1936556034\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payments Setup: Activating Square Integration in RepairQ</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936588814/Integrated+Payments+Setup+Add+a+Square+Terminal\" data-linked-resource-id=\"1936588814\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Square Payment Device in RepairQ</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936785459/Integrated+Payments+Setup+Assigning+a+Square+Terminal+to+a+Virtual+Cash+Terminal+VCT+to+Accept+Payments\" data-linked-resource-id=\"1936785459\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Integrated Payments Setup: Assigning a Square Terminal to a Virtual Cash Terminal (VCT) to Accept Payments</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936719893/Integrated+Payments+Accepting+Payments+on+a+Square+Terminal\" data-linked-resource-id=\"1936719893\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Integrated Payments: Accepting Payments on a Square Terminal</a></p><h2 id=\"SquareIntegratedPaymentResources-IntegratedPaymentsTransactionReportingandAdditionalResources\">Integrated Payments Transaction Reporting and Additional Resources</h2><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541639/Close+Reconcile+a+Virtual+Cash+Terminal\" data-linked-resource-id=\"1933541639\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Closing a Virtual Cash Terminal (VCT)</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229524/Reports+Cash+Reconciliation\" data-linked-resource-id=\"1934229524\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Reports: Cash Reconciliation</a></p><p><a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Tip%20Report&amp;linkCreation=true&amp;fromPageId=1978269709\">Tip Report</a></p><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1978269709"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1978269709/child",
+    "restrictions": "/rest/api/content/1978269709/restriction/byOperation",
+    "history": "/rest/api/content/1978269709/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1978269709/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1978269709",
+    "webui": "/spaces/SCD/pages/1978269709/Square+Integrated+Payment+Resources",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1978269709",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1978269709",
+    "tinyui": "/x/DQDqdQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

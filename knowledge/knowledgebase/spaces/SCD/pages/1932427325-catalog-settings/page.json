@@ -1,0 +1,129 @@
+{
+  "id": "1932427325",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932427325",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjQyNzMyNQ==",
+  "status": "current",
+  "title": "Catalog Settings",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:11.497Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 12,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932427325.59",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932427325"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932427325/version/12"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ offers a wide variety of catalog and inventory control settings to adapt your catalog and inventory to match your business rules and policies. These settings allow you to maintain an accurate history of sales, repairs, and inventory.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427325/Control%20-%20f79824.png?api=v2\"></span><h2 id=\"CatalogSettings-AccessingCatalogSettings\">Accessing Catalog Settings</h2><p>On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427325/Catalog%20Settings%201.png?api=v2\"></span><p /><p>On the Settings Overview page, scroll down to the <strong>Catalog</strong> section. From here, you can view all of the catalog settings available.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427325/Catalog%20Settings%202.png?api=v2\"></span><p /><h2 id=\"CatalogSettings-ItemGrids\"><a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Categories%3A%20Link%20Catalog%20Items%20an%20Item%20Grid&amp;linkCreation=true&amp;fromPageId=1932427325\">Item Grids</a></h2><p>A Catalog Item Grid is a visual user interface that navigates your\u00a0Category Tree to select an item from your catalog. Your Item Tree and Grid work together to create a customer-friendly experience while selecting services through Qsite Opportunities, as well as customizable, easy-to-use navigation for your point-of-sale process.</p><h2 id=\"CatalogSettings-ItemTypes\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2144370777/Item+Types\" data-linked-resource-id=\"2144370777\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Item Types</a></h2><p>Item Types are high-level categories to organize your catalog. This allows you to assign specific attributes to the entire group of catalog items under these types. Item Types dictate assigned tax rates, price override allowances, identify whether items are parts or labor, establish parent/child relationships for bundling, and more. Since Item Types are groups of Catalog Items with similar\u00a0characteristics, the characteristics designated for an item type apply to each Catalog item categorized under it. Before building your Catalog, it\u2019s a good idea to decide what Item Types you need to set up first.</p><p>Some reports are organized by item types, so you should create one item type for each category of revenue you want to analyze separately. By default, there are a variety of item types created for use but you can also create new item types and set their characteristics upon creation.</p><h2 id=\"CatalogSettings-Manufacturers\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2131951619/Creating+a+New+Manufacturer\" data-linked-resource-id=\"2131951619\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Manufacturers</a></h2><p>The Manufacturer field is a classification of items in your store to help organize your catalog. This field serves to identify and specify the company or entity that produced or created the item. Manufacturer details are required when creating Catalog Items and are used when filtering lists and reports. By default, we provide a list of popular manufacturers, and you can add more as needed.</p><p>This information is essential for several purposes, including:</p><ul><li><p><strong>Product Identification </strong>- Uniquely identify each item by its manufacturer, ensuring that customers and staff can easily recognize the brand or source of the item.</p></li><li><p><strong>Warranty and Support </strong>- The manufacturer\u2019s name is crucial for warranty and support purposes. If a customer encounters issues with a device, knowing the manufacturer is important for seeing warranty replacement and support.</p></li></ul><h2 id=\"CatalogSettings-CatalogItems\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931018355/The+RepairQ+Catalog\" data-linked-resource-id=\"1931018355\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Items</a></h2><p>Your Catalog is a comprehensive list of all the products, items, and services you offer to customers. It includes details like product names, descriptions, prices, and other relevant information. Maintaining an inventory catalog has several benefits:</p><ul><li><p><strong>Organization </strong>- Keep track of all the items in your store, making it easier to find and manage your stock.</p></li><li><p><strong>Accurate Pricing </strong>- Having a detailed catalog ensures you have consistent and up-to-date prices for each item, reducing the risk of pricing errors.</p></li><li><p><strong>Inventory Management </strong>- Your catalog is linked to your inventory, allowing you to monitor stock levels in real-time. This helps prevent overstocking or running out of essential items.</p></li><li><p><strong>Sales Tracking, Reporting, and Analytics </strong>- With a well-maintained catalog, you can easily track sales and pinpoint sales trends. This helps you to identify popular products and make data-driven decisions to optimize your business.</p></li></ul><h2 id=\"CatalogSettings-ItemImages\">Item Images</h2><p>RepairQ provides a pre-filled image library that you can use to add images to any catalog item that you create. If you prefer to use your own images, you can upload them to the image library from your device. You can also replace any of the existing images or delete them.</p><h2 id=\"CatalogSettings-Carriers\">Carriers</h2><p>Selecting a Carrier adds an additional level of categorization for inventory items. RepairQ includes a pre-filled list of carriers, and users are able to add and/or edit any of them from the list.</p><ul><li><p>RepairQ allows you to filter inventory items by carrier for search optimization.</p></li><li><p>Selecting a carrier is not required when adding inventory items, but you can add a &quot;N/A&quot; carrier in order to take advantage of the filter functionality when a carrier doesn't apply.</p></li><li><p>Make sure to add new carriers to the carrier list first, before attempting to select them on an inventory item. Selections are only visible after the category is created.</p></li></ul><h2 id=\"CatalogSettings-Suppliers\">Suppliers</h2><p>Suppliers are used in identifying the source of inventory items added into RepairQ. Selecting a supplier is required when adding inventory manually or through a PO. RepairQ includes a pre-filled list of suppliers, but users are able to add/edit any of them from the list.</p><ul><li><p>Make sure that you've first added any new suppliers to the supplier list before attempting to select them on an inventory item or purchase order. Selections are only visible after the category is created.</p></li><li><p>RepairQ allows you to filter inventory items by the supplier for search optimization.</p></li><li><p>You can add a &quot;N/A&quot; supplier for use on inventory items where a supplier doesn't apply.</p></li></ul><h2 id=\"CatalogSettings-Shippers\">Shippers</h2><p>Shippers are used when you need to ship an item to a different facility for the repair work to be completed and when sending an RMA batch to a supplier. Shipper information can be found in the Logistics section of a Repair ticket. RepairQ includes a pre-filled list of shippers, but users are able to add/edit any of them from the list.</p><h2 id=\"CatalogSettings-InventoryConditions\">Inventory Conditions</h2><p>Inventory Conditions are used to describe the condition of inventory items that are entered into RepairQ. Selecting an inventory condition is required when adding inventory manually or through a Trade-in ticket.</p><ul><li><p>RepairQ allows you to filter inventory items by inventory condition for search optimization.</p></li><li><p>Priority lets you assign a number from 0 - 100 to an inventory condition, in order to organize the list. Lower numbers will appear higher on the list.</p></li></ul><h2 id=\"CatalogSettings-InventoryStatuses\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Statuses</a></h2><p>Every Inventory Item in RepairQ has a status associated with it, which allows users to keep a full history of the item. For example, when an item is attached to a ticket and sold, the item leaves the Instock count, but it is not removed from records entirely \u2014 the item's status changes from Instock to Pulled to Sold status. Statuses are crucial in maintaining accurate inventory levels and detailed sales reporting.</p><p>At the most basic level, Inventory Statuses can be categorized into three separate groups:</p><ul><li><p><strong>Live</strong> <strong>Inventory</strong> - Inventory that is physically in your possession.</p></li><li><p><strong>Transition</strong> <strong>Inventory</strong> - Inventory that is transitioning into or out of your Live Inventory.</p></li><li><p><strong>Consumed</strong> <strong>Inventory</strong> - Inventory that is no longer in your possession, but records still remain in RepairQ for reporting purposes.</p><ul><li><p>Items in Consumed Inventory status are no longer editable, for data integrity purposes.</p></li></ul></li></ul><h2 id=\"CatalogSettings-PurchaseOrderStatuses\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416/Purchase+Order+Resources\" data-linked-resource-id=\"1932427416\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Purchase Order Statuses</a></h2><p>Purchase Orders (POs) are a key component in the procurement process, allowing users to create a fulfillment record of the products they purchase from external suppliers. Working alongside RepairQ's reporting and inventory management features, you can create POs in the system to track spending on ordered products and parts as well as replenish onhand quantities for accurate inventory management.</p><p>Purchase Orders advance through different statuses to let users know which stage they are currently in. You can customize the name of your purchase order statuses, however, the functionality tied to them will remain the same</p><h2 id=\"CatalogSettings-PrintLabelPages\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344820/Print+a+Catalog+Item+Reference+Sheet\" data-linked-resource-id=\"1933344820\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Print Label Pages</a></h2><p>Users can create customer label pages for price sheets, label printing, and more. Printing a list of items can be helpful to your staff, such as reference sheets for common sale items/services to scan at checkout and inventory scan lists for items that don't have their own labels.</p><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932427325"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932427325/child",
+    "restrictions": "/rest/api/content/1932427325/restriction/byOperation",
+    "history": "/rest/api/content/1932427325/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932427325/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932427325",
+    "webui": "/spaces/SCD/pages/1932427325/Catalog+Settings",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932427325",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932427325",
+    "tinyui": "/x/PYAucw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

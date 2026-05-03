@@ -1,0 +1,129 @@
+{
+  "id": "1933672605",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933672605",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzY3MjYwNQ==",
+  "status": "current",
+  "title": "Getting Started: The RepairQ Menu Item Bar",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:52.450Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "43",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933672605.22",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933672605"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933672605/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p /><p>The Menu Bar is located at the top of each page, just below the main Navigation Bar. This section gives you easy access to global and advanced searching, price checks and on-hand quantities, claims, and more!</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Menu%20Bar%201.png?api=v2\"></span><h3 id=\"GettingStarted:TheRepairQMenuItemBar-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705356/Getting+Started+The+RepairQ+Dashboard\" data-linked-resource-id=\"1933705356\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Dashboard</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705409/Getting+Started+The+RepairQ+Global+Search+Bar\" data-linked-resource-id=\"1933705409\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Global Search Bar</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279488/Price+Checks+and+On-Hand+Quantities\" data-linked-resource-id=\"1933279488\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Price Checks and On-Hand Quantities</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"GettingStarted:TheRepairQMenuItemBar-BreadcrumbLinks\">Breadcrumb Links</h2><p>Located on the left side of the Menu Bar, these links show the path to the page you are currently on. Clicking these links will take you back to the previous page.</p><p>In this example, we are viewing the inventory details for an item. The breadcrumb trail shows the path of navigation: <strong>Dashboard</strong> \u2192 <strong>Inventory</strong> <strong>Summary</strong> \u2192 <strong>iPhone SE Silver</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Menu%20Bar%202.png?api=v2\"></span><h2 id=\"GettingStarted:TheRepairQMenuItemBar-GlobalSearch\">Global Search</h2><p>This section of the Menu Bar allows you to search keywords for Tickets, Inventory, Contacts, and Billing Agents. For more information on the Search Bar, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705409/Getting+Started+The+RepairQ+Global+Search+Bar\" data-linked-resource-id=\"1933705409\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">here</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Menu%20Bar%203.png?api=v2\"></span><h3 id=\"GettingStarted:TheRepairQMenuItemBar-AdvancedSearch\">Advanced Search</h3><p>Located on the right side of the Menu Bar, the Advanced Search button allows users to perform a more in-depth search for any of the above categories. Advanced Search leverages the same filters found on each of the respective categories' pages.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Menu%20Bar%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Menu%20Bar%205.png?api=v2\"></span><h3 id=\"GettingStarted:TheRepairQMenuItemBar-ClaimLookup\">Claim Lookup</h3><p>The Claim Lookup button is helpful If you process claims through an integrated Service Authorizer. From the Menu Bar, you can search for claims by claim/authorization number or search for an existing ticket by customer name or the device serial number. For additional information on managing Service Authorizers, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936654431/Managing+Service+Authorizers\" data-linked-resource-id=\"1936654431\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">here</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Menu%20Bar%206.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Menu%20Bar%207.png?api=v2\"></span><h3 id=\"GettingStarted:TheRepairQMenuItemBar-PriceCheck\">Price Check</h3><p>Located on the far-right side of the Menu Bar, the Price Check button allows users to see current on-hand quantities of items, prices, and additional information\u2014without leaving the current page! For more details about price checks, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279488/Price+Checks+and+On-Hand+Quantities\" data-linked-resource-id=\"1933279488\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">here</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Menu%20Bar%208.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672605/Menu%20Bar%209.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933672605"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933672605/child",
+    "restrictions": "/rest/api/content/1933672605/restriction/byOperation",
+    "history": "/rest/api/content/1933672605/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933672605/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933672605",
+    "webui": "/spaces/SCD/pages/1933672605/Getting+Started+The+RepairQ+Menu+Item+Bar",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933672605",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933672605",
+    "tinyui": "/x/nYBBcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

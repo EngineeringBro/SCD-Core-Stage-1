@@ -1,0 +1,130 @@
+{
+  "id": "2029518967",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029518967",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTUxODk2Nw==",
+  "status": "current",
+  "title": "1.18.9",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T21:37:01.333Z",
+    "friendlyWhen": "Jul 20, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "5",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029518967.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029518967"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029518967/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 08/15/2022 at 11:30pm CT</p><h3 id=\"id-1.18.9-MinorChanges\">Minor Changes</h3><ul><li><p>Cleaned up the ticket label format, so that certain text fields fit better when printing</p></li><li><p>Setting up the Square integration no longer pulls in locations that are inactive</p></li><li><p>Improved the usability of the &quot;Appointment Statuses&quot; page</p></li></ul><h3 id=\"id-1.18.9-BugFixes\">Bug Fixes</h3><ul><li><p>Checking or unchecking the &quot;Skip customer receipt preference&quot; option for a Square terminal now saves properly</p></li><li><p>Resolved an issue where customer profile information was not being saved properly</p></li><li><p>Adding backordered parts to a refurbishment ticket is now supported and no longer returns an error</p></li><li><p>When navigating between &quot;Notes&quot; and &quot;Custom Forms&quot; within a new ticket, custom forms no longer disappear</p></li><li><p>Updating a trade-in layaway ticket no longer retroactively updates related items that had already been refurbished and sold back to &quot;Instock&quot;</p></li><li><p>Serialized backorder items will no longer prevent a ticket with other items attached from being saved</p></li><li><p>Customer referrals now reflect properly</p></li><li><p>Fixed an issue where submitting inventory counts would return an error about &quot;Location ID&quot; and &quot;Created By&quot; fields being blank</p></li><li><p>Resolved some email and text notifications errors, which would cause the notifications to get stuck in &quot;New&quot; status</p></li><li><p>Diagnostic notes on a Return Repair ticket no longer overwrite diagnostic notes on the original repair ticket</p></li><li><p>Fixed an issue that was preventing a user from starting a return from the ticket list under the customer profile</p></li><li><p>Inventory for inactive locations will no longer appear in search inventory results</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029518967"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 129608389
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029518967/child",
+    "restrictions": "/rest/api/content/2029518967/restriction/byOperation",
+    "history": "/rest/api/content/2029518967/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029518967/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029518967",
+    "webui": "/spaces/SCD/pages/2029518967/1.18.9",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029518967",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029518967",
+    "tinyui": "/x/dwD4e",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

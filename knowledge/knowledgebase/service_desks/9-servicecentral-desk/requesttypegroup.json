@@ -1,0 +1,17 @@
+{
+  "size": 1,
+  "start": 0,
+  "limit": 50,
+  "isLastPage": true,
+  "_links": {
+    "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9/requesttypegroup?limit=100",
+    "base": "https://servicecentral.atlassian.net",
+    "context": ""
+  },
+  "values": [
+    {
+      "id": "303",
+      "name": "General"
+    }
+  ]
+}

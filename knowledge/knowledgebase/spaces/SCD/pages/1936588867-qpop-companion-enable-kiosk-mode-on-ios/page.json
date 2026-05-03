@@ -1,0 +1,129 @@
+{
+  "id": "1936588867",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936588867",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjU4ODg2Nw==",
+  "status": "current",
+  "title": "Qpop\u2122 Companion - Enable Kiosk Mode on iOS",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:10.170Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936588867.53",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936588867"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936588867/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qpop is a customer-facing application designed to enhance interaction and engagement at the point of sale through a dedicated touchscreen interface. Always facing the customer, Qpop allows for seamless interaction during the sales process by:</p><ul><li><p>Displaying in-store advertisements and promotions</p></li><li><p>Showing real-time ticket details for customer review</p></li><li><p>Presenting electronic forms and waivers for acknowledgment</p></li><li><p>Capturing electronic signatures for payments via integrated devices</p></li></ul><p>An iPad is an excellent choice for a kiosk device, allowing you to dedicate the tablet to a specific app for your business. If you're using Qpop on a customer-facing iPad, you can enable <strong>Guided Access</strong> mode in iPadOS to ensure the device remains focused on the Qpop Companion app.</p><h3 id=\"Qpop\u2122Companion-EnableKioskModeoniOS-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523314/Qpop+Companion+-+Enable+Kiosk+Mode+on+Android\" data-linked-resource-id=\"1936523314\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Qpop\u2122 Companion - Enable Kiosk Mode on Android</a></p></li><li><p> <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936654410/Qpop+Companion+Troubleshooting\" data-linked-resource-id=\"1936654410\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Qpop Companion Troubleshooting</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588867/image-20230608-172901.png?api=v2\"></span><h2 id=\"Qpop\u2122Companion-EnableKioskModeoniOS-EnableKiosk/Demo/PresentationModeoniOSDevices\">Enable Kiosk/Demo/Presentation Mode on iOS Devices</h2><p>The process below is demonstrated on an iPad Air running 12.5.5, and has a Home Button. Some steps and screenshots may vary depending on your device model and software version.</p><p /><p>On your iPad, open your Settings app and navigate to <strong>General</strong> \u2192 <strong>Accessibility</strong>. In Accessibility settings, under the Learning category, tap <strong>Guided Access</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588867/image-20230608-172905.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588867/image-20230608-172910.png?api=v2\"></span><p /><p>Toggle Guided Access to <strong>On</strong>, and additional settings will appear. From the list of options, tap <strong>Passcode Settings</strong>.</p><p><strong>Note</strong>: For devices running iOS 12 or later, make sure that you also have <strong>Mirror Display Auto-Lock toggled On</strong>, otherwise, Guided Access will automatically turn off the screen after 20 minutes of activity.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588867/image-20230608-172915.png?api=v2\"></span><p /><p>On the Passcode Settings screen, tap <strong>Set Guided Access Passcode</strong>, to establish the code used when Guided Access is enabled. Establish a PIN. This PIN will be required when leaving Guided Access.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588867/image-20230608-172921.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588867/image-20230608-172927.png?api=v2\"></span><h2 id=\"Qpop\u2122Companion-EnableKioskModeoniOS-ActivateGuidedAccessinYourBrowser\">Activate Guided Access in Your Browser</h2><p>Open your browser to your Qpop Companion and make sure you are paired with your terminal. Triple-click the home button to initiate Guided Access.\u00a0By default, the touch screen is enabled and the Sleep/Wake button is disabled. You can also choose to enable the Sleep/Wake button on the Guided Access screen by tapping <strong>Options</strong> near the bottom-left of the screen. This will allow anyone to turn off the iPad\u2019s screen. When it is turned back on, you will resume in Guided Access mode without having to enter a PIN.</p><p>Once you are satisfied with your settings, tap <strong>Start</strong>.</p><p><strong>Note</strong>: If you choose to keep the iPad in always-on status, make sure your device is plugged into a power source.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936588867/image-20230608-172932.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936588867"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936588867/child",
+    "restrictions": "/rest/api/content/1936588867/restriction/byOperation",
+    "history": "/rest/api/content/1936588867/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936588867/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936588867",
+    "webui": "/spaces/SCD/pages/1936588867/Qpop+Companion+-+Enable+Kiosk+Mode+on+iOS",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936588867",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936588867",
+    "tinyui": "/x/QwBucw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

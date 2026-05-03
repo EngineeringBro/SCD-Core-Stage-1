@@ -1,0 +1,129 @@
+{
+  "id": "1933246632",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933246632",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI0NjYzMg==",
+  "status": "current",
+  "title": "Customer Management: Import Customer Data",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:04.007Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 12,
+    "minorEdit": false,
+    "ncsStepVersion": "1456",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933246632.48",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933246632"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246632/version/12"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ\u2019s import feature simplifies customer profile management by enabling users to batch-add records, streamlining data entry and reducing the need for manual input. This functionality is especially beneficial for businesses transitioning from other systems, or for those needing to upload large volumes of customer data at once. It ensures that customer information, including contact details, service history, and billing data, is efficiently transferred to your POS system, saving time and reducing errors compared to manual data entry.</p><p>Users with Admin, Manager, or Inventory Manager roles have access to this feature, allowing them to import various types of records, including Tickets, Customers, Purchase Orders, and Inventory. Our built-in import templates are designed to ensure that data is formatted correctly for seamless upload into RepairQ. This feature is a key tool for businesses looking to keep their customer database up-to-date, especially when onboarding new clients or consolidating data from multiple sources.</p><h3 id=\"CustomerManagement:ImportCustomerData-ImportGuidelines\">Import Guidelines</h3><p>Columns are matched on the header name, so you must have the correct header names (provided in the template) to import the column values successfully. Any unrecognized column headers will be ignored; only the values you wish to add or update need to be present in the import file. If no matches are found for a record in your import file, RepairQ will create a new Customer Profile.</p><h3 id=\"CustomerManagement:ImportCustomerData-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1933377786\" rel=\"nofollow\">RepairQ Data Import Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932624014\" rel=\"nofollow\">Catalog Management: Importing Catalog Items</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2028175373\" rel=\"nofollow\">RepairQ Onboarding Plans and Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933312070\" rel=\"nofollow\">Managing Customer Profiles</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246632/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CustomerManagement:ImportCustomerData-DownloadtheCustomerImportTemplate\">Download the Customer Import Template</h2><p>From the Navigation bar, click <strong>Customers</strong>. When viewing the Customer List, click the <strong>Options button ( \u22ee ) </strong>on the top right of the page to expand the list of available options. From the list, click <strong>Import</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Customers 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246632/Import%20Customers%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Customers 2.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246632/Import%20Customers%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Customers 3.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246632/Import%20Customers%203.png?api=v2\"></span><p /><p>A new section will appear below your Customer List. Click <strong>Download Import Template</strong> download an Excel file with pre-defined column names. This file is formatted specifically for entering ticket data, ensuring it aligns with our system's requirements.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Customers 5.png\" width=\"580\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246632/Import%20Customers%205.png?api=v2\"></span><h2 id=\"CustomerManagement:ImportCustomerData-CustomerImportTemplate\">Customer Import Template</h2><p>After downloading the blank Customer template, open the file and add items to add to the document. The following columns require data to create a new Customer Profile in RepairQ: <strong>First Name</strong>, <strong>Last Name</strong>, and <strong>Primary Phone</strong>. After adding the data, be sure to Save your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Customers 4.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246632/Import%20Customers%204.png?api=v2\"></span><h3 id=\"CustomerManagement:ImportCustomerData-RequiredandSuggestedFields\">Required and Suggested Fields</h3><p>The template file will include the columns available for import. Required values for creating a catalog item are First Name, Last name and Primary Phone.</p><ul><li><p><strong>First Name (Required)</strong> - The customer's first name, used to identify the individual in your environment and when linked to tickets.</p></li><li><p><strong>Last Name (Required)</strong> - The customer's last name, used to identify the individual in your environment and when linked to tickets.</p></li><li><p><strong>Primary Phone (Required)</strong> - The main contact number for the customer. This number is used for direct calls regarding repair updates or service inquiries.</p></li><li><p><strong>Email </strong>- The customer\u2019s email address, which can be used for sending service updates, receipts, and marketing materials.</p></li><li><p><strong>SMS Phone </strong>- The phone number designated for SMS communications, including service notifications, reminders, and promotional messages.</p></li><li><p><strong>SMS Carrier </strong>- Required for the SMS notification feature. This field identifies the carrier (e.g., AT&amp;T, Verizon) associated with the customer's SMS phone number to ensure messages are delivered correctly.</p></li><li><p>Any additional fields you have marked as &quot;Required&quot; in the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869089/Required+Fields+for+Customer+Profiles\" data-linked-resource-id=\"1933869089\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Customer Required Fields</a> settings.</p></li></ul><hr/><h2 id=\"CustomerManagement:ImportCustomerData-ImporttheCustomerTemplate\">Import the Customer Template</h2><p>When you have saved the file and are ready to upload your import, <strong>click Choose File</strong> and select your file from the file explorer. Once the file is selected, click <strong>Import</strong>. RepairQ will begin processing your import file. You will be notified via email when the import is complete, and you can check the Import Queue for any additional details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Customers 6.png\" width=\"580\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246632/Import%20Customers%206.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Import Customers 7.png\" width=\"580\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246632/Import%20Customers%207.png?api=v2\"></span><h3 id=\"CustomerManagement:ImportCustomerData-ImportRules\">Import Rules</h3><p>Columns are matched on the header name, so you must have the correct header names (provided in the template) to import the column values successfully. Any unrecognized column headers will be ignored; only the values you wish to add or update need to be present in the import file. If no matches are found for a record in your import file, RepairQ will create a new Customer Profile.</p><hr/><h2 id=\"CustomerManagement:ImportCustomerData-UpdateExistingCustomers\">Update Existing\u00a0Customers</h2><p>In addition to adding new customer profiles, the import feature can also be used to update existing customer records in RepairQ. This is especially useful when bulk-editing customer information, such as updating contact details, loyalty card numbers, or other profile attributes.</p><p /><p>When you upload an import file, RepairQ checks for matches between the data in your file and the existing customer records in your database. Matches are determined based on the following criteria, in this order:</p><ul><li><p><strong>Customer ID </strong>- The unique identifier assigned to each customer profile. This is the most reliable way to match records during the import process.</p></li><li><p><strong>Loyalty Card </strong>- The loyalty card number associated with the customer. If the Customer ID is not provided but a matching loyalty card number is found, the system will update the corresponding record.</p></li><li><p><strong>Primary Phone + Last Name </strong>- If neither the Customer ID nor the Loyalty Card number matches, the system will check for a combination of the customer\u2019s <strong>Primary Phone</strong> and <strong>Last Name</strong> to identify the correct record.</p></li></ul><h4 id=\"CustomerManagement:ImportCustomerData-MatchedRecords\">Matched Records</h4><p>If a match is found using one of the above criteria, the system will update the existing customer profile with the new or changed information provided in your spreadsheet.</p><h4 id=\"CustomerManagement:ImportCustomerData-UnmatchedRecords\">Unmatched Records</h4><p>If no match is found, a new Customer Profile will be created in the system using the data in the import file.</p><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933246632"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933246632/child",
+    "restrictions": "/rest/api/content/1933246632/restriction/byOperation",
+    "history": "/rest/api/content/1933246632/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933246632/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933246632",
+    "webui": "/spaces/SCD/pages/1933246632/Customer+Management+Import+Customer+Data",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933246632",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246632",
+    "tinyui": "/x/qAA7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "2031222828",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2031222828",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMTIyMjgyOA==",
+  "status": "current",
+  "title": "RepairQ 1.16",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T21:48:36.445Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "11",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2031222828.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2031222828"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031222828/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Full release: 5/29/2019</p><h1 id=\"RepairQ1.16-KeystoneFeatures\">Keystone Features</h1><p><strong>Qsite - Opportunities**</strong></p><p>Qsite Opportunities is a simple, but effective tool that can be embedded in your website to engage your visitors, capture leads, and convert leads into customers through Opportunities in RepairQ. Qsite Opportunities includes the ability to browse and select a location, drill into Categories to find a catalog item, receive a quote for that item, and schedule an appointment with that location. This will not affect or replace legacy Qsite functionality for checking ticket statuses. That Qsite app is now called Qsite Status.</p><p><strong>Qsite Opportunities Features</strong></p><p>If you operate more than one location, Qsite\u2019s Location Finder can present your locations for a lead to search, browse, and select, directing Quotes, Contact Forms, and Appointments to the appropriate location.</p><p>Qsite will also allow your leads to use Categories to browse your catalog to self-identify their device and using Catalog Item Compatibility request a compatible service. After selecting a device and service, Qsite then provides a form to collect a lead\u2019s contact information. After contact information is captured, an instant price quote is provided to the lead and a quote is created in RepairQ for follow up and conversion. If the price is unavailable or disabled, alternative directions are provided to the lead regarding their service request, \u00a0and their information is still captured in RepairQ for follow up and conversion. \u00a0</p><p>Finally, Qsite Appointments allows a lead to browse the available schedule for a location, select a day and an available time slot for an appointment.</p><p>Enhancements to Appointment Management are also included in 1.16 including the ability to to cancel or reschedule an existing appointment record through Qsite, as well as associating a quote ticket with an appointment for ease of conversion.</p><h1 id=\"RepairQ1.16-MajorEnhancements\">Major Enhancements</h1><p><strong>Item Grid*</strong><br/>Your Item Grid is a fully customizable, visual tool used to quickly navigate and find items to add to a ticket. You can focus your Item Grid experience on the categories and items you sell the most. Item Grids combined with compatibility and pre-bundling combined makes adding the right items to tickets easier than ever.</p><p><strong>Categories*</strong><br/>Build a hierarchy of categories to drive visual browsing of your catalog through Item Grids to select repair devices, trade-in items, ticket items, and more. Paired with category images and catalog item images, you can create Item Grids for a truly visual, point-and-click item selection experience for your staff and your customers.<br/></p><p><strong>Compatibility*</strong><br/>Use Catalog Item Compatibility to associate a parent catalog item with one or more compatible children catalog items. You can reinforce effective business practices and decrease ticket transaction time by eliminating non-compatible items when adding parts, services, and other items. Setup compatibility for devices to enforce compatible services, parts, or other items, and use compatibility for bundles to specify which items can be bundled under a parent item.<br/></p><p><strong>Pre-bundling*</strong><br/>Save yourself time and reduce human error by automating item bundles. Using compatibility, you can configure child items to automatically add along with their parent.<br/></p><p><strong>Customer Intake Improvements*</strong><br/>All contact and customer forms have a new interface designed to speed up customer intake by focusing on satisfying required fields as quickly as possible. As you fill out a new customer form, RepairQ automatically checks for an existing match to save you time and prevent duplicate customer records.<br/></p><p><strong>Open Items Alert*</strong><br/>To help your staff focus on the right step after identifying a customer on a ticket, we created a new \u201cOpen Items Alert\u201d which loads any existing transactions or opportunities (tickets, quotes, or appointments) that are open for a customer. The Open Items Alert helps you identify early on whether you should continue an open item, or continue with creating a new ticket. This will save time spent on intake as well as helping you maintain accurate opportunity conversion rates (quotes and appointments).<br/></p><p><strong>Catalog Item Search Improvements*</strong><br/>The ranking algorithm was improved for Catalog Item based searches. In addition, you can now search for key-phrase matches using quotes. For example, you can search for \u201ciPhone X Space Gray\u201d to limit your search to only the items that match the phrase.</p><h1 id=\"RepairQ1.16-OtherImprovements\">Other Improvements</h1><p>Invoice Remittance performance optimization</p><p>Invoice Backdating** - this feature allows you to record payment for a previous date, and you can close the tickets for a date in the past to reflect the actual revenue date</p><p>New Appointments dashboard in Business Intelligence</p><p>Receipt/Invoice bundle price and tax display - we made some adjustments to receipts and invoice print settings to more clearly reflect the available options</p><p>Added Billing Agent Filter and Column to reports</p><p>Quotes can now be attached to appointments for opportunity conversion through Qsite</p><p>Added customer referral code</p><p>Added location region field</p><p>Added location website url field which is available in automated notifications</p><p>Announcement settings received a \u201cselect all locations\u201d option</p><p>New Integrations page</p><p>\u00a0</p><p><a class=\"external-link\" href=\"https://www.youtube.com/watch?v=KGZmcdFcmJg\" rel=\"nofollow\">Check out the release walkthrough video here</a>.</p><h3 id=\"RepairQ1.16-*DenotesafeaturethatwillbeavailabletoALLusersandplansincludinglegacyplans**DenotesafeaturethatisonlyavailableonAdvancedandProfessionalplans.\"><br/>*Denotes a feature that will be available to ALL users and plans including legacy plans<br/>**Denotes a feature that is only available on Advanced and Professional plans.</h3>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2031222828"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 67391032
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2031222828/child",
+    "restrictions": "/rest/api/content/2031222828/restriction/byOperation",
+    "history": "/rest/api/content/2031222828/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2031222828/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2031222828",
+    "webui": "/spaces/SCD/pages/2031222828/RepairQ+1.16",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2031222828",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031222828",
+    "tinyui": "/x/LAASeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "2095546399",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2095546399",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA5NTU0NjM5OQ==",
+  "status": "current",
+  "title": "Discounts: Creation and Customization",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:27.461Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "309",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2095546399.156",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2095546399"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2095546399/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ has introduced a revamped discount system designed to create custom promotions and offers. With this update, you have full control over discount amounts, durations, and the specific products and services they apply to. Discounts are applied based on predefined parameters, so they cannot apply if it does not align with a ticket item\u2019s attribute. Additionally, users will now see discounts alongside ticket items, providing clear, visual confirmation that a discount has been applied to an item.</p><p>This enhanced flexibility allows you to attract new customers, reward loyalty, and boost sales with tailored discounts. Benefits include:</p><ul><li><p><strong>Enhanced Discount Control</strong> - Admins can now set specific parameters, ensuring discounts are only applied to intended items or services.</p></li><li><p><strong>Strategic Promotions</strong> - Create time-sensitive offers to drive urgency and increase sales during specific periods. Tailored discounts can attract new customers and encourage repeat business, ultimately boosting sales.</p></li><li><p><strong>Clear Visuals</strong>: Users can easily see which discounts have been applied to which items, enhancing ticket transparency.</p></li><li><p><strong>Pro-Rata Distribution</strong> - Apply a proportional allocation when applying a dollar-amount discount across all items on a ticket.</p></li></ul><p><strong>Note</strong>: The new Discount system is optional. If you prefer the previous method of applying discounts, you can continue manually adding discounts at your discretion for any item or service, within their maximum discount limit. When the new Discount feature is active, new discounts must be created for your staff to apply to products and services. The Max Discount field in a staff member\u2019s profile will continue to cap the amount they can discount, however, they must select a discount from the Discount List. This flexibility allows you to transition at your own pace.</p><h3 id=\"Discounts:CreationandCustomization-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2094923832\" rel=\"nofollow\">Discounts: Activation and General Settings</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2098036767\" rel=\"nofollow\">Discount Management on Tickets</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2098069535\" rel=\"nofollow\">Reports: Discounts Summary and Discounts Detail</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642\" rel=\"nofollow\">RepairQ Accounting Principles</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2095546399/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Discounts:CreationandCustomization-CreatingaNewDiscount\">Creating a New Discount</h2><p>On the top Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>. On the Settings Overview page, scroll down to the Discounts section and click <strong>Manage</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2095546399/Activate%20Discount%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"462\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2095546399/Create%20Discount%201.png?api=v2\"></span><p /><p>The Manage Discounts overview page lists all of your created promotions with options to Add, Edit, and Copy your discounts. To create a new discount, click <strong>Add Discount</strong>.</p><p><strong>Note</strong>: When copying a discount, all fields except for the Name and Description will be copied to create a new discount. </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2095546399/Create%20Discount%202.png?api=v2\"></span><p /><p>On the Create New Discount page, make your selection for each field. Once you have made your selections, be sure to <strong>Save </strong>your settings.</p><ul><li><p><strong>Discount Status </strong>- This toggle will enable/disable the available discount.</p><ul><li><p>Once a discount has expired, it cannot be reactivated. If you want to reactivate the discount, you must use the copy function to create a new discount similar to the expired one.</p></li></ul></li><li><p><strong>Show in Grid </strong>- Show/Hide this discount when viewing the Discount Grid.</p></li><li><p><strong>Start Date* </strong>- Discounts can start on a selected date. If left blank, the discount will be immediately available for use. If a date is entered here, it will be locked from editing once used.</p></li><li><p><strong>End Date* </strong>- Discounts can automatically retire on a selected date. If left blank, the discount will be in effect indefinitely \u2013 you will either need to disable the discount or set an expiration date to make it inactive. If a date is entered here, it will be locked from editing once used.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2095546399/Create%20Discount%203.png?api=v2\"></span><p /><ul><li><p><strong>Name* </strong>- Assign a name for this discount. This is used to identify a discount/promotion when adding it to a ticket, so it can also be used as a promo code. Examples are ACC20, ACCBOGO50, etc. </p></li><li><p><strong>Description* </strong>- Include a description for the discount, so the user knows what items qualify and what amount of discount will be applied. Example: Buy one accessory, get 50% off a second accessory.</p></li><li><p><strong>Amount* </strong>- Toggle between a dollar amount or percentage discount, then enter the amount of discount.</p></li><li><p><strong>Allow Override* </strong>- When active, you can add an additional ceiling for the discount. For instance, you can make a discount of 10% but allow a ceiling of up to 25% for exceptions. <strong>Note</strong>: The limit applied to a user\u2019s staff profile will still be in effect. If your ceiling is beyond their limit, the user can only allot up to their assigned limit.</p></li><li><p><strong>Can Stack* </strong>- When enabled, this discount can be applied with other discounts on the same ticket. When disabled, this discount cannot be used along with other discounts on the same ticket.</p></li><li><p><strong>Ignore User Maximum* </strong>- This works with the Allow Override feature. When active, the user can exceed their limit, up to the ceiling amount of the discount.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"368\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2095546399/Create%20Discount%204.png?api=v2\"></span><p /><ul><li><p><strong>Item Type(s)</strong> - By default, if this field is blank, your discount will apply to all Item Types. If you want to limit a discount to specific item Types, select them to add to the list.</p></li><li><p><strong>Manufacturer(s) </strong>- By default, if this field is blank, your discount will apply to all Manufacturers. If you want to limit a discount to specific Manufacturers, select them to add to the list. </p></li><li><p><strong>Category </strong>- If you have set up any sub-categories under your assigned Root Discount Category, you can select that category here. Any items assigned to that category will receive a discount.</p><ul><li><p>For more information on categories and item management, check out our article: <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591138\" rel=\"nofollow\">Creating an Item Tree</a>.</p></li></ul></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2095546399/Create%20Discount%206.png?api=v2\"></span><h3 id=\"Discounts:CreationandCustomization-TheDiscountList\">The Discount List</h3><p>After creating your discount, it will be available on the Discount List. When a Discount is active, it can be applied to ticket items and edited.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2095546399/Create%20Discount%205.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2095546399"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2095546399/child",
+    "restrictions": "/rest/api/content/2095546399/restriction/byOperation",
+    "history": "/rest/api/content/2095546399/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2095546399/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2095546399",
+    "webui": "/spaces/SCD/pages/2095546399/Discounts+Creation+and+Customization",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2095546399",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2095546399",
+    "tinyui": "/x/H4Dnf",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

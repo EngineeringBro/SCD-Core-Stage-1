@@ -1,0 +1,129 @@
+{
+  "id": "2260533280",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2260533280",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjI2MDUzMzI4MA==",
+  "status": "current",
+  "title": "Working with Custom Forms on Tickets",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:34.093Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2260533280.59",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2260533280"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2260533280/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Custom Forms are documents that are completed on tickets to ensure that the Sales and/or Repair process is thorough and complete. There are many customizable fields to assign to a form, based on the purpose. Users can create triggers and requirements for forms to be completed by your staff or a customer before the ticket can be completed. Custom Forms can work alongside <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop Companion</a> to create a customer-facing screen to view and sign digital forms.</p><h2 id=\"WorkingwithCustomFormsonTickets-AdditionalResources\">Additional Resources</h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770795/Introduction+to+Custom+Forms+-+Start+Here\" data-linked-resource-id=\"1933770795\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Introduction to Custom Forms - Start Here!</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932492983\" rel=\"nofollow\">Creating Custom Forms</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246513\" rel=\"nofollow\">Custom Forms: Field Groups and Form Fields</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525752\" rel=\"nofollow\">Custom Forms: Adding Images to Forms</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427719\" rel=\"nofollow\">Custom Forms: Capturing Electronic Signatures on Forms</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2260533280/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"WorkingwithCustomFormsonTickets-WorkingwithFormsonTickets\">Working with Forms on Tickets</h2><p>When creating or editing a ticket, the <strong>Custom Forms</strong> section will list any required forms plus any additional forms that are applicable, but optional, for the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Custom Forms 13.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2260533280/Custom%20Forms%2013.png?api=v2\"></span><p /><p>Click the <strong>Edit button</strong> under the Actions column to make changes to a form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Custom Forms 14.png\" width=\"253\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2260533280/Custom%20Forms%2014.png?api=v2\"></span><p /><p>Click the <strong>Print button</strong> under the Actions column to print out a copy of the form. If the form is completed, the print button will print the form with all the values filled out. If the form is not yet completed, it will print an uncompleted version of the form where the form inputs can be filled out on paper.</p><p><strong>Note</strong>: If you have a required field, it will need to be completed on the ticket to meet the form requirements.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Custom Forms 15.png\" width=\"253\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2260533280/Custom%20Forms%2015.png?api=v2\"></span><p /><p>If you are using <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop Companion</a>, click the <strong>Send to Qpop button</strong> to send the form to your customer-facing tablet.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Custom Forms 16.png\" width=\"253\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2260533280/Custom%20Forms%2016.png?api=v2\"></span><h3 id=\"WorkingwithCustomFormsonTickets-SavingandSubmittingaForm\">Saving and Submitting a Form</h3><p>If you need to save changes to the form but do not want to submit the changes, click <strong>Save Draft</strong>. Once the form is completed, click <strong>Save &amp; Submit</strong>. Once submitted, the form will show as Submit Pending on the ticket.</p><p><strong>Note</strong>: Any form with a signature field will only have the option to <strong>Save &amp; Submit</strong>. This is to ensure that a customer's signature cannot be overwritten or reopened for edits after submitting the form.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Custom Forms 18.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2260533280/Custom%20Forms%2018.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Custom Forms 19.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2260533280/Custom%20Forms%2019.png?api=v2\"></span><p /><h3 id=\"WorkingwithCustomFormsonTickets-RevertingaSubmittedForm\">Reverting a Submitted Form</h3><p>A user with the Manager role can revert a submitted form back to Draft status by clicking the <strong>Undo button</strong>.</p><p><strong>Note</strong>: Forms with an complated signature field cannot be reverted.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Custom Forms 17.png\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2260533280/Custom%20Forms%2017.png?api=v2\"></span><h3 id=\"WorkingwithCustomFormsonTickets-ViewingSubmittedForms\">Viewing Submitted Forms</h3><p>When viewing a ticket with submitted forms, a user with the Manager role can view the signed form, print a receipt of the signed form (showing it was signed electronically), or print a copy of the form with the visible signature.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Custom Forms 20.png\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2260533280/Custom%20Forms%2020.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2260533280"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2260533280/child",
+    "restrictions": "/rest/api/content/2260533280/restriction/byOperation",
+    "history": "/rest/api/content/2260533280/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2260533280/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2260533280",
+    "webui": "/spaces/SCD/pages/2260533280/Working+with+Custom+Forms+on+Tickets",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2260533280",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2260533280",
+    "tinyui": "/x/IAC9hg",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1936785428",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936785428",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjc4NTQyOA==",
+  "status": "current",
+  "title": "Embed Qsite\u2122 Features Into Your Website",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:53.309Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "17",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936785428.16",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936785428"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936785428/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h1 id=\"EmbedQsite\u2122FeaturesIntoYourWebsite-QsiteStatus\">Qsite Status</h1><p>This article walks through the process of embedding Qsite\u2122 into your own company website, using the iframe embed approach (as opposed to the methods currently in Beta using full html and/or API access). This will allow your customers to click a link on your website, enter their ticket number and last name, and receive all of the information that is currently available with Qsite\u2122.</p><ul><li><p>We recommend first walking through\u00a0<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936326777/Adding+Your+Company+Logo+to+RepairQ\" data-linked-resource-id=\"1936326777\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Adding your Company Logo to RepairQ</a>, because it will display on your website with\u00a0the RepairQ\u00a0logo if you do not.<br/></p></li><li><p>Next, we recommend creating a new page on your website, called something like &quot;Repair Status&quot;. Make sure you add a link to it in the menu bar or somewhere easy to find.<br/></p></li><li><p>Navigate to the section of the new (or existing) page where you want it embedded, and copy/paste this specific html there, BUT substitute{yourrepairqurl} with your specific RepairQ URL, i.e. https://repairbros.repairq.io:</p></li></ul><p><strong>&lt;iframe src=&quot;{yourrepairqurl}/t&quot; style=&quot;display:block;margin:auto;border:0;width:100%;min-width:320px;min-height:480px;&quot;&gt;&lt;/iframe&gt;</strong></p><ul><li><p>For example, the company Repair Bros would look like this:</p></li></ul><p>&lt;iframe src=&quot;https://repairbros.repairq.io/t&quot; style=&quot;display:block;margin:auto;border:0;width:100%;min-width:320px;min-height:480px;&quot;&gt;&lt;/iframe&gt;</p><ul><li><p>If you wish to constrain the width and make it narrower, you can modify the width percentage down from 100%.</p></li></ul><h1 id=\"EmbedQsite\u2122FeaturesIntoYourWebsite-QsiteOpportunities\">Qsite Opportunities</h1><p>Available with RepairQ 1.16 you can also embed Qsite\u2122 Opportunities into your site.</p><ul><li><p>Navigate to the section of the new (or existing) page where you want it embedded, and copy/paste this specific html there, BUT substitute{yourrepairqurl} with your specific RepairQ URL:</p></li></ul><p><strong>&lt;iframe src=&quot;{yourrepairqurl}/qsite&quot; style=&quot;display:block;margin:auto;border:0;width:100%;min-width:320px;min-height:480px;&quot;&gt;&lt;/iframe&gt;</strong></p><ul><li><p>For example, the company Repair Bros would look like this:</p></li></ul><p>&lt;iframe src=&quot;https://repairbros.repairq.io/qsite&quot; style=&quot;display:block;margin:auto;border:0;width:100%;min-width:320px;min-height:480px;&quot;&gt;&lt;/iframe&gt;</p><ul><li><p>If you wish to constrain the width and make it narrower, you can modify the width percentage down from 100%.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785428/image-20230608-171421.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785428/image-20230608-171427.png?api=v2\"></span><p /><p /><h1 id=\"EmbedQsite\u2122FeaturesIntoYourWebsite-QsiteTicketLookup\">Qsite Ticket Lookup</h1><p>Available with RepairQ 1.16.19, you can also embed Qsite\u2122 Ticket Lookup into your site. This provides your customers with a place to securely manage their ticket and appointment details by entering their ticket number or claim number.</p><ul><li><p>Navigate to the section of the new (or existing) page where you want it embedded, and copy/paste this specific html there, BUT substitute {yourrepairqurl} with your specific RepairQ URL:</p></li></ul><p><strong>&lt;iframe src=&quot;https://yourrepairqurl.repairq.io/qsite/lookup&quot; style=&quot;display:block;margin:auto;border:0;width:100%;min-width:320px;min-height:480px;&quot; allow=&quot;geolocation&quot;&gt;&lt;/iframe&gt;</strong></p><ul><li><p>For example, the company Repair Bros would look like this:</p></li></ul><p>&lt;iframe src=&quot;https://repairbros.repairq.io/qsite/lookup&quot; style=&quot;display:block;margin:auto;border:0;width:100%;min-width:320px;min-height:480px;&quot; allow=&quot;geolocation&quot;&gt;&lt;/iframe&gt;</p><ul><li><p>If you wish to constrain the width and make it narrower, you can modify the width percentage down from 100%.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785428/image-20230608-171433.png?api=v2\"></span><p /><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936785428/image-20230608-171439.png?api=v2\"></span><p /><p /><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936785428"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936785428/child",
+    "restrictions": "/rest/api/content/1936785428/restriction/byOperation",
+    "history": "/rest/api/content/1936785428/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936785428/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936785428",
+    "webui": "/spaces/SCD/pages/1936785428/Embed+Qsite+Features+Into+Your+Website",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936785428",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936785428",
+    "tinyui": "/x/FABxcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

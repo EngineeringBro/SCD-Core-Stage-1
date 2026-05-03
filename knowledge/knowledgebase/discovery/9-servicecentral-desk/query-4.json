@@ -1,0 +1,1745 @@
+{
+  "seedQuery": "4",
+  "values": [
+    {
+      "title": "[DRAFT] Using the Customer Check-in Kiosk",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "4402741252",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/4402741252"
+      }
+    },
+    {
+      "title": "Cash Rounding Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2713124902",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2713124902"
+      }
+    },
+    {
+      "title": "Creating Payment Methods",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2363719681",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2363719681"
+      }
+    },
+    {
+      "title": "RepairQ Subscription Plans (2024)",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2311192654",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2311192654"
+      }
+    },
+    {
+      "title": "RepairQ 1.20.5",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2188607647",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2188607647"
+      }
+    },
+    {
+      "title": "Creating a New Manufacturer",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2131951619",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2131951619"
+      }
+    },
+    {
+      "title": "Reports: Inventory Reorder Required",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2107047975",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2107047975"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change Your DNS Servers - Windows 11",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2068807721",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2068807721"
+      }
+    },
+    {
+      "title": "1.7.3.x",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2040856660",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2040856660"
+      }
+    },
+    {
+      "title": "1.8.8",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2036957249",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2036957249"
+      }
+    },
+    {
+      "title": "1.9.2",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2036891662",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2036891662"
+      }
+    },
+    {
+      "title": "RepairQ 1.15",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2030960683",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2030960683"
+      }
+    },
+    {
+      "title": "1.15.4",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2030698538",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2030698538"
+      }
+    },
+    {
+      "title": "1.17.18",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2029584399",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2029584399"
+      }
+    },
+    {
+      "title": "RepairQ 1.17",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2029289514",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2029289514"
+      }
+    },
+    {
+      "title": "RepairQ Onboarding Plans and Resources",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2028175373",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2028175373"
+      }
+    },
+    {
+      "title": "Inventory Management: Auto-Serialization Setup",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1971814409",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1971814409"
+      }
+    },
+    {
+      "title": "Appointments: Viewing and Creating Statuses",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1953595397",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1953595397"
+      }
+    },
+    {
+      "title": "RepairQ Help Desk - Knowledge Base and Submit a Request",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1941831681",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1941831681"
+      }
+    },
+    {
+      "title": "Create a Help Desk User Account",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1941700634",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1941700634"
+      }
+    },
+    {
+      "title": "RepairQ Help Desk - Viewing Requests and Status Updates",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1941143880",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1941143880"
+      }
+    },
+    {
+      "title": "Tip Report and Distribution",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1939472413",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1939472413"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Duplicate Payment Requests",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1938161692",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1938161692"
+      }
+    },
+    {
+      "title": "Appointments: Scheduling Holidays",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1938096131",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1938096131"
+      }
+    },
+    {
+      "title": "Quick Create: Catalog Item Created Context",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1937473555",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1937473555"
+      }
+    },
+    {
+      "title": "Inventory Detail - List View Column Updates",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1937211440",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1937211440"
+      }
+    },
+    {
+      "title": "Quick Create: Add New Catalog Items on Tickets",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1937015029",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1937015029"
+      }
+    },
+    {
+      "title": "Clearing Your Cache in Chrome Browser",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1937014903",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1937014903"
+      }
+    },
+    {
+      "title": "Shopify - Setup Liquid Template (for suppliers)",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936949314",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936949314"
+      }
+    },
+    {
+      "title": "Integrated Printing 103: Adding and Assigning Printer Configurations",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936949270",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936949270"
+      }
+    },
+    {
+      "title": "Automated Notifications: Add a Qsite\u2122 Ticket Status Link",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936851025",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936851025"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Assigning a Square Terminal to a Virtual Cash Terminal (VCT) to Accept Payments",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936785459",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936785459"
+      }
+    },
+    {
+      "title": "Integrated Payments: Accepting Payments on a Square Terminal",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936719893",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936719893"
+      }
+    },
+    {
+      "title": "Reports: Customer Segments",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936654444",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936654444"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Activating Square Integration in RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936556034",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936556034"
+      }
+    },
+    {
+      "title": "Qpop\u2122 Companion System Requirements",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936523288",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936523288"
+      }
+    },
+    {
+      "title": "Integrated Printing 102: Adding Integrated Printers",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936457750",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936457750"
+      }
+    },
+    {
+      "title": "Quick Create: Add New Catalog Items on Purchase Orders",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936425167",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936425167"
+      }
+    },
+    {
+      "title": "Integrated Printing 104: Creating and Customizing Print Automation",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936392218",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936392218"
+      }
+    },
+    {
+      "title": "Integrated Printing 101: Downloading QZ Tray",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936359430",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936359430"
+      }
+    },
+    {
+      "title": "Reports: Customer Referrals",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936326807",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936326807"
+      }
+    },
+    {
+      "title": "Adding Your Company Logo to RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936326777",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936326777"
+      }
+    },
+    {
+      "title": "Zebra GK420D Blink Sequence",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936261192",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936261192"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Windows 10",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936261135",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936261135"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Windows 8",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936261121",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936261121"
+      }
+    },
+    {
+      "title": "Qsite\u2122 Ticket Approval Setup - Settings and Conditions",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936228434",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936228434"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Chrome OS",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935900725",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935900725"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Performing a Test Transaction with a PAX Terminal Device",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935769605",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935769605"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX A80/A920",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935572993",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935572993"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change the LAN Type on a PAX S300",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935441921",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935441921"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935376416",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935376416"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - iOS",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935343627",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935343627"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX D210",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1935179789",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1935179789"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your PAX S300",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934917880",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934917880"
+      }
+    },
+    {
+      "title": "Appointments: Scheduling an Appointment",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934917649",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934917649"
+      }
+    },
+    {
+      "title": "Appointments: Changing an Appointment",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934852150",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934852150"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Installing the PAX Security Certificate - macOS",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786931",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786931"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Adding Bluefin Credentials in RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786847",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786847"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change Your DNS Servers - Windows 10",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786834",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786834"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Activate Your P2PE Device",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786801",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786801"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Ping Your Device to See if it is Reachable",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786757",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786757"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: PAX Security Certificate Installation and Testing",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786687",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786687"
+      }
+    },
+    {
+      "title": "Reports: Revenue, Cost of Goods Sold (COGS), Cost of Services, and Cost of Refurbs",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934753845",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934753845"
+      }
+    },
+    {
+      "title": "Reports: Inventory Usage",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934721039",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934721039"
+      }
+    },
+    {
+      "title": "Reports: Wage Expense",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934557198",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934557198"
+      }
+    },
+    {
+      "title": "Reports: Inventory Valuation",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934557185",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934557185"
+      }
+    },
+    {
+      "title": "Reports: Pending Revenue and Tickets Unpaid",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934524434",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934524434"
+      }
+    },
+    {
+      "title": "Appointments: Canceling an Appointment",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934491709",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934491709"
+      }
+    },
+    {
+      "title": "Creating a Contact (Lead) Profile",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934491659",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934491659"
+      }
+    },
+    {
+      "title": "QuickBooks Integration: Sending Journal Entries on Demand",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934393396",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934393396"
+      }
+    },
+    {
+      "title": "Reports: Check Your Gross Profit Margins by Item Type",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934393345",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934393345"
+      }
+    },
+    {
+      "title": "Invoicing: Accepting Advance Payment for Net Terms Customers and Billing Agents",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934360682",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934360682"
+      }
+    },
+    {
+      "title": "Invoicing: Assigning Billing Agents to Customers and Tickets",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934327948",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934327948"
+      }
+    },
+    {
+      "title": "Reports: Receivables and Invoice Aging",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934327922",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934327922"
+      }
+    },
+    {
+      "title": "Reports: Inventory Expense",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934327847",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934327847"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change Your DNS Servers - macOS Ventura",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934295273",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934295273"
+      }
+    },
+    {
+      "title": "Invoicing: Third-Party Financing Payment Options with ACH or Check",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934295142",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934295142"
+      }
+    },
+    {
+      "title": "Reports: Return Repair Detail",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934262290",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934262290"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Configuring a Bluefin PAX A80/A920 to Communicate with RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934229806",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934229806"
+      }
+    },
+    {
+      "title": "Integrations: QuickBooks Online Setup",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934229563",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934229563"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Update Your IP Address in RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934197020",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934197020"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change Your DNS Servers - macOS",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934197007",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934197007"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your Bluefin PAX D210",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196978",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196978"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your Bluefin PAX A80/A920",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196946",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196946"
+      }
+    },
+    {
+      "title": "Invoicing: Third-Party Financing Payment Options with Virtual Credit Cards",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196854",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196854"
+      }
+    },
+    {
+      "title": "Invoicing: Creating and Managing Invoices",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196840",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196840"
+      }
+    },
+    {
+      "title": "Average Cost vs Actual Cost Inventory Accounting",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196814",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196814"
+      }
+    },
+    {
+      "title": "Inventory Management: Stock a Backorder Item Without a Purchase Order",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933967395",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933967395"
+      }
+    },
+    {
+      "title": "Virtual Cash Terminal (VCT) Setup",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933901843",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933901843"
+      }
+    },
+    {
+      "title": "RepairQ Troubleshooting: Disable Password Managers and Autofill",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933836386",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933836386"
+      }
+    },
+    {
+      "title": "Getting Started: Customer Device Search",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933836359",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933836359"
+      }
+    },
+    {
+      "title": "Reports: Waived Charges",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803776",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803776"
+      }
+    },
+    {
+      "title": "Create and Redeem Gift Cards",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803669",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803669"
+      }
+    },
+    {
+      "title": "Ticket Notes",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803655",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803655"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (rework) for a Different Repair Service",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933770925",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933770925"
+      }
+    },
+    {
+      "title": "Getting Started: Inventory Search",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933738155",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933738155"
+      }
+    },
+    {
+      "title": "Accounting for Miscellaneous Fees for Online Sales",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933738036",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933738036"
+      }
+    },
+    {
+      "title": "Group Buying Sale Process",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933705396",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933705396"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933705307",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933705307"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) to Replace a Defective Part",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933639775",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933639775"
+      }
+    },
+    {
+      "title": "Layaway Ticket Status",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933607090",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933607090"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) for the Same Repair Service",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933606988",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933606988"
+      }
+    },
+    {
+      "title": "Keyword Search Techniques",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933606925",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933606925"
+      }
+    },
+    {
+      "title": "Adding and Applying Credit Balances for Customers",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933541687",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933541687"
+      }
+    },
+    {
+      "title": "Sales Tax Override",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933541561",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933541561"
+      }
+    },
+    {
+      "title": "Configuring a Cash Drawer to Open Automatically When a Receipt is Printed",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933541484",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933541484"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) Ticket Without the Original Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933508711",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933508711"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) Ticket With a Deductible",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933475953",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933475953"
+      }
+    },
+    {
+      "title": "Required Fields for Repair Devices",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933443149",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933443149"
+      }
+    },
+    {
+      "title": "Integration Setup: Listen360",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933443104",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933443104"
+      }
+    },
+    {
+      "title": "Reports: Repairs by Device",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933377814",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933377814"
+      }
+    },
+    {
+      "title": "Creating Warranties and Disclaimers",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933377703",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933377703"
+      }
+    },
+    {
+      "title": "Print a Catalog Item Reference Sheet",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933344820",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933344820"
+      }
+    },
+    {
+      "title": "Inventory Management: Stock a Backorder Item With a Purchase Order",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933312056",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933312056"
+      }
+    },
+    {
+      "title": "Hiding Analytics on Tickets and Price Checks",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933312043",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933312043"
+      }
+    },
+    {
+      "title": "Price Checks and On-Hand Quantities",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933279488",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933279488"
+      }
+    },
+    {
+      "title": "Add Your Logo to Receipts and Invoices",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933279270",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933279270"
+      }
+    },
+    {
+      "title": "Reports: Accounting Journal Entries",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933246837",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933246837"
+      }
+    },
+    {
+      "title": "Label Printer Setup and Troubleshooting",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933246619",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933246619"
+      }
+    },
+    {
+      "title": "Assigning Customer Segments",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933246536",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933246536"
+      }
+    },
+    {
+      "title": "Assigning Ticket Items to Users",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932853380",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932853380"
+      }
+    },
+    {
+      "title": "Purchase Order Process: Receiving Items and Reconciling the Order",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932787800",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932787800"
+      }
+    },
+    {
+      "title": "Catalog Items: Bundle Setup",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932787785",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932787785"
+      }
+    },
+    {
+      "title": "Merging Catalog Items",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932787772",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932787772"
+      }
+    },
+    {
+      "title": "Inventory Management: Tracking Inventoried Special Order Parts",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932624033",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932624033"
+      }
+    },
+    {
+      "title": "RMA Process: Reconcile an RMA",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932591235",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932591235"
+      }
+    },
+    {
+      "title": "Purchase Order Notes",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932591172",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932591172"
+      }
+    },
+    {
+      "title": "Custom Forms: Adding Images to Forms",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525752",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525752"
+      }
+    },
+    {
+      "title": "Creating Customer Contact Methods",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525739",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525739"
+      }
+    },
+    {
+      "title": "Automated Notifications: Inventory Status Changes",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525726",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525726"
+      }
+    },
+    {
+      "title": "Ticket Properties: Creating New Ticket Actions",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525679",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525679"
+      }
+    },
+    {
+      "title": "Ticket Properties: Search Tickets by Assigned Properties",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525658",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525658"
+      }
+    },
+    {
+      "title": "Inventory Management: Void Inventory Associated with Inactive Catalog Items",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932493070",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932493070"
+      }
+    },
+    {
+      "title": "Ticket Properties: Requiring a Ticket Assignee",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932427651",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932427651"
+      }
+    },
+    {
+      "title": "Reports: Inventory Shrinkage",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932427609",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932427609"
+      }
+    },
+    {
+      "title": "Assigning a Customer Referral Source",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932394664",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932394664"
+      }
+    },
+    {
+      "title": "Purchase Orders: Exporting",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932394561",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932394561"
+      }
+    },
+    {
+      "title": "Ticket Properties: Designating a Ticket Assignee",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932361846",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932361846"
+      }
+    },
+    {
+      "title": "RMA Process: Sending RMA Items to the Supplier (RMA Batch)",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932296378",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932296378"
+      }
+    },
+    {
+      "title": "RMA Process: Transferring RMAs to a Central Location for Processing",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932198033",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932198033"
+      }
+    },
+    {
+      "title": "Purchase Orders: Importing and Uploading",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931411625",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931411625"
+      }
+    },
+    {
+      "title": "Customer Ticket and Device History",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931116664",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931116664"
+      }
+    },
+    {
+      "title": "Inventory Management: Tracking Non-inventoried Special Order Parts",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1930494554",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1930494554"
+      }
+    },
+    {
+      "title": "Purchase Orders: Receiving Refurb Items in Bulk",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1930494541",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1930494541"
+      }
+    },
+    {
+      "title": "Help Desk Hours and Support Requests",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1930494471",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1930494471"
+      }
+    }
+  ]
+}

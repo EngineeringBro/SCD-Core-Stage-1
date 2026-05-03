@@ -1,0 +1,129 @@
+{
+  "id": "2837905412",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2837905412",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjgzNzkwNTQxMg==",
+  "status": "current",
+  "title": "Bundling Resources",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:42.530Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 2,
+    "minorEdit": false,
+    "ncsStepVersion": "188",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2837905412.29",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2837905412"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2837905412/version/2"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ allows users to attach, or bundle, items within a ticket, which charges customers a flat fee for a repair service while internally tracking the individual costs of parts, inventory, and labor separately. When an item is bundled under another item on a ticket, the price of the bundled item does not contribute to the overall ticket total. Instead, the cost of the bundled item, referred to as the Child Item, becomes integrated into the existing parent item\u2019s price. The concept is designed so that you can charge a flat fee for a repair service, but internally track your part cost, inventory, and labor cost separately.</p><p>Here are some benefits of bundling ticket items:</p><ul><li><p><strong>Simplified Pricing</strong> - Bundling parts under labor items enables you to offer customers a straightforward, flat fee for repair services, simplifying your pricing structures.</p></li><li><p><strong>Flexible Pricing</strong> - Charging a flat fee for labor while internally tracking part costs provides adaptability in pricing, catering to varying customer needs and market conditions.</p></li><li><p><strong>Cost Tracking</strong> - Track the cost of individual parts, allowing for accurate accounting and cost analysis. This helps you manage expenses and optimize pricing strategies.</p></li><li><p><strong>Consistent Customer Experience</strong> - Streamlined pricing structures allow for quick decision-making by customers. They will understand a clear fee for repair services and approve repairs without understanding individual part costs.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Control - f79824.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2837905412/Control%20-%20f79824.png?api=v2\"></span><h3 id=\"BundlingResources-BundleSetup\">Bundle Setup</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932329061\" rel=\"nofollow\">Create a Catalog Item</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932787785\" rel=\"nofollow\">Catalog Items: Bundle Setup</a></p><h3 id=\"BundlingResources-CatalogandTicketManagementforBundledItems\">Catalog and Ticket Management for Bundled Items</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2057601121\" rel=\"nofollow\">Bundle Required: Items and Ticket Status</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2152726556\" rel=\"nofollow\">Catalog Items: Auto-Bundle and Auto-Add</a></p><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933410332\" rel=\"nofollow\">Setting up and Assigning Tax Rates</a></p><h3 id=\"BundlingResources-BundlingonTickets\">Bundling on Tickets</h3><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2200764440\" rel=\"nofollow\">Bundling Items on Tickets</a></p><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2837905412"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2837905412/child",
+    "restrictions": "/rest/api/content/2837905412/restriction/byOperation",
+    "history": "/rest/api/content/2837905412/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2837905412/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2837905412",
+    "webui": "/spaces/SCD/pages/2837905412/Bundling+Resources",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2837905412",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2837905412",
+    "tinyui": "/x/BAAnqQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

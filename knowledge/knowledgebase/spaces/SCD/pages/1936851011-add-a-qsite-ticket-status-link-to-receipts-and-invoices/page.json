@@ -1,0 +1,129 @@
+{
+  "id": "1936851011",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936851011",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjg1MTAxMQ==",
+  "status": "current",
+  "title": "Add a Qsite\u2122 Ticket Status Link to Receipts and Invoices",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:52.066Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936851011.42",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936851011"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936851011/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qsite provides an easy way for your customers to check their ticket status. The ticket status page shows a summary of the ticket, the current status of the ticket, the balance due, and when it was last updated.</p><h3 id=\"AddaQsite\u2122TicketStatusLinktoReceiptsandInvoices-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425067/Qsite+Ticket+Status+-+Keep+Customers+Updated+on+Their+Tickets\" data-linked-resource-id=\"1936425067\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Status</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523327/Qsite+Resources\" data-linked-resource-id=\"1936523327\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Qsite\u2122 Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361958/Print+Settings+-+Receipt+Template\" data-linked-resource-id=\"1932361958\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Print Settings - Receipts</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851011/image-20230608-170710.png?api=v2\"></span><h2 id=\"AddaQsite\u2122TicketStatusLinktoReceiptsandInvoices-AddingQsiteLinkstoReceiptsandInvoices\">Adding Qsite Links to Receipts and Invoices</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851011/image-20230608-170715.png?api=v2\"></span><p /><p>2. On the Settings Overview page, click the <strong>Templates</strong> dropdown on the left column. From the list of options, click either <strong>Receipts</strong> or <strong>Invoices</strong>, depending on which template you would like to change.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851011/image-20230608-170721.png?api=v2\"></span><p /><p>3. On the Template Settings page, look for the <strong>Ticket Status URL</strong> section. Once you are satisfied with your changes, click <strong>Save</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851011/image-20230608-170727.png?api=v2\"></span><ul><li><p>Click the checkbox next to <strong>Show URL</strong> to print the Qsite portal URL on your receipt/invoice.</p></li><li><p>Click the checkbox next to <strong>Show QRcode</strong> to print a QR code with the Qsite portal URL on your receipt/invoice.</p></li></ul><h3 id=\"AddaQsite\u2122TicketStatusLinktoReceiptsandInvoices-ShowURL\">Show URL</h3><p>This option adds a Qsite\u2122 ticket status portal link to the ticket receipt or invoice.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851011/image-20230608-170742.png?api=v2\"></span><h3 id=\"AddaQsite\u2122TicketStatusLinktoReceiptsandInvoices-ShowQRCode\">Show QR Code</h3><p>\u00a0This option adds a Qsite\u2122 ticket status portal QR code link to the ticket receipt or invoice\u00a0that the customer can scan and follow from their smartphone.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936851011/image-20230608-170748.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936851011"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936851011/child",
+    "restrictions": "/rest/api/content/1936851011/restriction/byOperation",
+    "history": "/rest/api/content/1936851011/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936851011/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936851011",
+    "webui": "/spaces/SCD/pages/1936851011/Add+a+Qsite+Ticket+Status+Link+to+Receipts+and+Invoices",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936851011",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936851011",
+    "tinyui": "/x/QwBycw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

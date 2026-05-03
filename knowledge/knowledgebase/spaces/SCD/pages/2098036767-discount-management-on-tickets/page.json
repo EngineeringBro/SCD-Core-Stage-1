@@ -1,0 +1,129 @@
+{
+  "id": "2098036767",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2098036767",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA5ODAzNjc2Nw==",
+  "status": "current",
+  "title": "Discount Management on Tickets",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:26.105Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "220",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2098036767.243",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2098036767"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2098036767/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ has introduced a revamped discount system designed to create custom promotions and offers. With this update, you have full control over discount amounts, durations, and the specific products and services they apply to. Discounts are applied based on predefined parameters, so they cannot apply if it does not align with a ticket item\u2019s attribute. Additionally, users will now see discounts alongside ticket items, providing clear, visual confirmation that a discount has been applied to an item.</p><p>This enhanced flexibility allows you to attract new customers, reward loyalty, and boost sales with tailored discounts. Benefits include:</p><ul><li><p><strong>Enhanced Discount Control</strong> - Admins can now set specific parameters, ensuring discounts are only applied to intended items or services.</p></li><li><p><strong>Strategic Promotions</strong> - Create time-sensitive offers to drive urgency and increase sales during specific periods. Tailored discounts can attract new customers and encourage repeat business, ultimately boosting sales.</p></li><li><p><strong>Clear Visuals</strong>: Users can easily see which discounts have been applied to which items, enhancing ticket transparency.</p></li><li><p><strong>Pro-Rata Distribution</strong> - Apply a proportional allocation when applying a dollar-amount discount across all items on a ticket.</p></li></ul><p><strong>Note</strong>: The new Discount system is optional. If you prefer the previous method of applying discounts, you can continue manually adding discounts at your discretion for any item or service, within their maximum discount limit. When the new Discount feature is active, new discounts must be created for your staff to apply to products and services. The Max Discount field in a staff member\u2019s profile will continue to cap the amount they can discount, however, they must select a discount from the Discount List. This flexibility allows you to transition at your own pace.</p><h3 id=\"DiscountManagementonTickets-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2094923832\" rel=\"nofollow\">Discounts: Activation and General Settings</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2095546399\" rel=\"nofollow\">Discounts: Creation and Customization</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2098069535\" rel=\"nofollow\">Reports: Discounts Summary and Discounts Detail</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642\" rel=\"nofollow\">RepairQ Accounting Principles</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"DiscountManagementonTickets-DiscountListStatuses\">Discount List Statuses</h2><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Discount%20Status%201.png?api=v2\"></span><ul><li><p><strong>Active </strong>- This Discount can be applied to items/tickets. It can be deactivated and/or archived at your discretion.</p></li><li><p><strong>Inactive </strong>- This discount cannot be applied to items/tickets since it has been deactivated. If the date field is blank or has not met its expiration date, it can be reactivated for use again.</p></li><li><p><strong>Archived </strong>- This discount cannot be applied to items/tickets and is in read-only status for historical viewing. Discounts are archived by manual selection.</p></li></ul><h2 id=\"DiscountManagementonTickets-ApplyingaDiscounttoaTicket\">Applying a Discount to a Ticket</h2><p>Once an inventory/labor item is added to your ticket, the discount options are available in the Ticket Items section. The user can apply a discount to all items on the ticket, a specific line item, or apply a Discount Code.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Apply%20Discount%201.png?api=v2\"></span><h3 id=\"DiscountManagementonTickets-TheDiscountGrid\">The Discount Grid</h3><p>Clicking the <strong>Add Discount button</strong> or the <strong>Grid icon</strong> will bring up the Discount Grid, which lists the available discounts with descriptions and restrictions. Users can look for specific discounts with the search bar or simply click one of the available discounts to apply it to the item/ticket. The discount will only apply to items/services that meet the requirements created for that promotion.</p><p><strong>Note</strong>: Discounts that cannot be used with other promotions on the same ticket will be listed as <strong>Not Stackable</strong>. If a discount is already in use, it will be removed from the grid when applying another discount.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Discount%20Grid%201.png?api=v2\"></span><h2 id=\"DiscountManagementonTickets-ApplyaDiscounttoanIndividualItem(Line-itemDiscount)\">Apply a Discount to an Individual Item (Line-item Discount)</h2><p>From the line item, click the <strong>Add button </strong>under the Discount column. The Discount Grid will appear, and you can select a discount to apply towards this item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Apply%20Discount%205.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Apply%20Discount%207.png?api=v2\"></span><p /><p>The discount will apply to the line item and a number will indicate the total amount of discounts assigned to this item. If you want to see more details or delete the discount, click the <strong>View/edit dropdown</strong> under the Catalog Item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Apply%20Discount%206.png?api=v2\"></span><h2 id=\"DiscountManagementonTickets-ApplyaDiscountattheTicketLevel(Ticket-wideDiscount)\">Apply a Discount at the Ticket Level (Ticket-wide Discount)</h2><p>From the bottom-right of the Ticket Item list, click the <strong>Grid icon</strong>. The Discount Grid will appear, and you can select a discount to apply towards all items on the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Apply%20Discount%208.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Apply%20Discount%207.png?api=v2\"></span><p /><p>The discount will apply to all applicable items, and a number will indicate the total amount of discounts assigned to this item. Ticket-wide discounts will be listed at the bottom of the Item List. You can view additional details and/or delete the discount by clicking the <strong>View/edit dropdown</strong>.</p><p><strong>Note</strong>: Each item with an applied discount will also have a View/edit dropdown to see more details. This example shows a ticket discount using pro-rata distribution. For more information on this, see </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Apply%20Discount%209.png?api=v2\"></span><h3 id=\"DiscountManagementonTickets-Pro-RataDistributionofTicketLevelDiscounts\">Pro-Rata Distribution of Ticket Level Discounts</h3><p>When applying a dollar-amount discount across all items on a ticket, pro-rata distribution issues a proportional allocation for all items that apply. You can activate/deactivate this feature in your Discount General Settings.</p><p>This example shows a $10 discount on a ticket with two items: Accessory - $20 and Labor - $50. The distribution of the discount will be proportionate to the price of the item. The $20 item receives a discount of $2.86, and the $50 item receives a discount of $7.14. ($2.86 + $7.14 = $10.)</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Pro%20Rata%20Example.png?api=v2\"></span><h2 id=\"DiscountManagementonTickets-Non-StackableDiscounts\">Non-Stackable Discounts</h2><p>Discounts marked as non-stackable cannot be used with other discounts on the same ticket. RepairQ will not allow a user to apply a non-stackable discount on a ticket that has already applied another discount. You will need to remove the existing discount before applying the non-stackable discount. Non-stackable discounts are flagged in yellow on the Discount Grid as well as when applied to a ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Non%20Stackable%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Non%20Stackable%202.png?api=v2\"></span><h2 id=\"DiscountManagementonTickets-RemovingDiscountsfromaTicket\">Removing Discounts from a Ticket</h2><p>When viewing discount details, click the<strong> Delete (X) button</strong> next to the discount you would like to remove.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Delete%20Discount%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2098036767/Delete%20Discount%202.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2098036767"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2098036767/child",
+    "restrictions": "/rest/api/content/2098036767/restriction/byOperation",
+    "history": "/rest/api/content/2098036767/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2098036767/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2098036767",
+    "webui": "/spaces/SCD/pages/2098036767/Discount+Management+on+Tickets",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2098036767",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2098036767",
+    "tinyui": "/x/H4ANfQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

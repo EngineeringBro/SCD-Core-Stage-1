@@ -1,0 +1,341 @@
+{
+  "seedQuery": "0",
+  "values": [
+    {
+      "title": "RepairQ 1.22.1",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2811494426",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2811494426"
+      }
+    },
+    {
+      "title": "RepairQ 1.21.5",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2772959242",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2772959242"
+      }
+    },
+    {
+      "title": "RepairQ 1.21.4",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2742845447",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2742845447"
+      }
+    },
+    {
+      "title": "Item Types",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2144370777",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2144370777"
+      }
+    },
+    {
+      "title": "Catalog Item Import: Rules and Fields",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2129002528",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2129002528"
+      }
+    },
+    {
+      "title": "Reports: Inventory Reorder Required",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2107047975",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2107047975"
+      }
+    },
+    {
+      "title": "1.20.3",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2035875867",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2035875867"
+      }
+    },
+    {
+      "title": "Embed Qsite\u2122 Features Into Your Website",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936785428",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936785428"
+      }
+    },
+    {
+      "title": "QZ Printing System Requirements and Printer Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936588827",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936588827"
+      }
+    },
+    {
+      "title": "Integrated Printing 102: Adding Integrated Printers",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936457750",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936457750"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Ping Your Device to See if it is Reachable",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786757",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786757"
+      }
+    },
+    {
+      "title": "Invoicing: Third-Party Financing Payment Options with ACH or Check",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934295142",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934295142"
+      }
+    },
+    {
+      "title": "Invoicing: Third-Party Financing Payment Options with Virtual Credit Cards",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196854",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196854"
+      }
+    },
+    {
+      "title": "Staff Management: Import and Export Staff Profiles",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933836372",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933836372"
+      }
+    },
+    {
+      "title": "Group Buying Sale Process",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933705396",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933705396"
+      }
+    },
+    {
+      "title": "Tax Calculations for Bundled Items",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933672484",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933672484"
+      }
+    },
+    {
+      "title": "Sales Tax Override",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933541561",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933541561"
+      }
+    },
+    {
+      "title": "Setting up and Assigning Tax Rates",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933410332",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933410332"
+      }
+    },
+    {
+      "title": "Trade-in Ticket Workflow",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933246606",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933246606"
+      }
+    },
+    {
+      "title": "Custom Forms: Field Groups and Form Fields",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933246513",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933246513"
+      }
+    },
+    {
+      "title": "Catalog Management: Import Catalog Items",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932624014",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932624014"
+      }
+    },
+    {
+      "title": "Catalog Management: Organize Your Catalog with Category Trees and Item Grids",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932591138",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932591138"
+      }
+    },
+    {
+      "title": "Inventory Management: Replenishment Methods",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525994",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525994"
+      }
+    },
+    {
+      "title": "Automated Notifications: Inventory Status Changes",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525726",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525726"
+      }
+    },
+    {
+      "title": "Catalog Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932427325",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932427325"
+      }
+    },
+    {
+      "title": "Inventory Management: Adjust Inventory Levels via Import",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931018445",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931018445"
+      }
+    },
+    {
+      "title": "Catalog Management: Importing Location Overrides",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931018389",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931018389"
+      }
+    },
+    {
+      "title": "Location Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1928986689",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1928986689"
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1937014846",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1937014846",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNzAxNDg0Ng==",
+  "status": "current",
+  "title": "Create a Qpop\u2122 Companion",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:06.457Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 13,
+    "minorEdit": false,
+    "ncsStepVersion": "45",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1937014846.92",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1937014846"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937014846/version/13"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qpop is a customer-facing application designed to enhance interaction and engagement at the point of sale through a dedicated touchscreen device (tablet). Always facing the customer, Qpop allows for seamless interaction during the sales process by:</p><ul><li><p>Displaying in-store advertisements and promotions</p></li><li><p>Showing real-time ticket details for customer review</p></li><li><p>Presenting electronic forms and waivers for acknowledgment</p></li><li><p>Capturing electronic signatures for payments via integrated devices</p></li></ul><p>As a browser-based solution, Qpop eliminates the need for expensive proprietary hardware. Simply choose your preferred tablet or touchscreen device, pair it with your location, and start engaging with your customers!</p><h3 id=\"CreateaQpop\u2122Companion-NextSteps\">Next Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936490516/Pair+a+Qpop+Companion\" data-linked-resource-id=\"1936490516\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Pair a Qpop Companion</a></p></li></ul><h3 id=\"CreateaQpop\u2122Companion-OptionalFeaturesandAdditionalResources\">Optional Features and Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949331/Send+Custom+Forms+to+Your+Qpop+Companion+Device\" data-linked-resource-id=\"1936949331\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Send Custom Forms to Qpop\u2122 Companion</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936359503/Capture+Integrated+Payment+Signatures+on+a+Qpop+Companion\" data-linked-resource-id=\"1936359503\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Capture Integrated Payment Signatures on a Qpop Companion</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523288/Qpop+Companion+System+Requirements\" data-linked-resource-id=\"1936523288\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Qpop\u2122 Companion System Requirements</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936654410/Qpop+Companion+Troubleshooting\" data-linked-resource-id=\"1936654410\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Troubleshooting</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-175947.png?api=v2\"></span><h2 id=\"CreateaQpop\u2122Companion-AddaQpop\u2122CompaniontoRepairQ\">Add a Qpop\u2122 Companion to RepairQ</h2><p>Log into your RepairQ location on your computer. On the RepairQ Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>. On the Settings Overview page, the left column lists different settings categories. Click on <strong>Qpop</strong> to expand the options and select <strong>Qpop Companions</strong>.</p><p><strong>Note</strong>: Users with the Shift Lead role or higher can pair and launch Qpop.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-175953.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"253\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-175959.png?api=v2\"></span><h3 id=\"CreateaQpop\u2122Companion-CreateaNewCompanion\">Create a New Companion</h3><p>On the Qpop Companions page, click <strong>Set up a Qpop Companion</strong>. Give your companion a name (without any special characters). Select the location where this companion will be used, and enter a description to add any specific details about this device.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-180004.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-180010.png?api=v2\"></span><p /><p>If you would like to add your own images to your Qpop Companion, click the <strong>Idle Screen Image</strong>\u00a0to edit the image that will show on the companion when idle.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-180015.png?api=v2\"></span><h3 id=\"CreateaQpop\u2122Companion-AddImagestoYourDevice\">Add Images to Your Device</h3><p>Drag and drop images from your computer to the <strong>Image Upload Box</strong> for graphics that you wish to upload. You can also click the box to browse files on your computer. For best results, see <a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/115005569288\" rel=\"nofollow\">Qpop\u2122 Companion - Recommended Image Resolutions</a> for sizing your images correctly.</p><p>When you upload an image, the preview will show on the companion screen in RepairQ.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-180022.png?api=v2\"></span><p /><p>Alternatively, you can also click <strong>Add from library</strong> to select an image that has been previously uploaded to your Qpop Image Library. The Idle-Screen pop-up will allow you to select an image with a preview. Click Add Image to assign the image to your Qpop Companion.</p><p><strong>Note:\u00a0</strong>You can upload up to five images which will cycle when Qpop is idle.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-180027.png?api=v2\"></span><p /><p>Click the <strong>Ticket Summary Image</strong> to edit the image that will show when you are viewing a ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-180033.png?api=v2\"></span><p /><p>Drag and drop images from your computer to the <strong>Image Upload Box</strong> for graphics that you wish to upload. You can also <strong>click the box to browse files</strong> on your computer or click <strong>Add from library</strong> to select a previously uploaded image. When you select an image, the preview will show on the companion screen in RepairQ.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Qpop 8.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/Qpop%208.png?api=v2\"></span><p /><p>Once satisfied with your changes, click <strong>Save</strong> to finish creating your companion. Your companion device will show on the device list. If you need to change the settings for your Companion, you can click the <strong>Edit</strong> button to make any changes to your device's name, assignment, or images, and be sure to save after changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014846/image-20230608-180057.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1937014846"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1937014846/child",
+    "restrictions": "/rest/api/content/1937014846/restriction/byOperation",
+    "history": "/rest/api/content/1937014846/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1937014846/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1937014846",
+    "webui": "/spaces/SCD/pages/1937014846/Create+a+Qpop+Companion",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1937014846",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937014846",
+    "tinyui": "/x/PoB0cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "2036400230",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2036400230",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzNjQwMDIzMA==",
+  "status": "current",
+  "title": "1.8.3",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-27T18:03:59.790Z",
+    "friendlyWhen": "Jul 27, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "28",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2036400230.16",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2036400230"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036400230/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Scheduled Release: 8/29/16</p><h3 id=\"id-1.8.3-Introducing,thenewGlobalSearchUI\">Introducing, the new Global Search UI</h3><p>Our goal is to provide quick access to any working document in the system from any page in RepairQ using a global search, and to get there we need to make a few changes. In RepairQ 1.8 we added several new time saving features such as the\u00a0new &quot;Jump To&quot; functionality, where if only one record is found\u00a0RepairQ places you on the resulting record instead of a search results page, reducing several clicks and page loads along the way.\u00a0We also made an &quot;advanced search&quot; accessible so that any complex search you would normally perform from a list page could instead be performed from anywhere.\u00a0RepairQ 1.8 also improved the global ticket search so that you can search for tickets by ticket number, customer, and device serial, instead of just the ticket number.\u00a0However, we recognize that along with these improvements, we took a step backwards in a few areas related to searching records efficiently, and this update addresses those areas.</p><h3 id=\"id-1.8.3-WehavetwoprimarygoalswithUpdate1.8.3\">We have two primary goals with Update\u00a01.8.3</h3><h4 id=\"id-1.8.3-Reducethenumberofclicksbeforesearching\">Reduce the number of clicks before searching</h4><p>Before 1.8, you were one click away from an inventory or customer search, where you could simply click\u00a0the appropriate search field to begin typing. With the new Global Search in 1.8, it would require three clicks before searching: one click to open the dropdown, one click to select your search target, and one click to focus on the search input before typing. In this 1.8.3 update, we reduce the number of clicks back down to one. First, you click your search target, and then you can\u00a0begin typing because the search input is automatically selected for you.</p><h4 id=\"id-1.8.3-Reduceaccidentalsearchsubmissions\">Reduce\u00a0accidental search submissions</h4><p>In 1.8, the search target label doubled as the submit button for the search. This design\u00a0tended to get in the way of efficiency. Before this update, it was placed next to the search target selection, and being the\u00a0larger clickable area\u00a0made it too easy to click it on accident when attempting to change the search target selection. In the 1.8.3 update, we added a smaller dedicated submit button, and we moved the search target selection to a new toggle button away from the submit button.</p><h3 id=\"id-1.8.3-MultiSelectFilterUpdate:select/unselectall\">Multi Select Filter Update:\u00a0select/unselect all</h3><p>To facilitate the global search updates in 1.8, we replaced the multi-select checkbox inputs with new search driven multi-select\u00a0inputs, but in the process we removed the select all and select none options. In RepairQ 1.8.3, all of the new search driven multi-select inputs have a select all and select none option.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2036400230"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 33933898
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2036400230/child",
+    "restrictions": "/rest/api/content/2036400230/restriction/byOperation",
+    "history": "/rest/api/content/2036400230/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2036400230/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2036400230",
+    "webui": "/spaces/SCD/pages/2036400230/1.8.3",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2036400230",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036400230",
+    "tinyui": "/x/ZgBheQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

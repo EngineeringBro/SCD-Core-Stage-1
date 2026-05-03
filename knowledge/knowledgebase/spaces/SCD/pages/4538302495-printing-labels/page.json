@@ -1,0 +1,129 @@
+{
+  "id": "4538302495",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/4538302495",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvNDUzODMwMjQ5NQ==",
+  "status": "current",
+  "title": "\ud83d\udda8\ufe0f Printing & Labels",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:44:44.851Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$4538302495.4",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/4538302495"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/4538302495/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"id-\ud83d\udda8\ufe0fPrinting&amp;Labels-Welcometo\ud83d\udda8\ufe0fPrinting&amp;Labels\">Welcome to \ud83d\udda8\ufe0f Printing &amp; Labels</h2>\n<p>Configure printers, print receipts, invoices, and labels.</p>\n\n<h3 id=\"id-\ud83d\udda8\ufe0fPrinting&amp;Labels-\ud83d\udccbArticlesinThisCategory\">\ud83d\udccb Articles in This Category</h3>\n<img class=\"wysiwyg-unknown-macro\" src=\"https://servicecentral.atlassian.net/wiki/plugins/servlet/confluence/placeholder/unknown-macro?name=content-by-label&amp;locale=en_US&amp;version=2\" />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/4538302495"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 271585
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/4538302495/child",
+    "restrictions": "/rest/api/content/4538302495/restriction/byOperation",
+    "history": "/rest/api/content/4538302495/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/4538302495/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=4538302495",
+    "webui": "/spaces/SCD/pages/4538302495/Printing+Labels",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/4538302495",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/4538302495",
+    "tinyui": "/x/HwCBDgE",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

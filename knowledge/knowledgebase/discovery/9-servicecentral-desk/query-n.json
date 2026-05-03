@@ -1,0 +1,149 @@
+{
+  "seedQuery": "n",
+  "values": [
+    {
+      "title": "Qsite\u2122 Opportunities - Catalog and Pricing",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2424930307",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2424930307"
+      }
+    },
+    {
+      "title": "RepairQ 1.7",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2040627283",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2040627283"
+      }
+    },
+    {
+      "title": "Staff Management Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2024734723",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2024734723"
+      }
+    },
+    {
+      "title": "Create and Redeem Gift Cards",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803669",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803669"
+      }
+    },
+    {
+      "title": "Integrations: Twilio",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803609",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803609"
+      }
+    },
+    {
+      "title": "Accounting for Miscellaneous Fees for Online Sales",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933738036",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933738036"
+      }
+    },
+    {
+      "title": "Inventory Management: Tracking Inventoried Special Order Parts",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932624033",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932624033"
+      }
+    },
+    {
+      "title": "Catalog Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932427325",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932427325"
+      }
+    },
+    {
+      "title": "Company Miscellaneous Application Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932361894",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932361894"
+      }
+    },
+    {
+      "title": "Purchase Orders: Importing and Uploading",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931411625",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931411625"
+      }
+    },
+    {
+      "title": "The RepairQ Catalog",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931018355",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931018355"
+      }
+    },
+    {
+      "title": "Inventory Management: Tracking Non-inventoried Special Order Parts",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1930494554",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1930494554"
+      }
+    }
+  ]
+}

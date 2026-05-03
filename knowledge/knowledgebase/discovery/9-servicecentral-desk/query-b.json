@@ -1,0 +1,101 @@
+{
+  "seedQuery": "b",
+  "values": [
+    {
+      "title": "Inventory Management: Methods for Moving Inventory to a Centralized Location",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2773549059",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2773549059"
+      }
+    },
+    {
+      "title": "1.17.19",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2028961804",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2028961804"
+      }
+    },
+    {
+      "title": "Deactivating (Closing) a Location: Frequently Asked Questions (FAQs)",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2009006115",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2009006115"
+      }
+    },
+    {
+      "title": "Create a Repair Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803723",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803723"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) at a Discounted Price",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803577",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803577"
+      }
+    },
+    {
+      "title": "Configuring a Cash Drawer to Open Automatically When a Receipt is Printed",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933541484",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933541484"
+      }
+    },
+    {
+      "title": "Merging Catalog Items",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932787772",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932787772"
+      }
+    },
+    {
+      "title": "Inventory Transfers: Accepting, Rejecting, and Shipping Items on Transfer Requests",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932394575",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932394575"
+      }
+    }
+  ]
+}

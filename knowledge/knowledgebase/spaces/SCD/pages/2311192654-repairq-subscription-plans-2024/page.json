@@ -1,0 +1,129 @@
+{
+  "id": "2311192654",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2311192654",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjMxMTE5MjY1NA==",
+  "status": "current",
+  "title": "RepairQ Subscription Plans (2024)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:24.519Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 15,
+    "minorEdit": false,
+    "ncsStepVersion": "352",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2311192654.87",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2311192654"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2311192654/version/15"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>ServiceCentral\u00ae has updated RepairQ subscription plans to include our new Starter Plan, tailored for beginners to the repair industry. Visit our <a class=\"external-link\" href=\"https://www.servicecentral.com/products/repair-q/pricing/\" rel=\"nofollow\"><strong>pricing page</strong></a><strong> </strong>for general information, yearly rates, and sign-up. If you have any questions, please reach out to our <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1930494471\" rel=\"nofollow\"><strong>Support Team</strong></a>.</p><h3 id=\"RepairQSubscriptionPlans(2024)-NewFeaturesandImprovementsin2024\">New Features and Improvements in 2024</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932492983\" rel=\"nofollow\"><strong>Clone a Custom Form</strong></a> - Save time and effort by creating copies of forms while retaining established form details and fields.</p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2247983133\" rel=\"nofollow\"><strong>Clone a Catalog Item</strong></a> - Copy existing catalog items, saving time and reducing repetitive data entry. Cloning items ensures consistency in your catalog by carrying key information to new items, reducing the risk of errors.</p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2340945933\" rel=\"nofollow\"><strong>Reopen Closed Tickets</strong></a><strong> and </strong><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2343272460\" rel=\"nofollow\"><strong>Purchase Orders</strong></a> - We\u2019re implementing an additional authorization that allows for manually reopening tickets and purchase orders, even after they\u2019ve been closed. While this may seem like a departure from the default behavior, it puts more control in the hands of our users, allowing for greater flexibility in managing ticket flow and operations. This empowerment can improve efficiency and customer service outcomes without contacting the Support Team.</p></li><li><p><strong>PHP 8.1 Update</strong> - This update brings a range of improvements and enhancements to your RepairQ experience including faster loading times and smoother interactions, stronger security, and enhanced protection for your data.</p></li></ul><h3 id=\"RepairQSubscriptionPlans(2024)-UpcomingFeaturesandImprovements\">Upcoming Features and Improvements</h3><ul><li><p><strong>APIs</strong> - Use RepairQ Event webhooks and API to streamline your business operations and communications!</p></li><li><p><strong>Settings Simplification</strong> - A full rebuild of our Settings pages offers simplicity in making changes at the Global or Location level. Improving the navigation of the settings page and organizing settings more relevantly can help users streamline and enhance their business operations.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Technical - 124a6d.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2311192654/Technical%20-%20124a6d.png?api=v2\"></span><h1 id=\"RepairQSubscriptionPlans(2024)-RepairQPlans,Features,andPricing\">RepairQ Plans, Features, and Pricing</h1><p>All RepairQ plans include the following tools and integrations.</p><ul><li><p><strong>Repair and Quick Sale Tickets</strong> - Document sales and repairs, including customer information, devices, sale items, labor/services, notes, waivers, and transactions.</p></li><li><p><strong>Customer Management</strong> - Create customer profiles to track purchase and repair history, send notifications, handle returns more efficiently, and segment your customers for personalized marketing campaigns.</p></li><li><p><strong>Catalog Management</strong> - Create a comprehensive list of all products and services you offer customers. Keep track of cost, price, and other attributes used for tracking various metrics for your business.</p></li><li><p><strong>Default Waivers and Forms</strong> - Tickets include access to general documents: repair waiver and device pickup.</p></li><li><p><strong>Integrated Payments</strong> - RepairQ allows all payment types when manually logging transactions on tickets, and we\u2019ve integrated with Bluefin and Square payment solutions for automatic posting to your tickets for payments and refunds.</p></li><li><p><strong>QuickBooks Integration</strong> - Transmit Journal Entry data into your asset and liability accounts in QuickBooks on a nightly basis. You can also send on-demand reports for a specific date range and location.</p></li><li><p><strong>Reports </strong>- View detailed insight into sales, inventory, and financial performance to help your business make informed decisions, track trends, and optimize operations. Reports can also be exported for record keeping.</p></li></ul><h2 id=\"RepairQSubscriptionPlans(2024)-RepairQStarter-$20/mo\">RepairQ Starter - $20/mo</h2><p>This plan is ideal for those new to the repair industry. Repair and Quick Sale tickets allow you to track standard business operations, manage potential business via quotes and in-app appointments, and view basic reporting for tracking sales and other metrics. We offer unlimited ticket creation for the first 90 days of activation, then a 75-ticket limit with the option to purchase bundles for $5/50 tickets.</p><p>Additional features can be added as your business grows and your services and capabilities expand.</p><h3 id=\"RepairQSubscriptionPlans(2024)-Add-onFeatures\">Add-on Features</h3><ul><li><p><strong>Additional Users</strong> - $5/mo per additional user</p></li><li><p><strong>Additional Tickets</strong> - $5/mo per 50 tickets</p></li><li><p><strong>Inventory Management</strong> - $15/mo - Includes Inventory Items, Inventory Counts, Purchase Orders, and RMA Tracking</p></li><li><p><strong>Create Custom Forms and Qpop Companion</strong> - $15/mo</p><ul><li><p>Create and customize forms and checklists based on your business needs.</p></li><li><p>Qpop Companion is a customer-facing application used to interact and engage with your customers at the point of sale. Qpop promotes customer interaction by displaying in-store advertisements and promotions, presenting forms and waivers for the customer to read/acknowledge, and more.</p></li></ul></li><li><p><strong>Qsite Ticket Status</strong> - $15/mo - Our companion site provides a customer portal to check ticket statuses, view ticket balances, and display store contact information.</p></li></ul><h2 id=\"RepairQSubscriptionPlans(2024)-RepairQEssential-$90/mo\">RepairQ Essential - $90/mo</h2><p>This plan is ideal for individual shops. Manage Point of Sale operations, Repair Service and Tracking, Device Buyback and Trades, Inventory Management, Qsite Ticket Status (customer portal), and Business Reporting. </p><h2 id=\"RepairQSubscriptionPlans(2024)-RepairQAdvanced-$150/mo\">RepairQ Advanced - $150/mo</h2><p>This plan is ideal for regional and high-volume locations. In addition to all Essential Plan features, stores can use Invoicing for corporate client accounts, Qsite Opportunities for online appointment and quote management, and have access to Dashboard Analytics to track KPIs and gain more insight into your business.</p><h2 id=\"RepairQSubscriptionPlans(2024)-RepairQProfessional-$180/mo\">RepairQ Professional - $180/mo</h2><p>This plan is ideal for chains and franchises. In addition to all Advanced Plan features, stores can build custom analytic reports and automate sending data to other programs via webhook and email. We also offer custom development options to create custom features, modules, and integrations unique to your business needs.</p><h2 id=\"RepairQSubscriptionPlans(2024)-RepairQOnboarding\">RepairQ Onboarding</h2><p>Whether you\u2019re launching a new venture or transitioning from another point-of-sale system, adapting to repair-based management software can be a major process. Our onboarding plans provide the necessary tools to understand our software design, ensuring you can take full advantage of our many features! Check out our article, <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2028175373\" rel=\"nofollow\">RepairQ Onboarding</a>, for more resources.</p><ul><li><p><strong>Onboarding DIY:</strong> <strong>Free</strong> - Our comprehensive Knowledge Base contains articles and videos, enabling a hassle-free DIY setup. Set up RepairQ at your own pace and convenience!</p></li><li><p><strong>Onboarding Custom Support:</strong> <strong>$120/hr</strong> - Need assistance with a specific task like importing your catalog or inventory? Our team can schedule dedicated time with you or a staff member to get started.</p></li><li><p><strong>Onboarding Quick Start:</strong> <strong>$299</strong> - This is a great entry point to learn how to use some of the more advanced, in-depth features of RepairQ. Your business will benefit from 2 hours of training and configuration plus 2 additional hours with a dedicated support contact.</p></li><li><p><strong>Onboarding Pro:</strong> <strong>$399</strong> - This plan is perfect for any business owner trying to get a jumpstart on getting their shop up and running. We provide 4 hours of training and configuration plus 2 additional hours with a dedicated support contact, ensuring you can focus on growing your profits as soon as possible.</p></li></ul><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2311192654"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2311192654/child",
+    "restrictions": "/rest/api/content/2311192654/restriction/byOperation",
+    "history": "/rest/api/content/2311192654/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2311192654/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2311192654",
+    "webui": "/spaces/SCD/pages/2311192654/RepairQ+Subscription+Plans+2024",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2311192654",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2311192654",
+    "tinyui": "/x/TgDCiQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1933607055",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933607055",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzYwNzA1NQ==",
+  "status": "current",
+  "title": "Getting Started: The Ticket Queue",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:57.246Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "89",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933607055.31",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933607055"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933607055/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Ticket Queue provides a list of tickets created within the last 90 days and are in open status. If you are searching for older tickets or other specific details, the queue can be filtered by status, type, and many other fields. This article will show the basics of navigating the Ticket Queue.</p><h3 id=\"GettingStarted:TheTicketQueue-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541674/Searching+for+Tickets\" data-linked-resource-id=\"1933541674\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Searching for Tickets</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705409/Getting+Started+The+RepairQ+Global+Search+Bar\" data-linked-resource-id=\"1933705409\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Global Search Bar</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933836359/Getting+Started+Customer+Device+Search\" data-linked-resource-id=\"1933836359\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Getting Started: Customer Device Search</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933606925/Keyword+Search+Techniques\" data-linked-resource-id=\"1933606925\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Keyword Search Techniques</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377786/RepairQ+Data+Import+Resources\" data-linked-resource-id=\"1933377786\" data-linked-resource-version=\"18\" data-linked-resource-type=\"page\">RepairQ Data Import Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"GettingStarted:TheTicketQueue-ViewingtheTicketQueue\">Viewing the Ticket Queue</h2><p>On the Navigation Bar, click <strong>Tickets</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%202.png?api=v2\"></span><p /><p>The Ticket Queue is automatically sorted by ticket number. You may also sort by any of the table's columns. For example, you can sort by Ticket Type, Date, Status, etc. by clicking any of the column headers. To jump directly to a ticket, you can click the ticket number on the left side of the entry.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%203.png?api=v2\"></span><p /><h2 id=\"GettingStarted:TheTicketQueue-TicketQueueToolbar\">Ticket Queue Toolbar</h2><p>The Queue Toolbar section provides at-a-glance details about your queue, filters to search the queue for specific tickets, customization options for column data and quick actions, and shortcuts to creating tickets.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%204.png?api=v2\"></span><p /><h3 id=\"GettingStarted:TheTicketQueue-TicketFilters\">Ticket Filters</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%205.png?api=v2\"></span><p /><p>Filters allow you to look through your entire ticket list for specific tickets. For additional details on keyword search techniques, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933606925/Keyword+Search+Techniques\" data-linked-resource-id=\"1933606925\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">here</a>.</p><p>The view button adjusts how many tickets per page (20, 50, 100, 250) are viewed on the page. Depending on the volume of tickets, there may be multiple pages. To navigate through pages, click the forward or backward buttons, or choose a page number from the drop-down to go directly to that page.</p><p /><h3 id=\"GettingStarted:TheTicketQueue-TicketQueueSummary\">Ticket Queue Summary</h3><p>Found below the Filters section, this summary provides details about the current ticket list. This information updates if you add filters.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%206.png?api=v2\"></span><p /><h3 id=\"GettingStarted:TheTicketQueue-TicketQueueOptions\">Ticket Queue Options</h3><p>Located on the far right side of the page, the Options button allows users to customize the viewable information on the list, customize options in the Actions column, and import/export ticket data.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%208.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%209.png?api=v2\"></span><ul><li><p><strong>Edit Views</strong> - This allows you to customize the default filters when viewing your queue. For more information check out <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932754986/List+Views\" data-linked-resource-id=\"1932754986\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Custom List Views, Filters, and Columns</a>.</p></li><li><p><strong>Edit Columns</strong> - This allows you to customize which columns are visible in your queue. You can add/remove columns and even reorder them.</p></li><li><p><strong>Edit Quick Actions</strong> - This allows you to add/remove visible Action Menu buttons from the Actions column. Any hidden actions will collapse under the Options button.</p></li><li><p><strong>Import</strong> - This allows you to import ticket data into RepairQ. See <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377786/RepairQ+Data+Import+Resources\" data-linked-resource-id=\"1933377786\" data-linked-resource-version=\"18\" data-linked-resource-type=\"page\">RepairQ Data Import Resources</a> for more information.</p></li><li><p><strong>Export</strong> - This allows you to export ticket data from RepairQ. See <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279357/Exporting+Data+from+RepairQ\" data-linked-resource-id=\"1933279357\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Exporting Data in RepairQ</a> for more information.</p></li></ul><h3 id=\"GettingStarted:TheTicketQueue-TicketShortcuts\">Ticket Shortcuts</h3><p>Found on the far right of the page, this shortcut allows you to create a Quick Sale, Repair, or Trade-in ticket from the queue.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%2010.png?api=v2\"></span><p /><h2 id=\"GettingStarted:TheTicketQueue-TicketActions\">Ticket Actions</h2><p>Actions have been consolidated into an Action Menu for each ticket. You can also customize which actions are visible. Action Buttons can be found\u00a0to the right of the ticket you would like to work with.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%2011.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"113\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%2012.png?api=v2\"></span><ul><li><p><strong>View </strong>- Leave the Ticket Queue page and view all details for the ticket.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"113\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%2013.png?api=v2\"></span><ul><li><p><strong>Delete </strong>- Delete the ticket from the queue and from all records.\u00a0Note: A ticket can only be deleted if all items/services have been removed from the ticket, and there is no transaction history on the ticket. If there is any sort of device/transaction history on a ticket, it can be zeroed out and closed but not deleted.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"113\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%2014.png?api=v2\"></span><ul><li><p><strong>Void </strong>- Leave the Ticket Queue and start the void process for a ticket. For more information, check out\u00a0Voiding Tickets.\u00a0Note: Voided tickets are not referenced in reporting, but they will remain for historical purposes.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"113\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%2015.png?api=v2\"></span><ul><li><p><strong>Return</strong> - Leave the Ticket Queue and start a return on a ticket. For more information, check out\u00a0<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770876/Processing+a+Return+on+a+Ticket\" data-linked-resource-id=\"1933770876\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Processing a Return on a Ticket</a>.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"113\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%2016.png?api=v2\"></span><ul><li><p><strong>Convert </strong>- Convert a Quote to a Ticket. For more information, check out\u00a0Quotes Overview.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"113\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%2017.png?api=v2\"></span><ul><li><p><strong>Transfer </strong>- If you have multiple locations, you can transfer a ticket from one location to another.</p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"113\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933607055/Ticket%20Queue%2018.png?api=v2\"></span><ul><li><p><strong>Edit</strong> - Leave the Ticket Queue page and begin editing the ticket.</p></li></ul><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933607055"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933607055/child",
+    "restrictions": "/rest/api/content/1933607055/restriction/byOperation",
+    "history": "/rest/api/content/1933607055/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933607055/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933607055",
+    "webui": "/spaces/SCD/pages/1933607055/Getting+Started+The+Ticket+Queue",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933607055",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933607055",
+    "tinyui": "/x/j4BAcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "seedQuery": "h",
+  "values": [
+    {
+      "title": "Inventory Management: Adjust Inventory Levels via Import",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931018445",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931018445"
+      }
+    }
+  ]
+}

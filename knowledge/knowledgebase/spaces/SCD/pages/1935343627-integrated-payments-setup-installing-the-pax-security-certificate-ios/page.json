@@ -1,0 +1,129 @@
+{
+  "id": "1935343627",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1935343627",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNTM0MzYyNw==",
+  "status": "current",
+  "title": "Integrated Payments Setup: Installing the PAX Security Certificate - iOS",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:46.272Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "10",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1935343627.24",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1935343627"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935343627/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>If you are utilizing Bluefin or Heartland for payment integration in RepairQ, you will need to download and install a Security Certificate on each computer/device that will communicate with a PAX payment terminal.</p><p>This tutorial will guide you through the process of downloading, installing, and testing the required certificate.</p><h3 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-iOS-NextSteps(BasedonYourProcessorandDevice)\">Next Steps (Based on Your Processor and Device)</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935376416/Integrated+Payments+Setup+Adding+a+Bluefin+PAX+Payment+Terminal+Device+in+RepairQ\" data-linked-resource-id=\"1935376416\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935998977/Integrated+Payments+Setup+Adding+a+Heartland+PAX+S300+A80+Payment+Terminal+in+RepairQ\" data-linked-resource-id=\"1935998977\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Heartland PAX S300 Payment Terminal in RepairQ</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-iOS-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Introduction to Integrated Payments - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Troubleshooting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935507459/Integrated+Payment+Setup+Assigning+Your+PAX+Payment+Device+to+a+VCT+and+Processing+Payments\" data-linked-resource-id=\"1935507459\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payment Setup: Assigning Your PAX Payment Device to a VCT and Processing Payments</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184410.png?api=v2\"></span><p /><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-iOS-DownloadingandInstallingthePAXSecurityCertificate\">Downloading and Installing the PAX Security Certificate</h2><p /><p>1. Open Safari browser and navigate to <a class=\"external-link\" href=\"https://repairq.io/ca.repairq.io.cer\" rel=\"nofollow\"><strong>https://repairq.io/ca.repairq.io.cer</strong></a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184418.png?api=v2\"></span><p /><p /><p>2. You will receive a notification, asking for authorization to download a configuration profile. Tap <strong>Allow</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184425.png?api=v2\"></span><p /><p /><p>3. You will receive a confirmation that the profile has been downloaded, and you will need to install it from the Settings app. Tap <strong>Close</strong> to leave the pop-up.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184432.png?api=v2\"></span><p /><p /><p>4. Open the <strong>Settings\u00a0</strong>application. You should have a notification that the profile was downloaded. Tap <strong>Profile Downloaded</strong> to begin the installation.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184440.png?api=v2\"></span><p /><p /><p>5. On the Install Profile pop-up, tap <strong>Install</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184446.png?api=v2\"></span><p /><p /><p><strong>Note</strong>: If your device is password-protected, you will be prompted to enter your password.</p><p /><p>6. Read through the warning message and tap <strong>Install</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184453.png?api=v2\"></span><p /><p /><p>7. Once the profile has been installed, tap <strong>Done</strong> to finish the process.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184501.png?api=v2\"></span><p /><p /><p>8. (Optional) We recommend rebooting your device after installation.</p><p /><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-iOS-TestingthePAXSecurityCertificate\">Testing the PAX Security Certificate</h2><p>Open Safari and direct your browser to <strong>test.term.repairq.io</strong>.</p><ul><li><p>If the certificate <strong>is not</strong> installed correctly, you will see this window letting you know that your device cannot verify server identity, and you will need to re-do the above steps:</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184508.png?api=v2\"></span><p /><ul><li><p>If the certificate <strong>is </strong>installed correctly, you will see\u00a0a window similar to this, with a lock icon in the URL window.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935343627/image-20230608-184516.png?api=v2\"></span><p /><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1935343627"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1935343627/child",
+    "restrictions": "/rest/api/content/1935343627/restriction/byOperation",
+    "history": "/rest/api/content/1935343627/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1935343627/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1935343627",
+    "webui": "/spaces/SCD/pages/1935343627/Integrated+Payments+Setup+Installing+the+PAX+Security+Certificate+-+iOS",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1935343627",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935343627",
+    "tinyui": "/x/CwBbcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

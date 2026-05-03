@@ -1,0 +1,129 @@
+{
+  "id": "1936261226",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936261226",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjI2MTIyNg==",
+  "status": "current",
+  "title": "Qsite\u2122 Opportunities Settings Management",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:02.195Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936261226.46",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936261226"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936261226/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qsite Opportunities<em>\u00a0</em>is a RepairQ companion app that provides ways for your customers to engage with your store. Opportunities allow customers to search for store locations near them, look up your services and prices, build quotes, and book appointments. When appointments are booked, quote tickets are created in RepairQ with that customer's device and information filled out.\u00a0 This allows you to quickly pull up and start their ticket, saving both you and the customer time. Qsite Opportunities are available to our Advanced and Professional users.</p><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936523327\" rel=\"nofollow\">Qsite Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936588905/Qsite+Opportunities\" data-linked-resource-id=\"1936588905\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Qsite\u2122 Opportunities</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425067/Qsite+Ticket+Status+-+Keep+Customers+Updated+on+Their+Tickets\" data-linked-resource-id=\"1936425067\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Status</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936785428/Embed+Qsite+Features+Into+Your+Website\" data-linked-resource-id=\"1936785428\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Embed Qsite\u2122 Features Into Your Website</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936326777/Adding+Your+Company+Logo+to+RepairQ\" data-linked-resource-id=\"1936326777\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Adding Your Company Logo to RepairQ</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932591138\" rel=\"nofollow\">Categories: Create an Item Tree</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932230697\" rel=\"nofollow\">Categories: Create an Item Grid</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932591125\" rel=\"nofollow\">Catalog Items: Device Compatibility</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Technical - 124a6d.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"Qsite\u2122OpportunitiesSettingsManagement-AccessingQsiteOpportunitiesSettings\">Accessing Qsite Opportunities Settings</h2><p>Users with the Admin role can access these settings. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company</strong> <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171004.png?api=v2\"></span><p /><p>On the Settings Overview page, scroll down to the Qsite section. The features of each setting are outlined below.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171031.png?api=v2\"></span><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-Embed\">Embed</h3><p>This page includes options for using Qsite through your website. There are available options for Qsite Ticket Status, Qsite Opportunities, and Qsite Ticket Lookup. For more information on this process, see <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936785428\" rel=\"nofollow\">Embed Qsite\u2122 Features Into Your Website</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171038.png?api=v2\"></span><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-GeneralSettings\">General Settings</h3><p>This page includes options to customize your logo and color theme based on your brand, Navigation Breadcrumb settings, Terms of Use disclaimers, and Support Language to notify visitors when encountering an unexpected error.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171044.png?api=v2\"></span><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-Locations\">Locations</h3><p>This page includes Location Finder settings for searching your locations on a map. You can select a search range and location limit, and customize the message displayed to customers when searching for a location. You can also enable/disable locations from search visibility on the Qsite Opportunities page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171051.png?api=v2\"></span><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-RequestTypes\">Request Types</h3><p>This page is where you configure the services offered on the Qsite Opportunities page. Before using this feature, you must configure your Category Tree, link catalog items to the categories, and (optionally) configure Item compatibility.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171057.png?api=v2\"></span><p /><p /><p>Determine whether you would like to offer Repair services to your customers on Qsite. If enabled, you can select which Item Grid to use for navigation and select compatible services.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171102.png?api=v2\"></span><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-ContactForm\">Contact Form</h3><p>On this page, you can configure the message to customers when they are prompted to submit their contact information.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171107.png?api=v2\"></span><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-Quotes\">Quotes</h3><p>This page is used to configure Quote price visibility, including the Advertised Price reflected in the item's Catalog settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171114.png?api=v2\"></span><p /><p>You can also configure the message to customers after they submit their contact information and view their quotes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171226.png?api=v2\"></span><p /><p>There are also settings to change the message when quotes are disabled, the price is not advertised, or the price cannot be identified.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171232.png?api=v2\"></span><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-Ticket\">Ticket</h3><p>This page allows you to configure the title and description on the Quote confirmation page, the Ticket Lookup page, and Ticket Resolution requirements when canceling a quote.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171238.png?api=v2\"></span><p /><p>The Ticket Lookup feature works with the <a href=\"#Embed\" rel=\"nofollow\">Qsite Embed</a> feature to provide customers with a place to manage their ticket and appointment details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171244.png?api=v2\"></span><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-Appointments\">Appointments</h3><p>This page allows you to enable/disable customer-level appointment scheduling from Qsite, manage appointment block scheduling, and customize the message for customers when choosing an appointment time and when receiving their appointment confirmation. You can also select the default appointment status that will be applied to appointments updated via Qsite.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171255.png?api=v2\"></span><h3 id=\"Qsite\u2122OpportunitiesSettingsManagement-TicketApproval\">Ticket Approval</h3><p>If you use the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936228434/Qsite+Ticket+Approval+Setup+-+Settings+and+Conditions\" data-linked-resource-id=\"1936228434\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Ticket Approval</a> feature, this page will allow you to enable/disable an online portal where customers can view approval requests and accept/reject them electronically. You can customize the message for customers when requesting authorization and the confirmation page for when they approve/decline the approval.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171301.png?api=v2\"></span><p /><p>You can add supplemental terms and conditions for approvals.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171309.png?api=v2\"></span><p /><p>You can also require the customer to view the approval document before submitting approval and require them to leave a note upon submission.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936261226/image-20230608-171314.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936261226"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936261226/child",
+    "restrictions": "/rest/api/content/1936261226/restriction/byOperation",
+    "history": "/rest/api/content/1936261226/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936261226/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936261226",
+    "webui": "/spaces/SCD/pages/1936261226/Qsite+Opportunities+Settings+Management",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936261226",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936261226",
+    "tinyui": "/x/agBpcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

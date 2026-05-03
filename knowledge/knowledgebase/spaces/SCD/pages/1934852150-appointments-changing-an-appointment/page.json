@@ -1,0 +1,129 @@
+{
+  "id": "1934852150",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934852150",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDg1MjE1MA==",
+  "status": "current",
+  "title": "Appointments: Changing an Appointment",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:58:01.987Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934852150.34",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934852150"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934852150/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Users can reserve blocks of time for your customers to come in and spend time with an assigned user. You can also specify whether an appointment is for a Repair ticket, Sales ticket, or a Trade-in ticket. If a customer decides they need to change their reservation, users can change the appointment from the Appointment List.</p><h3 id=\"Appointments:ChanginganAppointment-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246822/Appointments+General+Settings\" data-linked-resource-id=\"1933246822\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Appointments: General Settings</a></p></li><li><p><a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/360002477814\" rel=\"nofollow\">Appointments: Scheduling an Appointment</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491709/Appointments+Canceling+an+Appointment\" data-linked-resource-id=\"1934491709\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Appointments: Canceling an Appointment</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-171834.png?api=v2\"></span><h2 id=\"Appointments:ChanginganAppointment-LocatingtheAppointmentList\">Locating the Appointment List</h2><p>To find your Appointment List, use the Navigation Bar at the top of RepairQ to go to <strong>Opportunities</strong> \u2192 <strong>Appointments</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-171842.png?api=v2\"></span><p /><h2 id=\"Appointments:ChanginganAppointment-ViewingSetAppointments\">Viewing Set Appointments</h2><p>After an appointment is set, it will appear on the Appointments List View page.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/Appointment%209.png?api=v2\"></span><p /><p>The Appointments List view page allows users to search for appointments by Name, Device, Request Type, and more. For more on how list views and searching work, please see our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932754986/List+Views\" data-linked-resource-id=\"1932754986\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Custom List Views, Filters, and Columns</a>.</p><p>You can view scheduled appointments by List, Day, Week, or Month. In each view, you will notice a left and right arrow that allow you to cycle between units of time. There is also a today button, which when viewing the Day list, will bring you back to the current date.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/Appointment%2010.png?api=v2\"></span><p /><h3 id=\"Appointments:ChanginganAppointment-AppointmentListView\">Appointment List View</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/Appointment%2011.png?api=v2\"></span><p /><h3 id=\"Appointments:ChanginganAppointment-AppointmentDayView\">Appointment Day View</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/Appointment%2012.png?api=v2\"></span><p /><h3 id=\"Appointments:ChanginganAppointment-AppointmentWeekView\">Appointment Week View</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/Appointment%2013.png?api=v2\"></span><p /><h3 id=\"Appointments:ChanginganAppointment-AppointmentMonthView\">Appointment Month View</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/Appointment%2014.png?api=v2\"></span><p /><h2 id=\"Appointments:ChanginganAppointment-EditinganAppointment\">Editing an Appointment</h2><p>We'll walk you through a quick example using <strong>Bob Roberts</strong>' name as a keyword to narrow results to find their <strong>November 21st</strong> appointment and change the date to <strong>November 28th</strong>.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-172027.png?api=v2\"></span><p /><p>1. From the Appointments List View filter, select <strong>+Keyword</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-172033.png?api=v2\"></span><p /><p>2. Enter your keyword (<strong>Bob</strong> <strong>Roberts</strong>), then select <strong>Apply</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-172043.png?api=v2\"></span><p /><p>3. From the narrowed results, scroll through to find the appointment you would like to edit and select the\u00a0Options Menu\u00a0below the\u00a0Action\u00a0column.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-172049.png?api=v2\"></span><p /><p>4. From the\u00a0<strong>Options Menu</strong>, select\u00a0<strong>Edit</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-172052.png?api=v2\"></span><p /><p>5. Review the information shown in the\u00a0<strong>Edit Appointment</strong> pop-up, and find what you would like to edit.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-172056.png?api=v2\"></span><p /><p>6. For this example, we will change the <strong>Date</strong> and <strong>Time</strong>. Click each field and edit the information as needed.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-172100.png?api=v2\"></span><p /><p>7. When you are finished, click <strong>Save\u00a0</strong>to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-172104.png?api=v2\"></span><p /><p>When you are finished, the list will refresh, and you will be able to see the changes to your appointment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934852150/image-20230622-172107.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934852150"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934852150/child",
+    "restrictions": "/rest/api/content/1934852150/restriction/byOperation",
+    "history": "/rest/api/content/1934852150/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934852150/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934852150",
+    "webui": "/spaces/SCD/pages/1934852150/Appointments+Changing+an+Appointment",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934852150",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934852150",
+    "tinyui": "/x/NoBTcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

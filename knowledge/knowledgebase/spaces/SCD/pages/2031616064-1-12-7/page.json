@@ -1,0 +1,130 @@
+{
+  "id": "2031616064",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2031616064",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMTYxNjA2NA==",
+  "status": "current",
+  "title": "1.12.7",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-21T18:41:13.025Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "5",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2031616064.13",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2031616064"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031616064/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released\u00a005/09/2017 11:21 CT (16:21 UTC)</p><h2 id=\"id-1.12.7-SalesSummarybyStaffReport\">Sales\u00a0Summary by Staff Report</h2><p>Two fixes are submitted in this update.</p><ul><li><p>The report now applies the\u00a0catalog item filter accordingly</p></li><li><p>The sales % column is fixed (i.e. no longer displaying zeros)</p></li></ul><h2 id=\"id-1.12.7-Deviceview,ticketlink\">Device view, ticket link</h2><p>The ticket link on the device view is fixed.</p><h2 id=\"id-1.12.7-InventoryRefurbPermission\">Inventory Refurb Permission</h2><p>The permission rule for creating refurb tickets from inventory items has been separated out from the base inventory edit permission; the permission\u00a0can now be configured separately from inventory editing (e.g. allowing refurb creation without also allowing inventory editing).</p><p><em>Permissions customization is only available on the Enterprise Plan</em></p><h2 id=\"id-1.12.7-RepairDeviceNotes\">Repair Device Notes</h2><p>The spacing for line/paragraph breaks was &quot;doubled&quot;\u00a0when the new text markup tool was introduced in RepairQ 1.12.5. This issue has been resolved, and the spacing is now what it was before the 1.12.5 update.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2031616064"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 312704514
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2031616064/child",
+    "restrictions": "/rest/api/content/2031616064/restriction/byOperation",
+    "history": "/rest/api/content/2031616064/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2031616064/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2031616064",
+    "webui": "/spaces/SCD/pages/2031616064/1.12.7",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2031616064",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031616064",
+    "tinyui": "/x/QAAYeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

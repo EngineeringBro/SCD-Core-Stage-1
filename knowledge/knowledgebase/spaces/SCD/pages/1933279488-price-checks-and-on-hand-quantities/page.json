@@ -1,0 +1,129 @@
+{
+  "id": "1933279488",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933279488",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI3OTQ4OA==",
+  "status": "current",
+  "title": "Price Checks and On-Hand Quantities",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:36.110Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "28",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933279488.19",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933279488"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279488/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Need to check the price of an item or see your current on-hand quantity? Users can check this information no matter where they are in the system and without interrupting their current workflow.</p><h3 id=\"PriceChecksandOn-HandQuantities-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705356/Getting+Started+The+RepairQ+Dashboard\" data-linked-resource-id=\"1933705356\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Dashboard</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672605/Getting+Started+The+RepairQ+Menu+Item+Bar\" data-linked-resource-id=\"1933672605\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Menu Item Bar</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705409/Getting+Started+The+RepairQ+Global+Search+Bar\" data-linked-resource-id=\"1933705409\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Global Search Bar</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279488/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"PriceChecksandOn-HandQuantities-PerformingaPriceCheckandCheckingOnhandQuantity\">Performing a Price Check and Checking Onhand Quantity</h2><p /><p>1. On the right side of the RepairQ Navigation Bar, click the <strong>Price Check</strong> button.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"566\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279488/Price%20Check%201.png?api=v2\"></span><p /><p>2. A Price Check pop-up window will appear. In the Search Box, you can type in a Keyword/SKU/UPC/Serial Number, then select a location to search. You can search any location where you have a role assigned. Click the <strong>Search</strong> button to submit.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279488/Price%20Check%202.png?api=v2\"></span><p /><p>3. Your search results will provide item information including the location, Instock quantity, Price, and Price+Tax.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279488/Price%20Check%205.png?api=v2\"></span><p /><p><strong>Note:</strong> The Cost of items can be hidden. See <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312043/Hiding+Analytics+on+Tickets+and+Price+Checks\" data-linked-resource-id=\"1933312043\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Hiding Cost on VCT/Price Check</a> for additional information.</p><p /><p>4. Clicking the Catalog Item link will take you to the Inventory Summary for the item.</p><p>Alternatively, click the <strong>X\u00a0</strong>button to close the window and return to your previous page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279488/Price%20Check%203.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279488/Price%20Check%204.png?api=v2\"></span><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933279488"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933279488/child",
+    "restrictions": "/rest/api/content/1933279488/restriction/byOperation",
+    "history": "/rest/api/content/1933279488/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933279488/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933279488",
+    "webui": "/spaces/SCD/pages/1933279488/Price+Checks+and+On-Hand+Quantities",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933279488",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279488",
+    "tinyui": "/x/AIE7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "2040856660",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2040856660",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjA0MDg1NjY2MA==",
+  "status": "current",
+  "title": "1.7.3.x",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-08-01T22:58:41.255Z",
+    "friendlyWhen": "Aug 02, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "9",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2040856660.13",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2040856660"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040856660/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Follow this post for any\u00a0live updates published after the\u00a01.7.3 Release on February 8, 2016, and before the next numbered release.</p><p><strong>Feb 9, 10:45 AM CST -\u00a0</strong>Return ticket load fix</p><p>Fixed an issue with child items in a bundle. When loading a return ticket that has a taxable child item, the tax calculation would fail to run, causing the return item list to not load.</p><p><strong>Feb 10, 12:45 PM CST -\u00a0</strong>Summary Report\u00a0failing to load</p><p>Fixed an issue where the\u00a0Summary Report would occasionally fail to load, due to a bug in the way empty &quot;Tax Details&quot; were handled.</p><p><strong>Feb 10, 2:30 PM CST</strong> -\u00a0Return item &quot;tax details&quot; were not saving properly</p><p>The &quot;tax details&quot; value (e.g.\u00a0&quot;Sales Tax: $2.43 Other Tax: $0.56&quot;) was not being saved properly for return items as of the 1.7.3 release on February 9 (1 day ago). This would cause the &quot;returned tax detail&quot; figure(s) on the tax report to be incorrect, and would cause return tickets with more than one return to sometimes fail to load properly. The bug\u00a0has been fixed, and any return items with invalid\u00a0tax detail values have had the proper values restored.</p><p><strong>Feb 16, 3:28 PM CST</strong> - Ticket Export, Billing Agent values</p><p>Ticket export changed so that the &quot;Billing Agent&quot; column represents the Billing Agent associated with the ticket, rather than the\u00a0Billing Agent associated as the customer's default.</p><p><strong>Feb 16, 3:57 PM CST - </strong>Ticket Attribute Changelog</p><p>Restored ticket\u00a0attribute change logging that result from ticket saves from the ticket edit screen.</p><p><strong>Feb 18, 1:04 PM CST - NEW FEATURE\u00a0</strong>Inventory Details - New Page Filters</p><p>We added\u00a02 new filters to the Inventory Details page. A date filter,\u00a0where you can filter by added date, updated date, or status updated date, and an &quot;Inactive items only&quot; filter where you can filter for\u00a0the inventory records that belong to inactive catalog items.</p><p><strong>Feb 18, 4:44 PM CST</strong> - Ticket item backorder linking to wrong PO fixed</p><p>If you have an item\u00a0on a PO in the ordered status, and at the same time\u00a0sell the same item on a ticket while out of stock, rather than setting\u00a0the item added to the ticket as &quot;backordered&quot; it\u00a0links the item\u00a0to the purchase order and advances the item to the &quot;ordered&quot; status.\u00a0This is meant to help prevent\u00a0special ordering a backordered item because you already have it on order.\u00a0However, in some rare cases, if you had the item ordered on an\u00a0old purchase order that was already received or rejected in full, but not advanced to the &quot;reconciled&quot; status, it would link the new backordered item from the ticket to the old purchase order which cannot fulfill the item.\u00a0This should no longer occur as of\u00a0this fix.</p><p><strong>Feb 19, 12:37 AM CST -\u00a0NEW FEATURE -\u00a0</strong>Save inventory item origin PO\u00a0link</p><p>The inventory item purchase order link can change\u00a0when an item is involved in one or more internal purchase order transfers, and we wanted to add an attribute that stores the original purchase order the inventory item was first\u00a0added\u00a0on. This origin PO value remains unchanged so that you always retain a\u00a0link to the original purchase order the inventory item was received on. The origin PO is displayed on the inventory item inspect, view, details, and details export. The inventory item origin PO will only be tracked for new items going forward as of this update.</p><p><strong>Feb 23, 12:55 PM CST</strong> - Return Repair replacement serialized item update</p><p>When you\u00a0return and replace a serialized item on a Return Repair ticket, it asks you to enter the serial number for the item before finishing the ticket. If you\u00a0had serialized items at different price points, it wouldn't always\u00a0accept the serial number entered. This\u00a0intermittent problem has been fixed, and it will now\u00a0accept all valid serial numbers entered for the replacement item.</p><p><strong>Feb 29, 2:30 PM CST -\u00a0</strong>Return Repair by Tech Report resolution filter fix</p><p>Using Ticket Resolution filter\u00a0would prevent the report from loading. This has been fixed.</p><p><strong>Feb 29, 2:53 PM CST</strong> - Ignore restock fee for zero dollar items</p><p>Restock fees would not work properly if you processed a subsequent return for a return repair item (i.e. returning a return repair). The fix involved ignoring the restock fee for zero dollar returns.</p><p><strong>Feb 29, 3:02 PM CST</strong> - Inventory Reports supplier filter add &quot;no supplier&quot; option</p><p>For tradeins it is possible to have inventory items with no supplier value set. You can now filter for these items on your inventory reports using the &quot;No supplier set&quot; option in the supplier filter. In addition, if you select &quot;All suppliers&quot; will\u00a0now properly include all items including those inventory items where no supplier was set.</p><p><strong>Mar 2, 12:25 PM CST</strong> - Permission structure updates</p><p>With this update, location based permissions are\u00a0enforced more strictly. We also resolved an issue with the bulk edit permission on the inventory details page where only admin users reliably had the permission to do bulk edits. Lastly, shift leads and inventory managers will now be able to click on the &quot;Reports&quot; link and view the reports they have access to, where previously they could not navigate to the\u00a0Reports section directly. To\u00a0accommodate non-managers navigating to the reports section, we also created a reports section &quot;landing page,&quot; rather than redirecting to the Revenue Report by default.</p><p><strong>Mar 4, 5:40 PM CST</strong> - Discount percentage permission fix</p><p>Staff percentage discounts were not\u00a0enforcing the\u00a0max discount level properly, enforcing percentage as a dollar amount instead of a percentage. This issue has been resolved. <em>Note: you may need to\u00a0reload the ticket edit screen or reset your browser file cache\u00a0for the update to apply.</em></p><p><strong>Mar 10, 11:43 AM CST</strong> - Suppress\u00a0sending notifications to customers for refurb tickets</p><p>If you had a ticket automated notification setup to send to the {customer} template tag, you could get notifications sent out to the customer for refurbish tickets. Since refurbish tickets are for &quot;internal&quot; repairs, it makes sense to suppress\u00a0any notifications setup for\u00a0delivery to the customer.\u00a0As of this update, no more notifications will be queued up for delivery to the {customer} for refurb tickets.</p><p><strong>Mar 10, 12:02 AM CST</strong> - Fix tax report\u00a0excel export</p><p>The export was choking whenever records without any tax detail values were present. This issue has been fixed and exporting the tax report should work normally now.</p><p><strong>Mar 10, 1:44 PM CST</strong> - Fix issue with cash payments less than 1.00</p><p>Cash payments\u00a0entered for\u00a0less\u00a0than 1.00 using the &quot;Add Transaction Form&quot; (not including\u00a0the &quot;Quick Cash&quot; input) were not being allowed. The maximum payment allowable was getting not set\u00a0properly, so any payment less than 1.00 using that form was being rejected, saying &quot;payment must be less than or equal to 0.00.&quot; This behavior has been fixed, and processing\u00a0cash payments for less than 1.00 should now work properly. <em>NOTE:\u00a0clicking the browser reload/refresh page button on the ticket edit screen may be required to receive the fix. If that doesn't work, empty your browser file cache.</em></p><p><strong>Mar 15, 10:38 AM CST</strong> - Serial number unique validation for single item edit</p><p>If you edited an existing inventory item, you could change the serial number to match the serial number for another instock item, which should not be permissible.The individual inventory item edit action was the only place where this was possible, and we have now closed the\u00a0loophole.</p><p><strong>Mar 28, 10:59 AM CST</strong> - Automated Notification recipients</p><p>Exclude non-active staff members from notifications. Also, notifications configured for admin &amp; accountant roles should work more reliably.</p><p><strong>Apr 13, 1:04 PM CST</strong> - Prevent Merging a catalog item into a deleted catalog item</p><p>The Catalog Item Suggest Merge feature now\u00a0excludes catalog items flagged as inactive or deleted. This feature is triggered from the purchase order edit screen or the catalog item edit screen when\u00a0a supplier sku is entered that is already associated with a different\u00a0catalog item, and when triggered asks &quot;This supplier sku is associated with [Item XYZ], would you like to merge this item\u00a0with[Item XYZ]?&quot;\u00a0</p><p><strong>Apr 18, 11:38 AM CST</strong> - Resolve Credit Card swipe issues on Google Chrome\u00a0version\u00a050.0.2661.75</p><p>We received many reports of people being unable to get past the &quot;Invalid credit card entry&quot; entry when processing\u00a0credit cards in RepairQ using Google Chrome. This error is produced when RepairQ does not get a valid input\u00a0from the credit card reader. The\u00a0issue was related to the\u00a0latest Google Chrome update, where they changed the way the browser process hidden inputs. We just published an update that resolves the issue for the latest version of Chrome. <em>NOTE: you\u00a0may need to reload/refresh the page while\u00a0on the ticket edit screen to pick up this update in your browser.</em></p><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2040856660"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 430966088
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2040856660/child",
+    "restrictions": "/rest/api/content/2040856660/restriction/byOperation",
+    "history": "/rest/api/content/2040856660/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2040856660/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2040856660",
+    "webui": "/spaces/SCD/pages/2040856660/1.7.3.x",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2040856660",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2040856660",
+    "tinyui": "/x/VACleQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

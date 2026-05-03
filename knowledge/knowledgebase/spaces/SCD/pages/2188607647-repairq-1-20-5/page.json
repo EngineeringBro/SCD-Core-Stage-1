@@ -1,0 +1,129 @@
+{
+  "id": "2188607647",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2188607647",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjE4ODYwNzY0Nw==",
+  "status": "current",
+  "title": "RepairQ 1.20.5",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:05:52.695Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 22,
+    "minorEdit": false,
+    "ncsStepVersion": "3339",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2188607647.89",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2188607647"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2188607647/version/22"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Our commitment to providing you with the best possible experience continues with upgrading our software to PHP 8.1. This update brings a range of improvements and enhancements to make your experience even better!</p><ul><li><p><strong>Enhanced Performance</strong> - Faster loading times and smoother interactions. Enjoy a snappier and more responsive software experience.</p></li><li><p><strong>Advanced Security</strong> - Stronger protection for your data, creating peace of mind for you and your customers.</p></li><li><p><strong>Future-Proofing</strong> - Ensuring our software remains up-to-date with industry standards opens the doors for better integrations and new features.</p></li></ul><p>With this update, we\u2019re also introducing our new RepairQ Starter plan, designed for those new to the repair industry. Repair and Quick Sale tickets allow you to track standard business operations, manage potential business via quotes and in-app appointments, and view basic reporting for tracking sales and other metrics. Additional features can be added as your business grows and your services and capabilities expand. For more information, check out our article, <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2311192654\" rel=\"nofollow\">2024 RepairQ Subscription Plans</a>.</p><h1 id=\"RepairQ1.20.5-Features\">Features</h1><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932492983\" rel=\"nofollow\"><strong>Clone a Custom Form</strong></a> - Save time and effort by creating copies of forms while retaining established form details and fields.</p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2247983133\" rel=\"nofollow\"><strong>Clone a Catalog Item</strong></a> - Copy an existing Catalog Item, saving time and reducing repetitive data entry. Cloning items ensures consistency in your catalog by carrying key information to new items, reducing the risk of errors.</p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2340945933\" rel=\"nofollow\"><strong>Reopen Closed Tickets</strong></a><strong> and </strong><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2343272460\" rel=\"nofollow\"><strong>Reconciled Purchase Orders</strong></a> - Admins can update Ticket and PO settings to allow managers to reopen closed records. This feature puts more control in the hands of our users, allowing for greater flexibility in managing operations without contacting the Support Team.</p></li></ul><h1 id=\"RepairQ1.20.5-Enhancements\">Enhancements</h1><ul><li><p>Various improvements to Qpop for performance, stability, and connectivity.</p></li><li><p>Improved the way RepairQ processes inventory data to create inventory counts. This will prevent high-volume inventory counts from impacting performance.</p></li><li><p>Improved the consistency of Location filter results. Previously, databases with a higher number of locations would omit some locations from search results</p></li><li><p>Added \u201cReject All\u201d when selecting line items in an Internal Transfer (internal Purchase Order). This improves the efficiency of rejecting items on an internal purchase order.</p></li><li><p>Catalog items now allow for multiple Supplier SKU assignments.</p></li></ul><h1 id=\"RepairQ1.20.5-Bugs\">Bugs</h1><h3 id=\"RepairQ1.20.5-Catalog,InventoryItems,andPurchaseOrders\">Catalog, Inventory Items, and Purchase Orders</h3><ul><li><p>Unless specified, the Catalog Item List will no longer include deleted items in filtered results.</p></li><li><p>Merging catalog items has been fixed.</p></li><li><p>Deleting catalog items will no longer result in an Error 500 message. If the user receives an error, we have also updated the error handling process to give the user an explanation of why the item could not be deleted.</p></li><li><p>Fixed the unresponsive \u201cAdd Stock\u201d button when manually adjusting inventory item quantities.</p></li><li><p>Fixed an issue that allowed a user to remove the \u201cSupplier\u201d field details when editing an inventory item.</p></li><li><p>Activating auto-serialization will no longer restrict the user from manually assigning serial numbers when adding/editing serial numbers for inventory items.</p></li><li><p>Purchase Orders have been fixed to restrict users from adding new items after progressing to Ordered status.</p></li><li><p>Rejecting an item on an Internal Purchase Order will no longer zero out the \u201cQuantity to ship\u201d fields of the page.</p></li></ul><h3 id=\"RepairQ1.20.5-TicketsandInvoices\">Tickets and Invoices</h3><ul><li><p>Customer notes flagged as important will no longer show HTML tags when linked to a ticket.</p></li><li><p>Fixed the \u201cwaive fee\u201d button on tickets.</p></li><li><p>Fixed a bug that prevented the user from creating an invoice after selecting and then deselecting all items from the ticket list.</p></li><li><p>If Auto-serialization is turned off, the user will no longer see the incorrect message that a serial number will be automatically generated when recovering a part core on a ticket.</p></li><li><p>Fixed a bug that ignored the option to add prefixes to serial numbers when using the auto-generate feature.</p></li></ul><h3 id=\"RepairQ1.20.5-AppointmentsandCustomers\">Appointments and Customers</h3><ul><li><p>Concurrent appointment fields have been renamed \u201cMaximum Appts\u201d for clarity and consistent behavior across all available settings.</p></li><li><p>Other Various fixes to the Appointment Scheduling process.</p></li><li><p>Fixed a bug where zip code validation interfered with customer validation rules that did not require a zip code to create a customer profile.</p></li></ul><h3 id=\"RepairQ1.20.5-CustomForms\">Custom Forms</h3><ul><li><p>Resolved the issue causing broken images upon uploading a photo to a custom form.</p></li><li><p>Resolved the issue causing a blank \u201cText Area\u201d field data on custom forms.</p></li></ul><h3 id=\"RepairQ1.20.5-ListsandFilters\">Lists and Filters</h3><ul><li><p>Fixed an issue in List Filters that caused stray text when typing inside of multi-select search boxes.</p></li><li><p>Corrected the column titles in the inventory import template for successful uploads.</p></li><li><p>Sorting the Item Type List by the \u201cBundle (as Parent)\u201d column no longer results in an \u201cError 500.\u201d</p></li><li><p>Resolved an issue that caused categories to show as blank when editing columns on various List View pages.</p></li><li><p>Firefox users will no longer see blank \u201cViewing\u201d and \u201cView\u201d dropdown options when filtering lists.</p></li></ul><h3 id=\"RepairQ1.20.5-IntegrationsandAutomation\">Integrations and Automation</h3><ul><li><p>QZ print automation has been fixed, and we\u2019ve included additional error handling to help identify any future problems that could arise with the automation.</p></li><li><p>Twilio can now be managed at the Location level, rather than the integration only working at the Company level.</p></li><li><p>Resolved an issue that logged duplicate transactions in the Cash Reconciliation Report if there were duplicate, active integrated payment methods.</p></li><li><p>Fixed a bug that failed to remove tickets in Critical status from the Ticket Progress widget on the dashboard.</p></li><li><p>Resolved an issue that restricted Automated Notifications from sending if they were queued near midnight UTC.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2188607647"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 644102498
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2188607647/child",
+    "restrictions": "/rest/api/content/2188607647/restriction/byOperation",
+    "history": "/rest/api/content/2188607647/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2188607647/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2188607647",
+    "webui": "/spaces/SCD/pages/2188607647/RepairQ+1.20.5",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2188607647",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2188607647",
+    "tinyui": "/x/n4Bzgg",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

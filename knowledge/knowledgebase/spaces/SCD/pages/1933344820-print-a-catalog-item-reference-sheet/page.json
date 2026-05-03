@@ -1,0 +1,129 @@
+{
+  "id": "1933344820",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933344820",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzM0NDgyMA==",
+  "status": "current",
+  "title": "Print a Catalog Item Reference Sheet",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:00.657Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933344820.31",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933344820"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933344820/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Users can create customer label pages for price sheets, label printing, and more. Printing a list of items can be helpful to your staff, such as reference sheets for common sale items/services to scan at checkout and inventory scan lists for items that don't have their own labels.</p><h3 id=\"PrintaCatalogItemReferenceSheet-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427464/Inventory+Count+Resources\" data-linked-resource-id=\"1932427464\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Count Process: Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931018355/The+RepairQ+Catalog\" data-linked-resource-id=\"1931018355\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525576/RepairQ+Best+Practices+-+Inventory+Management+101\" data-linked-resource-id=\"1932525576\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">RepairQ Best Practices - Inventory Management 101</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361762/RepairQ+Best+Practices+-+Inventory+Management+102\" data-linked-resource-id=\"1932361762\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">RepairQ Best Practices - Inventory Management 102</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933344820/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"PrintaCatalogItemReferenceSheet-PrintingaCatalogItemListSheet\">Printing a Catalog Item List Sheet</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933344820/Label%20Reference%20Sheet%201.png?api=v2\"></span><p /><p>2. On the Settings Overview page, click <strong>Catalog</strong> from the list of options on the left column. From the dropdown, click <strong>Print Label Pages</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933344820/Label%20Reference%20Sheet%202.png?api=v2\"></span><p /><p>3. Use the filters to customize your page settings, display information, and catalog items on your list.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933344820/Label%20Reference%20Sheet%203.png?api=v2\"></span><ul><li><p><strong>Page Title</strong> - Create a title for the page.</p></li><li><p><strong>Columns/Rows</strong> - This controls the number of rows and columns per page. By default, the sheet will print in two columns with four rows on each page.</p></li><li><p><strong>Page Numbers</strong> - Select this option to include the page number on the label page.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933344820/Label%20Reference%20Sheet%204.png?api=v2\"></span><ul><li><p><strong>Display Settings</strong> - Select what catalog item details will be included on the page.</p></li><li><p><strong>Barcode Format</strong> - If opting to print a barcode, select the format. The most common format is Code39.</p></li><li><p><strong>Barcode Size</strong> - If printing a barcode, select the height, in pixels.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933344820/Label%20Reference%20Sheet%205.png?api=v2\"></span><ul><li><p><strong>Item Type</strong> - Filter results by a specific item type.</p></li><li><p><strong>Manufacturer</strong> - Filter results by a specific manufacturer.</p></li><li><p><strong>Catalog Item</strong> - Filter for results that include a specific keyword.</p></li><li><p><strong>Filter Focus</strong> - Select whether the list will include inventoried items, serialized items, and if the list will include inactive catalog items.</p></li></ul><p /><p>4. After you have made your selections, click <strong>Apply Filters</strong>. Your list will show as a preview below the filter section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933344820/Label%20Reference%20Sheet%206.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933344820/Label%20Reference%20Sheet%207.png?api=v2\"></span><p /><p>5. Click the <strong>Print button</strong> at the top-right of the screen to print the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933344820/Label%20Reference%20Sheet%208.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933344820"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933344820/child",
+    "restrictions": "/rest/api/content/1933344820/restriction/byOperation",
+    "history": "/rest/api/content/1933344820/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933344820/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933344820",
+    "webui": "/spaces/SCD/pages/1933344820/Print+a+Catalog+Item+Reference+Sheet",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933344820",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933344820",
+    "tinyui": "/x/NIA8cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

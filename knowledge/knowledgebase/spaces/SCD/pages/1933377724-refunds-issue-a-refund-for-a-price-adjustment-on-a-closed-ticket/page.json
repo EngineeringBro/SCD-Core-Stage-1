@@ -1,0 +1,129 @@
+{
+  "id": "1933377724",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933377724",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzM3NzcyNA==",
+  "status": "current",
+  "title": "Refunds: Issue a Refund for a Price Adjustment on a Closed Ticket",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:20.145Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "2986",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933377724.47",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933377724"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933377724/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>In some situations, you may need to return an item or service on a closed ticket and either adjust the price to a lower amount or exchange the original item for another of lesser value.</p><p><strong>For non-serialized items</strong> - If you have more of the same item in stock, return the item on the ticket, sell out another of the same item at the adjusted price, and issue a refund for the difference\u2014all within the same ticket.</p><p><strong>For serialized items or items with zero in-stock quantity</strong> - Return the item on the ticket, restock it to inventory, and issue the refund. Then, create a new ticket, add the serialized item with the adjusted price or discount, and use the refunded amount as payment. The customer keeps the remaining balance.</p><h3 id=\"Refunds:IssueaRefundforaPriceAdjustmentonaClosedTicket-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279378/Virtual+Cash+Terminal+VCT+Refund+Resources\" data-linked-resource-id=\"1933279378\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Virtual Cash Terminal (VCT) Refund Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933639827\" rel=\"nofollow\">Assign a Virtual Cash Terminal (VCT) to Accept Payments</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/image-20230627-154817.png?api=v2\"></span><h2 id=\"Refunds:IssueaRefundforaPriceAdjustmentonaClosedTicket-ReturnaNon-serializedItemwithAvailableIn-stockQuantity\">Return a Non-serialized Item with Available In-stock Quantity</h2><p>A VCT must be assigned to the terminal to perform a refund on a ticket.</p><p /><h3 id=\"Refunds:IssueaRefundforaPriceAdjustmentonaClosedTicket-ReturntheItem\">Return the Item</h3><p>Search for the closed ticket in your Ticket Queue. On the Ticket View page, click the <strong>Return Button</strong> along the row of actions on the upper-right section of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 11.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%2011.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 2 - Copy.png\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%202%20-%20Copy.png?api=v2\"></span><p /><p>When the Start Return pop-up appears, click Start a Return. This will re-open the ticket for editing.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 3 - Copy.png\" width=\"446\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%203%20-%20Copy.png?api=v2\"></span><p /><p>In the Return Items section of the ticket, select the appropriate item(s) you wish to return. If the returned item is inventoried, place it back into <strong>Restock Immediately (Instock)</strong> status and the original condition. Add notes for the item and click <strong>Continue</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 12.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%2012.png?api=v2\"></span><p /><p>In the Ticket Items section of the ticket, add the item(s) back to the ticket and enter the necessary price change or discount. The Ticket Totals section will now show a pending refund amount for the customer.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 13.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%2013.png?api=v2\"></span><p /><h3 id=\"Refunds:IssueaRefundforaPriceAdjustmentonaClosedTicket-RefundthePurchase\">Refund the Purchase</h3><p>After updating the ticket, the Totals section will show the refund amount due to the customer. On the Transaction section of the ticket, click the <strong>Refund </strong>button next to the original transaction.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 14.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%2014.png?api=v2\"></span><p /><p>When the <strong>Add Transaction</strong> pop-up appears, select the <strong>original Payment Type</strong> and enter the refund amount as a positive value. Ensure the <strong>Refund In Full</strong> checkbox is unchecked. After entering the required information and any additional notes, click <strong>Submit Refund</strong> to proceed.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 15.png\" width=\"342\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%2015.png?api=v2\"></span><p /><p>Verify the transaction as posted to the ticket and that the payment has been issued back to the customer. Once the <strong>balance due is $0.00</strong>, you can <strong>Save </strong>the ticket to finalize the process.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 16.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%2016.png?api=v2\"></span><hr/><h2 id=\"Refunds:IssueaRefundforaPriceAdjustmentonaClosedTicket-ReturnSerializedItemsandItemswithZeroIn-stockQuantities\">Return Serialized Items and Items with Zero In-stock Quantities</h2><h3 id=\"Refunds:IssueaRefundforaPriceAdjustmentonaClosedTicket-ReturntheItem.1\">Return the Item</h3><p>Search for the closed ticket in your Ticket Queue. On the Ticket View page, click the <strong>Return Button</strong> along the row of actions on the upper-right section of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 2.png\" width=\"384\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%202.png?api=v2\"></span><p /><p>When the Start Return pop-up appears, click Start a Return. This will re-open the ticket for editing.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 3.png\" width=\"454\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%203.png?api=v2\"></span><p /><p>In the Return Items section of the ticket, select the appropriate item(s) you wish to return. If the returned item is inventoried, place it back into <strong>Restock Immediately (Instock)</strong> status and original condition. Add notes for the item and click <strong>Continue</strong>. This ensures that the item is placed back to Instock status, so it can be sold out on the next transaction.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 4.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%204.png?api=v2\"></span><p /><h3 id=\"Refunds:IssueaRefundforaPriceAdjustmentonaClosedTicket-RefundthePurchase.1\">Refund the Purchase</h3><p>After updating the ticket, the Totals section will show the refund amount due to the customer. On the Transaction section of the ticket, click the <strong>Add Transaction </strong>button. </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 5.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%205.png?api=v2\"></span><p /><p>When the <strong>Add Transaction</strong> pop-up appears, select the refund <strong>Payment Type</strong> and enter the refund amount as a positive value. Ensure the <strong>Refund In Full</strong> checkbox is unchecked. After entering the required information and any additional notes, click <strong>Submit Refund</strong> to proceed.</p><p>If the customer originally paid with a card but cannot or chooses not to use their card (due to balance limitations or preference) you will need to issue the refund in cash.</p><p><strong>Note</strong>: For security purposes and to minimize the risk of fraudulent activity, we recommend refunding card transactions back to the original payment method whenever possible. If a cash refund is issued due to customer card limits, ensure that proper documentation is maintained, including proof of the original purchase, refund receipt, and customer identification, to safeguard against misuse.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 6.png\" width=\"342\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%206.png?api=v2\"></span><p /><p>Verify the transaction as posted to the ticket and that the payment has been issued back to the customer. Once the <strong>balance due is $0.00</strong>, you can <strong>Save </strong>the ticket to finalize the process.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 7.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%207.png?api=v2\"></span><p /><h3 id=\"Refunds:IssueaRefundforaPriceAdjustmentonaClosedTicket-SelltheItemonaNewTicket\">Sell the Item on a New Ticket</h3><p>At this point, create a new ticket for the customer, add the returned item, and adjust the price as needed. If the refund was issued in cash, use the refunded cash to complete the purchase. The customer will keep any remaining balance.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 10.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377724/Price%20Adjust%20Return%2010.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933377724"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933377724/child",
+    "restrictions": "/rest/api/content/1933377724/restriction/byOperation",
+    "history": "/rest/api/content/1933377724/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933377724/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933377724",
+    "webui": "/spaces/SCD/pages/1933377724/Refunds+Issue+a+Refund+for+a+Price+Adjustment+on+a+Closed+Ticket",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933377724",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933377724",
+    "tinyui": "/x/vAA9cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

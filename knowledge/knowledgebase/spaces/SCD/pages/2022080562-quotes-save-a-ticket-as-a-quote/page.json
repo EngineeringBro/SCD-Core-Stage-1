@@ -1,0 +1,130 @@
+{
+  "id": "2022080562",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2022080562",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyMjA4MDU2Mg==",
+  "status": "current",
+  "title": "Quotes: Save a Ticket as a Quote",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2024-12-20T20:45:25.735Z",
+    "friendlyWhen": "Dec 20, 2024",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1067",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2022080562.121",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2022080562"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2022080562/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Users can save Quick Sale, Repair, and Trade-in tickets as quotes, which enables tickets to be saved and re-opened later without affecting inventory levels. Quotes also use the same status system that you use for tickets and repairs. Converting a quote into an active ticket is a one-click process, and once converted, the related inventory is immediately pulled to the ticket.</p><ul><li><p>When negotiating a repair, sale, or trade-in with a customer, a staff member can save a quote and leave the ticket while the customer shops or considers a deal. Previously, a trade-in ticket had to be closed with a transaction before the user could leave the ticket.</p><ul><li><p>Inventory items added to the ticket are not pulled from inventory, and trade-in items added to the ticket will not be added to inventory.</p></li></ul></li><li><p>Quotes are not included in revenue reports, since the transaction has not been completed. Revenue reporting only looks at <strong>Tickets in Closed status</strong>.</p></li><li><p>The ability to save a ticket as a quote can be toggled on/off.</p><ul><li><p>Admins can toggle this selection at the Company level, affecting all locations, or override this decision at the Location level.</p></li><li><p>By default, RepairQ has this feature disabled. This article includes instructions on how to allow this feature.</p></li></ul></li></ul><h3 id=\"Quotes:SaveaTicketasaQuote-Tipsforsavingaticketasaquote\">Tips for saving a ticket as a quote</h3><ul><li><p>You can only save a ticket as a quote <strong>before</strong> saving it as another status. If a ticket has already been progressed to a status, it cannot be reverted to a quote.</p></li><li><p>Save as Quote is available in the ticket workflow as long as a customer and item have been added.</p></li></ul><h3 id=\"Quotes:SaveaTicketasaQuote-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933246809\" rel=\"nofollow\">RepairQ Opportunities (Quotes)</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934458927\" rel=\"nofollow\">Contacts Overview</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934917634\" rel=\"nofollow\">Quotes: Convert a Quote to a Ticket</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointment Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933246465\" rel=\"nofollow\">Automated Notification Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2022080562/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Quotes:SaveaTicketasaQuote-Allow\u201cSaveasQuote\u201dforTickets\">Allow \u201cSave as Quote\u201d for Tickets</h2><p /><p>Log into RepairQ as a user with Admin access. On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Location Settings</strong>. On the Settings Overview screen, scroll until you find the <strong>Tickets </strong>section. Under this category, click <strong>General Settings</strong>.</p><p><strong>Note</strong>: An admin can enable this feature for all locations by navigating to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2022080562/Quote%2011.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"544\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2022080562/Quote%2012.png?api=v2\"></span><p /><p>When viewing the Ticket General Settings page, turn off the toggle for <strong>\u2018Disable \u201cSave as quote\u201d button on new tickets.\u2019</strong> Once you have made your selection, click <strong>Save </strong>to submit your changes.</p><ul><li><p>Toggle this setting <strong>ON </strong>(default)<strong> </strong>to <strong>disable </strong>the ability to save tickets as quotes.</p></li><li><p>Toggle this setting <strong>OFF </strong>to <strong>enable </strong>saving tickets as quotes.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Ticket Settings.png\" width=\"579\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2022080562/Ticket%20Settings.png?api=v2\"></span><hr/><h2 id=\"Quotes:SaveaTicketasaQuote-ConvertaTickettoaQuote\">Convert a Ticket to a Quote</h2><p>When creating a new ticket, and you link a customer and add a Repair Device or Ticket Item, the option to save the ticket as a quote will be available along the bottom row of ticket statuses.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2022080562/Quote%2010.png?api=v2\"></span><p /><p>The quote will be saved in New status and you can find the ticket in Quote List or by filtering the Ticket List for quotes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2022080562/Quote%2014.png?api=v2\"></span><p> </p><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2022080562"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 217741
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2022080562/child",
+    "restrictions": "/rest/api/content/2022080562/restriction/byOperation",
+    "history": "/rest/api/content/2022080562/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2022080562/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2022080562",
+    "webui": "/spaces/SCD/pages/2022080562/Quotes+Save+a+Ticket+as+a+Quote",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2022080562",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2022080562",
+    "tinyui": "/x/MoCGe",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,1217 @@
+{
+  "seedQuery": "s",
+  "values": [
+    {
+      "title": "Business Intelligence - Create a Report",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2738651142",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2738651142"
+      }
+    },
+    {
+      "title": "Copy a Catalog Item",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2247983133",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2247983133"
+      }
+    },
+    {
+      "title": "Catalog Items: Auto-Bundle and Auto-Add",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2152726556",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2152726556"
+      }
+    },
+    {
+      "title": "Appointments: Creating Automated Confirmations and Reminders",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2138963973",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2138963973"
+      }
+    },
+    {
+      "title": "Refurbishment Ticket Behavior Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2115633174",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2115633174"
+      }
+    },
+    {
+      "title": "Discounts: Creation and Customization",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2095546399",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2095546399"
+      }
+    },
+    {
+      "title": "1.7.3",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2041348127",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2041348127"
+      }
+    },
+    {
+      "title": "1.7.2.1",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2041348113",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2041348113"
+      }
+    },
+    {
+      "title": "1.7.3.x",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2040856660",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2040856660"
+      }
+    },
+    {
+      "title": "1.7.4.9",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2040627324",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2040627324"
+      }
+    },
+    {
+      "title": "RepairQ 1.7",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2040627283",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2040627283"
+      }
+    },
+    {
+      "title": "1.7.1.x",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2040627270",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2040627270"
+      }
+    },
+    {
+      "title": "1.7.2",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2040528904",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2040528904"
+      }
+    },
+    {
+      "title": "RepairQ 1.14",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2031157296",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2031157296"
+      }
+    },
+    {
+      "title": "RepairQ 1.13",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2030698611",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2030698611"
+      }
+    },
+    {
+      "title": "1.17.9",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2029584386",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2029584386"
+      }
+    },
+    {
+      "title": "1.17.13",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2029092967",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2029092967"
+      }
+    },
+    {
+      "title": "RepairQ 1.18",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2028994647",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2028994647"
+      }
+    },
+    {
+      "title": "RepairQ Help Desk - Organization Management",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2013626370",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2013626370"
+      }
+    },
+    {
+      "title": "List Views: Editing Columns",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1993375753",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1993375753"
+      }
+    },
+    {
+      "title": "RepairQ Help Desk - Knowledge Base and Submit a Request",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1941831681",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1941831681"
+      }
+    },
+    {
+      "title": "Reports: Repairs by Technician and Item",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1939570735",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1939570735"
+      }
+    },
+    {
+      "title": "Tip Report and Distribution",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1939472413",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1939472413"
+      }
+    },
+    {
+      "title": "Prepaid Wireless Services Setup",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1939406870",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1939406870"
+      }
+    },
+    {
+      "title": "Inventory Detail - List View Column Updates",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1937211440",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1937211440"
+      }
+    },
+    {
+      "title": "Quick Create: Add New Catalog Items on Tickets",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1937015029",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1937015029"
+      }
+    },
+    {
+      "title": "Integrated Printing 103: Adding and Assigning Printer Configurations",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936949270",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936949270"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Assigning a Square Terminal to a Virtual Cash Terminal (VCT) to Accept Payments",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936785459",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936785459"
+      }
+    },
+    {
+      "title": "Reports: Customer Segments",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936654444",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936654444"
+      }
+    },
+    {
+      "title": "Integrated Payments Setup: Activating Square Integration in RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936556034",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936556034"
+      }
+    },
+    {
+      "title": "Integrated Printing 102: Adding Integrated Printers",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936457750",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936457750"
+      }
+    },
+    {
+      "title": "Integrated Printing 104: Creating and Customizing Print Automation",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936392218",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936392218"
+      }
+    },
+    {
+      "title": "Reports: Customer Referrals",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936326807",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936326807"
+      }
+    },
+    {
+      "title": "Adding Your Company Logo to RepairQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936326777",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936326777"
+      }
+    },
+    {
+      "title": "Qpop\u2122 Companion Recommended Image Resolutions",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936261206",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936261206"
+      }
+    },
+    {
+      "title": "Invoicing: Refunding and Voiding Invoices",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934917724",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934917724"
+      }
+    },
+    {
+      "title": "PAX Device Troubleshooting: Change Your DNS Servers - Windows 10",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934786834",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934786834"
+      }
+    },
+    {
+      "title": "Reports: Revenue, Cost of Goods Sold (COGS), Cost of Services, and Cost of Refurbs",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934753845",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934753845"
+      }
+    },
+    {
+      "title": "Maintaining an Accurate Profitability Report",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934524447",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934524447"
+      }
+    },
+    {
+      "title": "Reports: Pending Revenue and Tickets Unpaid",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934524434",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934524434"
+      }
+    },
+    {
+      "title": "QuickBooks Integration: Sending Journal Entries on Demand",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934393396",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934393396"
+      }
+    },
+    {
+      "title": "Invoicing: Remittance and Reconciling Invoices",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934327961",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934327961"
+      }
+    },
+    {
+      "title": "Invoicing: Creating Billing Agents",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934327935",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934327935"
+      }
+    },
+    {
+      "title": "Reports: Receivables and Invoice Aging",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934327922",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934327922"
+      }
+    },
+    {
+      "title": "Integrated Payments: Troubleshooting Resources",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934229721",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934229721"
+      }
+    },
+    {
+      "title": "Invoicing: Editing Tickets on Invoices",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934229611",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934229611"
+      }
+    },
+    {
+      "title": "Integrations: QuickBooks Online Setup",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934229563",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934229563"
+      }
+    },
+    {
+      "title": "Reports: Returned Repairs by Tech",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934196737",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934196737"
+      }
+    },
+    {
+      "title": "Recommended Hardware Troubleshooting Resources",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933869057",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933869057"
+      }
+    },
+    {
+      "title": "Reports: Repairs by Technician",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803762",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803762"
+      }
+    },
+    {
+      "title": "Customer Communication Preferences and Marketing List",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803749",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803749"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) at a Discounted Price",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803577",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803577"
+      }
+    },
+    {
+      "title": "Dashboard Announcements",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933803521",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933803521"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (rework) for a Different Repair Service",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933770925",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933770925"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) Ticket with Waived Charges",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933770889",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933770889"
+      }
+    },
+    {
+      "title": "Repair Workflow with Transfer to Repair Center",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933705458",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933705458"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933705307",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933705307"
+      }
+    },
+    {
+      "title": "Refunds: Issue a Partial Refund for a Price Override or Discount on an Open Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933672585",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933672585"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) to Replace a Defective Part",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933639775",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933639775"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) for the Same Repair Service",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933606988",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933606988"
+      }
+    },
+    {
+      "title": "Refunds: Return Items Back to Inventory and Issue a Refund on an Open Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933541546",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933541546"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) Ticket Without the Original Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933508711",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933508711"
+      }
+    },
+    {
+      "title": "How To: Add Services and Parts to a Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933476043",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933476043"
+      }
+    },
+    {
+      "title": "Refunds: Exchange an Item and Refund the Difference (Partial Refund)",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933475999",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933475999"
+      }
+    },
+    {
+      "title": "Performing a Return Repair (Rework) Ticket With a Deductible",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933475953",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933475953"
+      }
+    },
+    {
+      "title": "Required Fields for Repair Devices",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933443149",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933443149"
+      }
+    },
+    {
+      "title": "Setting up and Assigning Tax Rates",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933410332",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933410332"
+      }
+    },
+    {
+      "title": "Reports: Repairs by Device",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933377814",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933377814"
+      }
+    },
+    {
+      "title": "Create a Trade-In Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933377756",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933377756"
+      }
+    },
+    {
+      "title": "Refunds: Issue a Refund for a Price Adjustment on a Closed Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933377724",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933377724"
+      }
+    },
+    {
+      "title": "Creating Warranties and Disclaimers",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933377703",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933377703"
+      }
+    },
+    {
+      "title": "Print Settings - Invoices",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933377656",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933377656"
+      }
+    },
+    {
+      "title": "Journal Entries: Set Default Account Classifications",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933246874",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933246874"
+      }
+    },
+    {
+      "title": "Custom Forms: Field Groups and Form Fields",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933246513",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933246513"
+      }
+    },
+    {
+      "title": "Inventory Management: Reorder Points and Reorder Amounts",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932787813",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932787813"
+      }
+    },
+    {
+      "title": "List Views",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932754986",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932754986"
+      }
+    },
+    {
+      "title": "Quick Sale Optimization Settings",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932722209",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932722209"
+      }
+    },
+    {
+      "title": "RepairQ Support Login Authorization",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932624095",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932624095"
+      }
+    },
+    {
+      "title": "Inventory Management: Tracking Inventoried Special Order Parts",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932624033",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932624033"
+      }
+    },
+    {
+      "title": "RMA Process: Reconcile an RMA",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932591235",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932591235"
+      }
+    },
+    {
+      "title": "Inventory Count Process: Reconciling Counts",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932558411",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932558411"
+      }
+    },
+    {
+      "title": "Inventory Management: Replenishment Methods",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525994",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525994"
+      }
+    },
+    {
+      "title": "List Filters",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525644",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525644"
+      }
+    },
+    {
+      "title": "RepairQ Best Practices - Inventory Management 101",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932525576",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932525576"
+      }
+    },
+    {
+      "title": "Inventory Management: Void Inventory Associated with Inactive Catalog Items",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932493070",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932493070"
+      }
+    },
+    {
+      "title": "Creating Custom Forms",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932492983",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932492983"
+      }
+    },
+    {
+      "title": "Inventory Management: Manual Inventory Attribute Changes",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932492924",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932492924"
+      }
+    },
+    {
+      "title": "Inventory Transfers: Requesting Items From Another Location",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932460177",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932460177"
+      }
+    },
+    {
+      "title": "RMA Process: Initiate an RMA From a Ticket",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932460163",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932460163"
+      }
+    },
+    {
+      "title": "Ticket Properties: Requiring a Ticket Assignee",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932427651",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932427651"
+      }
+    },
+    {
+      "title": "Assigning a Customer Referral Source",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932394664",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932394664"
+      }
+    },
+    {
+      "title": "Print Settings - Receipt Template",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932361958",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932361958"
+      }
+    },
+    {
+      "title": "Integrations: Revv/Rallio",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932361859",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932361859"
+      }
+    },
+    {
+      "title": "RMA Process: Sending RMA Items to the Supplier (RMA Batch)",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932296378",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932296378"
+      }
+    },
+    {
+      "title": "Inventory Counts: Assigning Counts",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932296330",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932296330"
+      }
+    },
+    {
+      "title": "Item Grid Management: Link Catalog Items to the Category Tree",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932230697",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932230697"
+      }
+    },
+    {
+      "title": "RMA Process: Transferring RMAs to a Central Location for Processing",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932198033",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932198033"
+      }
+    },
+    {
+      "title": "RMA Process: Initiate an RMA Through Inventory Fulfillment",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931116776",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931116776"
+      }
+    },
+    {
+      "title": "The RepairQ Catalog",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931018355",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931018355"
+      }
+    },
+    {
+      "title": "Purchase Orders: Receiving Refurb Items in Bulk",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1930494541",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1930494541"
+      }
+    },
+    {
+      "title": "Help Desk Hours and Support Requests",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1930494471",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1930494471"
+      }
+    }
+  ]
+}

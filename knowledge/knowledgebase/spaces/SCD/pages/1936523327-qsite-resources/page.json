@@ -1,0 +1,129 @@
+{
+  "id": "1936523327",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936523327",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjUyMzMyNw==",
+  "status": "current",
+  "title": "Qsite\u2122 Resources",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:57.122Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 14,
+    "minorEdit": false,
+    "ncsStepVersion": "15",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936523327.84",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936523327"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936523327/version/14"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Beyond the standard functionalities in RepairQ, we offer a companion app, Qsite, which engages customers to interact with your business. Qsite comes in two tiers: Ticket Status and Opportunities.</p><p>Qsite Ticket Status provides customers easy access to ticket details, pending balances, and store contacts. This feature is available to all users, regardless of subscription plan.</p><p>Qsite Opportunities provides customers with tools to search for nearby store locations, explore services and prices, generate quotes, and schedule appointments. This feature is available to our Advanced and Professional users.</p><p>Qsite features can elevate your business in many ways, including:</p><ul><li><p><strong>Enhanced Customer Experience</strong> - Customers can easily check the status of their tickets, view notes, and access store contact information, improving transparency and communication.</p></li><li><p><strong>Convenience</strong>: Qsite Opportunities simplifies the process for customers to engage with your store by offering features such as ticket status checks, service price lookups, and appointment scheduling, all from their mobile devices.</p></li><li><p><strong>Increased Efficiency</strong>: Advanced and Professional users can leverage Qsite Opportunities to streamline operations by managing ticket approvals, generating quotes, and scheduling appointments, reducing administrative tasks.</p></li><li><p><strong>Revenue Growth</strong>: The ability for customers to easily access ticket information and book appointments can lead to increased sales and service bookings, ultimately driving revenue growth for your business.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936523327/image-20230608-172259.png?api=v2\"></span><h2 id=\"Qsite\u2122Resources-QsiteTicketStatusFeaturesandCustomization\">Qsite Ticket Status Features and Customization</h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425067/Qsite+Ticket+Status+-+Keep+Customers+Updated+on+Their+Tickets\" data-linked-resource-id=\"1936425067\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Status</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936851025/Automated+Notifications+Add+a+Qsite+Ticket+Status+Link\" data-linked-resource-id=\"1936851025\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Automated Notifications: Add a Qsite\u2122 Ticket Status Link</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936326777/Adding+Your+Company+Logo+to+RepairQ\" data-linked-resource-id=\"1936326777\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Adding Your Company Logo to RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936851011/Add+a+Qsite+Ticket+Status+Link+to+Receipts+and+Invoices\" data-linked-resource-id=\"1936851011\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Adding a Qsite\u2122 Ticket Status Link to Receipts</a> </p></li></ul><h2 id=\"Qsite\u2122Resources-QsiteOpportunitiesFeaturesandCustomization\">Qsite Opportunities Features and Customization</h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936588905/Qsite+Opportunities\" data-linked-resource-id=\"1936588905\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Qsite\u2122 Opportunities</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936228434/Qsite+Ticket+Approval+Setup+-+Settings+and+Conditions\" data-linked-resource-id=\"1936228434\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Approval Setup - Settings and Conditions</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936687177/Qsite+Ticket+Approval+Setup+-+Customer+Notifications\" data-linked-resource-id=\"1936687177\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Approval Setup - Customer Notifications</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937014863/Qsite+Ticket+Approval+Setup+-+Sending+and+Finalizing+Approvals\" data-linked-resource-id=\"1937014863\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Approval Setup - Sending and Finalizing Approvals</a></p></li></ul><h2 id=\"Qsite\u2122Resources-QsiteOpportunitiesSettingsandSetup\">Qsite Opportunities Settings and Setup</h2><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2275704854\" rel=\"nofollow\">Qsite\u2122 Opportunities - Location Setup and Location Management</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261226/Qsite+Opportunities+Settings+Management\" data-linked-resource-id=\"1936261226\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Opportunities Settings Management</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2424930307\" rel=\"nofollow\">Qsite\u2122 Opportunities - Catalog and Pricing</a></p></li><li><p>Categories: Create Item Tree</p></li><li><p>Categories: Create Item Grid</p></li><li><p>Categories: Assign an Item Grid to Ticket Navigation</p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932591125\" rel=\"nofollow\">Catalog Items: Device Compatibility</a></p></li></ul><h2 id=\"Qsite\u2122Resources-QsiteWebsiteIntegration\">Qsite Website Integration</h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936785428/Embed+Qsite+Features+Into+Your+Website\" data-linked-resource-id=\"1936785428\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Embed Qsite\u2122 Features Into Your Website</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936982118/RepairQ+API+-+Embed+Qsite+Ticket+Status+Into+Your+Website\" data-linked-resource-id=\"1936982118\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Embed Qsite\u2122 Ticket Status Into Your Website via RepairQ APIs</a></p></li></ul><h2 id=\"Qsite\u2122Resources-AdditionalResources\">Additional Resources</h2><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934458927/Contacts+Overview\" data-linked-resource-id=\"1934458927\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Contacts Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246809/RepairQ+Opportunities+Quotes\" data-linked-resource-id=\"1933246809\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Quotes Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li></ul><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936523327"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936523327/child",
+    "restrictions": "/rest/api/content/1936523327/restriction/byOperation",
+    "history": "/rest/api/content/1936523327/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936523327/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936523327",
+    "webui": "/spaces/SCD/pages/1936523327/Qsite+Resources",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936523327",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936523327",
+    "tinyui": "/x/PwBtcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1934917649",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934917649",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDkxNzY0OQ==",
+  "status": "current",
+  "title": "Appointments: Scheduling an Appointment",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:58:00.673Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934917649.27",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934917649"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934917649/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>With RepairQ, you can reserve blocks of time for your customers to spend time with an assigned user. You can also specify whether this appointment is for a Repair, Sale, or Trade-In Ticket.</p><h3 id=\"Appointments:SchedulinganAppointment-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246822/Appointments+General+Settings\" data-linked-resource-id=\"1933246822\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Appointments: General Settings</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786625/Appointments+Viewing+Set+Appointments\" data-linked-resource-id=\"1934786625\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Appointments: Viewing Set Appointments</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934852150/Appointments+Changing+an+Appointment\" data-linked-resource-id=\"1934852150\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Appointments: Changing an Appointment</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491709/Appointments+Canceling+an+Appointment\" data-linked-resource-id=\"1934491709\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Appointments: Canceling an Appointment</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2138963973/Appointments+Creating+Automated+Confirmations+and+Reminders\" data-linked-resource-id=\"2138963973\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Appointments: Creating Automated Confirmations and Reminders</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174708.png?api=v2\"></span><h2 id=\"Appointments:SchedulinganAppointment-ViewingtheAppointmentList(AppointmentManagementPage)\">Viewing the Appointment List (Appointment Management Page)</h2><p /><p>From the Navigation Bar, go to <strong>Opportunities</strong> \u2192 <strong>Appointments</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174711.png?api=v2\"></span><p /><p /><h2 id=\"Appointments:SchedulinganAppointment-CreatinganAppointment\">Creating an Appointment</h2><p>1. When viewing the Appointment Management page, click the <strong>Add (+) button</strong> to create a new appointment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174718.png?api=v2\"></span><p /><p /><p>2a. A New Appointment pop-up will appear. In the Contact field, begin typing the customer's name. The Smart-Search feature will look for existing customers based on First Name/Last Name/Phone Number. If you see an existing entry for the customer, you can select their entry and add their info to the appointment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174721.png?api=v2\"></span><p /><p /><p>2b. If there is no existing customer, you can add a customer by clicking the <strong>Add Button (+)</strong> next to the Contact field or by clicking <strong>+ Contact</strong> under the Contact entry. This will allow you to create a new Customer Profile.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174724.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174728.png?api=v2\"></span><p /><p /><p>3. Once you have added the customer, click on the <strong>Date field</strong>. You can enter this information manually or you can choose a date from the calendar menu.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174731.png?api=v2\"></span><p /><p /><p>4. Next, click the <strong>Time field</strong> and enter or select the time of the appointment</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174734.png?api=v2\"></span><p /><p /><p>5. Next, click the <strong>Duration</strong> <strong>field</strong> and select an option from the dropdown menu. The available range of durations can be set in <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246822/Appointments+General+Settings\" data-linked-resource-id=\"1933246822\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Appointment Settings</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174738.png?api=v2\"></span><p /><p /><p>6. Click the <strong>Location Field</strong> and select the location for the appointment. This will default to your current location.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174742.png?api=v2\"></span><p /><p /><p>7. (Optional) If you would like to assign the appointment to a specific user, click the <strong>Assignee Field</strong>. This dropdown menu is populated by staff from the chosen location.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174745.png?api=v2\"></span><p /><p /><p>8. (Optional) Click the <strong>Request</strong> field to select the type of ticket associated with this appointment. When the assignee starts the appointment, this will create a ticket based on the request selected.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174749.png?api=v2\"></span><p /><p /><p><strong>Note</strong>:\u00a0If <strong>Repair </strong>or <strong>Tradein</strong> was chosen, there will be additional fields to add the device and/or serial number and problem description.</p><p /><p>9. (Optional) Add any supporting <strong>notes</strong>, if any.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174752.png?api=v2\"></span><p /><p /><p /><p>10. After you have entered all required and relevant information, select <strong>Save</strong>. The new appointment will show on the Appointment List, where you can View, Edit, Begin, or Cancel the appointment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174755.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934917649/image-20230622-174802.png?api=v2\"></span><p /><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934917649"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934917649/child",
+    "restrictions": "/rest/api/content/1934917649/restriction/byOperation",
+    "history": "/rest/api/content/1934917649/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934917649/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934917649",
+    "webui": "/spaces/SCD/pages/1934917649/Appointments+Scheduling+an+Appointment",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934917649",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934917649",
+    "tinyui": "/x/EYBUcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

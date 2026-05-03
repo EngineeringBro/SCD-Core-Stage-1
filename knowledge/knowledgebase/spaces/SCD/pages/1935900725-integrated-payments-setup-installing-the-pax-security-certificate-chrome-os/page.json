@@ -1,0 +1,129 @@
+{
+  "id": "1935900725",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1935900725",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNTkwMDcyNQ==",
+  "status": "current",
+  "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Chrome OS",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:38.092Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1935900725.33",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1935900725"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935900725/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>If you are utilizing Bluefin or Heartland for payment integration in RepairQ, you will need to download and install a Security Certificate on each computer that will communicate with a PAX device.</p><p>This tutorial will guide you through the process of downloading, installing, and testing the required certificate.</p><h3 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-ChromeOS-NextSteps\">Next Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935376416/Integrated+Payments+Setup+Adding+a+Bluefin+PAX+Payment+Terminal+Device+in+RepairQ\" data-linked-resource-id=\"1935376416\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935998977/Integrated+Payments+Setup+Adding+a+Heartland+PAX+S300+A80+Payment+Terminal+in+RepairQ\" data-linked-resource-id=\"1935998977\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Heartland PAX S300 Payment Terminal in RepairQ</a></p></li></ul><h3 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-ChromeOS-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Introduction to Integrated Payments - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Troubleshooting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935507459/Integrated+Payment+Setup+Assigning+Your+PAX+Payment+Device+to+a+VCT+and+Processing+Payments\" data-linked-resource-id=\"1935507459\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payment Setup: Assigning Your PAX Payment Device to a VCT and Processing Payments</a></p></li></ul><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-ChromeOS-DownloadingthePAXSecurityCertificate\">Downloading the PAX Security Certificate</h2><p /><p>1. Download the certificate: <strong><a href=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/ca.repairq.io.cer\" rel=\"nofollow\">ca.repairq.io.cer</a></strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"217\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%201.png?api=v2\"></span><p /><p>2. Next, click the <strong>Options Button</strong> (three dots) at the top right of your browser. From the list of options, click <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"222\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%202.png?api=v2\"></span><p /><p>3. On the Settings page, click <strong>Privacy and security </strong>in the left column.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"217\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%203.png?api=v2\"></span><p /><p>4. Under the <strong>Privacy and security</strong> section, click <strong>Security</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"477\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%204.png?api=v2\"></span><p /><p>5. On the Security page, scroll to the bottom of the page. Under the Advanced section, <strong>Manage device certificates</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"453\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%205.png?api=v2\"></span><p /><p>6. On the Certificate pop-up, click on Authorities, then click <strong>Import</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"457\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%2010.png?api=v2\"></span><p /><p>7. At the bottom of the Import Dialog, change the file type to <strong>All Files</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%2011.png?api=v2\"></span><p /><p>8. Navigate to where you downloaded the certificate and select it.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"334\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%2012.png?api=v2\"></span><p /><p>9. Check <strong>all three Trust Settings</strong> and press <strong>OK</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"339\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%2013.png?api=v2\"></span><h2 id=\"IntegratedPaymentsSetup:InstallingthePAXSecurityCertificate-ChromeOS-TestingthePAXSecurityCertificate\">Testing the PAX Security Certificate</h2><p>In Chrome browser, navigate to<strong> <a class=\"external-link\" href=\"https://test.term.repairq.io/\" rel=\"nofollow\">https://test.term.repairq.io</a> </strong>to verify that the browser is configured to trust the security certificate. Click the <strong>lock icon</strong> to view the security certificate details.</p><p class=\"media-group\"><a href=\"/wiki/spaces/SCD/pages/1935900725/Integrated+Payments+Setup+Installing+the+PAX+Security+Certificate+-+Chrome+OS?preview=%2F1935900725%2F1982267417%2FInvalid+file+id+-+c1febd12-0c00-427d-8159-aa2744670c0b\"><span style=\"background: url('/wiki/s/-640127513/6452/0000891dee48b240c5ed2f93f8ac8ad513a32a09/1000.0.0-0000891dee48/_/download/resources/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-resources/images/placeholder-medium-file.png'); width: 250px; height: 95px; display: inline-block; padding-top: 155px; margin: 2px; border: 1px solid #ddd; text-align: center; vertical-align: text-bottom; text-decoration: none; font-size: 12px; color: #000;\">Invalid file id - c1febd\u2026</span></a></p><p /><p>Click <strong>Connection is Secure </strong>to view the certificate and verify that it is secure and valid.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935900725/Chrome%208.png?api=v2\"></span><p class=\"media-group\"><a href=\"/wiki/spaces/SCD/pages/1935900725/Integrated+Payments+Setup+Installing+the+PAX+Security+Certificate+-+Chrome+OS?preview=%2F1935900725%2F1982365743%2FInvalid+file+id+-+567f9ac1-a3ca-44a1-9d23-d708b62bc361\"><span style=\"background: url('/wiki/s/-640127513/6452/0000891dee48b240c5ed2f93f8ac8ad513a32a09/1000.0.0-0000891dee48/_/download/resources/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-resources/images/placeholder-medium-file.png'); width: 250px; height: 95px; display: inline-block; padding-top: 155px; margin: 2px; border: 1px solid #ddd; text-align: center; vertical-align: text-bottom; text-decoration: none; font-size: 12px; color: #000;\">Invalid file id - 567f9a\u2026</span></a></p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1935900725"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1935900725/child",
+    "restrictions": "/rest/api/content/1935900725/restriction/byOperation",
+    "history": "/rest/api/content/1935900725/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1935900725/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1935900725",
+    "webui": "/spaces/SCD/pages/1935900725/Integrated+Payments+Setup+Installing+the+PAX+Security+Certificate+-+Chrome+OS",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1935900725",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935900725",
+    "tinyui": "/x/NYBjcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

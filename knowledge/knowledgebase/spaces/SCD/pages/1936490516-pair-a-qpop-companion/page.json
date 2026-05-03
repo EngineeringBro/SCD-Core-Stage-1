@@ -1,0 +1,129 @@
+{
+  "id": "1936490516",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936490516",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjQ5MDUxNg==",
+  "status": "current",
+  "title": "Pair a Qpop\u2122 Companion",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:13.985Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 10,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936490516.82",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936490516"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936490516/version/10"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qpop is a customer-facing application designed to enhance interaction and engagement at the point of sale through a dedicated touchscreen interface. Always facing the customer, Qpop allows for seamless interaction during the sales process by:</p><ul><li><p>Displaying in-store advertisements and promotions</p></li><li><p>Showing real-time ticket details for customer review</p></li><li><p>Presenting electronic forms and waivers for acknowledgment</p></li><li><p>Capturing electronic signatures for payments via integrated devices</p></li></ul><p>Once you add a Qpop Companion to your RepairQ location, you must pair the device to a terminal. A companion can be paired with multiple terminals at the same time.</p><p><strong>Note: </strong>Qpop Companions are intended to run as Always-On status for both the screen and internet connection. Most tablets will disconnect from Wi-Fi when the screen times out or goes into sleep mode. When running Qpop, ensure your tablet is plugged in and screen timeout and auto-sleep settings have been turned off. We also recommend enabling Kiosk Mode on your tablet first to ensure that customers cannot navigate away from the Qpop browser page.</p><h3 id=\"PairaQpop\u2122Companion-PreviousStep\">Previous Step</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937014846/Create+a+Qpop+Companion\" data-linked-resource-id=\"1937014846\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Create a Qpop\u2122 Companion</a></p></li></ul><h3 id=\"PairaQpop\u2122Companion-OptionalFeaturesandAdditionalResources\">Optional Features and Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949331/Send+Custom+Forms+to+Your+Qpop+Companion+Device\" data-linked-resource-id=\"1936949331\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Send Custom Forms to Qpop\u2122 Companion</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936359503/Capture+Integrated+Payment+Signatures+on+a+Qpop+Companion\" data-linked-resource-id=\"1936359503\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Capture Integrated Payment Signatures on a Qpop\u2122 Companion</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936588867/Qpop+Companion+-+Enable+Kiosk+Mode+on+iOS\" data-linked-resource-id=\"1936588867\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Qpop\u2122 Companion - Kiosk Mode on iOS</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936523314/Qpop+Companion+-+Enable+Kiosk+Mode+on+Android\" data-linked-resource-id=\"1936523314\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Qpop\u2122 Companion - Kiosk Mode on Android</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936654410/Qpop+Companion+Troubleshooting\" data-linked-resource-id=\"1936654410\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Troubleshooting</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Resources</a> </p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175650.png?api=v2\"></span><h2 id=\"PairaQpop\u2122Companion-PairQpopWithYourTerminal\">Pair Qpop With Your Terminal</h2><h3 id=\"PairaQpop\u2122Companion-OnYourComputer/Terminal\">On Your Computer/Terminal</h3><p>Navigate to your RepairQ URL and log in to your location. On the Navigation Bar, click the <strong>Location Shortname</strong> <strong>dropdown</strong>. From the list of options, click\u00a0<strong>Pair Qpop</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175657.png?api=v2\"></span><p /><p>On the Qpop Companion pop-up, select which companion you would like to use from the dropdown list. Once you have made your selection, click <strong>Pair</strong>. The pop-up will display generate a code. Keep this screen open while you log into your Qpop tablet.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175703.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175708.png?api=v2\"></span><h3 id=\"PairaQpop\u2122Companion-OnYourQpopCompanionDevice\">On Your Qpop Companion Device</h3><p>Navigate to your RepairQ URL and log in to your location. Under the Get Started section of the dashboard, click <strong>Launch Qpop</strong>. You will be directed to the <strong>Welcome to Qpop</strong> page. Enter the code that was generated by RepairQ on your computer and tap <strong>Pair</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175714.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Pairing 7.5.png\" width=\"463\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/Pairing%207.5.png?api=v2\"></span><p /><h3 id=\"PairaQpop\u2122Companion-PairingConfirmation\">Pairing Confirmation</h3><p>When paired, your computer will display an image, showing that the companion has paired successfully and your Companion will show the Idle Screen.</p><p><strong>Note:\u00a0</strong>If the pairing was unsuccessful or you need to generate a new pairing code, you can click <strong>Get New Code</strong> on the popup on your computer.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175725.png?api=v2\"></span><h2 id=\"PairaQpop\u2122Companion-Optional:AddaQpopCompanionLinktoYourHomeScreen\">Optional: Add a Qpop Companion Link to Your Home Screen</h2><h3 id=\"PairaQpop\u2122Companion-iPadOS\">iPadOS</h3><p>When viewing the idle screen on your browser, tap <strong>Share</strong> on the toolbar. Then, tap <strong>Add to Home Screen</strong>. Name your link something that is easy to identify, then tap <strong>Add</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175740.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175746.png?api=v2\"></span><p /><p>Your home screen will now have a link directly to your Qpop Companion page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175752.png?api=v2\"></span><h3 id=\"PairaQpop\u2122Companion-Android\">Android</h3><p>When viewing the idle screen on your browser, tap <strong>Options </strong>on your toolbar. On the list of options, tap <strong>Add to Home Screen</strong>. Name your link something that is easy to identify, then tap <strong>Add</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175757.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175802.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"519\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175806.png?api=v2\"></span><p /><p>Your home screen will now have a link to your Qpop Companion page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"507\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936490516/image-20230608-175813.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936490516"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936490516/child",
+    "restrictions": "/rest/api/content/1936490516/restriction/byOperation",
+    "history": "/rest/api/content/1936490516/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936490516/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936490516",
+    "webui": "/spaces/SCD/pages/1936490516/Pair+a+Qpop+Companion",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936490516",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936490516",
+    "tinyui": "/x/FIBscw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

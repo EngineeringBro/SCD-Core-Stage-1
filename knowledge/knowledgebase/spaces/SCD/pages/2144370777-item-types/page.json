@@ -1,0 +1,129 @@
+{
+  "id": "2144370777",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2144370777",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjE0NDM3MDc3Nw==",
+  "status": "current",
+  "title": "Item Types",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:47.929Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 14,
+    "minorEdit": false,
+    "ncsStepVersion": "3317",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2144370777.55",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2144370777"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2144370777/version/14"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Item Types are high-level categories to organize your catalog. This allows you to assign specific attributes to the entire group of catalog items under these types. Item Types dictate assigned tax rates, price override allowances, identify whether items are parts or labor, establish parent/child relationships for bundling, and more. Since Item Types are groups of Catalog Items with similar\u00a0characteristics, the characteristics designated for an item type apply to each Catalog item categorized under it. Before building your Catalog, it\u2019s a good idea to decide what Item Types you need to set up first.</p><p>Some reports are organized by item types, so you should create one item type for each category of revenue you want to analyze separately. By default, there are a variety of item types created for use but you can also create new item types and set their characteristics upon creation.</p><h3 id=\"ItemTypes-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1932427325\" rel=\"nofollow\">Catalog Settings Overview</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1931018355\" rel=\"nofollow\">Catalog Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329027/Creating+a+New+Item+Type\" data-linked-resource-id=\"1932329027\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Creating a New Item Type</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1932329061\" rel=\"nofollow\">Creating a Catalog Item</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931018355/The+RepairQ+Catalog\" data-linked-resource-id=\"1931018355\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">The RepairQ Catalog</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2144370777/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"ItemTypes-ItemTypeFieldsandBehaviors\">Item Type Fields and Behaviors</h2><p>Item Types allow you to set additional attributes for each category of items. When adding/editing types, you can manage the following elements and behaviors.</p><h3 id=\"ItemTypes-General\">General </h3><ul><li><p><strong>Name </strong>- This is the primary name to identify the Catalog Item category. This must be unique for each type.</p></li><li><p><strong>Description </strong>- This is a brief explanation of the purpose/use of this Item Type.</p></li><li><p><strong>Royalty Percent </strong>- If you have an agreement to pay a percentage of your revenue to the rights holder, you can set that amount here. This will apply to all items created under this category. This will override a royalty percentage set at the Location level.</p></li><li><p><strong>Flag the Entire Ticket as Royalty Exempt</strong> - When this is selected, catalog items created under this category will exempt <em>all items</em> on the ticket from reporting a royalty percentage when added to a ticket.</p></li><li><p><strong>Flag the Ticket Item as Royalty Exempt</strong> - When this is selected, catalog items created under this category will be exempt from reporting a royalty percentage when added to a ticket.</p></li><li><p><strong>Can Override Price </strong>- When selected, users can override the Unit Price for these items on tickets.</p></li><li><p><strong>Enforce Catalog Item price for Inventoried items </strong>- When selected, this will automatically enter the Catalog Item price for items added to inventory.</p></li><li><p><strong>Disable Wholesale Pricing</strong> - This option exempts all items created under this category from wholesale pricing when added to tickets. For more info on Wholesale Pricing, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934327935/Invoicing+Creating+Billing+Agents\" data-linked-resource-id=\"1934327935\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Invoicing: Creating Billing Agents</a>.</p></li><li><p><strong>Apply Use Tax</strong> - When selected, all items created from this category are subject to a Use Tax. This is referenced by the Use Tax that is assigned in your Location Settings.</p></li><li><p><strong>Labor/Service?</strong> - Selecting this option designates this item as labor so it can be tracked in COGS and other reporting.</p><ul><li><p><strong>Allow Bundling (as Parent Item)</strong> - This flag is combined with the Part or Labor flag to allow the bundling of parts and labor into a single line item on a ticket. Your profitability report will also benefit from the extra information regarding the cost of goods for the services you render.</p></li><li><p><strong>Labor/Service Type</strong> - Set where the labor price is charged by the hour or a fixed price.</p><ul><li><p><strong>Rate </strong>- The service price will stay consistent regardless of the Qty/Hours recorded on the ticket.</p></li><li><p><strong>Fixed </strong>- Your service price will vary based on the Qty/Hours entered on a ticket.</p></li></ul></li></ul></li><li><p><strong>Part\u00a0</strong>-\u00a0Selecting this option designates this item as a part so it can be tracked in COGS and other reporting.</p><ul><li><p><strong>Allow Bundling? (as parent item)</strong> - This flag is combined with the Part or Labor flag to allow the bundling of parts and labor into a single line item on a ticket. Your profitability report will also benefit from the extra information regarding the cost of goods for the services you render.</p></li></ul></li><li><p><strong>Allow Bundling under Part (as child)\u00a0</strong>- This allows items created under this Item Type to be bundled under a part as the &quot;child&quot; item.</p></li><li><p><strong>Allow Bundling under Labor (as child)</strong> - This allows items created under this Item Type to be bundled under a labor item as the &quot;child&quot; item.</p></li><li><p><strong>Catalog Item Add/Edit Restrictions\u00a0</strong></p><ul><li><p><strong>No restrictions</strong> -</p></li><li><p><strong>Restrict catalog item management to the Admin role</strong> -</p></li><li><p><strong>Restrict catalog item management to location-specific items, excluding Admin </strong>- </p></li></ul></li><li><p><strong>Priority </strong>- This allows you to assign a number from 0 - 100 to organize the list of item types. Lower numbers will appear higher on the list.</p></li><li><p><strong>Active </strong>- This sets the item type as active in the catalog. Unchecking this box will mark the item type as inactive and hide any associated items from the catalog. This will also hide any associated inventory items but will not affect their inventory status.</p></li></ul><h3 id=\"ItemTypes-JournalEntryClassification\">Journal Entry Classification</h3><p>This is used for the QuickBooks integration. Assigning journal entries at the Item Type level allows you to override the defaults set in your primary classifications. For more information, see <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1934524484\" rel=\"nofollow\">QuickBooks Online Integration.</a> Otherwise, these fields can be ignored.</p><h3 id=\"ItemTypes-AutoGenerateSerialNumbers\">Auto Generate Serial Numbers</h3><p>In RepairQ, when a catalog item is marked as serialized, a serial number is required before the item can be counted and tracked in the system. The auto-serialization feature can generate a serial number for items when added/imported into inventory or when sending part cores back to the manufacturer. If you have inventory items that do not have a serial number, but you would like to assign one to them for tracking purposes, this will automate the process.</p><ul><li><p><strong>Enabled </strong>- This will enable/disable the Auto-generate feature.</p></li><li><p><strong>Serial Prefix </strong>- (Optional) Add a unique prefix that will be part of the generated serial numbers.</p></li><li><p><strong>Serial Format </strong>- Select the serial format when generating new serial numbers.</p><ul><li><p><strong>With Hyphen </strong>- Generates a serial number with a hyphen.</p></li><li><p><strong>Without Hyphen </strong>- Generates a serial number without a hyphen.</p></li><li><p><strong>UID Without Hyphen </strong>- Generates a unique identifier (UID) based on the Inventory ID for the item in RepairQ.</p></li></ul></li></ul><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2144370777"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2144370777/child",
+    "restrictions": "/rest/api/content/2144370777/restriction/byOperation",
+    "history": "/rest/api/content/2144370777/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2144370777/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2144370777",
+    "webui": "/spaces/SCD/pages/2144370777/Item+Types",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2144370777",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2144370777",
+    "tinyui": "/x/WYDQfw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

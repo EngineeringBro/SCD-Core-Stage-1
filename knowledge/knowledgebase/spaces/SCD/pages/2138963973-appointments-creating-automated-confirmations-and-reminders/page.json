@@ -1,0 +1,129 @@
+{
+  "id": "2138963973",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2138963973",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjEzODk2Mzk3Mw==",
+  "status": "current",
+  "title": "Appointments: Creating Automated Confirmations and Reminders",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:55.464Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2138963973.165",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2138963973"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2138963973/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Creating appointments in RepairQ offers convenience and flexibility for customers by allowing them to reserve time with your team at their convenience. The ability to automate notifications reduces the time it takes to send communication, which allows for efficient communication between teams and improves the customer experience. Creating automated appointment confirmations and reminders helps your business in many ways, including:</p><ul><li><p>Streamlining your operations by sending automated reminders for appointments.</p></li><li><p>Reducing the likelihood of no-shows for appointments</p></li><li><p>Enhancing the customer experience through timely communication and reminders.</p></li></ul><p>This article provides a streamlined process for creating appointment notifications and reminders. For an in-depth walkthrough of creating Automated Notifications, see our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246478/Getting+Started+with+Automated+Notifications\" data-linked-resource-id=\"1933246478\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notifications: Creating an Automated Notification</a>.</p><h3 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notification Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"770\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2138963973/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-AutomatedAppointmentConfirmation\">Automated Appointment Confirmation</h2><p>Navigate to <strong>Location Settings </strong>\u2192 <strong>Communications </strong>\u2192 <strong>Notifications</strong>. On the Notification Automation Overview page, click <strong>Create Notification Automation</strong>.</p><h3 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-NotificationNameandBehaviors\">Notification Name and Behaviors</h3><p>These fields determine the triggers and delivery methods for your notifications.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"371\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2138963973/Confirmation%201.png?api=v2\"></span><ul><li><p><strong>Notification Name </strong>- Assign a name for this notification that notes that it\u2019s used for appointment confirmations.</p></li><li><p><strong>Location </strong>- Select which location(s) this notification will be assigned to. By default, you can select any location you have a role. Admins can select a specific location or all locations.</p></li><li><p><strong>Trigger </strong>- Select the trigger that will initiate this notification. In this case, we will trigger the notification with an <strong>Appointment Status Change</strong>.</p></li><li><p><strong>Ticket Actions </strong>- Select the status that will initiate this notification. In this case, we will select <strong>Open </strong>appointment status, since this is the default appointment status for new appointments. Based on your configuration, this may be a different status. Admins can customize this in Appointment General Settings.</p></li><li><p><strong>Delivery </strong>- Select the delivery method for your notification.</p><ul><li><p><strong>Email </strong>- Deliver the notification via email. The customer\u2019s profile must have a valid email address for successful delivery.</p></li><li><p><strong>SMS </strong>- Deliver the notification via SMS. The customer\u2019s profile must have a valid SMS phone number, SMS carrier, and approval to receive SMS messages for successful delivery.</p></li><li><p><strong>Email + SMS</strong> - This will send an outgoing notification to both delivery methods based on the information in the customer\u2019s profile.</p></li></ul></li></ul><h3 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-NotificationSubjectandDeliveryDetails\">Notification Subject and Delivery Details</h3><p>These fields accept shortcodes to automatically populate contextual data from RepairQ into your notification. Accepted codes are listed above each field.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"426\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2138963973/Confirmation%202.png?api=v2\"></span><ul><li><p><strong>Message Subject </strong>- Enter the subject of your outgoing notification.</p></li><li><p><strong>Send To </strong>- This is the outgoing recipient of the message. Using the shortcode <strong>{customer}</strong> will pull contact information from the customer\u2019s profile when making the appointment. </p></li><li><p><strong>Reply To </strong>- This determines the recipient of any replies to the original message. Using <strong>{location_email}</strong> will send any replies to the email address assigned in your Location Information details.</p></li></ul><h3 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-NotificationMessageandSendSchedule\">Notification Message and Send Schedule</h3><p>These fields accept shortcodes to automatically populate contextual data from RepairQ into your notification. Accepted codes are listed above each field. You can also customize the timing of outgoing notifications.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"581\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2138963973/Confirmation%203.png?api=v2\"></span><ul><li><p><strong>Email Message </strong>- Create the body of your outgoing email for the customer. You can use short codes like <strong>{customer_first_name}</strong>, <strong>{location_short_name}</strong>, and <strong>{scheduled_date}</strong> to pull information about the appointment and insert them into the email.</p></li><li><p><strong>SMS Message </strong>- Create the body of your outgoing SMS message for the customer. You can use short codes like <strong>{customer_first_name}</strong>, <strong>{location_short_name}</strong>, and <strong>{scheduled_date}</strong> to pull information about the appointment and insert them into the message.</p></li><li><p><strong>Send Delay </strong>- By default, outgoing notifications are queued immediately. If you would like to delay your outgoing messages, you can select your delay time in minutes, hours, or days.</p></li><li><p><strong>Active </strong>- If this field is checked, the automation will run as intended. If you need to stop this notification, you can uncheck this field to turn off the automation.</p></li></ul><h2 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-AutomatedAppointmentReminder\">Automated Appointment Reminder</h2><p>Navigate to <strong>Location Settings </strong>\u2192 <strong>Communications </strong>\u2192 <strong>Notifications</strong>. On the Notification Automation Overview page, click <strong>Create Notification Automation</strong>.</p><h3 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-NotificationNameandBehaviors.1\">Notification Name and Behaviors</h3><p>These fields determine the triggers and delivery methods for your notifications.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"366\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2138963973/Reminder%201.png?api=v2\"></span><ul><li><p><strong>Notification Name </strong>- Assign a name for this notification that notes that it\u2019s used for appointment reminders.</p></li><li><p><strong>Location </strong>- Select which location(s) this notification will be assigned to. By default, you can select any location that you have a role for. Admins can select a specific location or all locations.</p></li><li><p><strong>Trigger </strong>- Select the trigger that will initiate this notification. In this case, we will trigger the notification by an <strong>Appointment Notification</strong>.</p></li><li><p><strong>Ticket Actions </strong>- Select <strong>Appointment</strong> <strong>Reminder </strong>for the action.</p></li><li><p><strong>Delivery </strong>- Select the delivery method for your notification.</p><ul><li><p><strong>Email </strong>- Deliver the notification via email. The customer\u2019s profile must have a valid email address for successful delivery.</p></li><li><p><strong>SMS </strong>- Deliver the notification via SMS. The customer\u2019s profile must have a valid SMS phone number, SMS carrier, and approval to receive SMS messages for successful delivery.</p></li><li><p><strong>Email + SMS</strong> - This will send an outgoing notification to both delivery methods based on the information in the customer\u2019s profile.</p></li></ul></li></ul><h3 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-NotificationSubjectandDeliveryDetails.1\">Notification Subject and Delivery Details</h3><p>These fields accept short codes to automatically populate contextual data from RepairQ into your notification. Accepted codes are listed above each field.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"488\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2138963973/Reminder%202.png?api=v2\"></span><ul><li><p><strong>Message Subject </strong>- Enter the subject of your outgoing notification.</p></li><li><p><strong>Send To </strong>- This is the outgoing recipient of the message. Using the short code <strong>{customer}</strong> will pull contact information from the customer\u2019s profile when sending the appointment reminder. </p></li><li><p><strong>Reply To </strong>- This determines the recipient of any replies to the original message. Using <strong>{location_email}</strong> will send any replies to the email address assigned in your Location Information details.</p></li></ul><h3 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-NotificationMessageandSendSchedule.1\">Notification Message and Send Schedule</h3><p>These fields accept short codes to automatically populate contextual data from RepairQ into your notification. Accepted codes are listed above each field. You can also customize the timing of outgoing notifications.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"708\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2138963973/Reminder%203.png?api=v2\"></span><ul><li><p><strong>Email Message </strong>- Create the body of your outgoing email for the customer. You can use short codes like <strong>{customer_first_name}</strong>, <strong>{location_short_name}</strong>, and <strong>{scheduled_date}</strong> to pull information about the appointment and insert them into the email.</p></li><li><p><strong>SMS Message </strong>- Create the body of your outgoing SMS message for the customer. You can use short codes like <strong>{customer_first_name}</strong>, <strong>{location_short_name}</strong>, and <strong>{scheduled_date}</strong> to pull information about the appointment and insert them into the message.</p></li><li><p><strong>Reminder </strong>- Set your reminder to send in minutes, hours, or days before the scheduled appointment.</p></li><li><p><strong>Active </strong>- If this field is checked, the automation will run as intended. If you need to stop this notification, you can uncheck this field to turn off the automation.</p></li></ul><h2 id=\"Appointments:CreatingAutomatedConfirmationsandReminders-TheNotificationQueue\">The Notification Queue</h2><p>You can check outbound notifications by navigating to <strong>Reports </strong>\u2192 <strong>Notifications</strong>. The Notification Queue shows all outgoing communications, including notification type, message preview, attachment, and status. Notifications in New Status can be canceled by clicking the red cancel button next to the notification. <strong>Once the notification has been sent, it cannot be undone</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2138963973/Notification%20Queue.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2138963973"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2138963973/child",
+    "restrictions": "/rest/api/content/2138963973/restriction/byOperation",
+    "history": "/rest/api/content/2138963973/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2138963973/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2138963973",
+    "webui": "/spaces/SCD/pages/2138963973/Appointments+Creating+Automated+Confirmations+and+Reminders",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2138963973",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2138963973",
+    "tinyui": "/x/BQB_fw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

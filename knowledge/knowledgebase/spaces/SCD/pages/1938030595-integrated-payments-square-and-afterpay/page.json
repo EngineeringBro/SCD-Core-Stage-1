@@ -1,0 +1,129 @@
+{
+  "id": "1938030595",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1938030595",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzODAzMDU5NQ==",
+  "status": "current",
+  "title": "Integrated Payments: Square and Afterpay",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:20.715Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "27",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1938030595.16",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1938030595"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1938030595/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Square offers merchants the ability to receive payments via Afterpay - Buy Now Pay Later. Merchants must be approved by Square to offer Afterpay to their customers, and Square/Afterpay fees apply to these transactions.</p><p>RepairQ integration with Square allows merchants approved for Afterpay to receive payments from customers using <a class=\"external-link\" href=\"https://squareup.com/help/us/en/article/7788-afterpay-and-square-faq\" rel=\"nofollow\">Afterpay In-Person Payments</a> on their Square Terminal.</p><h3 id=\"IntegratedPayments:SquareandAfterpay-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936556034/Integrated+Payments+Setup+Activating+Square+Integration+in+RepairQ\" data-linked-resource-id=\"1936556034\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payments Setup: Activating Square Integration in RepairQ</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1938030595/image-20230608-183743.png?api=v2\"></span><p /><h2 id=\"IntegratedPayments:SquareandAfterpay-SquareandAfterpayFAQs\">Square and Afterpay FAQs</h2><h3 id=\"IntegratedPayments:SquareandAfterpay-HowcanIofferAfterpaytomycustomers?\">How can I offer Afterpay to my customers?</h3><p>If approved, you will need to turn on Afterpay In-Person as a payment method in your Square Merchant account. More information about Afterpay eligibility, pricing, and configuration can be found <a class=\"external-link\" href=\"https://squareup.com/help/us/en/article/7770-accept-in-person-payments-with-afterpay-and-square#f20508fb74005a1de235def24684f126\" rel=\"nofollow\">here</a>.</p><h3 id=\"IntegratedPayments:SquareandAfterpay-HowdoIinitiateanAfterpaytransaction?\">How do I initiate an Afterpay transaction?</h3><p>The transaction process in RepairQ doesn't change. Just click the &quot;Add Transaction&quot; or &quot;Request Payment&quot; button on the ticket, and Square Terminal handles the rest!</p><h3 id=\"IntegratedPayments:SquareandAfterpay-HowdomycustomerspayusingAfterpay?\">How do my customers pay using Afterpay?</h3><p>Your customer can use the Afterpay app or use their Afterpay card. Your customer will use the payment terminal to present their Afterpay card just like any other payment!</p><h3 id=\"IntegratedPayments:SquareandAfterpay-DomyAfterpaytransactionssynctoRepairQ?\">Do my Afterpay transactions sync to RepairQ?</h3><p>Yes. The Afterpay transaction will appear on the RepairQ ticket and invoice/receipt as a payment. The entire amount of the Afterpay transaction will appear as a payment in RepairQ. At this time, the transaction is not designated as Afterpay\u2014it will show as a card payment.</p><h3 id=\"IntegratedPayments:SquareandAfterpay-CanAfterpaytransactionsberefunded?\">Can Afterpay transactions be refunded?</h3><p>Yes. You can process a refund as you typically would in RepairQ, and the transaction will be refunded to the customer through Afterpay.</p><h3 id=\"IntegratedPayments:SquareandAfterpay-DoIneedtosetupAfterpayasaPaymentMethodinRepairQ?\">Do I need to set up Afterpay as a Payment Method in RepairQ?</h3><p>No. As long as you have set up Square Integration in RepairQ (and in your Square Merchant portal) you will be able to receive Afterpay payments.</p><p>If you are interested in using our Square Payment integration feature, check out our Knowledge Base article: <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936556034/Integrated+Payments+Setup+Activating+Square+Integration+in+RepairQ\" data-linked-resource-id=\"1936556034\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Integrated Payments Setup: Activating Square Integration in RepairQ</a>.</p><h3 id=\"IntegratedPayments:SquareandAfterpay-WherecanIfindadditionalinformationaboutAfterpayeligibilityandpricing?\">Where can I find additional information about Afterpay eligibility and pricing?</h3><p>Check out <a class=\"external-link\" href=\"https://squareup.com/help/us/en/article/7770-accept-in-person-payments-with-afterpay-and-square\" rel=\"nofollow\">Accept In-Person Payments with Afterpay and Square</a> for more details.</p><h3 id=\"IntegratedPayments:SquareandAfterpay-HowcanIletmycustomersknowthatIacceptAfterpay?\">How can I let my customers know that I accept Afterpay?</h3><p>Square is currently providing free marketing kits for their customers. You can order your Afterpay marketing kit <a class=\"external-link\" href=\"https://squareup.com/shop/hardware/us/en/products/afterpay-marketing-kit\" rel=\"nofollow\">here</a>.</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1938030595"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1938030595/child",
+    "restrictions": "/rest/api/content/1938030595/restriction/byOperation",
+    "history": "/rest/api/content/1938030595/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1938030595/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1938030595",
+    "webui": "/spaces/SCD/pages/1938030595/Integrated+Payments+Square+and+Afterpay",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1938030595",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1938030595",
+    "tinyui": "/x/AwCEcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

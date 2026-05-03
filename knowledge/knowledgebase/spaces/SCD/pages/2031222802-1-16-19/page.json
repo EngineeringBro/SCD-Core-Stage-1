@@ -1,0 +1,130 @@
+{
+  "id": "2031222802",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2031222802",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMTIyMjgwMg==",
+  "status": "current",
+  "title": "1.16.19",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T21:47:12.891Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "3",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2031222802.10",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2031222802"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031222802/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p><em>Scheduled 10/14/2019 11:30PM CT (16:30 UTC)</em></p><p>Release 1.16.19 is a minor release which adds a handful of new features.</p><h2 id=\"id-1.16.19-HolidaySettings\">Holiday Settings</h2><p>Holiday settings for a location can now be managed by the Location Admin role. Prior to this, only an admin could manage holiday settings for all locations</p><h2 id=\"id-1.16.19-AutomatedNotifications\">Automated Notifications</h2><p>We added a few new short codes for automated notifications, and we added a new \u201creply to\u201d input where you can customize the reply to address for emails.</p><p><strong>New Short Codes for message content</strong></p><ul><li><p>{customer_pri_phone}</p></li><li><p>{customer_email}</p></li><li><p>{devices} shortcode will now return suggested device info if it exists</p></li><li><p>{device_problem_description} will return the ticket device problem description / diagnostic field</p></li></ul><p><strong>Reply To</strong></p><p>You can define a reply to address using the same shortcode options as the send to address. If you leave this input blank, it will default to your current reply to address.</p><h2 id=\"id-1.16.19-CatalogPriceAdvertised\">Catalog Price Advertised</h2><p>There is a new \u201cprice advertised\u201d catalog item attribute which will allow you to choose whether or not the price for an item will be shown in Qsite. If you unset the price advertised attribute, then Qsite will treat the item the same way as the \u201cprice unavailable contact us for more info\u201d scenario. You can set this attribute for the global catalog, and in location overrides. The attribute will also be returned as the value \u201cis_price_advertised\u201c for catalog items returned in our category and catalog APIs.</p><h2 id=\"id-1.16.19-Announcements\">Announcements</h2><p>We added the ability to manage announcements at the company level. You can edit and delete an announcements across multiple locations from a single interface via the company settings announcements page.\u00a0</p><h2 id=\"id-1.16.19-QsiteTicketLookup\">Qsite Ticket Lookup</h2><p>There is a new Qsite screen /qsite/lookup where you can enter a ticket number or claim number to trigger a secure link to view the ticket details, and manage an attached appointment.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2031222802"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 67392253
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2031222802/child",
+    "restrictions": "/rest/api/content/2031222802/restriction/byOperation",
+    "history": "/rest/api/content/2031222802/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2031222802/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2031222802",
+    "webui": "/spaces/SCD/pages/2031222802/1.16.19",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2031222802",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031222802",
+    "tinyui": "/x/EgASeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

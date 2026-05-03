@@ -1,0 +1,129 @@
+{
+  "id": "1934360593",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934360593",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDM2MDU5Mw==",
+  "status": "current",
+  "title": "Reports: Real-time Profitability",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:51.770Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934360593.26",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934360593"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934360593/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Profitability Report allows you to look at your total net revenue and total expenses for the day/month/quarter/year. We recommend accounting based on <strong>Closed </strong>tickets only; once a ticket is closed the date will no longer change, and the sales are reported as revenue. By default, filters are set to closed tickets only, because it is the most reliable method for this business model. For further information about accrual-based reporting, see our article,\u00a0<a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/202817920\" rel=\"nofollow\">RepairQ Accounting Principles</a>.</p><h3 id=\"Reports:Real-timeProfitability-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934393345/Reports+Check+Your+Gross+Profit+Margins+by+Item+Type\" data-linked-resource-id=\"1934393345\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Check Your Gross Profit Margins by Item Type</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934524447/Maintaining+an+Accurate+Profitability+Report\" data-linked-resource-id=\"1934524447\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">Maintaining an Accurate Profitability Report</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934393345/Reports+Check+Your+Gross+Profit+Margins+by+Item+Type\" data-linked-resource-id=\"1934393345\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Check Your Gross Profit Margins by Item Type</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933738176/Calculating+Overhead+Rate\" data-linked-resource-id=\"1933738176\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Calculating Overhead Rate</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360593/image-20230627-151344.png?api=v2\"></span><p /><h2 id=\"Reports:Real-timeProfitability-ViewingReal-timeProfitabilityReporting\">Viewing Real-time Profitability Reporting</h2><p /><p>1. On the Navigation Bar, go to <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360593/image-20230627-151347.png?api=v2\"></span><p /><p /><p>2. On the Reports page, click the <strong>Sales</strong> <strong>dropdown</strong> along the top row of report categories. From the available list, click <strong>Profitability</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360593/image-20230627-151351.png?api=v2\"></span><p /><p /><p>3. Use the available filters to scope results based on the assigned parameters. Once you have set your filters, click <strong>Apply</strong> <strong>Filters</strong> to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360593/image-20230627-151357.png?api=v2\"></span><p /><ul><li><p><strong>Date</strong> <strong>Range</strong> - Select a date range for your scope of results.</p></li><li><p><strong>Location</strong> - Select a specific location or an aggregate report for multiple/all locations.\u00a0</p></li><li><p><strong>Status</strong> - Choose to view results based on tickets in Closed status, Open status, or all statuses. By default, the report will run for tickets in Closed status, since ticket information is finalized.</p></li><li><p><strong>Warranty</strong> <strong>Providers</strong> - Filter by specific warranty providers or include all.</p></li><li><p><strong>Include</strong> <strong>Labor</strong> <strong>Costs</strong> - Labor is added by hours entered on ticket items and for the staff member's pay rate found in their <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1929379890/Staff+Management+Add+and+Deactivate+Staff+Profiles\" data-linked-resource-id=\"1929379890\" data-linked-resource-version=\"27\" data-linked-resource-type=\"page\">Staff Profile</a>.</p></li><li><p><strong>Include</strong> <strong>Overhead</strong> <strong>Costs</strong> - Include overhead costs defined in your Location Settings.</p></li></ul><h2 id=\"Reports:Real-timeProfitability-ProfitabilityReport\">Profitability Report</h2><p>The Profitability Report gives you an overhead view of your Profit Margin. The report gives a glance into Income including Net Sales, Gross Sales, and other income, as well as expenses, including Cost of Goods and Services, and Indirect Labor Costs.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360593/image-20230627-151401.png?api=v2\"></span><p /><p /><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934360593"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934360593/child",
+    "restrictions": "/rest/api/content/1934360593/restriction/byOperation",
+    "history": "/rest/api/content/1934360593/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934360593/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934360593",
+    "webui": "/spaces/SCD/pages/1934360593/Reports+Real-time+Profitability",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934360593",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934360593",
+    "tinyui": "/x/EQBMcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

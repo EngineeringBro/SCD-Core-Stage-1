@@ -1,0 +1,129 @@
+{
+  "id": "2363719681",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2363719681",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjM2MzcxOTY4MQ==",
+  "status": "current",
+  "title": "Creating Payment Methods",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:14.099Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "2328",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2363719681.23",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2363719681"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2363719681/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ utilizes a Virtual Cash Terminal (VCT) to record ticket transactions so you can reconcile your cash flow at the end of the day. Users can create custom payment methods tailored to their business needs, providing enhanced flexibility, accuracy, and control over the transaction management processes.</p><ul><li><p><strong>Customization</strong> - Define payment methods that align with your business model and customer preferences.</p></li><li><p><strong>Accuracy</strong> -Ensure precise recording of various payment types, facilitating accurate financial reporting.</p></li></ul><h3 id=\"CreatingPaymentMethods-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933901843\" rel=\"nofollow\">Setting up a Virtual Cash Terminal (VCT)</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933639827\" rel=\"nofollow\">Starting a Virtual Cash Terminal (VCT) To Accept Payments</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933541639\" rel=\"nofollow\">Closing a Virtual Cash Terminal (VCT)</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934229524\" rel=\"nofollow\">Reports: Cash Reconciliation</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2348187679\" rel=\"nofollow\">Virtual Cash Terminal and Ticket Payment Settings</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934295157\" rel=\"nofollow\">Integrated Payment Processing - Start Here!</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2363719681/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CreatingPaymentMethods-CreatingaNewPaymentMethod\">Creating a New Payment Method</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>. For managers of a location, log into the location you are adding the payment method, then go to <strong>Settings </strong>\u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"New Payment Method 1.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2363719681/New%20Payment%20Method%201.png?api=v2\"></span><p /><p>2. On the Settings Overview screen, under the Payments section, click <strong>Payment Methods</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"New Payment Method 2.png\" width=\"388\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2363719681/New%20Payment%20Method%202.png?api=v2\"></span><p /><p>3. On the overview page, you\u2019ll see a list of default methods. Click <strong>Add Payment Method</strong> on the right side.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"New Payment Method 3.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2363719681/New%20Payment%20Method%203.png?api=v2\"></span><p /><p>4. Begin filling out the fields for the new payment method. When you are satisfied with your settings, click <strong>Save</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"New Payment Method 4.png\" width=\"517\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2363719681/New%20Payment%20Method%204.png?api=v2\"></span><ul><li><p><strong>Location </strong>- Payment Methods added at the company level will apply to all locations by default. If you manage multiple locations, you can select which location to add the payment method or select all locations.</p></li><li><p><strong>Name</strong> - Assign a name to identify your payment method. For example, &quot;CashApp.&quot;</p></li><li><p><strong>Type</strong> - Select a payment type that corresponds with the payment method.</p></li><li><p><strong>Gateway (optional)</strong> - If you select the Credit Card payment type, you\u2019ll be prompted to select a gateway. If you are not using our integrated payment feature, select \u201cNon-integrated.\u201d</p></li><li><p><strong>Payments Account (optional) </strong>- If this payment method requires a different account than you have configured in your <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/1934458970\" rel=\"nofollow\">Journal Entry Classifications</a>, you can assign it here.</p></li><li><p><strong>Priority (optional)</strong> - This determines the order of Payment Methods on the Overview screen. You can assign a number, beginning at zero, to rearrange the order of methods. Lower numbers will sit higher on the list.</p></li><li><p><strong>Is Active</strong> - Check this box to activate the payment method. To deactivate the payment method, uncheck the box.</p></li></ul><p /><p>5. The new payment method will show on the Payment Method Overview screen after saving your settings.</p><p><strong>Note</strong>: Unused payment methods can be deleted, however, once linked to a payment on a ticket, it cannot be deleted, to maintain data integrity.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"New Payment Method 5.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2363719681/New%20Payment%20Method%205.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2363719681"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2363719681/child",
+    "restrictions": "/rest/api/content/2363719681/restriction/byOperation",
+    "history": "/rest/api/content/2363719681/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2363719681/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2363719681",
+    "webui": "/spaces/SCD/pages/2363719681/Creating+Payment+Methods",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2363719681",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2363719681",
+    "tinyui": "/x/AYDjj",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

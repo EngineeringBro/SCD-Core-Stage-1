@@ -1,0 +1,29 @@
+{
+  "seedQuery": "e",
+  "values": [
+    {
+      "title": "RepairQ 1.11",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2031452193",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2031452193"
+      }
+    },
+    {
+      "title": "Accounting for Miscellaneous Fees for Online Sales",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1933738036",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1933738036"
+      }
+    }
+  ]
+}

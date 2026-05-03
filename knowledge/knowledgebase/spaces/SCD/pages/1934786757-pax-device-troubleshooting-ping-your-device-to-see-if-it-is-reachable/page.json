@@ -1,0 +1,129 @@
+{
+  "id": "1934786757",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934786757",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDc4Njc1Nw==",
+  "status": "current",
+  "title": "PAX Device Troubleshooting: Ping Your Device to See if it is Reachable",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:00.072Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "27",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934786757.18",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934786757"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786757/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>If RepairQ is unable to communicate with your PAX device, you may need to update the IP address in your Payment Device settings. As a further measure, users can ping their payment device directly from their computer to confirm that the connection is successful.</p><p><strong>Note</strong>: We recommend finding the IP address of your payment device first. If you need assistance with this process, be sure to check out the links below.</p><h3 id=\"PAXDeviceTroubleshooting:PingYourDevicetoSeeifitisReachable-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Connectivity Troubleshooting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917880/PAX+Device+Troubleshooting+Find+the+IP+Address+Assigned+to+Your+PAX+S300\" data-linked-resource-id=\"1934917880\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Integrated Payment Devices: Find the IP Address Assigned to Your Bluefin PAX S300</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196946/PAX+Device+Troubleshooting+Find+the+IP+Address+Assigned+to+Your+Bluefin+PAX+A80+A920\" data-linked-resource-id=\"1934196946\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Integrated Payment Devices: Find the IP Address Assigned to Your Bluefin PAX A80</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196978/PAX+Device+Troubleshooting+Find+the+IP+Address+Assigned+to+Your+Bluefin+PAX+D210\" data-linked-resource-id=\"1934196978\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payment Devices: Find the IP Address Assigned to Your Bluefin PAX D210</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173744.png?api=v2\"></span><p /><h2 id=\"PAXDeviceTroubleshooting:PingYourDevicetoSeeifitisReachable-PingyourPAXDevicefromaMac\">Ping your PAX Device from a Mac</h2><p /><p>1. Open the <strong>Terminal Application</strong>. If you are unsure of how to find this app, try searching &quot;terminal&quot; in Spotlight search.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173755.png?api=v2\"></span><p /><p /><p>2. Once the app is running, type (without the quotations) &quot;<strong>ping device.IP.address</strong>.&quot; \u00a0Note that &quot;<strong>device.IP.address</strong>&quot; is the IP address that is assigned to your payment device, e.g.\u00a0&quot;ping 192.168.1.15.&quot;</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173759.png?api=v2\"></span><p /><p /><p>3. After you have typed in the command, press <strong>Enter</strong>. You will see a string of messages once the information is submitted.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173802.png?api=v2\"></span><p /><p /><p>4a. If you see messages that read<strong> __ bytes from __ </strong>with <strong>0% packet loss</strong>,\u00a0then you were able to reach the PAX device successfully.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173805.png?api=v2\"></span><p /><p /><p>4b. If you see messages that read <strong>Request timeout</strong>, <strong>0 packets received</strong>, <strong>100% packet loss</strong>, or similar, then you are unable to reach the PAX device, and either the IP address you entered was wrong, or you are not on the same local network as the device.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173808.png?api=v2\"></span><p /><p /><p>5. Press <strong>ctrl+c </strong>to stop the ping.</p><p /><h2 id=\"PAXDeviceTroubleshooting:PingYourDevicetoSeeifitisReachable-PingyourPAXDeviceonaWindowsDevice\">Ping your PAX Device on a Windows Device</h2><p /><p>1. Search and locate the Command Prompt application.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173810.png?api=v2\"></span><p /><p /><p>2. On the menu to the right of the search results, click <strong>Run as administrator</strong>. If prompted for permission to do so, click <strong>Yes</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173813.png?api=v2\"></span><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173816.png?api=v2\"></span><p /><p /><p>Note: Alternatively, you can <strong>right-click</strong> the application and select <strong>Run as administrator</strong>.</p><p /><p>3. Once the app is running, type (without the quotations) &quot;<strong>ping device.IP.address</strong>.&quot; \u00a0Note that &quot;<strong>device.IP.address</strong>&quot;\u00a0is the IP address that is assigned to your payment device, e.g. &quot;ping 192.168.1.15.&quot;</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173819.png?api=v2\"></span><p /><p /><p>4. After you have typed in the command, press <strong>Enter</strong>. You will see a string of messages once the information is submitted.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173822.png?api=v2\"></span><p /><p /><p>5a. If you see messages that read <strong>Packets: Sent = __, Received = __, Lost = 0 (0% loss)</strong>, or similar, then you were able to reach the PAX device successfully.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173824.png?api=v2\"></span><p /><p /><p>5b. If you see messages that read <strong>Request timed out</strong>, <strong>Destination host unreachable</strong>, or show any packets lost, then you are unable to reach the PAX device, and either the IP address you entered was wrong, or you are not on the same local network as the device.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934786757/image-20230622-173829.png?api=v2\"></span><p /><p /><p>6. The ping should stop automatically, or you can Press <strong>ctrl+shift+6</strong> to stop the ping.</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934786757"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934786757/child",
+    "restrictions": "/rest/api/content/1934786757/restriction/byOperation",
+    "history": "/rest/api/content/1934786757/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934786757/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934786757",
+    "webui": "/spaces/SCD/pages/1934786757/PAX+Device+Troubleshooting+Ping+Your+Device+to+See+if+it+is+Reachable",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934786757",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934786757",
+    "tinyui": "/x/xYBScw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

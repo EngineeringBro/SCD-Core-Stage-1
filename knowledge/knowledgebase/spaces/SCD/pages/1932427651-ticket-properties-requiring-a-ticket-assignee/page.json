@@ -1,0 +1,129 @@
+{
+  "id": "1932427651",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932427651",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjQyNzY1MQ==",
+  "status": "current",
+  "title": "Ticket Properties: Requiring a Ticket Assignee",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:29.639Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "145",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932427651.27",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932427651"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932427651/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Ticket Properties feature allows users to add additional details to Repair tickets. Properties can be used for classification in reporting, filtering your Ticket Queue, as well as working with custom forms, notifications, and approvals based on assigned properties.</p><p>Admins can require a user to select an assignee before they can save a ticket in a new status. This is useful for reporting and quality assurance purposes. You can require an assignee for specific ticket types (Repair, Refurb, Claim) and which ticket statuses require a resolution.</p><p>For example, you can set a requirement for an Assignee on Repair tickets before progressing the ticket to <strong>In Repair</strong> status.</p><h3 id=\"TicketProperties:RequiringaTicketAssignee-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931411672\" rel=\"nofollow\">Ticket Properties Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329145\" rel=\"nofollow\">Ticket Properties Override</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361846\" rel=\"nofollow\">Ticket Properties: Designating a Ticket Assignee</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525658\" rel=\"nofollow\">Ticket Properties: Search Tickets by Assigned Properties</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932853380\" rel=\"nofollow\">Assigning Ticket Items to Users</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427638\" rel=\"nofollow\">Ticket Properties: Requiring a Ticket Resolution</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427651/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"TicketProperties:RequiringaTicketAssignee-RequireaTicketAssignee\">Require a Ticket Assignee</h2><p /><p>1. Log into RepairQ as an Admin. On the RepairQ Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427651/Require%20Ticket%20Assignee%201.png?api=v2\"></span><p /><p>2. On the Settings Overview page, select <strong>Tickets </strong>from the list of options in the left column. From the dropdown list, click <strong>General Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"217\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427651/Require%20Ticket%20Assignee%202.png?api=v2\"></span><p /><p>3. On the Ticket General Settings page, toggle <strong>ON </strong>the setting labeled <strong>Prompt for (and require) ticket assignee when advancing to the following statuses</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427651/Require%20Ticket%20Assignee%203.png?api=v2\"></span><p /><p>4. In the text boxes below, select which ticket status(es) and ticket type(s) will require an assignee. Once you have made your selections, click the <strong>Save </strong>button on the upper-right of the page to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427651/Require%20Ticket%20Assignee%204.png?api=v2\"></span><p /><h2 id=\"TicketProperties:RequiringaTicketAssignee-LocatingtheAssigneeFieldofaTicket\">Locating the Assignee Field of a Ticket</h2><p>When creating a new Repair ticket or editing an existing Repair ticket, the Assignee Field is along the top row of the ticket. An assignee will be required before advancing the ticket to the configured status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427651/Require%20Ticket%20Assignee%205.png?api=v2\"></span><p /><p><strong>Note</strong>: The assignee dropdown will display active users from your Staff List.</p><p /><p>If the Resolution field has not been selected, the user will be prompted to select an Assignee before progressing the ticket status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932427651/Require%20Ticket%20Assignee%206.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932427651"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932427651/child",
+    "restrictions": "/rest/api/content/1932427651/restriction/byOperation",
+    "history": "/rest/api/content/1932427651/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932427651/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932427651",
+    "webui": "/spaces/SCD/pages/1932427651/Ticket+Properties+Requiring+a+Ticket+Assignee",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932427651",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932427651",
+    "tinyui": "/x/g4Eucw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "requestTypeFields": [
+    {
+      "fieldId": "customfield_10033",
+      "name": "Customer Email Address",
+      "description": "Enter your email. We will use this to send you updates on your request.",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10033
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "customfield_10034",
+      "name": "Reporter Phone #",
+      "description": "Enter your phone number if you prefer to be contacted by phone for urgent issues.",
+      "required": false,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10034
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "summary",
+      "name": "Subject",
+      "description": "Enter a brief subject for your question. Example: \"Work orders are not transitioning to Closed status.\"",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "system": "summary"
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "customfield_10875",
+      "name": "Module RQ",
+      "description": "",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [
+        {
+          "value": "11133",
+          "label": "Accounting",
+          "children": []
+        },
+        {
+          "value": "11134",
+          "label": "Appointments",
+          "children": []
+        },
+        {
+          "value": "11135",
+          "label": "Catalog Management",
+          "children": []
+        },
+        {
+          "value": "11136",
+          "label": "Custom Forms",
+          "children": []
+        },
+        {
+          "value": "11137",
+          "label": "Customers & Contacts",
+          "children": []
+        },
+        {
+          "value": "11138",
+          "label": "Getting Started & Onboarding",
+          "children": []
+        },
+        {
+          "value": "11139",
+          "label": "Help Desk",
+          "children": []
+        },
+        {
+          "value": "11140",
+          "label": "Integrations & APIs",
+          "children": []
+        },
+        {
+          "value": "11141",
+          "label": "Inventory Management",
+          "children": []
+        },
+        {
+          "value": "11142",
+          "label": "Invoicing, Billing & Refunds",
+          "children": []
+        },
+        {
+          "value": "11143",
+          "label": "Notifications & Messaging",
+          "children": []
+        },
+        {
+          "value": "11144",
+          "label": "Payments & Payment Devices",
+          "children": []
+        },
+        {
+          "value": "11145",
+          "label": "Pricing, Discounts & Taxes",
+          "children": []
+        },
+        {
+          "value": "11146",
+          "label": "Printing & Labels",
+          "children": []
+        },
+        {
+          "value": "11147",
+          "label": "Purchase Orders & Supply Chain",
+          "children": []
+        },
+        {
+          "value": "11148",
+          "label": "Qpop",
+          "children": []
+        },
+        {
+          "value": "11149",
+          "label": "Qsite",
+          "children": []
+        },
+        {
+          "value": "11150",
+          "label": "Reports & Business Intelligence",
+          "children": []
+        },
+        {
+          "value": "11151",
+          "label": "Staff & Location Management",
+          "children": []
+        },
+        {
+          "value": "11152",
+          "label": "Tickets & Repairs",
+          "children": []
+        },
+        {
+          "value": "11153",
+          "label": "Other",
+          "children": []
+        }
+      ],
+      "jiraSchema": {
+        "type": "option",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 10875
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "customfield_10842",
+      "name": "Affected User(s)",
+      "description": "Enter the username(s) experiencing the issue. If multiple users are affected, list them separated by commas or specify \u201cmultiple users.\u201d",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10842
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "description",
+      "name": "Description",
+      "description": "Provide as much detail as possible: Provide as much detail as possible to help us resolve your issue quickly: What were you trying to do? What happened instead?, Steps to reproduce: list the exact steps that lead to the issue, Any error messages or unexpected behavior you observed, How many users or records are affected?",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "system": "description"
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "customfield_10776",
+      "name": "URL",
+      "description": "Paste the URL of the page where the issue occurred.",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:url",
+        "customId": 10776
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "customfield_10146",
+      "name": "Ticket # or Purchase Order # (if applicable)",
+      "description": "If your issue is related to a specific work order or purchase order, enter the number here.",
+      "required": false,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+        "customId": 10146
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "attachment",
+      "name": "Attachment",
+      "description": "Upload screenshots, error logs, videos or any files that help illustrate the issue.",
+      "required": true,
+      "defaultValues": [],
+      "validValues": [],
+      "jiraSchema": {
+        "type": "array",
+        "items": "attachment",
+        "system": "attachment"
+      },
+      "visible": true
+    },
+    {
+      "fieldId": "priority",
+      "name": "Priority / Severity",
+      "description": "Business Impact: Critical = Catastrophic; High = Major; Medium = Moderate; Low = Minimal",
+      "required": false,
+      "defaultValues": [
+        {
+          "value": "10003",
+          "label": "4 - Low",
+          "children": []
+        }
+      ],
+      "validValues": [
+        {
+          "value": "10000",
+          "label": "1 - Critical",
+          "children": []
+        },
+        {
+          "value": "10001",
+          "label": "2 - High",
+          "children": []
+        },
+        {
+          "value": "10002",
+          "label": "3 - Medium",
+          "children": []
+        },
+        {
+          "value": "10003",
+          "label": "4 - Low",
+          "children": []
+        },
+        {
+          "value": "10004",
+          "label": "System",
+          "children": []
+        }
+      ],
+      "jiraSchema": {
+        "type": "priority",
+        "system": "priority"
+      },
+      "visible": true
+    }
+  ],
+  "canRaiseOnBehalfOf": true,
+  "canAddRequestParticipants": true
+}

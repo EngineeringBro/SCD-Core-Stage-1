@@ -1,0 +1,129 @@
+{
+  "id": "1932623898",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932623898",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjYyMzg5OA==",
+  "status": "current",
+  "title": "Introduction to the Catalog - Start Here! (with video)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:07.360Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 13,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932623898.66",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932623898"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932623898/version/13"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"IntroductiontotheCatalog-StartHere!(withvideo)-HowdoIsetupMyCataloginRepairQ?\">How do I set up My Catalog in RepairQ?</h2><p>The Catalog is a primary list of all items and services available for your store. By default, the catalog is managed globally, so data is accessible to all locations within your database. The catalog is customizable based on what kind of business you offer, but a typical catalog will consist of the following:</p><ul><li><p>Items/Devices that will be sold to customers</p></li><li><p>Items/Devices that are purchased from customers</p></li><li><p>Items/Devices that can be repaired by technicians</p></li><li><p>Items used for parts on repairs of devices</p></li><li><p>Services/labor for repairs</p></li></ul><p>Creating an organized catalog from the start is key to collecting accurate business reports and metrics as well as reducing mistakes and duplicate entries by your staff. Taking the time to develop your catalog is well worth the investment in creating a solid foundation for using RepairQ. The articles listed below will help you establish and maintain your catalog.</p><a class=\"external-link\" data-card-appearance=\"embed\" data-layout=\"center\" data-original-height=\"480.00\" data-original-width=\"853.34\" data-width=\"100.00\" href=\"https://youtu.be/T2aKGheUbwU\" rel=\"nofollow\">https://youtu.be/T2aKGheUbwU</a><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932623898/Control%20-%20f79824.png?api=v2\"></span><h3 id=\"IntroductiontotheCatalog-StartHere!(withvideo)-GettingStarted\">Getting Started</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1931018355\" rel=\"nofollow\">The RepairQ Catalog</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2144370777\" rel=\"nofollow\">Item Types</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329061/Create+a+Catalog+Item\" data-linked-resource-id=\"1932329061\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Creating a Catalog Item</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2247983133\" rel=\"nofollow\">Cloning a Catalog Item</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/kb/view/1932624014\" rel=\"nofollow\">Catalog Management: Importing Catalog Items</a></p></li></ul><h3 id=\"IntroductiontotheCatalog-StartHere!(withvideo)-CatalogMaintenanceandAdditionalResources\">Catalog Maintenance and Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787772/Merging+Catalog+Items\" data-linked-resource-id=\"1932787772\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Merging Catalog Items</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656763/Catalog+Items+Creating+Sellable+Repairable+and+Trade-in+Devices\" data-linked-resource-id=\"1932656763\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Catalog Items: Creating Sellable, Repairable, and Trade-in Devices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931018389/Catalog+Management+Importing+Location+Overrides\" data-linked-resource-id=\"1931018389\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Catalog Items: Importing Location Overrides</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591125/Catalog+Items+Device+Compatibility\" data-linked-resource-id=\"1932591125\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Items: Device Compatibility</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787785/Catalog+Items+Bundle+Setup\" data-linked-resource-id=\"1932787785\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Catalog Items: Bundle Relationships, Auto-Bundling, and Auto-Adding Items</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/kb/view/1932525576\" rel=\"nofollow\">RepairQ Best Practices - Inventory Management 101</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/kb/view/1932361762\" rel=\"nofollow\">RepairQ Best Practices - Inventory Management 102</a></p></li></ul><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932623898"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932623898/child",
+    "restrictions": "/rest/api/content/1932623898/restriction/byOperation",
+    "history": "/rest/api/content/1932623898/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932623898/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932623898",
+    "webui": "/spaces/SCD/pages/1932623898/Introduction+to+the+Catalog+-+Start+Here+with+video",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932623898",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932623898",
+    "tinyui": "/x/GoAxcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

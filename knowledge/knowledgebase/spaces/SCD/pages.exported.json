@@ -1,0 +1,4153 @@
+[
+  {
+    "id": "4538433586",
+    "title": "\ud83d\udcbc Accounting",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538433586-accounting/body.export_view.html"
+  },
+  {
+    "id": "4538433565",
+    "title": "\ud83d\udc65 Customers & Contacts",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538433565-customers-contacts/body.export_view.html"
+  },
+  {
+    "id": "4538433542",
+    "title": "\ud83c\udfab Tickets & Repairs",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538433542-tickets-repairs/body.export_view.html"
+  },
+  {
+    "id": "4538302538",
+    "title": "\ud83d\udc64 Staff & Locations",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538302538-staff-locations/body.export_view.html"
+  },
+  {
+    "id": "4538302516",
+    "title": "\ud83d\udd14 Notifications",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538302516-notifications/body.export_view.html"
+  },
+  {
+    "id": "4538302495",
+    "title": "\ud83d\udda8\ufe0f Printing & Labels",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538302495-printing-labels/body.export_view.html"
+  },
+  {
+    "id": "4538302474",
+    "title": "\ud83d\udcc8 Reports & Business Intelligence",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538302474-reports-business-intelligence/body.export_view.html"
+  },
+  {
+    "id": "4538270181",
+    "title": "\ud83c\udfa7 Help Desk",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538270181-help-desk/body.export_view.html"
+  },
+  {
+    "id": "4538237149",
+    "title": "\ud83d\udcca Inventory Management",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538237149-inventory-management/body.export_view.html"
+  },
+  {
+    "id": "4538237128",
+    "title": "\ud83d\udce6 Catalog Management",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538237128-catalog-management/body.export_view.html"
+  },
+  {
+    "id": "4538204450",
+    "title": "\ud83d\udd17 Integrations",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538204450-integrations/body.export_view.html"
+  },
+  {
+    "id": "4538204429",
+    "title": "\ud83d\udcf1 Qpop (Companion App)",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538204429-qpop-companion-app/body.export_view.html"
+  },
+  {
+    "id": "4538204407",
+    "title": "\ud83d\uded2 Purchase Orders",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538204407-purchase-orders/body.export_view.html"
+  },
+  {
+    "id": "4538171667",
+    "title": "\ud83c\udf10 Qsite (Customer Portal)",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538171667-qsite-customer-portal/body.export_view.html"
+  },
+  {
+    "id": "4538138916",
+    "title": "\ud83d\udcdd Custom Forms",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538138916-custom-forms/body.export_view.html"
+  },
+  {
+    "id": "4538138894",
+    "title": "\ud83d\udcda Getting Started",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4538138894-getting-started/body.export_view.html"
+  },
+  {
+    "id": "4537910120",
+    "title": "\ud83c\udd95 What's New",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4537910120-what-s-new/body.export_view.html"
+  },
+  {
+    "id": "4537910099",
+    "title": "\ud83d\udcc5 Appointments",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4537910099-appointments/body.export_view.html"
+  },
+  {
+    "id": "4537910077",
+    "title": "\ud83e\uddfe Invoicing & Refunds",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4537910077-invoicing-refunds/body.export_view.html"
+  },
+  {
+    "id": "4537910056",
+    "title": "\ud83d\udcb0 Pricing, Discounts & Taxes",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4537910056-pricing-discounts-taxes/body.export_view.html"
+  },
+  {
+    "id": "4537549527",
+    "title": "\ud83d\udcb3 Payments & Devices",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/4537549527-payments-devices/body.export_view.html"
+  },
+  {
+    "id": "4434231308",
+    "title": "What's New in RepairQ - Version 1.24.1",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/4434231308-what-s-new-in-repairq-version-1-24-1/body.export_view.html"
+  },
+  {
+    "id": "4402741252",
+    "title": "[DRAFT] Using the Customer Check-in Kiosk",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/4402741252-draft-using-the-customer-check-in-kiosk/body.export_view.html"
+  },
+  {
+    "id": "3351805970",
+    "title": "Login Troubleshooting",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/3351805970-login-troubleshooting/body.export_view.html"
+  },
+  {
+    "id": "3137470483",
+    "title": "Ticket Items: Add Multiple Inventoried Items in Bulk",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/3137470483-ticket-items-add-multiple-inventoried-items-in-bulk/body.export_view.html"
+  },
+  {
+    "id": "3110567937",
+    "title": "Inventory Management: Create a Supplier",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/3110567937-inventory-management-create-a-supplier/body.export_view.html"
+  },
+  {
+    "id": "3082977297",
+    "title": "RepairQ API - Third-Party Supplier API Integration Guide",
+    "spaceKey": "SCD",
+    "version": 20,
+    "bodyExportViewPath": "spaces/SCD/pages/3082977297-repairq-api-third-party-supplier-api-integration-guide/body.export_view.html"
+  },
+  {
+    "id": "3044278275",
+    "title": "RepairQ 1.22.5",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/3044278275-repairq-1-22-5/body.export_view.html"
+  },
+  {
+    "id": "3041296386",
+    "title": "WISE Certified Provider Branding on Receipts and Invoices",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/3041296386-wise-certified-provider-branding-on-receipts-and-invoices/body.export_view.html"
+  },
+  {
+    "id": "3020390411",
+    "title": "Customer Balance Alerts",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/3020390411-customer-balance-alerts/body.export_view.html"
+  },
+  {
+    "id": "2981593104",
+    "title": "RepairQ 1.22.4",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/2981593104-repairq-1-22-4/body.export_view.html"
+  },
+  {
+    "id": "2933194804",
+    "title": "Staff Management: Auto Clock-Out and Overtime Alerts",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/2933194804-staff-management-auto-clock-out-and-overtime-alerts/body.export_view.html"
+  },
+  {
+    "id": "2882928643",
+    "title": "RepairQ 1.22.3",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/2882928643-repairq-1-22-3/body.export_view.html"
+  },
+  {
+    "id": "2878537739",
+    "title": "Catalog Management: Import Supplier SKUs",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/2878537739-catalog-management-import-supplier-skus/body.export_view.html"
+  },
+  {
+    "id": "2861039626",
+    "title": "1.22 Release Notes",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/2861039626-1-22-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2860122120",
+    "title": "RepairQ 1.22.2",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2860122120-repairq-1-22-2/body.export_view.html"
+  },
+  {
+    "id": "2837905412",
+    "title": "Bundling Resources",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2837905412-bundling-resources/body.export_view.html"
+  },
+  {
+    "id": "2816507905",
+    "title": "Create an Automated Email Notification",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2816507905-create-an-automated-email-notification/body.export_view.html"
+  },
+  {
+    "id": "2811494426",
+    "title": "RepairQ 1.22.1",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/2811494426-repairq-1-22-1/body.export_view.html"
+  },
+  {
+    "id": "2773549059",
+    "title": "Inventory Management: Methods for Moving Inventory to a Centralized Location",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2773549059-inventory-management-methods-for-moving-inventory-to-a-centralized-location/body.export_view.html"
+  },
+  {
+    "id": "2772959242",
+    "title": "RepairQ 1.21.5",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2772959242-repairq-1-21-5/body.export_view.html"
+  },
+  {
+    "id": "2767552554",
+    "title": "Add a New Device Carrier",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/2767552554-add-a-new-device-carrier/body.export_view.html"
+  },
+  {
+    "id": "2767290399",
+    "title": "Create an Automated SMS Notification",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2767290399-create-an-automated-sms-notification/body.export_view.html"
+  },
+  {
+    "id": "2742845447",
+    "title": "RepairQ 1.21.4",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2742845447-repairq-1-21-4/body.export_view.html"
+  },
+  {
+    "id": "2738651142",
+    "title": "Business Intelligence - Create a Report",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/2738651142-business-intelligence-create-a-report/body.export_view.html"
+  },
+  {
+    "id": "2734981154",
+    "title": "Data Import Task Queue",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2734981154-data-import-task-queue/body.export_view.html"
+  },
+  {
+    "id": "2731114524",
+    "title": "Business Intelligence (BI) Resources",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/2731114524-business-intelligence-bi-resources/body.export_view.html"
+  },
+  {
+    "id": "2717712385",
+    "title": "Cash Transaction Currency Settings",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/2717712385-cash-transaction-currency-settings/body.export_view.html"
+  },
+  {
+    "id": "2717089793",
+    "title": "Virtual Cash Terminal (VCT) Resources",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/2717089793-virtual-cash-terminal-vct-resources/body.export_view.html"
+  },
+  {
+    "id": "2713288722",
+    "title": "Tax-inclusive Pricing: GST Receipt Template",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2713288722-tax-inclusive-pricing-gst-receipt-template/body.export_view.html"
+  },
+  {
+    "id": "2713124902",
+    "title": "Cash Rounding Settings",
+    "spaceKey": "SCD",
+    "version": 18,
+    "bodyExportViewPath": "spaces/SCD/pages/2713124902-cash-rounding-settings/body.export_view.html"
+  },
+  {
+    "id": "2708373513",
+    "title": "RepairQ 1.21.3",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2708373513-repairq-1-21-3/body.export_view.html"
+  },
+  {
+    "id": "2696282113",
+    "title": "Staff Management: View and Adjust Attendance Records",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/2696282113-staff-management-view-and-adjust-attendance-records/body.export_view.html"
+  },
+  {
+    "id": "2602893319",
+    "title": "Customer General Settings",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2602893319-customer-general-settings/body.export_view.html"
+  },
+  {
+    "id": "2600665089",
+    "title": "1.21 Release Notes",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2600665089-1-21-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2596798476",
+    "title": "RepairQ Data Retention Policy",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2596798476-repairq-data-retention-policy/body.export_view.html"
+  },
+  {
+    "id": "2564096029",
+    "title": "Purchase Order Settings",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/2564096029-purchase-order-settings/body.export_view.html"
+  },
+  {
+    "id": "2547974160",
+    "title": "Inventory Management: Change Inventory Attributes via Import",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/2547974160-inventory-management-change-inventory-attributes-via-import/body.export_view.html"
+  },
+  {
+    "id": "2517958661",
+    "title": "RepairQ 1.21.1",
+    "spaceKey": "SCD",
+    "version": 21,
+    "bodyExportViewPath": "spaces/SCD/pages/2517958661-repairq-1-21-1/body.export_view.html"
+  },
+  {
+    "id": "2489253891",
+    "title": "Repair Tickets: Auto-Erasing Passwords After Ticket Closure",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/2489253891-repair-tickets-auto-erasing-passwords-after-ticket-closure/body.export_view.html"
+  },
+  {
+    "id": "2471034883",
+    "title": "Integrations: Webhooks and APIs",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/2471034883-integrations-webhooks-and-apis/body.export_view.html"
+  },
+  {
+    "id": "2426634252",
+    "title": "Assign an Item Grid to Ticket Navigation",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/2426634252-assign-an-item-grid-to-ticket-navigation/body.export_view.html"
+  },
+  {
+    "id": "2424930307",
+    "title": "Qsite\u2122 Opportunities - Catalog and Pricing",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2424930307-qsite-opportunities-catalog-and-pricing/body.export_view.html"
+  },
+  {
+    "id": "2405826615",
+    "title": "RepairQ 1.20.5.2",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/2405826615-repairq-1-20-5-2/body.export_view.html"
+  },
+  {
+    "id": "2363719681",
+    "title": "Creating Payment Methods",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/2363719681-creating-payment-methods/body.export_view.html"
+  },
+  {
+    "id": "2353856515",
+    "title": "RepairQ Account Signup",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/2353856515-repairq-account-signup/body.export_view.html"
+  },
+  {
+    "id": "2348187679",
+    "title": "Virtual Cash Terminal: Ticket Payment Settings",
+    "spaceKey": "SCD",
+    "version": 17,
+    "bodyExportViewPath": "spaces/SCD/pages/2348187679-virtual-cash-terminal-ticket-payment-settings/body.export_view.html"
+  },
+  {
+    "id": "2343862276",
+    "title": "RepairQ Test Mode",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/2343862276-repairq-test-mode/body.export_view.html"
+  },
+  {
+    "id": "2343272460",
+    "title": "Reopening Reconciled Purchase Orders",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/2343272460-reopening-reconciled-purchase-orders/body.export_view.html"
+  },
+  {
+    "id": "2340945933",
+    "title": "Reopening Closed Tickets",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/2340945933-reopening-closed-tickets/body.export_view.html"
+  },
+  {
+    "id": "2311192654",
+    "title": "RepairQ Subscription Plans (2024)",
+    "spaceKey": "SCD",
+    "version": 15,
+    "bodyExportViewPath": "spaces/SCD/pages/2311192654-repairq-subscription-plans-2024/body.export_view.html"
+  },
+  {
+    "id": "2275704854",
+    "title": "Qsite\u2122 Opportunities - Location Setup and Location Management",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/2275704854-qsite-opportunities-location-setup-and-location-management/body.export_view.html"
+  },
+  {
+    "id": "2260533280",
+    "title": "Working with Custom Forms on Tickets",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2260533280-working-with-custom-forms-on-tickets/body.export_view.html"
+  },
+  {
+    "id": "2247983133",
+    "title": "Copy a Catalog Item",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/2247983133-copy-a-catalog-item/body.export_view.html"
+  },
+  {
+    "id": "2200764440",
+    "title": "Bundle Parts on Tickets",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/2200764440-bundle-parts-on-tickets/body.export_view.html"
+  },
+  {
+    "id": "2188607647",
+    "title": "RepairQ 1.20.5",
+    "spaceKey": "SCD",
+    "version": 22,
+    "bodyExportViewPath": "spaces/SCD/pages/2188607647-repairq-1-20-5/body.export_view.html"
+  },
+  {
+    "id": "2152726556",
+    "title": "Catalog Items: Auto-Bundle and Auto-Add",
+    "spaceKey": "SCD",
+    "version": 18,
+    "bodyExportViewPath": "spaces/SCD/pages/2152726556-catalog-items-auto-bundle-and-auto-add/body.export_view.html"
+  },
+  {
+    "id": "2144370777",
+    "title": "Item Types",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/2144370777-item-types/body.export_view.html"
+  },
+  {
+    "id": "2138963973",
+    "title": "Appointments: Creating Automated Confirmations and Reminders",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/2138963973-appointments-creating-automated-confirmations-and-reminders/body.export_view.html"
+  },
+  {
+    "id": "2131951619",
+    "title": "Creating a New Manufacturer",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2131951619-creating-a-new-manufacturer/body.export_view.html"
+  },
+  {
+    "id": "2131165196",
+    "title": "Catalog Management: Importing Catalog Edits",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/2131165196-catalog-management-importing-catalog-edits/body.export_view.html"
+  },
+  {
+    "id": "2129002528",
+    "title": "Catalog Item Import: Rules and Fields",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/2129002528-catalog-item-import-rules-and-fields/body.export_view.html"
+  },
+  {
+    "id": "2115633174",
+    "title": "Refurbishment Ticket Behavior Settings",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2115633174-refurbishment-ticket-behavior-settings/body.export_view.html"
+  },
+  {
+    "id": "2107047975",
+    "title": "Reports: Inventory Reorder Required",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/2107047975-reports-inventory-reorder-required/body.export_view.html"
+  },
+  {
+    "id": "2098069535",
+    "title": "Reports: Discounts Summary and Discounts Detail",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2098069535-reports-discounts-summary-and-discounts-detail/body.export_view.html"
+  },
+  {
+    "id": "2098036767",
+    "title": "Discount Management on Tickets",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/2098036767-discount-management-on-tickets/body.export_view.html"
+  },
+  {
+    "id": "2095546399",
+    "title": "Discounts: Creation and Customization",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/2095546399-discounts-creation-and-customization/body.export_view.html"
+  },
+  {
+    "id": "2094923832",
+    "title": "Discounts: Activation and General Settings",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/2094923832-discounts-activation-and-general-settings/body.export_view.html"
+  },
+  {
+    "id": "2074476545",
+    "title": "1.20.1",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2074476545-1-20-1/body.export_view.html"
+  },
+  {
+    "id": "2068807721",
+    "title": "PAX Device Troubleshooting: Change Your DNS Servers - Windows 11",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2068807721-pax-device-troubleshooting-change-your-dns-servers-windows-11/body.export_view.html"
+  },
+  {
+    "id": "2057601121",
+    "title": "Bundle Required: Items and Ticket Status",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/2057601121-bundle-required-items-and-ticket-status/body.export_view.html"
+  },
+  {
+    "id": "2053341206",
+    "title": "Quick Sale Ticket Status Flow",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/2053341206-quick-sale-ticket-status-flow/body.export_view.html"
+  },
+  {
+    "id": "2041348159",
+    "title": "1.7.4.6",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041348159-1-7-4-6/body.export_view.html"
+  },
+  {
+    "id": "2041348144",
+    "title": "1.7.4.1",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041348144-1-7-4-1/body.export_view.html"
+  },
+  {
+    "id": "2041348127",
+    "title": "1.7.3",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041348127-1-7-3/body.export_view.html"
+  },
+  {
+    "id": "2041348113",
+    "title": "1.7.2.1",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041348113-1-7-2-1/body.export_view.html"
+  },
+  {
+    "id": "2041315418",
+    "title": "1.7.4.4",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041315418-1-7-4-4/body.export_view.html"
+  },
+  {
+    "id": "2041315405",
+    "title": "1.7.4.2",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041315405-1-7-4-2/body.export_view.html"
+  },
+  {
+    "id": "2041315378",
+    "title": "1.7.0.x",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041315378-1-7-0-x/body.export_view.html"
+  },
+  {
+    "id": "2041315365",
+    "title": "1.7.2.1.x",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041315365-1-7-2-1-x/body.export_view.html"
+  },
+  {
+    "id": "2041282704",
+    "title": "1.7.4.15",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041282704-1-7-4-15/body.export_view.html"
+  },
+  {
+    "id": "2041282691",
+    "title": "1.7.4.14",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041282691-1-7-4-14/body.export_view.html"
+  },
+  {
+    "id": "2041282652",
+    "title": "1.7.2.x",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041282652-1-7-2-x/body.export_view.html"
+  },
+  {
+    "id": "2041282613",
+    "title": "1.7.4.7",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2041282613-1-7-4-7/body.export_view.html"
+  },
+  {
+    "id": "2041282598",
+    "title": "1.7.4",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2041282598-1-7-4/body.export_view.html"
+  },
+  {
+    "id": "2040922126",
+    "title": "1.7.1",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040922126-1-7-1/body.export_view.html"
+  },
+  {
+    "id": "2040889484",
+    "title": "1.7.4.12",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040889484-1-7-4-12/body.export_view.html"
+  },
+  {
+    "id": "2040889458",
+    "title": "1.7.4.8",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040889458-1-7-4-8/body.export_view.html"
+  },
+  {
+    "id": "2040889431",
+    "title": "1.7.4.10",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040889431-1-7-4-10/body.export_view.html"
+  },
+  {
+    "id": "2040889418",
+    "title": "1.7.4.5",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040889418-1-7-4-5/body.export_view.html"
+  },
+  {
+    "id": "2040856688",
+    "title": "1.7.4.3",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040856688-1-7-4-3/body.export_view.html"
+  },
+  {
+    "id": "2040856660",
+    "title": "1.7.3.x",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040856660-1-7-3-x/body.export_view.html"
+  },
+  {
+    "id": "2040856610",
+    "title": "1.7.4.13",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040856610-1-7-4-13/body.export_view.html"
+  },
+  {
+    "id": "2040627350",
+    "title": "1.7.4.11",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040627350-1-7-4-11/body.export_view.html"
+  },
+  {
+    "id": "2040627324",
+    "title": "1.7.4.9",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040627324-1-7-4-9/body.export_view.html"
+  },
+  {
+    "id": "2040627283",
+    "title": "RepairQ 1.7",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040627283-repairq-1-7/body.export_view.html"
+  },
+  {
+    "id": "2040627270",
+    "title": "1.7.1.x",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040627270-1-7-1-x/body.export_view.html"
+  },
+  {
+    "id": "2040528904",
+    "title": "1.7.2",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2040528904-1-7-2/body.export_view.html"
+  },
+  {
+    "id": "2037153820",
+    "title": "1.8.2",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2037153820-1-8-2/body.export_view.html"
+  },
+  {
+    "id": "2037088324",
+    "title": "1.8.5",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2037088324-1-8-5/body.export_view.html"
+  },
+  {
+    "id": "2037088263",
+    "title": "RepairQ 1.9",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2037088263-repairq-1-9/body.export_view.html"
+  },
+  {
+    "id": "2037055525",
+    "title": "1.8.1",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2037055525-1-8-1/body.export_view.html"
+  },
+  {
+    "id": "2037055492",
+    "title": "1.9.3",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2037055492-1-9-3/body.export_view.html"
+  },
+  {
+    "id": "2036957278",
+    "title": "1.18.3",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036957278-1-18-3/body.export_view.html"
+  },
+  {
+    "id": "2036957249",
+    "title": "1.8.8",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036957249-1-8-8/body.export_view.html"
+  },
+  {
+    "id": "2036891839",
+    "title": "Zip Code Validation for Customers",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2036891839-zip-code-validation-for-customers/body.export_view.html"
+  },
+  {
+    "id": "2036891662",
+    "title": "1.9.2",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036891662-1-9-2/body.export_view.html"
+  },
+  {
+    "id": "2036891650",
+    "title": "1.8 Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2036891650-1-8-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2036760589",
+    "title": "1.7 Release Notes",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2036760589-1-7-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2036727825",
+    "title": "1.8.9",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036727825-1-8-9/body.export_view.html"
+  },
+  {
+    "id": "2036629517",
+    "title": "RepairQ 1.8",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036629517-repairq-1-8/body.export_view.html"
+  },
+  {
+    "id": "2036596788",
+    "title": "1.8.10",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2036596788-1-8-10/body.export_view.html"
+  },
+  {
+    "id": "2036531325",
+    "title": "1.9.1",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036531325-1-9-1/body.export_view.html"
+  },
+  {
+    "id": "2036531244",
+    "title": "1.9 Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2036531244-1-9-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2036498517",
+    "title": "1.8.7",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036498517-1-8-7/body.export_view.html"
+  },
+  {
+    "id": "2036465728",
+    "title": "1.8.6",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036465728-1-8-6/body.export_view.html"
+  },
+  {
+    "id": "2036400230",
+    "title": "1.8.3",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036400230-1-8-3/body.export_view.html"
+  },
+  {
+    "id": "2036400217",
+    "title": "1.8.4",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2036400217-1-8-4/body.export_view.html"
+  },
+  {
+    "id": "2035941439",
+    "title": "1.10.1",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2035941439-1-10-1/body.export_view.html"
+  },
+  {
+    "id": "2035941426",
+    "title": "1.10.5",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2035941426-1-10-5/body.export_view.html"
+  },
+  {
+    "id": "2035875886",
+    "title": "1.10.2",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2035875886-1-10-2/body.export_view.html"
+  },
+  {
+    "id": "2035875867",
+    "title": "1.20.3",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2035875867-1-20-3/body.export_view.html"
+  },
+  {
+    "id": "2035843139",
+    "title": "1.10.4",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2035843139-1-10-4/body.export_view.html"
+  },
+  {
+    "id": "2035712096",
+    "title": "RepairQ 1.10",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2035712096-repairq-1-10/body.export_view.html"
+  },
+  {
+    "id": "2035712069",
+    "title": "1.10.3",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2035712069-1-10-3/body.export_view.html"
+  },
+  {
+    "id": "2035712042",
+    "title": "1.10 Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2035712042-1-10-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2035384392",
+    "title": "1.10.6",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2035384392-1-10-6/body.export_view.html"
+  },
+  {
+    "id": "2031747074",
+    "title": "1.12 Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2031747074-1-12-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2031681537",
+    "title": "1.12.5",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031681537-1-12-5/body.export_view.html"
+  },
+  {
+    "id": "2031616064",
+    "title": "1.12.7",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031616064-1-12-7/body.export_view.html"
+  },
+  {
+    "id": "2031616038",
+    "title": "1.12.11",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031616038-1-12-11/body.export_view.html"
+  },
+  {
+    "id": "2031616012",
+    "title": "1.12.6",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031616012-1-12-6/body.export_view.html"
+  },
+  {
+    "id": "2031452193",
+    "title": "RepairQ 1.11",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031452193-repairq-1-11/body.export_view.html"
+  },
+  {
+    "id": "2031452180",
+    "title": "1.12.2",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031452180-1-12-2/body.export_view.html"
+  },
+  {
+    "id": "2031452167",
+    "title": "1.12.1",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031452167-1-12-1/body.export_view.html"
+  },
+  {
+    "id": "2031419446",
+    "title": "1.11 Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2031419446-1-11-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2031419412",
+    "title": "1.12.10",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031419412-1-12-10/body.export_view.html"
+  },
+  {
+    "id": "2031386631",
+    "title": "1.12.8",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031386631-1-12-8/body.export_view.html"
+  },
+  {
+    "id": "2031353917",
+    "title": "1.11.1",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031353917-1-11-1/body.export_view.html"
+  },
+  {
+    "id": "2031353891",
+    "title": "1.12.13",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031353891-1-12-13/body.export_view.html"
+  },
+  {
+    "id": "2031353878",
+    "title": "1.12.4",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031353878-1-12-4/body.export_view.html"
+  },
+  {
+    "id": "2031353863",
+    "title": "1.12.12",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031353863-1-12-12/body.export_view.html"
+  },
+  {
+    "id": "2031222912",
+    "title": "1.13.8",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031222912-1-13-8/body.export_view.html"
+  },
+  {
+    "id": "2031222876",
+    "title": "1.13.7",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2031222876-1-13-7/body.export_view.html"
+  },
+  {
+    "id": "2031222845",
+    "title": "1.15.8",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031222845-1-15-8/body.export_view.html"
+  },
+  {
+    "id": "2031222828",
+    "title": "RepairQ 1.16",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031222828-repairq-1-16/body.export_view.html"
+  },
+  {
+    "id": "2031222802",
+    "title": "1.16.19",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031222802-1-16-19/body.export_view.html"
+  },
+  {
+    "id": "2031190034",
+    "title": "1.15.1",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031190034-1-15-1/body.export_view.html"
+  },
+  {
+    "id": "2031190021",
+    "title": "1.16.16",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031190021-1-16-16/body.export_view.html"
+  },
+  {
+    "id": "2031157296",
+    "title": "RepairQ 1.14",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031157296-repairq-1-14/body.export_view.html"
+  },
+  {
+    "id": "2031157283",
+    "title": "1.15.7",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031157283-1-15-7/body.export_view.html"
+  },
+  {
+    "id": "2031157270",
+    "title": "1.15.6",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031157270-1-15-6/body.export_view.html"
+  },
+  {
+    "id": "2031058949",
+    "title": "1.16.6",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031058949-1-16-6/body.export_view.html"
+  },
+  {
+    "id": "2031026278",
+    "title": "1.13.11",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031026278-1-13-11/body.export_view.html"
+  },
+  {
+    "id": "2031026265",
+    "title": "1.13.9",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031026265-1-13-9/body.export_view.html"
+  },
+  {
+    "id": "2031026225",
+    "title": "1.15.2",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2031026225-1-15-2/body.export_view.html"
+  },
+  {
+    "id": "2030960683",
+    "title": "RepairQ 1.15",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2030960683-repairq-1-15/body.export_view.html"
+  },
+  {
+    "id": "2030862437",
+    "title": "1.13.6",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030862437-1-13-6/body.export_view.html"
+  },
+  {
+    "id": "2030862424",
+    "title": "1.13.13",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030862424-1-13-13/body.export_view.html"
+  },
+  {
+    "id": "2030862411",
+    "title": "1.13.5",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030862411-1-13-5/body.export_view.html"
+  },
+  {
+    "id": "2030862398",
+    "title": "1.13.1",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030862398-1-13-1/body.export_view.html"
+  },
+  {
+    "id": "2030862372",
+    "title": "1.15.8.1 - 1.15.8.6",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030862372-1-15-8-1-1-15-8-6/body.export_view.html"
+  },
+  {
+    "id": "2030796874",
+    "title": "1.13.3",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030796874-1-13-3/body.export_view.html"
+  },
+  {
+    "id": "2030796848",
+    "title": "1.13.12",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030796848-1-13-12/body.export_view.html"
+  },
+  {
+    "id": "2030698694",
+    "title": "RepairQ 1.12",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030698694-repairq-1-12/body.export_view.html"
+  },
+  {
+    "id": "2030698670",
+    "title": "1.12.3",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030698670-1-12-3/body.export_view.html"
+  },
+  {
+    "id": "2030698657",
+    "title": "1.12.9",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030698657-1-12-9/body.export_view.html"
+  },
+  {
+    "id": "2030698611",
+    "title": "RepairQ 1.13",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030698611-repairq-1-13/body.export_view.html"
+  },
+  {
+    "id": "2030698598",
+    "title": "1.13.10",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030698598-1-13-10/body.export_view.html"
+  },
+  {
+    "id": "2030698585",
+    "title": "1.13.4",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030698585-1-13-4/body.export_view.html"
+  },
+  {
+    "id": "2030698572",
+    "title": "1.13.2",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030698572-1-13-2/body.export_view.html"
+  },
+  {
+    "id": "2030698538",
+    "title": "1.15.4",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030698538-1-15-4/body.export_view.html"
+  },
+  {
+    "id": "2030698517",
+    "title": "1.16.24",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030698517-1-16-24/body.export_view.html"
+  },
+  {
+    "id": "2030600303",
+    "title": "1.12.14",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030600303-1-12-14/body.export_view.html"
+  },
+  {
+    "id": "2030600237",
+    "title": "1.15.3",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030600237-1-15-3/body.export_view.html"
+  },
+  {
+    "id": "2030600209",
+    "title": "1.15.5",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2030600209-1-15-5/body.export_view.html"
+  },
+  {
+    "id": "2029682720",
+    "title": "1.18.13",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029682720-1-18-13/body.export_view.html"
+  },
+  {
+    "id": "2029682707",
+    "title": "1.18.10",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029682707-1-18-10/body.export_view.html"
+  },
+  {
+    "id": "2029617360",
+    "title": "1.15 Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2029617360-1-15-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2029617315",
+    "title": "1.19.1",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029617315-1-19-1/body.export_view.html"
+  },
+  {
+    "id": "2029584399",
+    "title": "1.17.18",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029584399-1-17-18/body.export_view.html"
+  },
+  {
+    "id": "2029584386",
+    "title": "1.17.9",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029584386-1-17-9/body.export_view.html"
+  },
+  {
+    "id": "2029551670",
+    "title": "1.17.16",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029551670-1-17-16/body.export_view.html"
+  },
+  {
+    "id": "2029518967",
+    "title": "1.18.9",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029518967-1-18-9/body.export_view.html"
+  },
+  {
+    "id": "2029486194",
+    "title": "1.17.14",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029486194-1-17-14/body.export_view.html"
+  },
+  {
+    "id": "2029453397",
+    "title": "1.17.11",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029453397-1-17-11/body.export_view.html"
+  },
+  {
+    "id": "2029453348",
+    "title": "1.17.10",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029453348-1-17-10/body.export_view.html"
+  },
+  {
+    "id": "2029387877",
+    "title": "1.18.7",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029387877-1-18-7/body.export_view.html"
+  },
+  {
+    "id": "2029289551",
+    "title": "1.19.2",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029289551-1-19-2/body.export_view.html"
+  },
+  {
+    "id": "2029289538",
+    "title": "1.18.11",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029289538-1-18-11/body.export_view.html"
+  },
+  {
+    "id": "2029289514",
+    "title": "RepairQ 1.17",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029289514-repairq-1-17/body.export_view.html"
+  },
+  {
+    "id": "2029289480",
+    "title": "1.17.20",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029289480-1-17-20/body.export_view.html"
+  },
+  {
+    "id": "2029256842",
+    "title": "1.16 Release Notes",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2029256842-1-16-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2029224183",
+    "title": "1.20 Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2029224183-1-20-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2029224101",
+    "title": "1.19 Release Notes",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/2029224101-1-19-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2029224019",
+    "title": "1.18 Release Notes",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/2029224019-1-18-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2029223937",
+    "title": "1.17 Release Notes",
+    "spaceKey": "SCD",
+    "version": 15,
+    "bodyExportViewPath": "spaces/SCD/pages/2029223937-1-17-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2029191290",
+    "title": "1.13 Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2029191290-1-13-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2029191278",
+    "title": "1.14 Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2029191278-1-14-release-notes/body.export_view.html"
+  },
+  {
+    "id": "2029191253",
+    "title": "1.18.12",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029191253-1-18-12/body.export_view.html"
+  },
+  {
+    "id": "2029191171",
+    "title": "1.17.17",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029191171-1-17-17/body.export_view.html"
+  },
+  {
+    "id": "2029093019",
+    "title": "1.18.4",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029093019-1-18-4/body.export_view.html"
+  },
+  {
+    "id": "2029093006",
+    "title": "1.18.6",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029093006-1-18-6/body.export_view.html"
+  },
+  {
+    "id": "2029092992",
+    "title": "1.18.5",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029092992-1-18-5/body.export_view.html"
+  },
+  {
+    "id": "2029092967",
+    "title": "1.17.13",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2029092967-1-17-13/body.export_view.html"
+  },
+  {
+    "id": "2028994647",
+    "title": "RepairQ 1.18",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2028994647-repairq-1-18/body.export_view.html"
+  },
+  {
+    "id": "2028961804",
+    "title": "1.17.19",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2028961804-1-17-19/body.export_view.html"
+  },
+  {
+    "id": "2028929041",
+    "title": "1.17.12",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2028929041-1-17-12/body.export_view.html"
+  },
+  {
+    "id": "2028896299",
+    "title": "1.18.8",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2028896299-1-18-8/body.export_view.html"
+  },
+  {
+    "id": "2028896262",
+    "title": "1.17.15",
+    "spaceKey": "SCD",
+    "version": 1,
+    "bodyExportViewPath": "spaces/SCD/pages/2028896262-1-17-15/body.export_view.html"
+  },
+  {
+    "id": "2028634130",
+    "title": "Switch Between Staff Profiles Without Logging Out of RepairQ",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/2028634130-switch-between-staff-profiles-without-logging-out-of-repairq/body.export_view.html"
+  },
+  {
+    "id": "2028175373",
+    "title": "RepairQ Onboarding Plans and Resources",
+    "spaceKey": "SCD",
+    "version": 15,
+    "bodyExportViewPath": "spaces/SCD/pages/2028175373-repairq-onboarding-plans-and-resources/body.export_view.html"
+  },
+  {
+    "id": "2024734723",
+    "title": "Staff Management Settings",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/2024734723-staff-management-settings/body.export_view.html"
+  },
+  {
+    "id": "2022080562",
+    "title": "Quotes: Save a Ticket as a Quote",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/2022080562-quotes-save-a-ticket-as-a-quote/body.export_view.html"
+  },
+  {
+    "id": "2013626370",
+    "title": "RepairQ Help Desk - Organization Management",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/2013626370-repairq-help-desk-organization-management/body.export_view.html"
+  },
+  {
+    "id": "2009006115",
+    "title": "Deactivating (Closing) a Location: Frequently Asked Questions (FAQs)",
+    "spaceKey": "SCD",
+    "version": 21,
+    "bodyExportViewPath": "spaces/SCD/pages/2009006115-deactivating-closing-a-location-frequently-asked-questions-faqs/body.export_view.html"
+  },
+  {
+    "id": "2004320269",
+    "title": "RepairQ Release Notes",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/2004320269-repairq-release-notes/body.export_view.html"
+  },
+  {
+    "id": "1993375753",
+    "title": "List Views: Editing Columns",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1993375753-list-views-editing-columns/body.export_view.html"
+  },
+  {
+    "id": "1990393862",
+    "title": "1.20.2",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1990393862-1-20-2/body.export_view.html"
+  },
+  {
+    "id": "1986560223",
+    "title": "Tax-inclusive Pricing Resources",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1986560223-tax-inclusive-pricing-resources/body.export_view.html"
+  },
+  {
+    "id": "1986560182",
+    "title": "Tax-inclusive Pricing: GST Invoice Template",
+    "spaceKey": "SCD",
+    "version": 21,
+    "bodyExportViewPath": "spaces/SCD/pages/1986560182-tax-inclusive-pricing-gst-invoice-template/body.export_view.html"
+  },
+  {
+    "id": "1986035723",
+    "title": "Tax-inclusive Pricing: Customize Ticket Display",
+    "spaceKey": "SCD",
+    "version": 33,
+    "bodyExportViewPath": "spaces/SCD/pages/1986035723-tax-inclusive-pricing-customize-ticket-display/body.export_view.html"
+  },
+  {
+    "id": "1984823420",
+    "title": "Tax-inclusive Pricing: Company and Location Setup",
+    "spaceKey": "SCD",
+    "version": 23,
+    "bodyExportViewPath": "spaces/SCD/pages/1984823420-tax-inclusive-pricing-company-and-location-setup/body.export_view.html"
+  },
+  {
+    "id": "1978269709",
+    "title": "Square Integrated Payment Resources",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1978269709-square-integrated-payment-resources/body.export_view.html"
+  },
+  {
+    "id": "1971814409",
+    "title": "Inventory Management: Auto-Serialization Setup",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1971814409-inventory-management-auto-serialization-setup/body.export_view.html"
+  },
+  {
+    "id": "1953595423",
+    "title": "Appointments: Availability Windows",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1953595423-appointments-availability-windows/body.export_view.html"
+  },
+  {
+    "id": "1953595397",
+    "title": "Appointments: Viewing and Creating Statuses",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1953595397-appointments-viewing-and-creating-statuses/body.export_view.html"
+  },
+  {
+    "id": "1952743425",
+    "title": "Part Core Recovery: Recovery Reasons and Inventory Grades",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1952743425-part-core-recovery-recovery-reasons-and-inventory-grades/body.export_view.html"
+  },
+  {
+    "id": "1952481286",
+    "title": "Part Core Recovery: Recover a Part Core on a Ticket",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1952481286-part-core-recovery-recover-a-part-core-on-a-ticket/body.export_view.html"
+  },
+  {
+    "id": "1952251905",
+    "title": "Inventory Management: Applying and Viewing Inventory Reasons",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1952251905-inventory-management-applying-and-viewing-inventory-reasons/body.export_view.html"
+  },
+  {
+    "id": "1951694865",
+    "title": "Part Core Recovery: Setup",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1951694865-part-core-recovery-setup/body.export_view.html"
+  },
+  {
+    "id": "1943404579",
+    "title": "Print a Ticket Label",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1943404579-print-a-ticket-label/body.export_view.html"
+  },
+  {
+    "id": "1941831681",
+    "title": "RepairQ Help Desk - Knowledge Base and Submit a Request",
+    "spaceKey": "SCD",
+    "version": 33,
+    "bodyExportViewPath": "spaces/SCD/pages/1941831681-repairq-help-desk-knowledge-base-and-submit-a-request/body.export_view.html"
+  },
+  {
+    "id": "1941700634",
+    "title": "Create a Help Desk User Account",
+    "spaceKey": "SCD",
+    "version": 22,
+    "bodyExportViewPath": "spaces/SCD/pages/1941700634-create-a-help-desk-user-account/body.export_view.html"
+  },
+  {
+    "id": "1941143880",
+    "title": "RepairQ Help Desk - Viewing Requests and Status Updates",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1941143880-repairq-help-desk-viewing-requests-and-status-updates/body.export_view.html"
+  },
+  {
+    "id": "1939570735",
+    "title": "Reports: Repairs by Technician and Item",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1939570735-reports-repairs-by-technician-and-item/body.export_view.html"
+  },
+  {
+    "id": "1939472413",
+    "title": "Tip Report and Distribution",
+    "spaceKey": "SCD",
+    "version": 20,
+    "bodyExportViewPath": "spaces/SCD/pages/1939472413-tip-report-and-distribution/body.export_view.html"
+  },
+  {
+    "id": "1939406870",
+    "title": "Prepaid Wireless Services Setup",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1939406870-prepaid-wireless-services-setup/body.export_view.html"
+  },
+  {
+    "id": "1938161692",
+    "title": "PAX Device Troubleshooting: Duplicate Payment Requests",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1938161692-pax-device-troubleshooting-duplicate-payment-requests/body.export_view.html"
+  },
+  {
+    "id": "1938096131",
+    "title": "Appointments: Scheduling Holidays",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1938096131-appointments-scheduling-holidays/body.export_view.html"
+  },
+  {
+    "id": "1938030615",
+    "title": "Inventory Management: Defective Inventory Reason",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1938030615-inventory-management-defective-inventory-reason/body.export_view.html"
+  },
+  {
+    "id": "1938030595",
+    "title": "Integrated Payments: Square and Afterpay",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1938030595-integrated-payments-square-and-afterpay/body.export_view.html"
+  },
+  {
+    "id": "1937866763",
+    "title": "Reporting Resources (with Video)",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1937866763-reporting-resources-with-video/body.export_view.html"
+  },
+  {
+    "id": "1937801227",
+    "title": "Third-Party Marketing Consent",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1937801227-third-party-marketing-consent/body.export_view.html"
+  },
+  {
+    "id": "1937670188",
+    "title": "Business Intelligence - Inventory Forecasting",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1937670188-business-intelligence-inventory-forecasting/body.export_view.html"
+  },
+  {
+    "id": "1937473555",
+    "title": "Quick Create: Catalog Item Created Context",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1937473555-quick-create-catalog-item-created-context/body.export_view.html"
+  },
+  {
+    "id": "1937211440",
+    "title": "Inventory Detail - List View Column Updates",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1937211440-inventory-detail-list-view-column-updates/body.export_view.html"
+  },
+  {
+    "id": "1937047567",
+    "title": "Qpop\u2122 Companion Resources (with Video)",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1937047567-qpop-companion-resources-with-video/body.export_view.html"
+  },
+  {
+    "id": "1937015029",
+    "title": "Quick Create: Add New Catalog Items on Tickets",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1937015029-quick-create-add-new-catalog-items-on-tickets/body.export_view.html"
+  },
+  {
+    "id": "1937015016",
+    "title": "Virtual Cash Terminals (VCTs) (video)",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1937015016-virtual-cash-terminals-vcts-video/body.export_view.html"
+  },
+  {
+    "id": "1937014969",
+    "title": "Inventory Walkthrough (video)",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1937014969-inventory-walkthrough-video/body.export_view.html"
+  },
+  {
+    "id": "1937014916",
+    "title": "PAX Device Troubleshooting: Invalid Credit Card Entry",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1937014916-pax-device-troubleshooting-invalid-credit-card-entry/body.export_view.html"
+  },
+  {
+    "id": "1937014903",
+    "title": "Clearing Your Cache in Chrome Browser",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1937014903-clearing-your-cache-in-chrome-browser/body.export_view.html"
+  },
+  {
+    "id": "1937014890",
+    "title": "Automate Customer List Exports to Mailchimp via Zapier",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1937014890-automate-customer-list-exports-to-mailchimp-via-zapier/body.export_view.html"
+  },
+  {
+    "id": "1937014863",
+    "title": "Qsite\u2122 Ticket Approval Setup - Sending and Finalizing Approvals",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1937014863-qsite-ticket-approval-setup-sending-and-finalizing-approvals/body.export_view.html"
+  },
+  {
+    "id": "1937014846",
+    "title": "Create a Qpop\u2122 Companion",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1937014846-create-a-qpop-companion/body.export_view.html"
+  },
+  {
+    "id": "1936982118",
+    "title": "RepairQ API - Embed Qsite\u2122 Ticket Status Into Your Website",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1936982118-repairq-api-embed-qsite-ticket-status-into-your-website/body.export_view.html"
+  },
+  {
+    "id": "1936949331",
+    "title": "Send Custom Forms to Your Qpop Companion Device",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1936949331-send-custom-forms-to-your-qpop-companion-device/body.export_view.html"
+  },
+  {
+    "id": "1936949314",
+    "title": "Shopify - Setup Liquid Template (for suppliers)",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1936949314-shopify-setup-liquid-template-for-suppliers/body.export_view.html"
+  },
+  {
+    "id": "1936949301",
+    "title": "Integrated Printing Troubleshooting",
+    "spaceKey": "SCD",
+    "version": 17,
+    "bodyExportViewPath": "spaces/SCD/pages/1936949301-integrated-printing-troubleshooting/body.export_view.html"
+  },
+  {
+    "id": "1936949270",
+    "title": "Integrated Printing 103: Adding and Assigning Printer Configurations",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1936949270-integrated-printing-103-adding-and-assigning-printer-configurations/body.export_view.html"
+  },
+  {
+    "id": "1936851025",
+    "title": "Automated Notifications: Add a Qsite\u2122 Ticket Status Link",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1936851025-automated-notifications-add-a-qsite-ticket-status-link/body.export_view.html"
+  },
+  {
+    "id": "1936851011",
+    "title": "Add a Qsite\u2122 Ticket Status Link to Receipts and Invoices",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1936851011-add-a-qsite-ticket-status-link-to-receipts-and-invoices/body.export_view.html"
+  },
+  {
+    "id": "1936818210",
+    "title": "Catalog Items: Assign a Supplier SKU",
+    "spaceKey": "SCD",
+    "version": 18,
+    "bodyExportViewPath": "spaces/SCD/pages/1936818210-catalog-items-assign-a-supplier-sku/body.export_view.html"
+  },
+  {
+    "id": "1936785488",
+    "title": "Staff Management Resources (with Video)",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1936785488-staff-management-resources-with-video/body.export_view.html"
+  },
+  {
+    "id": "1936785459",
+    "title": "Integrated Payments Setup: Assigning a Square Terminal to a Virtual Cash Terminal (VCT) to Accept Payments",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1936785459-integrated-payments-setup-assigning-a-square-terminal-to-a-virtual-cash-terminal-vct-to-accept-payments/body.export_view.html"
+  },
+  {
+    "id": "1936785446",
+    "title": "Business Intelligence - Analytics Dashboards",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1936785446-business-intelligence-analytics-dashboards/body.export_view.html"
+  },
+  {
+    "id": "1936785428",
+    "title": "Embed Qsite\u2122 Features Into Your Website",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936785428-embed-qsite-features-into-your-website/body.export_view.html"
+  },
+  {
+    "id": "1936719893",
+    "title": "Integrated Payments: Accepting Payments on a Square Terminal",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1936719893-integrated-payments-accepting-payments-on-a-square-terminal/body.export_view.html"
+  },
+  {
+    "id": "1936687196",
+    "title": "Managing Service Programs",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936687196-managing-service-programs/body.export_view.html"
+  },
+  {
+    "id": "1936687177",
+    "title": "Qsite\u2122 Ticket Approval Setup - Customer Notifications",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1936687177-qsite-ticket-approval-setup-customer-notifications/body.export_view.html"
+  },
+  {
+    "id": "1936654474",
+    "title": "Customer Management Resources (with Video)",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1936654474-customer-management-resources-with-video/body.export_view.html"
+  },
+  {
+    "id": "1936654461",
+    "title": "Navigating the Ticket Queue (video)",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936654461-navigating-the-ticket-queue-video/body.export_view.html"
+  },
+  {
+    "id": "1936654444",
+    "title": "Reports: Customer Segments",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936654444-reports-customer-segments/body.export_view.html"
+  },
+  {
+    "id": "1936654431",
+    "title": "Managing Service Authorizers",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936654431-managing-service-authorizers/body.export_view.html"
+  },
+  {
+    "id": "1936654410",
+    "title": "Qpop\u2122 Companion Troubleshooting",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1936654410-qpop-companion-troubleshooting/body.export_view.html"
+  },
+  {
+    "id": "1936621637",
+    "title": "Analytics Dashboards - Explore and Download Data",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1936621637-analytics-dashboards-explore-and-download-data/body.export_view.html"
+  },
+  {
+    "id": "1936588905",
+    "title": "Qsite\u2122 Opportunities",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1936588905-qsite-opportunities/body.export_view.html"
+  },
+  {
+    "id": "1936588867",
+    "title": "Qpop\u2122 Companion - Enable Kiosk Mode on iOS",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1936588867-qpop-companion-enable-kiosk-mode-on-ios/body.export_view.html"
+  },
+  {
+    "id": "1936588827",
+    "title": "QZ Printing System Requirements and Printer Settings",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1936588827-qz-printing-system-requirements-and-printer-settings/body.export_view.html"
+  },
+  {
+    "id": "1936588814",
+    "title": "Integrated Payments Setup: Add a Square Terminal",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1936588814-integrated-payments-setup-add-a-square-terminal/body.export_view.html"
+  },
+  {
+    "id": "1936588801",
+    "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Android",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1936588801-integrated-payments-setup-installing-the-pax-security-certificate-android/body.export_view.html"
+  },
+  {
+    "id": "1936556034",
+    "title": "Integrated Payments Setup: Activating Square Integration in RepairQ",
+    "spaceKey": "SCD",
+    "version": 15,
+    "bodyExportViewPath": "spaces/SCD/pages/1936556034-integrated-payments-setup-activating-square-integration-in-repairq/body.export_view.html"
+  },
+  {
+    "id": "1936523413",
+    "title": "Processing a Return Repair (video)",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936523413-processing-a-return-repair-video/body.export_view.html"
+  },
+  {
+    "id": "1936523386",
+    "title": "Settings Overview (video)",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936523386-settings-overview-video/body.export_view.html"
+  },
+  {
+    "id": "1936523327",
+    "title": "Qsite\u2122 Resources",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/1936523327-qsite-resources/body.export_view.html"
+  },
+  {
+    "id": "1936523314",
+    "title": "Qpop\u2122  Companion - Enable Kiosk Mode on Android",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1936523314-qpop-companion-enable-kiosk-mode-on-android/body.export_view.html"
+  },
+  {
+    "id": "1936523288",
+    "title": "Qpop\u2122 Companion System Requirements",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1936523288-qpop-companion-system-requirements/body.export_view.html"
+  },
+  {
+    "id": "1936490516",
+    "title": "Pair a Qpop\u2122 Companion",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1936490516-pair-a-qpop-companion/body.export_view.html"
+  },
+  {
+    "id": "1936457750",
+    "title": "Integrated Printing 102: Adding Integrated Printers",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1936457750-integrated-printing-102-adding-integrated-printers/body.export_view.html"
+  },
+  {
+    "id": "1936425167",
+    "title": "Quick Create: Add New Catalog Items on Purchase Orders",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1936425167-quick-create-add-new-catalog-items-on-purchase-orders/body.export_view.html"
+  },
+  {
+    "id": "1936425137",
+    "title": "Creating a Repair Ticket (video)",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1936425137-creating-a-repair-ticket-video/body.export_view.html"
+  },
+  {
+    "id": "1936425067",
+    "title": "Qsite\u2122 Ticket Status - Keep Customers Updated on Their Tickets",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1936425067-qsite-ticket-status-keep-customers-updated-on-their-tickets/body.export_view.html"
+  },
+  {
+    "id": "1936425018",
+    "title": "iONParts Supplier Integration (Wholesale Parts)",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1936425018-ionparts-supplier-integration-wholesale-parts/body.export_view.html"
+  },
+  {
+    "id": "1936392337",
+    "title": "Business Intelligence - Troubleshooting",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1936392337-business-intelligence-troubleshooting/body.export_view.html"
+  },
+  {
+    "id": "1936392232",
+    "title": "Integrated Purchase Orders: Sourcely Plus",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1936392232-integrated-purchase-orders-sourcely-plus/body.export_view.html"
+  },
+  {
+    "id": "1936392218",
+    "title": "Integrated Printing 104: Creating and Customizing Print Automation",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1936392218-integrated-printing-104-creating-and-customizing-print-automation/body.export_view.html"
+  },
+  {
+    "id": "1936359503",
+    "title": "Capture Integrated Payment Signatures on a Qpop Companion",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1936359503-capture-integrated-payment-signatures-on-a-qpop-companion/body.export_view.html"
+  },
+  {
+    "id": "1936359430",
+    "title": "Integrated Printing 101: Downloading QZ Tray",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1936359430-integrated-printing-101-downloading-qz-tray/body.export_view.html"
+  },
+  {
+    "id": "1936326807",
+    "title": "Reports: Customer Referrals",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936326807-reports-customer-referrals/body.export_view.html"
+  },
+  {
+    "id": "1936326777",
+    "title": "Adding Your Company Logo to RepairQ",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1936326777-adding-your-company-logo-to-repairq/body.export_view.html"
+  },
+  {
+    "id": "1936326751",
+    "title": "Universal Check In Tool",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936326751-universal-check-in-tool/body.export_view.html"
+  },
+  {
+    "id": "1936294030",
+    "title": "Log In/Out of RepairQ (video)",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1936294030-log-in-out-of-repairq-video/body.export_view.html"
+  },
+  {
+    "id": "1936261290",
+    "title": "Catalog Quick Create: Activation",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1936261290-catalog-quick-create-activation/body.export_view.html"
+  },
+  {
+    "id": "1936261245",
+    "title": "Creating a Trade-In Ticket (video)",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936261245-creating-a-trade-in-ticket-video/body.export_view.html"
+  },
+  {
+    "id": "1936261226",
+    "title": "Qsite\u2122 Opportunities Settings Management",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1936261226-qsite-opportunities-settings-management/body.export_view.html"
+  },
+  {
+    "id": "1936261206",
+    "title": "Qpop\u2122 Companion Recommended Image Resolutions",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1936261206-qpop-companion-recommended-image-resolutions/body.export_view.html"
+  },
+  {
+    "id": "1936261192",
+    "title": "Zebra GK420D Blink Sequence",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936261192-zebra-gk420d-blink-sequence/body.export_view.html"
+  },
+  {
+    "id": "1936261135",
+    "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Windows 10",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1936261135-integrated-payments-setup-installing-the-pax-security-certificate-windows-10/body.export_view.html"
+  },
+  {
+    "id": "1936261121",
+    "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Windows 8",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1936261121-integrated-payments-setup-installing-the-pax-security-certificate-windows-8/body.export_view.html"
+  },
+  {
+    "id": "1936228434",
+    "title": "Qsite\u2122 Ticket Approval Setup - Settings and Conditions",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1936228434-qsite-ticket-approval-setup-settings-and-conditions/body.export_view.html"
+  },
+  {
+    "id": "1936228387",
+    "title": "Wholesale Gadget Parts Integrated RMAs",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1936228387-wholesale-gadget-parts-integrated-rmas/body.export_view.html"
+  },
+  {
+    "id": "1935900725",
+    "title": "Integrated Payments Setup: Installing the PAX Security Certificate - Chrome OS",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1935900725-integrated-payments-setup-installing-the-pax-security-certificate-chrome-os/body.export_view.html"
+  },
+  {
+    "id": "1935769605",
+    "title": "Integrated Payments Setup: Performing a Test Transaction with a PAX Terminal Device",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1935769605-integrated-payments-setup-performing-a-test-transaction-with-a-pax-terminal-device/body.export_view.html"
+  },
+  {
+    "id": "1935572993",
+    "title": "PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX A80/A920",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1935572993-pax-device-troubleshooting-change-the-lan-type-on-a-bluefin-pax-a80-a920/body.export_view.html"
+  },
+  {
+    "id": "1935507459",
+    "title": "Integrated Payment Setup: Assigning Your PAX Payment Device to a VCT and Processing Payments",
+    "spaceKey": "SCD",
+    "version": 15,
+    "bodyExportViewPath": "spaces/SCD/pages/1935507459-integrated-payment-setup-assigning-your-pax-payment-device-to-a-vct-and-processing-payments/body.export_view.html"
+  },
+  {
+    "id": "1935441921",
+    "title": "PAX Device Troubleshooting: Change the LAN Type on a PAX S300",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1935441921-pax-device-troubleshooting-change-the-lan-type-on-a-pax-s300/body.export_view.html"
+  },
+  {
+    "id": "1935376416",
+    "title": "Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1935376416-integrated-payments-setup-adding-a-bluefin-pax-payment-terminal-device-in-repairq/body.export_view.html"
+  },
+  {
+    "id": "1935343627",
+    "title": "Integrated Payments Setup: Installing the PAX Security Certificate - iOS",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1935343627-integrated-payments-setup-installing-the-pax-security-certificate-ios/body.export_view.html"
+  },
+  {
+    "id": "1935179832",
+    "title": "Integrated Payments Setup: Assigning Your IDTECH SREDKey to a VCT and Processing Payments",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1935179832-integrated-payments-setup-assigning-your-idtech-sredkey-to-a-vct-and-processing-payments/body.export_view.html"
+  },
+  {
+    "id": "1935179789",
+    "title": "PAX Device Troubleshooting: Change the LAN Type on a Bluefin PAX D210",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1935179789-pax-device-troubleshooting-change-the-lan-type-on-a-bluefin-pax-d210/body.export_view.html"
+  },
+  {
+    "id": "1934917880",
+    "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your PAX S300",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1934917880-pax-device-troubleshooting-find-the-ip-address-assigned-to-your-pax-s300/body.export_view.html"
+  },
+  {
+    "id": "1934917825",
+    "title": "EMV Frequently Asked Questions - FAQ",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934917825-emv-frequently-asked-questions-faq/body.export_view.html"
+  },
+  {
+    "id": "1934917724",
+    "title": "Invoicing: Refunding and Voiding Invoices",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934917724-invoicing-refunding-and-voiding-invoices/body.export_view.html"
+  },
+  {
+    "id": "1934917701",
+    "title": "Invoicing: Net Terms Billing for Customers",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934917701-invoicing-net-terms-billing-for-customers/body.export_view.html"
+  },
+  {
+    "id": "1934917678",
+    "title": "Reports: Accounting System Reporting",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/1934917678-reports-accounting-system-reporting/body.export_view.html"
+  },
+  {
+    "id": "1934917649",
+    "title": "Appointments: Scheduling an Appointment",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934917649-appointments-scheduling-an-appointment/body.export_view.html"
+  },
+  {
+    "id": "1934917634",
+    "title": "Quotes: Convert a Quote into a Ticket",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1934917634-quotes-convert-a-quote-into-a-ticket/body.export_view.html"
+  },
+  {
+    "id": "1934852150",
+    "title": "Appointments: Changing an Appointment",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1934852150-appointments-changing-an-appointment/body.export_view.html"
+  },
+  {
+    "id": "1934786931",
+    "title": "Integrated Payments Setup: Installing the PAX Security Certificate - macOS",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1934786931-integrated-payments-setup-installing-the-pax-security-certificate-macos/body.export_view.html"
+  },
+  {
+    "id": "1934786847",
+    "title": "Integrated Payments Setup: Adding Bluefin Credentials in RepairQ",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1934786847-integrated-payments-setup-adding-bluefin-credentials-in-repairq/body.export_view.html"
+  },
+  {
+    "id": "1934786834",
+    "title": "PAX Device Troubleshooting: Change Your DNS Servers - Windows 10",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934786834-pax-device-troubleshooting-change-your-dns-servers-windows-10/body.export_view.html"
+  },
+  {
+    "id": "1934786801",
+    "title": "Integrated Payments Setup: Activate Your P2PE Device",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934786801-integrated-payments-setup-activate-your-p2pe-device/body.export_view.html"
+  },
+  {
+    "id": "1934786770",
+    "title": "Integrated Payments: Supported Devices",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934786770-integrated-payments-supported-devices/body.export_view.html"
+  },
+  {
+    "id": "1934786757",
+    "title": "PAX Device Troubleshooting: Ping Your Device to See if it is Reachable",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934786757-pax-device-troubleshooting-ping-your-device-to-see-if-it-is-reachable/body.export_view.html"
+  },
+  {
+    "id": "1934786687",
+    "title": "Integrated Payments Setup: PAX Security Certificate Installation and Testing",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1934786687-integrated-payments-setup-pax-security-certificate-installation-and-testing/body.export_view.html"
+  },
+  {
+    "id": "1934786625",
+    "title": "Appointments: Viewing Set Appointments",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1934786625-appointments-viewing-set-appointments/body.export_view.html"
+  },
+  {
+    "id": "1934753845",
+    "title": "Reports: Revenue, Cost of Goods Sold (COGS), Cost of Services, and Cost of Refurbs",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934753845-reports-revenue-cost-of-goods-sold-cogs-cost-of-services-and-cost-of-refurbs/body.export_view.html"
+  },
+  {
+    "id": "1934753798",
+    "title": "Reports: Sales Summary and Sales Details",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934753798-reports-sales-summary-and-sales-details/body.export_view.html"
+  },
+  {
+    "id": "1934721039",
+    "title": "Reports: Inventory Usage",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934721039-reports-inventory-usage/body.export_view.html"
+  },
+  {
+    "id": "1934721025",
+    "title": "Reports: Inventory Orders",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934721025-reports-inventory-orders/body.export_view.html"
+  },
+  {
+    "id": "1934589953",
+    "title": "Reports: Inventory End of Year (EOY) Snapshot Archive",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1934589953-reports-inventory-end-of-year-eoy-snapshot-archive/body.export_view.html"
+  },
+  {
+    "id": "1934557198",
+    "title": "Reports: Wage Expense",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934557198-reports-wage-expense/body.export_view.html"
+  },
+  {
+    "id": "1934557185",
+    "title": "Reports: Inventory Valuation",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934557185-reports-inventory-valuation/body.export_view.html"
+  },
+  {
+    "id": "1934524484",
+    "title": "Accounting Software Resources",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1934524484-accounting-software-resources/body.export_view.html"
+  },
+  {
+    "id": "1934524447",
+    "title": "Maintaining an Accurate Profitability Report",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1934524447-maintaining-an-accurate-profitability-report/body.export_view.html"
+  },
+  {
+    "id": "1934524434",
+    "title": "Reports: Pending Revenue and Tickets Unpaid",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934524434-reports-pending-revenue-and-tickets-unpaid/body.export_view.html"
+  },
+  {
+    "id": "1934491709",
+    "title": "Appointments: Canceling an Appointment",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934491709-appointments-canceling-an-appointment/body.export_view.html"
+  },
+  {
+    "id": "1934491696",
+    "title": "Appointments",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1934491696-appointments/body.export_view.html"
+  },
+  {
+    "id": "1934491659",
+    "title": "Creating a Contact (Lead) Profile",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1934491659-creating-a-contact-lead-profile/body.export_view.html"
+  },
+  {
+    "id": "1934458970",
+    "title": "Chart of Accounts - Accounting Journal Entries",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1934458970-chart-of-accounts-accounting-journal-entries/body.export_view.html"
+  },
+  {
+    "id": "1934458927",
+    "title": "Contacts Overview",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934458927-contacts-overview/body.export_view.html"
+  },
+  {
+    "id": "1934393396",
+    "title": "QuickBooks Integration: Sending Journal Entries on Demand",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1934393396-quickbooks-integration-sending-journal-entries-on-demand/body.export_view.html"
+  },
+  {
+    "id": "1934393345",
+    "title": "Reports: Check Your Gross Profit Margins by Item Type",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934393345-reports-check-your-gross-profit-margins-by-item-type/body.export_view.html"
+  },
+  {
+    "id": "1934360696",
+    "title": "Invoicing: Managed Services Contract",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934360696-invoicing-managed-services-contract/body.export_view.html"
+  },
+  {
+    "id": "1934360682",
+    "title": "Invoicing: Accepting Advance Payment for Net Terms Customers and Billing Agents",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934360682-invoicing-accepting-advance-payment-for-net-terms-customers-and-billing-agents/body.export_view.html"
+  },
+  {
+    "id": "1934360642",
+    "title": "RepairQ Accounting Principles",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1934360642-repairq-accounting-principles/body.export_view.html"
+  },
+  {
+    "id": "1934360593",
+    "title": "Reports: Real-time Profitability",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934360593-reports-real-time-profitability/body.export_view.html"
+  },
+  {
+    "id": "1934327961",
+    "title": "Invoicing: Remittance and Reconciling Invoices",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934327961-invoicing-remittance-and-reconciling-invoices/body.export_view.html"
+  },
+  {
+    "id": "1934327948",
+    "title": "Invoicing: Assigning Billing Agents to Customers and Tickets",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934327948-invoicing-assigning-billing-agents-to-customers-and-tickets/body.export_view.html"
+  },
+  {
+    "id": "1934327935",
+    "title": "Invoicing: Creating Billing Agents",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1934327935-invoicing-creating-billing-agents/body.export_view.html"
+  },
+  {
+    "id": "1934327922",
+    "title": "Reports: Receivables and Invoice Aging",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934327922-reports-receivables-and-invoice-aging/body.export_view.html"
+  },
+  {
+    "id": "1934327847",
+    "title": "Reports: Inventory Expense",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934327847-reports-inventory-expense/body.export_view.html"
+  },
+  {
+    "id": "1934295273",
+    "title": "PAX Device Troubleshooting: Change Your DNS Servers - macOS Ventura",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934295273-pax-device-troubleshooting-change-your-dns-servers-macos-ventura/body.export_view.html"
+  },
+  {
+    "id": "1934295157",
+    "title": "Integrated Payment Processing - Start Here!",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1934295157-integrated-payment-processing-start-here/body.export_view.html"
+  },
+  {
+    "id": "1934295142",
+    "title": "Invoicing: Third-Party Financing Payment Options with ACH or Check",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934295142-invoicing-third-party-financing-payment-options-with-ach-or-check/body.export_view.html"
+  },
+  {
+    "id": "1934295071",
+    "title": "Reports: Cash Flow",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934295071-reports-cash-flow/body.export_view.html"
+  },
+  {
+    "id": "1934262304",
+    "title": "Quotes: Create and View a Quote",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1934262304-quotes-create-and-view-a-quote/body.export_view.html"
+  },
+  {
+    "id": "1934262290",
+    "title": "Reports: Return Repair Detail",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934262290-reports-return-repair-detail/body.export_view.html"
+  },
+  {
+    "id": "1934229806",
+    "title": "Integrated Payments Setup: Configuring a Bluefin PAX A80/A920 to Communicate with RepairQ",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934229806-integrated-payments-setup-configuring-a-bluefin-pax-a80-a920-to-communicate-with-repairq/body.export_view.html"
+  },
+  {
+    "id": "1934229721",
+    "title": "Integrated Payments: Troubleshooting Resources",
+    "spaceKey": "SCD",
+    "version": 19,
+    "bodyExportViewPath": "spaces/SCD/pages/1934229721-integrated-payments-troubleshooting-resources/body.export_view.html"
+  },
+  {
+    "id": "1934229707",
+    "title": "QZ Integrated Printing - Start Here!",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1934229707-qz-integrated-printing-start-here/body.export_view.html"
+  },
+  {
+    "id": "1934229611",
+    "title": "Invoicing: Editing Tickets on Invoices",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934229611-invoicing-editing-tickets-on-invoices/body.export_view.html"
+  },
+  {
+    "id": "1934229563",
+    "title": "Integrations: QuickBooks Online Setup",
+    "spaceKey": "SCD",
+    "version": 19,
+    "bodyExportViewPath": "spaces/SCD/pages/1934229563-integrations-quickbooks-online-setup/body.export_view.html"
+  },
+  {
+    "id": "1934229524",
+    "title": "Reports: Cash Reconciliation",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934229524-reports-cash-reconciliation/body.export_view.html"
+  },
+  {
+    "id": "1934197020",
+    "title": "PAX Device Troubleshooting: Update Your IP Address in RepairQ",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934197020-pax-device-troubleshooting-update-your-ip-address-in-repairq/body.export_view.html"
+  },
+  {
+    "id": "1934197007",
+    "title": "PAX Device Troubleshooting: Change Your DNS Servers - macOS",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934197007-pax-device-troubleshooting-change-your-dns-servers-macos/body.export_view.html"
+  },
+  {
+    "id": "1934196978",
+    "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your Bluefin PAX D210",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196978-pax-device-troubleshooting-find-the-ip-address-assigned-to-your-bluefin-pax-d210/body.export_view.html"
+  },
+  {
+    "id": "1934196946",
+    "title": "PAX Device Troubleshooting: Find the IP Address Assigned to Your Bluefin PAX A80/A920",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196946-pax-device-troubleshooting-find-the-ip-address-assigned-to-your-bluefin-pax-a80-a920/body.export_view.html"
+  },
+  {
+    "id": "1934196887",
+    "title": "Integrated Payments Setup: Configuring a Bluefin PAX D210 to Communicate with RepairQ",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196887-integrated-payments-setup-configuring-a-bluefin-pax-d210-to-communicate-with-repairq/body.export_view.html"
+  },
+  {
+    "id": "1934196854",
+    "title": "Invoicing: Third-Party Financing Payment Options with Virtual Credit Cards",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196854-invoicing-third-party-financing-payment-options-with-virtual-credit-cards/body.export_view.html"
+  },
+  {
+    "id": "1934196840",
+    "title": "Invoicing: Creating and Managing Invoices",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196840-invoicing-creating-and-managing-invoices/body.export_view.html"
+  },
+  {
+    "id": "1934196827",
+    "title": "Invoicing Resources",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196827-invoicing-resources/body.export_view.html"
+  },
+  {
+    "id": "1934196814",
+    "title": "Average Cost vs Actual Cost Inventory Accounting",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196814-average-cost-vs-actual-cost-inventory-accounting/body.export_view.html"
+  },
+  {
+    "id": "1934196764",
+    "title": "Reports: Taxes",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196764-reports-taxes/body.export_view.html"
+  },
+  {
+    "id": "1934196750",
+    "title": "Reports: Inventory Valuation Snapshot",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196750-reports-inventory-valuation-snapshot/body.export_view.html"
+  },
+  {
+    "id": "1934196737",
+    "title": "Reports: Returned Repairs by Tech",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1934196737-reports-returned-repairs-by-tech/body.export_view.html"
+  },
+  {
+    "id": "1933967395",
+    "title": "Inventory Management: Stock a Backorder Item Without a Purchase Order",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933967395-inventory-management-stock-a-backorder-item-without-a-purchase-order/body.export_view.html"
+  },
+  {
+    "id": "1933901843",
+    "title": "Virtual Cash Terminal (VCT) Setup",
+    "spaceKey": "SCD",
+    "version": 16,
+    "bodyExportViewPath": "spaces/SCD/pages/1933901843-virtual-cash-terminal-vct-setup/body.export_view.html"
+  },
+  {
+    "id": "1933869089",
+    "title": "Required Fields for Customer Profiles",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1933869089-required-fields-for-customer-profiles/body.export_view.html"
+  },
+  {
+    "id": "1933869057",
+    "title": "Recommended Hardware Troubleshooting Resources",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933869057-recommended-hardware-troubleshooting-resources/body.export_view.html"
+  },
+  {
+    "id": "1933836386",
+    "title": "RepairQ Troubleshooting: Disable Password Managers and Autofill",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933836386-repairq-troubleshooting-disable-password-managers-and-autofill/body.export_view.html"
+  },
+  {
+    "id": "1933836372",
+    "title": "Staff Management: Import and Export Staff Profiles",
+    "spaceKey": "SCD",
+    "version": 16,
+    "bodyExportViewPath": "spaces/SCD/pages/1933836372-staff-management-import-and-export-staff-profiles/body.export_view.html"
+  },
+  {
+    "id": "1933836359",
+    "title": "Getting Started: Customer Device Search",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933836359-getting-started-customer-device-search/body.export_view.html"
+  },
+  {
+    "id": "1933803776",
+    "title": "Reports: Waived Charges",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803776-reports-waived-charges/body.export_view.html"
+  },
+  {
+    "id": "1933803762",
+    "title": "Reports: Repairs by Technician",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803762-reports-repairs-by-technician/body.export_view.html"
+  },
+  {
+    "id": "1933803749",
+    "title": "Customer Communication Preferences and Marketing List",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803749-customer-communication-preferences-and-marketing-list/body.export_view.html"
+  },
+  {
+    "id": "1933803736",
+    "title": "Send an SMS Ticket Status Notification",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803736-send-an-sms-ticket-status-notification/body.export_view.html"
+  },
+  {
+    "id": "1933803723",
+    "title": "Create a Repair Ticket",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803723-create-a-repair-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933803669",
+    "title": "Create and Redeem Gift Cards",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803669-create-and-redeem-gift-cards/body.export_view.html"
+  },
+  {
+    "id": "1933803655",
+    "title": "Ticket Notes",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803655-ticket-notes/body.export_view.html"
+  },
+  {
+    "id": "1933803641",
+    "title": "Virtual Cash Terminal (VCT) Cash Transfers",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803641-virtual-cash-terminal-vct-cash-transfers/body.export_view.html"
+  },
+  {
+    "id": "1933803609",
+    "title": "Integrations: Twilio",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803609-integrations-twilio/body.export_view.html"
+  },
+  {
+    "id": "1933803577",
+    "title": "Performing a Return Repair (Rework) at a Discounted Price",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803577-performing-a-return-repair-rework-at-a-discounted-price/body.export_view.html"
+  },
+  {
+    "id": "1933803521",
+    "title": "Dashboard Announcements",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933803521-dashboard-announcements/body.export_view.html"
+  },
+  {
+    "id": "1933770925",
+    "title": "Performing a Return Repair (rework) for a Different Repair Service",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933770925-performing-a-return-repair-rework-for-a-different-repair-service/body.export_view.html"
+  },
+  {
+    "id": "1933770889",
+    "title": "Performing a Return Repair (Rework) Ticket with Waived Charges",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933770889-performing-a-return-repair-rework-ticket-with-waived-charges/body.export_view.html"
+  },
+  {
+    "id": "1933770876",
+    "title": "Processing a Return on a Ticket",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1933770876-processing-a-return-on-a-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933770795",
+    "title": "Introduction to Custom Forms - Start Here!",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1933770795-introduction-to-custom-forms-start-here/body.export_view.html"
+  },
+  {
+    "id": "1933738176",
+    "title": "Calculating Overhead Rate",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933738176-calculating-overhead-rate/body.export_view.html"
+  },
+  {
+    "id": "1933738155",
+    "title": "Getting Started: Inventory Search",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933738155-getting-started-inventory-search/body.export_view.html"
+  },
+  {
+    "id": "1933738070",
+    "title": "Coupons and Promotions",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1933738070-coupons-and-promotions/body.export_view.html"
+  },
+  {
+    "id": "1933738036",
+    "title": "Accounting for Miscellaneous Fees for Online Sales",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933738036-accounting-for-miscellaneous-fees-for-online-sales/body.export_view.html"
+  },
+  {
+    "id": "1933705458",
+    "title": "Repair Workflow with Transfer to Repair Center",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/1933705458-repair-workflow-with-transfer-to-repair-center/body.export_view.html"
+  },
+  {
+    "id": "1933705409",
+    "title": "Getting Started: The RepairQ Global Search Bar",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933705409-getting-started-the-repairq-global-search-bar/body.export_view.html"
+  },
+  {
+    "id": "1933705396",
+    "title": "Group Buying Sale Process",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1933705396-group-buying-sale-process/body.export_view.html"
+  },
+  {
+    "id": "1933705370",
+    "title": "Editing Ticket Items",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/1933705370-editing-ticket-items/body.export_view.html"
+  },
+  {
+    "id": "1933705356",
+    "title": "Getting Started: The RepairQ Dashboard",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1933705356-getting-started-the-repairq-dashboard/body.export_view.html"
+  },
+  {
+    "id": "1933705307",
+    "title": "Performing a Return Repair (Rework) Ticket",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1933705307-performing-a-return-repair-rework-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933672639",
+    "title": "Email a Receipt to a Customer",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/1933672639-email-a-receipt-to-a-customer/body.export_view.html"
+  },
+  {
+    "id": "1933672605",
+    "title": "Getting Started: The RepairQ Menu Item Bar",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933672605-getting-started-the-repairq-menu-item-bar/body.export_view.html"
+  },
+  {
+    "id": "1933672585",
+    "title": "Refunds: Issue a Partial Refund for a Price Override or Discount on an Open Ticket",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1933672585-refunds-issue-a-partial-refund-for-a-price-override-or-discount-on-an-open-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933672497",
+    "title": "Inventory Management: Allow for Backorder Inventory on Tickets",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1933672497-inventory-management-allow-for-backorder-inventory-on-tickets/body.export_view.html"
+  },
+  {
+    "id": "1933672484",
+    "title": "Tax Calculations for Bundled Items",
+    "spaceKey": "SCD",
+    "version": 15,
+    "bodyExportViewPath": "spaces/SCD/pages/1933672484-tax-calculations-for-bundled-items/body.export_view.html"
+  },
+  {
+    "id": "1933639827",
+    "title": "Assign a Virtual Cash Terminal (VCT) to Accept Payments",
+    "spaceKey": "SCD",
+    "version": 22,
+    "bodyExportViewPath": "spaces/SCD/pages/1933639827-assign-a-virtual-cash-terminal-vct-to-accept-payments/body.export_view.html"
+  },
+  {
+    "id": "1933639775",
+    "title": "Performing a Return Repair (Rework) to Replace a Defective Part",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933639775-performing-a-return-repair-rework-to-replace-a-defective-part/body.export_view.html"
+  },
+  {
+    "id": "1933607090",
+    "title": "Layaway Ticket Status",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1933607090-layaway-ticket-status/body.export_view.html"
+  },
+  {
+    "id": "1933607055",
+    "title": "Getting Started: The Ticket Queue",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1933607055-getting-started-the-ticket-queue/body.export_view.html"
+  },
+  {
+    "id": "1933606988",
+    "title": "Performing a Return Repair (Rework) for the Same Repair Service",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933606988-performing-a-return-repair-rework-for-the-same-repair-service/body.export_view.html"
+  },
+  {
+    "id": "1933606938",
+    "title": "Switching Between RepairQ Locations",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933606938-switching-between-repairq-locations/body.export_view.html"
+  },
+  {
+    "id": "1933606925",
+    "title": "Keyword Search Techniques",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933606925-keyword-search-techniques/body.export_view.html"
+  },
+  {
+    "id": "1933541687",
+    "title": "Adding and Applying Credit Balances for Customers",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933541687-adding-and-applying-credit-balances-for-customers/body.export_view.html"
+  },
+  {
+    "id": "1933541674",
+    "title": "Searching for Tickets",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933541674-searching-for-tickets/body.export_view.html"
+  },
+  {
+    "id": "1933541639",
+    "title": "Close (Reconcile) a Virtual Cash Terminal",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1933541639-close-reconcile-a-virtual-cash-terminal/body.export_view.html"
+  },
+  {
+    "id": "1933541617",
+    "title": "Removing the Header and Footer Details When Printing Receipts",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933541617-removing-the-header-and-footer-details-when-printing-receipts/body.export_view.html"
+  },
+  {
+    "id": "1933541574",
+    "title": "Delete or Void a Ticket",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1933541574-delete-or-void-a-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933541561",
+    "title": "Sales Tax Override",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933541561-sales-tax-override/body.export_view.html"
+  },
+  {
+    "id": "1933541546",
+    "title": "Refunds: Return Items Back to Inventory and Issue a Refund on an Open Ticket",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1933541546-refunds-return-items-back-to-inventory-and-issue-a-refund-on-an-open-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933541484",
+    "title": "Configuring a Cash Drawer to Open Automatically When a Receipt is Printed",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1933541484-configuring-a-cash-drawer-to-open-automatically-when-a-receipt-is-printed/body.export_view.html"
+  },
+  {
+    "id": "1933508774",
+    "title": "Repair Ticket Workflow",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1933508774-repair-ticket-workflow/body.export_view.html"
+  },
+  {
+    "id": "1933508711",
+    "title": "Performing a Return Repair (Rework) Ticket Without the Original Ticket",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933508711-performing-a-return-repair-rework-ticket-without-the-original-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933508692",
+    "title": "Warranty Claims Processing",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933508692-warranty-claims-processing/body.export_view.html"
+  },
+  {
+    "id": "1933476043",
+    "title": "How To: Add Services and Parts to a Ticket",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933476043-how-to-add-services-and-parts-to-a-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933475999",
+    "title": "Refunds: Exchange an Item and Refund the Difference (Partial Refund)",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1933475999-refunds-exchange-an-item-and-refund-the-difference-partial-refund/body.export_view.html"
+  },
+  {
+    "id": "1933475953",
+    "title": "Performing a Return Repair (Rework) Ticket With a Deductible",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933475953-performing-a-return-repair-rework-ticket-with-a-deductible/body.export_view.html"
+  },
+  {
+    "id": "1933443149",
+    "title": "Required Fields for Repair Devices",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933443149-required-fields-for-repair-devices/body.export_view.html"
+  },
+  {
+    "id": "1933443104",
+    "title": "Integration Setup: Listen360",
+    "spaceKey": "SCD",
+    "version": 3,
+    "bodyExportViewPath": "spaces/SCD/pages/1933443104-integration-setup-listen360/body.export_view.html"
+  },
+  {
+    "id": "1933410332",
+    "title": "Setting up and Assigning Tax Rates",
+    "spaceKey": "SCD",
+    "version": 20,
+    "bodyExportViewPath": "spaces/SCD/pages/1933410332-setting-up-and-assigning-tax-rates/body.export_view.html"
+  },
+  {
+    "id": "1933377814",
+    "title": "Reports: Repairs by Device",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933377814-reports-repairs-by-device/body.export_view.html"
+  },
+  {
+    "id": "1933377786",
+    "title": "RepairQ Data Import Resources",
+    "spaceKey": "SCD",
+    "version": 18,
+    "bodyExportViewPath": "spaces/SCD/pages/1933377786-repairq-data-import-resources/body.export_view.html"
+  },
+  {
+    "id": "1933377756",
+    "title": "Create a Trade-In Ticket",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1933377756-create-a-trade-in-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933377743",
+    "title": "Customer Search",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/1933377743-customer-search/body.export_view.html"
+  },
+  {
+    "id": "1933377724",
+    "title": "Refunds: Issue a Refund for a Price Adjustment on a Closed Ticket",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1933377724-refunds-issue-a-refund-for-a-price-adjustment-on-a-closed-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933377703",
+    "title": "Creating Warranties and Disclaimers",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933377703-creating-warranties-and-disclaimers/body.export_view.html"
+  },
+  {
+    "id": "1933377656",
+    "title": "Print Settings - Invoices",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933377656-print-settings-invoices/body.export_view.html"
+  },
+  {
+    "id": "1933344820",
+    "title": "Print a Catalog Item Reference Sheet",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933344820-print-a-catalog-item-reference-sheet/body.export_view.html"
+  },
+  {
+    "id": "1933344786",
+    "title": "Creating a Customer Profile",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1933344786-creating-a-customer-profile/body.export_view.html"
+  },
+  {
+    "id": "1933312070",
+    "title": "Managing Customer Profiles",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933312070-managing-customer-profiles/body.export_view.html"
+  },
+  {
+    "id": "1933312056",
+    "title": "Inventory Management: Stock a Backorder Item With a Purchase Order",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933312056-inventory-management-stock-a-backorder-item-with-a-purchase-order/body.export_view.html"
+  },
+  {
+    "id": "1933312043",
+    "title": "Hiding Analytics on Tickets and Price Checks",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933312043-hiding-analytics-on-tickets-and-price-checks/body.export_view.html"
+  },
+  {
+    "id": "1933279550",
+    "title": "Printing a Ticket Receipt or Invoice",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933279550-printing-a-ticket-receipt-or-invoice/body.export_view.html"
+  },
+  {
+    "id": "1933279488",
+    "title": "Price Checks and On-Hand Quantities",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933279488-price-checks-and-on-hand-quantities/body.export_view.html"
+  },
+  {
+    "id": "1933279418",
+    "title": "RepairQ System Log",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933279418-repairq-system-log/body.export_view.html"
+  },
+  {
+    "id": "1933279405",
+    "title": "Creating a Refurbishment Ticket",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1933279405-creating-a-refurbishment-ticket/body.export_view.html"
+  },
+  {
+    "id": "1933279378",
+    "title": "Virtual Cash Terminal (VCT) Refund Resources",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1933279378-virtual-cash-terminal-vct-refund-resources/body.export_view.html"
+  },
+  {
+    "id": "1933279357",
+    "title": "Exporting Data from RepairQ",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1933279357-exporting-data-from-repairq/body.export_view.html"
+  },
+  {
+    "id": "1933279311",
+    "title": "Introduction to Taxes in RepairQ - Start Here!",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933279311-introduction-to-taxes-in-repairq-start-here/body.export_view.html"
+  },
+  {
+    "id": "1933279270",
+    "title": "Add Your Logo to Receipts and Invoices",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933279270-add-your-logo-to-receipts-and-invoices/body.export_view.html"
+  },
+  {
+    "id": "1933279256",
+    "title": "Getting Started: The RepairQ Notification Queue",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933279256-getting-started-the-repairq-notification-queue/body.export_view.html"
+  },
+  {
+    "id": "1933246874",
+    "title": "Journal Entries: Set Default Account Classifications",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246874-journal-entries-set-default-account-classifications/body.export_view.html"
+  },
+  {
+    "id": "1933246837",
+    "title": "Reports: Accounting Journal Entries",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246837-reports-accounting-journal-entries/body.export_view.html"
+  },
+  {
+    "id": "1933246822",
+    "title": "Appointments: General Settings",
+    "spaceKey": "SCD",
+    "version": 16,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246822-appointments-general-settings/body.export_view.html"
+  },
+  {
+    "id": "1933246809",
+    "title": "RepairQ Opportunities (Quotes)",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246809-repairq-opportunities-quotes/body.export_view.html"
+  },
+  {
+    "id": "1933246673",
+    "title": "Checking for Items that Require Reordering",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246673-checking-for-items-that-require-reordering/body.export_view.html"
+  },
+  {
+    "id": "1933246645",
+    "title": "Transferring a Ticket to Another Location",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246645-transferring-a-ticket-to-another-location/body.export_view.html"
+  },
+  {
+    "id": "1933246632",
+    "title": "Customer Management: Import Customer Data",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246632-customer-management-import-customer-data/body.export_view.html"
+  },
+  {
+    "id": "1933246619",
+    "title": "Label Printer Setup and Troubleshooting",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246619-label-printer-setup-and-troubleshooting/body.export_view.html"
+  },
+  {
+    "id": "1933246606",
+    "title": "Trade-in Ticket Workflow",
+    "spaceKey": "SCD",
+    "version": 2,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246606-trade-in-ticket-workflow/body.export_view.html"
+  },
+  {
+    "id": "1933246536",
+    "title": "Assigning Customer Segments",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246536-assigning-customer-segments/body.export_view.html"
+  },
+  {
+    "id": "1933246513",
+    "title": "Custom Forms: Field Groups and Form Fields",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246513-custom-forms-field-groups-and-form-fields/body.export_view.html"
+  },
+  {
+    "id": "1933246478",
+    "title": "Getting Started with Automated Notifications",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246478-getting-started-with-automated-notifications/body.export_view.html"
+  },
+  {
+    "id": "1933246465",
+    "title": "Automated Notification Resources",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1933246465-automated-notification-resources/body.export_view.html"
+  },
+  {
+    "id": "1932853380",
+    "title": "Assigning Ticket Items to Users",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932853380-assigning-ticket-items-to-users/body.export_view.html"
+  },
+  {
+    "id": "1932787831",
+    "title": "Purchase Orders: List View",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932787831-purchase-orders-list-view/body.export_view.html"
+  },
+  {
+    "id": "1932787813",
+    "title": "Inventory Management: Reorder Points and Reorder Amounts",
+    "spaceKey": "SCD",
+    "version": 15,
+    "bodyExportViewPath": "spaces/SCD/pages/1932787813-inventory-management-reorder-points-and-reorder-amounts/body.export_view.html"
+  },
+  {
+    "id": "1932787800",
+    "title": "Purchase Order Process: Receiving Items and Reconciling the Order",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932787800-purchase-order-process-receiving-items-and-reconciling-the-order/body.export_view.html"
+  },
+  {
+    "id": "1932787785",
+    "title": "Catalog Items: Bundle Setup",
+    "spaceKey": "SCD",
+    "version": 21,
+    "bodyExportViewPath": "spaces/SCD/pages/1932787785-catalog-items-bundle-setup/body.export_view.html"
+  },
+  {
+    "id": "1932787772",
+    "title": "Merging Catalog Items",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1932787772-merging-catalog-items/body.export_view.html"
+  },
+  {
+    "id": "1932787743",
+    "title": "Inventory Management Resources",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1932787743-inventory-management-resources/body.export_view.html"
+  },
+  {
+    "id": "1932754986",
+    "title": "List Views",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1932754986-list-views/body.export_view.html"
+  },
+  {
+    "id": "1932722231",
+    "title": "Purchase Order Process: Creating a New Purchase Order",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1932722231-purchase-order-process-creating-a-new-purchase-order/body.export_view.html"
+  },
+  {
+    "id": "1932722209",
+    "title": "Quick Sale Optimization Settings",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1932722209-quick-sale-optimization-settings/body.export_view.html"
+  },
+  {
+    "id": "1932656832",
+    "title": "Inventory Pricing Models: Fixed Pricing and Variable Pricing",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932656832-inventory-pricing-models-fixed-pricing-and-variable-pricing/body.export_view.html"
+  },
+  {
+    "id": "1932656763",
+    "title": "Catalog Items: Creating Sellable, Repairable, and Trade-in Devices",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1932656763-catalog-items-creating-sellable-repairable-and-trade-in-devices/body.export_view.html"
+  },
+  {
+    "id": "1932656694",
+    "title": "Saving and Sharing Custom List Views",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1932656694-saving-and-sharing-custom-list-views/body.export_view.html"
+  },
+  {
+    "id": "1932624095",
+    "title": "RepairQ Support Login Authorization",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1932624095-repairq-support-login-authorization/body.export_view.html"
+  },
+  {
+    "id": "1932624082",
+    "title": "Application Settings Resources",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1932624082-application-settings-resources/body.export_view.html"
+  },
+  {
+    "id": "1932624055",
+    "title": "Inventory Status Overview",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1932624055-inventory-status-overview/body.export_view.html"
+  },
+  {
+    "id": "1932624033",
+    "title": "Inventory Management: Tracking Inventoried Special Order Parts",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1932624033-inventory-management-tracking-inventoried-special-order-parts/body.export_view.html"
+  },
+  {
+    "id": "1932624014",
+    "title": "Catalog Management: Import Catalog Items",
+    "spaceKey": "SCD",
+    "version": 21,
+    "bodyExportViewPath": "spaces/SCD/pages/1932624014-catalog-management-import-catalog-items/body.export_view.html"
+  },
+  {
+    "id": "1932623898",
+    "title": "Introduction to the Catalog - Start Here! (with video)",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1932623898-introduction-to-the-catalog-start-here-with-video/body.export_view.html"
+  },
+  {
+    "id": "1932591235",
+    "title": "RMA Process: Reconcile an RMA",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1932591235-rma-process-reconcile-an-rma/body.export_view.html"
+  },
+  {
+    "id": "1932591200",
+    "title": "Inventory Counts: Pausing, Reassigning, and Deleting Counts",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1932591200-inventory-counts-pausing-reassigning-and-deleting-counts/body.export_view.html"
+  },
+  {
+    "id": "1932591186",
+    "title": "Inventory Counts: Cycle Counts / Unassigned Counts",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/1932591186-inventory-counts-cycle-counts-unassigned-counts/body.export_view.html"
+  },
+  {
+    "id": "1932591172",
+    "title": "Purchase Order Notes",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1932591172-purchase-order-notes/body.export_view.html"
+  },
+  {
+    "id": "1932591138",
+    "title": "Catalog Management: Organize Your Catalog with Category Trees and Item Grids",
+    "spaceKey": "SCD",
+    "version": 18,
+    "bodyExportViewPath": "spaces/SCD/pages/1932591138-catalog-management-organize-your-catalog-with-category-trees-and-item-grids/body.export_view.html"
+  },
+  {
+    "id": "1932591125",
+    "title": "Catalog Items: Device Compatibility",
+    "spaceKey": "SCD",
+    "version": 16,
+    "bodyExportViewPath": "spaces/SCD/pages/1932591125-catalog-items-device-compatibility/body.export_view.html"
+  },
+  {
+    "id": "1932558411",
+    "title": "Inventory Count Process: Reconciling Counts",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1932558411-inventory-count-process-reconciling-counts/body.export_view.html"
+  },
+  {
+    "id": "1932525994",
+    "title": "Inventory Management: Replenishment Methods",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525994-inventory-management-replenishment-methods/body.export_view.html"
+  },
+  {
+    "id": "1932525822",
+    "title": "Ticket Management: Importing Tickets",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525822-ticket-management-importing-tickets/body.export_view.html"
+  },
+  {
+    "id": "1932525752",
+    "title": "Custom Forms: Adding Images to Forms",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525752-custom-forms-adding-images-to-forms/body.export_view.html"
+  },
+  {
+    "id": "1932525739",
+    "title": "Creating Customer Contact Methods",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525739-creating-customer-contact-methods/body.export_view.html"
+  },
+  {
+    "id": "1932525726",
+    "title": "Automated Notifications: Inventory Status Changes",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525726-automated-notifications-inventory-status-changes/body.export_view.html"
+  },
+  {
+    "id": "1932525709",
+    "title": "Email Domain Troubleshooting",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525709-email-domain-troubleshooting/body.export_view.html"
+  },
+  {
+    "id": "1932525679",
+    "title": "Ticket Properties: Creating New Ticket Actions",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525679-ticket-properties-creating-new-ticket-actions/body.export_view.html"
+  },
+  {
+    "id": "1932525658",
+    "title": "Ticket Properties: Search Tickets by Assigned Properties",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525658-ticket-properties-search-tickets-by-assigned-properties/body.export_view.html"
+  },
+  {
+    "id": "1932525644",
+    "title": "List Filters",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525644-list-filters/body.export_view.html"
+  },
+  {
+    "id": "1932525631",
+    "title": "Return Merchandise Authorization (RMA) Tracking Resources",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525631-return-merchandise-authorization-rma-tracking-resources/body.export_view.html"
+  },
+  {
+    "id": "1932525576",
+    "title": "RepairQ Best Practices - Inventory Management 101",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932525576-repairq-best-practices-inventory-management-101/body.export_view.html"
+  },
+  {
+    "id": "1932493070",
+    "title": "Inventory Management: Void Inventory Associated with Inactive Catalog Items",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1932493070-inventory-management-void-inventory-associated-with-inactive-catalog-items/body.export_view.html"
+  },
+  {
+    "id": "1932492983",
+    "title": "Creating Custom Forms",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/1932492983-creating-custom-forms/body.export_view.html"
+  },
+  {
+    "id": "1932492924",
+    "title": "Inventory Management: Manual Inventory Attribute Changes",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1932492924-inventory-management-manual-inventory-attribute-changes/body.export_view.html"
+  },
+  {
+    "id": "1932460196",
+    "title": "Send Notification Emails From Your Domain",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1932460196-send-notification-emails-from-your-domain/body.export_view.html"
+  },
+  {
+    "id": "1932460177",
+    "title": "Inventory Transfers: Requesting Items From Another Location",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1932460177-inventory-transfers-requesting-items-from-another-location/body.export_view.html"
+  },
+  {
+    "id": "1932460163",
+    "title": "RMA Process: Initiate an RMA From a Ticket",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932460163-rma-process-initiate-an-rma-from-a-ticket/body.export_view.html"
+  },
+  {
+    "id": "1932427719",
+    "title": "Custom Forms: Capture Electronic Signatures on Forms",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1932427719-custom-forms-capture-electronic-signatures-on-forms/body.export_view.html"
+  },
+  {
+    "id": "1932427651",
+    "title": "Ticket Properties: Requiring a Ticket Assignee",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932427651-ticket-properties-requiring-a-ticket-assignee/body.export_view.html"
+  },
+  {
+    "id": "1932427638",
+    "title": "Ticket Properties: Require a Ticket Resolution",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1932427638-ticket-properties-require-a-ticket-resolution/body.export_view.html"
+  },
+  {
+    "id": "1932427609",
+    "title": "Reports: Inventory Shrinkage",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932427609-reports-inventory-shrinkage/body.export_view.html"
+  },
+  {
+    "id": "1932427464",
+    "title": "Inventory Count Resources",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1932427464-inventory-count-resources/body.export_view.html"
+  },
+  {
+    "id": "1932427416",
+    "title": "Purchase Order Resources",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1932427416-purchase-order-resources/body.export_view.html"
+  },
+  {
+    "id": "1932427325",
+    "title": "Catalog Settings",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1932427325-catalog-settings/body.export_view.html"
+  },
+  {
+    "id": "1932394664",
+    "title": "Assigning a Customer Referral Source",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932394664-assigning-a-customer-referral-source/body.export_view.html"
+  },
+  {
+    "id": "1932394639",
+    "title": "Tax-inclusive Pricing on Tickets",
+    "spaceKey": "SCD",
+    "version": 28,
+    "bodyExportViewPath": "spaces/SCD/pages/1932394639-tax-inclusive-pricing-on-tickets/body.export_view.html"
+  },
+  {
+    "id": "1932394588",
+    "title": "Ticket Properties: Create a Ticket Resolution",
+    "spaceKey": "SCD",
+    "version": 9,
+    "bodyExportViewPath": "spaces/SCD/pages/1932394588-ticket-properties-create-a-ticket-resolution/body.export_view.html"
+  },
+  {
+    "id": "1932394575",
+    "title": "Inventory Transfers: Accepting, Rejecting, and Shipping Items on Transfer Requests",
+    "spaceKey": "SCD",
+    "version": 16,
+    "bodyExportViewPath": "spaces/SCD/pages/1932394575-inventory-transfers-accepting-rejecting-and-shipping-items-on-transfer-requests/body.export_view.html"
+  },
+  {
+    "id": "1932394561",
+    "title": "Purchase Orders: Exporting",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932394561-purchase-orders-exporting/body.export_view.html"
+  },
+  {
+    "id": "1932361958",
+    "title": "Print Settings - Receipt Template",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1932361958-print-settings-receipt-template/body.export_view.html"
+  },
+  {
+    "id": "1932361894",
+    "title": "Company Miscellaneous Application Settings",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1932361894-company-miscellaneous-application-settings/body.export_view.html"
+  },
+  {
+    "id": "1932361859",
+    "title": "Integrations: Revv/Rallio",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1932361859-integrations-revv-rallio/body.export_view.html"
+  },
+  {
+    "id": "1932361846",
+    "title": "Ticket Properties: Designating a Ticket Assignee",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932361846-ticket-properties-designating-a-ticket-assignee/body.export_view.html"
+  },
+  {
+    "id": "1932361762",
+    "title": "RepairQ Best Practices - Inventory Management 102",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932361762-repairq-best-practices-inventory-management-102/body.export_view.html"
+  },
+  {
+    "id": "1932329145",
+    "title": "Ticket Properties and Overrides",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1932329145-ticket-properties-and-overrides/body.export_view.html"
+  },
+  {
+    "id": "1932329061",
+    "title": "Create a Catalog Item",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1932329061-create-a-catalog-item/body.export_view.html"
+  },
+  {
+    "id": "1932329027",
+    "title": "Creating a New Item Type",
+    "spaceKey": "SCD",
+    "version": 7,
+    "bodyExportViewPath": "spaces/SCD/pages/1932329027-creating-a-new-item-type/body.export_view.html"
+  },
+  {
+    "id": "1932329013",
+    "title": "Creating a Quick Sale Ticket (video)",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932329013-creating-a-quick-sale-ticket-video/body.export_view.html"
+  },
+  {
+    "id": "1932296378",
+    "title": "RMA Process: Sending RMA Items to the Supplier (RMA Batch)",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1932296378-rma-process-sending-rma-items-to-the-supplier-rma-batch/body.export_view.html"
+  },
+  {
+    "id": "1932296330",
+    "title": "Inventory Counts: Assigning Counts",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1932296330-inventory-counts-assigning-counts/body.export_view.html"
+  },
+  {
+    "id": "1932230697",
+    "title": "Item Grid Management: Link Catalog Items to the Category Tree",
+    "spaceKey": "SCD",
+    "version": 19,
+    "bodyExportViewPath": "spaces/SCD/pages/1932230697-item-grid-management-link-catalog-items-to-the-category-tree/body.export_view.html"
+  },
+  {
+    "id": "1932230678",
+    "title": "RepairQ Subscription Management: Read-Only Access",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1932230678-repairq-subscription-management-read-only-access/body.export_view.html"
+  },
+  {
+    "id": "1932198033",
+    "title": "RMA Process: Transferring RMAs to a Central Location for Processing",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1932198033-rma-process-transferring-rmas-to-a-central-location-for-processing/body.export_view.html"
+  },
+  {
+    "id": "1932197889",
+    "title": "RepairQ 1.18 Capabilities and Features",
+    "spaceKey": "SCD",
+    "version": 13,
+    "bodyExportViewPath": "spaces/SCD/pages/1932197889-repairq-1-18-capabilities-and-features/body.export_view.html"
+  },
+  {
+    "id": "1931411672",
+    "title": "Ticket Properties Resources",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1931411672-ticket-properties-resources/body.export_view.html"
+  },
+  {
+    "id": "1931411625",
+    "title": "Purchase Orders: Importing and Uploading",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1931411625-purchase-orders-importing-and-uploading/body.export_view.html"
+  },
+  {
+    "id": "1931116776",
+    "title": "RMA Process: Initiate an RMA Through Inventory Fulfillment",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1931116776-rma-process-initiate-an-rma-through-inventory-fulfillment/body.export_view.html"
+  },
+  {
+    "id": "1931116664",
+    "title": "Customer Ticket and Device History",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1931116664-customer-ticket-and-device-history/body.export_view.html"
+  },
+  {
+    "id": "1931018445",
+    "title": "Inventory Management: Adjust Inventory Levels via Import",
+    "spaceKey": "SCD",
+    "version": 12,
+    "bodyExportViewPath": "spaces/SCD/pages/1931018445-inventory-management-adjust-inventory-levels-via-import/body.export_view.html"
+  },
+  {
+    "id": "1931018389",
+    "title": "Catalog Management: Importing Location Overrides",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1931018389-catalog-management-importing-location-overrides/body.export_view.html"
+  },
+  {
+    "id": "1931018355",
+    "title": "The RepairQ Catalog",
+    "spaceKey": "SCD",
+    "version": 16,
+    "bodyExportViewPath": "spaces/SCD/pages/1931018355-the-repairq-catalog/body.export_view.html"
+  },
+  {
+    "id": "1930494567",
+    "title": "Inventory Counts: Performing an Assigned Count",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1930494567-inventory-counts-performing-an-assigned-count/body.export_view.html"
+  },
+  {
+    "id": "1930494554",
+    "title": "Inventory Management: Tracking Non-inventoried Special Order Parts",
+    "spaceKey": "SCD",
+    "version": 4,
+    "bodyExportViewPath": "spaces/SCD/pages/1930494554-inventory-management-tracking-non-inventoried-special-order-parts/body.export_view.html"
+  },
+  {
+    "id": "1930494541",
+    "title": "Purchase Orders: Receiving Refurb Items in Bulk",
+    "spaceKey": "SCD",
+    "version": 6,
+    "bodyExportViewPath": "spaces/SCD/pages/1930494541-purchase-orders-receiving-refurb-items-in-bulk/body.export_view.html"
+  },
+  {
+    "id": "1930494512",
+    "title": "Creating a Quick Sale Ticket",
+    "spaceKey": "SCD",
+    "version": 14,
+    "bodyExportViewPath": "spaces/SCD/pages/1930494512-creating-a-quick-sale-ticket/body.export_view.html"
+  },
+  {
+    "id": "1930494471",
+    "title": "Help Desk Hours and Support Requests",
+    "spaceKey": "SCD",
+    "version": 33,
+    "bodyExportViewPath": "spaces/SCD/pages/1930494471-help-desk-hours-and-support-requests/body.export_view.html"
+  },
+  {
+    "id": "1929379890",
+    "title": "Staff Management: Add and Deactivate Staff Profiles",
+    "spaceKey": "SCD",
+    "version": 27,
+    "bodyExportViewPath": "spaces/SCD/pages/1929379890-staff-management-add-and-deactivate-staff-profiles/body.export_view.html"
+  },
+  {
+    "id": "1929248790",
+    "title": "Staff Management: Update Your Username and Password",
+    "spaceKey": "SCD",
+    "version": 11,
+    "bodyExportViewPath": "spaces/SCD/pages/1929248790-staff-management-update-your-username-and-password/body.export_view.html"
+  },
+  {
+    "id": "1928986689",
+    "title": "Location Settings",
+    "spaceKey": "SCD",
+    "version": 8,
+    "bodyExportViewPath": "spaces/SCD/pages/1928986689-location-settings/body.export_view.html"
+  },
+  {
+    "id": "1928986634",
+    "title": "Getting Started: Clock In/Out of RepairQ",
+    "spaceKey": "SCD",
+    "version": 23,
+    "bodyExportViewPath": "spaces/SCD/pages/1928986634-getting-started-clock-in-out-of-repairq/body.export_view.html"
+  },
+  {
+    "id": "1928921186",
+    "title": "RepairQ Subscription Management: Change Your Subscription",
+    "spaceKey": "SCD",
+    "version": 19,
+    "bodyExportViewPath": "spaces/SCD/pages/1928921186-repairq-subscription-management-change-your-subscription/body.export_view.html"
+  },
+  {
+    "id": "1928921166",
+    "title": "Location Management: Add or Deactivate a Location",
+    "spaceKey": "SCD",
+    "version": 10,
+    "bodyExportViewPath": "spaces/SCD/pages/1928921166-location-management-add-or-deactivate-a-location/body.export_view.html"
+  },
+  {
+    "id": "1928921152",
+    "title": "Staff Management: Roles and Permissions",
+    "spaceKey": "SCD",
+    "version": 18,
+    "bodyExportViewPath": "spaces/SCD/pages/1928921152-staff-management-roles-and-permissions/body.export_view.html"
+  },
+  {
+    "id": "1928921099",
+    "title": "Getting Started: Login, Password Reset, and User Profile Customization",
+    "spaceKey": "SCD",
+    "version": 23,
+    "bodyExportViewPath": "spaces/SCD/pages/1928921099-getting-started-login-password-reset-and-user-profile-customization/body.export_view.html"
+  },
+  {
+    "id": "1902379348",
+    "title": "ServiceCentral Desk",
+    "spaceKey": "SCD",
+    "version": 5,
+    "bodyExportViewPath": "spaces/SCD/pages/1902379348-servicecentral-desk/body.export_view.html"
+  }
+]

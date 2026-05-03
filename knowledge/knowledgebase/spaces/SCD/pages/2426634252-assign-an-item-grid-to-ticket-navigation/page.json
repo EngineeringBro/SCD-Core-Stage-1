@@ -1,0 +1,130 @@
+{
+  "id": "2426634252",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2426634252",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjQyNjYzNDI1Mg==",
+  "status": "current",
+  "title": "Assign an Item Grid to Ticket Navigation",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2025-03-18T22:43:29.746Z",
+    "friendlyWhen": "Mar 19, 2025",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "101",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2426634252.50",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2426634252"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2426634252/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>A Category Tree is a structured grouping of categories for your Catalog Items, organized in a parent/child hierarchy. It provides a top-down method for building a visual browsing experience within <strong>Item Grids</strong>. Together, the Category Tree and Item Grid create an intuitive, drill-down interface for selecting products and services.</p><p /><h2 id=\"AssignanItemGridtoTicketNavigation-ItemGridsandTicketItemLook-up\">Item Grids and Ticket Item Look-up</h2><p>Item Grids are connected to the \u201cLook up\u201d button on tickets and adapt to the context where the button appears. Different grids can be assigned when searching for Repair Devices, Trade-in Devices, and Ticket Items.</p><p>For Instance, when working on a Repair ticket, assign the &quot;Repairable Devices&quot; grid to the Repair Devices section of the ticket. This grid may contain items eligible for repair, facilitating the selection of repair items for the ticket. The \u201cItems for Sale\u201d grid can be assigned to sell inventory when adding a sale item to any ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Assign Grid 3.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2426634252/Assign%20Grid%203.png?api=v2\"></span><h3 id=\"AssignanItemGridtoTicketNavigation-PreviousSteps\">Previous Steps</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932591138\" rel=\"nofollow\">Catalog Management: Organize Your Catalog with Category Trees and Item Grids</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932230697\" rel=\"nofollow\">Item Grid Management: Link Catalog Items to the Category Tree</a></p></li></ul><h3 id=\"AssignanItemGridtoTicketNavigation-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931018355/The+RepairQ+Catalog\" data-linked-resource-id=\"1931018355\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591125/Catalog+Items+Device+Compatibility\" data-linked-resource-id=\"1932591125\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Items: Device Compatibility</a> </p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936523327\" rel=\"nofollow\">Qsite\u2122 Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2426634252/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"AssignanItemGridtoTicketNavigation-AssignItemGridstoTicketItemLook-up\">Assign Item Grids to Ticket Item Look-up</h2><p>Once you have added Catalog Items to your Item Grid, select which grid will be used for navigation. Go to <strong>Company Settings </strong>\u2192 <strong>Tickets </strong>\u2192 <strong>General Settings</strong>.</p><p /><h3 id=\"AssignanItemGridtoTicketNavigation-AssignanItemGridtotheItemLook-upButton\">Assign an Item Grid to the Item Look-up Button</h3><p>The Ticket General Settings page has sections for Repair Items, Trade Items, and Ticket Items. Each section has separate Item Grid assignments. After making your changes, be sure to <strong>Save </strong>your settings.</p><ul><li><p><strong>Repair Items</strong> - This will assign a grid to the <strong>Look Up button</strong> in the \u201cRepair Devices\u201d section of Repair Tickets.</p></li><li><p><strong>Trade Items</strong> - This will assign a grid to the <strong>Look Up button</strong> in the \u201cTrade-in Items\u201d section of Trade-in Tickets.</p></li><li><p> <strong>Ticket Items </strong>- This will assign a grid to the <strong>Look Up button</strong> in the \u201cTicket Items\u201d section of all tickets.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Assign Grid 2.png\" width=\"391\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2426634252/Assign%20Grid%202.png?api=v2\"></span><ul><li><p><strong>Use Item Grid to add items</strong> - Toggle ON to navigate the Item Grid when using the<strong> Look up button</strong> to add items to a ticket. When turned OFF, the search will default to Advanced Search.</p><ul><li><p><strong>Item Grid </strong>- Assign which item grid will be used for looking up items.</p></li><li><p><strong>Preview </strong>- Click to preview the grid you have assigned for this Ticket Type.</p></li></ul></li><li><p><strong>Item Grid Name </strong>- Use these settings to customize which catalog attributes will be shown when viewing Grid Items.</p><ul><li><p><strong>Name </strong>- Show/Hide the catalog-assigned Name on Grid Items.</p></li><li><p><strong>Short Name </strong>- Show-Hide the catalog-assigned Short Name on Grid Items.</p></li><li><p><strong>SKU </strong>- Show/Hide the catalog-assigned SKU on Grid Items.</p></li></ul></li></ul><p /><h2 id=\"AssignanItemGridtoTicketNavigation-NavigatinganItemGridusingItemLook-up\">Navigating an Item Grid using Item Look-up</h2><p>When looking up a device to add the Item Grid appears, and you can select which device you want to add to the repair.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Look Up Item Grid Demo.gif\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2426634252/Look%20Up%20Item%20Grid%20Demo.gif?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2426634252"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 21176
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2426634252/child",
+    "restrictions": "/rest/api/content/2426634252/restriction/byOperation",
+    "history": "/rest/api/content/2426634252/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2426634252/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2426634252",
+    "webui": "/spaces/SCD/pages/2426634252/Assign+an+Item+Grid+to+Ticket+Navigation",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2426634252",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2426634252",
+    "tinyui": "/x/DICjk",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1933246536",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933246536",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI0NjUzNg==",
+  "status": "current",
+  "title": "Assigning Customer Segments",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:05.529Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933246536.28",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933246536"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246536/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Customer Segments are intended to be customer types/categories that individual customers can be categorized under.</p><h3 id=\"AssigningCustomerSegments-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936654444/Reports+Customer+Segments\" data-linked-resource-id=\"1936654444\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Customer Segments</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344786/Creating+a+Customer+Profile\" data-linked-resource-id=\"1933344786\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Creating a Customer Profile</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Managing Customer Profiles</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869089/Required+Fields+for+Customer+Profiles\" data-linked-resource-id=\"1933869089\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Validation Rules for Customers</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246536/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"AssigningCustomerSegments-CreatingCustomerSegments\">Creating Customer Segments</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246536/Segments%200.png?api=v2\"></span><p /><p>2. On the Settings Overview screen, click on the <strong>Customers dropdown</strong> on the left column. From the list of options, click <strong>Segments</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246536/Segments%201.png?api=v2\"></span><p /><p>3. On the Customer Segment page, click <strong>Add Customer Segment</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246536/Segments%202.png?api=v2\"></span><p /><p><strong>Note</strong>: Alternatively, click the <strong>Edit button</strong> next to the existing segment you would like to change.</p><p /><p>4. Begin filling out the New Customer Segment form. When you are satisfied with your changes, click <strong>Save</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246536/Segments%203.png?api=v2\"></span><ul><li><p><strong>Name</strong> - The name of the Customer Segment.</p></li><li><p><strong>Description</strong> - A short description of what qualifies a customer to be placed under this segment.</p></li><li><p><strong>Priority</strong> - Assign a number, beginning at zero, to organize the order in which a Customer Segment will appear on the list. A lower number will seat this option higher on the list.</p></li><li><p><strong>Is Active</strong> - When this box is checked, the Segment is active. Uncheck to deactivate and hide the Segment from selecting.</p></li></ul><p /><p>5. After you save, the Segment will show on the overview list. If you need to make changes, you can edit the segment or delete the segment, if it is unused.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246536/Segments%205.png?api=v2\"></span><p /><h2 id=\"AssigningCustomerSegments-AssigningaSegmenttoaCustomer\">Assigning a Segment to a Customer</h2><p>When <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344786/Creating+a+Customer+Profile\" data-linked-resource-id=\"1933344786\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Creating a Customer Profile</a>, the Segment field is under the Miscellaneous tab. Admins can update their <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869089/Required+Fields+for+Customer+Profiles\" data-linked-resource-id=\"1933869089\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Validation Rules</a> to make this a required field.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246536/Segments%206.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933246536"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933246536/child",
+    "restrictions": "/rest/api/content/1933246536/restriction/byOperation",
+    "history": "/rest/api/content/1933246536/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933246536/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933246536",
+    "webui": "/spaces/SCD/pages/1933246536/Assigning+Customer+Segments",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933246536",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246536",
+    "tinyui": "/x/SAA7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

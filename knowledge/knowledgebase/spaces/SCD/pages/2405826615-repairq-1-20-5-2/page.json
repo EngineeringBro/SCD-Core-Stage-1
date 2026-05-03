@@ -1,0 +1,129 @@
+{
+  "id": "2405826615",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2405826615",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjQwNTgyNjYxNQ==",
+  "status": "current",
+  "title": "RepairQ 1.20.5.2",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:05:51.649Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "1433",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2405826615.25",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2405826615"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2405826615/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h1 id=\"RepairQ1.20.5.2-Bugs\">Bugs</h1><h3 id=\"RepairQ1.20.5.2-TicketsandTransactions\">Tickets and Transactions</h3><ul><li><p>Applying a Store Credit on a ticket no longer results in an error.</p></li><li><p>Resolved the issue causing broken images upon uploading a file to a Custom Form.</p></li></ul><h3 id=\"RepairQ1.20.5.2-InventoryandCatalog\">Inventory and Catalog</h3><ul><li><p>Fixed a bug that caused a loading screen freeze when adding compatible parts and services to catalog items.</p></li><li><p>Rejecting an item on an Internal Purchase Order will no longer zero out the \u201cQuantity to ship\u201d fields of the page.</p></li></ul><h1 id=\"RepairQ1.20.5.2-Improvements\">Improvements</h1><ul><li><p>Concurrent appointment fields have been renamed \u201cMaximum Appts\u201d for clarity and consistent behavior across all available settings.</p></li><li><p>Test Mode batch delete errors have been fixed, and any deletion will be recorded in the System Log.</p></li><li><p>Once Test Mode has been turned off, it cannot be reactivated. This ensures data integrity after the Admin has decided to continue with regular business operations.</p></li><li><p>The Test Mode banner now has a clickable link to access Test Mode and Batch Delete settings.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2405826615"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 685400260
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2405826615/child",
+    "restrictions": "/rest/api/content/2405826615/restriction/byOperation",
+    "history": "/rest/api/content/2405826615/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2405826615/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2405826615",
+    "webui": "/spaces/SCD/pages/2405826615/RepairQ+1.20.5.2",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2405826615",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2405826615",
+    "tinyui": "/x/NwBmjw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

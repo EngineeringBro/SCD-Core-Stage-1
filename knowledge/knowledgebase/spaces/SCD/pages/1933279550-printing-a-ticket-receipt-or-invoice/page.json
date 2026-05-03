@@ -1,0 +1,129 @@
+{
+  "id": "1933279550",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933279550",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI3OTU1MA==",
+  "status": "current",
+  "title": "Printing a Ticket Receipt or Invoice",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:21.808Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933279550.26",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933279550"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279550/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Staff can print receipts for tickets and invoices at any time from the <strong>Ticket View</strong> page.</p><p><strong>Note</strong>: Since RepairQ is cloud-based, you will need to set up your printer with your computer, first, in order to print from your browser.</p><h3 id=\"PrintingaTicketReceiptorInvoice-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361958/Print+Settings+-+Receipt+Template\" data-linked-resource-id=\"1932361958\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Print Settings - Receipts</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377656/Print+Settings+-+Invoices\" data-linked-resource-id=\"1933377656\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Print Settings - Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672639/Email+a+Receipt+to+a+Customer\" data-linked-resource-id=\"1933672639\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Emailing a Receipt to a Customer</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229707/QZ+Integrated+Printing+-+Start+Here\" data-linked-resource-id=\"1934229707\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Introduction to QZ Integrated Printing - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937014903/Clearing+Your+Cache+in+Chrome+Browser\" data-linked-resource-id=\"1937014903\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Clearing Your Cache in Chrome Browser</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279550/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"PrintingaTicketReceiptorInvoice-PrintingaReceiptorInvoicefromaTicket\">Printing a Receipt or Invoice from a Ticket</h2><p /><p>1. <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933541674/Searching+for+Tickets\" data-linked-resource-id=\"1933541674\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Search for an existing ticket</a>, or create a new ticket and save it in a new status.</p><p /><p>2. When viewing the ticket, available Ticket Actions are along the top row of the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279550/Print%20Receipt%20or%20Invoice%201.png?api=v2\"></span><p /><p>3. To print, click either the <strong>Print Receipt button</strong> (printer icon) or the <strong>Print Invoice button</strong> (page icon). This will open a print dialog preview page where you can select the printer destination.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279550/Print%20Receipt%20or%20Invoice%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279550/Print%20Receipt%20or%20Invoice%203.png?api=v2\"></span><p /><h2 id=\"PrintingaTicketReceiptorInvoice-IntegratedPrinting\">Integrated Printing</h2><p>If you have set up <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229707/QZ+Integrated+Printing+-+Start+Here\" data-linked-resource-id=\"1934229707\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Integrated Printing</a>, these icons will look slightly different. Clicking a Print icon will automatically send the job to the printer designated in your Print Config settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279550/Print%20Receipt%20or%20Invoice%204.png?api=v2\"></span><p /><p>If you click the dropdown next to the icon, you can choose from the list of printers configured in your Automated Printing settings or print with Browser Dialog.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279550/Print%20Receipt%20or%20Invoice%205.png?api=v2\"></span><p /><p><strong>Note</strong>: The Browser Dialog page will open in a new window and allows you to select the destination, layout, and other settings.\u00a0</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933279550"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933279550/child",
+    "restrictions": "/rest/api/content/1933279550/restriction/byOperation",
+    "history": "/rest/api/content/1933279550/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933279550/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933279550",
+    "webui": "/spaces/SCD/pages/1933279550/Printing+a+Ticket+Receipt+or+Invoice",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933279550",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279550",
+    "tinyui": "/x/PoE7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "9",
+  "projectId": "10166",
+  "projectName": "ServiceCentral Desk",
+  "projectKey": "SCD",
+  "projectTypeKey": "service_desk",
+  "_links": {
+    "self": "https://servicecentral.atlassian.net/rest/servicedeskapi/servicedesk/9"
+  }
+}

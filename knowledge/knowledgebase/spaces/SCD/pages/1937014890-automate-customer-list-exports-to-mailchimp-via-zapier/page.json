@@ -1,0 +1,129 @@
+{
+  "id": "1937014890",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1937014890",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNzAxNDg5MA==",
+  "status": "current",
+  "title": "Automate Customer List Exports to Mailchimp via Zapier",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:22.145Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "1482",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1937014890.35",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1937014890"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937014890/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>This guide walks you through automating the process of sending customer data from RepairQ to your Mailchimp account. Setting up this automation streamlines your marketing efforts and engages with customers more effectively. For example, after completing a repair or purchase, customers can be automatically added to your Mailchimp list, allowing you to send follow-up emails, warranty reminders, or even targeted promotions without manual effort.</p><p>While this guide covers one example, you can customize it to choose which customers to send over and assign specific tags in Mailchimp for personalized email campaigns.</p><p>To complete this process, you will need:</p><ul><li><p>RepairQ Professional</p></li><li><p>Zapier Premium</p></li><li><p>A Mailchimp account (Standard subscription required to automate email campaigns)</p></li></ul><h3 id=\"AutomateCustomerListExportstoMailchimpviaZapier-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803749/Customer+Communication+Preferences+and+Marketing+List\" data-linked-resource-id=\"1933803749\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Reports: Marketing List</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2731114524\" rel=\"nofollow\">Business Intelligence (BI) Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2471034883\" rel=\"nofollow\">Integrations: Webhooks and APIs</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"AutomateCustomerListExportstoMailchimpviaZapier-CreateanewZapinZapier\">Create a new Zap in Zapier</h2><p>A 'Zap' is an automated connection between two or more apps that allows them to work together without manual intervention.</p><p><strong>Note</strong>: Currently, Code Steps in Code by Zapier are limited to returning 250 items in the output object. As a result, any customer list exceeding this limit will not run.</p><p /><p>Start by logging into your Zapier account and creating a new Zap. Select <strong>Webhooks by Zapier</strong> as the app, then choose <strong>Catch Raw Hook</strong> as the trigger event. Click <strong>Continue </strong>to proceed, and Zapier will then create a Webhook URL. Copy it and set it aside.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Catch Raw Hook.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Catch%20Raw%20Hook.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Webook from Zapier.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Webook%20from%20Zapier.png?api=v2\"></span><h2 id=\"AutomateCustomerListExportstoMailchimpviaZapier-RetrieveCustomerInformationinRepairQAnalytics\">Retrieve Customer Information in RepairQ Analytics</h2><p>Log in to your RepairQ instance and navigate to the Analytics reporting section. Click the <strong>File</strong> <strong>icon </strong>in the upper right corner, then select <strong>Shared Folder</strong>. From there, click on the <strong>Customer Folder</strong> and choose the <strong>MC Customer</strong> look.</p><p>Note: You can use the Analytics section in RepairQ to create and schedule reports to send customer data for any campaign.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer List 1.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Customer%20List%201.png?api=v2\"></span><p /><p>By default, this look pulls closed tickets from the previous month. To proceed, click the <strong>Gear Icon</strong> and select either <strong>Send</strong> or <strong>Schedule</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer List 2.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Customer%20List%202.png?api=v2\"></span><p /><p>Select the data to go as a Webhook and paste the URL you saved from Zapier into the field that appears.\u00a0 Then select <strong>JSON - Simple</strong> as the data format.\u00a0<u>Don't click send yet</u>, since we\u2019ll need to test in Zapier first</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer List 3.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Customer%20List%203.png?api=v2\"></span><h3 id=\"AutomateCustomerListExportstoMailchimpviaZapier-Test&amp;ReviewinZapier\">Test &amp; Review in Zapier</h3><p>Jump back to Zapier and click <strong>Continue</strong>, then click <strong>Test &amp; Review</strong>.\u00a0 Once you click it, head back to RepairQ and click <strong>Send</strong>.\u00a0 Zapier should see the Webhook from RepairQ and load some test data. After confirming, click <strong>Continue</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Find Data Sample.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Find%20Data%20Sample.png?api=v2\"></span><p /><p>Select <strong>Code by Zapier </strong>as the next app, and choose<strong> Run Javascript</strong> as the Action Event. In the following section, input <strong>rawData</strong> into the 'Input Data' field. Then, from the dropdown next to it, select <strong>Raw Body</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"image-20230607-182926.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/image-20230607-182926.png?api=v2\"></span><p /><p>In the Code section, input the following:</p><div class=\"code panel pdl\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent pdl\">\n<pre class=\"syntaxhighlighter-pre\" data-syntaxhighlighter-params=\"brush: java; gutter: false; theme: Confluence\" data-theme=\"Confluence\">const elements = JSON.parse(inputData.rawData);\nconst attDat = JSON.parse(elements.attachment.data);\nreturn attDat.map(item =&gt; {\n return item;\n});</pre>\n</div></div><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"image-20230607-182926.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/image-20230607-182926.png?api=v2\"></span><p /><p>In the next section, click Test and Continue, then add a third section with the plus button. Select <strong>Mailchimp </strong>as the app and <strong>Add/Update Subscriber</strong> as the Action Event.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"AddUpdate Subscriber Mailchimp.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/AddUpdate%20Subscriber%20Mailchimp.png?api=v2\"></span><p /><p>In the next section link your Mailchimp account with Zapier.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Mailchimp Testing Account.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Mailchimp%20Testing%20Account.png?api=v2\"></span><p /><p>Next, select which Audience you want your RepairQ contacts to go to.\u00a0Then select <strong>Customer.email</strong> from the drop-down. Scroll down and click <strong>Refresh Fields</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Customer Subscriber.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Customer%20Subscriber.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Refresh Fields.png\" width=\"182\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Refresh%20Fields.png?api=v2\"></span><p /><p>New fields will appear. Select <strong>Customer.first Name</strong> and <strong>Customer.last Name</strong> for their respective sections.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Select Audience.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Select%20Audience.png?api=v2\"></span><p /><p>Add a fourth Zap and select <strong>Mailchimp</strong> as the App.\u00a0Use <strong>Add a Subscriber to Tag</strong> as the Action Event.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Add Subscriber to Tag.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Add%20Subscriber%20to%20Tag.png?api=v2\"></span><p /><p>Use the same account you linked earlier in the next section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Mailchimp Testing Account.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/Mailchimp%20Testing%20Account.png?api=v2\"></span><p /><p>In the next section, select the same Audience you used above.\u00a0Input the Tag you want to attribute to customers from RepairQ.\u00a0Then use <strong>Customer.email</strong> for the Email Address.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/image-20230607-182835.png?api=v2\"></span><p /><p>Click <strong>Next </strong>and <strong>Save </strong>the Zap.\u00a0 Then use the toggle at the bottom to activate the Zap. Customers sent over will appear in the Audience you selected showing the source as Zapier and the tag you selected.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1937014890/image-20230607-183021.png?api=v2\"></span><p /><p /><p>START 1.21.X</p><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1937014890"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1937014890/child",
+    "restrictions": "/rest/api/content/1937014890/restriction/byOperation",
+    "history": "/rest/api/content/1937014890/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1937014890/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1937014890",
+    "webui": "/spaces/SCD/pages/1937014890/Automate+Customer+List+Exports+to+Mailchimp+via+Zapier",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1937014890",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1937014890",
+    "tinyui": "/x/aoB0cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

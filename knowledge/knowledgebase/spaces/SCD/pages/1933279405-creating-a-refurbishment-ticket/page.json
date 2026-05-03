@@ -1,0 +1,129 @@
+{
+  "id": "1933279405",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933279405",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI3OTQwNQ==",
+  "status": "current",
+  "title": "Creating a Refurbishment Ticket",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:17.359Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933279405.54",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933279405"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279405/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>A Reburbishment (Refurb) Ticket tracks the refurbishment process of used devices. RepairQ automatically creates a Refurb ticket when an item is brought into inventory via the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377756/Create+a+Trade-In+Ticket\" data-linked-resource-id=\"1933377756\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Trade-in Process</a> or when an item is <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770876/Processing+a+Return+on+a+Ticket\" data-linked-resource-id=\"1933770876\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">returned on a ticket</a>. You can also manually create Refurb tickets for your existing inventory items that may need repair. Refurb tickets include details for the device\u2019s condition, repairs or improvements made, records any parts used for the repair, and logs any quality checks performed. This helps ensure that the reburbished device meets quality standards before being sold. We also offer reporting to track COGS and revenue.</p><p>Refurb devices can positively impact Cost Of Goods Sold (COGS), gross margin, customer satisfaction, and other financial and operational metrics in your business.</p><ul><li><p><strong>COGS Reduction</strong> - Refurbishment can reduce COGS as you aren\u2019t acquiring new inventory. This can lead to higher profit margins.</p></li><li><p><strong>Gross Margin Improvement</strong> - With lower DOGS, your gross margin (revenue - COGS) increases, indicating improved profitability.</p></li><li><p><strong>Inventory Turnover</strong> - by refurbishing and selling old devices faster, you can increase inventory turnover, which is a positive metric for efficiency.</p></li><li><p><strong>Customer Satisfaction</strong> - High-quality refurbished devices can enhance customer satisfaction, leading to repeat business and positive word-of-mouth.</p></li><li><p><strong>Environmental Impact</strong> - Demonstrating eco-friendly practices through refurbishment can improve your brand\u2019s image, potentially increasing customer loyalty.</p></li></ul><h3 id=\"CreatingaRefurbishmentTicket-AdditionialResources\">Additionial Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494512/Creating+a+Quick+Sale+Ticket\" data-linked-resource-id=\"1930494512\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating a Quick Sale Ticket</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803723/Create+a+Repair+Ticket\" data-linked-resource-id=\"1933803723\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Creating a Repair Ticket</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377756/Create+a+Trade-In+Ticket\" data-linked-resource-id=\"1933377756\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Creating a Trade-In Ticket</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934753845/Reports+Revenue+Cost+of+Goods+Sold+COGS+Cost+of+Services+and+Cost+of+Refurbs\" data-linked-resource-id=\"1934753845\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Revenue, Cost of Goods Sold (COGS), Cost of Services, and Cost of Refurbs</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2115633174/Refurbishment+Ticket+Behavior+Settings\" data-linked-resource-id=\"2115633174\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">Refurbishment Ticket Behavior Settings</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932492983/Creating+Custom+Forms\" data-linked-resource-id=\"1932492983\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating and Working with Custom Forms</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status: What Does It Mean?</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"764\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CreatingaRefurbishmentTicket-CreatingaNewRefurbTicketforanExistingInventoryItem\">Creating a New Refurb Ticket for an Existing Inventory Item</h2><p /><p>1. On the Navigation Bar, go to <strong>Inventory </strong>\u2192 <strong>Inventory Summary</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"583\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%201.png?api=v2\"></span><p /><p>2. Use the filters to look up the item you need to refurbish. Next to the item, click the <strong>Options button (\u22ee)</strong> under the Action column. From the list of actions, click <strong>View </strong>to see the inventory detail page for that item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%203.png?api=v2\"></span><p /><p>3. When viewing the inventory details for the item, click the <strong>Options button</strong> next to the line item you would like to refurbish. From the list of actions, click <strong>Refurb</strong>. If you are working with a serialized item, make sure you confirm the serial number is for the correct device. The system will provide an additional confirmation window before creating the Refurb Ticket.</p><p><strong>Note</strong>: When adding an item to a Refurb Ticket, the inventory item will be moved from <strong>Instock </strong>status and place it into <strong>Pending Refurb </strong>status. This identifies that the item needs to be repaired/refurbished before being resold or consumed for spare parts. For more information on inventory statuses, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status: What Does It Mean?</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%204.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%205.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"263\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%206.png?api=v2\"></span><h2 id=\"CreatingaRefurbishmentTicket-CreatingaRefurbTicketforMultipleInventoryItems\">Creating a Refurb Ticket for Multiple Inventory Items</h2><p>Users can bulk-create Refurb Tickets for multiple units of the same inventory item. When viewing the inventory details for the item, use the far-left column to <strong>multi-select each unit you wish to refurb</strong>. Once you have selected the items, click the <strong>Menu button</strong> to expand the list of available actions, then click <strong>Refurb Selected</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%2012.png?api=v2\"></span><p /><p>On the Bulk Refurb pop-up, select the Location and Assignee for the refurb tickets, and be sure to add any diagnostic notes for the items. Once you have filled out the information, click <strong>Refurb Items</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"417\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%2013.png?api=v2\"></span><h2 id=\"CreatingaRefurbishmentTicket-ManagingRefurbTickets\">Managing Refurb Tickets</h2><h3 id=\"CreatingaRefurbishmentTicket-FindingRefurbTicketsinyourTicketQueue\">Finding Refurb Tickets in your Ticket Queue</h3><p>Refurb Tickets are visible in your Ticket List and are are marked as such by the circular arrow icon. You can also filter your Ticket List for Refurb Tickets by selecting <strong>Type: Refurbishment</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%2014.png?api=v2\"></span><h3 id=\"CreatingaRefurbishmentTicket-FindingRefurbItemsinyourInventory\">Finding Refurb Items in your Inventory</h3><p>Users can also search for inventory items that are currently in the refurb process. Navigate to <strong>Inventory </strong>\u2192 <strong>Inventory Detail </strong>and filter for <strong>Inventory Process: Refurbish Process</strong>. The list will show items in <strong>Pending Refurb </strong>or <strong>Pending Restock </strong>statuses. For each item,\u00a0the linked ticket and more information can be seen and changed.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%2015.png?api=v2\"></span><p /><p><strong>Note</strong>: You may also need to change the date range to &quot;All Time,&quot; depending on when the item was added to inventory.</p><h2 id=\"CreatingaRefurbishmentTicket-RefurbTicketReconciliation\">Refurb Ticket Reconciliation</h2><p>You may notice that a Refurb Ticket looks similar to a Repair Ticket. The refurb item on these tickets has been removed from <strong>Instock </strong>status and is placed in <strong>Pending Refurb</strong> status. This identifies that the item needs to be repaired/refurbished before being resold or consumed for spare parts. The Refurb Ticket reconcilation process will involve the user selecting an appropriate inventory status to place the item when closing the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%207.png?api=v2\"></span><p /><p><strong>Note</strong>: We advise that users do not manually change the inventory status of a refurb item back to Instock status before the Refurb Ticket is closed. The refurb process will move the item accordingly. If the item\u2019s inventory status is manually changed, it will be out of sync with the Refurb Ticket and you will receive an error when attempting to close the ticket.</p><p /><p>Edit the Refurb Ticket and add any necessary items\u00a0or labor needed to restore the device back to sellable status. When the repairs are completed, make sure to update the <strong>Inventory Status field </strong>of the device to send the item into the appropriate status when saving the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%208.png?api=v2\"></span><h3 id=\"CreatingaRefurbishmentTicket-Commonly-UsedInventoryStatuses\">Commonly-Used Inventory Statuses</h3><p>Below are some common inventory statuses used when updating the inventory status of a Refurb Item. The Inventory Status of the item will determine what Ticket Statuses are available when saving or closing the ticket (Hold/Back Ordered, Closed, etc.) Other inventory statuses are available; we recommend consulting with your team for a system that works best.</p><ul><li><p><strong>Restock Immediately (Instock)</strong> - The Refurb process is complete, and the ticket can be closed. The item will be places back in-stock for immediate sale.</p></li><li><p><strong>Initiate Restock (Pending Restock)</strong> - The Refurb process is complete, but it needs final inspection from a designated user before placing in-stock.</p></li><li><p><strong>Pending Refurb</strong> - This is the default status for Refurb items. Items can be added to the ticket to track what services or parts were used in this refurbishment.</p></li><li><p><strong>Parts Only</strong> - This removes the item from your inventory as shrinkage with the intent of recovering any usable parts into inventory for re-use.</p></li><li><p><strong>Defective (Pending RMA)</strong> - This initiates the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525631/Return+Merchandise+Authorization+RMA+Tracking+Resources\" data-linked-resource-id=\"1932525631\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">RMA Process</a> for the item.</p></li><li><p><strong>Damaged (Damaged)</strong> - This places the item into Damaged status and is removed from inventory as Shrinkage (loss, theft, damage by employee, etc.). You can adjust this item back into inventory either manually or by doing a cycle count.</p></li></ul><p><strong>Note</strong>: If the item is beyond repair, or you decide to use this device as Parts Only, you have additional statuses available to adjust the item out of inventory. </p><p /><p>Once all the appropriate items are added and repairs have been performed, you can change the Inventory Status of the item to <strong>Restock Immediately (Instock)</strong> and close the ticket. This will place the item back into In-stock status, ready for immediate sale.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933279405/Refurb%2017.png?api=v2\"></span><h2 id=\"CreatingaRefurbishmentTicket-RefurbishTicketBehaviorSettings\">Refurbish Ticket Behavior Settings</h2><p>If the cost on the ticket item reads zero, it may have been automatically transferred to the refurb item cost. This depends on your\u00a0<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2115633174/Refurbishment+Ticket+Behavior+Settings\" data-linked-resource-id=\"2115633174\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">Refurbishment Ticket Behavior Settings</a>. You can control refurbishment ticket behavior in your Location Settings.</p><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933279405"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933279405/child",
+    "restrictions": "/rest/api/content/1933279405/restriction/byOperation",
+    "history": "/rest/api/content/1933279405/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933279405/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933279405",
+    "webui": "/spaces/SCD/pages/1933279405/Creating+a+Refurbishment+Ticket",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933279405",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933279405",
+    "tinyui": "/x/rYA7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

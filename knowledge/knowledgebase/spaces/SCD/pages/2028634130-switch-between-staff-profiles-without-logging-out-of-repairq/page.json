@@ -1,0 +1,129 @@
+{
+  "id": "2028634130",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2028634130",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyODYzNDEzMA==",
+  "status": "current",
+  "title": "Switch Between Staff Profiles Without Logging Out of RepairQ",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:25.839Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "262",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2028634130.76",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2028634130"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2028634130/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>If someone else is currently logged into RepairQ, you can swap user profiles without logging out of the application. This saves time and clicks when logging into the system. Admins can update authentication username/pin requirements for fast switching in Staff Management Settings.</p><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929379890\" rel=\"nofollow\">Staff Management: Add and Deactivate Staff Profiles</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936785488\" rel=\"nofollow\">Staff Management Resources (with Video)</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2024734723\" rel=\"nofollow\">Staff Management Settings</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928986634\" rel=\"nofollow\">Getting Started: Clock In/Out of RepairQ</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1929248790\" rel=\"nofollow\">Staff Management: Update Your Username and Password</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2028634130/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"SwitchBetweenStaffProfilesWithoutLoggingOutofRepairQ-SwitchUserProfilesinRepairQ(FastSwitching)\">Switch User Profiles in RepairQ (Fast Switching)</h2><p>When the feature is active, if someone else is currently logged into RepairQ, you can swap users without logging out of the application. Admins can update authentication username/pin requirements for fast switching in <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/plugins/servlet/servicedesk/customer/confluence/shim/spaces/SCD/pages/2024734723\" rel=\"nofollow\">Staff Management Settings</a>.</p><p>\u00a0</p><p>On the right side of the Navigation Bar, click the <strong>Name dropdown</strong>. From the list of options, click <strong>Switch User</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"442\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2028634130/Switch%204.png?api=v2\"></span><p /><p>A Switch User pop-up will appear. Depending on your preferred settings, enter your Username and/or PIN/Passcode and then click the <strong>Switch button</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"442\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2028634130/Invalid%20file%20id%20-%20cde87188-24de-4ed9-add0-943738dbc460?api=v2\"></span><p /><p>You will now be logged under the new Staff Profile. You can verify by checking the name on the top right of the Navigation Bar.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"442\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2028634130/Switch%206.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2028634130"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2028634130/child",
+    "restrictions": "/rest/api/content/2028634130/restriction/byOperation",
+    "history": "/rest/api/content/2028634130/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2028634130/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2028634130",
+    "webui": "/spaces/SCD/pages/2028634130/Switch+Between+Staff+Profiles+Without+Logging+Out+of+RepairQ",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2028634130",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2028634130",
+    "tinyui": "/x/EoDqe",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

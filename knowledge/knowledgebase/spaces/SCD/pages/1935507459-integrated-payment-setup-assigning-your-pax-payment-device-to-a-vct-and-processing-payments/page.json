@@ -1,0 +1,129 @@
+{
+  "id": "1935507459",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1935507459",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNTUwNzQ1OQ==",
+  "status": "current",
+  "title": "Integrated Payment Setup: Assigning Your PAX Payment Device to a VCT and Processing Payments",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:53:42.183Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 15,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1935507459.52",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1935507459"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935507459/version/15"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>After you have verified that your PAX terminal has successfully connected with RepairQ to accept a test transaction, you can assign the device to your Virtual Cash Terminal (VCT). Once you have paired your PAX with your VCT, you can accept payments on tickets.</p><h3 id=\"IntegratedPaymentSetup:AssigningYourPAXPaymentDevicetoaVCTandProcessingPayments-PreviousSteps\">Previous Steps</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935769605/Integrated+Payments+Setup+Performing+a+Test+Transaction+with+a+PAX+Terminal+Device\" data-linked-resource-id=\"1935769605\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Integrated Payments Setup: Performing a Test Transaction with a PAX Terminal Device</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1935376416/Integrated+Payments+Setup+Adding+a+Bluefin+PAX+Payment+Terminal+Device+in+RepairQ\" data-linked-resource-id=\"1935376416\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding a Bluefin PAX Payment Terminal Device in RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786687/Integrated+Payments+Setup+PAX+Security+Certificate+Installation+and+Testing\" data-linked-resource-id=\"1934786687\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Integrated Payments Setup: PAX Security Certificate Installation</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786847/Integrated+Payments+Setup+Adding+Bluefin+Credentials+in+RepairQ\" data-linked-resource-id=\"1934786847\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Integrated Payments Setup: Adding Bluefin Integration Credentials in RepairQ</a></p></li></ul><h3 id=\"IntegratedPaymentSetup:AssigningYourPAXPaymentDevicetoaVCTandProcessingPayments-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229721/Integrated+Payments+Troubleshooting+Resources\" data-linked-resource-id=\"1934229721\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrated Payments: Troubleshooting Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"IntegratedPaymentSetup:AssigningYourPAXPaymentDevicetoaVCTandProcessingPayments-AssigningaPAXDevicetotheVCT\">Assigning a PAX Device to the VCT</h2><p>When opening your VCT, you will need to make sure that the option <strong>Accept Credit Card</strong> is selected. This will show a new field for Payment Device. From there, you can select the device that you set up in the previous steps. For a full explanation of how to start your VCT, check out our article <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933639827/Assign+a+Virtual+Cash+Terminal+VCT+to+Accept+Payments\" data-linked-resource-id=\"1933639827\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">Starting a Virtual Cash Terminal (VCT) to Accept Payments</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%201.png?api=v2\"></span><h2 id=\"IntegratedPaymentSetup:AssigningYourPAXPaymentDevicetoaVCTandProcessingPayments-AuthorizingaPayment\">Authorizing a Payment</h2><p /><p>Create a Sale or Repair Ticket normally and add an item or service to the ticket so there is a balance due. In the Transactions section of the ticket, Initiate the payment for the balance due by clicking the <strong>Request Payment</strong> button on the right side of the page. If you need to take a partial or split payment, you can request a specific amount by clicking <strong>Add</strong> <strong>Transaction</strong> on the left side of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%207.png?api=v2\"></span><p /><p>If you click <strong>Add Transaction</strong>, a pop-up will appear. Select your<strong> Payment Type</strong>, based on which processing gateway you would like to use, then select the <strong>Terminal</strong> you wish to process the payment on. Next, enter the <strong>amount</strong> you wish to charge, and click <strong>Request Payment</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%204.png?api=v2\"></span><p /><p><strong>Note</strong>: You can select <strong>Pay in Full</strong> if you would like to process the total balance due from the customer.<br/></p><p>After requesting payment, a new payment window will pop up to establish a connection with the payment device. </p><p><strong>Note</strong>: With the release of RepairQ 1.20.2, customers will be able to select whether their payment will be processed as Credit or Debit. There are settings that allow you to make this decision from within the application or choose from the device. If this feature is disabled, the card will be ran as a Credit transaction. For more information on this process, check out our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786847/Integrated+Payments+Setup+Adding+Bluefin+Credentials+in+RepairQ\" data-linked-resource-id=\"1934786847\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Adding Bluefin Credentials in RepairQ</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%2010.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%2011.png?api=v2\"></span><p /><p>Next, the Payment Request Screen will appear, and the system is ready to process a payment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%205.png?api=v2\"></span><p /><p>Meanwhile, the customer or staff member will see prompts on the PAX device walking them through the steps to process the payment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"453\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%208.png?api=v2\"></span><p /><p>Tipping on Bluefin devices is currently in Beta. If you allow for tipping in your integration settings for the first time, you will need to <a class=\"external-link\" href=\"https://www.bluefin.com/support/merchant/\" rel=\"nofollow\">contact Bluefin Support</a> for a software update for your device. If you have enabled tipping, there will be additional prompts on your PAX device during the transaction.</p><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%2012.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%2013.png?api=v2\"></span><p /><p>RepairQ will let you know to request the customer's signature on either the payment device or your Qpop device, based on your Payment Device settings. For more information on setting up a Qpop Companion, check out <a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/115005198347\" rel=\"nofollow\">Introduction to Qpop\u2122 Companion - Start Here</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"564\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%209.png?api=v2\"></span><p /><p>The payment window will close once the payment authorization was successful. The payment authorization is run as a sale and the RepairQ ticket is auto-saved. You can view a record of the payment under the Transactions section of the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1935507459/Assign%206.png?api=v2\"></span><p /><h2 id=\"IntegratedPaymentSetup:AssigningYourPAXPaymentDevicetoaVCTandProcessingPayments-TicketAuto-Save\">Ticket Auto-Save</h2><p>Any time an integrated payment is processed, the ticket will be automatically saved in New status, and a ticket number will be generated. Even if you accidentally close the window or navigate away after processing a payment, RepairQ has created a new ticket, which you can search for in your <a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/115000486113\" rel=\"nofollow\">Ticket Queue</a>.</p><p /><p /><p>START .1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1935507459"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1935507459/child",
+    "restrictions": "/rest/api/content/1935507459/restriction/byOperation",
+    "history": "/rest/api/content/1935507459/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1935507459/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1935507459",
+    "webui": "/spaces/SCD/pages/1935507459/Integrated+Payment+Setup+Assigning+Your+PAX+Payment+Device+to+a+VCT+and+Processing+Payments",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1935507459",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1935507459",
+    "tinyui": "/x/A4Bdcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

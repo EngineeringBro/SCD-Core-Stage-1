@@ -1,0 +1,130 @@
+{
+  "id": "2030600303",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030600303",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDYwMDMwMw==",
+  "status": "current",
+  "title": "1.12.14",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-21T18:42:14.845Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "4",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030600303.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030600303"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030600303/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 07/18/2017 11:52 AM CT (16:52 UTC)</p><h2 id=\"id-1.12.14-CustomerCreditBalanceUpdates\">Customer Credit Balance Updates</h2><p>When\u00a0processing two tickets simultaneously for the same customer where both tickets have store credit transactions, the\u00a0customer's balance would not take into account both changes simultaneously, and as a result the customer's credit\u00a0balance would be incorrect. We have resolved this issue.</p><h2 id=\"id-1.12.14-StaffManagementPermissions\">Staff Management Permissions</h2><p>We have tightened up a few areas of staff management so that managers cannot edit certain\u00a0attributes of admin users.</p><h2 id=\"id-1.12.14-RMABatchLocationFilter\">RMA Batch Location Filter</h2><p>We added a location filter to the RMA batch list page.</p><h2 id=\"id-1.12.14-NotificationEditor\">Notification Editor</h2><p>The email notification content editor\u00a0now includes an HTML mode so that\u00a0you can paste in or tweak the raw HTML markup.</p><h2 id=\"id-1.12.14-PAXDeviceIntegration\">PAX Device Integration</h2><p>We added an additional layer of validation to harden the integration against missing or mis-identified responses.</p><h2 id=\"id-1.12.14-LoginTimestampsonSystemLog\">Login Timestamps on System Log</h2><p>We added timestamped login info to the System Log. Now when viewing the System log, you can see when staff members login to your RepairQ app, as well as the IP address they accessed it from.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030600303"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 312706368
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030600303/child",
+    "restrictions": "/rest/api/content/2030600303/restriction/byOperation",
+    "history": "/rest/api/content/2030600303/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030600303/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030600303",
+    "webui": "/spaces/SCD/pages/2030600303/1.12.14",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030600303",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030600303",
+    "tinyui": "/x/b4AIeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

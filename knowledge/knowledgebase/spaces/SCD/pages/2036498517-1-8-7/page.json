@@ -1,0 +1,130 @@
+{
+  "id": "2036498517",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2036498517",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzNjQ5ODUxNw==",
+  "status": "current",
+  "title": "1.8.7",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-27T18:02:26.527Z",
+    "friendlyWhen": "Jul 27, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "12",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2036498517.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2036498517"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036498517/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released Deployed\u00a0on 9/22/16 11:12 CT</p><p>This is a minor release with\u00a0a few bug fixes.</p><h3 id=\"id-1.8.7-Staff&quot;Status&quot;Filter\">Staff &quot;Status&quot; Filter</h3><p>The &quot;Status&quot; filter was not being applied to the &quot;unassigned&quot; group of staff members listed on the &quot;Name&quot; tab of the staff index. The &quot;Status&quot; filter will now filter the results for that group accordingly.</p><h3 id=\"id-1.8.7-SummaryReport\">Summary Report</h3><p>Fixed an issue with the Summary Report when performing monthly rollups spanning multiple years of data where the \u00a0&quot;February&quot;\u00a0\u00a0header\u00a0was skipped for 2016.</p><h3 id=\"id-1.8.7-RemovingTicketItems\">Removing Ticket Items</h3><p>When removing\u00a0inventory items on a ticket, the &quot;void&quot; status option will no longer be present for non-managers, unless the item is in the &quot;backordered&quot; status.</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2036498517"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 33934004
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2036498517/child",
+    "restrictions": "/rest/api/content/2036498517/restriction/byOperation",
+    "history": "/rest/api/content/2036498517/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2036498517/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2036498517",
+    "webui": "/spaces/SCD/pages/2036498517/1.8.7",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2036498517",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036498517",
+    "tinyui": "/x/VYBieQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

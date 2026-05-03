@@ -1,0 +1,130 @@
+{
+  "id": "2028961804",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2028961804",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyODk2MTgwNA==",
+  "status": "current",
+  "title": "1.17.19",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T17:31:25.674Z",
+    "friendlyWhen": "Jul 19, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "20",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2028961804.14",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2028961804"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2028961804/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released on 6/9/2021 at 11:30pm CT</p><h3 id=\"id-1.17.19-Enhancements\">Enhancements</h3><ul><li><p>The Customer List can now be filtered by the date customers were created.</p></li><li><p>Ticket Barcodes on receipts can now appear at the top or the bottom of the receipt. You can choose where you want the barcode to appear through receipt print settings.</p></li></ul><h3 id=\"id-1.17.19-BugFixes\">Bug Fixes</h3><ul><li><p>Unicode characters no longer cause RepairQ to crash and log the user out when entered into search fields.</p></li><li><p>A bug that caused RepairQ to scroll up to the top of the page when waiving a charge or trying to add bundled items has been fixed.</p></li><li><p>A customer can no longer have another customer listed as their referral, if that customer already has the other customer listed as a referral. In other words, Customer A cannot have Customer B as a referral, if Customer B already has Customer A as a referral. This had previously been allowed as an oversight, and would cause an error within the system.</p></li><li><p>Ticket notes no longer extend horizontally, and now wrap text to avoid having the user scroll back and forth while typing.</p></li><li><p>A bug preventing custom Ticket Queue list views from exporting data beyond 90 days has been fixed.</p></li><li><p>Serial numbers and passwords can now be removed from customer repair devices. Previously, attempting to remove this info would not be successful after saving.</p></li><li><p>The Inactive Attribute filter now excludes all Active items from the Catalog list view.</p></li><li><p>Inventory managers can now properly see incoming internal transfer requests, no longer requiring a role at the order's originating location.</p></li><li><p>A bug that allowed refurbishment tickets, created from laway trade-in tickets, to update inventory items in the Sold status has been resolved.</p></li><li><p>Users with the Accountant role can now properly access the export options under list views</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2028961804"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 785863045
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2028961804/child",
+    "restrictions": "/rest/api/content/2028961804/restriction/byOperation",
+    "history": "/rest/api/content/2028961804/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2028961804/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2028961804",
+    "webui": "/spaces/SCD/pages/2028961804/1.17.19",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2028961804",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2028961804",
+    "tinyui": "/x/DIDve",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1936523288",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936523288",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjUyMzI4OA==",
+  "status": "current",
+  "title": "Qpop\u2122 Companion System Requirements",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:12.741Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936523288.48",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936523288"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936523288/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qpop is a customer-facing application designed to enhance interaction and engagement at the point of sale through a dedicated touchscreen interface. Always facing the customer, Qpop allows for seamless interaction during the sales process by:</p><ul><li><p>Displaying in-store advertisements and promotions</p></li><li><p>Showing real-time ticket details for customer review</p></li><li><p>Presenting electronic forms and waivers for acknowledgment</p></li><li><p>Capturing electronic signatures for payments via integrated devices</p></li></ul><p>For the best experience, please refer to our recommendations in this article.</p><p><strong>Note: </strong>A user with the Location Admin role or higher can add/edit Qpop devices, and a user with Shift Lead or higher can pair and launch Qpop Companion.</p><h3 id=\"Qpop\u2122CompanionSystemRequirements-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261206/Qpop+Companion+Recommended+Image+Resolutions\" data-linked-resource-id=\"1936261206\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Qpop\u2122 Companion Recommended Image Resolutions</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936654410/Qpop+Companion+Troubleshooting\" data-linked-resource-id=\"1936654410\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Qpop\u2122 Troubleshooting</a></p></li><li><p><a class=\"external-link\" href=\"https://www.servicecentral.com/products/repair-q/hardware-recommendations/\" rel=\"nofollow\">RepairQ Hardware Recommendations</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936523288/image-20230608-180409.png?api=v2\"></span><h2 id=\"Qpop\u2122CompanionSystemRequirements-BrowserRecommendations\">Browser Recommendations</h2><p>We recommend using a touchscreen-enabled device from our <a class=\"external-link\" href=\"https://www.servicecentral.com/products/repair-q/hardware-recommendations/\" rel=\"nofollow\">Hardware Recommendations</a> page. Qpop is browser-based so many other systems can work perfectly, however, we may not present them as official recommendations. If you are unsure of your browser version, visit this link for more information: <a class=\"external-link\" href=\"https://www.whatismybrowser.com/\" rel=\"nofollow\">https://www.whatismybrowser.com/</a>.</p><h3 id=\"Qpop\u2122CompanionSystemRequirements-iOS\">iOS</h3><p>iPad 4 or newer</p><p>iOS Safari: version 9.3 or greater on the latest version of iOS</p><h3 id=\"Qpop\u2122CompanionSystemRequirements-Android\">Android</h3><p>Google Chrome: version 57 or greater on the latest version of Android</p><p>Android Browser: version 4.4 or greater on the latest version of Android</p><h3 id=\"Qpop\u2122CompanionSystemRequirements-Desktop\">Desktop</h3><p>Chrome on Windows/macOS/Linux: current version 105.0.5192.102</p><p>Microsoft Edge: current version 124.0.2478.127</p><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936523288"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936523288/child",
+    "restrictions": "/rest/api/content/1936523288/restriction/byOperation",
+    "history": "/rest/api/content/1936523288/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936523288/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936523288",
+    "webui": "/spaces/SCD/pages/1936523288/Qpop+Companion+System+Requirements",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936523288",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936523288",
+    "tinyui": "/x/GABtcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

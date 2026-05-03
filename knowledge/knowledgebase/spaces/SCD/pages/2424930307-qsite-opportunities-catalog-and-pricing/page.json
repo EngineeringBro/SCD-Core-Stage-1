@@ -1,0 +1,129 @@
+{
+  "id": "2424930307",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2424930307",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjQyNDkzMDMwNw==",
+  "status": "current",
+  "title": "Qsite\u2122 Opportunities - Catalog and Pricing",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:45.566Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 2,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2424930307.142",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2424930307"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2424930307/version/2"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Qsite Opportunities<em>\u00a0</em>is a RepairQ companion app that engages customers with your store. Opportunities allow customers to search for store locations near them, look up your services and prices, build quotes, and book appointments. When appointments are booked, quote tickets are created in RepairQ with that customer's device and information filled out. Quickly pull up and start tickets, saving you and the customer time. Qsite Opportunities are available to our Advanced and Professional users.</p><p><strong>Note</strong>: By default, new catalog items will default to Qsite-advertised, however, if this option has been turned off or you offer special pricing for online, there are some settings you can update for this.</p><h3 id=\"Qsite\u2122Opportunities-CatalogandPricing-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1936523327\" rel=\"nofollow\"><u>Qsite Resources</u></a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425067/Qsite+Ticket+Status+-+Keep+Customers+Updated+on+Their+Tickets\" data-linked-resource-id=\"1936425067\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Status</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261226/Qsite+Opportunities+Settings+Management\" data-linked-resource-id=\"1936261226\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Opportunities Settings</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936785428/Embed+Qsite+Features+Into+Your+Website\" data-linked-resource-id=\"1936785428\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Embed Qsite\u2122 Features Into Your Website</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696\" rel=\"nofollow\">Appointments Overview</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932591138\" rel=\"nofollow\">Categories: Create an Item Tree</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932230697\" rel=\"nofollow\">Categories: Create an Item Grid</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2424930307/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Qsite\u2122Opportunities-CatalogandPricing-MarkanItemasAvailableonQsiteandShow/HideQsitePricing\">Mark an Item as Available on Qsite and Show/Hide Qsite Pricing</h2><p>By default, new catalog items will default to Qsite-advertised, however, if this option has been turned off, you can turn it back on.</p><h3 id=\"Qsite\u2122Opportunities-CatalogandPricing-QsiteVisibility\">Qsite Visibility</h3><p>This setting is under the Behaviors </p><p>section when editing the Catalog Item details.</p><ul><li><p><strong>Advertised </strong>- This field defaults to selected when adding and importing new items. For existing items, select this for the item to be shown as an available item/service on Qsite.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Qsite Advertised.png\" width=\"388\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2424930307/Qsite%20Advertised.png?api=v2\"></span><h3 id=\"Qsite\u2122Opportunities-CatalogandPricing-QsitePricing(Optional)\">Qsite Pricing (Optional)</h3><p>Online pricing may differ from in-store prices for various reasons, including promotional strategies, cost savings from online operations, targeted marketing efforts, and encouraging online sales.</p><p>These settings are located under the Pricing section of the Catalog Item details. </p><ul><li><p><strong>Price Advertised</strong> - Select whether to show or hide the item\u2019s Price on Qsite.</p><ul><li><p>When selected, the price displayed on Qsite will reflect the price entered in the \u201cAdvertised Price\u201d field. If that field is blank, the \u201cPrice\u201d field will display instead.</p></li></ul></li><li><p><strong>Advertised Price</strong> - By default, the \u201cPrice\u201d field is used for standard retail pricing. An alternate price can be added if the price varies when advertised on Qsite. If the \u201cPrice Advertised\u201d box is checked, but the \u201cAdvertised Price\u201d field is blank, the Price will be displayed instead.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Qsite Advertised Pricing.png\" width=\"388\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2424930307/Qsite%20Advertised%20Pricing.png?api=v2\"></span><h2 id=\"Qsite\u2122Opportunities-CatalogandPricing-FlagCatalogitemsasAvailableonQsite(Bulk)\">Flag Catalog items as Available on Qsite (Bulk)</h2><p>When Importing catalog items, enter all the required and applicable fields, then add any Qsite pricing. Items are imported as visible in Qsite by default.</p><ul><li><p><strong>Is Price Advertised</strong> - Enter whether to show (Y) or hide (N) the item\u2019s Price on Qsite.</p><ul><li><p>When selected, the price displayed on Qsite will reflect the price entered in the \u201cAdvertised Price\u201d field. If that field is blank, the \u201cPrice\u201d field will display instead.</p></li></ul><ul><li><p>When selected, the price displayed on Qsite will reflect the price entered in the \u201cAdvertised Price\u201d field. If that field is blank, the \u201cPrice\u201d field will display instead.</p></li></ul></li><li><p><strong>Advertised Price</strong> - By default, the \u201cPrice\u201d field is used for standard retail pricing. An alternate price can be added if the price varies when advertised on Qsite. If the \u201cPrice Advertised\u201d box is checked, but the \u201cAdvertised Price\u201d field is blank, the Price will be displayed instead.</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Qsite Advertised Pricing Import.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2424930307/Qsite%20Advertised%20Pricing%20Import.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2424930307"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2424930307/child",
+    "restrictions": "/rest/api/content/2424930307/restriction/byOperation",
+    "history": "/rest/api/content/2424930307/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2424930307/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2424930307",
+    "webui": "/spaces/SCD/pages/2424930307/Qsite+Opportunities+-+Catalog+and+Pricing",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2424930307",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2424930307",
+    "tinyui": "/x/A4CJk",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

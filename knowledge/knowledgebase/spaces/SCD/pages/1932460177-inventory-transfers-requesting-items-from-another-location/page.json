@@ -1,0 +1,129 @@
+{
+  "id": "1932460177",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932460177",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjQ2MDE3Nw==",
+  "status": "current",
+  "title": "Inventory Transfers: Requesting Items From Another Location",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:51:59.264Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 5,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932460177.25",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932460177"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932460177/version/5"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Users on our Advanced or Professional plan with multiple locations can create an Internal Transfer request from another store to replenish their inventory. An inventory transfer functions similarly to a standard PO, however, there is an approval process to transfer inventory supplied by another location or designated warehouse in RepairQ. This article will demonstrate the process of creating a purchase order request from another location in your database.</p><p>If you are interested in upgrading your Essential plan to allow for this feature, please check out the following pages:</p><ul><li><p><a class=\"external-link\" href=\"https://repairq.io/pricing/\" rel=\"nofollow\">RepairQ Pricing</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921186/RepairQ+Subscription+Management+Change+Your+Subscription\" data-linked-resource-id=\"1928921186\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">RepairQ Subscription Management: Changing Your Subscription</a></p></li></ul><h3 id=\"InventoryTransfers:RequestingItemsFromAnotherLocation-NextStep\">Next Step</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932394575/Inventory+Transfers+Accepting+Rejecting+and+Shipping+Items+on+Transfer+Requests\" data-linked-resource-id=\"1932394575\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Inventory Transfers: Accepting and Rejecting Items on Transfer Requests</a></p></li></ul><h3 id=\"InventoryTransfers:RequestingItemsFromAnotherLocation-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932722231/Purchase+Order+Process+Creating+a+New+Purchase+Order\" data-linked-resource-id=\"1932722231\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Purchase Order Process: Creating a New Purchase Order</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672518/Inventory+Management+Allowing+Backorders+via+Internal+Purchase+Order\" data-linked-resource-id=\"1933672518\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Inventory Management: Allowing Backorders via Internal Purchase Order</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460177/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"InventoryTransfers:RequestingItemsFromAnotherLocation-CreatinganInternalTransfer/PurchaseOrder\">Creating an Internal Transfer/Purchase Order</h2><p /><p>1. On the Navigation bar, go to <strong>Inventory</strong> \u2192 <strong>Inventory</strong> <strong>Transfers</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460177/Requesting%20Items%20Another%20Location%201.png?api=v2\"></span><p /><p>2. On the Inventory Transfer Management page, click on the <strong>Add</strong> <strong>(+)</strong> button to create a new inventory transfer/internal purchase order (PO).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460177/Requesting%20Items%20Another%20Location%202.png?api=v2\"></span><p /><p>3. On the new purchase order screen, create the PO through the standard <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932722231/Purchase+Order+Process+Creating+a+New+Purchase+Order\" data-linked-resource-id=\"1932722231\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">purchase order process</a>. Make sure to select <strong>Internal</strong> for the Supplier and choose the location that will be supplying the items for your location.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460177/Requesting%20Items%20Another%20Location%203.png?api=v2\"></span><p /><p><strong>Note</strong>: On the Item List page, you will see an additional box titled Quantity Available, which represents the amount of inventory that the supplying store currently has in stock. By default, RepairQ will not allow you to order more than the available quantity, but this can be configured as needed. Please see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672518/Inventory+Management+Allowing+Backorders+via+Internal+Purchase+Order\" data-linked-resource-id=\"1933672518\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Inventory Management: Allowing Backorders via Internal Purchase Order</a> for more information.</p><p /><h2 id=\"InventoryTransfers:RequestingItemsFromAnotherLocation-MonitoringInventoryItemsintheTransferProcess\">Monitoring Inventory Items in the Transfer Process</h2><p>If desired, you can view any inventory items currently in the transfer process. This can be very useful for any items that get &quot;stuck&quot; (e.g.\u00a0shipped but never received) so that corrections can be made accordingly.</p><p /><p>1. On the Navigation bar, go to <strong>Inventory</strong> \u2192 <strong>Inventory</strong> <strong>Detail</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460177/Requesting%20Items%20Another%20Location%204.png?api=v2\"></span><p /><p>2. Filter for <strong>Inventory Process: Transfer Process</strong> and click <strong>Apply</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460177/Requesting%20Items%20Another%20Location%205.png?api=v2\"></span><p /><p>3. You should now see a list of all inventory items in the Pending Transfer status. If needed, you can refine the filters to include your desired date range and/or location(s).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932460177/Requesting%20Items%20Another%20Location%206.png?api=v2\"></span><p /><p /><p>START 1.19.1</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932460177"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932460177/child",
+    "restrictions": "/rest/api/content/1932460177/restriction/byOperation",
+    "history": "/rest/api/content/1932460177/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932460177/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932460177",
+    "webui": "/spaces/SCD/pages/1932460177/Inventory+Transfers+Requesting+Items+From+Another+Location",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932460177",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932460177",
+    "tinyui": "/x/kQAvcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

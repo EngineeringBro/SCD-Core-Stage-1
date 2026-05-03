@@ -1,0 +1,129 @@
+{
+  "id": "1933246606",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933246606",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI0NjYwNg==",
+  "status": "current",
+  "title": "Trade-in Ticket Workflow",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:21.485Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 2,
+    "minorEdit": false,
+    "ncsStepVersion": "3",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933246606.11",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933246606"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246606/version/2"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h2 id=\"Trade-inTicketWorkflow-StepbyStepWorkflow\">Step by Step Workflow</h2><p /><ol start=\"1\"><li><p>Search for an existing customer, or add a new one.</p></li><li><p>Add a trade in item - much like adding a repair device</p></li><li><p>Check off the repair device to add initial diagnostics - you can also manually set the status and condition that the item will have upon entering your inventory</p></li><li><p>Once you hit update, you will be able to record payments out to the customer</p></li><li><p>You could also choose to add ticket items, if the customer is purchasing anything as part of the transaction.</p></li><li><p>Once you have paid-out to the customer to reduce the balance to -0- you will be able to close the ticket</p></li><li><p>When you close a trade-in ticket, it creates an inventory item (not available for sale yet unless the device was set to &quot;instock&quot; on the trade-in) for each trade-in device on the ticket, and it creates a \u201cpending refurbishment\u201d ticket with each device attached.</p></li><li><p>The tech performing the repair can add ticket items as part of the refurbishment. When finished, he/she submits the ticket to \u201cready to stock\u201d status.</p></li><li><p>Manager can view \u201cready to stock\u201d tickets and approve them, or send them back to \u201cpending refurbishment\u201d with his/her notes. If the manager is ready to stock the refurbished phone he/she:</p><ol start=\"1\"><li><p>sets the prices</p></li><li><p>sets the status to instock (or parts only if it will become a parts device)</p></li></ol></li><li><p>When the refurb device status is set to &quot;Instock&quot; or &quot;Parts only&quot; then the manager will able to close the ticket, and the inventory item status will be updated in the inventory accordingly</p></li></ol>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933246606"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933246606/child",
+    "restrictions": "/rest/api/content/1933246606/restriction/byOperation",
+    "history": "/rest/api/content/1933246606/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933246606/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933246606",
+    "webui": "/spaces/SCD/pages/1933246606/Trade-in+Ticket+Workflow",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933246606",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246606",
+    "tinyui": "/x/jgA7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

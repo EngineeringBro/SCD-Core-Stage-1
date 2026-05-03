@@ -1,0 +1,129 @@
+{
+  "id": "1933836386",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933836386",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzgzNjM4Ng==",
+  "status": "current",
+  "title": "RepairQ Troubleshooting: Disable Password Managers and Autofill",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:43.099Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "59",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933836386.19",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933836386"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933836386/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Because RepairQ is cloud-based, we highly recommend disabling your browser password manager when using our application. Leaving a password manager active can cause security risks, including saving the manager's (or another employee's) login details, which could be used for fraudulent use. Auto-fill can interfere with field details in RepairQ settings as well as credit card swipes during the transaction process.</p><p>We have included instructions on how to turn off these features on our commonly used browsers. Click the link below to jump to the related browser settings.</p><ul><li><p><a href=\"#Google\" rel=\"nofollow\">Google Chrome Browser</a></p></li><li><p><a href=\"#Firefox\" rel=\"nofollow\">Firefox Browser</a></p></li><li><p><a href=\"#Safari\" rel=\"nofollow\">Safari Browser</a></p></li><li><p><a href=\"#Microsoft\" rel=\"nofollow\">Microsoft Edge Browser</a></p></li></ul><p><strong>Note</strong>: We also recommend turning off third-party password managers like LastPass, etc., as these applications have similar effects on browser fields.</p><p /><h2 id=\"RepairQTroubleshooting:DisablePasswordManagersandAutofill-GoogleGoogleChromeBrowser\"><span class=\"confluence-anchor-link\" id=\"RepairQTroubleshooting:DisablePasswordManagersandAutofill-Google\"><span class=\"confluence-anchor-link\" id=\"Google\"></span></span>Google Chrome Browser</h2><p /><p>1. On the upper-right corner of the browser, window, click the <strong>Menu button (\u22ee)</strong>. From the drop-down list of options, click <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Google%201.png?api=v2\"></span><p /><p>2. On the Settings screen, select <strong>Auto-fill</strong> from the left column. From the Auto-fill settings, select <strong>Password</strong> <strong>Manager</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Google%202.png?api=v2\"></span><p /><p>3. On the Password Manager screen, turn <strong>OFF</strong> the options for<strong> Offer to save passwords</strong> and <strong>Auto Sign-in</strong>. Then click the <strong>Back arrow</strong> to go back to Auto-fill settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Google%203.png?api=v2\"></span><p /><p>4. Repeat the same process for <strong>Payment Methods</strong> and<strong> Addresses and more</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Google%204.png?api=v2\"></span><p /><h2 id=\"RepairQTroubleshooting:DisablePasswordManagersandAutofill-FirefoxFirefoxBrowser\"><span class=\"confluence-anchor-link\" id=\"RepairQTroubleshooting:DisablePasswordManagersandAutofill-Firefox\"><span class=\"confluence-anchor-link\" id=\"Firefox\"></span></span>Firefox Browser</h2><p /><p>1. On the upper-right corner of the browser, window, click the <strong>Menu button</strong>. From the drop-down list of options, click <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Firefox%201.png?api=v2\"></span><p /><p>2. On the Settings screen, select <strong>Privacy &amp; Security</strong> from the left column. Scroll down until you get to the Logins and Passwords section and <strong>uncheck the selections for Ask to save logins and passwords for websites</strong> and <strong>Autofill logins and passwords</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Firefox%202.png?api=v2\"></span><p /><p>3. Scroll down to Forms and Autofill and <strong>uncheck Autofill addresses</strong> and <strong>Autofill credit cards</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Firefox%204.png?api=v2\"></span><p /><h2 id=\"RepairQTroubleshooting:DisablePasswordManagersandAutofill-SafariSafariBrowser\"><span class=\"confluence-anchor-link\" id=\"RepairQTroubleshooting:DisablePasswordManagersandAutofill-Safari\"><span class=\"confluence-anchor-link\" id=\"Safari\"></span></span>Safari Browser</h2><p /><p>1. On the upper-left corner of the browser window, click <strong>Safari</strong>. From the dropdown options, click <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Screenshot%202023-02-03%20at%2011.23.07%20AM.png?api=v2\"></span><p /><p>2. In the Settings window, click the <strong>Autofill</strong> <strong>tab</strong>. Under the AutoFill web forms section, uncheck the autofill details.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Screenshot%202023-02-03%20at%2011.42.31%20AM.png?api=v2\"></span><p /><h2 id=\"RepairQTroubleshooting:DisablePasswordManagersandAutofill-MicrosoftMicrosoftEdgeBrowser\"><span class=\"confluence-anchor-link\" id=\"RepairQTroubleshooting:DisablePasswordManagersandAutofill-Microsoft\"><span class=\"confluence-anchor-link\" id=\"Microsoft\"></span></span>Microsoft Edge Browser</h2><p /><p>1. On the upper-right corner of the browser window, click the <strong>Menu button</strong>. From the drop-down list of options, click <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Edge%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Edge%202.png?api=v2\"></span><p /><p>2. On the Settings page, click <strong>Profiles</strong> on the left column. Under the Your Profile section, click <strong>Personal</strong> <strong>Info</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Edge%203.png?api=v2\"></span><p /><p>3. On the Personal Info page, <strong>toggle OFF the selections for Save and fill basic info, Automatically fill my info on sign up forms, </strong>and <strong>Save and fill custom info</strong>. Then click the <strong>Back arrow</strong> to go back to the Profile settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Edge%204.png?api=v2\"></span><p /><p>4. On the Your Profile page, click <strong>Passwords</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Edge%205.png?api=v2\"></span><p /><p>5. On the Passwords page, <strong>Toggle OFF the selections for Offer to save passwords</strong>, <strong>Automatically save passwords</strong>, and <strong>Autofill passwords</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933836386/Edge%206.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933836386"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933836386/child",
+    "restrictions": "/rest/api/content/1933836386/restriction/byOperation",
+    "history": "/rest/api/content/1933836386/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933836386/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933836386",
+    "webui": "/spaces/SCD/pages/1933836386/RepairQ+Troubleshooting+Disable+Password+Managers+and+Autofill",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933836386",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933836386",
+    "tinyui": "/x/YgBEcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

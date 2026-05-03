@@ -1,0 +1,129 @@
+{
+  "id": "2596798476",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2596798476",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjU5Njc5ODQ3Ng==",
+  "status": "current",
+  "title": "RepairQ Data Retention Policy",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:19.675Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "1047",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2596798476.21",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2596798476"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2596798476/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Data retention and archival policies are critical for maintaining the integrity and security of user data while ensuring compliance with regulatory standards. RepairQ adheres to these best practices to protect your information and provide flexibility in data management. This policy outlines our procedures for archiving and retaining data after account cancellation, ensuring that your data is handled appropriately and can be accessed or deleted according to your needs.</p><p>Our retention policy is designed to offer a seamless transition from active use to archival and eventual deletion, giving you ample opportunity to reactivate your database if needed. Automated notifications keep you informed at every stage, and our process ensures that your data remains secure until it is no longer needed. By understanding our data retention and archival procedures, you can make informed decisions about your data and ensure its availability or deletion per your requirements.</p><h3 id=\"RepairQDataRetentionPolicy-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932230678\" rel=\"nofollow\">RepairQ Subscription Management: Read-Only Access</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1928921186\" rel=\"nofollow\">RepairQ Subscription Management: Changing your Subscription</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2009006115\" rel=\"nofollow\">Deactivating (Closing) a Location: Frequently Asked Questions</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Technical - 124a6d.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2596798476/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"RepairQDataRetentionPolicy-DataRetentionPolicy\">Data Retention Policy</h2><h3 id=\"RepairQDataRetentionPolicy-30DaysAfterCancellation\">30 Days After Cancellation</h3><ul><li><p>An Automated email is sent to the account owner, notifying them that their database is prepared for archival.</p></li><li><p>This email is sent to the email address associated with their billing subscription.</p></li></ul><h3 id=\"RepairQDataRetentionPolicy-60DaysAfterCancellation\">60 Days After Cancellation</h3><ul><li><p>The database is archived for storage.</p></li><li><p>During this period, the database can be reactivated at the owner\u2019s request. An active subscription (Standard or Read-only) is required for reactivation.</p></li></ul><h3 id=\"RepairQDataRetentionPolicy-300DaysAfterCancellation\">300 Days After Cancellation</h3><ul><li><p>An automated email is sent to the account owner, notifying them that their database is prepared for deletion.</p></li><li><p>This notification is sent to the email address associated with their billing subscription.</p></li></ul><h3 id=\"RepairQDataRetentionPolicy-365DaysAfterCancellation\">365 Days After Cancellation</h3><ul><li><p>The database is permanently deleted.</p></li><li><p>After deletion, the information in the database cannot be retrieved.</p></li></ul><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2596798476"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2596798476/child",
+    "restrictions": "/rest/api/content/2596798476/restriction/byOperation",
+    "history": "/rest/api/content/2596798476/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2596798476/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2596798476",
+    "webui": "/spaces/SCD/pages/2596798476/RepairQ+Data+Retention+Policy",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2596798476",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2596798476",
+    "tinyui": "/x/DADImg",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

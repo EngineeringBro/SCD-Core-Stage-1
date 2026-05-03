@@ -1,0 +1,129 @@
+{
+  "id": "1934360642",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934360642",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDM2MDY0Mg==",
+  "status": "current",
+  "title": "RepairQ Accounting Principles",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:34.167Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "897",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934360642.35",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934360642"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934360642/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Accrual-based accounting is a method where revenue and expenses are recorded when they are earned or incurred, regardless of when the actual cash is received or paid. This approach provides a more accurate picture of your business's financial health by matching income with the expenses incurred to generate that income, giving a clearer view of your company's profitability and financial position over time. RepairQ uses accrual-based accounting to ensure that your financial reports reflect your true business activities and performance.</p><p><strong>Financial Clarity</strong> - Accrual-based accounting provides a more accurate view of your business's financial health by recognizing revenues and expenses when earned or incurred, rather than when cash changes hands.</p><p><strong>Financial Reporting</strong> - Accrual-based accounting ensures that income and expenses are matched in the same period, providing a realistic representation of profitability.</p><p><strong>Financial Compliance</strong> - Many regulatory bodies and accounting standards require accrual-based accounting for financial reporting. This method ensures compliance with generally accepted accounting principles (GAAP) and other regulations.<br/><br/>If you have any questions regarding accounting practices or specific financial details, we recommend consulting your local business accountant. They can provide you with personalized advice and guidance tailored to your business needs.</p><h3 id=\"RepairQAccountingPrinciples-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937866763\" rel=\"nofollow\">Reporting Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1934196764\" rel=\"nofollow\">Reports: Taxes</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934753845\" rel=\"nofollow\">Reports: Revenue, Cost of Goods Sold (COGS), Cost of Services, and Cost of Refurbs</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Technical - 124a6d.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360642/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"RepairQAccountingPrinciples-AccountingBasedonClosedTickets\">Accounting Based on Closed Tickets</h2><p>When you collect payment on a ticket before repairing a phone, the payment is treated as a customer deposit (i.e., a liability), not revenue. Revenue is only recognized when the repair is completed, and the ticket is closed. At this point, the sales and cost of goods sold (COGS) are accounted for. Customer deposits paid in advance are transferred from the customer deposit liability account to revenue.</p><p>It's important to note that when viewing the Ticket Queue, Accounting reports, Sales reports, and other financial data, Tickets in an open status represent projections only. This is because, while a ticket remains open, additional items can be sold, previously sold items can be voided, more payments can be accepted, or previously accepted payments can be returned.</p><p>If you issue a refund against a ticket closed in a previous accounting period, the revenue report will show the original sale as a debit to the gross sales figure. The revenue report for the current accounting period will show the refund as a credit to the gross returns figure.</p><h2 id=\"RepairQAccountingPrinciples-TicketQueueSummary\">Ticket Queue Summary</h2><p /><p>The Ticket Queue page displays summary figures for discounted sales, receipts, payouts, and net receipts. These summary figures are based on the applied filters and allow you to drill down into your ticket queue by various ticket statuses and date ranges. This allows you to view your projected sales, receipts, and payout figures from multiple perspectives.</p><h2 id=\"RepairQAccountingPrinciples-Accounting-RevenueReport\">Accounting - Revenue Report</h2><p /><p><strong>Note</strong>:\u00a0Hover your mouse over the summary figure (e.g. Net Sales) to reveal a tooltip with the calculation method used to arrive at the displayed figure.</p><p>For tracking revenue for accounting purposes, particularly for royalty calculations, we recommend using the <strong>Accounting \u2192 Revenue Report</strong> filtered for closed tickets only. This report provides a detailed breakdown of gross sales, restock fees, net discounts, gross returns, and net sales. The royalty fee should be calculated as a percentage of the net sales amount, as this figure accounts for discounts and returns.</p><h2 id=\"RepairQAccountingPrinciples-Accounting-TaxReport\">Accounting - Tax Report</h2><p>For tracking sales taxes for accounting purposes, we recommend using the <strong>Accounting \u2192 Tax Report</strong> filtered for closed tickets only. This report provides a detailed breakdown of taxable versus non-taxable revenue, showing tax collected, tax returned, and net tax liability.</p><p>Using this report for closed tickets ensures accurate sales tax tracking, as open tickets can still have taxable items added or removed, leading to potential overpayment or underpayment of taxes. The on-screen view of this report summarizes taxes by zip code. For more detailed information, you can export the report to Excel, which will display each ticket item as a line item.</p><h3 id=\"RepairQAccountingPrinciples-SalesTaxonOpenTickets\">Sales Tax on Open Tickets</h3><p>If you are concerned about a significant amount of sales taxes being collected on open tickets that cannot be accounted for promptly due to tickets being held open for too long, you can run the <strong>Sales Tax Report</strong> for &quot;All tickets&quot; and filter by ticket item date range rather than the ticket date range. Be sure to clear out the ticket date range when doing this. Looking at the report by ticket item date will account for the sales tax on the date the item is added to the ticket.</p><p>However, tracking sales tax at the item level can put you at risk of overpaying because you won't get credit for ticket items that are removed after they have already been accounted for in the sales tax report. If you choose to use this approach for tracking sales tax, we recommend officially closing out your books every 3 to 6 months.</p><p>Before closing out your books, you should:</p><ol start=\"1\"><li><p>Close any open tickets in RepairQ.</p></li><li><p>Re-open new tickets if necessary to track outstanding issues.</p></li><li><p>Re-run your monthly sales tax report for each month in that quarter.</p></li><li><p>File amended returns if necessary.</p></li></ol><p>While this process might seem tedious, it is a good practice to periodically close out your accounting system. Doing this also provides an opportunity to close all open tickets in RepairQ, bring everything into balance, and write off any bad debts.</p><p /><p /><p>Below I have applied equal filters to the Ticket Queue and Accounting &gt; Revenue Detail. \u00a0If you compare the numbers you'll see that they match up. \u00a0On the Ticket Queue, you have Discounted Sales of $444.10 and on the Revenue report, you subtract Net Discounts from Gross Sales to arrive at the same\u00a0$444.10.</p><h3 id=\"RepairQAccountingPrinciples-TicketQueue\">Ticket Queue\u00a0</h3><p>All Closed Tickets for a given date range</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360642/AP%201.jpg?api=v2\"></span><h3 id=\"RepairQAccountingPrinciples-RevenueDetail\">Revenue Detail</h3><p>Closed Tickets for the same date range</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360642/AP%202.jpg?api=v2\"></span><h3 id=\"RepairQAccountingPrinciples-TaxReport\">Tax Report</h3><p> Closed Tickets for 11/01 to 11/30</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360642/AP%203.jpg?api=v2\"></span><p /><p>All of this data is reported in\u00a0the Accounting Summary Report. This report can be exported to excel by clicking the &quot;To Excel&quot; button near the top\u00a0of the report.</p><h2 id=\"RepairQAccountingPrinciples-PostingDailyFigurestoanAccountingSystem\">Posting Daily Figures to an Accounting System</h2><p>The following document offers some suggestions on how to post daily RepairQ figures from the Summary Report to the chart of accounts in your accounting system (e.g. QuickBooks).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360642/AP%204.png?api=v2\"></span><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934360642"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934360642/child",
+    "restrictions": "/rest/api/content/1934360642/restriction/byOperation",
+    "history": "/rest/api/content/1934360642/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934360642/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934360642",
+    "webui": "/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934360642",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934360642",
+    "tinyui": "/x/QgBMcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

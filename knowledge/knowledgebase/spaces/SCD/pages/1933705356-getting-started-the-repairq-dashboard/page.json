@@ -1,0 +1,129 @@
+{
+  "id": "1933705356",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933705356",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzcwNTM1Ng==",
+  "status": "current",
+  "title": "Getting Started: The RepairQ Dashboard",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:50.977Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933705356.63",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933705356"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933705356/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>When you log into RepairQ, you are directed to the dashboard. This landing page is designed to streamline your experience and keep you informed every step of the way. When you log in, you'll discover a wealth of essential information at your fingertips. Here are some examples of what you can expect:</p><ul><li><p><strong>Communication Alerts</strong> - Stay up-to-date with important messages and notifications, ensuring you never miss a crucial update or announcement.</p></li><li><p><strong>Ticket Progress</strong> - Track the progress of your tickets efficiently, so you\u2019re always aware of the status and can take appropriate actions as needed.</p></li><li><p><strong>Reorder Notifications</strong> - Receive alerts when it\u2019s time to reorder items, helping you maintain optimal inventory levels.</p></li><li><p><strong>Reporting Quick Links</strong> - Jump to daily reports, financial summaries, and other key metrics for your business.</p></li><li><p><strong>Knowledge Base Resources</strong> - Access the Knowledge Base for articles, videos, and other helpful resources.</p></li></ul><p><strong>Note</strong>: The dashboard appearance will differ based on the role of the user who has logged in.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Dashboard%209.png?api=v2\"></span><p /><p>Click on the logo on the upper-left side of the Navigation Bar to return to the dashboard at any time.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"544\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Dashboard%201.png?api=v2\"></span><h3 id=\"GettingStarted:TheRepairQDashboard-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672605/Getting+Started+The+RepairQ+Menu+Item+Bar\" data-linked-resource-id=\"1933672605\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Menu Item Bar</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933705409/Getting+Started+The+RepairQ+Global+Search+Bar\" data-linked-resource-id=\"1933705409\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Getting Started: The RepairQ Global Search Bar</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279488/Price+Checks+and+On-Hand+Quantities\" data-linked-resource-id=\"1933279488\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Price Checks and On-Hand Quantities</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"GettingStarted:TheRepairQDashboard-Alerts\">Alerts</h2><p>The left area of the dashboard includes various notifications regarding store communications, ticket timers, inventory management, and more. We recommend checking the dashboard at the start of your day to ensure you are up-to-date with information regarding your store.</p><p>We have included some examples below to show their appearance on the dashboard. Other alerts are available, depending on which features of RepairQ you are using.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Dashboard%203.png?api=v2\"></span><h3 id=\"GettingStarted:TheRepairQDashboard-Communication\">Communication</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Dashboard%204.png?api=v2\"></span><p /><p>This section is where any internal announcements will be posted. For additional information on creating announcements, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803521/Dashboard+Announcements\" data-linked-resource-id=\"1933803521\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">here</a>.</p><h3 id=\"GettingStarted:TheRepairQDashboard-TicketProgress\">Ticket Progress</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Dashboard%202.png?api=v2\"></span><p /><p>This section shows any aging tickets, based on the time limits set by an administrator. You can click any of the notification progress counts to see a list of tickets in that current status. For additional information on customizing your ticket time limits, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986689/Location+Settings\" data-linked-resource-id=\"1928986689\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">here</a>.</p><h3 id=\"GettingStarted:TheRepairQDashboard-AssignedInventoryCounts\">Assigned Inventory Counts</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Dashboard%205.png?api=v2\"></span><p /><p>If there are any inventory counts currently assigned to you, you can view the assignment or begin counting items from the notification. For additional information on the inventory count process, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427464/Inventory+Count+Resources\" data-linked-resource-id=\"1932427464\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">here</a>.</p><h3 id=\"GettingStarted:TheRepairQDashboard-InventoryItemReorder\">Inventory Item Reorder</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Dashboard%206.png?api=v2\"></span><p /><p>If any items are on backorder or have fallen below their reorder point (ROP), you will be notified in this section. From this alert, you can view the current in-stock quantity, view a list of all items that require reordering, and even create a purchase order from the notification. For additional information on setting your reorder points, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246673/Checking+for+Items+that+Require+Reordering\" data-linked-resource-id=\"1933246673\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">here</a>.</p><h3 id=\"GettingStarted:TheRepairQDashboard-PurchaseOrderProgress\">Purchase Order Progress</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Dashboard%207.png?api=v2\"></span><p /><p>If you have any purchase orders (POs) that are in progress, they will be listed here. You can view and/or edit the PO from the notification. For more information on purchase orders, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932722231/Purchase+Order+Process+Creating+a+New+Purchase+Order\" data-linked-resource-id=\"1932722231\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">here</a>.</p><p /><h2 id=\"GettingStarted:TheRepairQDashboard-GetStarted\">Get Started</h2><p>The right section of the dashboard includes various shortcuts for your daily tasks. Users are able to see their timecard status, VCT assignment, check various reports, and check our Knowledge Base for helpful resources\u2014like this! We have included some examples below to show their appearance on the dashboard. Other shortcuts are available, depending on your role.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933705356/Dashboard%208.png?api=v2\"></span><ul><li><p><strong>Dashboard View Dropdown</strong> - Managers can edit their dashboard view to mimic a certain role level with this dropdown box.</p></li><li><p><strong>Clock-in Status</strong> - If your timesheet is required, this section will alert you of your current status. For additional information on the timecard process, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986634/Getting+Started+Clock+In+Out+of+RepairQ\" data-linked-resource-id=\"1928986634\" data-linked-resource-version=\"23\" data-linked-resource-type=\"page\">here</a>.</p></li><li><p><strong>Virtual Cash Terminal (VCT) Assignment Status</strong> - This section will notify you if this station is currently assigned to a VCT. For additional information on assigning a VCT, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933639827/Assign+a+Virtual+Cash+Terminal+VCT+to+Accept+Payments\" data-linked-resource-id=\"1933639827\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">here</a>.</p></li><li><p><strong>Quick Sale</strong> - This is a shortcut to begin creating a Sale Ticket. This button can be added/removed by updating your <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932722209/Quick+Sale+Optimization+Settings\" data-linked-resource-id=\"1932722209\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Quick Sale Optimization Settings</a>.</p></li><li><p><strong>Daily</strong> <strong>Report</strong> -The Daily Report (accessible only by Managers) offers a quick look at today's business flow. Current sales and cash flow are reported on this page. When viewing the daily report, you can select which day the report is for. You can also print each daily report for your records.</p></li><li><p><strong>Launch</strong> <strong>Qpop</strong> - If using a Qpop Companion, this shortcut will launch the program on your tablet. For more information on using Qpop, click <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">here</a>.</p></li><li><p><strong>Financial Summary Report </strong>- This is a shortcut to the Accounting Summary Report.</p></li><li><p><strong>Target Marketing </strong>- This is a shortcut to your <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803749/Customer+Communication+Preferences+and+Marketing+List\" data-linked-resource-id=\"1933803749\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Marketing List</a>.</p></li><li><p><strong>Check Your Margins </strong>- This is a shortcut to the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360593/Reports+Real-time+Profitability\" data-linked-resource-id=\"1934360593\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Profitability by Item Type Report</a>.</p></li><li><p><strong>See Your Cash Flow </strong>- This is a shortcut to the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229524/Reports+Cash+Reconciliation\" data-linked-resource-id=\"1934229524\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Cash Flow Summary Report</a>.</p></li><li><p><strong>View Staff Timesheets </strong>- This is a shortcut to the Attendance Management page.</p></li><li><p><strong>Help and Tutorials </strong>- This will direct you to our <a class=\"external-link\" href=\"http://servicecentral.atlassian.net/servicedesk/customer\" rel=\"nofollow\">Knowledge Base</a>\u00a0which is full of useful information, including feature overviews, how-to articles, and best practices.</p></li></ul><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933705356"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933705356/child",
+    "restrictions": "/rest/api/content/1933705356/restriction/byOperation",
+    "history": "/rest/api/content/1933705356/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933705356/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933705356",
+    "webui": "/spaces/SCD/pages/1933705356/Getting+Started+The+RepairQ+Dashboard",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933705356",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933705356",
+    "tinyui": "/x/jABCcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

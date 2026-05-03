@@ -1,0 +1,129 @@
+{
+  "id": "1933672484",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933672484",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzY3MjQ4NA==",
+  "status": "current",
+  "title": "Tax Calculations for Bundled Items",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:38.247Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 15,
+    "minorEdit": false,
+    "ncsStepVersion": "16",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933672484.68",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933672484"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933672484/version/15"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ allows users to attach, or bundle, items within a ticket, which charges customers a flat fee for a repair service while internally tracking the individual costs of parts, inventory, and labor separately. When an item is bundled under another item on a ticket, the price of the bundled item does not contribute to the overall ticket total. Instead, the cost of the bundled item, referred to as the Child Item, becomes integrated into the existing parent item\u2019s price. The concept is designed so that you can charge a flat fee for a repair service, but internally track your part cost, inventory, and labor cost separately.</p><p>Taxes for these items will follow a few rules:</p><ul><li><p><strong>Bundled items will always modify the parent item</strong> - The subtotal and discount applied on the parent item are allocated to the child items first, and, as far as tax reporting is concerned, any remainder is allocated to the parent item.</p><ul><li><p>For example, if you offer a service for $100, which includes a part costing $10. After a $5 discount, the new total is $95. The discount will apply to the $10 part. If the discount exceeds the cost of the part, the remainder is applied to other applicable child items, then the parent item.</p></li></ul></li><li><p><strong>A discount is applied to taxable bundled items first</strong> -When you apply a discount to taxable items, the discount reduces the amount of tax owed. This means discounts are applied to the taxable parts of the bundle first to lower the total tax liability. </p></li><li><p><strong>A bundled item\u2019s tax will not exceed the applicable tax of the parent item</strong> - If the cost of the bundled part is higher than the parent item, the taxes applied to the child item are capped at the price of the parent item.</p></li></ul><h3 id=\"TaxCalculationsforBundledItems-AdditionalResources\">Additional Resources</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2837905412\" rel=\"nofollow\">Bundling Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787785/Catalog+Items+Bundle+Setup\" data-linked-resource-id=\"1932787785\" data-linked-resource-version=\"21\" data-linked-resource-type=\"page\">Catalog Items: Bundle Setup</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2200764440/Bundle+Parts+on+Tickets\" data-linked-resource-id=\"2200764440\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Bundling Items on Tickets</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2152726556/Catalog+Items+Auto-Bundle+and+Auto-Add\" data-linked-resource-id=\"2152726556\" data-linked-resource-version=\"18\" data-linked-resource-type=\"page\">Catalog Items: Auto-Bundle and Auto-Add</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933410332/Setting+up+and+Assigning+Tax+Rates\" data-linked-resource-id=\"1933410332\" data-linked-resource-version=\"20\" data-linked-resource-type=\"page\">Setting up Taxes and Assigning Tax Rates to Items</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672484/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"TaxCalculationsforBundledItems-TaxBehaviorsforBundledItems\">Tax Behaviors for Bundled Items</h2><p>You must check the <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933410332\" rel=\"nofollow\">tax rate assigned</a> to each Item Type to determine whether it will be taxed when bundled and whether it will apply to the item's price or cost.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Tax bundled 5.png\" width=\"266\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672484/Tax%20bundled%205.png?api=v2\"></span><h2 id=\"TaxCalculationsforBundledItems-BreakingDownTaxesforBundledItems\">Breaking Down Taxes for Bundled Items</h2><p>When you bundle a part with another item, it becomes part of the total price of the main item (the parent item). On the customer side, RepairQ treats them as a single entity but taxes each component based on its tax rate. For example, if you offer a $100 service bundled with a $25 part, the part is $25 of the total service fee, and the labor makes up the remaining $75. The part and the labor are taxed separately based on their assigned tax rates.</p><h3 id=\"TaxCalculationsforBundledItems-LaborandPartareBothTaxable\">Labor and Part are Both Taxable</h3><p>In this scenario, the following is applied:</p><ul><li><p>10% Tax for the \u201cService - Bundled\u201d item type.</p></li><li><p>10% Tax for the \u201cPart - Phone\u201d item type.</p></li><li><p>The Tax Rate is set to tax bundled items, and bundled tax is based on the item\u2019s price.</p></li></ul><p>You would have the following:</p><ul><li><p>Labor - $75 taxable sales, $7.50 tax</p></li><li><p>Part - $25 taxable sales, $2.50 tax</p></li><li><p>Ticket Total - $109 ($100 + $9 tax)</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672484/Tax%20bundled%201.png?api=v2\"></span><h3 id=\"TaxCalculationsforBundledItems-LaborisNon-taxable,PartisTaxable\">Labor is Non-taxable, Part is Taxable</h3><p>In this scenario, the following is applied:</p><ul><li><p>No tax for the \u201cService - Bundled\u201d item type. (no tax rate assigned)</p></li><li><p>10% Tax for the \u201cPart - Phone\u201d item type.</p></li><li><p>The Tax Rate is set to tax bundled items, and bundled tax is based on the item\u2019s price.</p></li></ul><p>You would then have the following:</p><ul><li><p>Labor - $75 non-taxable sales</p></li><li><p>Part - $25 taxable sales, $2.50 tax</p></li><li><p>Ticket Total - $102.50 ($100 + $2.50 tax)</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672484/Tax%20bundled%202.png?api=v2\"></span><h3 id=\"TaxCalculationsforBundledItems-DiscountedBundle\">Discounted Bundle</h3><p>In this scenario, the following is applied:</p><ul><li><p>10% Tax for the \u201cService - Bundled\u201d item type.</p></li><li><p>10% Tax for the \u201cPart - Phone\u201d item type.</p></li><li><p>The Tax Rate is set to tax bundled items, and bundled tax is based on the item\u2019s cost.</p></li><li><p>$10 Discount</p></li></ul><p>You would then have the following:</p><ul><li><p>Labor - $75 taxable sales, $7.50 tax</p></li><li><p>Part - $15 taxable sales, $1.50 tax</p><ul><li><p>The discount is applied to the taxable child item to lower the total tax liability</p></li></ul></li><li><p>Ticket Total - $99 ($90 after discount + $9 tax)</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Tax bundled 4.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672484/Tax%20bundled%204.png?api=v2\"></span><h3 id=\"TaxCalculationsforBundledItems-DiscountedBundleWheretheDiscountExceedsthePartCost/Price\">Discounted Bundle Where the Discount Exceeds the Part Cost/Price</h3><p>In this scenario, the following is applied:</p><ul><li><p>10% Tax for the \u201cService\u201d item type.</p></li><li><p>10% Tax for the \u201cPart - Phone\u201d item type.</p></li><li><p>The Tax Rate is set to tax bundled items, and bundled tax is based on the item\u2019s cost.</p></li><li><p>$30 Discount</p></li></ul><p>You would then have the following:</p><ul><li><p>Labor - $70 taxable sales, $7.00 tax</p></li><li><p>Part - $0 taxable sales,  no tax</p><ul><li><p>The discount is applied to the taxable child item first;  since the discount exceeds the cost of the part, the remainder is applied to the service.</p></li></ul></li><li><p>Ticket Total - $77 ($70 after discount + $7 tax)</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Tax bundled 6.png\" width=\"776\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672484/Tax%20bundled%206.png?api=v2\"></span><h3 id=\"TaxCalculationsforBundledItems-AChildItem\u2019sTaxWillNotExceedtheApplicableTaxoftheParentItem\">A Child Item\u2019s Tax Will Not Exceed the Applicable Tax of the Parent Item</h3><p>In this scenario, the following is applied:</p><ul><li><p>10% Tax for the \u201cService-Bundled\u201d item type.</p></li><li><p>10% Tax for the \u201cPart - Phone\u201d item type.</p></li><li><p>The Tax Rate is set to tax bundled items, and bundled tax is based on the item\u2019s price.</p></li><li><p>The price of the part exceeds the price of the Service Bundle.</p></li></ul><p>You would then have the following:</p><ul><li><p>Labor - $0 non-taxable sales</p></li><li><p>Part - $100 taxable sales, $10.00 tax</p><ul><li><p>Since the price of the bundled part ($150) is higher than the parent item, the taxes applied to the child item are capped at the price of the parent item ($100).</p></li></ul></li><li><p>Ticket Total - $110 ($100 + $10 tax)</p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933672484/Tax%20bundled%203.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933672484"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933672484/child",
+    "restrictions": "/rest/api/content/1933672484/restriction/byOperation",
+    "history": "/rest/api/content/1933672484/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933672484/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933672484",
+    "webui": "/spaces/SCD/pages/1933672484/Tax+Calculations+for+Bundled+Items",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933672484",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933672484",
+    "tinyui": "/x/JIBBcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

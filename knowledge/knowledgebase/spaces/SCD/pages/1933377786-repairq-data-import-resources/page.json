@@ -1,0 +1,129 @@
+{
+  "id": "1933377786",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933377786",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzM3Nzc4Ng==",
+  "status": "current",
+  "title": "RepairQ Data Import Resources",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:12.052Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 18,
+    "minorEdit": false,
+    "ncsStepVersion": "1019",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933377786.75",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933377786"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933377786/version/18"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ\u2019s import process allows users to batch-add or update records efficiently, enhancing data management and reducing manual entry. Users with Admin, Manager, or Inventory Manager roles can use built-in import templates to manage records like Tickets, Customers, Purchase Orders, and Inventory, with specific required values for each category.</p><p>We've recently improved system performance by moving the import process to an asynchronous queue. This change allows large file uploads to run in the background, preventing delays and browser timeouts caused by processing-heavy actions, ensuring a smoother experience. The asynchronous process eliminates database bottlenecks by queuing long-running tasks, and notifying users when these processes are complete.</p><p>Benefits of importing spreadsheets include:</p><ul><li><p><strong>Efficiency</strong> - Quickly add or update large volumes of data, saving time and reducing manual entry. Large files are imported in the background, allowing users to leave their current screen while the import is processed.</p></li><li><p><strong>Accuracy </strong>- Ensure consistency and reduce errors by using standardized spreadsheet formats.</p></li><li><p><strong>Alerts </strong>- Users are notified via email when file imports are completed.</p></li></ul><hr/><h3 id=\"RepairQDataImportResources-ImportRules\">Import Rules</h3><p><strong>Column Matching</strong> - Columns are matched by header name. We recommend using the header names provided in our templates to ensure a successful import of the column values. Any columns added outside the provided template will be ignored.</p><p><strong>Required Values</strong> - Required values differ based on the import, such as tickets, customers, purchase orders, etc. Refer to the specific import guidelines for each category to ensure all necessary fields are included.</p><p><strong>Import Updates </strong>- If a line in the import file matches an existing record in RepairQ, the item will be updated with the data from your spreadsheet. Matches are made in the following order: SKU, Supplier SKU, and Name.</p><p><strong>Accepted File Formats</strong> - RepairQ accepts Excel (.xlsx), Comma-Separated Values (.csv), and Tab-Separated Values (.txt). We recommend using .xlsx files for the best upload experience.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933377786/Control%20-%20f79824.png?api=v2\"></span><h3 id=\"RepairQDataImportResources-DataImportsandNotifications\">Data Imports and Notifications</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2734981154/Data+Import+Task+Queue\" data-linked-resource-id=\"2734981154\" data-linked-resource-version=\"2\" data-linked-resource-type=\"page\">Data Import Task Queue</a></p></li></ul><h3 id=\"RepairQDataImportResources-StaffImports\">Staff Imports</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933836372\" rel=\"nofollow\">Staff Management: Importing and Exporting Staff Members</a></p></li></ul><h3 id=\"RepairQDataImportResources-CatalogImports\">Catalog Imports</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2129002528\" rel=\"nofollow\">Catalog Item Import: Rules and Fields</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932624014\" rel=\"nofollow\">Catalog Management: Importing Catalog Items</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2131165196\" rel=\"nofollow\">Catalog Management: Importing Catalog Item Changes</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1931018389\" rel=\"nofollow\">Catalog Management: Importing Location Overrides</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2228092996\" rel=\"nofollow\">Catalog Items: Importing Device Compatibility</a></p></li></ul><h3 id=\"RepairQDataImportResources-InventoryImports\">Inventory Imports</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1931411625\" rel=\"nofollow\">Purchase Orders: Importing and Uploading</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1931018445\" rel=\"nofollow\">Inventory Management: Adjusting Inventory Levels via Import</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2547974160\" rel=\"nofollow\">Inventory Management: Change Inventory Attributes via Import</a></p></li></ul><h3 id=\"RepairQDataImportResources-CustomerandTicketImports\">Customer and Ticket Imports</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933246632\" rel=\"nofollow\">Customer Management: Importing Customer Data</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1932525822\" rel=\"nofollow\">Ticket Management: Importing Tickets</a></p></li></ul><h3 id=\"RepairQDataImportResources-ExportingData\">Exporting Data</h3><ul><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933279357\" rel=\"nofollow\">Exporting Data in RepairQ</a></p></li></ul><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933377786"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933377786/child",
+    "restrictions": "/rest/api/content/1933377786/restriction/byOperation",
+    "history": "/rest/api/content/1933377786/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933377786/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933377786",
+    "webui": "/spaces/SCD/pages/1933377786/RepairQ+Data+Import+Resources",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933377786",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933377786",
+    "tinyui": "/x/_gA9cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

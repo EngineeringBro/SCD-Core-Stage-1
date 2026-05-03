@@ -1,0 +1,129 @@
+{
+  "id": "1934229563",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934229563",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDIyOTU2Mw==",
+  "status": "current",
+  "title": "Integrations: QuickBooks Online Setup",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:24.814Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 19,
+    "minorEdit": false,
+    "ncsStepVersion": "2968",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934229563.74",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934229563"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934229563/version/19"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ and QuickBooks work together to simplify the accounting journal process by automating the export and import of daily journal entries. Check out our <a class=\"external-link\" href=\"https://quickbooks.intuit.com/app/apps/appdetails/repairq/en-us/?queryID=25a61071f60f12e63e6a6ad20cb0ab2e\" rel=\"nofollow\">QuickBooks partner page</a> for more info!</p><h4 id=\"Integrations:QuickBooksOnlineSetup-HowdoRepairQandQuickBooksworktogether?\">How do RepairQ and QuickBooks work together?</h4><p>RepairQ transmits Journal Entry data into your asset and liability accounts in QuickBooks nightly. You can also send on-demand reports for a specific date range and location. Automating journal entries can help your business in the following ways:</p><ul><li><p>Nightly journal entry data transmissions into your Asset and Liability accounts save you time and effort.</p></li><li><p>Automated data transmission maintains accurate and up-to-date financial records and reduces errors.</p></li><li><p>Simplify the process of managing asset and liability accounts and manage your financial data to ensure compliance with accounting standards.</p></li></ul><h4 id=\"Integrations:QuickBooksOnlineSetup-WhatdoIneedtosetupinQuickBooksbeforeintegratingwithRepairQ?\">What do I need to set up in QuickBooks before integrating with RepairQ?</h4><p>Our integration currently allows for data transmission into Asset and Liability accounts. QuickBooks Online requires a Vendor or Customer for these accounts, but we are currently unable to send this information. If you have AR and AP accounts, you will need to create duplicates in QuickBooks and mark them as assets or liabilities for data to come through properly. If you attempt to link a RepairQ account with an AR or AP designated in QuickBooks, the interaction will not function. For questions about your chart of accounts in your accounting software, please consult with a CPA on proper policies, procedures, and laws in your state.</p><p><strong>Note</strong>: You must sign up for QuickBooks first before using the integration with RepairQ. You will also need to set up your asset and liability information before RepairQ can transmit information.</p><h3 id=\"Integrations:QuickBooksOnlineSetup-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934524484/Accounting+Software+Resources\" data-linked-resource-id=\"1934524484\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Accounting Software Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934458970/Chart+of+Accounts+-+Accounting+Journal+Entries\" data-linked-resource-id=\"1934458970\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Chart of Accounts - Accounting Journal Entries</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246837/Reports+Accounting+Journal+Entries\" data-linked-resource-id=\"1933246837\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Reports: Accounting Journal Entries</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934393396/QuickBooks+Integration+Sending+Journal+Entries+on+Demand\" data-linked-resource-id=\"1934393396\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">QuickBooks Integration: Sending Journal Entries on Demand</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917678/Reports+Accounting+System+Reporting\" data-linked-resource-id=\"1934917678\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Reports: Accounting System Reporting</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246874/Journal+Entries+Set+Default+Account+Classifications\" data-linked-resource-id=\"1933246874\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Journal Entries: Set Default Account Classifications</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Integrations:QuickBooksOnlineSetup-EnablingQuickBooksIntegration\">Enabling QuickBooks Integration</h2><p /><p>1. On the Navigation bar, go to <strong>Settings</strong> \u2192 <strong>Location</strong> <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/QuickBooks%20Setup%201.png?api=v2\"></span><p /><p><strong>Note</strong>: Admins can manage QuickBooks settings for multiple locations by going to <strong>Settings </strong>\u2192 <strong>Company</strong> <strong>Settings</strong>.</p><p /><p>2. On the Settings Overview page, under the <strong>Account</strong> category, click <strong>Integrations</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"544\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/QuickBooks%20Setup%202.png?api=v2\"></span><p /><p>3. On the Integrations page, under the <strong>Available Integrations</strong> section, click <strong>QuickBooks</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"709\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/QB%20Integration%201.7.png?api=v2\"></span><p /><p>4. On the QuickBooks Integration page, click <strong>Connect to</strong> <strong>QuickBooks</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"528\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/QB%20Integration%201.png?api=v2\"></span><p /><p>5. You will be redirected to the Intuit login page for your QuickBooks account. Once you are signed in, click <strong>Connect</strong>. After successful authorization, you will be redirected to the QuickBooks Integration settings page in RepairQ to complete the setup.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"580\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/QB%20Integration%202.png?api=v2\"></span><p /><p>6. RepairQ will prompt you to match each of your locations to a QuickBooks class. If you don\u2019t see any available classes, you will need to add them to your QuickBooks Online account, and then retry the integration process.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"561\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/QB%20Integration%207.png?api=v2\"></span><p /><p>7. When the integration is enabled, all journal entry classification settings will pull a list of the accounts found in your QuickBooks Chart of Accounts. Select the appropriate account for each field in RepairQ. You can hover on the tooltip next to each category for additional context. For more information on these accounts, see our article, <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934458970/Chart+of+Accounts+-+Accounting+Journal+Entries\" data-linked-resource-id=\"1934458970\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Chart of Accounts - Accounting Journal Entries</a>.</p><p>After assigning Classes and Accounts, be sure to <strong>Save Integration Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"552\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/QB%20Integration%2010.png?api=v2\"></span><p /><p><strong>Note</strong>: QuickBooks Online integration only allows data transmission into Asset and Liability Accounts. If you have AR and AP accounts, you'll need to create duplicates of them and mark them as assets or liabilities for information to come through properly. If you have previously set up your journal entry classifications before integration, you will need to update them after completing the integration steps to ensure that they are classified correctly.</p><p /><p>8. (Optional) If you would like to enable automated, nightly delivery of daily journal entries to your QuickBooks Online account, check the <strong>Enable</strong> <strong>Automation</strong> box. Be sure to <strong>Save </strong>your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"552\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/QB%20Integration%2011.png?api=v2\"></span><h2 id=\"Integrations:QuickBooksOnlineSetup-DeliveryandResolutionofErrorNotifications\">Delivery and Resolution of Error Notifications</h2><p>RepairQ can notify a staff member when there is a problem with the nightly journal entry delivery to your QuickBooks account. Problems could occur for any number of reasons (changes to\u00a0your Chart of\u00a0Accounts, billing failures, etc.), so it\u2019s important to delegate\u00a0who will\u00a0resolve any issues.</p><p>Select the staff member from the dropdown that you wish to notify and click <strong>+Add</strong>. After adding the user(s), be sure to <strong>Save </strong>your settings.</p><p>If a problem arises, the selected staff member will receive a notification and, if applicable, follow any instructions provided to resolve the issue. Once the issue is resolved, you can use the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246837/Reports+Accounting+Journal+Entries\" data-linked-resource-id=\"1933246837\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Journal Entry Report</a> to resend entries for the date(s) that had a problem.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"479\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934229563/QB%20Integration%205.5.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934229563"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934229563/child",
+    "restrictions": "/rest/api/content/1934229563/restriction/byOperation",
+    "history": "/rest/api/content/1934229563/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934229563/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934229563",
+    "webui": "/spaces/SCD/pages/1934229563/Integrations+QuickBooks+Online+Setup",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934229563",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934229563",
+    "tinyui": "/x/OwBKcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

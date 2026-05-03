@@ -1,0 +1,129 @@
+{
+  "id": "1933475999",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933475999",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzQ3NTk5OQ==",
+  "status": "current",
+  "title": "Refunds: Exchange an Item and Refund the Difference (Partial Refund)",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:18.851Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 7,
+    "minorEdit": false,
+    "ncsStepVersion": "317",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933475999.35",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933475999"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933475999/version/7"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>There may be a scenario where a customer comes in for an exchange, and the new item they choose costs less than the original purchase item. This process will demonstrate how to perform the exchange on the original ticket and issue a refund for the difference back to the customer.</p><h3 id=\"Refunds:ExchangeanItemandRefundtheDifference(PartialRefund)-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279378/Virtual+Cash+Terminal+VCT+Refund+Resources\" data-linked-resource-id=\"1933279378\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Virtual Cash Terminal (VCT) Refund Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933639827\" rel=\"nofollow\">Assign a Virtual Cash Terminal (VCT) to Accept Payments</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475999/image-20230627-154931.png?api=v2\"></span><h2 id=\"Refunds:ExchangeanItemandRefundtheDifference(PartialRefund)-ExchangeanItemandRefundtheDifference(PartialRefund)\">Exchange an Item and Refund the Difference (Partial Refund)</h2><p>A VCT must be assigned to the terminal to perform a refund on a ticket.</p><p>\u00a0</p><h3 id=\"Refunds:ExchangeanItemandRefundtheDifference(PartialRefund)-ReturntheItem\">Return the Item</h3><p>Search for the closed ticket in your Ticket Queue. On the Ticket View page, click the <strong>Return Button</strong> along the row of actions on the upper-right section of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 11.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475999/Price%20Adjust%20Return%2011.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Price Adjust Return 2.png\" width=\"380\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475999/Price%20Adjust%20Return%202.png?api=v2\"></span><p /><p>When the Start Return pop-up appears, click Start a Return. This will re-open the ticket for editing.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 3 - Copy.png\" width=\"480\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475999/Price%20Adjust%20Return%203%20-%20Copy.png?api=v2\"></span><p /><p>In the Return Items section of the ticket, select the appropriate item(s) you wish to return. If the returned item is inventoried, place it back into the appropriate stock status. Add notes for the item and click <strong>Continue</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 17.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475999/Price%20Adjust%20Return%2017.png?api=v2\"></span><p /><p>In the Ticket Items section of the ticket, add the new item to the ticket. The Ticket Totals section will now show a pending refund amount for the customer.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 18.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475999/Price%20Adjust%20Return%2018.png?api=v2\"></span><p /><h3 id=\"Refunds:ExchangeanItemandRefundtheDifference(PartialRefund)-RefundthePurchase\">Refund the Purchase</h3><p>After updating the ticket, the Totals section will show the refund amount due to the customer. On the Transaction section of the ticket, click the <strong>Refund </strong>button next to the original transaction.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 14.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475999/Price%20Adjust%20Return%2014.png?api=v2\"></span><p /><p>When the <strong>Add Transaction</strong> pop-up appears, select the <strong>original Payment Type</strong> and enter the refund amount as a positive value. Ensure the <strong>Refund In Full</strong> checkbox is unchecked. After entering the required information and any additional notes, click <strong>Submit Refund</strong> to proceed.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 15.png\" width=\"348\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475999/Price%20Adjust%20Return%2015.png?api=v2\"></span><p /><p>Verify the transaction as posted to the ticket and that the payment has been issued back to the customer. Once the <strong>balance due is $0.00</strong>, you can <strong>Save </strong>the ticket to finalize the process.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Price Adjust Return 19.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933475999/Price%20Adjust%20Return%2019.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933475999"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933475999/child",
+    "restrictions": "/rest/api/content/1933475999/restriction/byOperation",
+    "history": "/rest/api/content/1933475999/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933475999/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933475999",
+    "webui": "/spaces/SCD/pages/1933475999/Refunds+Exchange+an+Item+and+Refund+the+Difference+Partial+Refund",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933475999",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933475999",
+    "tinyui": "/x/n4A_cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

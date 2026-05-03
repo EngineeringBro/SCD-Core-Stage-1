@@ -1,0 +1,130 @@
+{
+  "id": "2036629517",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2036629517",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzNjYyOTUxNw==",
+  "status": "current",
+  "title": "RepairQ 1.8",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-27T16:42:06.996Z",
+    "friendlyWhen": "Jul 27, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "25",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2036629517.13",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2036629517"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036629517/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Full Release:\u00a0August 16, 2016</p><h2 id=\"RepairQ1.8-IntegratedWarrantySales\">Integrated Warranty Sales</h2><p>Get ready to sell protection plans directly through your RepairQ point-of-sale. Warranty Sales is a turn-key warranty sale program including a seamless point-of-sale experience, reports, claims tracking and more! If you\u2019re looking for a new revenue stream or a better way to build lasting customer relationships, this feature gives you the tools to make it happen.</p><h2 id=\"RepairQ1.8-GlobalSearch\">Global Search</h2><p>A new global search tool replaces the four search inputs at the top of each page with a new combined search tool. This tool allows you to search for tickets, inventory, customers and billing agents with greater efficiency. For example, when you search a single record RepairQ will load that record immediately, and when you search for a group of records you get a list of results on the appropriate list page. Advanced filters are also built into the search tool, so you can perform any search from any page!</p><h2 id=\"RepairQ1.8-ApplicationSettings\">Application Settings</h2><p>Manage your RepairQ license from the app, including your billing plan, locations, users and more. In addition, you can manage other global settings for your RepairQ App like your ticket status labels.</p><h2 id=\"RepairQ1.8-StartRefurbsfromInventory\">Start Refurbs from Inventory</h2><p>With this feature you will be able to create refurb tickets directly from inventory items individually or in batches. The inventory items move to the &quot;pending refurb&quot; status, and the tickets will work just like refurb tickets created from trade-ins and returns.</p><h2 id=\"RepairQ1.8-EditableReturnRefunds\">Editable Return Refunds</h2><p>With this feature you will be able to edit the refund price for return items. The maximum refund amount per return item will be capped at the original sale price to prevent abuse of this feature. To accommodate refunds for failed or cancelled return repairs (reworks) where the item ultimately returned carries a zero price (due to waiving the charges), managers and shift leads will have the capability to increase the refund amount up to the normal sale price for the\u00a0returned item.</p><h2 id=\"RepairQ1.8-Import/ExportUpgrades\">Import / Export Upgrades</h2><p>We upgraded all Imports and Exports in RepairQ. Import and Export operations now run significantly faster, and handle a greater capacity per file. In addition to the performance gains, we introduced a few upgrades. All exports will generate .xlsx files, and all columns in the export will be cast to the appropriate data types. In RepairQ, this mostly means that numbers will be treated as numbers when you open up the file instead of being treated as text which you must convert in Excel before performing any calculations. Imports will now accept .xlsx and .csv files. In addition, .xlsx and .csv imports no longer require all columns to be present. To update items in an import, only an identifier column and the columns you wish to update need to be present in the import. For new items, only the required fields will need to be present in the import file.</p><h2 id=\"RepairQ1.8-OtherUpdates\">Other Updates</h2><ul><li><p>Repair tickets now show a list of any return repair tickets that are associated with the repair ticket.</p></li><li><p>We added a new \u201cReconcile All\u201d button to the RMA reconciliation process which allows you to reconcile multiple pages of RMA Sent Items in one action.</p></li><li><p>You can selectively cancel unsent notifications from the Notification Queue.</p></li><li><p>We changed the date filtering logic for the Return Repairs by Tech report. Before this update, the report would filter in records based on the date the original repair was performed. We realized that this report would be more useful if it filtered in records based on the date the return repair (rework) was performed.</p></li><li><p>RMA \u201csend all\u201d function will now only send all items that are currently filtered for on the RMA tracking screen.</p></li><li><p>The tax exempt status of tickets was not obeyed when a discount is applied from the remittance process. Taxes were being recalculated and applied to ticket items that should have remained tax exempt. This has been fixed.</p></li><li><p>Pending refurb tickets should be\u00a0auto closed when a returned item is marked Damaged</p></li></ul><p /><p><a class=\"external-link\" href=\"https://youtu.be/qfmdGzncwlA\" rel=\"nofollow\"><u>Watch the walkthrough video.</u></a></p><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2036629517"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 7
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2036629517/child",
+    "restrictions": "/rest/api/content/2036629517/restriction/byOperation",
+    "history": "/rest/api/content/2036629517/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2036629517/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2036629517",
+    "webui": "/spaces/SCD/pages/2036629517/RepairQ+1.8",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2036629517",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036629517",
+    "tinyui": "/x/DYBkeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

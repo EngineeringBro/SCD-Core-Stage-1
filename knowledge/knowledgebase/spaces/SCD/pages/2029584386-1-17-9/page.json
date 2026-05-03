@@ -1,0 +1,130 @@
+{
+  "id": "2029584386",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2029584386",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAyOTU4NDM4Ng==",
+  "status": "current",
+  "title": "1.17.9",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-19T15:23:48.749Z",
+    "friendlyWhen": "Jul 19, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "60",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2029584386.22",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2029584386"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029584386/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>1.17.9 is a minor update including some optimizations based on user feedback since release 1.17. The areas of focus for this update are list filtering and search, as well as modal windows.</p><h2 id=\"id-1.17.9-ListViews\">List Views</h2><ul><li><p>Lists have new Quick Actions.</p><ul><li><p>Lists that have more than one action, like view and edit, now have a new setting allowing you to select action that will show in your list\u2019s \u2018Actions\u2019 column. Like editing columns, Quick Actions are a way to personalize your lists and can be saved with a view.</p></li></ul></li></ul><ul><li><p>List filters are now more keyboard friendly.</p><ul><li><p>You can tab between filter \u201ctags\u201d</p></li><li><p>Pressing the DELETE or BACKSPACE key on your keyboard while focused on a tag will remove the filter</p></li><li><p>Pressing the RETURN key while focused on a tag will open the user interface to adjust the filter (except for keyword tags)</p></li></ul></li></ul><ul><li><p>List keywords are now more keyboard friendly, too.</p><ul><li><p>Pressing RETURN will add and apply the keyword(s) and load the results</p></li><li><p>Pressing TAB will add the keyword(s) and allow you start adding a new keyword</p></li><li><p>Pressing ESC will clear any text you entered and dismiss the keyword input</p></li></ul></li></ul><ul><li><p>Resetting a filter now removes pending filters.</p><ul><li><p>The Reset button is now available when adding new pending filters. Clicking it will remove all pending filters and refresh your list.</p></li></ul></li></ul><h2 id=\"id-1.17.9-ModalWindows\">Modal Windows</h2><ul><li><p>Modals are now faster.</p><ul><li><p>We removed a \u00bd second animation when showing and hiding modals (screens that pop over RepairQ to capture specific information. Modals are now displayed immediately.</p></li><li><p>When a modal is opened, like Device Details, your cursor now starts on the most important field on the screen hopefully eliminating an extra click. Examples of cursor focus include: Required inputs, non-required inputs, Submit/Continue button.</p></li><li><p>While in the Device Detail modal, after typing your diagnostic notes, you can now press Return on your keyboard to Add Device. This along with changing the starting position of the cursor should make adding a device to a ticket faster.</p></li></ul></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2029584386"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 18904781
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2029584386/child",
+    "restrictions": "/rest/api/content/2029584386/restriction/byOperation",
+    "history": "/rest/api/content/2029584386/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2029584386/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2029584386",
+    "webui": "/spaces/SCD/pages/2029584386/1.17.9",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2029584386",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2029584386",
+    "tinyui": "/x/AgD5e",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

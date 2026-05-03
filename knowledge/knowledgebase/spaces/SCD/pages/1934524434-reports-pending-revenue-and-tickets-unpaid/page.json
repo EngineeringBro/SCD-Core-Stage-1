@@ -1,0 +1,129 @@
+{
+  "id": "1934524434",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934524434",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDUyNDQzNA==",
+  "status": "current",
+  "title": "Reports: Pending Revenue and Tickets Unpaid",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:50.857Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "25",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934524434.19",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934524434"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934524434/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The <strong>Pending Revenue</strong> <strong>Report</strong> provides a summary of all tickets NOT in Closed status that have ticket items and payments recorded on them.</p><p>The <strong>Tickets Unpaid Report</strong> allows you to view a full list of any tickets with a balance due.</p><p>These reports are great tools for clearing up any tickets with payments owed to you and for closing out any tickets that have paid their balance due \u2014 ensuring\u00a0the tickets have properly recorded for revenue and cost of goods (COGS) reporting, according to our Accounting Principles.</p><h3 id=\"Reports:PendingRevenueandTicketsUnpaid-AdditionalReportingResources\">Additional Reporting Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934327922/Reports+Receivables+and+Invoice+Aging\" data-linked-resource-id=\"1934327922\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Receivables and Invoice Aging</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a> </p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151710.png?api=v2\"></span><p /><h2 id=\"Reports:PendingRevenueandTicketsUnpaid-ViewingthePendingRevenueReport\">Viewing the Pending Revenue Report</h2><p /><p>1. On the Reports page, click the <strong>Accounting dropdown</strong> along the top row of report categories. From the available list, click <strong>Pending Revenue</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151712.png?api=v2\"></span><p /><p /><p>2. Use the filter to select any/all locations and click <strong>Apply Filters</strong> to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151715.png?api=v2\"></span><p /><p /><p>3. The report will include the total payments and payout amounts, the number of ticket items on these tickets, sales amounts for these tickets, discounts, and tax liability for these tickets.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151718.png?api=v2\"></span><p /><p /><h2 id=\"Reports:PendingRevenueandTicketsUnpaid-ViewingtheTicketsUnpaidReport\">Viewing the Tickets Unpaid Report</h2><p /><p>1. On the Navigation Bar, go to\u00a0<strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151721.png?api=v2\"></span><p /><p /><p>2. On the Reports page, click the\u00a0<strong>Accounting dropdown</strong>\u00a0along the top row of report categories. From the available list, click\u00a0<strong>Tickets</strong>\u00a0<strong>Unpaid</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151723.png?api=v2\"></span><p /><p /><p>3. Use the available filters to scope results based on the assigned parameters.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151727.png?api=v2\"></span><p /><p /><ul><li><p><strong>Date</strong>\u00a0<strong>Range</strong>\u00a0- Filter for a range of dates based on when the ticket was created.</p></li><li><p><strong>Ticket</strong>\u00a0<strong>Status</strong>\u00a0- Filter for all tickets or tickets in specific statuses.</p></li><li><p><strong>Location</strong>\u00a0- Select the location(s) for tickets at specific stores.</p></li><li><p><strong>Billing</strong>\u00a0<strong>Agent</strong>\u00a0- Select any/all applicable Billing Agents.</p></li></ul><p /><p>4. Once you have set your filters, click <strong>Apply Filters</strong>\u00a0to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151731.png?api=v2\"></span><p /><p /><p>5. The report will include a list of all tickets with their current status, applied payments, and the balance due.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151734.png?api=v2\"></span><p /><p /><p>6. Uner the Ticket and Customer columns, you can click links to view the unpaid ticket and customer profile, respectively.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151737.png?api=v2\"></span><p /><p /><p><strong>Note</strong>: We recommend opening the links in a new tab, so you don't have to run the report multiple times. Be sure to close all extra tabs before making changes in RepairQ.</p><p /><p>7. On the upper-right corner of the page you will have the option to\u00a0<strong>Export to Excel</strong>\u00a0and\u00a0<strong>Hide Filters</strong>. The export will include data matching your filtered results.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934524434/image-20230627-151746.png?api=v2\"></span><p /><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934524434"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934524434/child",
+    "restrictions": "/rest/api/content/1934524434/restriction/byOperation",
+    "history": "/rest/api/content/1934524434/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934524434/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934524434",
+    "webui": "/spaces/SCD/pages/1934524434/Reports+Pending+Revenue+and+Tickets+Unpaid",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934524434",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934524434",
+    "tinyui": "/x/EoBOcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1933246822",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933246822",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI0NjgyMg==",
+  "status": "current",
+  "title": "Appointments: General Settings",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:58:06.927Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 16,
+    "minorEdit": false,
+    "ncsStepVersion": "2181",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933246822.91",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933246822"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246822/version/16"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Users can reserve blocks of time for your customers to come in and spend time with an assigned user. You can also specify whether an appointment is for a Repair ticket, Sales ticket, or a Trade-in ticket. If a customer decides they need to change their reservation, users can change the appointment from the Appointment List.</p><p>Appointment General Settings allow you to change the parameters around scheduling appointments for customers. You can customize appointment status defaults, duration of your appointment windows, grace periods, and more.</p><h3 id=\"Appointments:GeneralSettings-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934786625/Appointments+Viewing+Set+Appointments\" data-linked-resource-id=\"1934786625\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Viewing Set Appointments</a> </p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1938096131/Appointments+Scheduling+Holidays\" data-linked-resource-id=\"1938096131\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Scheduling Holidays</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1953595397/Appointments+Viewing+and+Creating+Statuses\" data-linked-resource-id=\"1953595397\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Appointments: Viewing and Creating Statuses</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1953595423/Appointments+Availability+Windows\" data-linked-resource-id=\"1953595423\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Appointments: Availability</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/2138963973/Appointments+Creating+Automated+Confirmations+and+Reminders\" data-linked-resource-id=\"2138963973\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Appointments: Creating Automated Confirmations and Reminders</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246822/image-20230622-174857.png?api=v2\"></span><h2 id=\"Appointments:GeneralSettings-AppointmentGeneralSettings\">Appointment General Settings</h2><p /><p>From the Navigation Bar, go to <strong>Settings</strong> \u2192<strong> Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"683\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246822/Appointments%201.png?api=v2\"></span><p /><p><strong>Note</strong>: A user with an Admin role can change these settings at the Global level by going to <strong>Company Settings</strong> instead.</p><p /><p>On the Settings Overview page, look for the Appointments section. Under this area, click <strong>General Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"267\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246822/Appointments%202.png?api=v2\"></span><h2 id=\"Appointments:GeneralSettings-AppointmentGeneralSettings.1\">Appointment General Settings</h2><h3 id=\"Appointments:GeneralSettings-DefaultAppointmentStatus\">Default Appointment Status</h3><p>Default Appointment Statuses allow you to select the default status when creating, initiating, and canceling an appointment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"386\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246822/image-20230622-174914.png?api=v2\"></span><ul><li><p><strong>Default Appointment Status (New) </strong>- This is the default status when creating a new appointment.</p></li><li><p><strong>Default Appointment Status (Converted) </strong>- This is the default status when an appointment is taken from the queue and helped by an employee.</p></li><li><p><strong>Default Appointment Status (Canceled) </strong><em>- </em>This is the default status when an appointment is canceled.</p></li></ul><h3 id=\"Appointments:GeneralSettings-AppointmentDuration\">Appointment Duration</h3><p>Appointment Duration settings allow you to create windows of time for scheduled appointments, assign a default duration when creating an appointment, and limit the number of concurrent appointments.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246822/Appointments%203.png?api=v2\"></span><ul><li><p><strong>Duration Options </strong>- This designates the amount of time assigned for appointment intervals. For example, <strong>15min</strong>, <strong>30min</strong>, or <strong>1hr</strong>.  Set the duration and click <strong>+Add</strong> to create the duration time. You can create multiple duration windows.</p></li><li><p><strong>Default Appointment Duration </strong>- Default amount of time given to an appointment. More options will be available as you add more duration options.</p></li><li><p><strong>Concurrent appts </strong>- This is the number of appointment windows allowed to happen at the same time. Setting a limit to concurrent appointments restricts scheduling to avoid overlapping appointments. For example, one concurrent appointment allows for one appointment at a time.</p></li></ul><h3 id=\"Appointments:GeneralSettings-No-ShowGracePeriod\">No-Show Grace Period</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246822/Appointments%204.png?api=v2\"></span><ul><li><p><strong>Calculation Method</strong> - Select whether the grace period will apply towards the time of the appointment or the window.</p></li><li><p><strong>No-Show Grace Period</strong> - Select the amount of time the appointment can still be started after the customer has missed their time/window.</p></li></ul><h3 id=\"Appointments:GeneralSettings-AppointmentCalendarView\">Appointment Calendar View</h3><p>These settings allow you to customize what information is visible when viewing the appointment calendar and what action the user can take when clicking an appointment.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246822/Appointments%205.png?api=v2\"></span><ul><li><p><strong>Appointment Calendar View </strong>- The following checkboxes, when checked, will allow information about the appointment to show up within the calendar blocks. If multiple fields are selected, this information may only be visible when viewing the Week and Month view.</p><ul><li><p><strong>Customer Name</strong> - The customer the appointment is reserved for.</p></li><li><p><strong>Assignee Name</strong> - The staff member the appointment has been assigned to.</p></li><li><p><strong>Customer Service Address</strong> - The reserved customer\u2019s address in the Customer Profile.</p></li><li><p><strong>Device Name </strong>- This is the repair device assigned when creating a Repair Ticket Appointment.</p></li></ul></li><li><p><strong>When clicking on an appointment </strong> - Select which action is available to the user when clicking on a scheduled appointment.</p><ul><li><p><strong>Show Summary</strong> - This will show the Appointment Summary popup with details for the customer.</p></li><li><p><strong>Show Edit Screen</strong> - This will show you the Appointment Edit popup when clicking an appointment.</p></li></ul></li><li><p><strong>Show the option to start the appointment</strong> - Toggle the option to start the appointment when selecting an appointment from the calendar view.</p></li></ul><p><strong>Note:</strong> For more about scheduling and viewing appointments within the calendar, please see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917649/Appointments+Scheduling+an+Appointment\" data-linked-resource-id=\"1934917649\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Scheduling Appointments</a>.</p><h3 id=\"Appointments:GeneralSettings-AppointmentAdvancedNotice\">Appointment Advanced Notice</h3><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246822/Appointments%206.png?api=v2\"></span><p /><ul><li><p><strong>Appointment Advanced Notice </strong>- Create guidelines for when an appointment can be created using the following parameters in minutes, hours, or days.</p><ul><li><p><strong>Store Open &quot;buffer&quot;</strong> - This prevents appointments from being opened in the buffer period after opening the store.</p></li><li><p><strong>Store Close &quot;buffer&quot;</strong> -This prevents appointments from being opened in the buffer period before closing the store.</p></li><li><p><strong>Minimum Advanced Notice</strong> - Appointments cannot be scheduled at a time before the minimum notice. For instance, if the minimum notice is 1 hour, the appointment cannot be scheduled within one hour at the time of creation.</p></li><li><p><strong>Maximum Advanced Notice</strong> - Appointments cannot be scheduled after a time exceeding the maximum notice. For instance, if the maximum notice is 14 days, the appointment cannot be scheduled after 14 days from the time of creation.</p></li></ul></li></ul><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933246822"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933246822/child",
+    "restrictions": "/rest/api/content/1933246822/restriction/byOperation",
+    "history": "/rest/api/content/1933246822/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933246822/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933246822",
+    "webui": "/spaces/SCD/pages/1933246822/Appointments+General+Settings",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933246822",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246822",
+    "tinyui": "/x/ZgE7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "2107047975",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2107047975",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjEwNzA0Nzk3NQ==",
+  "status": "current",
+  "title": "Reports: Inventory Reorder Required",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:24.515Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "2",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2107047975.146",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2107047975"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2107047975/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Inventory Reorder Required is a quick reference list of items that have fallen below their assigned Reorder Point (ROP). This can be used to track and manage inventory levels, indicating when it\u2019s time to restock specific items to ensure availability. The included Reorder Quantity (ROQ) field provides a quantity for your order that will meet the ROP after fulfilling any backorders. This report can also be exported and used as a Purchase Order template for quckly creating Purchase Orders in RepairQ.</p><h3 id=\"Reports:InventoryReorderRequired-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246673/Checking+for+Items+that+Require+Reordering\" data-linked-resource-id=\"1933246673\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Checking for Items that Require Reordering</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932787813/Inventory+Management+Reorder+Points+and+Reorder+Amounts\" data-linked-resource-id=\"1932787813\" data-linked-resource-version=\"15\" data-linked-resource-type=\"page\">Purchase Order Process: Setting Reorder Points and Reorder Amounts</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931411625/Purchase+Orders+Importing+and+Uploading\" data-linked-resource-id=\"1931411625\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Purchase Orders: Importing and Uploading</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416/Purchase+Order+Resources\" data-linked-resource-id=\"1932427416\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Purchase Order Resources</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2107047975/Technical%20-%20124a6d.png?api=v2\"></span><h1 id=\"Reports:InventoryReorderRequired-ViewingInventoryReorderRequiredReporting\">Viewing Inventory Reorder Required Reporting</h1><p /><p>1. On the Navigation Bar, go to <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"544\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2107047975/Reorder%20Report%201.png?api=v2\"></span><p /><p>2. On the Reports page, click on the <strong>Inventory dropdown</strong> along the top row of report categories. From the available list, click <strong>Inventory Reorder Required</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2107047975/Reorder%20Report%202.png?api=v2\"></span><p /><p>3. Use the available filters to scope results based on the assigned parameters. Once you have set your filters, click <strong>Apply Filters</strong> to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2107047975/Reorder%20Report%203.png?api=v2\"></span><ul><li><p><strong>Location </strong>- Select to view results from a specific location or an aggregate report of multiple locations.</p></li><li><p><strong>Manufacturer</strong> - Select to view a list of items from a specific manufacturer or an aggregate report of all manufacturers.</p></li><li><p><strong>Supplier</strong> - This optional field is used when generating a Purchase Order export. The selection will automatically populate in the Supplier field of the import document.</p></li></ul><p /><p>4. (Optional) Click <strong>To Excel</strong> on the upper-right side of the report page to export an Excel-friendly document for your records. You can also click <strong>Hide/Show Filters</strong> on the upper-right side of the page to collapse/expand the filters when viewing reports.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"204\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2107047975/Reorder%20Report%204.png?api=v2\"></span><h2 id=\"Reports:InventoryReorderRequired-InventoryReorderRequired\">Inventory Reorder Required</h2><p>This report shows all items that meet your reorder criteria. The list gives the location, inventory item details, and the current stock details for items.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2107047975/Reorder%20Report%205.png?api=v2\"></span><ul><li><p><strong>Instock </strong>- Your current In-stock quantity of the inventory item. This does not include any items in Pulled status.</p></li><li><p><strong>Ordered </strong>- Your current Ordered quantity of the inventory item.</p></li><li><p><strong>ROP (Reorder Point)</strong> - This column shows the default quantity (set by the user) used to notify users when the in-stock quantity for an item falls below the assigned amount.</p></li><li><p><strong>ROA (Reorder Amount)</strong> - This column shows the default quantity (set by the user) to reorder when adding an item to a Purchase Order.</p></li><li><p><strong>ROQ (Reorder Quantity)</strong> - This column shows the actual amount requiring reorder, which takes into consideration any ordered and/or backorder items. This ensures that your order will meet the ROP after fulfilling any backorders. This total is also used as the Reorder Quanity when generating a Purchase Order import sheet.</p><ul><li><p>For instance, an item (the Generic iPhone Case in the above screenshot) with a Reorder Point of 10 with no In-stock items, no Ordered items, and one Backordered item will show a Reorder Quantity of 11. This is to ensure that after you fulfill the backorder item, you do not fall below your Reorder Point.</p></li><li><p>Using the equation (ROP - (ROA+Ordered - Backordered)):   (10 - (0 + 0 - 1 ) = 11. </p></li></ul></li></ul><p /><h2 id=\"Reports:InventoryReorderRequired-GeneratePOsExport\">Generate POs Export</h2><p>The inventory Reorder Required report can also be used to auto-populate a Purchase Order Import Template. First, <strong>select a Supplier </strong>from the filter, which will preload the Supplier field in the template. Next, click <strong>Generate POs</strong> at the bottom of the report to export the Purchase Order Template.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2107047975/Reorder%20Report%206.png?api=v2\"></span><p /><p>The export will automatically populate any assigned Supplier SKUs, and the Qty and Supplier fields reflect the Supplier and ROQ fields from the report. The Qty field is adjusted to ensure that you meet your assigned ROA after fulfilling any backorders.</p><p>For more information on this process, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931411625/Purchase+Orders+Importing+and+Uploading\" data-linked-resource-id=\"1931411625\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Purchase Orders: Importing and Uploading</a>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2107047975/Reorder%20Report%207.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2107047975"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2107047975/child",
+    "restrictions": "/rest/api/content/2107047975/restriction/byOperation",
+    "history": "/rest/api/content/2107047975/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2107047975/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2107047975",
+    "webui": "/spaces/SCD/pages/2107047975/Reports+Inventory+Reorder+Required",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2107047975",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2107047975",
+    "tinyui": "/x/JwCXfQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

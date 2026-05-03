@@ -1,0 +1,129 @@
+{
+  "id": "1932394588",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932394588",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjM5NDU4OA==",
+  "status": "current",
+  "title": "Ticket Properties: Create a Ticket Resolution",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:32.340Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 9,
+    "minorEdit": false,
+    "ncsStepVersion": "1654",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932394588.45",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932394588"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932394588/version/9"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Ticket Resolution feature allows you to add key details to Repair and Refurb tickets, improving classification, reporting, and filtering. You can also require a Resolution assignment before saving tickets in new statuses, ensuring accurate tracking, reporting, and quality control. Resolutions can be set for specific ticket types and statuses, with Admins managing them across all locations and Managers creating them for individual locations.</p><ul><li><p><strong>Enhanced Classification and Reporting</strong> - Add resolutions for better ticket classification and reporting.</p></li><li><p><strong>Mandatory Resolutions</strong> - Enforce Ticket Resolutions for specific statuses and ticket types.</p></li><li><p><strong>Custom Forms Integration </strong>- Works with custom forms and notifications.</p></li></ul><h3 id=\"TicketProperties:CreateaTicketResolution-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427638/Ticket+Properties+Require+a+Ticket+Resolution\" data-linked-resource-id=\"1932427638\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Ticket Properties: Require a Ticket Resolution</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361846/Ticket+Properties+Designating+a+Ticket+Assignee\" data-linked-resource-id=\"1932361846\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Ticket Properties: Requiring a Ticket Assignee</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1939570735/Reports+Repairs+by+Technician+and+Item\" data-linked-resource-id=\"1939570735\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Reports: Repairs by Technician and Item</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"TicketProperties:CreateaTicketResolution-CreateaTicketResolutionType\">Create a Ticket Resolution Type</h2><p>While not required, Resolution Types provide an additional layer of organization for your Ticket Resolutions. By grouping resolutions under types, such as \u2018Canceled\u2019 or \u2018Completed,\u2019 you can better categorize and manage different outcomes. This makes it easier to track specific reasons behind ticket closures, improving reporting and operational insights.</p><p /><p>From the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>. On the Settings Overview page, under the Tickets section, click <strong>Ticket Resolution Types</strong>.</p><p><strong>Note</strong>: To create a Resolution Type scoped to your specific location, navigate to <strong>Settings</strong> \u2192 <strong>Location</strong> <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 7.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%207.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 11.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%2011.png?api=v2\"></span><p /><p>On the Ticket Resolution Types Overview page, click <strong>Add Ticket Resolution Type</strong>. Begin filling out the form. Once you have made your selections, click <strong>Save</strong> to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 12.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%2012.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 13.png\" width=\"374\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%2013.png?api=v2\"></span><ul><li><p><strong>Name</strong> - Assign a name for the Resolution.</p></li><li><p><strong>Is Active</strong> - Select this box to activate the Resolution Type. Uncheck this box to deactivate/hide this Resolution Type from dropdown lists.</p></li></ul><p /><p>After saving your changes, the newly created Resolution Type will be available for selection when creating or classifying Ticket Resolutions.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 14.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%2014.png?api=v2\"></span><hr/><h2 id=\"TicketProperties:CreateaTicketResolution-CreatingNewTicketResolutions\">Creating New Ticket Resolutions</h2><p>On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Company Settings</strong>. On the Settings Overview page, under the Tickets section, click <strong>Ticket\u00a0Resolutions</strong>.</p><p><strong>Note</strong>: To create a Resolution Type scoped to your specific location, navigate to <strong>Settings</strong> \u2192 <strong>Location</strong> <strong>Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 15.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%2015.png?api=v2\"></span><p /><p>The Ticket Resolution page has a list of default resolutions. To add a new resolution, click\u00a0<strong>Add Ticket Resolution</strong>. Begin filling out the form. Once you have made your selections, click <strong>Save</strong> to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 16.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%2016.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 10.png\" width=\"374\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%2010.png?api=v2\"></span><ul><li><p><strong>Name</strong> - Assign a name for the Resolution.</p></li><li><p><strong>Location</strong> - Select whether this Resolution is assigned to a specific location or all locations, if applicable.</p></li><li><p><strong>Description</strong> - (Optional) Enter a short description for the use of the Resolution.</p></li><li><p><strong>Type</strong> - (Optional) Resolution Types provide an additional layer of organization for your Ticket Resolutions</p></li><li><p><strong>Priority</strong> - Assign a numerical value that will change the placement of the Resolution in lists. The lower the number, the higher the seat on the list.</p></li><li><p><strong>Is Active</strong> - Select this box to activate the Resolution. Uncheck this box to deactivate/hide this Resolution.</p></li></ul><p /><p>After saving your changes, the newly created Resolution Type will be available for selection when creating Repair, Trade-in (with a Ticket Override), and Refurb tickets.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 17.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%2017.png?api=v2\"></span><p /><h2 id=\"TicketProperties:CreateaTicketResolution-ApplyaResolutiontoTickets\">Apply a Resolution to Tickets</h2><p>When creating or editing a Repair or Refurb ticket, you can access <strong>Ticket Properties</strong> at the top of the page. This section includes the <strong>Resolution</strong> dropdown, where users can select and assign a resolution.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Properties 18.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932394588/Properties%2018.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932394588"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932394588/child",
+    "restrictions": "/rest/api/content/1932394588/restriction/byOperation",
+    "history": "/rest/api/content/1932394588/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932394588/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932394588",
+    "webui": "/spaces/SCD/pages/1932394588/Ticket+Properties+Create+a+Ticket+Resolution",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932394588",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932394588",
+    "tinyui": "/x/XAAucw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

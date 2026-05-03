@@ -1,0 +1,129 @@
+{
+  "id": "1934557198",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934557198",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDU1NzE5OA==",
+  "status": "current",
+  "title": "Reports: Wage Expense",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:46.220Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934557198.36",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934557198"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934557198/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Wage Expense Report shows you the costs of staff payroll for a period of time. We recommend accounting for wage expenses based on closed tickets only; once a ticket is closed the date will no longer change, and the sales are reported as revenue. By default, filters are set to closed tickets only, because it is the most reliable method for this business model. For further information about accrual-based reporting, see our article, RepairQ Accounting Principles.</p><h3 id=\"Reports:WageExpense-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Accounting Principles</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937866763/Reporting+Resources+with+Video\" data-linked-resource-id=\"1937866763\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Reporting Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1929379890/Staff+Management+Add+and+Deactivate+Staff+Profiles\" data-linked-resource-id=\"1929379890\" data-linked-resource-version=\"27\" data-linked-resource-type=\"page\">Staff (User) Management</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986634/Getting+Started+Clock+In+Out+of+RepairQ\" data-linked-resource-id=\"1928986634\" data-linked-resource-version=\"23\" data-linked-resource-type=\"page\">Clocking In/Out of RepairQ</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557198/image-20230627-151901.png?api=v2\"></span><p /><h2 id=\"Reports:WageExpense-ViewingtheWageExpenseReport\">Viewing the Wage Expense Report</h2><p /><p>1. On the Navigation Bar, click <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557198/image-20230627-151904.png?api=v2\"></span><p /><p /><p>On the Reports page, click the <strong>Accounting</strong>\u00a0<strong>dropdown </strong>to expand available reports. From the list, click <strong>Wage</strong> <strong>Expense</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557198/image-20230627-151907.png?api=v2\"></span><p /><p /><p>3. Use the available filters to scope results based on the assigned parameters. Once you have made your selections, click <strong>Apply</strong> <strong>Filters</strong> to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557198/image-20230627-151910.png?api=v2\"></span><p /><ul><li><p><strong>Date</strong> - Select a date range for your scope of results.</p></li><li><p><strong>Location</strong> - Select a specific location or run an aggregate report for multiple stores.</p></li><li><p><strong>Status</strong> - Select whether your data pulls from tickets in Closed status, Open status, or all statuses.</p><ul><li><p>By default, this will pull data from closed tickets, since ticket information is finalized.</p></li></ul></li><li><p><strong>Item</strong> <strong>Type</strong> - Search for a specific Item Type or multiple types.</p></li></ul><p /><p>4. (Optional) On the upper-right corner of the page you will have the option to Export to Excel\u00a0and\u00a0Hide/Show Filters from the report view. The export will include data matching your filtered results.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557198/image-20230627-151913.png?api=v2\"></span><p /><p /><h2 id=\"Reports:WageExpense-WageExpenseReport\">Wage Expense Report</h2><p>The Wage Expense Reports gives you a summary of expected costs, total billable and non-billable costs, and actual costs. There is also a breakdown by staff members of hours clocked, for both billable and non-billable hours.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557198/image-20230627-151916.png?api=v2\"></span><p /><p /><p /><p>START 1.19.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934557198"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934557198/child",
+    "restrictions": "/rest/api/content/1934557198/restriction/byOperation",
+    "history": "/rest/api/content/1934557198/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934557198/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934557198",
+    "webui": "/spaces/SCD/pages/1934557198/Reports+Wage+Expense",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934557198",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934557198",
+    "tinyui": "/x/DgBPcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

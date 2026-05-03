@@ -1,0 +1,130 @@
+{
+  "id": "2030698611",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030698611",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDY5ODYxMQ==",
+  "status": "current",
+  "title": "RepairQ 1.13",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T22:27:27.603Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "47",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030698611.14",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030698611"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698611/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released on 8/15/2017</p><p>We consider this page a &quot;living document&quot; where we will post updates related to this release over time. Details about features and dates may change as we engage with our beta testers and refine the release. Follow the post to receive updates, and get involved in the conversation about this release in the comments section.</p><p><a class=\"external-link\" href=\"https://youtu.be/aerfORl84O8\" rel=\"nofollow\">Watch the release walk through video</a>.</p><h2 id=\"RepairQ1.13-Qsite\u2122-customerservicesite\">Qsite\u2122 - customer service site</h2><p>Qsite\u2122 is the\u00a0newest\u00a0RepairQ companion app, which provides new ways for your customers to engage with your store.\u00a0The first feature released under Qsite provides an easy way for your customers to\u00a0check their ticket status on demand. The ticket status page shows\u00a0a brief summary of the ticket, the current status, balance due, and when it was last updated. Ticket notes, one-click phone calls to the store, and one-click directions to the store are also available to the customer for quick and easy engagement.</p><p>You have a few options for exposing this feature to your customers:</p><ul><li><p>Option 1: Using your branded Qsite\u2122<br/>Simply add the\u00a0link template tag\u00a0we provide to your\u00a0automated notifications, and/or enable the\u00a0QR code or URL for\u00a0printed receipts, and your customers will have everything they need to get status updates on demand via Qsite.</p></li></ul><ul><li><p>Option 2: Embed our sample HTML+JS code into your website<br/>Customers can look up their ticket status with last name + ticket number (<em>This feature is currently testing in a closed Beta. Interested in becoming a RepairQ Beta\u00a0tester?\u00a0</em><a class=\"external-link\" href=\"https://repairq.io/beta/\" rel=\"nofollow\"><em>Visit this link</em></a><em>, fill out the application,\u00a0and we will be in touch</em>)</p></li><li><p>Option 3: Use RepairQ APIs to integrate the ticket status\u00a0feature into your own website or application (<em>This feature is currently testing in a closed Beta. Interested in becoming a RepairQ Beta\u00a0tester?\u00a0</em><a class=\"external-link\" href=\"https://repairq.io/beta/\" rel=\"nofollow\"><em>Visit this link</em></a><em>, fill out the application,\u00a0and we will be in touch</em>)</p></li></ul><h2 id=\"RepairQ1.13-RepairQAccountingJournal\">RepairQ Accounting Journal</h2><p>The Accounting Journal feature gives accountants &amp; bookkeepers a simple way to match RepairQ accounting data with prepared journal records ready for export from RepairQ and import into most accounting systems. RepairQ generates journal entries for sales, payments, COGS, inventory, and taxes payable into one report. With\u00a0new RepairQ's new accounting settings, you can automate the process of classifying your transactions from RepairQ to\u00a0your chart of accounts, giving you the tools\u00a0you need to\u00a0set-it-and-forget-it!</p><p><em>This feature is currently testing in a closed Beta. Interested in becoming a RepairQ Beta\u00a0tester?\u00a0</em><a class=\"external-link\" href=\"https://repairq.io/beta/\" rel=\"nofollow\"><em>Visit this link</em></a><em>, fill out the application,\u00a0and we will be in touch.</em></p><h2 id=\"RepairQ1.13-QuickBooksOnlineIntegration\">QuickBooks Online Integration</h2><p>The QuickBooks Online integration extends the RepairQ Accounting Journal feature. With RepairQ's QuickBooks Online integration, users of QuickBooks Online can simplify the accounting process further by automating the export and import of daily journal entries.</p><p><em>This feature is currently testing in a closed Beta. Interested in becoming a RepairQ Beta\u00a0tester?\u00a0</em><a class=\"external-link\" href=\"https://repairq.io/beta/\" rel=\"nofollow\"><em>Visit this link</em></a><em>, fill out the application,\u00a0and we will be in touch.</em></p><h2 id=\"RepairQ1.13-PointofSaleImprovements\">Point of Sale Improvements</h2><p>The RepairQ point of sale is receiving many improvements, including many features designed to reduce the amount of time it takes to process tickets. This release introduces two new features designed to reduce the time it takes to sell an item and reduce the time it takes to take a payment.</p><h3 id=\"RepairQ1.13-BarcodeScanningAutomation\">Barcode Scanning Automation</h3><p>Now you don\u2019t need to click anything to sell an item on a ticket! Now when using a barcode scanner the item will be added to the ticket automatically, and you don\u2019t even need to focus on the ticket item search box first! Simply start a new ticket, scan a barcode, and watch as it is added to the ticket.</p><h3 id=\"RepairQ1.13-QuickCashButtons\">Quick Cash Buttons</h3><p>Take cash payments with a single click using the new quick cash buttons. Based on the balance due, RepairQ will suggest each possible cash combination your customer might pay with. Simply click the button for the bill(s) they hand you, and then you are done booking the payment!</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030698611"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 93992483
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030698611/child",
+    "restrictions": "/rest/api/content/2030698611/restriction/byOperation",
+    "history": "/rest/api/content/2030698611/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030698611/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030698611",
+    "webui": "/spaces/SCD/pages/2030698611/RepairQ+1.13",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030698611",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698611",
+    "tinyui": "/x/cwAKeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

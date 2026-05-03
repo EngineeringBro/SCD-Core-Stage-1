@@ -1,0 +1,129 @@
+{
+  "id": "1933246874",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933246874",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzI0Njg3NA==",
+  "status": "current",
+  "title": "Journal Entries: Set Default Account Classifications",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:36.677Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "2",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933246874.56",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933246874"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246874/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ generates Journal Entries for various business transactions, including sales, payments, Cost of Goods Sold (COGS), inventory, and payable taxes. If you have established a Chart of Accounts (COA) for your business, you can seamlessly map the data from our application to your COA. This mapping process automates the classification of events, ensuring accurate and organized financial reporting.</p><p>The mapped data is utilized to generate the Journal Entries Report, a critical component for Quickbooks integration. This report provides a detailed breakdown of financial activities, enhancing your accounting process. To further streamline your accounting workflow, RepairQ allows you to export these journal entries into your accounting system\u2013QuickBooks, Xero, etc. Our integration with QuickBooks simplifies the transfer of financial information, making a seamless and efficient process for maintaining accurate records. This report can also be used to send on-demand journal entries to QuickBooks if you encounter an error during the upload process.</p><p><strong>Accurate Financial Reporting</strong> - Generate detailed journal entries for sales, payments, COGS, inventory, and taxes payable. The Journal Entries Report is a comprehensive overview of your business transactions.</p><p><strong>Export Functionality</strong> - Export Journal Entries from RepairQ for use with your preferred accounting system, saving time and reducing errors.</p><p><strong>QuickBooks Integration</strong> - Streamline your accounting process by transmitting Journal Entry data into your asset and liability accounts in QuickBooks nightly.</p><p>For questions about your Chart of Accounts in your accounting software, please consult with a CPA on proper policies, procedures, and laws in your state.</p><h3 id=\"JournalEntries:SetDefaultAccountClassifications-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934524484/Accounting+Software+Resources\" data-linked-resource-id=\"1934524484\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Accounting Software Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917678/Reports+Accounting+System+Reporting\" data-linked-resource-id=\"1934917678\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Reports: Accounting System Reporting</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246837/Reports+Accounting+Journal+Entries\" data-linked-resource-id=\"1933246837\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Reports: Accounting Journal Entries</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934458970/Chart+of+Accounts+-+Accounting+Journal+Entries\" data-linked-resource-id=\"1934458970\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Chart of Accounts - Accounting Journal Entries</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229563/Integrations+QuickBooks+Online+Setup\" data-linked-resource-id=\"1934229563\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">Integrations: QuickBooks Online Setup</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934393396/QuickBooks+Integration+Sending+Journal+Entries+on+Demand\" data-linked-resource-id=\"1934393396\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">QuickBooks Integration: Sending Journal Entries on Demand</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246874/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"JournalEntries:SetDefaultAccountClassifications-SettingUpDefaultJournalEntryClassificationsforYourLocation\">Setting Up Default Journal Entry Classifications for Your Location</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings</strong> \u2192 <strong>Location Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"665\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246874/QB%20Integration%2012.png?api=v2\"></span><p /><p><strong>Note</strong>: An Admin can manage classifications for all locations by going to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>.</p><p /><p>2. On the Location Settings Overview page, under the <strong>Account </strong>category, click <strong>Accounting</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"621\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246874/QB%20Integration%2013.png?api=v2\"></span><p /><p>3. On the Accounting page, you can rename the account name/identifier based on your accounting system. If you have set up <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229563/Integrations+QuickBooks+Online+Setup\" data-linked-resource-id=\"1934229563\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">QuickBooks integration</a>, these fields will be replaced with dropdown options based on the classifications that have been created in your QuickBooks Online account</p><p>Once you are finished updating your information, click <strong>Save</strong> <strong>Default</strong> <strong>Accounts</strong>.</p><p /><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246874/Journal%20Entry%203.png?api=v2\"></span><p /><h2 id=\"JournalEntries:SetDefaultAccountClassifications-AdvancedAccountClassification\">Advanced Account Classification</h2><p>Users can classify accounting events in greater detail in other areas of RepairQ: Item Types, Location Settings Catalog Items, and Payment Methods. Depending on the level of where the classification is assigned (Company/Location), it may override account classifications set in other areas of the application. If these fields are left blank, they will inherit the accounts set at the highest assigned level.</p><h4 id=\"JournalEntries:SetDefaultAccountClassifications-ItemTypes\">Item Types</h4><p>If you want to assign Item Types to a unique account, navigate to <strong>Company</strong> <strong>Settings</strong> \u2192 <strong>Catalog</strong> \u2192 <strong>Item</strong> <strong>Types</strong>. Edit the Item Type you wish to connect to a specific account and enter that account name into the appropriate field(s).</p><p><strong>Note</strong>: Changes made at the Item Type Level will affect all items created under this type for all locations.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246874/Journal%20Entry%205.png?api=v2\"></span><p /><h4 id=\"JournalEntries:SetDefaultAccountClassifications-CatalogItems\">Catalog Items</h4><p>If you want to assign Catalog Items to their unique account, navigate to <strong>Settings</strong> \u2192 <strong>Catalog</strong>. Edit the Catalog Item you wish to connect to a specific account and enter that account name into the appropriate field(s).</p><p><strong>Note</strong>: Changes at the Catalog Item level will override other assigned classifications for this item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246874/Journal%20Entry%206.png?api=v2\"></span><p /><h4 id=\"JournalEntries:SetDefaultAccountClassifications-Locations\">Locations</h4><p>If your company has multiple locations and you wish to manage the Default Accounting Class, Sales Tax Payable, and Customer Deposit accounts separately, navigate to <strong>Location Settings</strong> \u2192 <strong>Account</strong> \u2192 <strong>Locations</strong>. </p><p><strong>Note</strong>: Changes at the Location level will override classifications set at the Company level.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246874/Journal%20Entry%207.png?api=v2\"></span><p /><h4 id=\"JournalEntries:SetDefaultAccountClassifications-PaymentMethods\">Payment Methods</h4><p>If you have a Payment Method you need to associate with a specific account, navigate to <strong>Company Settings</strong> \u2192 <strong>Payments</strong> \u2192 <strong>Payment</strong> <strong>Methods</strong>. Edit the payment method(s) you wish to change, and <strong>Save</strong> your settings.</p><p>Alternatively, when logged into the appropriate location, you can navigate to <strong>Location</strong> <strong>Settings</strong> \u2192 <strong>Payments</strong> \u2192 <strong>Payment</strong> <strong>Methods\u00a0</strong>to edit your location details.</p><p><strong>Note</strong>: Changes made at the Company level will affect all locations, however, changes made at the Location level will override what is assigned at the Company level.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933246874/Journal%20Entry%208.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933246874"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933246874/child",
+    "restrictions": "/rest/api/content/1933246874/restriction/byOperation",
+    "history": "/rest/api/content/1933246874/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933246874/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933246874",
+    "webui": "/spaces/SCD/pages/1933246874/Journal+Entries+Set+Default+Account+Classifications",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933246874",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933246874",
+    "tinyui": "/x/mgE7cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

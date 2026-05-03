@@ -1,0 +1,129 @@
+{
+  "id": "1934360696",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934360696",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDM2MDY5Ng==",
+  "status": "current",
+  "title": "Invoicing: Managed Services Contract",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:52.386Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "7",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934360696.17",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934360696"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934360696/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Under a Managed Services Contract, a repair shop will perform repair services at the request of consumers, businesses, or organizations and will charge fees to the business or organization designated on the contract. \u00a0In some cases, the contract will require advance payment, while in other cases, the contract will offer net payment terms. The article below outlines different ways to manage these agreements.</p><h3 id=\"Invoicing:ManagedServicesContract-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196827/Invoicing+Resources\" data-linked-resource-id=\"1934196827\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360682/Invoicing+Accepting+Advance+Payment+for+Net+Terms+Customers+and+Billing+Agents\" data-linked-resource-id=\"1934360682\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing: Accepting Advance Payment for Net Terms Customers and Billing Agents</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934327961/Invoicing+Remittance+and+Reconciling+Invoices\" data-linked-resource-id=\"1934327961\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoicing: Remittance and Reconciling Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196840/Invoicing+Creating+and+Managing+Invoices\" data-linked-resource-id=\"1934196840\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing: Creating and Managing Invoices</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934360696/Technical%20-%20124a6d.png?api=v2\"></span><h2 id=\"Invoicing:ManagedServicesContract-RecordingAdvancePayment(Optional)\">Recording Advance Payment (Optional)</h2><p>As advance payments are received, they should be credited to the Customer (that has net terms) or Billing Agent's account profile, determined as the party who will be responsible for payment. \u00a0A Customer's Deposit Account will be used to pay for repairs recorded on tickets under that account only. A Billing Agent's Deposit Account will be used to pay for repairs recorded on tickets under any customer ticket associated with that Billing Agent.</p><p /><h2 id=\"Invoicing:ManagedServicesContract-TrackRepairContactandBillingContact\">Track Repair Contact and Billing Contact</h2><p>Repair services provided throughout the contract term will be tracked using Repair Tickets in RepairQ. Each Repair Ticket will capture information about the customer, one or more devices, and a Billing Agent. Under a managed services contract, the customer will be the person the repair shop will communicate details about the repair, and the Billing Agent will be the organization with whom the repair shop will communicate any charges due in association with the repair service.</p><p /><h2 id=\"Invoicing:ManagedServicesContract-GeneratingInvoices\">Generating Invoices</h2><p>Users can generate invoices on a regular basis for all tickets (in Waiting For Payment status) associated with a net terms customer or Billing Agent at the time of invoicing. Invoices can be emailed responsible customer or Billing Agent for payment.</p><p /><h2 id=\"Invoicing:ManagedServicesContract-ApplyingaPayment\">Applying a Payment</h2><p>If the net term customer or Billing Agent account profile has a credit balance, a debit can be issued against the account and applied as payment on an Invoice. Otherwise, when a payment is received on net terms, it will be applied to the invoice. Over-payment can be recorded as a credit to the customer or Billing Agent profile to be applied to a future ticket or invoice. Partial payment will be handled by leaving the Invoice open for additional payment or by writing off (i.e. discounting) the remainder. Tickets that have been paid in full through the system will be closed out at the time the payment is recorded.</p><p /><h2 id=\"Invoicing:ManagedServicesContract-CaptureRetainerBalanceonInvoice\">Capture Retainer Balance on\u00a0Invoice</h2><p>At the end of the term, the credit balance remainder in the customer or Billing Agent account must be captured through the system as revenue. The repair shop can create a repair ticket, add the net terms customer or Billing Agent associated with the contract, add a specific, user-created catalog item (e.g. Managed Services Reconciliation) to the Ticket Items section, set the price equal to the amount remaining in the account, and set the ticket status to Waiting for Payment.</p><p>With the Ticket recorded properly, the repair shop will follow the steps above to generate an invoice and record a payment from the customer's or Billing Agent's account against the Invoice.</p><p /><h2 id=\"Invoicing:ManagedServicesContract-CaptureRetainerBalanceonTicket\">Capture Retainer Balance on\u00a0Ticket</h2><p>If the remaining balance resides in a customer account, an alternative method of reconciliation is to create a Quick Sale Ticket, add the customer associated with the contract, add the user-created catalog item (e.g. Managed Services Reconciliation) to the ticket items section, set the ticket item price equal to the amount to be debited from the account, record payment using their store credit, and close the ticket. This method will bypass invoicing and is only feasible for customer accounts and not for Billing Agent accounts.</p><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934360696"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934360696/child",
+    "restrictions": "/rest/api/content/1934360696/restriction/byOperation",
+    "history": "/rest/api/content/1934360696/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934360696/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934360696",
+    "webui": "/spaces/SCD/pages/1934360696/Invoicing+Managed+Services+Contract",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934360696",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934360696",
+    "tinyui": "/x/eABMcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

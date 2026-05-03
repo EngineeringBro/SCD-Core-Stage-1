@@ -1,0 +1,129 @@
+{
+  "id": "1933738070",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933738070",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzczODA3MA==",
+  "status": "current",
+  "title": "Coupons and Promotions",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:54:35.578Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "28",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933738070.16",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933738070"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933738070/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Discounts are a proven way to attract new\u00a0customers and boost sales. RepairQ makes it easy to create Discount items and track their use.</p><p>Creating a Discount Item Type</p><p>Creating a &quot;Discount&quot; Item Type is recommended for optimal reporting of their use.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933738070/Coupons%20and%20Promos%201.png?api=v2\"></span><p /><p><em>Note: You may alternatively want to create two different Discount Item Types: One for dollar-off discounts and one for percentage-off discounts, toggling off the ability for dollar-discount items' price to be overridden. This would prevent users from overriding the price for a greater discount than what the item is intended for.</em></p><p>Creating a Discount Item</p><p>\u00a0 \u00a0 \u00a0$ Off Discount Items</p><p /><p>1. Add a new Catalog Item, entering the appropriate name, SKU, etc. They do not need to be marked as Inventoried or Repairable.</p><p /><p>2. Enter the amount the discount item is for in the price field.</p><p>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0<strong>Important: The number in the Price field needs to be negative in order to affect a\u00a0ticket total correctly when the item is added to a ticket.</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933738070/Coupons%20and%20Promos%202.png?api=v2\"></span><p /><p>\u00a0 \u00a0 \u00a0% Off Discount Items</p><p /><p>1. Add a new Catalog Item, entering the appropriate name, SKU, etc. They do not need to be marked as Inventoried or Repairable.</p><p /><p>2. Enter the $0.00 as the price for this item. The discount will be set when this item is added to a\u00a0ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933738070/Coupons%20and%20Promos%203.png?api=v2\"></span><p /><p>Disabling a Discount Item</p><p>When a promotion ends, you can inactivate the Catalog Item. This will make it unusable on tickets, but the item will still reflect appropriately in Reports.</p><p>Find the Catalog Item and Edit it.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933738070/Coupons%20and%20Promos%204.png?api=v2\"></span><p /><p>Uncheck the &quot;Active&quot; checkbox to inactivate the item, then hit &quot;Save&quot;.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933738070/Coupons%20and%20Promos%205.png?api=v2\"></span><p /><p>Adding Discount Items to tickets</p><p><em><strong>Note:</strong>\u00a0Since tax is applied at the ticket item level, negatively priced discounts items will\u00a0</em>not<em>\u00a0affect the taxable sales amount.</em></p><p>Adding a discount item to a ticket is the same as adding any other item to a ticket. Search for the item or scan a barcode to find the item.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933738070/Coupons%20and%20Promos%206.png?api=v2\"></span><p /><p>For percentage-off discount items, the price needs to be manually calculated and set.</p><p><strong>Important: The number in the Price field needs to be negative in order to affect the\u00a0ticket total correctly.</strong></p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933738070/Coupons%20and%20Promos%207.png?api=v2\"></span><p /><p>Reporting for Use of Discount Items</p><p>Use the Sales Summary/Detail by Catalog Item Report to report for overall use of discount items. If a Discount Item Type was created, the Item Type filter can be set to Discount items to only report for those items.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933738070/Coupons%20and%20Promos%208.png?api=v2\"></span><p /><p>Use the Staff Leaderboard Report to get a detailed list of of discount item use by staff member. This will help identify potential abuse of Discount items.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933738070/Coupons%20and%20Promos%209.png?api=v2\"></span><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933738070"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933738070/child",
+    "restrictions": "/rest/api/content/1933738070/restriction/byOperation",
+    "history": "/rest/api/content/1933738070/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933738070/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933738070",
+    "webui": "/spaces/SCD/pages/1933738070/Coupons+and+Promotions",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933738070",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933738070",
+    "tinyui": "/x/VoBCcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

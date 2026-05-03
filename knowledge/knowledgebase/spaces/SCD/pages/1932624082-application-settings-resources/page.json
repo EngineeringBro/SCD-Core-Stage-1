@@ -1,0 +1,129 @@
+{
+  "id": "1932624082",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932624082",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjYyNDA4Mg==",
+  "status": "current",
+  "title": "Application Settings Resources",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:48:58.193Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932624082.152",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932624082"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932624082/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Application Settings can be used to manage many of your RepairQ configurations, integrations, behaviors, and more. These can be managed at the Company (Global) Level, which affects all locations, or at the Location Level, which will override the setting for that location only.</p><p>Users with Admin priviliges can make changes at all levels, while users with the Manager role can make changes at the Location level. </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"564\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624082/Settings%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624082/Control%20-%20f79824.png?api=v2\"></span><h3 id=\"ApplicationSettingsResources-AccountManagement\">Account Management</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928921186/RepairQ+Subscription+Management+Change+Your+Subscription\" data-linked-resource-id=\"1928921186\" data-linked-resource-version=\"19\" data-linked-resource-type=\"page\">RepairQ Subscription Management: Changing Your Subscription</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Integrations\">Integrations</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803609/Integrations+Twilio\" data-linked-resource-id=\"1933803609\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Integrations: Twilio</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933443104/Integration+Setup+Listen360\" data-linked-resource-id=\"1933443104\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">Integration Setup: Listen360</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229707/QZ+Integrated+Printing+-+Start+Here\" data-linked-resource-id=\"1934229707\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Introduction to QZ Integrated Printing - Start Here!</a> </p></li></ul></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934458970/Chart+of+Accounts+-+Accounting+Journal+Entries\" data-linked-resource-id=\"1934458970\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Accounting Journal Entries Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1928986689/Location+Settings\" data-linked-resource-id=\"1928986689\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Location Settings Overview</a> (Location Info for Company Settings)</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Communications\">Communications</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933803521/Dashboard+Announcements\" data-linked-resource-id=\"1933803521\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Dashboard Announcements</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notification Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932460196/Send+Notification+Emails+From+Your+Domain\" data-linked-resource-id=\"1932460196\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Sending Notification Emails From Your Domain</a></p></li></ul><h3 id=\"ApplicationSettingsResources-PrinterSetup\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246619/Label+Printer+Setup+and+Troubleshooting\" data-linked-resource-id=\"1933246619\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Printer Setup</a> </h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361958/Print+Settings+-+Receipt+Template\" data-linked-resource-id=\"1932361958\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Print Settings - Receipts</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377656/Print+Settings+-+Invoices\" data-linked-resource-id=\"1933377656\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Print Settings - Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933672639/Email+a+Receipt+to+a+Customer\" data-linked-resource-id=\"1933672639\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Emailing a Receipt to a Customer</a></p><ul><li><p>Customize appearance of receipts sent via email.</p></li></ul></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932492983/Creating+Custom+Forms\" data-linked-resource-id=\"1932492983\" data-linked-resource-version=\"14\" data-linked-resource-type=\"page\">Creating and Working with Custom Forms</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1943404579/Print+a+Ticket+Label\" data-linked-resource-id=\"1943404579\" data-linked-resource-version=\"3\" data-linked-resource-type=\"page\">Print a Ticket Label</a></p></li><li><p>Inventory Labels</p><ul><li><p>Customize appearance of inventory labels printed from Inventory Summary page.</p></li></ul></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344820/Print+a+Catalog+Item+Reference+Sheet\" data-linked-resource-id=\"1933344820\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Print a Catalog Item Reference Sheet</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Customers\">Customers</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932394664/Assigning+a+Customer+Referral+Source\" data-linked-resource-id=\"1932394664\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Assigning a Customer Referral Source</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246536/Assigning+Customer+Segments\" data-linked-resource-id=\"1933246536\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Assigning Customer Segments</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932525739/Creating+Customer+Contact+Methods\" data-linked-resource-id=\"1932525739\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Creating Customer Contact Methods</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869089/Required+Fields+for+Customer+Profiles\" data-linked-resource-id=\"1933869089\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Validation Rules for Customers</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246822/Appointments+General+Settings\" data-linked-resource-id=\"1933246822\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Appointment Settings Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934491696/Appointments\" data-linked-resource-id=\"1934491696\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Appointments Overview</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Payments\">Payments</h3><ul><li><p>Creating a new Payment Method</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933901843/Virtual+Cash+Terminal+VCT+Setup\" data-linked-resource-id=\"1933901843\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Setting up a Virtual Cash Terminal (VCT)</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934295157/Integrated+Payment+Processing+-+Start+Here\" data-linked-resource-id=\"1934295157\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Payment Processing - Start Here!</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Tickets\">Tickets</h3><ul><li><p>Ticket General Settings Overview - Company</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933770795/Introduction+to+Custom+Forms+-+Start+Here\" data-linked-resource-id=\"1933770795\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Introduction to Custom Forms - Start Here!</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936654431/Managing+Service+Authorizers\" data-linked-resource-id=\"1936654431\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Managing Service Authorizers</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936687196/Managing+Service+Programs\" data-linked-resource-id=\"1936687196\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Managing Service Programs</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196827/Invoicing+Resources\" data-linked-resource-id=\"1934196827\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing Overview</a></p></li><li><p>Ticket Statuses</p><ul><li><p>Customize your ticket status names</p></li></ul></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932394588/Ticket+Properties+Create+a+Ticket+Resolution\" data-linked-resource-id=\"1932394588\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Ticket Properties: Creating New Ticket Resolutions</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377703/Creating+Warranties+and+Disclaimers\" data-linked-resource-id=\"1933377703\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Creating Warranties and Disclaimers</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933508692/Warranty+Claims+Processing\" data-linked-resource-id=\"1933508692\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Warranty Claims Processing</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Taxes\"><a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/204900380-Setting-up-Taxes\" rel=\"nofollow\">Taxes</a></h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933410332/Setting+up+and+Assigning+Tax+Rates\" data-linked-resource-id=\"1933410332\" data-linked-resource-version=\"20\" data-linked-resource-type=\"page\">Setting up Taxes</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Categories\">Categories</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932591138/Catalog+Management+Organize+Your+Catalog+with+Category+Trees+and+Item+Grids\" data-linked-resource-id=\"1932591138\" data-linked-resource-version=\"18\" data-linked-resource-type=\"page\">Categories: Create Item Tree</a></p></li><li><p><a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Categories%3A%20Link%20Catalog%20Items%20an%20Item%20Grid&amp;linkCreation=true&amp;fromPageId=1932624082\">Categories: Create an Item Grid</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Catalog\"><a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/202496934-How-to-Set-Up-a-Catalog\" rel=\"nofollow\">Catalog</a></h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1931018355/The+RepairQ+Catalog\" data-linked-resource-id=\"1931018355\" data-linked-resource-version=\"16\" data-linked-resource-type=\"page\">Catalog Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932656763/Catalog+Items+Creating+Sellable+Repairable+and+Trade-in+Devices\" data-linked-resource-id=\"1932656763\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Catalog Items: Creating Sellable, Repairable, and Trade-in Devices</a></p></li><li><p><a class=\"createlink\" href=\"/wiki/pages/createpage.action?spaceKey=SCD&amp;title=Categories%3A%20Link%20Catalog%20Items%20an%20Item%20Grid&amp;linkCreation=true&amp;fromPageId=1932624082\">Categories: Create an Item Grid</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427325/Catalog+Settings\" data-linked-resource-id=\"1932427325\" data-linked-resource-version=\"12\" data-linked-resource-type=\"page\">Catalog Settings Overview</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932329027/Creating+a+New+Item+Type\" data-linked-resource-id=\"1932329027\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Creating an Item Type</a> </p></li><li><p>Creating Manufacturers</p></li><li><p>Creating Carriers</p></li><li><p>Creating Suppliers</p></li><li><p>Creating Shippers</p></li><li><p>Creating Inventory Conditions</p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status - What Does It Mean?</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416/Purchase+Order+Resources\" data-linked-resource-id=\"1932427416\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Purchase Order Resources</a></p><ul><li><p>Customize purchase order status names</p></li></ul></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344820/Print+a+Catalog+Item+Reference+Sheet\" data-linked-resource-id=\"1933344820\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Print a Catalog Item Reference Sheet</a></p><ul><li><p>Create and print custom label pages for price sheets, label printing, and more.</p></li></ul></li></ul><h3 id=\"ApplicationSettingsResources-IntroductiontoQpop\u2122Companion-StartHere\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1937047567/Qpop+Companion+Resources+with+Video\" data-linked-resource-id=\"1937047567\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Introduction to Qpop\u2122 Companion - Start Here</a></h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261206/Qpop+Companion+Recommended+Image+Resolutions\" data-linked-resource-id=\"1936261206\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Qpop\u2122 Companion - Recommended Image Resolutions</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Qsite(CompanySettings)\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936261226/Qsite+Opportunities+Settings+Management\" data-linked-resource-id=\"1936261226\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite</a> (Company Settings)</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936785428/Embed+Qsite+Features+Into+Your+Website\" data-linked-resource-id=\"1936785428\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Embed Qsite\u2122 Features Into Your Website</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936425067/Qsite+Ticket+Status+-+Keep+Customers+Updated+on+Their+Tickets\" data-linked-resource-id=\"1936425067\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Qsite\u2122 Ticket Status</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936588905/Qsite+Opportunities\" data-linked-resource-id=\"1936588905\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Qsite\u2122 Opportunities</a></p></li></ul><h3 id=\"ApplicationSettingsResources-IntroductiontoQZIntegratedPrinting-StartHere!(IfActivated)\"><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229707/QZ+Integrated+Printing+-+Start+Here\" data-linked-resource-id=\"1934229707\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Introduction to QZ Integrated Printing - Start Here!</a> (If Activated)</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936359430/Integrated+Printing+101+Downloading+QZ+Tray\" data-linked-resource-id=\"1936359430\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Integrated Printing 101: Downloading QZ Tray</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936457750/Integrated+Printing+102+Adding+Integrated+Printers\" data-linked-resource-id=\"1936457750\" data-linked-resource-version=\"10\" data-linked-resource-type=\"page\">Integrated Printing 102: Adding Integrated Printers</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936949270/Integrated+Printing+103+Adding+and+Assigning+Printer+Configurations\" data-linked-resource-id=\"1936949270\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Integrated Printing 103: Adding and Assigning Printer Configurations</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936392218/Integrated+Printing+104+Creating+and+Customizing+Print+Automation\" data-linked-resource-id=\"1936392218\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Integrated Printing 104: Adding Print Automations</a></p></li></ul><h3 id=\"ApplicationSettingsResources-Miscellaneous\">Miscellaneous</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279270/Add+Your+Logo+to+Receipts+and+Invoices\" data-linked-resource-id=\"1933279270\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Add Your Logo to Receipts and Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1936326777/Adding+Your+Company+Logo+to+RepairQ\" data-linked-resource-id=\"1936326777\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Adding Your Company Logo to RepairQ</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932361894/Company+Miscellaneous+Application+Settings\" data-linked-resource-id=\"1932361894\" data-linked-resource-version=\"11\" data-linked-resource-type=\"page\">Miscellaneous Application Settings Overview</a></p></li></ul><p /><p>*Available with Qsite Opportunities</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932624082"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932624082/child",
+    "restrictions": "/rest/api/content/1932624082/restriction/byOperation",
+    "history": "/rest/api/content/1932624082/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932624082/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932624082",
+    "webui": "/spaces/SCD/pages/1932624082/Application+Settings+Resources",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932624082",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932624082",
+    "tinyui": "/x/0oAxcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1933803762",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933803762",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzgwMzc2Mg==",
+  "status": "current",
+  "title": "Reports: Repairs by Technician",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:56:00.533Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 6,
+    "minorEdit": false,
+    "ncsStepVersion": "145",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933803762.25",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933803762"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803762/version/6"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Repairs by Tech report provides a high-level look at a technician's work, showing total repairs and labor hours used for those repairs. This report pulls data based on the\u00a0<strong>Repaired By</strong>\u00a0Relations field when adding an item to a repair ticket</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803762/image-20230627-153608.png?api=v2\"></span><h3 id=\"Reports:RepairsbyTechnician-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933377814/Reports+Repairs+by+Device\" data-linked-resource-id=\"1933377814\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Reports: Repairs by Device</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1939570735/Reports+Repairs+by+Technician+and+Item\" data-linked-resource-id=\"1939570735\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Reports: Repairs by Tech and Item</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803762/image-20230627-153605.png?api=v2\"></span><h2 id=\"Reports:RepairsbyTechnician-ViewtheRepairsbyTechReport\">View the Repairs by Tech Report</h2><p /><p>On the Navigation Bar, click\u00a0<strong>Reports</strong>. On the Reports page, click on the\u00a0<strong>Productivity\u00a0dropdown</strong>\u00a0along the top row of report categories. From the available list, click\u00a0<strong>Repairs by Tech</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803762/image-20230627-153612.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803762/image-20230627-153615.png?api=v2\"></span><p /><p>Use the available filters to scope results based on the assigned parameters.\u00a0Once you have set your filters, click\u00a0<strong>Apply\u00a0Filters\u00a0</strong>to run the report.</p><p><strong>Note</strong>: We recommend that you account for productivity based on closed tickets only. Once a ticket has been closed, the date will no longer change, and the ticket has been paid in full. This also aligns with our\u00a0<a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934360642/RepairQ+Accounting+Principles\" data-linked-resource-id=\"1934360642\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">accounting principles</a>, as open tickets are considered a liability until the ticket is closed.\u00a0</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803762/image-20230627-153618.png?api=v2\"></span><ul><li><p><strong>Date Range </strong>- Select a date range for your scope of results.</p></li><li><p><strong>Location </strong>- Select a specific location or an aggregate report of all locations.</p></li><li><p><strong>Ticket Status </strong>- Select a specific ticket status or all ticket statuses for your results. The results will reflect the date when the ticket was updated. By default, the report will run for tickets in <strong>Closed</strong> status because this is the most reliable method for this business model.</p></li><li><p><strong>Action</strong> - Filter results by any assigned Ticket Action(s).</p></li><li><p><strong>Resolution</strong> - Filter results by any assigned Ticket Resolution(s).</p></li><li><p><strong>Item Type</strong> - Select a specific item type or all item types.</p></li><li><p><strong>Catalog</strong>\u00a0<strong>Item</strong>\u00a0- Keyword search for a specific catalog item.</p></li><li><p><strong>Include Labor in Total Cost</strong>\u00a0- Labor is added based on hours entered on ticket items and the assigned staff member's pay rate assigned in their profile.</p></li></ul><hr/><h2 id=\"Reports:RepairsbyTechnician-RepairsbyDevice\">Repairs by Device</h2><p>The Repairs by Technician Report gives a list of Technician Names and sums of Service Quantity (ticket items with an Item Type marked as labor), Parts Used (ticket items with an Item Type marked as parts), Average Labor Hours (the average of all service quantities divided by tickets), and Total Cost, Sale, and Discounts.</p><p>The Profit Margin is calculated by the following equation: Gross Sale - Discounts - Total Cost = Profit Margin.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Repairs by Tech 5.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803762/Repairs%20by%20Tech%205.png?api=v2\"></span><p /><p>Click\u00a0<strong>Hide/Show Filters\u00a0</strong>on the upper-right side of the page to collapse/expand the filters when viewing reports. </p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"253\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803762/image-20230627-153621.png?api=v2\"></span><p /><p>Click\u00a0<strong>To Excel\u00a0</strong>on the upper-right side of the report page to export an Excel-friendly document. The export will include any filtered data when running the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"253\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933803762/image-20230627-153624.png?api=v2\"></span><p /><p /><p>START 1.21.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933803762"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933803762/child",
+    "restrictions": "/rest/api/content/1933803762/restriction/byOperation",
+    "history": "/rest/api/content/1933803762/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933803762/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933803762",
+    "webui": "/spaces/SCD/pages/1933803762/Reports+Repairs+by+Technician",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933803762",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933803762",
+    "tinyui": "/x/8oBDcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "2030698517",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2030698517",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMDY5ODUxNw==",
+  "status": "current",
+  "title": "1.16.24",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T21:45:45.165Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "77",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2030698517.16",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2030698517"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698517/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Deployed 3/2/2020 11:30PM CT (16:30 UTC)</p><p>Release 1.16.24 is a minor release which adds a handful of new features and bug fixes.</p><h3 id=\"id-1.16.24-NewFeaturesandEnhancements\">New Features and Enhancements</h3><ul><li><p>Invoice Created On Date can now be printed on invoices through a new print setting.</p></li><li><p>RepairQ will now prevent changing the item type for already used items via catalog item import.</p></li><li><p>Auto clock out will now set the clock out time with more precision.</p></li><li><p>RepairQ will now auto-close appointments when a quote is converted, and convert a quote when an appointment is started.</p></li></ul><h3 id=\"id-1.16.24-BugFixes\">Bug Fixes</h3><ul><li><p>We fixed a handful of issues with capturing electronic signatures on Qpop.</p></li><li><p>Fixed confusing input focus change on serial number input for Trade-in items.</p></li><li><p>Fixed issue with searching some special characters.</p></li><li><p>Fixed error when geocoding locations in Qsite settings.</p></li><li><p>Fixed Summary Report layout issue when viewed from beginning of year.</p></li><li><p>Fixed the ability to clear customer info by saving empty values for customer attributes.</p></li><li><p>Fixed an issue where timesheet totals were incorrect if a staff member clocked in at multiple locations for the same time period.</p></li></ul>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2030698517"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 67392468
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2030698517/child",
+    "restrictions": "/rest/api/content/2030698517/restriction/byOperation",
+    "history": "/rest/api/content/2030698517/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2030698517/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2030698517",
+    "webui": "/spaces/SCD/pages/2030698517/1.16.24",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2030698517",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2030698517",
+    "tinyui": "/x/FQAKeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

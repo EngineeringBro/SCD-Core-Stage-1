@@ -1,0 +1,129 @@
+{
+  "id": "2013626370",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2013626370",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAxMzYyNjM3MA==",
+  "status": "current",
+  "title": "RepairQ Help Desk - Organization Management",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:49:24.548Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 3,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2013626370.98",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2013626370"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2013626370/version/3"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Help Desk is designed to enhance your support experience by offering self-help options through our Knowledge Base and allowing users to submit and manage support requests. It is not required to create a user account to manage your requests, however, an account will allow you to sort and manage those requests in one place.</p><p>When creating a user account you can view a history of any issues submitted to the Support Team that were submitted from the associated email address. Your requests are also assigned to an organization based on your email address domain. Most company domains will be recognized and automatically assigned to an organization.</p><p>When your tickets are part of an organization, you have additional filters to sort by tickets created by you or all tickets submitted under the organization. This is helpful in sorting to find common issues and solutions to similar issues that have previously been resolved. </p><p><strong>Note</strong>: If you are corresponding via email, make sure to update your Approved Senders List with the following email addresses to ensure you receive our response: <a class=\"external-link\" href=\"mailto:no-reply@automation.atlassian.com\" rel=\"nofollow\"><strong>no-reply@automation.atlassian.com</strong></a> and <a class=\"external-link\" href=\"mailto:jira@automation.atlassian.com\" rel=\"nofollow\"><strong>jira@automation.atlassian.com</strong></a>. If you have not received a response in a timely manner, we also recommend checking your spam and trash folders before sending a follow-up to our team.</p><p>If you send requests from an email address with a generic domain (gmail, iCloud, etc.) your requests will not be added to an organization. You may need to contact your company admin to request your email to be invited to the organation.</p><h3 id=\"RepairQHelpDesk-OrganizationManagement-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1941831681/RepairQ+Help+Desk+-+Knowledge+Base+and+Submit+a+Request\" data-linked-resource-id=\"1941831681\" data-linked-resource-version=\"33\" data-linked-resource-type=\"page\">RepairQ Help Desk - Knowledge Base and Submit a Request</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1941700634/Create+a+Help+Desk+User+Account\" data-linked-resource-id=\"1941700634\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">Create a Help Desk User Account</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1941143880/RepairQ+Help+Desk+-+Viewing+Requests+and+Status+Updates\" data-linked-resource-id=\"1941143880\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">RepairQ Help Desk - Viewing Requests and Status Updates</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494471/Help+Desk+Hours+and+Support+Requests\" data-linked-resource-id=\"1930494471\" data-linked-resource-version=\"33\" data-linked-resource-type=\"page\">Contacting RepairQ Support</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2013626370/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"RepairQHelpDesk-OrganizationManagement-SortingRequestsbyOrganization\">Sorting Requests by Organization</h2><p /><p>1. Log into your Help Desk Account. On the top-right of the page, click the <strong>Requests button</strong>. From the dropdown list of options, you can view requests created by the user (you), your organization, and all requests. Click your <strong>Organization Name</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2013626370/Organization%201.png?api=v2\"></span><p /><p>2. On the Requests page, you will see all requests under your organization. In the filters section, you see that the list is sorted by organization. Click on any ticket to view it.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2013626370/Organization%202.png?api=v2\"></span><p /><p>3. When viewing your ticket, you can see which organization has been assigned under the <strong>Shared With</strong> section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2013626370/Organization%203.png?api=v2\"></span><h2 id=\"RepairQHelpDesk-OrganizationManagement-RemovingaTicketFromanOrganization\">Removing a Ticket From an Organization</h2><p>If you feel that your request(s) to Support have sensitive information and should not be shared across the organization, you can remove your request from organizational sorting. This ensures that other members within the same group cannot view this ticket.</p><p /><p>When viewing your request, simply click the Remove Button (X) next to your shared organization.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2013626370/Organization%203.png?api=v2\"></span><p /><p>When viewing the Request List filtered by organization, you will see that the request has been removed from view. Repeat this process for any other requests you have submitted that should not be shared with the rest of the group.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2013626370/Organization%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2013626370/Organization%205.png?api=v2\"></span><p /><p>You can still view the request when viewing requests that are <strong>Created by Me</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"340\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2013626370/Organization%206.png?api=v2\"></span><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2013626370"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2013626370/child",
+    "restrictions": "/rest/api/content/2013626370/restriction/byOperation",
+    "history": "/rest/api/content/2013626370/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2013626370/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2013626370",
+    "webui": "/spaces/SCD/pages/2013626370/RepairQ+Help+Desk+-+Organization+Management",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2013626370",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2013626370",
+    "tinyui": "/x/AoAFe",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

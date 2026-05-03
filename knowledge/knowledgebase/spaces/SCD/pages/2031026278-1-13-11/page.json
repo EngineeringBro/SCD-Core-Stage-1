@@ -1,0 +1,130 @@
+{
+  "id": "2031026278",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2031026278",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzMTAyNjI3OA==",
+  "status": "current",
+  "title": "1.13.11",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-07-20T22:23:16.581Z",
+    "friendlyWhen": "Jul 21, 2023",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "ncsStepVersion": "4",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2031026278.12",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2031026278"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031026278/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Released 02/13/2018 CT 12:07pm CT (18:07 UTC)</p><h2 id=\"id-1.13.11-PurchaseOrderItemList\">Purchase Order Item List</h2><p>We have condensed the purchase order item list to fit better on smaller screens. Specifically, we removed the SKU and UPC columns and added them as\u00a0sub-lines\u00a0in\u00a0the catalog item column.</p><h2 id=\"id-1.13.11-TicketItemDefaultQty\">Ticket Item Default Qty</h2><p>Inventoried items now always get a default qty of 1 when they are added to a ticket.</p><h2 id=\"id-1.13.11-Qsite\">Qsite</h2><p>By popular demand, the staff member's last name has been removed from\u00a0ticket comments.</p><h2 id=\"id-1.13.11-SalesReferralSummaryReportDownload\">Sales Referral Summary Report\u00a0Download</h2><p>We added a new\u00a0excel download for the Sales Referral Summary.</p><h2 id=\"id-1.13.11-AnnouncementDeleting\">Announcement Deleting</h2><p>We fixed an issue that would prevent deleting announcements</p><h2 id=\"id-1.13.11-InventoryLockforBackorderedItems\">Inventory Lock for Backordered Items</h2><p>Inventory locks are now pro-actively released on ticket save so that the inventory items are editable afterwards (when in a non-consumed status).</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2031026278"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 93995815
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2031026278/child",
+    "restrictions": "/rest/api/content/2031026278/restriction/byOperation",
+    "history": "/rest/api/content/2031026278/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2031026278/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2031026278",
+    "webui": "/spaces/SCD/pages/2031026278/1.13.11",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2031026278",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2031026278",
+    "tinyui": "/x/ZgAPeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

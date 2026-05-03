@@ -1,0 +1,129 @@
+{
+  "id": "1936818210",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1936818210",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNjgxODIxMA==",
+  "status": "current",
+  "title": "Catalog Items: Assign a Supplier SKU",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:50:56.710Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 18,
+    "minorEdit": false,
+    "ncsStepVersion": "2230",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1936818210.73",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1936818210"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936818210/version/18"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Linking Supplier SKUs to Catalog Items in RepairQ streamlines inventory management and improves order accuracy. By associating a supplier\u2019s unique SKU with your catalog, you can:</p><ul><li><p>Ensure precise communication with suppliers when placing orders.</p></li><li><p>Quickly identify and reorder items using supplier-provided references.</p></li><li><p>Consolidate inventory for items purchased from multiple suppliers.</p></li></ul><p>This feature enhances efficiency, minimizes errors, and helps maintain organized, accurate inventory records. In this article, we\u2019ll guide you through assigning Supplier SKUs to your Catalog Items using various methods.</p><h3 id=\"CatalogItems:AssignaSupplierSKU-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427416/Purchase+Order+Resources\" data-linked-resource-id=\"1932427416\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Purchase Order Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/2878537739\" rel=\"nofollow\">Catalog Management: Import Supplier SKUs</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1931018355\" rel=\"nofollow\">The RepairQ Catalog</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"Instructional - 0091cd.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"CatalogItems:AssignaSupplierSKU-AssignaSupplierSKUtoaCatalogItem\">Assign a Supplier SKU to a Catalog Item</h2><p>While editing a Catalog Item (on the edit page), click <strong>Supplier SKUs</strong> at the top of the page to add supplier details. A pop-up window will appear, allowing you to click <strong>Add Supplier SKU</strong> to enter SKU details and select a supplier from your Supplier List. Don\u2019t forget to click <strong>Save Changes</strong> to ensure your updates are saved.</p><p><strong>Note</strong>: If the item is sourced from multiple suppliers, you can create multiple entries to reflect each supply source.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Supplier SKU 3.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Supplier%20SKU%203.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Supplier SKU 4.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Supplier%20SKU%204.png?api=v2\"></span><hr/><h2 id=\"CatalogItems:AssignaSupplierSKU-AssignaSupplierSKUtoanItemonaPurchaseOrder\">Assign a Supplier SKU to an Item on a Purchase Order</h2><h3 id=\"CatalogItems:AssignaSupplierSKU-Non-IntegratedSuppliers\">Non-Integrated Suppliers</h3><p>When creating a new Purchase Order, start by selecting a Supplier for the order, then add items to the Item List. In the <strong>Supplier SKU</strong> field next to each Catalog Item, enter the relevant SKU details. This information will be saved when the Purchase Order is submitted.</p><p><strong>Note:</strong> The Supplier SKU field is linked to the Supplier assigned to the Purchase Order. If you switch to a different supplier, you can enter a different Supplier SKU for the item, and it will be saved in the list of assigned Supplier SKUs. Overwriting the Supplier SKU for an existing item will link an additional SKU to that Catalog Item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Supplier SKU 5.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Supplier%20SKU%205.png?api=v2\"></span><h3 id=\"CatalogItems:AssignaSupplierSKU-IntegratedSuppliers\">Integrated Suppliers</h3><p>When creating a new Purchase Order, select the Integrated Supplier then add items to the Item List. Click the <strong>Magnifying Glass</strong> next to the current supplier and search the supplier\u2019s catalog for the correct SKU. Select it to assign the new SKU. Once the order is placed, the SKU will be mapped to the item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"442\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Supplier%20SKU%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Supplier%20SKU%201.png?api=v2\"></span><h3 id=\"CatalogItems:AssignaSupplierSKU-AddanAdditionalSupplierSKU\">Add an Additional Supplier SKU</h3><p>There may be situations where you need to change the Supplier SKU linked to a catalog item. Selecting a new Supplier SKU for an existing item will link an additional SKU to that Catalog Item.</p><p>Common reasons for updating SKUs include:</p><ul><li><p><strong>Upgrading to a Different Product Tier</strong><br/>For example, you might switch from ordering a mid-tier, medium-grade part to a top-tier, premium-grade alternative from the same supplier.</p></li><li><p><strong>Supplier SKU Changes</strong><br/>Suppliers may notify you of updated SKUs for the same product. Updating this information ensures your records remain accurate and aligns your inventory with the supplier\u2019s current catalog.</p></li></ul><hr/><h2 id=\"CatalogItems:AssignaSupplierSKU-ViewAssignedSupplierSKUs\">View Assigned Supplier SKUs</h2><p>To view Supplier SKU details for a Catalog Item, click <strong>Supplier SKUs</strong> at the top of the item details page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Supplier SKU 9.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Supplier%20SKU%209.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Supplier SKU 10.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Supplier%20SKU%2010.png?api=v2\"></span><h2 id=\"CatalogItems:AssignaSupplierSKU-Edit/DeleteSupplierSKUs\">Edit/Delete Supplier SKUs</h2><p>When editing a Catalog Item, click <strong>Supplier SKUs</strong> at the top of the page. You can overwrite an existing SKU or use the <strong>Delete Button (Red X)</strong> to erase the entry. Be sure to click <strong>Save Changes</strong> to update your list.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Supplier SKU 7.png\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Supplier%20SKU%207.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" alt=\"Supplier SKU 6.png\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1936818210/Supplier%20SKU%206.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1936818210"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1936818210/child",
+    "restrictions": "/rest/api/content/1936818210/restriction/byOperation",
+    "history": "/rest/api/content/1936818210/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1936818210/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1936818210",
+    "webui": "/spaces/SCD/pages/1936818210/Catalog+Items+Assign+a+Supplier+SKU",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1936818210",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1936818210",
+    "tinyui": "/x/IoBxcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "seedQuery": "i",
+  "values": [
+    {
+      "title": "[DRAFT] Using the Customer Check-in Kiosk",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "4402741252",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/4402741252"
+      }
+    },
+    {
+      "title": "1.10.4",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2035843139",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2035843139"
+      }
+    },
+    {
+      "title": "RepairQ 1.17",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2029289514",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2029289514"
+      }
+    },
+    {
+      "title": "Deactivating (Closing) a Location: Frequently Asked Questions (FAQs)",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "2009006115",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/2009006115"
+      }
+    },
+    {
+      "title": "Integrated Payments: Square and Afterpay",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1938030595",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1938030595"
+      }
+    },
+    {
+      "title": "Business Intelligence - Inventory Forecasting",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1937670188",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1937670188"
+      }
+    },
+    {
+      "title": "Clearing Your Cache in Chrome Browser",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1937014903",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1937014903"
+      }
+    },
+    {
+      "title": "Zebra GK420D Blink Sequence",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1936261192",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1936261192"
+      }
+    },
+    {
+      "title": "EMV Frequently Asked Questions - FAQ",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934917825",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934917825"
+      }
+    },
+    {
+      "title": "RepairQ Accounting Principles",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934360642",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934360642"
+      }
+    },
+    {
+      "title": "Integrations: QuickBooks Online Setup",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1934229563",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1934229563"
+      }
+    },
+    {
+      "title": "Introduction to the Catalog - Start Here! (with video)",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932623898",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932623898"
+      }
+    },
+    {
+      "title": "Send Notification Emails From Your Domain",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932460196",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932460196"
+      }
+    },
+    {
+      "title": "Custom Forms: Capture Electronic Signatures on Forms",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1932427719",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1932427719"
+      }
+    },
+    {
+      "title": "Inventory Management: Adjust Inventory Levels via Import",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931018445",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931018445"
+      }
+    },
+    {
+      "title": "The RepairQ Catalog",
+      "excerpt": "",
+      "source": {
+        "type": "confluence",
+        "pageId": "1931018355",
+        "spaceKey": "SCD"
+      },
+      "content": {
+        "iframeSrc": "https://servicecentral.atlassian.net/rest/servicedeskapi/knowledgebase/article/view/1931018355"
+      }
+    }
+  ]
+}

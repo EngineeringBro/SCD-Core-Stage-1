@@ -1,0 +1,129 @@
+{
+  "id": "1934196840",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934196840",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDE5Njg0MA==",
+  "status": "current",
+  "title": "Invoicing: Creating and Managing Invoices",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:04.304Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "81",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934196840.17",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934196840"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934196840/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Invoicing gives your company tools to manage customers and corporate clients with net terms. Invoicing is available to users on our Advanced and Professional plans.</p><p>In order to invoice a ticket, it must have either a customer with billing terms enabled or a billing agent attached to the ticket. The ticket must be progressed to Waiting for Payment status before it can be invoiced.</p><h3 id=\"Invoicing:CreatingandManagingInvoices-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196827/Invoicing+Resources\" data-linked-resource-id=\"1934196827\" data-linked-resource-version=\"4\" data-linked-resource-type=\"page\">Invoicing Resources</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934327961/Invoicing+Remittance+and+Reconciling+Invoices\" data-linked-resource-id=\"1934327961\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoicing: Remittance and Reconciling Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934229611/Invoicing+Editing+Tickets+on+Invoices\" data-linked-resource-id=\"1934229611\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoices: Editing Tickets on Invoices</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934917724/Invoicing+Refunding+and+Voiding+Invoices\" data-linked-resource-id=\"1934917724\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Invoicing: Refunding and Voiding Invoices</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"Invoicing:CreatingandManagingInvoices-MovingaTicketto&quot;WaitingforPayment&quot;Status\">Moving a Ticket to &quot;Waiting for Payment&quot; Status</h2><h3 id=\"Invoicing:CreatingandManagingInvoices-SaleTickets\">Sale Tickets</h3><p>In order to invoice a ticket, there must either be a customer with billing terms enabled or a customer with a billing agent attached to the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%201.png?api=v2\"></span><p /><p>Once customer information is linked, you can begin adding products/services as needed. After the appropriate items have been added to the ticket, click <strong>Waiting for Payment</strong> to save the ticket.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"453\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%202.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%203.png?api=v2\"></span><p /><h3 id=\"Invoicing:CreatingandManagingInvoices-RepairTickets\">Repair Tickets</h3><p>Once you have attached a customer with billing terms or a customer with a billing agent to the ticket, continue the normal workflow of the repair. After the ticket has been progressed to Repair Completed or Ready for Pickup status, you can edit the ticket and click <strong>Waiting for Payment</strong> to save the ticket in the appropriate status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%204.png?api=v2\"></span><p /><p><strong>Note</strong>: Before invoicing a ticket, discounts, deposits, and down payments can be applied. Any discounts and/or payments will be reflected when creating an invoice for that ticket.</p><p /><h2 id=\"Invoicing:CreatingandManagingInvoices-CreatinganInvoice\">Creating an Invoice</h2><p /><p>1. From the Navigation Bar, go to <strong>Customers</strong> \u2192 <strong>Invoices</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"566\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%205.png?api=v2\"></span><p /><p>2. The Invoice Summary screen will show a list of recently created invoices and additional information. ON the right side of the page, click the <strong>Add button</strong> to create a new invoice.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%206.png?api=v2\"></span><p /><p>3. On the Invoice Creation screen, use the filters to scope your results to the desired customer or billing agent and click <strong>Apply</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%207.png?api=v2\"></span><p /><p>4. By default, all tickets for this agent will be marked for invoicing, and you can de-select any tickets that you would like to remove from the invoice, if needed. After you have made your selections, click the <strong>Add button</strong> on the right side of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%208.png?api=v2\"></span><p /><p>5. A Create Invoice pop-up will appear. You will see a summary of the company/customer details, total amount, and additional invocing options. Once you have made your selections, click <strong>Create Invoice</strong> to generate the invoice.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%209.png?api=v2\"></span><ul><li><p><strong>Reference ID</strong> - By default, RepairQ will generate an invoice number. If you want to use your own identification for the invoice, enter it here.</p></li><li><p><strong>Email invoice to...</strong> - Select this option to send an email to the agent. You will need to make sure that you have individual <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933246465/Automated+Notification+Resources\" data-linked-resource-id=\"1933246465\" data-linked-resource-version=\"13\" data-linked-resource-type=\"page\">Automated Notification Resources</a>  set up for bulk and individual invoice emails to send.</p></li><li><p><strong>Include all tickets on a single invoice</strong> - This will default as your selection if Prefers Bulk Invoices was checked in the Billing Agent profile. It can changed as needed.</p></li><li><p><strong>Invoice each ticket separately...</strong> - This will default as your selection for leaving the Prefers Bulk Invoices checkbox blank in the Billing Agent profile. It can be changed as needed.</p></li></ul><p /><p>6. The new invoice will show as New/Unpaid status and will list each ticket as a line item.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%2010.png?api=v2\"></span><p /><p><strong>Note</strong>: Once you have invoiced a ticket, it cannot be directly edited until it has been removed from the invoice.</p><p /><h2 id=\"Invoicing:CreatingandManagingInvoices-ManagingInvoices\">Managing Invoices</h2><p>You can manage existing invoices on the summary page. Click the <strong>Options button</strong> under the Actions column to View, Print, or update Remittance details for the invoice.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%2011.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"226\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%2012.png?api=v2\"></span><h2 id=\"Invoicing:CreatingandManagingInvoices-DeletinganInvoice\">Deleting an Invoice</h2><p>In order to delete an invoice, all tickets must be removed from the Remittance screen. Once saved, the invoice will show as Voided status. RepairQ will not delete the invoice altogether, in order to maintain a record of the changes made to the original invoice.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934196840/Invoices%2013.png?api=v2\"></span><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934196840"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934196840/child",
+    "restrictions": "/rest/api/content/1934196840/restriction/byOperation",
+    "history": "/rest/api/content/1934196840/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934196840/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934196840",
+    "webui": "/spaces/SCD/pages/1934196840/Invoicing+Creating+and+Managing+Invoices",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934196840",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934196840",
+    "tinyui": "/x/aIBJcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "1932624095",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1932624095",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMjYyNDA5NQ==",
+  "status": "current",
+  "title": "RepairQ Support Login Authorization",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:57:49.844Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 8,
+    "minorEdit": false,
+    "ncsStepVersion": "57",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1932624095.33",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1932624095"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932624095/version/8"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>RepairQ includes added security measures, allowing in-app authorization for RepairQ Support team members to access your database. These allow the Support Team to log into your database to investigate issues and assist with support tickets and even impersonate users to research those issues from the requester's point of view.</p><p>When enabled, the System Log will show which RepairQ Support team member accessed your location, with a timestamp of their activity, including any changes made while logged into your database.</p><p>These settings are turned off by default, and an Admin user will need to give permission to at least one of the allowances before the Support Team can log into your database. Admins can remove access at any time, but for faster Support assistance, we recommend keeping the allowances turned on.</p><p>If you have additional questions regarding what information is logged in RepairQ, check out our Knowledge Base article about the <a class=\"external-link\" href=\"https://repairq.zendesk.com/hc/en-us/articles/203688764\" rel=\"nofollow\"><strong>System Log</strong></a>. If you have any additional questions for our team, you can <a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portals\" rel=\"nofollow\"><strong>submit a Support Request</strong></a>.</p><h3 id=\"RepairQSupportLoginAuthorization-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1941700634/Create+a+Help+Desk+User+Account\" data-linked-resource-id=\"1941700634\" data-linked-resource-version=\"22\" data-linked-resource-type=\"page\">Create a Help Desk User Account</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1941831681/RepairQ+Help+Desk+-+Knowledge+Base+and+Submit+a+Request\" data-linked-resource-id=\"1941831681\" data-linked-resource-version=\"33\" data-linked-resource-type=\"page\">RepairQ Help Desk - Knowledge Base and Submit a Request</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1930494471/Help+Desk+Hours+and+Support+Requests\" data-linked-resource-id=\"1930494471\" data-linked-resource-version=\"33\" data-linked-resource-type=\"page\">Help Desk Hours and Support Requests</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624095/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"RepairQSupportLoginAuthorization-AuthorizeRepairQSupporttoAccessYourDatabase\">Authorize RepairQ Support to Access Your Database</h2><p /><p>On the Navigation Bar, go to\u00a0<strong>Settings</strong>\u00a0\u2192\u00a0<strong>Company\u00a0Settings</strong>. On the Settings Overview screen, click on the\u00a0<strong>Miscellaneous\u00a0dropdown\u00a0</strong>on the left column. From the list of options, click\u00a0<strong>Miscellaneous</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"760\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624095/RepairQ%20Support%20Authorization%201.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"312\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624095/RepairQ%20Support%20Authorization%202.png?api=v2\"></span><p /><p>On the Miscellaneous Settings screen, make your selection(s) and click <strong>Save</strong> <strong>Miscellaneous</strong> to submit your changes.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" width=\"633\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1932624095/RepairQ%20Support%20Authorization%203.png?api=v2\"></span><ul><li><p><strong>Allow trusted Support Team members to log in separately (most secure &amp; traceable)</strong></p><ul><li><p>This allows the Support Team to log in as an Admin for the database. The System Log will record which team member logged in and log any changes they make with a timestamp.</p></li></ul></li><li><p><strong>Allow impersonation by trusted Support Team members</strong></p><ul><li><p>This allows the Support Team to log in as a specific user, under their assigned role. This is valuable in troubleshooting issues that particular users or user roles are experiencing.</p></li></ul></li></ul><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1932624095"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1932624095/child",
+    "restrictions": "/rest/api/content/1932624095/restriction/byOperation",
+    "history": "/rest/api/content/1932624095/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1932624095/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1932624095",
+    "webui": "/spaces/SCD/pages/1932624095/RepairQ+Support+Login+Authorization",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1932624095",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1932624095",
+    "tinyui": "/x/34Axcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

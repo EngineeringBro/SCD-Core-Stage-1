@@ -1,0 +1,129 @@
+{
+  "id": "1934557185",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1934557185",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzNDU1NzE4NQ==",
+  "status": "current",
+  "title": "Reports: Inventory Valuation",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:47.486Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 4,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1934557185.22",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1934557185"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934557185/version/4"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>The Inventory Valuation Summary and Detail Reports calculate the total cost and price for a set of inventory items.</p><p><strong>We recommend exporting this report on a periodic basis to retain a point-in-time snapshot of your inventory. RepairQ does not keep a historical record of your inventory levels from a previously given date.</strong></p><h3 id=\"Reports:InventoryValuation-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932427609/Reports+Inventory+Shrinkage\" data-linked-resource-id=\"1932427609\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Reports: Inventory Shrinkage</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934721039/Reports+Inventory+Usage\" data-linked-resource-id=\"1934721039\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Reports: Inventory Usage</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934196750/Reports+Inventory+Valuation+Snapshot\" data-linked-resource-id=\"1934196750\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Reports: Inventory Valuation Snapshot</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934589953/Reports+Inventory+End+of+Year+EOY+Snapshot+Archive\" data-linked-resource-id=\"1934589953\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Reports: Inventory End of Year (EOY) Snapshot Archive</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status - What Does It Mean?</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932493070/Inventory+Management+Void+Inventory+Associated+with+Inactive+Catalog+Items\" data-linked-resource-id=\"1932493070\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Inventory Management: Void Inventory Associated with Inactive Catalog Items</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152602.png?api=v2\"></span><p /><h2 id=\"Reports:InventoryValuation-ViewingInventoryValuationReports\">Viewing Inventory Valuation Reports</h2><p /><p>1. On the Navigation Bar, go to <strong>Reports</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152605.png?api=v2\"></span><p /><p /><p>2. On the Reports page, click on the <strong>Inventory dropdown</strong> along the top row of report categories. From the available list, click <strong>Valuation Summary</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152607.png?api=v2\"></span><p /><p /><p><strong>Note</strong>: If you would like to see a breakdown of this information, click <strong>Inventory</strong> <strong>Detail</strong>.</p><p /><p>3. Use the available filters to scope results based on the assigned parameters.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152610.png?api=v2\"></span><p /><p /><ul><li><p><strong>Date Range</strong> - Select a range of dates for your scope of results.</p></li><li><p><strong>Date Type</strong> - Use in combination to find items within the date range.</p><ul><li><p><strong>Date Created</strong> - Used to report for inventory items created (added into the system).</p></li><li><p><strong>Date Updated</strong> - Used to report for inventory items updated in the date range, regardless of when it was added into the system.</p></li></ul></li><li><p><strong>Location</strong> - Select a specific location or run an aggregate report for multiple stores.</p></li><li><p><strong>Status</strong> - Use to filter the report for items in one or more inventory statuses. This looks for items that are currently in the selected status. For an explanation of inventory statuses, see <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1932624055/Inventory+Status+Overview\" data-linked-resource-id=\"1932624055\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Inventory Status - What Does It Mean?</a></p></li><li><p><strong>Condition</strong> - Used to select inventory classified under a specific condition.</p></li><li><p><strong>Supplier</strong> - Used to select inventory from a specific supplier.</p></li><li><p><strong>Include Inactive Catalog Items</strong> - Select to include inventory items that may still exist in your inventory, but the catalog entry has been deactivated for use.</p></li></ul><p><strong>Note</strong>: While consumed inventory statuses (Sold, RMA Credit, Parts Only, Damaged, Shrinkage, Voided) are listed here, we recommend using the <a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1934721039/Reports+Inventory+Usage\" data-linked-resource-id=\"1934721039\" data-linked-resource-version=\"5\" data-linked-resource-type=\"page\">Inventory Usage Report</a> for finding the valuation of these items.</p><p /><p>4. Once you have selected your filters, click <strong>Apply Filters</strong> to run the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152613.png?api=v2\"></span><p /><p /><p><strong>Note</strong>: You can click <strong>Hide/Show Filters</strong> on the upper-right side of the page to collapse/expand the filters when viewing reports. You can also toggle between the summary and detail report from this section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152615.png?api=v2\"></span><p /><p /><p>5. (Optional) Click <strong>To Excel</strong> on the upper-right side of the report page to export an Excel-friendly document. The export will include any filtered data when running the report.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152618.png?api=v2\"></span><p /><p /><h2 id=\"Reports:InventoryValuation-InventoryValuationSummary\">Inventory Valuation Summary</h2><p>The Inventory Valuation Summary report will show a summarized list of item types, quantities, and various sums of Cost/Price</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152621.png?api=v2\"></span><p /><p /><h2 id=\"Reports:InventoryValuation-InventoryValuationDetail\">Inventory Valuation Detail</h2><p>The Inventory Valuation Detail report will show a breakdown of catalog items, quantities, and various sums of Cost/Price.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152623.png?api=v2\"></span><p /><p /><p>If you would like to view additional historical data for an inventory item, click <strong>View Details</strong>. You will be taken to the Inventory Summary page where you can see a full list of past and current inventory items with their Inventory Status.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152626.png?api=v2\"></span><p /><p /><h2 id=\"Reports:InventoryValuation-ValuationofCurrentIn-stockInventory\">Valuation of Current In-stock Inventory</h2><p>Below is an example of inventory filters to select to see your current in-stock valuation. This will only pull results for inventory items that are currently assigned to Instock status. This will not include inventory that may still reside at your location but are in transition status (Pulled, Pending Transfer, Pending Refurb, etc.).</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152629.png?api=v2\"></span><p /><ul><li><p><strong>Date</strong> - Leave blank. Click the <strong>Cancel (X) button</strong> to clear the field.</p></li><li><p><strong>Date Type</strong> - Date Created</p></li><li><p><strong>Location</strong> - Select a specific location</p></li><li><p><strong>Status</strong> - Instock</p></li><li><p><strong>Condition</strong> - All</p></li><li><p><strong>Supplier </strong>- All</p></li><li><p><strong>Include Inactive Catalog Items</strong> - Checked</p></li></ul><p /><h2 id=\"Reports:InventoryValuation-FindingOldInventory\">Finding Old Inventory</h2><p>Below is an example to run a report at the end of the year to identify stale inventory that may need to be discounted in order to move product.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1934557185/image-20230627-152632.png?api=v2\"></span><p /><ul><li><p><strong>Date Range</strong> - Select a date range beginning at the first of the year.</p></li><li><p><strong>Date Type</strong> - Date Created</p></li><li><p><strong>Location</strong> - Select a location</p></li><li><p><strong>Status</strong> - Instock</p></li><li><p><strong>Condition</strong> - All</p></li><li><p><strong>Supplier</strong> - All</p></li><li><p><strong>Include Inactive Catalog Items</strong> - Checked</p></li></ul><p /><p /><p>START 1.18.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1934557185"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1934557185/child",
+    "restrictions": "/rest/api/content/1934557185/restriction/byOperation",
+    "history": "/rest/api/content/1934557185/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1934557185/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1934557185",
+    "webui": "/spaces/SCD/pages/1934557185/Reports+Inventory+Valuation",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1934557185",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1934557185",
+    "tinyui": "/x/AQBPcw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

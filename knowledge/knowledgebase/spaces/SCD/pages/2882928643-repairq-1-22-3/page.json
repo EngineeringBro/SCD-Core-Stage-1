@@ -1,0 +1,129 @@
+{
+  "id": "2882928643",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2882928643",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjg4MjkyODY0Mw==",
+  "status": "current",
+  "title": "RepairQ 1.22.3",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T07:05:38.191Z",
+    "friendlyWhen": "about 3 hours ago",
+    "message": "",
+    "number": 11,
+    "minorEdit": false,
+    "ncsStepVersion": "719",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2882928643.38",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2882928643"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2882928643/version/11"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<h3 id=\"RepairQ1.22.3-UIFixes\">UI Fixes</h3><ul><li><p>Resolved a UI alignment issue where interactive elements, such as buttons, were either misaligned or had reduced clickable areas.</p></li><li><p>Updated the font style across all Qsite pages for improved readability.</p></li></ul><h3 id=\"RepairQ1.22.3-AppointmentsandCustomers\">Appointments and Customers</h3><ul><li><p>Resolved an issue where applying a keyword search on the Appointments page would result in an error, requiring users to clear the cache to re-access the page. Now, performing a keyword search will return relevant results as expected, without error or need for cache clearing.</p></li><li><p>Fixed an issue in Appointment General Settings where changes could not be saved if the &quot;Enable Sale Request Type&quot; setting was disabled without a selection in the dropdown. Previously, users encountered a requirement error on the dropdown even when the setting was disabled, blocking any changes from being saved. Now, the page saves as expected without requiring a selection in the disabled field.</p></li><li><p>Customer Profiles support embedding links to publicly accessible images in Customer Notes, such as image URLs hosted on public websites. Please note that Google Drive, Dropbox, and direct image uploads are not supported at this time.</p></li></ul><h3 id=\"RepairQ1.22.3-CashRoundingEnhancementsandFixes\">Cash Rounding Enhancements and Fixes</h3><ul><li><p>Updated the label \u201cAustralian Cash Rounding to \u201cCash Rounding: Nearest 5\u00a2\u201d for clarity.</p></li><li><p>Removed the Cash Rounding settings: <em>Half Up</em>, <em>Half Down</em>, <em>Half Even</em>, and <em>Half Odd</em>. These rounding methods, typically used in financial reporting and accounting, were not required for retail settings.</p></li><li><p>Resolved an issue where users were unable to complete a return/refund for an inventoried item if Tax-inclusive and Cash Rounding settings were active.</p></li><li><p>Resolved an issue where users were unable to perform partial returns on tickets with multiple line items when Cash Counding was applied to the total amount. Previously, the &quot;Save Ticket&quot; button would remain disabled after adding a refund transaction.</p></li></ul><h3 id=\"RepairQ1.22.3-TicketsandCustomForms\">Tickets and Custom Forms</h3><ul><li><p>Resolved an issue where editing an item on a trade-in ticket with multiple items caused it to be replaced by the last item added. Items now retain their original details when edited and saved.</p></li><li><p>Resolved an issue where completing a Custom Form and then saving the ticket could cause an Error 500.</p></li><li><p>Resolved an issue where creating a new Custom Form field without completing required fields (Label, Order, etc.) would result in the form appearing to save but loses all progress instead. RepairQ now properly displays a warning when required fields are blank and prevents saving the new field until all required fields are completed.</p></li></ul><h3 id=\"RepairQ1.22.3-InventoryTransfers\">Inventory Transfers</h3><ul><li><p>Resolved an issue where the cost of inventory items was incorrectly overridden during an internal transfer, even when the setting for \u201cEnforce Catalog Item Price\u201d was disabled. Now, the item's existing cost will remain unchanged unless \u201cEnforce Catalog Item Price\u201d is explicitly enabled.</p></li></ul><h3 id=\"RepairQ1.22.3-Invoicing\">Invoicing</h3><ul><li><p>We\u2019ve fixed an issue where the \u201cEnable Wholesale Pricing\u201d setting incorrectly loaded the retail price instead of the cost price when the associated Billing Agent was linked to a ticket. Items will now correctly load with the cost price, removing the need for manual adjustments.</p></li></ul><h3 id=\"RepairQ1.22.3-Imports\">Imports</h3><ul><li><p>Resolved an issue with Customer Imports where errors in validating the Primary Phone Number and Referral Customer fields prevented a successful import.</p></li></ul><p /><p /><p />",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2882928643"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 974484594
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2882928643/child",
+    "restrictions": "/rest/api/content/2882928643/restriction/byOperation",
+    "history": "/rest/api/content/2882928643/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2882928643/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2882928643",
+    "webui": "/spaces/SCD/pages/2882928643/RepairQ+1.22.3",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2882928643",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2882928643",
+    "tinyui": "/x/AwDWqw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

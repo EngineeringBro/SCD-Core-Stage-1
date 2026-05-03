@@ -1,0 +1,129 @@
+{
+  "id": "1933541546",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/1933541546",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMTkzMzU0MTU0Ng==",
+  "status": "current",
+  "title": "Refunds: Return Items Back to Inventory and Issue a Refund on an Open Ticket",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+      "accountType": "atlassian",
+      "email": "",
+      "publicName": "Julian Cadavid",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/712020:ec3454ed-f3ea-43d6-aae9-e3a035100066",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Julian Cadavid",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=712020:ec3454ed-f3ea-43d6-aae9-e3a035100066"
+      }
+    },
+    "when": "2026-05-03T05:55:17.625Z",
+    "friendlyWhen": "about 4 hours ago",
+    "message": "",
+    "number": 13,
+    "minorEdit": false,
+    "ncsStepVersion": "761",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$1933541546.54",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1933541546"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933541546/version/13"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Customers may request a refund for an item or service they have already paid for, even though the ticket has not yet been closed. This article will guide you through issuing a refund while ensuring that any refunded items are correctly returned to inventory.</p><h3 id=\"Refunds:ReturnItemsBacktoInventoryandIssueaRefundonanOpenTicket-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933279378/Virtual+Cash+Terminal+VCT+Refund+Resources\" data-linked-resource-id=\"1933279378\" data-linked-resource-version=\"8\" data-linked-resource-type=\"page\">Virtual Cash Terminal (VCT) Refund Resources</a></p></li><li><p><a class=\"external-link\" href=\"https://servicecentral.atlassian.net/servicedesk/customer/portal/9/article/1933639827\" rel=\"nofollow\">Assign a Virtual Cash Terminal (VCT) to Accept Payments</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541546/image-20230627-154539.png?api=v2\"></span><h2 id=\"Refunds:ReturnItemsBacktoInventoryandIssueaRefundonanOpenTicket-ProcessaRefundonanOpenTicket\">Process a Refund on an Open Ticket</h2><p>A VCT must be assigned to the terminal to perform a refund on a ticket.</p><p /><p>Search for the open ticket in your Ticket Queue. On the Ticket View page, click the <strong>Edit Button</strong> along the row of actions on the upper-right section of the page.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541546/image-20230627-154542.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541546/image-20230627-154545.png?api=v2\"></span><p /><h3 id=\"Refunds:ReturnItemsBacktoInventoryandIssueaRefundonanOpenTicket-RemoveandRestocktheTicketItem(s)\">Remove and Restock the Ticket Item(s)</h3><p>In the Ticket Items section of the ticket, remove the appropriate item(s) by clicking the <strong>Remove Button (X)\u00a0</strong>to the right of the item. A <strong>Remove Ticket Item</strong> pop-up will appear. Select Restock Immediately, and click <strong>Remove</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541546/image-20230627-154548.png?api=v2\"></span><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541546/image-20230627-154550.png?api=v2\"></span><p /><p>The Ticket Totals section will now show a pending refund amount.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541546/image-20230627-154553.png?api=v2\"></span><p /><h3 id=\"Refunds:ReturnItemsBacktoInventoryandIssueaRefundonanOpenTicket-RefundtheTransaction\">Refund the Transaction</h3><p>On the Transaction section of the ticket, click the <strong>Refund Button</strong> under the Actions column.</p><p><strong>Note</strong>: Alternatively, you can click the <strong>Void Transaction Button</strong> next to the Return Button to reverse the transaction in full. If refunding a partial amount, use the <strong>Add Transaction Button</strong> on the left side of the section.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541546/image-20230627-154556.png?api=v2\"></span><p /><p>An <strong>Add Transaction</strong> pop-up will appear. Select the refund payment method and enter the refund amount as a positive value.\u00a0Once you have entered the information and additional notes, click <strong>Submit Refund</strong>.</p><p><strong>Note:\u00a0</strong>A refund can be performed for Integrated Payments without the card being present.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541546/image-20230627-154559.png?api=v2\"></span><p /><p>Verify the transaction as posted to the ticket and that the payment has been issued back to the customer. Once the <strong>balance due is $0.00</strong>, you can <strong>Close</strong> the ticket to finalize the process.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image confluence-content-image-border image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/1933541546/image-20230627-154603.png?api=v2\"></span><p /><p /><p>START 1.22.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/1933541546"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1933541546/child",
+    "restrictions": "/rest/api/content/1933541546/restriction/byOperation",
+    "history": "/rest/api/content/1933541546/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/1933541546/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=1933541546",
+    "webui": "/spaces/SCD/pages/1933541546/Refunds+Return+Items+Back+to+Inventory+and+Issue+a+Refund+on+an+Open+Ticket",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/1933541546",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/1933541546",
+    "tinyui": "/x/qoA-cw",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}

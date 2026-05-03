@@ -1,0 +1,130 @@
+{
+  "id": "2036891839",
+  "type": "page",
+  "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:page/2036891839",
+  "base64EncodedAri": "YXJpOmNsb3VkOmNvbmZsdWVuY2U6ODgzOThhMDUtMzIyNy00NzE4LWE3ZjAtNjM2MWZmOTlmM2NkOmNvbnRlbnQvMjAzNjg5MTgzOQ==",
+  "status": "current",
+  "title": "Zip Code Validation for Customers",
+  "space": {
+    "id": 1902379010,
+    "ari": "ari:cloud:confluence:88398a05-3227-4718-a7f0-6361ff99f3cd:space/1902379010",
+    "key": "SCD",
+    "alias": "SCD",
+    "name": "ServiceCentral Desk",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/SCD/settings",
+      "metadata": "",
+      "identifiers": "",
+      "roles": "",
+      "icon": "",
+      "typeSettings": "",
+      "description": "",
+      "history": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=SCD",
+      "permissions": "",
+      "theme": "/rest/api/space/SCD/theme",
+      "homepage": "/rest/api/content/1902379348"
+    },
+    "_links": {
+      "webui": "/spaces/SCD",
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/space/SCD"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+      "accountType": "atlassian",
+      "email": "james.hubbard@repairq.io",
+      "publicName": "James Hubbard (Unlicensed)",
+      "timeZone": "America/Chicago",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/70121:f6f96023-856a-482a-b91f-602f18eeeb6c",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "James Hubbard (Unlicensed)",
+      "isExternalCollaborator": false,
+      "isGuest": false,
+      "locale": "en_US",
+      "accountStatus": "active",
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://servicecentral.atlassian.net/wiki/rest/api/user?accountId=70121:f6f96023-856a-482a-b91f-602f18eeeb6c"
+      }
+    },
+    "when": "2023-08-01T21:14:22.179Z",
+    "friendlyWhen": "Aug 02, 2023",
+    "message": "",
+    "number": 2,
+    "minorEdit": false,
+    "ncsStepVersion": "1",
+    "ncsStepVersionSource": "ncs-ack",
+    "confRev": "confluence$content$2036891839.61",
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/2036891839"
+    },
+    "_links": {
+      "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036891839/version/2"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "export_view": {
+      "value": "<p>Admins can activate customer Zip Code validation when adding customers in the United States, Canada, Australia, and Great Britain countries. When a user creates or edits a Customer Profile, the system will perform a validation check to make sure the zip code is valid for the assigned country. </p><p><strong>Note</strong>: This validation is based on the country selected in the Customer Profile, so users are able to add international customers, as long as their address is in the US, CA, AUS, and GB. The system will validate the zip code for the correct country, but will not validate for the specific city/state/region.</p><p>Hyphenated codes for CA will not be accepted. The system will recognize the code without symbols.</p><h3 id=\"ZipCodeValidationforCustomers-AdditionalResources\">Additional Resources</h3><ul><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933344786/Creating+a+Customer+Profile\" data-linked-resource-id=\"1933344786\" data-linked-resource-version=\"9\" data-linked-resource-type=\"page\">Creating a Customer Profile</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933312070/Managing+Customer+Profiles\" data-linked-resource-id=\"1933312070\" data-linked-resource-version=\"6\" data-linked-resource-type=\"page\">Managing Customer Profiles</a></p></li><li><p><a href=\"https://servicecentral.atlassian.net/wiki/spaces/SCD/pages/1933869089/Required+Fields+for+Customer+Profiles\" data-linked-resource-id=\"1933869089\" data-linked-resource-version=\"7\" data-linked-resource-type=\"page\">Validation Rules for Customers</a></p></li></ul><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"680\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2036891839/Instructional%20-%200091cd.png?api=v2\"></span><h2 id=\"ZipCodeValidationforCustomers-ActivateZipCodeValidation\">Activate Zip Code Validation</h2><p /><p>1. On the Navigation Bar, go to <strong>Settings </strong>\u2192 <strong>Company Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"564\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2036891839/Zip%20Validation%201.png?api=v2\"></span><p /><p>2. On the Settings Overview page, look for the <strong>Customers </strong>category. Under this section, click <strong>General Settings</strong>.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" width=\"564\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2036891839/Zip%20Validation%202.png?api=v2\"></span><p /><p>3. On the General Settings screen, toggle ON the option for <strong>Validate zip code for US, CA, Au and GB countries</strong>. Be sure to <strong>Save </strong>your settings.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2036891839/Zip%20Validation%203.png?api=v2\"></span><p /><p><strong>Note</strong>: Zip code validation will override any Validation Rules set for the zip code field. When active, a zip code will always be required for customer profiles.</p><h2 id=\"ZipCodeValidationforCustomers-ZipCodeValidation\">Zip Code Validation</h2><p>When validation is active, the user will be notified that a blank/incorrect Zip Code field does not match. You will need to enter a valid zip code before you can proceed.</p><span class=\"confluence-embedded-file-wrapper image-center-wrapper\"><img class=\"confluence-embedded-image image-center\" src=\"https://servicecentral.atlassian.net/wiki/download/attachments/2036891839/Zip%20Validation%204.png?api=v2\"></span><p /><p /><p>START 1.20.X</p>",
+      "representation": "export_view",
+      "_expandable": {
+        "webresource": "",
+        "embeddedContent": "",
+        "mediaToken": "",
+        "content": "/rest/api/content/2036891839"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "storage": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": 220251
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/space/SCD",
+    "schedulePublishInfo": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/2036891839/child",
+    "restrictions": "/rest/api/content/2036891839/restriction/byOperation",
+    "history": "/rest/api/content/2036891839/history",
+    "ancestors": "",
+    "draftVersion": "",
+    "descendants": "/rest/api/content/2036891839/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=2036891839",
+    "webui": "/spaces/SCD/pages/2036891839/Zip+Code+Validation+for+Customers",
+    "edituiv2": "/spaces/SCD/pages/edit-v2/2036891839",
+    "context": "/wiki",
+    "self": "https://servicecentral.atlassian.net/wiki/rest/api/content/2036891839",
+    "tinyui": "/x/v4BoeQ",
+    "collection": "/rest/api/content",
+    "base": "https://servicecentral.atlassian.net/wiki"
+  }
+}
