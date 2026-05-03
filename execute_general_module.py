@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 import general_module
 
 
-INTERNAL_COMMENT_TEXT = "This ticket was resolved using my AI Agent"
+INTERNAL_COMMENT_TEXT = "This ticket was handled by my AI Agent"
 WORKLOG_TIME_SPENT = "30m"
 WAITING_TRANSITION_NAMES = (
     "Waiting for client",
