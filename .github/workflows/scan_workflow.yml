@@ -20,7 +20,7 @@ jobs:
       JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
       JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
       JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
-      COPILOT_TOKEN: ${{ secrets.GH_COPILOT_OAUTH }}
+      COPILOT_TOKEN: ${{ secrets.COPILOT_TOKEN }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
     steps:
