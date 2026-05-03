@@ -584,6 +584,7 @@ def build_no_match_body(ticket_context: TicketContext) -> str:
 
 def finalize_issue_body(body: str, ticket_id: str) -> str:
     stripped_body = strip_missing_documentation_section(body)
+    stripped_body = strip_existing_ticket_handler_section(stripped_body)
     ensured_greeting = ensure_support_greeting(stripped_body)
     main_body = trim_body_for_handler(ensured_greeting)
     handler_section = build_ticket_handler_section(ticket_id)
@@ -593,6 +594,14 @@ def finalize_issue_body(body: str, ticket_id: str) -> str:
 def strip_missing_documentation_section(body: str) -> str:
     pattern = re.compile(
         r"\n{0,2}#{0,6}\s*What is still missing from the available documentation:.*\Z",
+        re.IGNORECASE | re.DOTALL,
+    )
+    return re.sub(pattern, "", body).strip()
+
+
+def strip_existing_ticket_handler_section(body: str) -> str:
+    pattern = re.compile(
+        r"\n{0,2}(?:#{1,6}\s*)?\*{0,2}ticket handler\*{0,2}.*\Z",
         re.IGNORECASE | re.DOTALL,
     )
     return re.sub(pattern, "", body).strip()
@@ -618,7 +627,7 @@ def trim_body_for_handler(body: str) -> str:
 def build_ticket_handler_section(ticket_id: str) -> str:
     return "\n".join(
         [
-            "## **Ticket Handler**",
+            "## **TICKET HANDLER**",
             "",
             f"Run the Execute workflow to handle {ticket_id} automatically, it will do the following sequence:",
             "1- Initiates client assistance through a ticket comment.",
