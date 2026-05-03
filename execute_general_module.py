@@ -17,6 +17,11 @@ WAITING_TRANSITION_NAMES = (
     "Waiting for client",
     "Waiting for client response",
 )
+WAITING_STATUS_NAMES = (
+    "Waiting for client",
+    "Waiting for client response",
+    "Waiting for customer",
+)
 
 
 def main() -> int:
@@ -223,12 +228,15 @@ def find_transition_id(transitions: object) -> str:
     if not isinstance(transitions, list):
         return ""
 
-    normalized_targets = {name.lower() for name in WAITING_TRANSITION_NAMES}
+    normalized_transition_names = {name.lower() for name in WAITING_TRANSITION_NAMES}
+    normalized_status_names = {name.lower() for name in WAITING_STATUS_NAMES}
     for transition in transitions:
         if not isinstance(transition, dict):
             continue
         name = str(transition.get("name") or "").strip()
-        if name.lower() in normalized_targets:
+        to_status = transition.get("to") if isinstance(transition.get("to"), dict) else {}
+        to_name = str(to_status.get("name") or "").strip()
+        if name.lower() in normalized_transition_names or to_name.lower() in normalized_status_names:
             return str(transition.get("id") or "").strip()
     return ""
 
