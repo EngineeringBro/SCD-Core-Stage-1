@@ -92,6 +92,7 @@ jobs:
 
             const recommendation = readField('Recommendation') || 'unknown';
             const parsedTicketId = readField('Ticket ID') || ticketId;
+            const moduleId = readField('Module ID') || 'unknown';
             const moduleName = readField('Module') || 'unknown';
 
             const issueBodyIndex = lines.findIndex((value) => value.trim() === 'Issue Body:');
@@ -106,6 +107,7 @@ jobs:
             const title = `[${recommendation}] ${parsedTicketId} - ${moduleName}`;
             const body = [
               issueBody,
+              `<!-- module_id: ${moduleId} -->`,
               '---',
               'Notes',
               notes,

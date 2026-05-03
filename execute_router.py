@@ -2,15 +2,10 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import urllib.error
 import urllib.parse
 import urllib.request
-
-
-TITLE_MARKERS = {
-    "general knowledge module": "general",
-    "orphaned transaction module": "orphaned_transaction",
-}
 
 
 def main() -> int:
@@ -77,14 +72,15 @@ def fetch_latest_module_issue(repo: str, scd_id: str, token: str) -> dict[str, o
 
 def resolve_module_name_from_issue(issue: dict[str, object], scd_id: str) -> str:
     title = str(issue.get("title") or "").strip()
-    lowered_title = title.lower()
-    for marker, module_name in TITLE_MARKERS.items():
-        if f" - {marker}" in lowered_title:
+    body = str(issue.get("body") or "")
+    match = re.search(r"<!--\s*module_id:\s*([a-z0-9_\-]+)\s*-->", body, re.IGNORECASE)
+    if match:
+        module_name = match.group(1).strip().lower()
+        if module_name:
             return module_name
-
     issue_number = str(issue.get("number") or "unknown")
     raise RuntimeError(
-        f"execute router could not resolve module from latest module output issue #{issue_number} for {scd_id}: {title}"
+        f"execute router could not resolve module from persisted module marker in issue #{issue_number} for {scd_id}: {title}"
     )
 
 

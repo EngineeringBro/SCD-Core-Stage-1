@@ -246,6 +246,7 @@ def build_issue_description(module_result: ModuleResult) -> str:
     lines = [
         f"Recommendation: {module_recommendation}",
         f"Ticket ID: {module_result.ticket_id}",
+        f"Module ID: {module_result.module_name}",
         f"Module: {module_result.module_display_name}",
         "Issue Body:",
         issue_body,
@@ -273,6 +274,7 @@ def build_failure_issue_description(error_message: str) -> str:
     lines = [
         "Recommendation: error",
         f"Ticket ID: {ticket_id}",
+        "Module ID: unknown",
         "Module: unknown",
         "Issue Body:",
         "No issue body available.",

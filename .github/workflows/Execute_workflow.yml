@@ -23,7 +23,7 @@ jobs:
       JIRA_WRITE_API_TOKEN: ${{ secrets.JIRA_WRITE_API_TOKEN }}
       JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
       COPILOT_TOKEN: ${{ secrets.COPILOT_TOKEN }}
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
 
     steps:
       - name: Check out repository
