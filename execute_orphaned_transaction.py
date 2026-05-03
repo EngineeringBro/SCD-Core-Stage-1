@@ -12,7 +12,7 @@ from typing import Any
 
 PUBLIC_COMMENT_SINGLE = "Hello,\n\nWe have added the transaction. Let us know if you need anything else!"
 PUBLIC_COMMENT_PLURAL = "Hello,\n\nWe have added the transactions. Let us know if you need anything else!"
-INTERNAL_COMMENT_TEXT = "This ticket was handled by my AI Agent"
+INTERNAL_COMMENT_TEXT = "This ticket was resolved using my AI Agent"
 RESOLVE_TRANSITION_ID = "81"
 RESOLUTION_FIXED_ID = "10000"
 TOPIC_TRANSACTION_ERRORS_ID = "10446"
