@@ -235,7 +235,8 @@ def build_ticket_context(ticket_id: str, ticket_details: dict[str, Any]) -> Tick
     comment_lines: list[str] = []
     if isinstance(comments, list):
         for comment in comments:
-            comment_text = normalize_whitespace(extract_text(comment))
+            comment_source = comment.get("body") if isinstance(comment, dict) else comment
+            comment_text = normalize_whitespace(extract_text(comment_source or ""))
             if comment_text:
                 comment_lines.append(comment_text)
 
