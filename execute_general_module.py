@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 import general_module
 
 
-INTERNAL_COMMENT_TEXT = "This ticket was handled by my AI Agent"
+INTERNAL_COMMENT_TEXT = "This ticket was resolved using my AI Agent"
 WORKLOG_TIME_SPENT = "30m"
 WAITING_TRANSITION_NAMES = (
     "Waiting for client",
@@ -103,26 +103,18 @@ def post_public_comment(base: str, scd_id: str, headers: dict[str, str], comment
 
 
 def post_internal_comment(base: str, scd_id: str, headers: dict[str, str]) -> None:
-    payload = {
+    internal_payload = {
         "body": INTERNAL_COMMENT_TEXT,
         "public": False,
     }
-    request = urllib.request.Request(
+    req_internal = urllib.request.Request(
         f"{base}/rest/servicedeskapi/request/{scd_id}/comment",
-        data=json.dumps(payload).encode(),
+        data=json.dumps(internal_payload).encode(),
         headers=headers,
         method="POST",
     )
-    try:
-        with urllib.request.urlopen(request) as response:
-            status = response.status
-    except urllib.error.HTTPError as exc:
-        error_body = exc.read().decode("utf-8") if exc.fp else str(exc)
-        raise RuntimeError(f"9b internal comment failed: HTTP {exc.code}: {error_body}") from exc
-
-    if status != 201:
-        raise RuntimeError(f"9b internal comment failed: expected 201, got {status}")
-    print(f"9b internal comment: {status}")
+    with urllib.request.urlopen(req_internal) as response:
+        print(f"9b internal comment: {response.status}")
 
 
 def assign_to_current_user(base: str, scd_id: str, creds: str) -> None:
