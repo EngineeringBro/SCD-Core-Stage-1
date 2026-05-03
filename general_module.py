@@ -633,7 +633,7 @@ def trim_body_for_handler(body: str) -> str:
 def build_ticket_handler_section(ticket_id: str) -> str:
     return "\n".join(
         [
-            "## **TICKET HANDLER**",
+            "Ticket Handler",
             "",
             f"Run the Execute workflow to handle {ticket_id} automatically, it will do the following sequence:",
             "1- Initiates client assistance through a ticket comment.",
