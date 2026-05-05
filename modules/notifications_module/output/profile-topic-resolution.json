@@ -1,0 +1,405 @@
+{
+  "generated_at": "2026-05-05T14:12:28.546677+00:00",
+  "knowledge_dir": "C:\\Users\\HusseinChaib\\Documents\\SCD-Core-Stage-1\\knowledge\\raw",
+  "cache_files": [
+    "C:\\Users\\HusseinChaib\\Documents\\SCD-Core-Stage-1\\knowledge\\raw\\tickets_cache.jsonl.gz",
+    "C:\\Users\\HusseinChaib\\Documents\\SCD-Core-Stage-1\\knowledge\\raw\\tickets_cache_2020.jsonl.gz",
+    "C:\\Users\\HusseinChaib\\Documents\\SCD-Core-Stage-1\\knowledge\\raw\\tickets_cache_2021.jsonl.gz",
+    "C:\\Users\\HusseinChaib\\Documents\\SCD-Core-Stage-1\\knowledge\\raw\\tickets_cache_2022.jsonl.gz",
+    "C:\\Users\\HusseinChaib\\Documents\\SCD-Core-Stage-1\\knowledge\\raw\\tickets_cache_2023.jsonl.gz",
+    "C:\\Users\\HusseinChaib\\Documents\\SCD-Core-Stage-1\\knowledge\\raw\\tickets_cache_2024.jsonl.gz",
+    "C:\\Users\\HusseinChaib\\Documents\\SCD-Core-Stage-1\\knowledge\\raw\\tickets_cache_2025.jsonl.gz",
+    "C:\\Users\\HusseinChaib\\Documents\\SCD-Core-Stage-1\\knowledge\\raw\\tickets_cache_2026.jsonl.gz"
+  ],
+  "profiles": [
+    {
+      "case_id": "asurion_inventory_error",
+      "display_name": "Asurion Inventory Error",
+      "matched": 12943,
+      "topics": [
+        {
+          "value": "(blank)",
+          "count": 11459
+        },
+        {
+          "value": "Asurion",
+          "count": 1135
+        },
+        {
+          "value": "Automatic Notifications",
+          "count": 133
+        },
+        {
+          "value": "Ticket/Device Update",
+          "count": 122
+        },
+        {
+          "value": "Assurant",
+          "count": 94
+        }
+      ],
+      "resolutions": [
+        {
+          "value": "Done",
+          "count": 9020
+        },
+        {
+          "value": "Dismissed",
+          "count": 2010
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 1913
+        }
+      ]
+    },
+    {
+      "case_id": "assurant_inventory_error",
+      "display_name": "Assurant Inventory Error",
+      "matched": 9771,
+      "topics": [
+        {
+          "value": "(blank)",
+          "count": 8692
+        },
+        {
+          "value": "Assurant",
+          "count": 1030
+        },
+        {
+          "value": "Asurion",
+          "count": 19
+        },
+        {
+          "value": "Mandrill",
+          "count": 15
+        },
+        {
+          "value": "Azure Notification",
+          "count": 9
+        },
+        {
+          "value": "Ticket/Device Update",
+          "count": 5
+        },
+        {
+          "value": "Automatic Notifications",
+          "count": 1
+        }
+      ],
+      "resolutions": [
+        {
+          "value": "Done",
+          "count": 4653
+        },
+        {
+          "value": "Dismissed",
+          "count": 3237
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 1688
+        },
+        {
+          "value": "Duplicate",
+          "count": 185
+        },
+        {
+          "value": "Cannot Reproduce",
+          "count": 4
+        },
+        {
+          "value": "Declined / Canceled",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "case_id": "revv_error_report",
+      "display_name": "Revv Error Report",
+      "matched": 2406,
+      "topics": [
+        {
+          "value": "(blank)",
+          "count": 1440
+        },
+        {
+          "value": "Revv Error Report",
+          "count": 964
+        },
+        {
+          "value": "Ticket/Device Update",
+          "count": 1
+        },
+        {
+          "value": "3rd Party Integration",
+          "count": 1
+        }
+      ],
+      "resolutions": [
+        {
+          "value": "Done",
+          "count": 2287
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 77
+        },
+        {
+          "value": "Dismissed",
+          "count": 42
+        }
+      ]
+    },
+    {
+      "case_id": "azure_notification",
+      "display_name": "Azure Notification",
+      "matched": 1330,
+      "topics": [
+        {
+          "value": "Azure Notification",
+          "count": 943
+        },
+        {
+          "value": "(blank)",
+          "count": 375
+        },
+        {
+          "value": "Revv Error Report",
+          "count": 6
+        },
+        {
+          "value": "Assurant",
+          "count": 4
+        },
+        {
+          "value": "Ticket/Device Update",
+          "count": 2
+        }
+      ],
+      "resolutions": [
+        {
+          "value": "Done",
+          "count": 569
+        },
+        {
+          "value": "Dismissed",
+          "count": 456
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 302
+        },
+        {
+          "value": "Declined",
+          "count": 1
+        },
+        {
+          "value": "Reopened",
+          "count": 1
+        },
+        {
+          "value": "Declined / Canceled",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "notify_tasks_completed",
+      "display_name": "Notify Tasks Completed",
+      "matched": 531,
+      "topics": [
+        {
+          "value": "(blank)",
+          "count": 520
+        },
+        {
+          "value": "Assurant",
+          "count": 5
+        },
+        {
+          "value": "Imports",
+          "count": 4
+        },
+        {
+          "value": "Payment Methods",
+          "count": 1
+        },
+        {
+          "value": "Ticket/Device Update",
+          "count": 1
+        }
+      ],
+      "resolutions": [
+        {
+          "value": "Done",
+          "count": 430
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 57
+        },
+        {
+          "value": "Dismissed",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "case_id": "welcome_to_repairq",
+      "display_name": "Welcome to RepairQ",
+      "matched": 763,
+      "topics": [
+        {
+          "value": "(blank)",
+          "count": 416
+        },
+        {
+          "value": "Sales",
+          "count": 212
+        },
+        {
+          "value": "Onboarding",
+          "count": 83
+        },
+        {
+          "value": "Revv Error Report",
+          "count": 21
+        },
+        {
+          "value": "Other",
+          "count": 15
+        },
+        {
+          "value": "Spam",
+          "count": 10
+        },
+        {
+          "value": "Signup Issues",
+          "count": 2
+        },
+        {
+          "value": "Automatic Notifications",
+          "count": 1
+        },
+        {
+          "value": "Mandrill",
+          "count": 1
+        },
+        {
+          "value": "Billing",
+          "count": 1
+        },
+        {
+          "value": "Warranty",
+          "count": 1
+        }
+      ],
+      "resolutions": [
+        {
+          "value": "Done",
+          "count": 415
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 216
+        },
+        {
+          "value": "Dismissed",
+          "count": 125
+        },
+        {
+          "value": "Duplicate",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "case_id": "gsx_permission_violation",
+      "display_name": "GSX Permission Violation",
+      "matched": 117,
+      "topics": [
+        {
+          "value": "(blank)",
+          "count": 117
+        }
+      ],
+      "resolutions": [
+        {
+          "value": "Done",
+          "count": 114
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 2
+        },
+        {
+          "value": "Dismissed",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "quickbooks_journal_entry_error",
+      "display_name": "QuickBooks Journal Entry Error",
+      "matched": 321,
+      "topics": [
+        {
+          "value": "Quickbooks",
+          "count": 154
+        },
+        {
+          "value": "(blank)",
+          "count": 152
+        },
+        {
+          "value": "Assurant",
+          "count": 15
+        }
+      ],
+      "resolutions": [
+        {
+          "value": "Duplicate",
+          "count": 134
+        },
+        {
+          "value": "Dismissed",
+          "count": 72
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 72
+        },
+        {
+          "value": "Done",
+          "count": 43
+        }
+      ]
+    },
+    {
+      "case_id": "repairq_task_completed",
+      "display_name": "RepairQ Task Completed",
+      "matched": 106,
+      "topics": [
+        {
+          "value": "(blank)",
+          "count": 106
+        }
+      ],
+      "resolutions": [
+        {
+          "value": "Done",
+          "count": 75
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 22
+        },
+        {
+          "value": "Dismissed",
+          "count": 9
+        }
+      ]
+    }
+  ]
+}

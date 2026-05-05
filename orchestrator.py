@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import os
 import sys
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from importlib.util import module_from_spec, spec_from_file_location
 from pathlib import Path
 from typing import Any, Callable
@@ -33,6 +33,7 @@ class ModuleResult:
     recommendation: str
     issue_body: str
     notes: list[str]
+    module_payload: dict[str, Any] = field(default_factory=dict)
 
 
 def run() -> str:
@@ -61,7 +62,7 @@ def run_step(name: str, action: Callable[[], Any]) -> Any:
 
 
 def load_module(module_file_name: str, module_label: str) -> Any:
-    module_path = Path(__file__).with_name(module_file_name)
+    module_path = Path(__file__).parent / module_file_name
     spec = spec_from_file_location(module_label, module_path)
     if spec is None or spec.loader is None:
         raise StepFailure(f"could not load {module_file_name}")
@@ -130,12 +131,12 @@ def route_ticket(fetch_result: FetchResult) -> RouterResult:
     )
 
 
-def normalize_module_response(response: Any, module_file_name: str) -> tuple[str, str, list[str]]:
+def normalize_module_response(response: Any, module_file_name: str) -> tuple[str, str, list[str], dict[str, Any]]:
     if isinstance(response, str):
         normalized_response = response.strip()
         if not normalized_response:
             raise StepFailure(f"module step failed: {module_file_name} returned an empty answer")
-        return normalized_response, normalized_response, ["None"]
+        return normalized_response, normalized_response, ["None"], {}
 
     if not isinstance(response, dict):
         raise StepFailure(
@@ -164,7 +165,13 @@ def normalize_module_response(response: Any, module_file_name: str) -> tuple[str
     if not notes:
         notes = ["None"]
 
-    return recommendation, issue_body, notes
+    module_payload = {
+        key: value
+        for key, value in response.items()
+        if key not in {"recommendation", "body", "notes"}
+    }
+
+    return recommendation, issue_body, notes, module_payload
 
 
 def run_module(router_result: RouterResult) -> ModuleResult:
@@ -175,9 +182,9 @@ def run_module(router_result: RouterResult) -> ModuleResult:
         raise StepFailure("module step failed: missing module name from router")
 
     module_file_names = {
-        "notification": "notification_module.py",
-        "general": "general_module.py",
-        "orphaned_transaction": "orphaned_module.py",
+        "notification": "modules/notifications_module/notification_module.py",
+        "general": "modules/general_module.py",
+        "orphaned_transaction": "modules/orphaned_module.py",
         "spam": "spam_module.py",
     }
 
@@ -185,7 +192,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
     if not module_file_name:
         raise StepFailure(f"module step failed: unsupported module '{router_result.module_name}'")
 
-    module_path = Path(__file__).with_name(module_file_name)
+    module_path = Path(__file__).parent / module_file_name
     if not module_path.exists():
         raise StepFailure(
             f"module step failed: {module_file_name} does not exist yet for module '{router_result.module_name}'"
@@ -209,7 +216,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
         raise StepFailure(f"module step failed: run is missing from {module_file_name}")
 
     module_response = run_fn.__call__(router_result.ticket_id, router_result.ticket_details)
-    recommendation, issue_body, notes = normalize_module_response(module_response, module_file_name)
+    recommendation, issue_body, notes, module_payload = normalize_module_response(module_response, module_file_name)
 
     return ModuleResult(
         ticket_id=router_result.ticket_id,
@@ -218,6 +225,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
         recommendation=recommendation,
         issue_body=issue_body,
         notes=notes,
+        module_payload=module_payload,
     )
 
 

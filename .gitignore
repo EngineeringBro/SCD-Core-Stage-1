@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+modules/notifications_module/output/notification_registry.json

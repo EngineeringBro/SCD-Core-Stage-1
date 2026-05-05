@@ -78,10 +78,10 @@ The first implementation should be built around these files:
 - `orchestrator.py`
 - `jira_read.py`
 - `router.py`
-- `notification_module.py`
+- `modules/notifications_module/notification_module.py`
 - `spam_module.py`
-- `general_module.py`
-- `orphaned_module.py`
+- `modules/general_module.py`
+- `modules/orphaned_module.py`
 
 ## Per-Module Placeholder Rule
 

@@ -1,0 +1,5229 @@
+{
+  "generated_at": "2026-05-05T09:42:02.545364+00:00",
+  "knowledge_dir": "knowledge\\raw",
+  "cache_files": [
+    "knowledge\\raw\\tickets_cache.jsonl.gz",
+    "knowledge\\raw\\tickets_cache_2020.jsonl.gz",
+    "knowledge\\raw\\tickets_cache_2021.jsonl.gz",
+    "knowledge\\raw\\tickets_cache_2022.jsonl.gz",
+    "knowledge\\raw\\tickets_cache_2023.jsonl.gz",
+    "knowledge\\raw\\tickets_cache_2024.jsonl.gz",
+    "knowledge\\raw\\tickets_cache_2025.jsonl.gz",
+    "knowledge\\raw\\tickets_cache_2026.jsonl.gz"
+  ],
+  "totals": {
+    "tickets": 50631,
+    "closed": 50631,
+    "closed_without_comments": 33536,
+    "notification_like": 29153,
+    "notification_like_closed_without_comments": 27594
+  },
+  "notification_families": {
+    "automatic_notifications": {
+      "total": 182,
+      "closed": 182,
+      "closed_without_comments": 140,
+      "top_resolutions": [
+        {
+          "value": "Dismissed",
+          "count": 139
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 24
+        },
+        {
+          "value": "Done",
+          "count": 8
+        },
+        {
+          "value": "Moved to CS",
+          "count": 6
+        },
+        {
+          "value": "Works as Designed",
+          "count": 3
+        },
+        {
+          "value": "Duplicate",
+          "count": 2
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "noreply@repairq.io",
+          "count": 134
+        },
+        {
+          "value": "(blank)",
+          "count": 8
+        },
+        {
+          "value": "ivor.jennings@mobileklinik.ca",
+          "count": 3
+        },
+        {
+          "value": "d.bludov.work@gmail.com",
+          "count": 2
+        },
+        {
+          "value": "josh@hazelden.co.uk",
+          "count": 2
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "Automatic Notifications",
+          "count": 182
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-2197",
+          "summary": "Error with Email Receipt",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Moved to CS",
+          "comments": 20,
+          "reporter_email": ""
+        },
+        {
+          "key": "SCD-5433",
+          "summary": "Test Email",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 1,
+          "reporter_email": "ivor.jennings@mobileklinik.ca"
+        },
+        {
+          "key": "SCD-5745",
+          "summary": "Test Email",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 1,
+          "reporter_email": "ivor.jennings@mobileklinik.ca"
+        },
+        {
+          "key": "SCD-6025",
+          "summary": "Test Email",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Works as Designed",
+          "comments": 3,
+          "reporter_email": "ivor.jennings@mobileklinik.ca"
+        },
+        {
+          "key": "SCD-13593",
+          "summary": "SMS Notification",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 20,
+          "reporter_email": ""
+        },
+        {
+          "key": "SCD-15620",
+          "summary": "Notification Not Deliver to Short Code {customer}",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 9,
+          "reporter_email": "joshua.baham@cpr-corporate.com"
+        },
+        {
+          "key": "SCD-19215",
+          "summary": "Email Receipt",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Moved to CS",
+          "comments": 13,
+          "reporter_email": ""
+        },
+        {
+          "key": "SCD-29340",
+          "summary": "re: Sms message",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Works as Designed",
+          "comments": 12,
+          "reporter_email": "roy@fixmymobile.com.au"
+        },
+        {
+          "key": "SCD-38544",
+          "summary": "Customer Drop Off Receipt",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 1,
+          "reporter_email": "appleshackrepair@gmail.com"
+        },
+        {
+          "key": "SCD-45896",
+          "summary": "Text messaging not working",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 8,
+          "reporter_email": "joe@blackburntechnologies.com"
+        },
+        {
+          "key": "SCD-48686",
+          "summary": "SMS Notification Error",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 2,
+          "reporter_email": "nik@fixnphone.com"
+        },
+        {
+          "key": "SCD-60986",
+          "summary": "Message on emailed invoices won't update",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 3,
+          "reporter_email": "mimobilellc@gmail.com"
+        }
+      ]
+    },
+    "azure_notification": {
+      "total": 1340,
+      "closed": 1340,
+      "closed_without_comments": 1333,
+      "top_resolutions": [
+        {
+          "value": "Done",
+          "count": 567
+        },
+        {
+          "value": "Dismissed",
+          "count": 464
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 306
+        },
+        {
+          "value": "Declined",
+          "count": 1
+        },
+        {
+          "value": "Reopened",
+          "count": 1
+        },
+        {
+          "value": "Declined / Canceled",
+          "count": 1
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "azure-noreply@microsoft.com",
+          "count": 1324
+        },
+        {
+          "value": "noreply@repairq.io",
+          "count": 9
+        },
+        {
+          "value": "notify@ringcentral.com",
+          "count": 2
+        },
+        {
+          "value": "support@kingfisher-mx.com",
+          "count": 1
+        },
+        {
+          "value": "noreply@bluefin.com",
+          "count": 1
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "Azure Notification",
+          "count": 959
+        },
+        {
+          "value": "(blank)",
+          "count": 375
+        },
+        {
+          "value": "Assurant",
+          "count": 4
+        },
+        {
+          "value": "Ticket/Device Update",
+          "count": 2
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-13875",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-13914",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14388",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14406",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14528",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14546",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14789",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-15051",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-15775",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-17118",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-41103",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-44939",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        }
+      ]
+    },
+    "revv_error_report": {
+      "total": 2468,
+      "closed": 2468,
+      "closed_without_comments": 2442,
+      "top_resolutions": [
+        {
+          "value": "Done",
+          "count": 2347
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 78
+        },
+        {
+          "value": "Dismissed",
+          "count": 43
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "mail@repairq.io",
+          "count": 2431
+        },
+        {
+          "value": "verda@repairq.io",
+          "count": 7
+        },
+        {
+          "value": "azure-noreply@microsoft.com",
+          "count": 6
+        },
+        {
+          "value": "notify@ringcentral.com",
+          "count": 5
+        },
+        {
+          "value": "cfernandez@coopergeneral.com",
+          "count": 2
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 1440
+        },
+        {
+          "value": "Revv Error Report",
+          "count": 1026
+        },
+        {
+          "value": "Ticket/Device Update",
+          "count": 1
+        },
+        {
+          "value": "3rd Party Integration",
+          "count": 1
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-63978",
+          "summary": "Revv Error Report - 2023-09-19 12:36:22",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64002",
+          "summary": "Revv Error Report - 2023-09-19 13:41:28",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64097",
+          "summary": "Revv Error Report - 2023-09-19 17:36:47",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64497",
+          "summary": "Revv Error Report - 2023-09-20 11:20:55",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64908",
+          "summary": "Revv Error Report - 2023-09-21 11:10:59",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64997",
+          "summary": "Revv Error Report - 2023-09-21 12:22:37",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65061",
+          "summary": "Revv Error Report - 2023-09-21 19:06:05",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65080",
+          "summary": "Revv Error Report - 2023-09-21 19:40:52",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65099",
+          "summary": "Revv Error Report - 2023-09-21 17:45:57",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65472",
+          "summary": "Revv Error Report - 2023-09-22 13:07:19",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65831",
+          "summary": "Revv Error Report - 2023-09-23 11:35:59",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65851",
+          "summary": "Revv Error Report - 2023-09-23 12:37:06",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ]
+    },
+    "ring_central_alert": {
+      "total": 2261,
+      "closed": 2261,
+      "closed_without_comments": 1009,
+      "top_resolutions": [
+        {
+          "value": "Fixed / Completed",
+          "count": 1095
+        },
+        {
+          "value": "Done",
+          "count": 555
+        },
+        {
+          "value": "Dismissed",
+          "count": 468
+        },
+        {
+          "value": "Duplicate",
+          "count": 125
+        },
+        {
+          "value": "Won't Do",
+          "count": 4
+        },
+        {
+          "value": "Works as Designed",
+          "count": 3
+        },
+        {
+          "value": "Moved to CS",
+          "count": 3
+        },
+        {
+          "value": "Known Error",
+          "count": 2
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "notify@ringcentral.com",
+          "count": 2253
+        },
+        {
+          "value": "ngao@thegizmodepot.com",
+          "count": 1
+        },
+        {
+          "value": "shaheryar.ahsan@docphonefix.com",
+          "count": 1
+        },
+        {
+          "value": "nshearer@servicecentral.com",
+          "count": 1
+        },
+        {
+          "value": "accounting@servicecentral.com",
+          "count": 1
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 1050
+        },
+        {
+          "value": "Ring Central Alert",
+          "count": 858
+        },
+        {
+          "value": "Spam",
+          "count": 119
+        },
+        {
+          "value": "Other",
+          "count": 38
+        },
+        {
+          "value": "Billing",
+          "count": 27
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-78",
+          "summary": "New Call from Repair Q Support - CALGARY      AB (587) 433-7888",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 2,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-111",
+          "summary": "New Call from EDMONTON     AB (780) 977-3753",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-615",
+          "summary": "New Voice Message from Repair Q Support - TORONTO      ON (647) 721-9966 on 05/01/2023 11:18 AM",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 2,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-674",
+          "summary": "New Call from Repair Q Support - BRADLEY RANSOM (706) 284-0025",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-685",
+          "summary": "New Call from EDMONTON     AB (780) 977-3753",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-867",
+          "summary": "New Voice Message from Repair Q Support - LABBE COLDSMITH (251) 709-0848 on 05/02/2023 3:13 PM",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 5,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-875",
+          "summary": "New Call from Repair Q Support - LINDA SWANN (317) 755-1341",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 1,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-1006",
+          "summary": "New Call from SETH STEVENS (843) 421-0788",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-1097",
+          "summary": "New Voice Message from (236) 313-2620 on 05/03/2023 6:03 PM",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 2,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-1105",
+          "summary": "New Call from (973) 714-8385",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-1305",
+          "summary": "New Voice Message from Repair Q Support - TORONTO      ON (647) 721-9966 on 05/04/2023 4:06 PM",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 1,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-1426",
+          "summary": "New Call from TORONTO      ON (647) 721-9966",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        }
+      ]
+    }
+  },
+  "blank_topic_system_families": {
+    "assurant_inventory_error": {
+      "total": 8692,
+      "closed": 8692,
+      "closed_without_comments": 8473,
+      "top_resolutions": [
+        {
+          "value": "Done",
+          "count": 3834
+        },
+        {
+          "value": "Dismissed",
+          "count": 2982
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 1683
+        },
+        {
+          "value": "Duplicate",
+          "count": 185
+        },
+        {
+          "value": "Cannot Reproduce",
+          "count": 4
+        },
+        {
+          "value": "Declined / Canceled",
+          "count": 4
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "noreply@repairq.io",
+          "count": 8692
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 8692
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-104596",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104692",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104693",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104694",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104695",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104696",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104697",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104698",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104699",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104700",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104701",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104702",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        }
+      ]
+    },
+    "asurion_inventory_error": {
+      "total": 11459,
+      "closed": 11459,
+      "closed_without_comments": 11459,
+      "top_resolutions": [
+        {
+          "value": "Done",
+          "count": 7948
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 1791
+        },
+        {
+          "value": "Dismissed",
+          "count": 1720
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "noreply@repairq.io",
+          "count": 11459
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 11459
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-109766",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109767",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109768",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109769",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109770",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109771",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109772",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109773",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109774",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109775",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109776",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-109777",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        }
+      ]
+    },
+    "gsx_permission_violation": {
+      "total": 117,
+      "closed": 117,
+      "closed_without_comments": 117,
+      "top_resolutions": [
+        {
+          "value": "Done",
+          "count": 114
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 2
+        },
+        {
+          "value": "Dismissed",
+          "count": 1
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "mail@repairq.io",
+          "count": 117
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 117
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-138875",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138876",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138877",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138878",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138879",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138880",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138881",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138882",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138883",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138884",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138885",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-138886",
+          "summary": "GSX Permission Violation Alert - RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ]
+    },
+    "notify_tasks_completed": {
+      "total": 520,
+      "closed": 520,
+      "closed_without_comments": 517,
+      "top_resolutions": [
+        {
+          "value": "Done",
+          "count": 425
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 55
+        },
+        {
+          "value": "Dismissed",
+          "count": 40
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "mail@repairq.io",
+          "count": 520
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 520
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-102772",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-102775",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-102781",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-102789",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-102800",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-102801",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-102802",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-102805",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-103098",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-103241",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-103255",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-103278",
+          "summary": "Notify of the tasks completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ]
+    },
+    "quickbooks_journal_entry_error": {
+      "total": 152,
+      "closed": 152,
+      "closed_without_comments": 147,
+      "top_resolutions": [
+        {
+          "value": "Fixed / Completed",
+          "count": 71
+        },
+        {
+          "value": "Dismissed",
+          "count": 40
+        },
+        {
+          "value": "Done",
+          "count": 29
+        },
+        {
+          "value": "Duplicate",
+          "count": 12
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "noreply@repairq.io",
+          "count": 152
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 152
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-108536",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108537",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108550",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108551",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108661",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108662",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108715",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108752",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108753",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108831",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108832",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108838",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        }
+      ]
+    },
+    "repairq_task_completed": {
+      "total": 106,
+      "closed": 106,
+      "closed_without_comments": 106,
+      "top_resolutions": [
+        {
+          "value": "Done",
+          "count": 75
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 22
+        },
+        {
+          "value": "Dismissed",
+          "count": 9
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "mail@repairq.io",
+          "count": 106
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 106
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-104564",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-104618",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105079",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105089",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105093",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105094",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105095",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105115",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105116",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105117",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105118",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-105414",
+          "summary": "RepairQ task completed",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ]
+    },
+    "revv_error_report_blank_topic": {
+      "total": 1440,
+      "closed": 1440,
+      "closed_without_comments": 1438,
+      "top_resolutions": [
+        {
+          "value": "Done",
+          "count": 1326
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 76
+        },
+        {
+          "value": "Dismissed",
+          "count": 38
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "mail@repairq.io",
+          "count": 1440
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 1440
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-95207",
+          "summary": "Revv Error Report - 2024-01-19 12:01:50",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95212",
+          "summary": "Revv Error Report - 2024-01-19 14:36:04",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95219",
+          "summary": "Revv Error Report - 2024-01-19 15:10:52",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95223",
+          "summary": "Revv Error Report - 2024-01-19 19:50:53",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95230",
+          "summary": "Revv Error Report - 2024-01-20 17:15:59",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95249",
+          "summary": "Revv Error Report - 2024-01-22 15:06:10",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95253",
+          "summary": "Revv Error Report - 2024-01-22 16:31:09",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95269",
+          "summary": "Revv Error Report - 2024-01-23 11:06:00",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95271",
+          "summary": "Revv Error Report - 2024-01-23 11:50:57",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95280",
+          "summary": "Revv Error Report - 2024-01-23 14:36:00",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95285",
+          "summary": "Revv Error Report - 2024-01-23 18:25:57",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-95329",
+          "summary": "Revv Error Report - 2024-01-25 13:16:09",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ]
+    },
+    "welcome_to_repairq": {
+      "total": 416,
+      "closed": 416,
+      "closed_without_comments": 413,
+      "top_resolutions": [
+        {
+          "value": "Done",
+          "count": 256
+        },
+        {
+          "value": "Fixed / Completed",
+          "count": 97
+        },
+        {
+          "value": "Dismissed",
+          "count": 63
+        }
+      ],
+      "top_reporters": [
+        {
+          "value": "mail@repairq.io",
+          "count": 416
+        }
+      ],
+      "top_topics": [
+        {
+          "value": "(blank)",
+          "count": 416
+        }
+      ],
+      "samples": [
+        {
+          "key": "SCD-96968",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-96969",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-96978",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-96980",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-96982",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-96983",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-96984",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-96993",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97011",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97025",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97027",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97028",
+          "summary": "Welcome to RepairQ",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ]
+    }
+  },
+  "silent_close": {
+    "top_topics": [
+      {
+        "value": "(blank)",
+        "count": 26940
+      },
+      {
+        "value": "Assurant",
+        "count": 1191
+      },
+      {
+        "value": "Asurion",
+        "count": 1155
+      },
+      {
+        "value": "Revv Error Report",
+        "count": 1002
+      },
+      {
+        "value": "Azure Notification",
+        "count": 953
+      },
+      {
+        "value": "Ring Central Alert",
+        "count": 416
+      },
+      {
+        "value": "Spam",
+        "count": 338
+      },
+      {
+        "value": "Billing",
+        "count": 321
+      },
+      {
+        "value": "Sales",
+        "count": 229
+      },
+      {
+        "value": "Mandrill",
+        "count": 191
+      },
+      {
+        "value": "Ticket/Device Update",
+        "count": 161
+      },
+      {
+        "value": "Automatic Notifications",
+        "count": 140
+      },
+      {
+        "value": "PayPal",
+        "count": 130
+      },
+      {
+        "value": "Onboarding",
+        "count": 87
+      },
+      {
+        "value": "Quickbooks",
+        "count": 78
+      }
+    ],
+    "top_resolutions": [
+      {
+        "value": "Done",
+        "count": 19934
+      },
+      {
+        "value": "Dismissed",
+        "count": 7062
+      },
+      {
+        "value": "Fixed / Completed",
+        "count": 6366
+      },
+      {
+        "value": "Duplicate",
+        "count": 145
+      },
+      {
+        "value": "Declined / Canceled",
+        "count": 10
+      },
+      {
+        "value": "Declined",
+        "count": 7
+      },
+      {
+        "value": "Cannot Reproduce",
+        "count": 5
+      },
+      {
+        "value": "Reopened",
+        "count": 3
+      },
+      {
+        "value": "Known Error",
+        "count": 2
+      },
+      {
+        "value": "Moved to CS",
+        "count": 1
+      },
+      {
+        "value": "Won't Do",
+        "count": 1
+      }
+    ],
+    "top_reporters": [
+      {
+        "value": "noreply@repairq.io",
+        "count": 24188
+      },
+      {
+        "value": "mail@repairq.io",
+        "count": 4020
+      },
+      {
+        "value": "azure-noreply@microsoft.com",
+        "count": 1328
+      },
+      {
+        "value": "notify@ringcentral.com",
+        "count": 1006
+      },
+      {
+        "value": "service@paypal.com",
+        "count": 651
+      },
+      {
+        "value": "lula@repairq.io",
+        "count": 363
+      },
+      {
+        "value": "help@mandrill.com",
+        "count": 347
+      },
+      {
+        "value": "layla@repairq.io",
+        "count": 237
+      },
+      {
+        "value": "verda@repairq.io",
+        "count": 224
+      },
+      {
+        "value": "darien@repairq.io",
+        "count": 195
+      },
+      {
+        "value": "claude@repairq.io",
+        "count": 145
+      },
+      {
+        "value": "myah@repairq.io",
+        "count": 132
+      },
+      {
+        "value": "bernie@repairq.io",
+        "count": 44
+      },
+      {
+        "value": "isv-partners@merchant-email.fiserv.com",
+        "count": 34
+      },
+      {
+        "value": "export3@topyetlcd.com",
+        "count": 29
+      }
+    ],
+    "top_blank_summary_prefixes": [
+      {
+        "value": "Asurion: Error updating inventory quantities",
+        "count": 11459
+      },
+      {
+        "value": "Assurant: Error updating inventory quantities",
+        "count": 8473
+      },
+      {
+        "value": "Revv Error Report",
+        "count": 1438
+      },
+      {
+        "value": "test",
+        "count": 1274
+      },
+      {
+        "value": "Notify of the tasks completed",
+        "count": 551
+      },
+      {
+        "value": "Welcome to RepairQ",
+        "count": 413
+      },
+      {
+        "value": "New Call from Repair Q Support",
+        "count": 260
+      },
+      {
+        "value": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+        "count": 191
+      },
+      {
+        "value": "Notification of payment received",
+        "count": 186
+      },
+      {
+        "value": "Azure: Deactivated Severity: 2 RepairQ-ActiveQueueMessages",
+        "count": 183
+      },
+      {
+        "value": "GSX Permission Violation Alert",
+        "count": 117
+      },
+      {
+        "value": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+        "count": 107
+      },
+      {
+        "value": "RepairQ task completed",
+        "count": 106
+      },
+      {
+        "value": "Asurion: Error saving Asurion serviceJob SNWT3X7A33B5-1",
+        "count": 88
+      },
+      {
+        "value": "Asurion: Error saving Asurion serviceJob SNWT3X7A1E01-1",
+        "count": 84
+      },
+      {
+        "value": "Asurion: Error saving Asurion serviceJob SNWSAX733E34-1",
+        "count": 62
+      },
+      {
+        "value": "Asurion: Error saving Asurion serviceJob SNWSAX732635-1",
+        "count": 61
+      },
+      {
+        "value": "Asurion: Error saving Asurion serviceJob SNWS2X6793F4-1",
+        "count": 57
+      },
+      {
+        "value": "Asurion: Error saving Asurion serviceJob SNWS3X67D862-1",
+        "count": 56
+      },
+      {
+        "value": "Asurion: Error saving Asurion serviceJob SNWS2X6793E6-1",
+        "count": 56
+      }
+    ],
+    "samples_by_topic": {
+      "Ring Central Alert": [
+        {
+          "key": "SCD-111",
+          "summary": "New Call from EDMONTON     AB (780) 977-3753",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-674",
+          "summary": "New Call from Repair Q Support - BRADLEY RANSOM (706) 284-0025",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-685",
+          "summary": "New Call from EDMONTON     AB (780) 977-3753",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-1006",
+          "summary": "New Call from SETH STEVENS (843) 421-0788",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-1105",
+          "summary": "New Call from (973) 714-8385",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-1426",
+          "summary": "New Call from TORONTO      ON (647) 721-9966",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-2190",
+          "summary": "New Call from Repair Q Support - KELLON SANDERS (405) 397-7007",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-2211",
+          "summary": "New Call from SILK ROAD TELEC (901) 433-9341",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-3548",
+          "summary": "New Call from (213) 952-3066",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-3855",
+          "summary": "New Call from HAMILTON,ZACHER (334) 616-5496",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-4002",
+          "summary": "New Call from Repair Q Support - JOINTBAS MDL NJ (609) 200-5272",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-4022",
+          "summary": "New Call from Repair Q Support - CLEARWATER   FL (727) 281-2282",
+          "topic": "Ring Central Alert",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        }
+      ],
+      "Billing": [
+        {
+          "key": "SCD-276",
+          "summary": "Notification of payment received",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-1469",
+          "summary": "Decline First Notice",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "repairhub@icloud.com"
+        },
+        {
+          "key": "SCD-1480",
+          "summary": "Declined Transaction First Notice",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "info@appleshackrepair.com"
+        },
+        {
+          "key": "SCD-1488",
+          "summary": "Subscription Canceled for Non-payment",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "billing@repairq.io"
+        },
+        {
+          "key": "SCD-2155",
+          "summary": "You're Invited\u2014Recurly introduces app management",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "email@recurly.com"
+        },
+        {
+          "key": "SCD-2314",
+          "summary": "Subscription Expired",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "billing@repairq.io"
+        },
+        {
+          "key": "SCD-2317",
+          "summary": "PayPal Agreement Cancellation",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "pensacolaphonerepair@gmail.com"
+        },
+        {
+          "key": "SCD-2537",
+          "summary": "Service Desk link",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "clearwater.fl@experimax.com"
+        },
+        {
+          "key": "SCD-2722",
+          "summary": "Declined Transaction - IMPORTANT Account Notice",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "repairhub@icloud.com"
+        },
+        {
+          "key": "SCD-2725",
+          "summary": "Declined Transaction - IMPORTANT Account Notice",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "service@charlotteelectricmotors.com"
+        },
+        {
+          "key": "SCD-2728",
+          "summary": "Declined Transaction - IMPORTANT Account Notice",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "info@appleshackrepair.com"
+        },
+        {
+          "key": "SCD-2939",
+          "summary": "Notification of payment received",
+          "topic": "Billing",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        }
+      ],
+      "Reports": [
+        {
+          "key": "SCD-825",
+          "summary": "Re: [RepairQ] Re: Exporting Emails",
+          "topic": "Reports",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mark@icarefargo.com"
+        },
+        {
+          "key": "SCD-75941",
+          "summary": "Journal Entries Questions",
+          "topic": "Reports",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "exp@mmn.myworkplace.co"
+        },
+        {
+          "key": "SCD-95361",
+          "summary": "New Call from Repair Q Support - CALDERA HERRERA (479) 871-4314",
+          "topic": "Reports",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-101182",
+          "summary": "Support Ticket",
+          "topic": "Reports",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "support@servicecentral.com"
+        }
+      ],
+      "Settings & Configuration Questions": [
+        {
+          "key": "SCD-866",
+          "summary": "Re: Tom Schendel - EOL @ Comspot Repair",
+          "topic": "Settings & Configuration Questions",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "dillon.foy@servicecentral.com"
+        },
+        {
+          "key": "SCD-13820",
+          "summary": "Thanks For Reaching Out",
+          "topic": "Settings & Configuration Questions",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "kingkanaye@gmail.com"
+        },
+        {
+          "key": "SCD-15186",
+          "summary": "Price Inclusive Taxing was enabled",
+          "topic": "Settings & Configuration Questions",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "matthew.hovis@servicecentral.com"
+        },
+        {
+          "key": "SCD-94797",
+          "summary": "FedEx My Profile: Your profile has been updated",
+          "topic": "Settings & Configuration Questions",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "onlineservice@fedex.com"
+        },
+        {
+          "key": "SCD-95358",
+          "summary": "New Call from Repair Q Support - DAVID MILLER (405) 476-1220",
+          "topic": "Settings & Configuration Questions",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        }
+      ],
+      "Other": [
+        {
+          "key": "SCD-885",
+          "summary": "Subscription Canceled for Non-payment",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "billing@repairq.io"
+        },
+        {
+          "key": "SCD-15157",
+          "summary": "RE: SCD-15144 RE: SCD-14976 RE: SCD-14315 RE: SCD-12615 RE: Orphaned Gateway Transactions - Heartland",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "kdeshone@genius212.com"
+        },
+        {
+          "key": "SCD-17813",
+          "summary": "RE: SCD-16005 Request for Read-Ony",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "richard.hennessy@idccomm.mb.ca"
+        },
+        {
+          "key": "SCD-67461",
+          "summary": "Test Email",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "jethfo@gmail.com"
+        },
+        {
+          "key": "SCD-79408",
+          "summary": "You\u2019re invited to join an organization on the FedEx Developer Portal",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "noreply@fedex.com"
+        },
+        {
+          "key": "SCD-94351",
+          "summary": "Your Apple ID was used to sign in to iCloud on an\u00a0iPad\u00a0Air.",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@email.apple.com"
+        },
+        {
+          "key": "SCD-94352",
+          "summary": "Two-factor authentication enabled for your Apple ID",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@apple.com"
+        },
+        {
+          "key": "SCD-94353",
+          "summary": "Your Apple ID was used to sign in to iCloud on a\u00a0MacBook\u00a0Pro\u00a013\".",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@email.apple.com"
+        },
+        {
+          "key": "SCD-97231",
+          "summary": "Welcome to RepairQ",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97241",
+          "summary": "Welcome to RepairQ",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97249",
+          "summary": "Welcome to RepairQ",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97250",
+          "summary": "Welcome to RepairQ",
+          "topic": "Other",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "PayPal": [
+        {
+          "key": "SCD-2262",
+          "summary": "Billing agreement cancellation",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-85733",
+          "summary": "We're making some changes to our PayPal legal agreements",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "no_reply@communications.paypal.com"
+        },
+        {
+          "key": "SCD-94313",
+          "summary": "Activity report available for download",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-95254",
+          "summary": "IMPORTANT TAX RETURN DOCUMENT AVAILABLE FOR 2023",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "accountingteam@servicecentral.com"
+        },
+        {
+          "key": "SCD-95478",
+          "summary": "Stay logged in on this trusted device",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-100869",
+          "summary": "Notification of payment received",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-100903",
+          "summary": "Item # - Notification of Payment Received from Phone-n-Fix (carl@phonenfix.com)",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-101235",
+          "summary": "Notification of payment received",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-101262",
+          "summary": "Notification of payment received",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-101263",
+          "summary": "Item # - Notification of Payment Received from Renovo Mobile Inc. (nick@renovomobile.com)",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-101498",
+          "summary": "Notification of payment received",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-101503",
+          "summary": "Notification of payment received",
+          "topic": "PayPal",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        }
+      ],
+      "Heartland": [
+        {
+          "key": "SCD-2315",
+          "summary": "Support Call - Orphaned Transactions",
+          "topic": "Heartland",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "brycedickey406@gmail.com"
+        },
+        {
+          "key": "SCD-68646",
+          "summary": "Orphaned Transaction - Heartland",
+          "topic": "Heartland",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "travis@techrestore.com"
+        },
+        {
+          "key": "SCD-74332",
+          "summary": "Orphaned Transactions - Heartland",
+          "topic": "Heartland",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "byrdchester1992@yahoo.com"
+        },
+        {
+          "key": "SCD-91025",
+          "summary": "Orphaned Transaction - Heartland",
+          "topic": "Heartland",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "brycedickey406@gmail.com"
+        },
+        {
+          "key": "SCD-95383",
+          "summary": "Techrestore Orphaned Transaction",
+          "topic": "Heartland",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "thomas.foy@servicecentral.com"
+        }
+      ],
+      "Claims": [
+        {
+          "key": "SCD-2498",
+          "summary": "RE: Ticket reopen",
+          "topic": "Claims",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "john.lyall@mobileklinik.ca"
+        }
+      ],
+      "Square Integration": [
+        {
+          "key": "SCD-4035",
+          "summary": "Orphaned Transaction",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": ""
+        },
+        {
+          "key": "SCD-70682",
+          "summary": "David Rowan headlines SIGNAL Singapore",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "teamtwilio@team.twilio.com"
+        },
+        {
+          "key": "SCD-97943",
+          "summary": "Ticket # 12754093",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "jeffrey.klotz@cpr-corporate.com"
+        },
+        {
+          "key": "SCD-98523",
+          "summary": "New Call from Repair Q Support - TECHNOREDAC (581) 980-5265",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-98608",
+          "summary": "New Call from Repair Q Support - HOSAM ELGAZAR (314) 484-2528",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-98609",
+          "summary": "Sam's Cell Repair Issues with Square Integration",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "evan.huynh@servicecentral.com"
+        },
+        {
+          "key": "SCD-98611",
+          "summary": "New Call from Repair Q Support - HOSAM ELGAZAR (314) 484-2528",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-100995",
+          "summary": "RepairQ Support: Square Refund issue",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "abq@phonefixplace.com"
+        },
+        {
+          "key": "SCD-138528",
+          "summary": "Re: SCD-138513 Ticket# 5907 Cannot request payment",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "acrbellevue@gmail.com"
+        },
+        {
+          "key": "SCD-138529",
+          "summary": "Re: SCD-138513 Ticket# 5907 Cannot request payment",
+          "topic": "Square Integration",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "acrbellevue@gmail.com"
+        }
+      ],
+      "Invoices": [
+        {
+          "key": "SCD-4066",
+          "summary": "RE: SCD-2569 Error in Repair Q",
+          "topic": "Invoices",
+          "status": "Closed",
+          "resolution": "Moved to CS",
+          "comments": 0,
+          "reporter_email": "kdeshone@atienergy.com"
+        }
+      ],
+      "Spam": [
+        {
+          "key": "SCD-4247",
+          "summary": "Almost here\u2014solved!",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "email@recurly.com"
+        },
+        {
+          "key": "SCD-4915",
+          "summary": "Ref: Audit Report",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "matarg788@gmail.com"
+        },
+        {
+          "key": "SCD-5643",
+          "summary": "Re: To repair",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "export3@topyetlcd.com"
+        },
+        {
+          "key": "SCD-5705",
+          "summary": "New Tag-on Repair Flex without tools - Arya JKT",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "sales13@jacktelecom.com"
+        },
+        {
+          "key": "SCD-5706",
+          "summary": "re: repair glass",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "sales03@phonegismo.com"
+        },
+        {
+          "key": "SCD-5732",
+          "summary": "[Free] Merchant Account eBook",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "marketing@payjunction-bdr.com"
+        },
+        {
+          "key": "SCD-6695",
+          "summary": "Invitation For Tender on CRM -TenderNews",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mumbai38@tendernews.com"
+        },
+        {
+          "key": "SCD-7102",
+          "summary": "LogoRug - USA",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "rebecca@5rugs.com"
+        },
+        {
+          "key": "SCD-10109",
+          "summary": "RE: Manufacturing CRM Insights",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "emery.davis@datadigitize.com"
+        },
+        {
+          "key": "SCD-12278",
+          "summary": "iPhone 14&14 Plus Back Glass and Middle Frame in stock - Arya JKT",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "sales13@jacktelecom.com"
+        },
+        {
+          "key": "SCD-12285",
+          "summary": "Ref: 1st Page of Google",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "lauriejackson19762@gmail.com"
+        },
+        {
+          "key": "SCD-12541",
+          "summary": "Ref: 1st Page of Google",
+          "topic": "Spam",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "yadavalok9785@gmail.com"
+        }
+      ],
+      "Ticket/Device Update": [
+        {
+          "key": "SCD-6040",
+          "summary": "Cancel Claim",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "joshua.baham@cpr-corporate.com"
+        },
+        {
+          "key": "SCD-12614",
+          "summary": "Duplicated Invoice X5",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "travis@techrestore.com"
+        },
+        {
+          "key": "SCD-13807",
+          "summary": "Thanks For Reaching Out",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "reid.marshall@mobileklinik.ca"
+        },
+        {
+          "key": "SCD-18957",
+          "summary": "Close Ticket",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": ""
+        },
+        {
+          "key": "SCD-42069",
+          "summary": "Ticket # 11305138",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "jeffrey.klotz@cpr-corporate.com"
+        },
+        {
+          "key": "SCD-69829",
+          "summary": "Close ticket",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "derrick.richardson@mobileklinik.ca"
+        },
+        {
+          "key": "SCD-70939",
+          "summary": "Add Refund to Ticket",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "lschooley@cpr-corporate.com"
+        },
+        {
+          "key": "SCD-78077",
+          "summary": "Close Ticket",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": ""
+        },
+        {
+          "key": "SCD-84396",
+          "summary": "[Release Notes] CoPilot 5.56 and CardPointe 1.64 are Here!",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "isvpartner@email.cloverconnect.com"
+        },
+        {
+          "key": "SCD-85617",
+          "summary": "Inventory Item Pulled",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "jim@itechpalmbeach.com"
+        },
+        {
+          "key": "SCD-89100",
+          "summary": "NEW Arrival: iPhone 13 Pro LCD Incell RJ",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "sales13@jacktelecom.com"
+        },
+        {
+          "key": "SCD-95102",
+          "summary": "Adding part to closed ticket for CPR Albuquerque San Mateo",
+          "topic": "Ticket/Device Update",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "brett.heisler@assurant.com"
+        }
+      ],
+      "Azure Notification": [
+        {
+          "key": "SCD-13875",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-13914",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14388",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14406",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14528",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14546",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-14789",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-15051",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-15775",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-17118",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-41103",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        },
+        {
+          "key": "SCD-44939",
+          "summary": "Azure: Activated Severity: 2 RepairQ-ActiveQueueMessages",
+          "topic": "Azure Notification",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "azure-noreply@microsoft.com"
+        }
+      ],
+      "Pricing Increase": [
+        {
+          "key": "SCD-14318",
+          "summary": "Price increase",
+          "topic": "Pricing Increase",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "carlosimedic@gmail.com"
+        }
+      ],
+      "Purchase Order": [
+        {
+          "key": "SCD-17757",
+          "summary": "Re: Mobile Sentrix PO - 188769",
+          "topic": "Purchase Order",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "riley.limbeek@mobileklinik.ca"
+        },
+        {
+          "key": "SCD-34034",
+          "summary": "Purchase Order questions",
+          "topic": "Purchase Order",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "thomas.foy@servicecentral.com"
+        },
+        {
+          "key": "SCD-68577",
+          "summary": "Reopen PO",
+          "topic": "Purchase Order",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "tyler.young@mobileklinik.ca"
+        },
+        {
+          "key": "SCD-95385",
+          "summary": "Adjust PO costs",
+          "topic": "Purchase Order",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "thomas.foy@servicecentral.com"
+        },
+        {
+          "key": "SCD-100423",
+          "summary": "Pending PO Resolve issue at MK 158",
+          "topic": "Purchase Order",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "barinder.kaur@telus.com"
+        }
+      ],
+      "User Error - UI Workflow": [
+        {
+          "key": "SCD-24701",
+          "summary": "Ticket # 10715670",
+          "topic": "User Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "jeffrey.klotz@cpr-corporate.com"
+        },
+        {
+          "key": "SCD-91361",
+          "summary": "Unable to login to RepairQ",
+          "topic": "User Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "awitte@cpr-stores.com"
+        }
+      ],
+      "GSX - Request Error": [
+        {
+          "key": "SCD-25646",
+          "summary": "Close Ticket",
+          "topic": "GSX - Request Error",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": ""
+        },
+        {
+          "key": "SCD-97433",
+          "summary": "GSX Request error",
+          "topic": "GSX - Request Error",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97434",
+          "summary": "GSX Request error",
+          "topic": "GSX - Request Error",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97435",
+          "summary": "GSX Request error",
+          "topic": "GSX - Request Error",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97436",
+          "summary": "GSX Request error",
+          "topic": "GSX - Request Error",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-100801",
+          "summary": "GSX Request error",
+          "topic": "GSX - Request Error",
+          "status": "Closed",
+          "resolution": "Declined / Canceled",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-100802",
+          "summary": "GSX Request error",
+          "topic": "GSX - Request Error",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "Cancellation": [
+        {
+          "key": "SCD-28344",
+          "summary": "Subscription Expired",
+          "topic": "Cancellation",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "billing@repairq.io"
+        },
+        {
+          "key": "SCD-28346",
+          "summary": "Canceled for Subscription",
+          "topic": "Cancellation",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "brittney.nichols@servicecentral.com"
+        },
+        {
+          "key": "SCD-72625",
+          "summary": "Cancel subscription",
+          "topic": "Cancellation",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "admin@adkdatarecovery.com"
+        },
+        {
+          "key": "SCD-77212",
+          "summary": "Subscription Expired",
+          "topic": "Cancellation",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "billing@repairq.io"
+        },
+        {
+          "key": "SCD-97133",
+          "summary": "New Call from Repair Q Support - CORDIAL COTTAGE (870) 362-8070",
+          "topic": "Cancellation",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        }
+      ],
+      "Bluefin": [
+        {
+          "key": "SCD-29128",
+          "summary": "Orphaned Transactions - Bluefin",
+          "topic": "Bluefin",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "franklincountyvacuum@gmail.com"
+        },
+        {
+          "key": "SCD-62067",
+          "summary": "Bluefin troubles",
+          "topic": "Bluefin",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "thomas.foy@servicecentral.com"
+        },
+        {
+          "key": "SCD-95246",
+          "summary": "A new Bluefin PayConex gateway has been created for you.",
+          "topic": "Bluefin",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@bluefin.com"
+        },
+        {
+          "key": "SCD-95667",
+          "summary": "A new Bluefin PayConex gateway has been created for you.",
+          "topic": "Bluefin",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@bluefin.com"
+        },
+        {
+          "key": "SCD-98477",
+          "summary": "Mimobile, bluefin assistance",
+          "topic": "Bluefin",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "thomas.foy@servicecentral.com"
+        },
+        {
+          "key": "SCD-102141",
+          "summary": "A new Bluefin PayConex gateway has been created for you.",
+          "topic": "Bluefin",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@bluefin.com"
+        }
+      ],
+      "Labels": [
+        {
+          "key": "SCD-29525",
+          "summary": "Label Printing Issues",
+          "topic": "Labels",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mmhutchensphoto@gmail.com"
+        }
+      ],
+      "QZ": [
+        {
+          "key": "SCD-36980",
+          "summary": "Silkroadtelecom integrated printing issues",
+          "topic": "QZ",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "thomas.foy@servicecentral.com"
+        }
+      ],
+      "Kingfisher": [
+        {
+          "key": "SCD-48893",
+          "summary": "RE: SCD-48366 Could you please revert back the following Screen Replacement ticket to:",
+          "topic": "Kingfisher",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "peter.zajac@kingfisher-mx.com"
+        }
+      ],
+      "(blank)": [
+        {
+          "key": "SCD-61615",
+          "summary": "Notification of payment received",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-63937",
+          "summary": "Stay logged in on this trusted device",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        },
+        {
+          "key": "SCD-65474",
+          "summary": "PO # Is Showing Twice On Inventory Labels",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "ian.turner@servicecentral.com"
+        },
+        {
+          "key": "SCD-66441",
+          "summary": "[Recurly] Failed Transaction: ServiceCentral Technologies, Inc. d/b/a RepairQ -- PayPal Business Account",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "support@recurly.com"
+        },
+        {
+          "key": "SCD-66589",
+          "summary": "Web Design Upgrade",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "laila@growthshop.info"
+        },
+        {
+          "key": "SCD-66644",
+          "summary": "Only 5 days to go - finalize your application for Worldline\u2019s e-Payments Challenge!",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "rebeka@startus.cc"
+        },
+        {
+          "key": "SCD-70189",
+          "summary": "Re: Pixel repair ticket 1510467",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "rehan.malik@mobileklinik.ca"
+        },
+        {
+          "key": "SCD-73743",
+          "summary": "Refund Ticket 28034",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "ian.turner@servicecentral.com"
+        },
+        {
+          "key": "SCD-84031",
+          "summary": "FW: AA ticket 545195 - Dennis Matthews",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "kdeshone@genius212.com"
+        },
+        {
+          "key": "SCD-88928",
+          "summary": "Typeform: NEW SUB SURVEY-- New Account Personalization Survey-- [DO NOT DELETE]",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "notifications@typeform.com"
+        },
+        {
+          "key": "SCD-90928",
+          "summary": "Merchant Billing Issue Identified: Resolution in Progress",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Reopened",
+          "comments": 0,
+          "reporter_email": "isvpartner@email.cloverconnect.com"
+        },
+        {
+          "key": "SCD-94658",
+          "summary": "Closed for New Years \ud83c\udf87\ud83c\udf87\ud83c\udf87",
+          "topic": "",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "sales@wgp.com"
+        }
+      ],
+      "Revv Error Report": [
+        {
+          "key": "SCD-63978",
+          "summary": "Revv Error Report - 2023-09-19 12:36:22",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64002",
+          "summary": "Revv Error Report - 2023-09-19 13:41:28",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64097",
+          "summary": "Revv Error Report - 2023-09-19 17:36:47",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64497",
+          "summary": "Revv Error Report - 2023-09-20 11:20:55",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64908",
+          "summary": "Revv Error Report - 2023-09-21 11:10:59",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-64997",
+          "summary": "Revv Error Report - 2023-09-21 12:22:37",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65061",
+          "summary": "Revv Error Report - 2023-09-21 19:06:05",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65080",
+          "summary": "Revv Error Report - 2023-09-21 19:40:52",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65099",
+          "summary": "Revv Error Report - 2023-09-21 17:45:57",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65472",
+          "summary": "Revv Error Report - 2023-09-22 13:07:19",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65831",
+          "summary": "Revv Error Report - 2023-09-23 11:35:59",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-65851",
+          "summary": "Revv Error Report - 2023-09-23 12:37:06",
+          "topic": "Revv Error Report",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "Assurant": [
+        {
+          "key": "SCD-65373",
+          "summary": "RE: New models iPhone 13 and iPhone 13 mini not being offered PG",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "ravipal.jabbi@assurant.com"
+        },
+        {
+          "key": "SCD-104874",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-104875",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-105070",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-105071",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-105161",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-105162",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-105163",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-105164",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-105165",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-105166",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-105167",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Assurant",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        }
+      ],
+      "Onboarding": [
+        {
+          "key": "SCD-69126",
+          "summary": "Typeform: NEW SUB SURVEY-- New Account Personalization Survey-- [DO NOT DELETE]",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notifications@typeform.com"
+        },
+        {
+          "key": "SCD-70766",
+          "summary": "Typeform: NEW SUB SURVEY-- New Account Personalization Survey-- [DO NOT DELETE]",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notifications@typeform.com"
+        },
+        {
+          "key": "SCD-70957",
+          "summary": "Typeform: NEW SUB SURVEY-- New Account Personalization Survey-- [DO NOT DELETE]",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notifications@typeform.com"
+        },
+        {
+          "key": "SCD-98986",
+          "summary": "Silk Road Telecom - Orphaned Transaction on Ticket Number 118005",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99167",
+          "summary": "Welcome to RepairQ",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99204",
+          "summary": "Welcome to RepairQ",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99208",
+          "summary": "Welcome to RepairQ",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99447",
+          "summary": "Welcome to RepairQ",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99481",
+          "summary": "Welcome to RepairQ",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99511",
+          "summary": "Welcome to RepairQ",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99516",
+          "summary": "Welcome to RepairQ",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99654",
+          "summary": "Welcome to RepairQ",
+          "topic": "Onboarding",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "Transaction Errors": [
+        {
+          "key": "SCD-72315",
+          "summary": "Orphaned transaction - Square",
+          "topic": "Transaction Errors",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "macdaddyphonerepair@gmail.com"
+        },
+        {
+          "key": "SCD-79677",
+          "summary": "Orphaned transaction Ticket #5333",
+          "topic": "Transaction Errors",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "macdaddyphonerepair@gmail.com"
+        },
+        {
+          "key": "SCD-79693",
+          "summary": "Orphan Transaction Ticket 74386",
+          "topic": "Transaction Errors",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "dd8036@digitaldoc.com"
+        },
+        {
+          "key": "SCD-81377",
+          "summary": "Ticket 5356 Orphan Transaction- Square",
+          "topic": "Transaction Errors",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "macdaddyphonerepair@gmail.com"
+        },
+        {
+          "key": "SCD-85552",
+          "summary": "Orphan Transaction Ticket 5434",
+          "topic": "Transaction Errors",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "macdaddyphonerepair@gmail.com"
+        },
+        {
+          "key": "SCD-98364",
+          "summary": "New Call from Repair Q Support - MONES,GETHRO (561) 827-3361",
+          "topic": "Transaction Errors",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-100143",
+          "summary": "Silk Road Telecom - Orphaned Transaction on Ticket Number 118844",
+          "topic": "Transaction Errors",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "Google": [
+        {
+          "key": "SCD-74864",
+          "summary": "Re: Response code triage missing for SNC043843",
+          "topic": "Google",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "xinjieduan@google.com"
+        },
+        {
+          "key": "SCD-95952",
+          "summary": "Fwd: Unable to book in this IMEI",
+          "topic": "Google",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "tbabics@google.com"
+        }
+      ],
+      "Mandrill": [
+        {
+          "key": "SCD-77805",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: mobilesnap",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-77832",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: tpkwireless",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-95833",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: mrfixit",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-96015",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: mrfixit",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-96044",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: mrfixit",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-96176",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: mrfixit",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-96358",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: mrfixit",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-97974",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: acecommunications",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-98035",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: tekplay",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-98036",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: uat-us-cpr",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-98081",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: tekplay",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-98150",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: acecommunications",
+          "topic": "Mandrill",
+          "status": "Closed",
+          "resolution": "Declined / Canceled",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        }
+      ],
+      "Re - Open Ticket": [
+        {
+          "key": "SCD-83244",
+          "summary": "Re-open ticket",
+          "topic": "Re - Open Ticket",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "colby.j.bodin@gmail.com"
+        },
+        {
+          "key": "SCD-95293",
+          "summary": "Ticket status to change from close to open",
+          "topic": "Re - Open Ticket",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "tr@cellzone.ca"
+        }
+      ],
+      "Inventory": [
+        {
+          "key": "SCD-83320",
+          "summary": "Ticket #1568575",
+          "topic": "Inventory",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "joseph.bartram@gbstech.com"
+        },
+        {
+          "key": "SCD-96182",
+          "summary": "New Call from Repair Q Support -  (888) 899-5545",
+          "topic": "Inventory",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-102170",
+          "summary": "New Call from Repair Q Support - FIX (317) 600-9999",
+          "topic": "Inventory",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        }
+      ],
+      "Customer Management": [
+        {
+          "key": "SCD-86008",
+          "summary": "RepairQ Customer list",
+          "topic": "Customer Management",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "repairs@reconnecteddevicerepair.com"
+        }
+      ],
+      "Automatic Notifications": [
+        {
+          "key": "SCD-94903",
+          "summary": "Reactivate Your Account for Enhanced Protection",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "sendgrid-support@mail-sever.com"
+        },
+        {
+          "key": "SCD-98510",
+          "summary": "[Mandrill Alert] Poor Subaccount Reputation: uat-us-cpr",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "help@mandrill.com"
+        },
+        {
+          "key": "SCD-99164",
+          "summary": "Welcome to RepairQ",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-104094",
+          "summary": "Notify of the tasks completed",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "andresfelix951@gmail.com"
+        },
+        {
+          "key": "SCD-120371",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-120372",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-120373",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-120374",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-120375",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-120376",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-120377",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-120378",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Automatic Notifications",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        }
+      ],
+      "Sales": [
+        {
+          "key": "SCD-95933",
+          "summary": "[BULK] New response for RepairQ Contact Us Form",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "notifications@typeform.com"
+        },
+        {
+          "key": "SCD-96025",
+          "summary": "Contact request",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "acarney@americanlandmaster.com"
+        },
+        {
+          "key": "SCD-96172",
+          "summary": "[BULK] New response for RepairQ Contact Us Form",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notifications@typeform.com"
+        },
+        {
+          "key": "SCD-96349",
+          "summary": "Website inquiry ?",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "william@trignotech.co"
+        },
+        {
+          "key": "SCD-96476",
+          "summary": "I'm highly interested in your company's products",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "aicc@email.mail-hg.com"
+        },
+        {
+          "key": "SCD-97063",
+          "summary": "New Call from Repair Q Support - WIRELESS CALLER (952) 564-9407",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-97064",
+          "summary": "New Call from SUSPECTED ROBOCALL (404) 220-8203",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-97419",
+          "summary": "Welcome to RepairQ",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97420",
+          "summary": "Welcome to RepairQ",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97421",
+          "summary": "Welcome to RepairQ",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97423",
+          "summary": "Welcome to RepairQ",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97427",
+          "summary": "Welcome to RepairQ",
+          "topic": "Sales",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "Analytics": [
+        {
+          "key": "SCD-96788",
+          "summary": "Re: SCD-96784 cannot access analytics",
+          "topic": "Analytics",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "tekheadllc@gmail.com"
+        },
+        {
+          "key": "SCD-101066",
+          "summary": "test",
+          "topic": "Analytics",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "verda@repairq.io"
+        },
+        {
+          "key": "SCD-101128",
+          "summary": "test",
+          "topic": "Analytics",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "verda@repairq.io"
+        },
+        {
+          "key": "SCD-101130",
+          "summary": "test",
+          "topic": "Analytics",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "verda@repairq.io"
+        }
+      ],
+      "Payment Methods": [
+        {
+          "key": "SCD-97295",
+          "summary": "Silk Road Telecom - Orphaned Transaction on Ticket Number 116320",
+          "topic": "Payment Methods",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-103611",
+          "summary": "Notify of the tasks completed",
+          "topic": "Payment Methods",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "Tradein": [
+        {
+          "key": "SCD-97475",
+          "summary": "trade in ticket 13298",
+          "topic": "Tradein",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "carl.burfeind43@gmail.com"
+        }
+      ],
+      "Signup Issues": [
+        {
+          "key": "SCD-97662",
+          "summary": "There was an error in the SQS process",
+          "topic": "Signup Issues",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97663",
+          "summary": "There was an error in the SQS process",
+          "topic": "Signup Issues",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97664",
+          "summary": "There was an error in the SQS process",
+          "topic": "Signup Issues",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97665",
+          "summary": "There was an error in the SQS process",
+          "topic": "Signup Issues",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-97666",
+          "summary": "There was an error in the SQS process",
+          "topic": "Signup Issues",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98506",
+          "summary": "New Call from Repair Q Support - KELLON SANDERS (405) 397-7007",
+          "topic": "Signup Issues",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-98521",
+          "summary": "New Call from Repair Q Support - MONES,GETHRO (561) 827-3361",
+          "topic": "Signup Issues",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-100235",
+          "summary": "Welcome to RepairQ",
+          "topic": "Signup Issues",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-141939",
+          "summary": "Welcome to RepairQ",
+          "topic": "Signup Issues",
+          "status": "Resolved",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "VCT": [
+        {
+          "key": "SCD-97696",
+          "summary": "New Call from DEMETRIL ONEAL (803) 807-7256",
+          "topic": "VCT",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        },
+        {
+          "key": "SCD-101945",
+          "summary": "Support Ticket",
+          "topic": "VCT",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "support@servicecentral.com"
+        },
+        {
+          "key": "SCD-102176",
+          "summary": "New Call from Repair Q Support - YUFIXIT LLC (201) 215-1340",
+          "topic": "VCT",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        }
+      ],
+      "Devices": [
+        {
+          "key": "SCD-98057",
+          "summary": "New Call from Repair Q Support - UBREAKIFIX (514) 542-3636",
+          "topic": "Devices",
+          "status": "Closed",
+          "resolution": "Duplicate",
+          "comments": 0,
+          "reporter_email": "notify@ringcentral.com"
+        }
+      ],
+      "Error - UI Workflow": [
+        {
+          "key": "SCD-98111",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98112",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98113",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98114",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98116",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98117",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98119",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98120",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98121",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98123",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98125",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98126",
+          "summary": "There was an error in the SQS process",
+          "topic": "Error - UI Workflow",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "SQS Errors": [
+        {
+          "key": "SCD-98637",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98638",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98642",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98643",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98989",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98990",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98991",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98993",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-98994",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99217",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99221",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-99225",
+          "summary": "There was an error in the SQS process",
+          "topic": "SQS Errors",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "Error - 400": [
+        {
+          "key": "SCD-101397",
+          "summary": "support test",
+          "topic": "Error - 400",
+          "status": "Closed",
+          "resolution": "Fixed / Completed",
+          "comments": 0,
+          "reporter_email": "tim.parrish@servicecentral.com"
+        }
+      ],
+      "Billing Agents": [
+        {
+          "key": "SCD-101592",
+          "summary": "Notification of payment received",
+          "topic": "Billing Agents",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "service@paypal.com"
+        }
+      ],
+      "GSX  - Modification": [
+        {
+          "key": "SCD-102252",
+          "summary": "GSX Request error",
+          "topic": "GSX  - Modification",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        },
+        {
+          "key": "SCD-102253",
+          "summary": "GSX Request error",
+          "topic": "GSX  - Modification",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "None": [
+        {
+          "key": "SCD-102486",
+          "summary": "test",
+          "topic": "None",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "verda@repairq.io"
+        },
+        {
+          "key": "SCD-127635",
+          "summary": "test",
+          "topic": "None",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "claude@repairq.io"
+        },
+        {
+          "key": "SCD-127637",
+          "summary": "test",
+          "topic": "None",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "claude@repairq.io"
+        },
+        {
+          "key": "SCD-127638",
+          "summary": "test",
+          "topic": "None",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "claude@repairq.io"
+        },
+        {
+          "key": "SCD-128305",
+          "summary": "test",
+          "topic": "None",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "claude@repairq.io"
+        },
+        {
+          "key": "SCD-128306",
+          "summary": "test",
+          "topic": "None",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "claude@repairq.io"
+        },
+        {
+          "key": "SCD-128594",
+          "summary": "Big News! Extended Batch Close Time for ACH Transactions",
+          "topic": "None",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "isv-partners@merchant-email.fiserv.com"
+        }
+      ],
+      "Quickbooks": [
+        {
+          "key": "SCD-107306",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for krackdphonerepairs",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108511",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108512",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108586",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108587",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108616",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108617",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108632",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108633",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108638",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108639",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-108789",
+          "summary": "Error: RepairQ Journal Entries to QuickBooks Online for uat-us-cpr",
+          "topic": "Quickbooks",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        }
+      ],
+      "Asurion": [
+        {
+          "key": "SCD-110112",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWT3X7A33B5-1",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-110113",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWT3X7A1E01-1",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111251",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111252",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111253",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111254",
+          "summary": "Assurant: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111255",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111256",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111257",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111260",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111261",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-111262",
+          "summary": "Asurion: Error updating inventory quantities",
+          "topic": "Asurion",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        }
+      ],
+      "Journal Entries": [
+        {
+          "key": "SCD-116720",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWSAX732635-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116721",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWSAX723C28-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116722",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWSAX733E34-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116723",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWS2X6793F4-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116724",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWT3X7AC57A-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116725",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWT4X7AFC49-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116726",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWT4X7B3374-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116727",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWT3X7A1E01-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116728",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWT4X7B2650-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116729",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWT3X7ACB38-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116730",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWS2X6793E6-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        },
+        {
+          "key": "SCD-116731",
+          "summary": "Asurion: Error saving Asurion serviceJob SNWT3X7A33B5-1",
+          "topic": "Journal Entries",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "noreply@repairq.io"
+        }
+      ],
+      "3rd Party Integration": [
+        {
+          "key": "SCD-138742",
+          "summary": "Revv Error Report - 2025-11-26 12:59:26",
+          "topic": "3rd Party Integration",
+          "status": "Closed",
+          "resolution": "Dismissed",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ],
+      "Recurly": [
+        {
+          "key": "SCD-140408",
+          "summary": "API credentials were updated on your Recurly account",
+          "topic": "Recurly",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "support@recurly.com"
+        }
+      ],
+      "Warranty": [
+        {
+          "key": "SCD-140597",
+          "summary": "Welcome to RepairQ",
+          "topic": "Warranty",
+          "status": "Closed",
+          "resolution": "Done",
+          "comments": 0,
+          "reporter_email": "mail@repairq.io"
+        }
+      ]
+    }
+  }
+}

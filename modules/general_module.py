@@ -19,7 +19,8 @@ MODULE_ID = "general"
 DISPLAY_NAME = "general knowledge module"
 VERSION = "v1.0"
 
-KNOWLEDGE_ROOT = Path(__file__).with_name("knowledge")
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+KNOWLEDGE_ROOT = PROJECT_ROOT / "knowledge"
 KNOWLEDGEBASE_ROOT = KNOWLEDGE_ROOT / "knowledgebase"
 PAGES_ROOT = KNOWLEDGEBASE_ROOT / "spaces" / "SCD" / "pages"
 COPILOT_BASE_URL = "https://api.business.githubcopilot.com"

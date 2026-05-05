@@ -10,7 +10,8 @@ DISPLAY_NAME = "orphaned transaction module"
 VERSION = "v1.1"
 
 
-TEMPLATE_DIRECTORY = Path(__file__).with_name("orphaned_transaction_tickets")
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+TEMPLATE_DIRECTORY = PROJECT_ROOT / "orphaned_transaction_tickets"
 REQUIRED_DETAIL_KEYS = [
     "rq_ticket",
     "customer_id",

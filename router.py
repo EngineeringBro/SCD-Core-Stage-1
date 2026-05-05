@@ -10,21 +10,28 @@ ALLOWED_MODULE_NAMES = {
     "spam",
 }
 
+NOTIFICATION_SENDER_EMAILS = {
+    "mail@repairq.io",
+    "noreply@repairq.io",
+    "azure-noreply@microsoft.com",
+}
 
-def route_ticket(ticket_id: str, ticket_details: dict[str, Any]) -> dict[str, str]:
+
+def route_ticket(ticket_id: str, ticket_details: dict[str, Any]) -> dict[str, Any]:
     if not ticket_id.strip():
         raise ValueError("ticket_id is required")
     if not ticket_details:
         raise ValueError("ticket_details are required")
 
     routing_text = build_routing_text(ticket_details)
-    module_name = select_module_name(routing_text)
+    route_result = select_route(ticket_details, routing_text)
+    module_name = str(route_result.get("module_name") or "").strip()
     if module_name not in ALLOWED_MODULE_NAMES:
         raise ValueError(f"invalid module selected: {module_name}")
 
     return {
         "ticket_id": ticket_id.strip(),
-        "module_name": module_name,
+        **route_result,
     }
 
 
@@ -73,14 +80,30 @@ def normalize_whitespace(value: str) -> str:
     return " ".join(value.split()).strip()
 
 
-def select_module_name(combined_text: str) -> str:
+def extract_reporter_email(ticket_details: dict[str, Any]) -> str:
+    issue = ticket_details.get("issue")
+    if not isinstance(issue, dict):
+        return ""
+
+    fields = issue.get("fields")
+    if not isinstance(fields, dict):
+        return ""
+
+    reporter = fields.get("reporter")
+    if not isinstance(reporter, dict):
+        return ""
+
+    return normalize_whitespace(str(reporter.get("emailAddress") or reporter.get("email") or "")).lower()
+
+
+def select_route(ticket_details: dict[str, Any], combined_text: str) -> dict[str, Any]:
     if "orphaned transaction" in combined_text:
-        return "orphaned_transaction"
+        return {"module_name": "orphaned_transaction"}
+
+    if extract_reporter_email(ticket_details) in NOTIFICATION_SENDER_EMAILS:
+        return {"module_name": "notification"}
 
     if any(keyword in combined_text for keyword in ["spam", "robocall", "junk"]):
-        return "spam"
+        return {"module_name": "spam"}
 
-    if any(keyword in combined_text for keyword in ["notification", "alert", "ringcentral"]):
-        return "notification"
-
-    return "general"
+    return {"module_name": "general"}

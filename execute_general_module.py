@@ -8,7 +8,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-import general_module
+from modules import general_module
 
 
 INTERNAL_COMMENT_TEXT = "This ticket was resolved using my AI Agent"
