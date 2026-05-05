@@ -54,6 +54,9 @@ jobs:
             orphaned_transaction)
               python execute_orphaned_transaction.py | tee execute-output.txt
               ;;
+            notification)
+              python execute_notifications.py | tee execute-output.txt
+              ;;
             general)
               python execute_general_module.py | tee execute-output.txt
               ;;
