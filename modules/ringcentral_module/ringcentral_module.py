@@ -70,7 +70,38 @@ QUERY_EXPANSIONS = {
     "create": {"profile"},
     "created": {"profile"},
     "creating": {"profile"},
+    "data": {"import", "migration", "migrating"},
+    "demo": {"onboarding", "trial", "sales"},
+    "import": {"data", "migration", "migrating", "onboarding"},
+    "migrate": {"data", "import", "migration", "onboarding"},
+    "migrating": {"data", "import", "migration", "onboarding"},
+    "migration": {"data", "import", "migrating", "onboarding"},
+    "onboarding": {"data", "import", "migration", "trial"},
     "ticket": {"repair", "tickets"},
+    "trial": {"demo", "onboarding", "sales"},
+}
+LOW_SIGNAL_ARTICLE_TOKENS = {
+    "call",
+    "callback",
+    "caller",
+    "calls",
+    "described",
+    "help",
+    "issue",
+    "issues",
+    "message",
+    "messages",
+    "phone",
+    "queue",
+    "repair",
+    "ringcentral",
+    "shopper",
+    "support",
+    "technical",
+    "ticket",
+    "tickets",
+    "voice",
+    "voicemail",
 }
 STOP_WORDS = {
     "add",
@@ -937,13 +968,12 @@ def enrich_voicemail(
         return "", [], [f"Voicemail enrichment skipped: knowledge folder is missing: {PAGES_ROOT}"]
 
     ticket_context = build_ticket_context(ticket_id, ticket_details, transcript_text)
-    query_tokens = expand_query_tokens(tokenize(ticket_context.combined_text))
+    query_tokens = build_article_query_tokens(ticket_context.transcript)
     if not query_tokens:
         return "", [], ["Voicemail enrichment skipped: transcript did not contain searchable text"]
 
     article_candidates = find_article_candidates(query_tokens)
-    step_groups = collect_relevant_groups(article_candidates, query_tokens)
-    helpful_articles = dedupe_articles([(group.article_title, group.article_url) for group in step_groups[:3]])
+    helpful_articles = select_helpful_articles(article_candidates, query_tokens, ticket_context.transcript)
     prompt = build_voicemail_summary_prompt(ticket_context, helpful_articles)
 
     client = OpenAI(
@@ -1048,6 +1078,47 @@ def build_candidate_search_text(page_dir: Path) -> str:
 
     html_text = body_path.read_text(encoding="utf-8")
     return truncate_text(extract_plain_html_text(html_text), 5000)
+
+
+def build_article_query_tokens(transcript_text: str) -> set[str]:
+    transcript_tokens = expand_query_tokens(tokenize(transcript_text))
+    focused_tokens = transcript_tokens - LOW_SIGNAL_ARTICLE_TOKENS
+    return focused_tokens or transcript_tokens
+
+
+def select_helpful_articles(
+    article_candidates: list[PageCandidate],
+    query_tokens: set[str],
+    transcript_text: str,
+) -> list[tuple[str, str]]:
+    ranked_articles: list[tuple[int, str, str]] = []
+    transcript_lower = transcript_text.lower()
+
+    for candidate in article_candidates:
+        title_lower = candidate.title.lower()
+        title_score = score_text(query_tokens, candidate.title, title_multiplier=6)
+        body_text = build_candidate_search_text(candidate.page_dir)
+        body_lower = body_text.lower()
+        body_score = min(score_text(query_tokens, body_text, title_multiplier=2), 36)
+        relevance_score = (title_score * 4) + body_score
+        if "task queue" in title_lower or "queued task" in title_lower:
+            relevance_score -= 40
+        if "onboarding" in transcript_lower and ("onboarding" in title_lower or "onboarding" in body_lower):
+            relevance_score += 30
+        if re.search(r"migrat|import|data", transcript_lower) and (
+            "import" in title_lower or "migration" in title_lower or "import" in body_lower
+        ):
+            relevance_score += 20
+        if "contacts" in transcript_lower and ("customer" in title_lower or "customer" in body_lower):
+            relevance_score += 15
+        if "tickets" in transcript_lower and "importing tickets" in title_lower:
+            relevance_score += 15
+        if relevance_score <= 0:
+            continue
+        ranked_articles.append((relevance_score, candidate.title, candidate.web_url))
+
+    ranked_articles.sort(key=lambda item: (-item[0], item[1].lower()))
+    return dedupe_articles([(title, url) for _, title, url in ranked_articles])[:3]
 
 
 def read_json(path: Path) -> dict[str, Any]:
