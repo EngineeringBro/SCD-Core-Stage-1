@@ -883,11 +883,12 @@ def enrich_voicemail(
     refined_summary = str(response.choices[0].message.content or "").strip()
     if refined_summary.startswith("```"):
         refined_summary = refined_summary.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
+    rejected_helpful_articles = summary_rejects_helpful_articles(refined_summary)
     refined_summary = strip_irrelevant_article_text(refined_summary)
     if not refined_summary:
         return "", helpful_articles, ["Voicemail enrichment fallback used: model returned no usable summary"]
 
-    if summary_rejects_helpful_articles(refined_summary):
+    if rejected_helpful_articles:
         helpful_articles = []
 
     return refined_summary, helpful_articles, [f"Voicemail enrichment model: {resolve_copilot_model()}"]
@@ -909,8 +910,7 @@ def build_voicemail_summary_prompt(ticket_context: TicketContext, helpful_articl
         "- State the likely caller intent if it is present.\n"
         "- Mention any ticket number, customer name, location, or issue keywords if present.\n"
         "- If the transcript is unclear, say exactly that instead of guessing.\n"
-        "- Only mention helpful articles if one or more clearly apply.\n"
-        "- If no helpful article clearly applies, omit article mention entirely.\n\n"
+        "- If helpful articles are provided, end with one short sentence naming which article(s) may help.\n\n"
         f"Ticket context:\n```json\n{ticket_context_json(payload)}\n```\n\n"
         f"Helpful articles:\n```json\n{ticket_context_json(articles)}\n```"
     )
