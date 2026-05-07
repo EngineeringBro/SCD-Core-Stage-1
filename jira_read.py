@@ -10,6 +10,13 @@ from pathlib import Path
 
 MAX_MP3_ATTACHMENTS = 3
 MAX_MP3_ATTACHMENT_BYTES = 15_000_000
+MP3_MIME_TYPES = {
+    "audio/mpeg",
+    "audio/mp3",
+    "audio/x-mp3",
+    "audio/x-mpeg-3",
+    "audio/mpg",
+}
 
 
 class JiraReadClient:
@@ -99,7 +106,7 @@ class JiraReadClient:
 
         if not content_url:
             return None
-        if Path(filename).suffix.lower() != ".mp3":
+        if not self._is_mp3_attachment(filename, mime_type):
             return None
         if size and size > MAX_MP3_ATTACHMENT_BYTES:
             return None
@@ -114,6 +121,11 @@ class JiraReadClient:
             "size": size or len(attachment_bytes),
             "content_bytes": attachment_bytes,
         }
+
+    def _is_mp3_attachment(self, filename: str, mime_type: str) -> bool:
+        if Path(filename).suffix.lower() == ".mp3":
+            return True
+        return mime_type in MP3_MIME_TYPES
 
     def _download_attachment_bytes(self, content_url: str) -> bytes:
         headers = {
