@@ -458,10 +458,10 @@ def infer_action_needed_line(in_short_text: str, action_needed_text: str) -> str
         return f"Action needed: {cleaned_action.rstrip('.')} .".replace(" .", ".")
 
     normalized = normalize_whitespace(in_short_text).lower()
-    if re.search(r"josh\s+muir|cco|executive", normalized):
-        return "Action needed: Route/escalate to Josh Muir or his team for a direct callback."
     if re.search(r"free\s+trial|onboarding|migrat|repair\s+shopper|repair\s+queue|sales", normalized):
         return "Action needed: Route to the sales/onboarding team for a callback about onboarding and data migration."
+    if re.search(r"josh\s+muir|cco", normalized):
+        return "Action needed: Route/escalate to Josh Muir or his team for a direct callback."
     return "Action needed: Return the call and route to the appropriate team for follow-up."
 
 
@@ -565,6 +565,59 @@ def normalize_refined_summary(refined_summary: str) -> str:
         normalized_lines.append(infer_action_needed_line(in_short_text, action_needed_text))
 
     return "\n".join(normalized_lines).strip()
+
+
+def build_fallback_caller_line(summary: str, transcript_text: str) -> str:
+    normalized_transcript = normalize_whitespace(transcript_text)
+    intro_patterns = (
+        r"\b(?:hi|hello)[,\s]+(?:this is|it's|it is|i am|i'm)\s+([a-z][a-z' -]{1,60}?)(?:\s+from\s+([a-z0-9&.' -]{2,80}?))?(?:[.,;]|\s+(?:calling|regarding|about|with|because|and|to)\b|$)",
+        r"\b(?:this is|it's|it is|i am|i'm)\s+([a-z][a-z' -]{1,60}?)(?:\s+from\s+([a-z0-9&.' -]{2,80}?))?(?:[.,;]|\s+(?:calling|regarding|about|with|because|and|to)\b|$)",
+    )
+    for pattern in intro_patterns:
+        match = re.search(pattern, normalized_transcript, re.IGNORECASE)
+        if not match:
+            continue
+        caller_name = normalize_whitespace(match.group(1)).strip(" .,-")
+        organization = normalize_whitespace(match.group(2) or "").strip(" .,-")
+        if caller_name:
+            caller_name = caller_name.title()
+            if organization:
+                return f"Caller is {caller_name} from {organization.title()}."
+            return f"Caller is {caller_name}."
+
+    phone_number = extract_phone_number(summary, transcript_text)
+    caller_label = extract_caller_label(summary, phone_number)
+    if caller_label and not re.search(r"\d", caller_label):
+        return f"Caller is {caller_label.rstrip('.')} .".replace(" .", ".")
+
+    return "Caller is the voicemail caller."
+
+
+def build_fallback_in_short_text(transcript_text: str) -> str:
+    normalized_transcript = normalize_whitespace(transcript_text)
+    if not normalized_transcript:
+        return "The voicemail transcript did not contain enough detail to summarize confidently."
+
+    sentence_parts = [part.strip() for part in re.split(r"(?<=[.!?])\s+", normalized_transcript) if part.strip()]
+    candidate = " ".join(sentence_parts[:2]) if sentence_parts else normalized_transcript
+    candidate = truncate_text(candidate, 320)
+
+    if (
+        "no technical issue is described" not in candidate.lower()
+        and re.search(r"free\s+trial|onboarding|migrat|sales|executive|josh\s+muir|cco", candidate, re.IGNORECASE)
+    ):
+        candidate = (
+            f"{candidate} No technical issue is described - this appears to be a business/executive outreach request."
+        )
+
+    return candidate
+
+
+def build_voicemail_fallback_summary(ticket_context: TicketContext) -> str:
+    caller_line = build_fallback_caller_line(ticket_context.summary, ticket_context.transcript)
+    in_short_text = build_fallback_in_short_text(ticket_context.transcript)
+    action_line = infer_action_needed_line(in_short_text, "")
+    return "\n".join((caller_line, build_in_short_line(in_short_text), action_line)).strip()
 
 
 def has_transcript(*sources: str) -> bool:
@@ -960,17 +1013,18 @@ def enrich_voicemail(
 ) -> tuple[str, list[tuple[str, str]], list[str]]:
     if not transcript_text.strip():
         return "", [], ["Voicemail enrichment skipped: transcript did not contain searchable text"]
-    if not os.environ.get("COPILOT_TOKEN", "").strip():
-        return "", [], ["Voicemail enrichment skipped: COPILOT_TOKEN is not configured"]
-    if OpenAI is None:
-        return "", [], ["Voicemail enrichment skipped: openai package is not installed"]
-    if not PAGES_ROOT.exists():
-        return "", [], [f"Voicemail enrichment skipped: knowledge folder is missing: {PAGES_ROOT}"]
-
     ticket_context = build_ticket_context(ticket_id, ticket_details, transcript_text)
+    fallback_summary = build_voicemail_fallback_summary(ticket_context)
+    if not os.environ.get("COPILOT_TOKEN", "").strip():
+        return fallback_summary, [], ["Voicemail enrichment skipped: COPILOT_TOKEN is not configured"]
+    if OpenAI is None:
+        return fallback_summary, [], ["Voicemail enrichment skipped: openai package is not installed"]
+    if not PAGES_ROOT.exists():
+        return fallback_summary, [], [f"Voicemail enrichment skipped: knowledge folder is missing: {PAGES_ROOT}"]
+
     query_tokens = build_article_query_tokens(ticket_context.transcript)
     if not query_tokens:
-        return "", [], ["Voicemail enrichment skipped: transcript did not contain searchable text"]
+        return fallback_summary, [], ["Voicemail enrichment skipped: transcript did not contain searchable text"]
 
     article_candidates = find_article_candidates(query_tokens)
     helpful_articles = select_helpful_articles(article_candidates, query_tokens, ticket_context.transcript)
@@ -1002,7 +1056,7 @@ def enrich_voicemail(
             temperature=0.1,
         )
     except OPENAI_CLIENT_EXCEPTIONS as exc:
-        return "", helpful_articles, [f"Voicemail enrichment fallback used: {type(exc).__name__}: {exc}"]
+        return fallback_summary, helpful_articles, [f"Voicemail enrichment fallback used: {type(exc).__name__}: {exc}"]
 
     refined_summary = str(response.choices[0].message.content or "").strip()
     if refined_summary.startswith("```"):
@@ -1010,7 +1064,7 @@ def enrich_voicemail(
     rejected_helpful_articles = summary_rejects_helpful_articles(refined_summary)
     refined_summary = normalize_refined_summary(refined_summary)
     if not refined_summary:
-        return "", helpful_articles, ["Voicemail enrichment fallback used: model returned no usable summary"]
+        return fallback_summary, helpful_articles, ["Voicemail enrichment fallback used: model returned no usable summary"]
 
     if rejected_helpful_articles:
         helpful_articles = []
