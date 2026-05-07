@@ -419,6 +419,21 @@ def summary_supports_helpful_articles(refined_summary: str, helpful_articles: li
     return any(title.lower() in normalized for title, _ in helpful_articles)
 
 
+def infer_action_needed_line(in_short_text: str, action_needed_text: str) -> str:
+    cleaned_action = normalize_whitespace(action_needed_text)
+    if cleaned_action:
+        if cleaned_action.lower().startswith("action needed:"):
+            return cleaned_action.rstrip(".") + "."
+        return f"Action needed: {cleaned_action.rstrip('.')} .".replace(" .", ".")
+
+    normalized = normalize_whitespace(in_short_text).lower()
+    if re.search(r"josh\s+muir|cco|executive", normalized):
+        return "Action needed: Route/escalate to Josh Muir or his team for a direct callback."
+    if re.search(r"free\s+trial|onboarding|migrat|repair\s+shopper|repair\s+queue|sales", normalized):
+        return "Action needed: Route to the sales/onboarding team for a callback about onboarding and data migration."
+    return "Action needed: Return the call and route to the appropriate team for follow-up."
+
+
 def strip_irrelevant_article_text(refined_summary: str) -> str:
     cleaned = refined_summary.strip()
     if not cleaned:
@@ -469,8 +484,6 @@ def normalize_refined_summary(refined_summary: str) -> str:
     in_short_text = ""
     action_needed_text = ""
     narrative_lines: list[str] = []
-    fixed_action_line = "Action needed: Route/escalate to Josh Muir or his team for a direct callback."
-
     for line in lines:
         lowered = line.lower()
         if lowered.startswith("ticket:") or lowered.startswith("ticket "):
@@ -518,7 +531,7 @@ def normalize_refined_summary(refined_summary: str) -> str:
         normalized_lines.append(build_in_short_line(in_short_text))
 
     if action_needed_text or re.search(r"josh\s+muir|executive|cco|callback", in_short_text, re.IGNORECASE):
-        normalized_lines.append(fixed_action_line)
+        normalized_lines.append(infer_action_needed_line(in_short_text, action_needed_text))
 
     return "\n".join(normalized_lines).strip()
 
@@ -621,7 +634,7 @@ def build_callback_issue_body(
             ]
         )
 
-    if is_voicemail and helpful_articles and summary_supports_helpful_articles(refined_summary, helpful_articles):
+    if is_voicemail and helpful_articles:
         lines.extend(
             [
                 "",
@@ -816,21 +829,6 @@ def collect_relevant_groups(article_candidates: list[PageCandidate], query_token
     if ranked_groups:
         return ranked_groups[:MAX_GROUPS]
 
-    if article_candidates:
-        fallback_groups = parse_page_groups(article_candidates[0])
-        return [
-            StepGroup(
-                article_title=article_candidates[0].title,
-                article_url=article_candidates[0].web_url,
-                heading_path=group.heading_path,
-                step_text=group.step_text,
-                context_text=group.context_text,
-                images=group.images[:MAX_IMAGES],
-                score=0,
-            )
-            for group in fallback_groups[:3]
-        ]
-
     return []
 
 
@@ -1005,11 +1003,13 @@ def build_voicemail_summary_prompt(ticket_context: TicketContext, helpful_articl
         "- Output exactly 3 lines and nothing else.\n"
         "- Line 1 format: Caller is <caller name> from <organization>.\n"
         "- Line 2 format: In Short, <short summary>.\n"
-        "- Line 3 format: Action needed: Route/escalate to Josh Muir or his team for a direct callback.\n"
+        "- Line 3 format: Action needed: <specific next step based on the voicemail>.\n"
         "- Do not include Ticket, Caller:, Phone:, Called:, bullets, headings, or helper phrases.\n"
         "- If the transcript is unclear, say that in the In Short line instead of guessing.\n"
         "- If no technical issue is described, say that this appears to be a business/executive outreach request in the In Short line.\n"
-        "- Ignore helpful articles for this output format.\n\n"
+        "- If the voicemail is asking for Josh Muir or executive outreach, the action line should route/escalate to Josh Muir or his team.\n"
+        "- If the voicemail is about free trial, onboarding, demo, or data migration, the action line should route to the sales/onboarding team for callback.\n"
+        "- Do not mention helpful articles in the 3-line output.\n\n"
         f"Ticket context:\n```json\n{ticket_context_json(payload)}\n```\n\n"
         f"Helpful articles:\n```json\n{ticket_context_json(articles)}\n```"
     )
