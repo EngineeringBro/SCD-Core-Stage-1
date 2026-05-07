@@ -350,10 +350,10 @@ def format_callback_hours(value: datetime) -> str:
     return formatted.lstrip("0")
 
 
-def build_transcript_preview(*sources: str) -> str:
+def build_transcript_preview(*sources: str, empty_value: str = "None") -> str:
     combined = next((source for source in sources if source.strip()), "")
     if not combined:
-        return "None"
+        return empty_value
     if len(combined) <= 280:
         return combined
     return combined[:277].rstrip() + "..."
@@ -365,6 +365,20 @@ def has_transcript(*sources: str) -> bool:
 
 def is_voice_message_summary(summary: str) -> bool:
     return summary.lower().startswith("new voice message from ")
+
+
+def select_voicemail_text(
+    *,
+    is_voice_message: bool,
+    transcription_text: str,
+    description_text: str,
+    comment_text: str,
+) -> str:
+    if not is_voice_message:
+        return next((source for source in (description_text, comment_text) if source.strip()), "")
+    if transcription_text.strip():
+        return transcription_text
+    return ""
 
 
 def build_spam_issue_body(
@@ -556,10 +570,11 @@ def build_ticket_context(
     summary = normalize_whitespace(str(fields.get("summary") or ""))
     topic = normalize_whitespace(str((fields.get("customfield_10170") or {}).get("value") or ""))
     status = normalize_whitespace(str((fields.get("status") or {}).get("name") or ""))
-    description = normalize_whitespace(extract_text(fields.get("description") or ""))
+    use_transcript_only = bool(transcript_text.strip())
+    description = "" if use_transcript_only else normalize_whitespace(extract_text(fields.get("description") or ""))
 
     comment_lines: list[str] = []
-    if isinstance(comments, list):
+    if not use_transcript_only and isinstance(comments, list):
         for comment in comments:
             comment_source = comment.get("body") if isinstance(comment, dict) else comment
             comment_text = normalize_whitespace(extract_text(comment_source or ""))
@@ -945,16 +960,28 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
     description_text = extract_description_text(ticket_details)
     comment_text = extract_comment_text(ticket_details)
     mp3_attachments = extract_mp3_attachments(ticket_details)
+    is_voice_message = is_voice_message_summary(summary)
     transcription_text = ""
     transcription_notes: list[str] = []
-    if is_voice_message_summary(summary):
+    if is_voice_message:
         transcription_text, transcription_notes = transcribe_voicemail(summary, mp3_attachments)
+    voicemail_text = select_voicemail_text(
+        is_voice_message=is_voice_message,
+        transcription_text=transcription_text,
+        description_text=description_text,
+        comment_text=comment_text,
+    )
 
-    phone_number = extract_phone_number(summary, transcription_text, description_text, comment_text)
+    phone_sources = (voicemail_text,) if is_voice_message else (voicemail_text, description_text, comment_text)
+    phone_number = extract_phone_number(summary, *phone_sources)
     caller_label = extract_caller_label(summary, phone_number)
-    spam_signals = detect_spam_signals(summary, transcription_text, description_text, comment_text)
-    transcript_preview = build_transcript_preview(transcription_text, description_text, comment_text)
-    is_voicemail = is_voice_message_summary(summary) or has_transcript(transcription_text, description_text, comment_text)
+    spam_sources = (voicemail_text,) if is_voice_message else (description_text, comment_text)
+    spam_signals = detect_spam_signals(summary, *spam_sources)
+    transcript_preview = build_transcript_preview(
+        voicemail_text,
+        empty_value="No transcript available. No mp3 attachment was fetched or the transcription step did not return usable text.",
+    )
+    is_voicemail = is_voice_message or has_transcript(description_text, comment_text)
 
     if spam_signals:
         return {
@@ -986,14 +1013,10 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
     helpful_articles: list[tuple[str, str]] = []
     enrichment_notes: list[str] = []
     if is_voicemail:
-        transcript_source = next(
-            (source for source in (transcription_text, description_text, comment_text) if source.strip()),
-            "",
-        )
         refined_summary, helpful_articles, enrichment_notes = enrich_voicemail(
             normalized_ticket_id,
             ticket_details,
-            transcript_source,
+            voicemail_text,
         )
     return {
         "recommendation": recommendation,
@@ -1026,5 +1049,5 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         "has_transcript": is_voicemail,
         "refined_summary": refined_summary,
         "helpful_articles": helpful_articles,
-        "voicemail_transcript": transcription_text,
+        "voicemail_transcript": voicemail_text,
     }
