@@ -1,11 +1,21 @@
 from __future__ import annotations
 
+import json
 import os
 import re
+from dataclasses import dataclass
 from datetime import datetime, timedelta
+from html import unescape
+from html.parser import HTMLParser
+from pathlib import Path
 from typing import Any
 
-from modules import general_module
+try:
+    import openai
+    from openai import OpenAI
+except ImportError:
+    openai = None  # type: ignore
+    OpenAI = None  # type: ignore
 
 
 MODULE_ID = "ringcentral"
@@ -13,7 +23,6 @@ DISPLAY_NAME = "ringcentral module"
 VERSION = "v1.0"
 
 RINGCENTRAL_REPORTER_EMAIL = "notify@ringcentral.com"
-RINGCENTRAL_ALERT_TOPIC = "Ring Central Alert"
 SPAM_TOPIC = "Spam"
 SPAM_RESOLUTION = "Dismissed"
 SPAM_ROOT_CAUSE = "Unknown"
@@ -25,6 +34,195 @@ SPAM_SIGNAL_PATTERNS = {
     "delivery_or_warranty": re.compile(r"delivery attempt|auto[- ]warranty|warranty pitch", re.IGNORECASE),
     "parts_sales_pitch": re.compile(r"parts for sale|screen protector|back glass|replacement screen|lcd", re.IGNORECASE),
 }
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+KNOWLEDGE_ROOT = PROJECT_ROOT / "knowledge"
+KNOWLEDGEBASE_ROOT = KNOWLEDGE_ROOT / "knowledgebase"
+PAGES_ROOT = KNOWLEDGEBASE_ROOT / "spaces" / "SCD" / "pages"
+COPILOT_BASE_URL = "https://api.business.githubcopilot.com"
+DEFAULT_COPILOT_MODEL = "claude-sonnet-4.6"
+TRANSCRIPTION_MODEL = "gpt-4o-transcribe"
+MAX_ARTICLES = 5
+MAX_INITIAL_CANDIDATES = 40
+MAX_GROUPS = 8
+MAX_IMAGES = 3
+DECORATIVE_IMAGE_MARKERS = (
+    "instructional -",
+    "technical -",
+    "control -",
+)
+HEADING_TAGS = {f"h{level}" for level in range(1, 7)}
+TEXT_BLOCK_TYPES = {"paragraph", "list_item"}
+QUERY_EXPANSIONS = {
+    "attach": {"assigned", "assign", "customer", "link", "linked"},
+    "client": {"contact", "customer", "customers", "profile"},
+    "clients": {"contact", "customer", "customers", "profiles"},
+    "create": {"profile"},
+    "created": {"profile"},
+    "creating": {"profile"},
+    "ticket": {"repair", "tickets"},
+}
+STOP_WORDS = {
+    "add",
+    "about",
+    "after",
+    "again",
+    "also",
+    "and",
+    "are",
+    "but",
+    "can",
+    "create",
+    "created",
+    "creating",
+    "existing",
+    "for",
+    "from",
+    "have",
+    "into",
+    "just",
+    "need",
+    "needs",
+    "new",
+    "not",
+    "that",
+    "the",
+    "their",
+    "then",
+    "there",
+    "these",
+    "this",
+    "ticket",
+    "with",
+    "your",
+}
+OPENAI_CLIENT_EXCEPTIONS = (openai.APIError,) if openai is not None else (RuntimeError,)
+
+
+@dataclass(frozen=True)
+class TicketContext:
+    ticket_id: str
+    summary: str
+    topic: str
+    status: str
+    description: str
+    comments: list[str]
+    transcript: str
+    combined_text: str
+
+
+@dataclass(frozen=True)
+class PageCandidate:
+    page_id: str
+    title: str
+    page_dir: Path
+    web_url: str
+    initial_score: int
+
+
+@dataclass(frozen=True)
+class StepGroup:
+    article_title: str
+    article_url: str
+    heading_path: list[str]
+    step_text: str
+    context_text: str
+    images: list[dict[str, str]]
+    score: int
+
+
+@dataclass
+class Block:
+    kind: str
+    text: str = ""
+    level: int | None = None
+    src: str | None = None
+    alt: str | None = None
+
+
+@dataclass
+class CaptureState:
+    tag: str
+    kind: str
+    level: int | None = None
+    parts: list[str] | None = None
+
+    def __post_init__(self) -> None:
+        if self.parts is None:
+            self.parts = []
+
+
+class ArticleHtmlParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.blocks: list[Block] = []
+        self.capture: CaptureState | None = None
+        self.list_depth = 0
+        self.skip_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attributes = dict(attrs)
+
+        if tag in {"script", "style"}:
+            self.skip_depth += 1
+            return
+
+        if self.skip_depth:
+            return
+
+        if tag in {"ul", "ol"}:
+            self.list_depth += 1
+            return
+
+        if tag == "li" and self.capture is None:
+            self.capture = CaptureState(tag="li", kind="list_item")
+            return
+
+        if tag in HEADING_TAGS and self.capture is None:
+            self.capture = CaptureState(tag=tag, kind="heading", level=int(tag[1]))
+            return
+
+        if tag == "p" and self.capture is None and self.list_depth == 0:
+            self.capture = CaptureState(tag="p", kind="paragraph")
+            return
+
+        if tag == "br" and self.capture is not None:
+            self.capture.parts.append("\n")
+            return
+
+        if tag == "img":
+            src = attributes.get("src")
+            if not src:
+                return
+            alt = normalize_whitespace(attributes.get("alt") or "")
+            if is_decorative_image(src, alt):
+                return
+            self.blocks.append(Block(kind="image", src=src, alt=alt))
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"script", "style"}:
+            self.skip_depth = max(0, self.skip_depth - 1)
+            return
+
+        if self.skip_depth:
+            return
+
+        if tag in {"ul", "ol"}:
+            self.list_depth = max(0, self.list_depth - 1)
+            return
+
+        if self.capture is None or self.capture.tag != tag:
+            return
+
+        text = normalize_whitespace("".join(self.capture.parts))
+        if text:
+            self.blocks.append(Block(kind=self.capture.kind, text=text, level=self.capture.level))
+        self.capture = None
+
+    def handle_data(self, data: str) -> None:
+        if self.skip_depth or self.capture is None:
+            return
+        self.capture.parts.append(data)
 
 
 def extract_text(value: Any) -> str:
@@ -42,7 +240,7 @@ def extract_text(value: Any) -> str:
 
 
 def normalize_whitespace(value: str) -> str:
-    return " ".join(value.split()).strip()
+    return re.sub(r"\s+", " ", value).strip()
 
 
 def get_fields(ticket_details: dict[str, Any]) -> dict[str, Any]:
@@ -86,8 +284,15 @@ def extract_comment_text(ticket_details: dict[str, Any]) -> str:
     return "\n".join(part for part in parts if part)
 
 
-def extract_phone_number(summary: str, description_text: str, comment_text: str) -> str:
-    for source in (summary, description_text, comment_text):
+def extract_mp3_attachments(ticket_details: dict[str, Any]) -> list[dict[str, Any]]:
+    attachments = ticket_details.get("mp3_attachments")
+    if not isinstance(attachments, list):
+        return []
+    return [attachment for attachment in attachments if isinstance(attachment, dict)]
+
+
+def extract_phone_number(summary: str, *sources: str) -> str:
+    for source in (summary, *sources):
         match = PHONE_PATTERN.search(source)
         if match:
             return normalize_whitespace(match.group(1))
@@ -108,8 +313,8 @@ def extract_caller_label(summary: str, phone_number: str) -> str:
     return normalize_whitespace(cleaned)
 
 
-def detect_spam_signals(summary: str, description_text: str, comment_text: str) -> list[str]:
-    combined_text = "\n".join(part for part in [summary, description_text, comment_text] if part)
+def detect_spam_signals(summary: str, *sources: str) -> list[str]:
+    combined_text = "\n".join(part for part in (summary, *sources) if part)
     matched_signals: list[str] = []
     for label, pattern in SPAM_SIGNAL_PATTERNS.items():
         if pattern.search(combined_text):
@@ -145,8 +350,8 @@ def format_callback_hours(value: datetime) -> str:
     return formatted.lstrip("0")
 
 
-def build_transcript_preview(description_text: str, comment_text: str) -> str:
-    combined = description_text or comment_text
+def build_transcript_preview(*sources: str) -> str:
+    combined = next((source for source in sources if source.strip()), "")
     if not combined:
         return "None"
     if len(combined) <= 280:
@@ -154,8 +359,12 @@ def build_transcript_preview(description_text: str, comment_text: str) -> str:
     return combined[:277].rstrip() + "..."
 
 
-def has_transcript(description_text: str, comment_text: str) -> bool:
-    return bool((description_text or "").strip() or (comment_text or "").strip())
+def has_transcript(*sources: str) -> bool:
+    return any(source.strip() for source in sources)
+
+
+def is_voice_message_summary(summary: str) -> bool:
+    return summary.lower().startswith("new voice message from ")
 
 
 def build_spam_issue_body(
@@ -219,14 +428,10 @@ def build_callback_issue_body(
         callback_window_display = f"{callback_window_start} to {callback_window_end}"
     else:
         created_at_display = str(created_dt)
-        start_dt = parse_created_datetime(created_at)
-        if start_dt is None:
-            callback_window_display = f"{callback_window_start} to {callback_window_end}"
-        else:
-            callback_window_display = f"{format_callback_hours(start_dt - timedelta(hours=1))} to {format_callback_hours(start_dt + timedelta(hours=1))}"
+        callback_window_display = f"{format_callback_hours(created_dt - timedelta(hours=1))} to {format_callback_hours(created_dt + timedelta(hours=1))}"
 
     resolution_text = (
-        "This appears to be a RingCentral voice mail ticket and does not look like obvious spam. "
+        "This appears to be a RingCentral voice message ticket and does not look like obvious spam. "
         "Please call the number back within the suggested window and update the Jira ticket with the outcome."
         if is_voicemail
         else "This appears to be a RingCentral missed call ticket and does not look like obvious spam. "
@@ -282,34 +487,298 @@ def build_callback_issue_body(
     return "\n".join(lines)
 
 
-def enrich_voicemail(ticket_id: str, ticket_details: dict[str, Any]) -> tuple[str, list[tuple[str, str]], list[str]]:
+def build_voicemail_transcription_prompt(summary: str) -> str:
+    return (
+        "Transcribe this RingCentral voicemail accurately in plain text. "
+        "Preserve phone numbers, names, store locations, invoice numbers, repair details, and callback requests. "
+        "Do not summarize.\n\n"
+        f"Ticket summary: {summary or 'Unknown'}"
+    )
+
+
+def normalize_transcription_result(result: Any) -> str:
+    if isinstance(result, str):
+        return normalize_whitespace(result)
+    text_value = getattr(result, "text", None)
+    if isinstance(text_value, str):
+        return normalize_whitespace(text_value)
+    return normalize_whitespace(str(result))
+
+
+def transcribe_voicemail(summary: str, mp3_attachments: list[dict[str, Any]]) -> tuple[str, list[str]]:
+    if not mp3_attachments:
+        return "", ["Voicemail transcription skipped: no mp3 attachment found"]
+    if not os.environ.get("COPILOT_TOKEN", "").strip():
+        return "", ["Voicemail transcription skipped: COPILOT_TOKEN is not configured"]
+    if OpenAI is None:
+        return "", ["Voicemail transcription skipped: openai package is not installed"]
+
+    attachment = mp3_attachments[0]
+    filename = str(attachment.get("filename") or "voicemail.mp3")
+    mime_type = str(attachment.get("mime_type") or "audio/mpeg")
+    content_bytes = attachment.get("content_bytes")
+    if not isinstance(content_bytes, (bytes, bytearray)) or not content_bytes:
+        return "", ["Voicemail transcription skipped: attachment bytes were missing"]
+
+    client = OpenAI(
+        api_key=os.environ.get("COPILOT_TOKEN", "").strip(),
+        base_url=COPILOT_BASE_URL,
+    )
+
+    try:
+        transcription = client.audio.transcriptions.create(
+            model=TRANSCRIPTION_MODEL,
+            file=(filename, bytes(content_bytes), mime_type),
+            response_format="text",
+            prompt=build_voicemail_transcription_prompt(summary),
+        )
+    except OPENAI_CLIENT_EXCEPTIONS as exc:
+        return "", [f"Voicemail transcription fallback used: {type(exc).__name__}: {exc}"]
+
+    transcript_text = normalize_transcription_result(transcription)
+    if not transcript_text:
+        return "", ["Voicemail transcription fallback used: model returned no usable transcript"]
+
+    return transcript_text, [f"Voicemail transcription model: {TRANSCRIPTION_MODEL}"]
+
+
+def build_ticket_context(
+    ticket_id: str,
+    ticket_details: dict[str, Any],
+    transcript_text: str,
+) -> TicketContext:
+    issue = ticket_details.get("issue") or {}
+    comments = ticket_details.get("comments") or []
+    fields = issue.get("fields") if isinstance(issue, dict) else {}
+    if not isinstance(fields, dict):
+        fields = {}
+
+    summary = normalize_whitespace(str(fields.get("summary") or ""))
+    topic = normalize_whitespace(str((fields.get("customfield_10170") or {}).get("value") or ""))
+    status = normalize_whitespace(str((fields.get("status") or {}).get("name") or ""))
+    description = normalize_whitespace(extract_text(fields.get("description") or ""))
+
+    comment_lines: list[str] = []
+    if isinstance(comments, list):
+        for comment in comments:
+            comment_source = comment.get("body") if isinstance(comment, dict) else comment
+            comment_text = normalize_whitespace(extract_text(comment_source or ""))
+            if comment_text:
+                comment_lines.append(comment_text)
+
+    parts = [summary, topic, status, description, transcript_text, *comment_lines]
+    combined_text = "\n".join(part for part in parts if part)
+
+    return TicketContext(
+        ticket_id=ticket_id,
+        summary=summary,
+        topic=topic,
+        status=status,
+        description=description,
+        comments=comment_lines,
+        transcript=transcript_text,
+        combined_text=combined_text,
+    )
+
+
+def find_article_candidates(query_tokens: set[str]) -> list[PageCandidate]:
+    candidates: list[PageCandidate] = []
+
+    for page_dir in sorted(path for path in PAGES_ROOT.iterdir() if path.is_dir()):
+        page_json_path = page_dir / "page.json"
+        if not page_json_path.exists():
+            continue
+
+        page_data = read_json(page_json_path)
+        title = normalize_whitespace(str(page_data.get("title") or page_dir.name))
+        slug_text = page_dir.name.replace("-", " ")
+        title_score = score_text(query_tokens, f"{title} {slug_text}", title_multiplier=4)
+        body_score = score_text(query_tokens, build_candidate_search_text(page_dir), title_multiplier=1)
+        initial_score = (title_score * 3) + min(body_score, 24)
+        if initial_score <= 0:
+            continue
+
+        web_url = build_web_url(page_data)
+        candidates.append(
+            PageCandidate(
+                page_id=str(page_data.get("id") or page_dir.name),
+                title=title,
+                page_dir=page_dir,
+                web_url=web_url,
+                initial_score=initial_score,
+            )
+        )
+
+    candidates.sort(key=lambda item: (-item.initial_score, item.title.lower()))
+    return candidates[:MAX_INITIAL_CANDIDATES]
+
+
+def collect_relevant_groups(article_candidates: list[PageCandidate], query_tokens: set[str]) -> list[StepGroup]:
+    ranked_groups: list[StepGroup] = []
+
+    for candidate in article_candidates[:MAX_ARTICLES]:
+        article_groups = parse_page_groups(candidate)
+        for group in article_groups:
+            searchable_text = " ".join(group.heading_path + [group.step_text, group.context_text])
+            group_score = score_text(query_tokens, searchable_text, title_multiplier=2)
+            if group_score <= 0:
+                continue
+            ranked_groups.append(
+                StepGroup(
+                    article_title=candidate.title,
+                    article_url=candidate.web_url,
+                    heading_path=group.heading_path,
+                    step_text=group.step_text,
+                    context_text=group.context_text,
+                    images=group.images[:MAX_IMAGES],
+                    score=group_score + (2 if group.images else 0),
+                )
+            )
+
+    ranked_groups.sort(key=lambda item: (-item.score, item.article_title.lower(), item.step_text.lower()))
+    if ranked_groups:
+        return ranked_groups[:MAX_GROUPS]
+
+    if article_candidates:
+        fallback_groups = parse_page_groups(article_candidates[0])
+        return [
+            StepGroup(
+                article_title=article_candidates[0].title,
+                article_url=article_candidates[0].web_url,
+                heading_path=group.heading_path,
+                step_text=group.step_text,
+                context_text=group.context_text,
+                images=group.images[:MAX_IMAGES],
+                score=0,
+            )
+            for group in fallback_groups[:3]
+        ]
+
+    return []
+
+
+def parse_page_groups(candidate: PageCandidate) -> list[StepGroup]:
+    body_path = candidate.page_dir / "body.export_view.html"
+    if not body_path.exists():
+        return []
+
+    html_text = body_path.read_text(encoding="utf-8")
+    parser = ArticleHtmlParser()
+    parser.feed(html_text)
+    raw_groups = build_groups(parser.blocks)
+
+    return [
+        StepGroup(
+            article_title=candidate.title,
+            article_url=candidate.web_url,
+            heading_path=group["heading_path"],
+            step_text=group["step_text"],
+            context_text=group["context_text"],
+            images=group["images"],
+            score=0,
+        )
+        for group in raw_groups
+        if group["step_text"]
+    ]
+
+
+def build_groups(blocks: list[Block]) -> list[dict[str, Any]]:
+    heading_path: list[str] = []
+    current_group: dict[str, Any] | None = None
+    groups: list[dict[str, Any]] = []
+
+    for block in blocks:
+        if block.kind == "heading":
+            level = block.level or 1
+            heading_path = heading_path[: level - 1]
+            heading_path.append(block.text)
+            if group_has_content(current_group):
+                groups.append(finalize_group(current_group))
+            current_group = None
+            continue
+
+        if current_group is None:
+            current_group = new_group(heading_path)
+
+        if block.kind == "image":
+            current_group["images"].append({"src": str(block.src or ""), "alt": str(block.alt or "")})
+            continue
+
+        if block.kind in TEXT_BLOCK_TYPES:
+            if current_group["images"]:
+                groups.append(finalize_group(current_group))
+                current_group = new_group(heading_path)
+
+            current_group["text_blocks"].append({"kind": block.kind, "text": block.text})
+
+    if group_has_content(current_group):
+        groups.append(finalize_group(current_group))
+
+    return groups
+
+
+def new_group(heading_path: list[str]) -> dict[str, Any]:
+    return {
+        "heading_path": heading_path.copy(),
+        "text_blocks": [],
+        "images": [],
+    }
+
+
+def group_has_content(group: dict[str, Any] | None) -> bool:
+    return bool(group and (group["text_blocks"] or group["images"]))
+
+
+def finalize_group(group: dict[str, Any]) -> dict[str, Any]:
+    anchor_text = choose_anchor_text(group["text_blocks"])
+    return {
+        "heading_path": group["heading_path"],
+        "step_text": anchor_text,
+        "context_text": "\n".join(block["text"] for block in group["text_blocks"]),
+        "images": group["images"],
+    }
+
+
+def choose_anchor_text(text_blocks: list[dict[str, str]]) -> str:
+    for block in reversed(text_blocks):
+        candidate = block["text"]
+        if not is_note_text(candidate) and not is_boilerplate_text(candidate):
+            return candidate
+    return text_blocks[-1]["text"] if text_blocks else ""
+
+
+def enrich_voicemail(
+    ticket_id: str,
+    ticket_details: dict[str, Any],
+    transcript_text: str,
+) -> tuple[str, list[tuple[str, str]], list[str]]:
+    if not transcript_text.strip():
+        return "", [], ["Voicemail enrichment skipped: transcript did not contain searchable text"]
     if not os.environ.get("COPILOT_TOKEN", "").strip():
         return "", [], ["Voicemail enrichment skipped: COPILOT_TOKEN is not configured"]
-    if general_module.OpenAI is None:
+    if OpenAI is None:
         return "", [], ["Voicemail enrichment skipped: openai package is not installed"]
-    if not general_module.PAGES_ROOT.exists():
-        return "", [], [f"Voicemail enrichment skipped: knowledge folder is missing: {general_module.PAGES_ROOT}"]
+    if not PAGES_ROOT.exists():
+        return "", [], [f"Voicemail enrichment skipped: knowledge folder is missing: {PAGES_ROOT}"]
 
-    ticket_context = general_module.build_ticket_context(ticket_id, ticket_details)
-    query_tokens = general_module.expand_query_tokens(general_module.tokenize(ticket_context.combined_text))
+    ticket_context = build_ticket_context(ticket_id, ticket_details, transcript_text)
+    query_tokens = expand_query_tokens(tokenize(ticket_context.combined_text))
     if not query_tokens:
         return "", [], ["Voicemail enrichment skipped: transcript did not contain searchable text"]
 
-    article_candidates = general_module.find_article_candidates(query_tokens)
-    step_groups = general_module.collect_relevant_groups(article_candidates, query_tokens)
-    helpful_articles = [(group.article_title, group.article_url) for group in step_groups[:3]]
-    helpful_articles = dedupe_articles(helpful_articles)
-
+    article_candidates = find_article_candidates(query_tokens)
+    step_groups = collect_relevant_groups(article_candidates, query_tokens)
+    helpful_articles = dedupe_articles([(group.article_title, group.article_url) for group in step_groups[:3]])
     prompt = build_voicemail_summary_prompt(ticket_context, helpful_articles)
-    client = general_module.OpenAI(
+
+    client = OpenAI(
         api_key=os.environ.get("COPILOT_TOKEN", "").strip(),
-        base_url=general_module.COPILOT_BASE_URL,
+        base_url=COPILOT_BASE_URL,
     )
 
-    # pylint: disable=broad-exception-caught
     try:
         response = client.chat.completions.create(
-            model=general_module.resolve_copilot_model(),
+            model=resolve_copilot_model(),
             messages=[
                 {
                     "role": "system",
@@ -327,7 +796,7 @@ def enrich_voicemail(ticket_id: str, ticket_details: dict[str, Any]) -> tuple[st
             max_tokens=220,
             temperature=0.1,
         )
-    except Exception as exc:
+    except OPENAI_CLIENT_EXCEPTIONS as exc:
         return "", helpful_articles, [f"Voicemail enrichment fallback used: {type(exc).__name__}: {exc}"]
 
     refined_summary = str(response.choices[0].message.content or "").strip()
@@ -336,18 +805,16 @@ def enrich_voicemail(ticket_id: str, ticket_details: dict[str, Any]) -> tuple[st
     if not refined_summary:
         return "", helpful_articles, ["Voicemail enrichment fallback used: model returned no usable summary"]
 
-    return refined_summary, helpful_articles, [f"Voicemail enrichment model: {general_module.resolve_copilot_model()}"]
+    return refined_summary, helpful_articles, [f"Voicemail enrichment model: {resolve_copilot_model()}"]
 
 
-def build_voicemail_summary_prompt(
-    ticket_context: general_module.TicketContext,
-    helpful_articles: list[tuple[str, str]],
-) -> str:
+def build_voicemail_summary_prompt(ticket_context: TicketContext, helpful_articles: list[tuple[str, str]]) -> str:
     payload = {
         "ticket_id": ticket_context.ticket_id,
         "summary": ticket_context.summary,
         "description": ticket_context.description,
         "comments": ticket_context.comments[:5],
+        "transcript": ticket_context.transcript,
     }
     articles = [{"title": title, "url": url} for title, url in helpful_articles]
     return (
@@ -364,7 +831,7 @@ def build_voicemail_summary_prompt(
 
 
 def ticket_context_json(value: Any) -> str:
-    return general_module.json.dumps(value, indent=2, ensure_ascii=True)
+    return json.dumps(value, indent=2, ensure_ascii=True)
 
 
 def dedupe_articles(articles: list[tuple[str, str]]) -> list[tuple[str, str]]:
@@ -376,6 +843,88 @@ def dedupe_articles(articles: list[tuple[str, str]]) -> list[tuple[str, str]]:
         seen.add(article)
         deduped.append(article)
     return deduped
+
+
+def build_web_url(page_data: dict[str, Any]) -> str:
+    links = page_data.get("_links") or {}
+    base = str(links.get("base") or "https://servicecentral.atlassian.net/wiki").rstrip("/")
+    webui = str(links.get("webui") or "").strip()
+    if webui.startswith("http"):
+        return webui
+    if webui.startswith("/"):
+        return f"{base}{webui}"
+    return base
+
+
+def build_candidate_search_text(page_dir: Path) -> str:
+    body_path = page_dir / "body.export_view.html"
+    if not body_path.exists():
+        return ""
+
+    html_text = body_path.read_text(encoding="utf-8")
+    return truncate_text(extract_plain_html_text(html_text), 5000)
+
+
+def read_json(path: Path) -> dict[str, Any]:
+    with path.open("r", encoding="utf-8") as handle:
+        data = json.load(handle)
+    if not isinstance(data, dict):
+        raise ValueError(f"Expected JSON object in {path}")
+    return data
+
+
+def truncate_text(value: str, limit: int) -> str:
+    normalized = normalize_whitespace(value)
+    if len(normalized) <= limit:
+        return normalized
+    return normalized[: limit - 3].rstrip() + "..."
+
+
+def extract_plain_html_text(value: str) -> str:
+    without_tags = re.sub(r"<[^>]+>", " ", value)
+    return normalize_whitespace(unescape(without_tags))
+
+
+def expand_query_tokens(tokens: set[str]) -> set[str]:
+    expanded = set(tokens)
+    for token in list(tokens):
+        expanded.update(QUERY_EXPANSIONS.get(token, set()))
+    return expanded
+
+
+def tokenize(value: str) -> set[str]:
+    return {token for token in re.findall(r"[a-z0-9]+", value.lower()) if len(token) >= 3 and token not in STOP_WORDS}
+
+
+def score_text(query_tokens: set[str], value: str, title_multiplier: int = 1) -> int:
+    searchable = value.lower()
+    tokens = tokenize(searchable)
+    overlap = query_tokens & tokens
+    score = len(overlap)
+    for token in overlap:
+        if token in searchable:
+            score += title_multiplier
+    return score
+
+
+def is_note_text(value: str) -> bool:
+    normalized = value.strip().lower()
+    return normalized.startswith("note:") or normalized.startswith("note ")
+
+
+def is_boilerplate_text(value: str) -> bool:
+    normalized = normalize_whitespace(value).lower()
+    return bool(re.fullmatch(r"start\s+\d+(?:\.\d+)*(?:\.x)?", normalized))
+
+
+def is_decorative_image(src: str, alt: str) -> bool:
+    normalized_src = src.lower().replace("%20", " ")
+    normalized_alt = alt.lower()
+    return any(marker in normalized_src or marker in normalized_alt for marker in DECORATIVE_IMAGE_MARKERS)
+
+
+def resolve_copilot_model() -> str:
+    return os.environ.get("COPILOT_MODEL", DEFAULT_COPILOT_MODEL).strip() or DEFAULT_COPILOT_MODEL
 
 
 def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[str, Any]:
@@ -395,11 +944,17 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
     created_at = extract_created_at(ticket_details)
     description_text = extract_description_text(ticket_details)
     comment_text = extract_comment_text(ticket_details)
-    phone_number = extract_phone_number(summary, description_text, comment_text)
+    mp3_attachments = extract_mp3_attachments(ticket_details)
+    transcription_text = ""
+    transcription_notes: list[str] = []
+    if is_voice_message_summary(summary):
+        transcription_text, transcription_notes = transcribe_voicemail(summary, mp3_attachments)
+
+    phone_number = extract_phone_number(summary, transcription_text, description_text, comment_text)
     caller_label = extract_caller_label(summary, phone_number)
-    spam_signals = detect_spam_signals(summary, description_text, comment_text)
-    transcript_preview = build_transcript_preview(description_text, comment_text)
-    is_voicemail = has_transcript(description_text, comment_text)
+    spam_signals = detect_spam_signals(summary, transcription_text, description_text, comment_text)
+    transcript_preview = build_transcript_preview(transcription_text, description_text, comment_text)
+    is_voicemail = is_voice_message_summary(summary) or has_transcript(transcription_text, description_text, comment_text)
 
     if spam_signals:
         return {
@@ -417,6 +972,7 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
                 f"Reporter email: {reporter_email}",
                 "RingCentral subtype: spam_robocall",
                 f"Matched spam signals: {', '.join(spam_signals)}",
+                *transcription_notes,
             ],
             "ringcentral_subtype": "spam_robocall",
             "matched_spam_signals": spam_signals,
@@ -425,12 +981,20 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
 
     callback_window_start, callback_window_end = build_callback_window(created_at)
     recommendation = "ringcentral_voicemail_callback_needed" if is_voicemail else "ringcentral_missed_call_callback_needed"
-    ringcentral_subtype = "voicemail_callback_needed" if is_voicemail else "missed_call_callback_needed"
+    ringcentral_subtype = "voice_message" if is_voicemail else "missed_call"
     refined_summary = ""
     helpful_articles: list[tuple[str, str]] = []
     enrichment_notes: list[str] = []
     if is_voicemail:
-        refined_summary, helpful_articles, enrichment_notes = enrich_voicemail(normalized_ticket_id, ticket_details)
+        transcript_source = next(
+            (source for source in (transcription_text, description_text, comment_text) if source.strip()),
+            "",
+        )
+        refined_summary, helpful_articles, enrichment_notes = enrich_voicemail(
+            normalized_ticket_id,
+            ticket_details,
+            transcript_source,
+        )
     return {
         "recommendation": recommendation,
         "body": build_callback_issue_body(
@@ -451,6 +1015,8 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
             f"RingCentral subtype: {ringcentral_subtype}",
             f"Caller number: {phone_number or 'Unknown'}",
             f"Suggested callback window: {callback_window_start} to {callback_window_end}",
+            f"Fetched mp3 attachments: {len(mp3_attachments)}",
+            *transcription_notes,
             *enrichment_notes,
         ],
         "ringcentral_subtype": ringcentral_subtype,
@@ -460,4 +1026,5 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         "has_transcript": is_voicemail,
         "refined_summary": refined_summary,
         "helpful_articles": helpful_articles,
+        "voicemail_transcript": transcription_text,
     }

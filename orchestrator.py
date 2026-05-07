@@ -86,6 +86,7 @@ def fetch_ticket_details() -> FetchResult:
     client = JiraReadClient()
     issue = client.get_issue(scan_ticket_id)
     comments = client.get_comments(scan_ticket_id)
+    mp3_attachments = client.get_mp3_attachments(issue)
 
     if not issue:
         raise StepFailure("fetcher step failed: jira_read.py returned no issue data")
@@ -97,6 +98,7 @@ def fetch_ticket_details() -> FetchResult:
     ticket_details = {
         "issue": issue,
         "comments": comments,
+        "mp3_attachments": mp3_attachments,
     }
     return FetchResult(ticket_id=ticket_id, ticket_details=ticket_details)
 
