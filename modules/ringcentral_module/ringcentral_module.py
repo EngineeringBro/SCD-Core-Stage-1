@@ -434,6 +434,28 @@ def strip_irrelevant_article_text(refined_summary: str) -> str:
     return " ".join(kept_parts).strip()
 
 
+def extract_caller_line(refined_summary: str) -> str:
+    for line in refined_summary.splitlines():
+        stripped = line.strip()
+        lowered = stripped.lower()
+        if lowered.startswith("caller is "):
+            return stripped.rstrip(".") + "."
+        if lowered.startswith("caller:"):
+            caller_text = stripped.split(":", 1)[1].strip()
+            if caller_text:
+                return f"Caller is {caller_text.rstrip('.')} .".replace(" .", ".")
+    return ""
+
+
+def build_in_short_line(summary_text: str) -> str:
+    cleaned = normalize_whitespace(summary_text)
+    if not cleaned:
+        return ""
+    if cleaned.lower().startswith("in short,"):
+        return cleaned.rstrip(".") + "."
+    return f"In Short, {cleaned.rstrip('.')} .".replace(" .", ".")
+
+
 def normalize_refined_summary(refined_summary: str) -> str:
     cleaned = strip_irrelevant_article_text(refined_summary)
     if not cleaned:
@@ -443,6 +465,7 @@ def normalize_refined_summary(refined_summary: str) -> str:
     if not lines:
         return ""
 
+    caller_line = extract_caller_line(cleaned)
     in_short_text = ""
     action_needed_text = ""
     narrative_lines: list[str] = []
@@ -455,6 +478,8 @@ def normalize_refined_summary(refined_summary: str) -> str:
         if lowered.startswith("here, this should make your job easier"):
             continue
         if lowered.startswith("caller:"):
+            continue
+        if lowered.startswith("caller is "):
             continue
         if lowered.startswith("phone:"):
             continue
@@ -486,8 +511,11 @@ def normalize_refined_summary(refined_summary: str) -> str:
             )
 
     normalized_lines: list[str] = []
+    if caller_line:
+        normalized_lines.append(caller_line)
+
     if in_short_text:
-        normalized_lines.append(f"In Short: {in_short_text}")
+        normalized_lines.append(build_in_short_line(in_short_text))
 
     if action_needed_text or re.search(r"josh\s+muir|executive|cco|callback", in_short_text, re.IGNORECASE):
         normalized_lines.append(fixed_action_line)
@@ -973,14 +1001,14 @@ def build_voicemail_summary_prompt(ticket_context: TicketContext, helpful_articl
     return (
         "Refine this RingCentral voicemail transcript into a short internal summary for a human support agent.\n\n"
         "Requirements:\n"
-        "- Keep it concise.\n"
-        "- State the likely caller intent if it is present.\n"
-        "- Mention any ticket number, customer name, location, or issue keywords if present.\n"
-        "- If the transcript is unclear, say exactly that instead of guessing.\n"
-        "- Do not include lines starting with Ticket, Caller, Phone, or Called.\n"
-        "- Do not include helper phrases like 'Here, this should make your job easier'.\n"
-        "- If the voicemail is a callback or escalation request for Josh Muir, end with exactly: 'Action needed: Route/escalate to Josh Muir or his team for a direct callback.'\n"
-        "- If helpful articles are provided, end with one short sentence naming which article(s) may help.\n\n"
+        "- Output exactly 3 lines and nothing else.\n"
+        "- Line 1 format: Caller is <caller name> from <organization>.\n"
+        "- Line 2 format: In Short, <short summary>.\n"
+        "- Line 3 format: Action needed: Route/escalate to Josh Muir or his team for a direct callback.\n"
+        "- Do not include Ticket, Caller:, Phone:, Called:, bullets, headings, or helper phrases.\n"
+        "- If the transcript is unclear, say that in the In Short line instead of guessing.\n"
+        "- If no technical issue is described, say that this appears to be a business/executive outreach request in the In Short line.\n"
+        "- Ignore helpful articles for this output format.\n\n"
         f"Ticket context:\n```json\n{ticket_context_json(payload)}\n```\n\n"
         f"Helpful articles:\n```json\n{ticket_context_json(articles)}\n```"
     )
