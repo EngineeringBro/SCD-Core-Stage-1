@@ -445,15 +445,20 @@ def normalize_refined_summary(refined_summary: str) -> str:
 
     in_short_text = ""
     action_needed_text = ""
-    retained_lines: list[str] = []
+    narrative_lines: list[str] = []
+    fixed_action_line = "Action needed: Route/escalate to Josh Muir or his team for a direct callback."
 
     for line in lines:
         lowered = line.lower()
         if lowered.startswith("ticket:") or lowered.startswith("ticket "):
             continue
+        if lowered.startswith("here, this should make your job easier"):
+            continue
         if lowered.startswith("caller:"):
             continue
         if lowered.startswith("phone:"):
+            continue
+        if lowered.startswith("called:"):
             continue
         if lowered.startswith("intent:"):
             in_short_text = line.split(":", 1)[1].strip()
@@ -461,17 +466,33 @@ def normalize_refined_summary(refined_summary: str) -> str:
         if lowered.startswith("action needed:"):
             action_needed_text = line.split(":", 1)[1].strip()
             continue
-        retained_lines.append(line)
+        if "no technical issue reported" in lowered or "executive callback request" in lowered:
+            action_needed_text = line
+            continue
+        if "route/escalate" in lowered or "direct callback" in lowered or "follow-up" in lowered:
+            action_needed_text = line
+            continue
+        narrative_lines.append(line)
+
+    if not in_short_text and narrative_lines:
+        in_short_text = " ".join(narrative_lines).strip()
 
     if in_short_text:
-        if action_needed_text and re.search(r"route|escalat|direct callback|follow-up", action_needed_text, re.IGNORECASE):
-            if "no technical issue is described" not in in_short_text.lower():
-                in_short_text = (
-                    f"{in_short_text} No technical issue is described - this appears to be a business/executive outreach request."
-                )
-        retained_lines.append(f"In Short: {in_short_text}")
+        if "no technical issue is described" not in in_short_text.lower() and (
+            action_needed_text or re.search(r"josh\s+muir|executive|cco|callback", in_short_text, re.IGNORECASE)
+        ):
+            in_short_text = (
+                f"{in_short_text} No technical issue is described - this appears to be a business/executive outreach request."
+            )
 
-    return "\n".join(retained_lines).strip()
+    normalized_lines: list[str] = []
+    if in_short_text:
+        normalized_lines.append(f"In Short: {in_short_text}")
+
+    if action_needed_text or re.search(r"josh\s+muir|executive|cco|callback", in_short_text, re.IGNORECASE):
+        normalized_lines.append(fixed_action_line)
+
+    return "\n".join(normalized_lines).strip()
 
 
 def has_transcript(*sources: str) -> bool:
@@ -956,6 +977,9 @@ def build_voicemail_summary_prompt(ticket_context: TicketContext, helpful_articl
         "- State the likely caller intent if it is present.\n"
         "- Mention any ticket number, customer name, location, or issue keywords if present.\n"
         "- If the transcript is unclear, say exactly that instead of guessing.\n"
+        "- Do not include lines starting with Ticket, Caller, Phone, or Called.\n"
+        "- Do not include helper phrases like 'Here, this should make your job easier'.\n"
+        "- If the voicemail is a callback or escalation request for Josh Muir, end with exactly: 'Action needed: Route/escalate to Josh Muir or his team for a direct callback.'\n"
         "- If helpful articles are provided, end with one short sentence naming which article(s) may help.\n\n"
         f"Ticket context:\n```json\n{ticket_context_json(payload)}\n```\n\n"
         f"Helpful articles:\n```json\n{ticket_context_json(articles)}\n```"
