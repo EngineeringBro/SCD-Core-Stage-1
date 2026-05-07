@@ -7,23 +7,15 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-from modules.notifications_module import notification_module
+from modules.spam_module import spam_module
 
 
 INTERNAL_COMMENT_TEXT = "This ticket was resolved using SCD Core AI Project."
 WORKLOG_TIME_SPENT = "3m"
 RESOLVE_TRANSITION_ID = "81"
-RESOLUTION_DONE_ID = "10006"
+SPAM_TOPIC_ID = "10438"
+RESOLUTION_DISMISSED_ID = "10005"
 ROOT_CAUSE_UNKNOWN_ID = "10501"
-TOPIC_OPTION_IDS = {
-    "Azure Notification": "10495",
-    "Revv Error Report": "10494",
-    "Assurant": "10351",
-    "Asurion": "10352",
-    "Quickbooks": "10418",
-    "Sales": "10429",
-}
-TOPIC_NO_CHANGE = "No change"
 
 
 def main() -> int:
@@ -41,16 +33,28 @@ def main() -> int:
     base = env["JIRA_BASE_URL"].rstrip("/")
 
     ticket_details = fetch_ticket_details(base, scd_id, headers)
-    module_response = notification_module.run(scd_id, ticket_details)
+    module_response = spam_module.run(scd_id, ticket_details)
     topic_name = str(module_response.get("output_topic") or "").strip()
+    resolution_name = str(module_response.get("output_resolution") or "").strip()
+    root_cause_name = str(module_response.get("output_root_cause") or "").strip()
 
-    if not topic_name:
-        raise RuntimeError(f"Notification execute requires a matched notification topic for {scd_id}")
+    if topic_name != spam_module.SPAM_OUTPUT_TOPIC:
+        raise RuntimeError(
+            f"Spam execute requires topic '{spam_module.SPAM_OUTPUT_TOPIC}', got '{topic_name or '(blank)'}'"
+        )
+    if resolution_name != spam_module.SPAM_OUTPUT_RESOLUTION:
+        raise RuntimeError(
+            f"Spam execute requires resolution '{spam_module.SPAM_OUTPUT_RESOLUTION}', got '{resolution_name or '(blank)'}'"
+        )
+    if root_cause_name != spam_module.SPAM_OUTPUT_ROOT_CAUSE:
+        raise RuntimeError(
+            f"Spam execute requires root cause '{spam_module.SPAM_OUTPUT_ROOT_CAUSE}', got '{root_cause_name or '(blank)'}'"
+        )
 
     post_internal_comment(base, scd_id, headers)
     assign_to_current_user(base, scd_id, creds)
     log_work(base, scd_id, headers)
-    transition_to_done(base, scd_id, headers, topic_name)
+    transition_to_spam_resolution(base, scd_id, headers)
     return 0
 
 
@@ -160,30 +164,14 @@ def log_work(base: str, scd_id: str, headers: dict[str, str]) -> None:
     print(f"9c worklog: {response}")
 
 
-def transition_to_done(
-    base: str,
-    scd_id: str,
-    headers: dict[str, str],
-    topic_name: str,
-) -> None:
-    fields = {
-        "resolution": {"id": RESOLUTION_DONE_ID},
-        "customfield_10201": {"id": ROOT_CAUSE_UNKNOWN_ID},
-    }
-
-    if topic_name != TOPIC_NO_CHANGE:
-        topic_option_id = TOPIC_OPTION_IDS.get(topic_name)
-        if not topic_option_id:
-            available_topics = ", ".join(sorted(TOPIC_OPTION_IDS))
-            raise RuntimeError(
-                f"9d done transition failed: unsupported notification topic '{topic_name}'. "
-                f"Configured topics: {available_topics}, {TOPIC_NO_CHANGE}"
-            )
-        fields["customfield_10170"] = {"id": topic_option_id}
-
+def transition_to_spam_resolution(base: str, scd_id: str, headers: dict[str, str]) -> None:
     payload = {
         "transition": {"id": RESOLVE_TRANSITION_ID},
-        "fields": fields,
+        "fields": {
+            "resolution": {"id": RESOLUTION_DISMISSED_ID},
+            "customfield_10170": {"id": SPAM_TOPIC_ID},
+            "customfield_10201": {"id": ROOT_CAUSE_UNKNOWN_ID},
+        },
     }
     response = api_request(
         base,
@@ -192,9 +180,9 @@ def transition_to_done(
         method="POST",
         payload=payload,
         expected_status=204,
-        label="9d done transition",
+        label="9d spam transition",
     )
-    print(f"9d done transition: {response}")
+    print(f"9d spam transition: {response}")
 
 
 def api_get(base: str, path: str, headers: dict[str, str]) -> dict[str, object]:

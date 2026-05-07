@@ -8,12 +8,26 @@ ALLOWED_MODULE_NAMES = {
     "general",
     "orphaned_transaction",
     "spam",
+    "ringcentral",
 }
 
 NOTIFICATION_SENDER_EMAILS = {
     "mail@repairq.io",
     "noreply@repairq.io",
     "azure-noreply@microsoft.com",
+}
+
+RINGCENTRAL_SENDER_EMAILS = {
+    "notify@ringcentral.com",
+}
+
+SPAM_SENDER_DOMAINS = {
+    "elekworld.ltd",
+    "elekworld.cn",
+    "topyetlcd.com",
+    "tendernews.com",
+    "merchant-email.fiserv.com",
+    "jacktelecom.com",
 }
 
 
@@ -96,6 +110,13 @@ def extract_reporter_email(ticket_details: dict[str, Any]) -> str:
     return normalize_whitespace(str(reporter.get("emailAddress") or reporter.get("email") or "")).lower()
 
 
+def extract_reporter_domain(ticket_details: dict[str, Any]) -> str:
+    reporter_email = extract_reporter_email(ticket_details)
+    if "@" not in reporter_email:
+        return ""
+    return reporter_email.rsplit("@", 1)[1]
+
+
 def select_route(ticket_details: dict[str, Any], combined_text: str) -> dict[str, Any]:
     if "orphaned transaction" in combined_text:
         return {"module_name": "orphaned_transaction"}
@@ -103,7 +124,10 @@ def select_route(ticket_details: dict[str, Any], combined_text: str) -> dict[str
     if extract_reporter_email(ticket_details) in NOTIFICATION_SENDER_EMAILS:
         return {"module_name": "notification"}
 
-    if any(keyword in combined_text for keyword in ["spam", "robocall", "junk"]):
+    if extract_reporter_email(ticket_details) in RINGCENTRAL_SENDER_EMAILS:
+        return {"module_name": "ringcentral"}
+
+    if extract_reporter_domain(ticket_details) in SPAM_SENDER_DOMAINS:
         return {"module_name": "spam"}
 
     return {"module_name": "general"}

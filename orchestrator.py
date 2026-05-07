@@ -185,7 +185,8 @@ def run_module(router_result: RouterResult) -> ModuleResult:
         "notification": "modules/notifications_module/notification_module.py",
         "general": "modules/general_module.py",
         "orphaned_transaction": "modules/orphaned_module.py",
-        "spam": "spam_module.py",
+        "spam": "modules/spam_module/spam_module.py",
+        "ringcentral": "modules/ringcentral_module/ringcentral_module.py",
     }
 
     module_file_name = module_file_names.get(router_result.module_name)
