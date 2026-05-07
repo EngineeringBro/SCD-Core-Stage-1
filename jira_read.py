@@ -8,15 +8,22 @@ import urllib.request
 from pathlib import Path
 
 
-MAX_MP3_ATTACHMENTS = 3
-MAX_MP3_ATTACHMENT_BYTES = 15_000_000
-MP3_MIME_TYPES = {
+MAX_AUDIO_ATTACHMENTS = 3
+MAX_AUDIO_ATTACHMENT_BYTES = 15_000_000
+SUPPORTED_AUDIO_MIME_TYPES = {
     "audio/mpeg",
     "audio/mp3",
     "audio/x-mp3",
     "audio/x-mpeg-3",
     "audio/mpg",
+    "audio/mp4",
+    "audio/x-m4a",
+    "audio/wav",
+    "audio/x-wav",
+    "audio/webm",
+    "audio/ogg",
 }
+SUPPORTED_AUDIO_SUFFIXES = {".mp3", ".m4a", ".wav", ".webm", ".ogg", ".mp4", ".mpga", ".mpeg"}
 
 
 class JiraReadClient:
@@ -72,7 +79,7 @@ class JiraReadClient:
         data = self._get(f"/rest/api/3/issue/{ticket_id}/comment")
         return data.get("comments", [])
 
-    def get_mp3_attachments(self, issue: dict, max_attachments: int = MAX_MP3_ATTACHMENTS) -> list[dict[str, object]]:
+    def get_mp3_attachments(self, issue: dict, max_attachments: int = MAX_AUDIO_ATTACHMENTS) -> list[dict[str, object]]:
         fields = issue.get("fields") if isinstance(issue, dict) else {}
         if not isinstance(fields, dict):
             return []
@@ -108,7 +115,7 @@ class JiraReadClient:
             return None
         if not self._is_mp3_attachment(filename, mime_type):
             return None
-        if size and size > MAX_MP3_ATTACHMENT_BYTES:
+        if size and size > MAX_AUDIO_ATTACHMENT_BYTES:
             return None
 
         attachment_bytes = self._download_attachment_bytes(content_url)
@@ -123,9 +130,11 @@ class JiraReadClient:
         }
 
     def _is_mp3_attachment(self, filename: str, mime_type: str) -> bool:
-        if Path(filename).suffix.lower() == ".mp3":
+        if Path(filename).suffix.lower() in SUPPORTED_AUDIO_SUFFIXES:
             return True
-        return mime_type in MP3_MIME_TYPES
+        if mime_type.startswith("audio/"):
+            return True
+        return mime_type in SUPPORTED_AUDIO_MIME_TYPES
 
     def _download_attachment_bytes(self, content_url: str) -> bytes:
         headers = {
@@ -135,13 +144,13 @@ class JiraReadClient:
         request = urllib.request.Request(content_url, headers=headers)
         try:
             with urllib.request.urlopen(request, timeout=15) as response:
-                payload = response.read(MAX_MP3_ATTACHMENT_BYTES + 1)
+                payload = response.read(MAX_AUDIO_ATTACHMENT_BYTES + 1)
         except urllib.error.HTTPError as exc:
             body = exc.read().decode(errors="replace")[:500]
             raise RuntimeError(f"Jira attachment API {exc.code} on {content_url[:100]}: {body}") from exc
 
-        if len(payload) > MAX_MP3_ATTACHMENT_BYTES:
-            raise RuntimeError(f"Jira attachment exceeded {MAX_MP3_ATTACHMENT_BYTES} bytes: {content_url[:100]}")
+        if len(payload) > MAX_AUDIO_ATTACHMENT_BYTES:
+            raise RuntimeError(f"Jira attachment exceeded {MAX_AUDIO_ATTACHMENT_BYTES} bytes: {content_url[:100]}")
         return payload
 
     def search(self, jql: str, fields: list[str] | None = None, max_results: int = 50) -> list:

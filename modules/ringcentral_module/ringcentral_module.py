@@ -359,6 +359,14 @@ def build_transcript_preview(*sources: str, empty_value: str = "None") -> str:
     return combined[:277].rstrip() + "..."
 
 
+def build_missing_transcript_message(transcription_notes: list[str], attachment_count: int) -> str:
+    if transcription_notes:
+        return transcription_notes[0]
+    if attachment_count > 0:
+        return "No transcript available. Audio attachment was fetched, but the transcription step did not return usable text."
+    return "No transcript available. No supported audio attachment was fetched from the Jira ticket."
+
+
 def has_transcript(*sources: str) -> bool:
     return any(source.strip() for source in sources)
 
@@ -521,7 +529,7 @@ def normalize_transcription_result(result: Any) -> str:
 
 def transcribe_voicemail(summary: str, mp3_attachments: list[dict[str, Any]]) -> tuple[str, list[str]]:
     if not mp3_attachments:
-        return "", ["Voicemail transcription skipped: no mp3 attachment found"]
+        return "", ["Voicemail transcription skipped: no supported audio attachment found"]
     if not os.environ.get("COPILOT_TOKEN", "").strip():
         return "", ["Voicemail transcription skipped: COPILOT_TOKEN is not configured"]
     if OpenAI is None:
@@ -979,7 +987,7 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
     spam_signals = detect_spam_signals(summary, *spam_sources)
     transcript_preview = build_transcript_preview(
         voicemail_text,
-        empty_value="No transcript available. No mp3 attachment was fetched or the transcription step did not return usable text.",
+        empty_value=build_missing_transcript_message(transcription_notes, len(mp3_attachments)),
     )
     is_voicemail = is_voice_message or has_transcript(description_text, comment_text)
 
@@ -1038,7 +1046,7 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
             f"RingCentral subtype: {ringcentral_subtype}",
             f"Caller number: {phone_number or 'Unknown'}",
             f"Suggested callback window: {callback_window_start} to {callback_window_end}",
-            f"Fetched mp3 attachments: {len(mp3_attachments)}",
+            f"Fetched audio attachments: {len(mp3_attachments)}",
             *transcription_notes,
             *enrichment_notes,
         ],
