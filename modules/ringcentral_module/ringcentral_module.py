@@ -597,7 +597,8 @@ def build_callback_issue_body(
 ) -> str:
     resolution_text = (
         "This appears to be a RingCentral voice message ticket and does not look like obvious spam. "
-        "Please call the number back within the suggested window and update the Jira ticket with the outcome."
+        "Please call the number back within the suggested window and update the Jira ticket with the outcome. "
+        "Here, this should make your job easier:"
         if is_voicemail
         else "This appears to be a RingCentral missed call ticket and does not look like obvious spam. "
         "Please call the number back within the suggested window and update the Jira ticket with the outcome."
