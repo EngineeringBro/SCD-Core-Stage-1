@@ -412,6 +412,21 @@ def summary_rejects_helpful_articles(refined_summary: str) -> bool:
     return any(marker in normalized for marker in rejection_markers)
 
 
+def strip_irrelevant_article_text(refined_summary: str) -> str:
+    cleaned = refined_summary.strip()
+    if not cleaned:
+        return ""
+
+    lines = [line.strip() for line in cleaned.splitlines() if line.strip()]
+    kept_lines = [line for line in lines if not summary_rejects_helpful_articles(line)]
+    if kept_lines:
+        return "\n".join(kept_lines).strip()
+
+    sentence_parts = re.split(r"(?<=[.!?])\s+", cleaned)
+    kept_parts = [part.strip() for part in sentence_parts if part.strip() and not summary_rejects_helpful_articles(part)]
+    return " ".join(kept_parts).strip()
+
+
 def has_transcript(*sources: str) -> bool:
     return any(source.strip() for source in sources)
 
@@ -868,6 +883,7 @@ def enrich_voicemail(
     refined_summary = str(response.choices[0].message.content or "").strip()
     if refined_summary.startswith("```"):
         refined_summary = refined_summary.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
+    refined_summary = strip_irrelevant_article_text(refined_summary)
     if not refined_summary:
         return "", helpful_articles, ["Voicemail enrichment fallback used: model returned no usable summary"]
 
@@ -893,7 +909,8 @@ def build_voicemail_summary_prompt(ticket_context: TicketContext, helpful_articl
         "- State the likely caller intent if it is present.\n"
         "- Mention any ticket number, customer name, location, or issue keywords if present.\n"
         "- If the transcript is unclear, say exactly that instead of guessing.\n"
-        "- If helpful articles are provided, end with one short sentence naming which article(s) may help.\n\n"
+        "- Only mention helpful articles if one or more clearly apply.\n"
+        "- If no helpful article clearly applies, omit article mention entirely.\n\n"
         f"Ticket context:\n```json\n{ticket_context_json(payload)}\n```\n\n"
         f"Helpful articles:\n```json\n{ticket_context_json(articles)}\n```"
     )
