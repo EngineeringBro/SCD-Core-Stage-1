@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
+from tempfile import NamedTemporaryFile
 from typing import Any
 
 try:
@@ -16,6 +17,11 @@ try:
 except ImportError:
     openai = None  # type: ignore
     OpenAI = None  # type: ignore
+
+try:
+    from faster_whisper import WhisperModel
+except ImportError:
+    WhisperModel = None  # type: ignore
 
 
 MODULE_ID = "ringcentral"
@@ -41,7 +47,7 @@ KNOWLEDGEBASE_ROOT = KNOWLEDGE_ROOT / "knowledgebase"
 PAGES_ROOT = KNOWLEDGEBASE_ROOT / "spaces" / "SCD" / "pages"
 COPILOT_BASE_URL = "https://api.business.githubcopilot.com"
 DEFAULT_COPILOT_MODEL = "claude-sonnet-4.6"
-TRANSCRIPTION_MODEL = "gpt-4o-transcribe"
+TRANSCRIPTION_MODEL = os.environ.get("VOICEMAIL_TRANSCRIPTION_MODEL", "base.en").strip() or "base.en"
 MAX_ARTICLES = 5
 MAX_INITIAL_CANDIDATES = 40
 MAX_GROUPS = 8
@@ -527,13 +533,38 @@ def normalize_transcription_result(result: Any) -> str:
     return normalize_whitespace(str(result))
 
 
+def guess_audio_suffix(filename: str, mime_type: str) -> str:
+    suffix = Path(filename).suffix.lower()
+    if suffix:
+        return suffix
+
+    mime_map = {
+        "audio/mpeg": ".mp3",
+        "audio/mp3": ".mp3",
+        "audio/x-mp3": ".mp3",
+        "audio/x-mpeg-3": ".mp3",
+        "audio/mpg": ".mp3",
+        "audio/mp4": ".m4a",
+        "audio/x-m4a": ".m4a",
+        "audio/wav": ".wav",
+        "audio/x-wav": ".wav",
+        "audio/webm": ".webm",
+        "audio/ogg": ".ogg",
+        "audio/3gpp": ".3gp",
+        "audio/3gpp2": ".3g2",
+    }
+    return mime_map.get(mime_type.lower(), ".audio")
+
+
+def build_offline_transcript_text(segments: list[Any]) -> str:
+    return normalize_whitespace(" ".join(str(segment.text or "").strip() for segment in segments if str(segment.text or "").strip()))
+
+
 def transcribe_voicemail(summary: str, mp3_attachments: list[dict[str, Any]]) -> tuple[str, list[str]]:
     if not mp3_attachments:
         return "", ["Voicemail transcription skipped: no supported audio attachment found"]
-    if not os.environ.get("COPILOT_TOKEN", "").strip():
-        return "", ["Voicemail transcription skipped: COPILOT_TOKEN is not configured"]
-    if OpenAI is None:
-        return "", ["Voicemail transcription skipped: openai package is not installed"]
+    if WhisperModel is None:
+        return "", ["Voicemail transcription skipped: faster-whisper package is not installed"]
 
     attachment = mp3_attachments[0]
     filename = str(attachment.get("filename") or "voicemail.mp3")
@@ -542,24 +573,27 @@ def transcribe_voicemail(summary: str, mp3_attachments: list[dict[str, Any]]) ->
     if not isinstance(content_bytes, (bytes, bytearray)) or not content_bytes:
         return "", ["Voicemail transcription skipped: attachment bytes were missing"]
 
-    client = OpenAI(
-        api_key=os.environ.get("COPILOT_TOKEN", "").strip(),
-        base_url=COPILOT_BASE_URL,
-    )
-
     try:
-        transcription = client.audio.transcriptions.create(
-            model=TRANSCRIPTION_MODEL,
-            file=(filename, bytes(content_bytes), mime_type),
-            response_format="text",
-            prompt=build_voicemail_transcription_prompt(summary),
-        )
-    except OPENAI_CLIENT_EXCEPTIONS as exc:
-        return "", [f"Voicemail transcription fallback used: {type(exc).__name__}: {exc}"]
+        with NamedTemporaryFile(suffix=guess_audio_suffix(filename, mime_type), delete=True) as handle:
+            handle.write(bytes(content_bytes))
+            handle.flush()
 
-    transcript_text = normalize_transcription_result(transcription)
+            model = WhisperModel(TRANSCRIPTION_MODEL, device="cpu", compute_type="int8")
+            segments_iter, _ = model.transcribe(
+                handle.name,
+                language="en",
+                beam_size=5,
+                vad_filter=True,
+                condition_on_previous_text=False,
+                initial_prompt=build_voicemail_transcription_prompt(summary),
+            )
+            segments = list(segments_iter)
+    except Exception as exc:
+        return "", [f"Voicemail transcription failed: {type(exc).__name__}: {exc}"]
+
+    transcript_text = build_offline_transcript_text(segments)
     if not transcript_text:
-        return "", ["Voicemail transcription fallback used: model returned no usable transcript"]
+        return "", ["Voicemail transcription failed: model returned no usable transcript"]
 
     return transcript_text, [f"Voicemail transcription model: {TRANSCRIPTION_MODEL}"]
 
