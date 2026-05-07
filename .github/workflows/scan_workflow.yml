@@ -97,21 +97,32 @@ jobs:
 
             const issueBodyIndex = lines.findIndex((value) => value.trim() === 'Issue Body:');
             const notesIndex = lines.findIndex((value) => value.trim() === 'Notes:');
+            const transcriptIndex = lines.findIndex((value) => value.trim() === 'Word for word transcript:');
             const issueBodyLines = issueBodyIndex >= 0
               ? lines.slice(issueBodyIndex + 1, notesIndex >= 0 ? notesIndex : lines.length)
               : [];
             const issueBody = issueBodyLines.join('\n').trim() || recommendation;
-            const notesLines = notesIndex >= 0 ? lines.slice(notesIndex + 1) : ['- None'];
+            const notesLines = notesIndex >= 0
+              ? lines.slice(notesIndex + 1, transcriptIndex >= 0 ? transcriptIndex : lines.length)
+              : ['- None'];
             const notes = notesLines.join('\n').trim() || '- None';
+            const transcriptLines = transcriptIndex >= 0 ? lines.slice(transcriptIndex + 1) : [];
+            const transcript = transcriptLines.join('\n').trim();
 
             const title = `[${recommendation}] ${parsedTicketId} - ${moduleName}`;
-            const body = [
+            const bodyParts = [
               issueBody,
               `<!-- module_id: ${moduleId} -->`,
               '---',
               'Notes',
               notes,
-            ].join('\n');
+            ];
+
+            if (transcript) {
+              bodyParts.push('---', 'Word for word transcript', transcript);
+            }
+
+            const body = bodyParts.join('\n');
 
             const issue = await github.rest.issues.create({
               owner: context.repo.owner,

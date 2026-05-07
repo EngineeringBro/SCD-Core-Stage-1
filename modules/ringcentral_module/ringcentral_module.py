@@ -438,26 +438,13 @@ def build_spam_issue_body(
 
 def build_callback_issue_body(
     ticket_id: str,
-    summary: str,
-    created_at: str,
     phone_number: str,
-    caller_label: str,
-    callback_window_start: str,
-    callback_window_end: str,
-    transcript_preview: str,
+    callback_window_display: str,
     *,
     is_voicemail: bool,
     refined_summary: str = "",
     helpful_articles: list[tuple[str, str]] | None = None,
 ) -> str:
-    created_dt = parse_created_datetime(created_at)
-    if created_dt is None:
-        created_at_display = created_at or "Unknown"
-        callback_window_display = f"{callback_window_start} to {callback_window_end}"
-    else:
-        created_at_display = str(created_dt)
-        callback_window_display = f"{format_callback_hours(created_dt - timedelta(hours=1))} to {format_callback_hours(created_dt + timedelta(hours=1))}"
-
     resolution_text = (
         "This appears to be a RingCentral voice message ticket and does not look like obvious spam. "
         "Please call the number back within the suggested window and update the Jira ticket with the outcome."
@@ -471,46 +458,29 @@ def build_callback_issue_body(
         "",
         resolution_text,
         "",
-        "## Useful Details",
-        "",
         f"- Ticket ID: {ticket_id}",
         f"- Caller number: {phone_number or 'Unknown'}",
         f"- Optimal callback hours: {callback_window_display}",
-        f"- Summary: {summary or 'None'}",
-        f"- Caller label: {caller_label or 'Unknown'}",
-        f"- Ticket created at: {created_at_display}",
     ]
 
-    if is_voicemail:
+    if refined_summary:
         lines.extend(
             [
                 "",
-                "## Transcript Preview",
-                "",
-                transcript_preview,
+                refined_summary,
             ]
         )
 
-        if refined_summary:
-            lines.extend(
-                [
-                    "",
-                    "## Refined Summary",
-                    "",
-                    refined_summary,
-                ]
-            )
-
-        if helpful_articles:
-            lines.extend(
-                [
-                    "",
-                    "## Helpful Articles",
-                    "",
-                ]
-            )
-            for title, url in helpful_articles[:3]:
-                lines.append(f"- [{title}]({url})")
+    if is_voicemail and helpful_articles:
+        lines.extend(
+            [
+                "",
+                "## Helpful Articles",
+                "",
+            ]
+        )
+        for title, url in helpful_articles[:3]:
+            lines.append(f"- [{title}]({url})")
 
     return "\n".join(lines)
 
@@ -588,7 +558,7 @@ def transcribe_voicemail(summary: str, mp3_attachments: list[dict[str, Any]]) ->
                 initial_prompt=build_voicemail_transcription_prompt(summary),
             )
             segments = list(segments_iter)
-    except Exception as exc:
+    except (OSError, RuntimeError, ValueError) as exc:
         return "", [f"Voicemail transcription failed: {type(exc).__name__}: {exc}"]
 
     transcript_text = build_offline_transcript_text(segments)
@@ -1049,6 +1019,13 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         }
 
     callback_window_start, callback_window_end = build_callback_window(created_at)
+    created_dt = parse_created_datetime(created_at)
+    if created_dt is None:
+        created_at_display = created_at or "Unknown"
+        callback_window_display = f"{callback_window_start} to {callback_window_end}"
+    else:
+        created_at_display = str(created_dt)
+        callback_window_display = f"{format_callback_hours(created_dt - timedelta(hours=1))} to {format_callback_hours(created_dt + timedelta(hours=1))}"
     recommendation = "ringcentral_voicemail_callback_needed" if is_voicemail else "ringcentral_missed_call_callback_needed"
     ringcentral_subtype = "voice_message" if is_voicemail else "missed_call"
     refined_summary = ""
@@ -1064,13 +1041,8 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         "recommendation": recommendation,
         "body": build_callback_issue_body(
             normalized_ticket_id,
-            summary,
-            created_at,
             phone_number,
-            caller_label,
-            callback_window_start,
-            callback_window_end,
-            transcript_preview,
+            callback_window_display,
             is_voicemail=is_voicemail,
             refined_summary=refined_summary,
             helpful_articles=helpful_articles,
@@ -1078,6 +1050,9 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         "notes": [
             f"Reporter email: {reporter_email}",
             f"RingCentral subtype: {ringcentral_subtype}",
+            f"Summary: {summary or 'None'}",
+            f"Caller label: {caller_label or 'Unknown'}",
+            f"Ticket created at: {created_at_display}",
             f"Caller number: {phone_number or 'Unknown'}",
             f"Suggested callback window: {callback_window_start} to {callback_window_end}",
             f"Fetched audio attachments: {len(mp3_attachments)}",

@@ -254,6 +254,8 @@ def build_issue_description(module_result: ModuleResult) -> str:
     if not formatted_notes:
         formatted_notes = ["- None"]
 
+    transcript_value = str(module_result.module_payload.get("voicemail_transcript") or "").strip()
+
     lines = [
         f"Recommendation: {module_recommendation}",
         f"Ticket ID: {module_result.ticket_id}",
@@ -264,6 +266,14 @@ def build_issue_description(module_result: ModuleResult) -> str:
         "Notes:",
         *formatted_notes,
     ]
+
+    if transcript_value:
+        lines.extend(
+            [
+                "Word for word transcript:",
+                transcript_value,
+            ]
+        )
     return "\n".join(lines)
 
 
