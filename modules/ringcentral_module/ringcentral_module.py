@@ -404,12 +404,19 @@ def build_missing_transcript_message(transcription_notes: list[str], attachment_
 
 def summary_rejects_helpful_articles(refined_summary: str) -> bool:
     normalized = normalize_whitespace(refined_summary).lower()
-    rejection_markers = (
-        "no relevant helpful articles apply here",
-        "no relevant articles apply here",
-        "no helpful articles apply here",
+    rejection_patterns = (
+        r"no\s+relevant\s+helpful\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
+        r"no\s+relevant\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
+        r"no\s+helpful\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
     )
-    return any(marker in normalized for marker in rejection_markers)
+    return any(re.search(pattern, normalized) for pattern in rejection_patterns)
+
+
+def summary_supports_helpful_articles(refined_summary: str, helpful_articles: list[tuple[str, str]]) -> bool:
+    normalized = normalize_whitespace(refined_summary).lower()
+    if summary_rejects_helpful_articles(normalized):
+        return False
+    return any(title.lower() in normalized for title, _ in helpful_articles)
 
 
 def strip_irrelevant_article_text(refined_summary: str) -> str:
@@ -525,7 +532,7 @@ def build_callback_issue_body(
             ]
         )
 
-    if is_voicemail and helpful_articles:
+    if is_voicemail and helpful_articles and summary_supports_helpful_articles(refined_summary, helpful_articles):
         lines.extend(
             [
                 "",
