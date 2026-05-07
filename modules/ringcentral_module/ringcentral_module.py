@@ -33,6 +33,10 @@ SPAM_TOPIC = "Spam"
 SPAM_RESOLUTION = "Dismissed"
 SPAM_ROOT_CAUSE = "Unknown"
 PHONE_PATTERN = re.compile(r"(\(?\d{3}\)?[\s-]?\d{3}[\s-]?\d{4})")
+SUMMARY_TIMESTAMP_PATTERN = re.compile(
+    r"\bon\s+(\d{1,2}/\d{1,2}/\d{4})\s+(\d{1,2}:\d{2}\s*[AP]M)\b",
+    re.IGNORECASE,
+)
 SPAM_SIGNAL_PATTERNS = {
     "suspected_robocall": re.compile(r"suspected robocall", re.IGNORECASE),
     "unknown_fax": re.compile(r"new fax message.*(unknown|<no callerid>)", re.IGNORECASE),
@@ -347,6 +351,31 @@ def build_callback_window(created_at: str) -> tuple[str, str]:
     return format_datetime(start), format_datetime(end)
 
 
+def parse_summary_datetime(summary: str, fallback: datetime | None = None) -> datetime | None:
+    match = SUMMARY_TIMESTAMP_PATTERN.search(summary)
+    if match is None:
+        return None
+
+    date_text, time_text = match.groups()
+    try:
+        parsed = datetime.strptime(f"{date_text} {time_text.upper()}", "%m/%d/%Y %I:%M %p")
+    except ValueError:
+        return None
+
+    if fallback is not None and fallback.tzinfo is not None:
+        return parsed.replace(tzinfo=fallback.tzinfo)
+    return parsed
+
+
+def build_callback_window_from_datetime(value: datetime | None) -> tuple[str, str, str]:
+    if value is None:
+        return "Unknown", "Unknown", "Unknown"
+
+    start = value - timedelta(hours=1)
+    end = value + timedelta(hours=1)
+    return format_datetime(start), format_datetime(end), f"{format_callback_hours(start)} to {format_callback_hours(end)}"
+
+
 def format_datetime(value: datetime) -> str:
     return value.strftime("%Y-%m-%d %H:%M %z")
 
@@ -371,6 +400,16 @@ def build_missing_transcript_message(transcription_notes: list[str], attachment_
     if attachment_count > 0:
         return "No transcript available. Audio attachment was fetched, but the transcription step did not return usable text."
     return "No transcript available. No supported audio attachment was fetched from the Jira ticket."
+
+
+def summary_rejects_helpful_articles(refined_summary: str) -> bool:
+    normalized = normalize_whitespace(refined_summary).lower()
+    rejection_markers = (
+        "no relevant helpful articles apply here",
+        "no relevant articles apply here",
+        "no helpful articles apply here",
+    )
+    return any(marker in normalized for marker in rejection_markers)
 
 
 def has_transcript(*sources: str) -> bool:
@@ -832,6 +871,9 @@ def enrich_voicemail(
     if not refined_summary:
         return "", helpful_articles, ["Voicemail enrichment fallback used: model returned no usable summary"]
 
+    if summary_rejects_helpful_articles(refined_summary):
+        helpful_articles = []
+
     return refined_summary, helpful_articles, [f"Voicemail enrichment model: {resolve_copilot_model()}"]
 
 
@@ -1018,14 +1060,13 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
             "caller_number": phone_number,
         }
 
-    callback_window_start, callback_window_end = build_callback_window(created_at)
     created_dt = parse_created_datetime(created_at)
+    callback_anchor_dt = parse_summary_datetime(summary, created_dt) or created_dt
+    callback_window_start, callback_window_end, callback_window_display = build_callback_window_from_datetime(callback_anchor_dt)
     if created_dt is None:
         created_at_display = created_at or "Unknown"
-        callback_window_display = f"{callback_window_start} to {callback_window_end}"
     else:
         created_at_display = str(created_dt)
-        callback_window_display = f"{format_callback_hours(created_dt - timedelta(hours=1))} to {format_callback_hours(created_dt + timedelta(hours=1))}"
     recommendation = "ringcentral_voicemail_callback_needed" if is_voicemail else "ringcentral_missed_call_callback_needed"
     ringcentral_subtype = "voice_message" if is_voicemail else "missed_call"
     refined_summary = ""
