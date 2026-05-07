@@ -434,6 +434,46 @@ def strip_irrelevant_article_text(refined_summary: str) -> str:
     return " ".join(kept_parts).strip()
 
 
+def normalize_refined_summary(refined_summary: str) -> str:
+    cleaned = strip_irrelevant_article_text(refined_summary)
+    if not cleaned:
+        return ""
+
+    lines = [line.strip() for line in cleaned.splitlines() if line.strip()]
+    if not lines:
+        return ""
+
+    in_short_text = ""
+    action_needed_text = ""
+    retained_lines: list[str] = []
+
+    for line in lines:
+        lowered = line.lower()
+        if lowered.startswith("ticket:") or lowered.startswith("ticket "):
+            continue
+        if lowered.startswith("caller:"):
+            continue
+        if lowered.startswith("phone:"):
+            continue
+        if lowered.startswith("intent:"):
+            in_short_text = line.split(":", 1)[1].strip()
+            continue
+        if lowered.startswith("action needed:"):
+            action_needed_text = line.split(":", 1)[1].strip()
+            continue
+        retained_lines.append(line)
+
+    if in_short_text:
+        if action_needed_text and re.search(r"route|escalat|direct callback|follow-up", action_needed_text, re.IGNORECASE):
+            if "no technical issue is described" not in in_short_text.lower():
+                in_short_text = (
+                    f"{in_short_text} No technical issue is described - this appears to be a business/executive outreach request."
+                )
+        retained_lines.append(f"In Short: {in_short_text}")
+
+    return "\n".join(retained_lines).strip()
+
+
 def has_transcript(*sources: str) -> bool:
     return any(source.strip() for source in sources)
 
@@ -520,8 +560,7 @@ def build_callback_issue_body(
         resolution_text,
         "",
         f"- Ticket ID: {ticket_id}",
-        f"- Caller number: {phone_number or 'Unknown'}",
-        f"- Optimal callback hours: {callback_window_display}",
+        f"- Caller number: {phone_number or 'Unknown'} | Optimal callback hours: {callback_window_display}",
     ]
 
     if refined_summary:
@@ -891,7 +930,7 @@ def enrich_voicemail(
     if refined_summary.startswith("```"):
         refined_summary = refined_summary.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
     rejected_helpful_articles = summary_rejects_helpful_articles(refined_summary)
-    refined_summary = strip_irrelevant_article_text(refined_summary)
+    refined_summary = normalize_refined_summary(refined_summary)
     if not refined_summary:
         return "", helpful_articles, ["Voicemail enrichment fallback used: model returned no usable summary"]
 
