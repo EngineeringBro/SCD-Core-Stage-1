@@ -448,7 +448,17 @@ def summary_rejects_helpful_articles(refined_summary: str) -> bool:
         r"no\s+relevant\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
         r"no\s+helpful\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
     )
-    return any(re.search(pattern, normalized) for pattern in rejection_patterns)
+    if any(re.search(pattern, normalized) for pattern in rejection_patterns):
+        return True
+
+    non_technical_patterns = (
+        r"no\s+technical\s+issue\s+is\s+described",
+        r"business/executive\s+outreach\s+request",
+        r"executive\s+outreach\s+request",
+        r"seeking\s+a\s+callback\s+from\s+cco",
+        r"josh\s+muir",
+    )
+    return any(re.search(pattern, normalized) for pattern in non_technical_patterns)
 
 
 def summary_supports_helpful_articles(refined_summary: str, helpful_articles: list[tuple[str, str]]) -> bool:
