@@ -193,8 +193,6 @@ jobs:
             });
             const bodyParts = [
               issueBody,
-              '---',
-              `- Ticket ID: ${parsedTicketId}`,
               `<!-- module_id: ${moduleId} -->`,
               '---',
               'Notes',

@@ -87,30 +87,28 @@ jobs:
               return;
             }
 
-            const issueBody = String(issue.body || '');
             const issueTitle = String(issue.title || '');
-            const moduleMatch = issueBody.match(/<!--\s*module_id:\s*([a-z0-9_-]+)\s*-->/i);
-            if (!moduleMatch) {
-              skipExecution('Skipped execute: module marker is missing from the issue body.');
+            const titleMatch = issueTitle.match(/\[(SCD-\d+)\s*-\s*([^\]]+?)\]\s*$/i)
+              || issueTitle.match(/^\[[^\]]+\]\s*(SCD-\d+)\s*-\s*(.+?)\s*$/i);
+
+            if (!titleMatch) {
+              skipExecution('Skipped execute: issue title does not include a parseable ticket id and module name.');
               return;
             }
 
-            const ticketMatch = issueBody.match(/(?:^|\n)-\s*Ticket ID:\s*(SCD-\d+)\b/i)
-              || issueTitle.match(/\b(SCD-\d+)\b/i);
-
-            if (!ticketMatch) {
-              skipExecution('Skipped execute: SCD ticket id was not found in the issue body or title.');
-              return;
-            }
-
-            const ticketId = String(ticketMatch[1] || '').trim().toUpperCase();
+            const ticketId = String(titleMatch[1] || '').trim().toUpperCase();
+            const moduleName = String(titleMatch[2] || '').trim();
             if (!ticketId) {
               skipExecution('Skipped execute: parsed SCD ticket id was empty.');
               return;
             }
+            if (!moduleName) {
+              skipExecution('Skipped execute: parsed module name from title was empty.');
+              return;
+            }
 
             core.exportVariable('EXECUTE_ISSUE_NUMBER', String(issue.number));
-            exportExecution(ticketId, `Auto execute approved for ${ticketId} from closed issue #${issue.number}.`);
+            exportExecution(ticketId, `Auto execute approved for ${ticketId} (${moduleName}) from closed issue #${issue.number}.`);
 
       - name: Check out repository
         if: steps.resolve-ticket.outputs.should_execute == 'true'

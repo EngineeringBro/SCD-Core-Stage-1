@@ -8,6 +8,10 @@ import urllib.parse
 import urllib.request
 
 
+MODERN_TITLE_PATTERN = re.compile(r"\[(SCD-\d+)\s*-\s*([^\]]+?)\]\s*$", re.IGNORECASE)
+LEGACY_TITLE_PATTERN = re.compile(r"^\[[^\]]+\]\s*(SCD-\d+)\s*-\s*(.+?)\s*$", re.IGNORECASE)
+
+
 def main() -> int:
     scd_id = os.environ.get("SCD_TICKET_ID", "").strip().upper()
     if not scd_id:
@@ -112,8 +116,12 @@ def issue_matches_ticket(issue: dict[str, object], scd_id: str) -> bool:
 
     title = str(issue.get("title") or "").strip()
     if title:
-        # Support both the legacy pattern `[recommendation] SCD-123 - Module`
-        # and the new aligned pattern `Label [SCD-123 - Module]`.
+        title_metadata = parse_issue_title_metadata(title)
+        if title_metadata and title_metadata[0] == normalized_ticket_id:
+            return True
+
+        # Backstop for older titles that still contain the ticket but do not
+        # follow one of the recognized structured title formats.
         title_pattern = re.compile(rf"(?:\]\s*|\[){re.escape(normalized_ticket_id)}\s*-\s+", re.IGNORECASE)
         if title_pattern.search(title):
             return True
@@ -129,6 +137,11 @@ def issue_matches_ticket(issue: dict[str, object], scd_id: str) -> bool:
 
 def resolve_module_name_from_issue(issue: dict[str, object], scd_id: str) -> str:
     title = str(issue.get("title") or "").strip()
+    if title:
+        title_metadata = parse_issue_title_metadata(title)
+        if title_metadata and title_metadata[0] == scd_id.strip().upper() and title_metadata[1]:
+            return title_metadata[1]
+
     body = str(issue.get("body") or "")
     match = re.search(r"<!--\s*module_id:\s*([a-z0-9_\-]+)\s*-->", body, re.IGNORECASE)
     if match:
@@ -139,6 +152,48 @@ def resolve_module_name_from_issue(issue: dict[str, object], scd_id: str) -> str
     raise RuntimeError(
         f"execute router could not resolve module from persisted module marker in issue #{issue_number} for {scd_id}: {title}"
     )
+
+
+def parse_issue_title_metadata(title: str) -> tuple[str, str, str] | None:
+    normalized_title = str(title or "").strip()
+    if not normalized_title:
+        return None
+
+    match = MODERN_TITLE_PATTERN.search(normalized_title)
+    if not match:
+        match = LEGACY_TITLE_PATTERN.search(normalized_title)
+    if not match:
+        return None
+
+    ticket_id = str(match.group(1) or "").strip().upper()
+    module_display_name = str(match.group(2) or "").strip()
+    if not ticket_id or not module_display_name:
+        return None
+
+    module_name = normalize_module_name_from_title(module_display_name)
+    if not module_name:
+        return None
+
+    return ticket_id, module_name, module_display_name
+
+
+def normalize_module_name_from_title(module_display_name: str) -> str:
+    normalized_display = re.sub(r"[^a-z0-9]+", " ", str(module_display_name or "").lower()).strip()
+    if not normalized_display:
+        return ""
+
+    if "general knowledge module" in normalized_display:
+        return "general"
+    if "spam module" in normalized_display:
+        return "spam"
+    if "notifications module" in normalized_display:
+        return "notification"
+    if "orphaned transaction module" in normalized_display:
+        return "orphaned_transaction"
+    if "ringcentral module" in normalized_display or "ring central module" in normalized_display:
+        return "ringcentral"
+
+    return ""
 
 
 if __name__ == "__main__":
