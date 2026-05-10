@@ -131,7 +131,7 @@ jobs:
         if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
-          EXECUTE_MODULE=$(python execute_router.py)
+          EXECUTE_MODULE=$(python Executes/execute_router.py)
           echo "Resolved execute module: $EXECUTE_MODULE"
           echo "execute_module=$EXECUTE_MODULE" >> "$GITHUB_OUTPUT"
 
@@ -141,19 +141,19 @@ jobs:
         run: |
           case "${{ steps.resolve-module.outputs.execute_module }}" in
             orphaned_transaction)
-              python "Modules Executes/execute_orphaned_transaction.py" | tee execute-output.txt
+              python "Executes/Modules Executes/execute_orphaned_transaction.py" | tee execute-output.txt
               ;;
             notification)
-              python "Modules Executes/execute_notifications.py" | tee execute-output.txt
+              python "Executes/Modules Executes/execute_notifications.py" | tee execute-output.txt
               ;;
             spam)
-              python "Modules Executes/execute_spam.py" | tee execute-output.txt
+              python "Executes/Modules Executes/execute_spam.py" | tee execute-output.txt
               ;;
             ringcentral)
-              python "Modules Executes/execute_ringcentral_spam.py" | tee execute-output.txt
+              python "Executes/Modules Executes/execute_ringcentral_spam.py" | tee execute-output.txt
               ;;
             general)
-              python "Modules Executes/execute_general_module.py" | tee execute-output.txt
+              python "Executes/Modules Executes/execute_general_module.py" | tee execute-output.txt
               ;;
             *)
               echo "Unsupported EXECUTE_MODULE: ${{ steps.resolve-module.outputs.execute_module }}" >&2
@@ -165,7 +165,7 @@ jobs:
         if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
-          python close_execute_issue.py
+          python Executes/close_execute_issue.py
 
       - name: Publish execute summary
         if: always()

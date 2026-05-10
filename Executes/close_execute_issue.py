@@ -2,8 +2,15 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 import urllib.error
 import urllib.request
+from pathlib import Path
+
+
+EXECUTES_ROOT = Path(__file__).resolve().parent
+if str(EXECUTES_ROOT) not in sys.path:
+    sys.path.insert(0, str(EXECUTES_ROOT))
 
 from execute_router import fetch_latest_module_issue, fetch_module_issue_by_number, issue_matches_ticket
 

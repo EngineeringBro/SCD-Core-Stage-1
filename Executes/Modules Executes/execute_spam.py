@@ -3,7 +3,6 @@ from __future__ import annotations
 import base64
 import json
 import os
-import re
 import sys
 import urllib.error
 import urllib.request
@@ -11,13 +10,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+EXECUTES_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(EXECUTES_ROOT) not in sys.path:
+    sys.path.insert(0, str(EXECUTES_ROOT))
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 
 from execute_comment_utils import post_internal_note_issue_comment
-from execute_router import fetch_latest_module_issue
+from modules.spam_module import spam_module
 
 
 INTERNAL_COMMENT_TEXT = "This ticket was resolved using SCD Core AI Project."
@@ -26,24 +28,12 @@ RESOLVE_TRANSITION_ID = "81"
 SPAM_TOPIC_ID = "10438"
 RESOLUTION_DISMISSED_ID = "10005"
 ROOT_CAUSE_UNKNOWN_ID = "10501"
-EXPECTED_SUBTYPE = "spam_robocall"
 
 
 def main() -> int:
     scd_id = os.environ.get("SCD_TICKET_ID", "").strip().upper()
     if not scd_id:
         raise RuntimeError("SCD_TICKET_ID is required")
-
-    repo = os.environ.get("GITHUB_REPOSITORY", "").strip()
-    if not repo or "/" not in repo:
-        raise RuntimeError("GITHUB_REPOSITORY is required")
-
-    token = os.environ.get("GH_TOKEN", "").strip()
-    if not token:
-        raise RuntimeError("GH_TOKEN is required")
-
-    issue = fetch_latest_module_issue(repo, scd_id, token)
-    validate_ringcentral_spam_issue(issue, scd_id)
 
     env = load_env_from_environment()
     creds = build_credentials(env)
@@ -54,30 +44,30 @@ def main() -> int:
     }
     base = env["JIRA_BASE_URL"].rstrip("/")
 
+    ticket_details = fetch_ticket_details(base, scd_id, headers)
+    module_response = spam_module.run(scd_id, ticket_details)
+    topic_name = str(module_response.get("output_topic") or "").strip()
+    resolution_name = str(module_response.get("output_resolution") or "").strip()
+    root_cause_name = str(module_response.get("output_root_cause") or "").strip()
+
+    if topic_name != spam_module.SPAM_OUTPUT_TOPIC:
+        raise RuntimeError(
+            f"Spam execute requires topic '{spam_module.SPAM_OUTPUT_TOPIC}', got '{topic_name or '(blank)'}'"
+        )
+    if resolution_name != spam_module.SPAM_OUTPUT_RESOLUTION:
+        raise RuntimeError(
+            f"Spam execute requires resolution '{spam_module.SPAM_OUTPUT_RESOLUTION}', got '{resolution_name or '(blank)'}'"
+        )
+    if root_cause_name != spam_module.SPAM_OUTPUT_ROOT_CAUSE:
+        raise RuntimeError(
+            f"Spam execute requires root cause '{spam_module.SPAM_OUTPUT_ROOT_CAUSE}', got '{root_cause_name or '(blank)'}'"
+        )
+
     post_internal_comment(base, scd_id, headers)
     assign_to_current_user(base, scd_id, creds)
     log_work(base, scd_id, headers)
     transition_to_spam_resolution(base, scd_id, headers)
     return 0
-
-
-def validate_ringcentral_spam_issue(issue: dict[str, object], scd_id: str) -> None:
-    body = str(issue.get("body") or "")
-
-    module_match = re.search(r"<!--\s*module_id:\s*([a-z0-9_\-]+)\s*-->", body, re.IGNORECASE)
-    module_name = module_match.group(1).strip().lower() if module_match else ""
-    if module_name != "ringcentral":
-        raise RuntimeError(
-            f"RingCentral spam execute expected module_id 'ringcentral' for {scd_id}, got '{module_name or '(missing)'}'"
-        )
-
-    subtype_match = re.search(r"^-\s*RingCentral subtype:\s*(.+)$", body, re.IGNORECASE | re.MULTILINE)
-    subtype = subtype_match.group(1).strip().lower() if subtype_match else ""
-    if subtype != EXPECTED_SUBTYPE:
-        raise RuntimeError(
-            f"RingCentral spam execute only supports subtype '{EXPECTED_SUBTYPE}' for {scd_id}, "
-            f"got '{subtype or '(missing)'}'"
-        )
 
 
 def load_env_from_environment() -> dict[str, str]:
@@ -94,6 +84,16 @@ def load_env_from_environment() -> dict[str, str]:
 
 def build_credentials(env: dict[str, str]) -> str:
     return base64.b64encode((env["JIRA_EMAIL"] + ":" + env["JIRA_WRITE_API_TOKEN"]).encode()).decode()
+
+
+def fetch_ticket_details(base: str, scd_id: str, headers: dict[str, str]) -> dict[str, object]:
+    issue = api_get(base, f"/rest/api/3/issue/{scd_id}", headers)
+    comments_payload = api_get(base, f"/rest/api/3/issue/{scd_id}/comment", headers)
+    comments = comments_payload.get("comments", []) if isinstance(comments_payload, dict) else []
+    return {
+        "issue": issue,
+        "comments": comments,
+    }
 
 
 def post_internal_comment(
@@ -187,6 +187,16 @@ def transition_to_spam_resolution(base: str, scd_id: str, headers: dict[str, str
         label="9d spam transition",
     )
     print(f"9d spam transition: {response}")
+
+
+def api_get(base: str, path: str, headers: dict[str, str]) -> dict[str, object]:
+    request = urllib.request.Request(base.rstrip("/") + path, headers=headers, method="GET")
+    try:
+        with urllib.request.urlopen(request) as response:
+            return json.loads(response.read())
+    except urllib.error.HTTPError as exc:
+        error_body = exc.read().decode("utf-8") if exc.fp else str(exc)
+        raise RuntimeError(f"GET {path} failed: HTTP {exc.code}: {error_body}") from exc
 
 
 def api_request(
