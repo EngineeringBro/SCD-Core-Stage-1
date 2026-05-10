@@ -14,6 +14,7 @@ CORE_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = CORE_ROOT.parent
 STATE_PATH = Path(os.getenv("SCAN_AUTO_STATE_PATH") or (REPO_ROOT / ".github" / "scan_auto_state.json"))
 DEFAULT_LATEST_TICKET_JQL = os.getenv("SCAN_AUTO_LATEST_JQL") or "project = SCD ORDER BY created DESC"
+REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME = os.getenv("SCAN_AUTO_REQUIRED_ASSIGNEE") or "Hussein Chaib"
 
 
 def utc_now_iso() -> str:
@@ -108,17 +109,30 @@ def fetch_issue_created_at(ticket_id: str) -> str:
     return created_at
 
 
-def resolve_latest_ticket() -> tuple[str, str]:
+def extract_assignee_display_name(issue: dict[str, Any]) -> str:
+    fields = issue.get("fields") if isinstance(issue, dict) else {}
+    if not isinstance(fields, dict):
+        return ""
+
+    assignee = fields.get("assignee")
+    if not isinstance(assignee, dict):
+        return ""
+
+    return str(assignee.get("displayName") or "").strip()
+
+
+def resolve_latest_ticket() -> tuple[str, str, str]:
     client = JiraReadClient()
-    issues = client.search(DEFAULT_LATEST_TICKET_JQL, fields=["created"], max_results=1)
+    issues = client.search(DEFAULT_LATEST_TICKET_JQL, fields=["created", "assignee"], max_results=1)
     if not issues:
-        return "", ""
+        return "", "", ""
 
     latest_issue = issues[0]
     ticket_id = normalize_ticket_id(latest_issue.get("key"))
     fields = latest_issue.get("fields") if isinstance(latest_issue, dict) else {}
     created_at = str(fields.get("created") or "").strip() if isinstance(fields, dict) else ""
-    return ticket_id, created_at
+    assignee_display_name = extract_assignee_display_name(latest_issue)
+    return ticket_id, created_at, assignee_display_name
 
 
 def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]:
@@ -162,7 +176,7 @@ def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]
                 "status_message": "Auto scan is disabled.",
             }
 
-        latest_ticket_id, latest_created_at = resolve_latest_ticket()
+        latest_ticket_id, latest_created_at, latest_assignee_display_name = resolve_latest_ticket()
         if not latest_ticket_id:
             return {
                 "should_scan": False,
@@ -170,6 +184,16 @@ def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]
                 "ticket_id": "",
                 "ticket_created_at": "",
                 "status_message": "Auto scan found no Jira tickets.",
+            }
+
+        if latest_assignee_display_name != REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME:
+            assignee_label = latest_assignee_display_name or "unassigned"
+            return {
+                "should_scan": False,
+                "state_changed": False,
+                "ticket_id": latest_ticket_id,
+                "ticket_created_at": latest_created_at,
+                "status_message": f"Latest ticket {latest_ticket_id} is assigned to {assignee_label}, not {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME}. Waiting for a newer ticket assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME}.",
             }
 
         if latest_ticket_id == state["last_scanned_ticket_id"]:
@@ -239,7 +263,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     resolve_parser = subparsers.add_parser("resolve")
     resolve_parser.add_argument("--event-name", required=True)
-    resolve_parser.add_argument("--mode", default="manual_ticket")
+    resolve_parser.add_argument("--mode", default="Manual")
     resolve_parser.add_argument("--ticket-id", default="")
     resolve_parser.add_argument("--github-output", default="")
 
