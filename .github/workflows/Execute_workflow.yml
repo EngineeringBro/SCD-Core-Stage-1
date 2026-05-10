@@ -141,19 +141,19 @@ jobs:
         run: |
           case "${{ steps.resolve-module.outputs.execute_module }}" in
             orphaned_transaction)
-              python execute_orphaned_transaction.py | tee execute-output.txt
+              python "Modules Executes/execute_orphaned_transaction.py" | tee execute-output.txt
               ;;
             notification)
-              python execute_notifications.py | tee execute-output.txt
+              python "Modules Executes/execute_notifications.py" | tee execute-output.txt
               ;;
             spam)
-              python execute_spam.py | tee execute-output.txt
+              python "Modules Executes/execute_spam.py" | tee execute-output.txt
               ;;
             ringcentral)
-              python execute_ringcentral_spam.py | tee execute-output.txt
+              python "Modules Executes/execute_ringcentral_spam.py" | tee execute-output.txt
               ;;
             general)
-              python execute_general_module.py | tee execute-output.txt
+              python "Modules Executes/execute_general_module.py" | tee execute-output.txt
               ;;
             *)
               echo "Unsupported EXECUTE_MODULE: ${{ steps.resolve-module.outputs.execute_module }}" >&2
