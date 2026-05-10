@@ -60,6 +60,9 @@ jobs:
             spam)
               python execute_spam.py | tee execute-output.txt
               ;;
+            ringcentral)
+              python execute_ringcentral_spam.py | tee execute-output.txt
+              ;;
             general)
               python execute_general_module.py | tee execute-output.txt
               ;;
