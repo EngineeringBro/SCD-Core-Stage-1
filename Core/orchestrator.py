@@ -140,21 +140,21 @@ def route_ticket(fetch_result: FetchResult) -> RouterResult:
     if not fetch_result.ticket_details:
         raise StepFailure("router step failed: missing ticket details from fetcher")
 
-    router_module = load_module("router.py", "scd_stage1_router")
+    router_module = load_module("Core/router.py", "scd_stage1_router")
     route_ticket_fn = getattr(router_module, "route_ticket", None)
     if route_ticket_fn is None or not hasattr(route_ticket_fn, "__call__"):
-        raise StepFailure("router step failed: route_ticket is missing from router.py")
+        raise StepFailure("router step failed: route_ticket is missing from Core/router.py")
 
     route_result = route_ticket_fn.__call__(fetch_result.ticket_id, fetch_result.ticket_details)
     if not isinstance(route_result, dict):
-        raise StepFailure("router step failed: router.py must return a dict")
+        raise StepFailure("router step failed: Core/router.py must return a dict")
 
     ticket_id = str(route_result.get("ticket_id") or "").strip()
     module_name = str(route_result.get("module_name") or "").strip()
     if not ticket_id:
-        raise StepFailure("router step failed: router.py returned an empty ticket_id")
+        raise StepFailure("router step failed: Core/router.py returned an empty ticket_id")
     if not module_name:
-        raise StepFailure("router step failed: router.py returned an empty module_name")
+        raise StepFailure("router step failed: Core/router.py returned an empty module_name")
 
     return RouterResult(
         ticket_id=ticket_id,
