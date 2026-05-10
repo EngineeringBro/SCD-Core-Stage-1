@@ -95,6 +95,81 @@ jobs:
             const moduleId = readField('Module ID') || 'unknown';
             const moduleName = readField('Module') || 'unknown';
 
+            const toTitleCase = (value) => value
+              .split(/\s+/)
+              .filter(Boolean)
+              .map((part) => {
+                if (/^v\d/i.test(part)) {
+                  return part;
+                }
+                return part.charAt(0).toUpperCase() + part.slice(1).toLowerCase();
+              })
+              .join(' ');
+
+            const formatModuleName = (value, fallback) => {
+              if (!value || value === 'unknown') {
+                return fallback;
+              }
+              return toTitleCase(value);
+            };
+
+            const extractNotificationTitleWord = (body) => {
+              const caseNameMatch = body.match(/^- Case name:\s*(.+)$/mi);
+              if (!caseNameMatch) {
+                return 'Unknown';
+              }
+
+              const caseName = caseNameMatch[1].trim();
+              if (!caseName || /^no match$/i.test(caseName)) {
+                return 'No Match';
+              }
+
+              const firstWord = caseName.split(/\s+/)[0] || 'Unknown';
+              return firstWord;
+            };
+
+            const buildAlignedTitle = ({ moduleId, recommendation, parsedTicketId, moduleName, issueBody }) => {
+              if (moduleId === 'ringcentral') {
+                const ringcentralModuleName = formatModuleName(moduleName, 'Ringcentral Module v1.0');
+                if (recommendation === 'ringcentral_spam_safe_to_dismiss') {
+                  return `Spam [${parsedTicketId} - ${ringcentralModuleName}]`;
+                }
+                if (recommendation === 'ringcentral_voicemail_callback_needed') {
+                  return `Voice Message [${parsedTicketId} - ${ringcentralModuleName}]`;
+                }
+                return `Missed Call [${parsedTicketId} - ${ringcentralModuleName}]`;
+              }
+
+              if (moduleId === 'general') {
+                const generalModuleName = formatModuleName(moduleName, 'General Knowledge Module v1.0');
+                const generalTitleMap = {
+                  knowledge_gap: 'Guidance Needed',
+                  knowledge_guidance: 'Knowledge Assistance',
+                  knowledge_guidance_fallback: 'Static Knowledge Assistance',
+                };
+                const generalPrefix = generalTitleMap[recommendation] || toTitleCase(recommendation.replace(/_/g, ' '));
+                return `${generalPrefix} [${parsedTicketId} - ${generalModuleName}]`;
+              }
+
+              if (moduleId === 'spam') {
+                const spamModuleName = formatModuleName(moduleName, 'Spam Module v1.0');
+                return `Spam Detected [${parsedTicketId} - ${spamModuleName}]`;
+              }
+
+              if (moduleId === 'orphaned_transaction') {
+                const orphanedModuleName = formatModuleName(moduleName, 'Orphaned Transaction Module v1.1');
+                return `SQL Insert Required [${parsedTicketId} - ${orphanedModuleName}]`;
+              }
+
+              if (moduleId === 'notification') {
+                const notificationModuleName = formatModuleName(moduleName, 'Notifications Module v1.0');
+                const notificationWord = extractNotificationTitleWord(issueBody);
+                return `Notification: ${notificationWord} [${parsedTicketId} - ${notificationModuleName}]`;
+              }
+
+              return `[${recommendation}] ${parsedTicketId} - ${moduleName}`;
+            };
+
             const issueBodyIndex = lines.findIndex((value) => value.trim() === 'Issue Body:');
             const notesIndex = lines.findIndex((value) => value.trim() === 'Notes:');
             const transcriptIndex = lines.findIndex((value) => value.trim() === 'Word for word transcript:');
@@ -109,17 +184,13 @@ jobs:
             const transcriptLines = transcriptIndex >= 0 ? lines.slice(transcriptIndex + 1) : [];
             const transcript = transcriptLines.join('\n').trim();
 
-            let title = `[${recommendation}] ${parsedTicketId} - ${moduleName}`;
-            if (moduleId === 'ringcentral') {
-              const ringcentralModuleName = moduleName && moduleName !== 'unknown'
-                ? moduleName.replace(/^ringcentral module/i, 'Ringcentral Module')
-                : 'Ringcentral Module';
-              if (recommendation === 'ringcentral_spam_safe_to_dismiss') {
-                title = `Spam [${parsedTicketId} - ${ringcentralModuleName}]`;
-              } else {
-                title = `Call Back Needed [${parsedTicketId} - ${ringcentralModuleName}]`;
-              }
-            }
+            const title = buildAlignedTitle({
+              moduleId,
+              recommendation,
+              parsedTicketId,
+              moduleName,
+              issueBody,
+            });
             const bodyParts = [
               issueBody,
               `<!-- module_id: ${moduleId} -->`,
