@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 import sys
 from dataclasses import dataclass, field
 from importlib.util import module_from_spec, spec_from_file_location
@@ -10,6 +11,10 @@ from typing import Any, Callable
 
 class StepFailure(RuntimeError):
     pass
+
+
+SCD_TICKET_KEY_PATTERN = re.compile(r"\b(SCD-\d+)\b", re.IGNORECASE)
+SCD_TICKET_NUMBER_PATTERN = re.compile(r"^\d+$")
 
 
 @dataclass(frozen=True)
@@ -74,7 +79,7 @@ def load_module(module_file_name: str, module_label: str) -> Any:
 
 
 def fetch_ticket_details() -> FetchResult:
-    scan_ticket_id = os.getenv("SCAN_TICKET_ID", "").strip()
+    scan_ticket_id = normalize_scan_ticket_id(os.getenv("SCAN_TICKET_ID", ""))
     if not scan_ticket_id:
         raise StepFailure("fetcher step failed: SCAN_TICKET_ID is required in Stage 1")
 
@@ -101,6 +106,21 @@ def fetch_ticket_details() -> FetchResult:
         "mp3_attachments": mp3_attachments,
     }
     return FetchResult(ticket_id=ticket_id, ticket_details=ticket_details)
+
+
+def normalize_scan_ticket_id(raw_value: str) -> str:
+    normalized = str(raw_value or "").strip()
+    if not normalized:
+        return ""
+
+    ticket_key_match = SCD_TICKET_KEY_PATTERN.search(normalized)
+    if ticket_key_match:
+        return ticket_key_match.group(1).upper()
+
+    if SCD_TICKET_NUMBER_PATTERN.fullmatch(normalized):
+        return f"SCD-{normalized}"
+
+    return normalized.upper()
 
 
 def route_ticket(fetch_result: FetchResult) -> RouterResult:
@@ -290,7 +310,7 @@ def build_module_display_name(module_name: str, display_name: str, version: str)
 
 
 def build_failure_issue_description(error_message: str) -> str:
-    ticket_id = os.getenv("SCAN_TICKET_ID", "unknown").strip() or "unknown"
+    ticket_id = normalize_scan_ticket_id(os.getenv("SCAN_TICKET_ID", "unknown")) or "unknown"
 
     lines = [
         "Recommendation: error",
