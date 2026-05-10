@@ -38,7 +38,7 @@ def route_ticket(ticket_id: str, ticket_details: dict[str, Any]) -> dict[str, An
         raise ValueError("ticket_details are required")
 
     routing_text = build_routing_text(ticket_details)
-    route_result = select_route(ticket_details, routing_text)
+    route_result = select_route(ticket_id, ticket_details, routing_text)
     module_name = str(route_result.get("module_name") or "").strip()
     if module_name not in ALLOWED_MODULE_NAMES:
         raise ValueError(f"invalid module selected: {module_name}")
@@ -117,12 +117,21 @@ def extract_reporter_domain(ticket_details: dict[str, Any]) -> str:
     return reporter_email.rsplit("@", 1)[1]
 
 
-def select_route(ticket_details: dict[str, Any], combined_text: str) -> dict[str, Any]:
+def notification_sender_has_profile_match(ticket_id: str, ticket_details: dict[str, Any]) -> bool:
+    from modules.notifications_module.notification_matcher import classify_ticket
+
+    classification = classify_ticket(ticket_id.strip(), ticket_details)
+    return bool(classification.matched_case_id)
+
+
+def select_route(ticket_id: str, ticket_details: dict[str, Any], combined_text: str) -> dict[str, Any]:
     if "orphaned transaction" in combined_text:
         return {"module_name": "orphaned_transaction"}
 
     if extract_reporter_email(ticket_details) in NOTIFICATION_SENDER_EMAILS:
-        return {"module_name": "notification"}
+        if notification_sender_has_profile_match(ticket_id, ticket_details):
+            return {"module_name": "notification"}
+        return {"module_name": "general"}
 
     if extract_reporter_email(ticket_details) in RINGCENTRAL_SENDER_EMAILS:
         return {"module_name": "ringcentral"}
