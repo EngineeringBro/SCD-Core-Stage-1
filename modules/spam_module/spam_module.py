@@ -86,14 +86,7 @@ def build_issue_body(ticket_id: str, reporter_email: str, reporter_domain: str, 
         f"- Ticket created at: {created_at or 'Unknown'}",
         "- Spam subtype: sender_domain",
         "- Matched signals: sender-domain exact match",
-        "",
-        "## Red-Flag Domains",
-        "",
     ]
-
-    for domain in sorted(SPAM_SENDER_DOMAINS):
-        marker = " (matched)" if domain == reporter_domain else ""
-        lines.append(f"- {domain}{marker}")
 
     lines.extend(
         [
