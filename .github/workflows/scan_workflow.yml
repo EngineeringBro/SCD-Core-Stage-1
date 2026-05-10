@@ -1,22 +1,36 @@
 name: Scan
 
+concurrency:
+  group: scan-workflow
+  cancel-in-progress: false
+
 on:
   workflow_dispatch:
     inputs:
+      mode:
+        description: Scan mode
+        required: true
+        default: manual_ticket
+        type: choice
+        options:
+          - manual_ticket
+          - enable_auto
+          - disable_auto
       scan_ticket_id:
         description: Jira ticket id to process in single-ticket mode
-        required: true
+        required: false
         type: string
+  schedule:
+    - cron: "*/5 * * * *"
 
 jobs:
   run-single-ticket:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       issues: write
 
     env:
-      SCAN_TICKET_ID: ${{ inputs.scan_ticket_id }}
       JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
       JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
       JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
@@ -26,21 +40,42 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
+      - name: Resolve scan target
+        id: resolve-target
+        shell: bash
+        env:
+          SCAN_EVENT_NAME: ${{ github.event_name }}
+          SCAN_MODE: ${{ inputs.mode }}
+          REQUESTED_TICKET_ID: ${{ inputs.scan_ticket_id }}
+        run: |
+          python Core/scan_auto.py resolve \
+            --event-name "$SCAN_EVENT_NAME" \
+            --mode "${SCAN_MODE:-manual_ticket}" \
+            --ticket-id "${REQUESTED_TICKET_ID:-}" \
+            --github-output "$GITHUB_OUTPUT"
+
       - name: Install Python dependencies
+        if: steps.resolve-target.outputs.should_scan == 'true'
         shell: bash
         run: |
           python -m pip install --disable-pip-version-check openai faster-whisper
 
       - name: Run orchestrator
+        if: steps.resolve-target.outputs.should_scan == 'true'
         id: orchestrator
         continue-on-error: true
         shell: bash
+        env:
+          SCAN_TICKET_ID: ${{ steps.resolve-target.outputs.ticket_id }}
         run: |
           python Core/orchestrator.py | tee orchestrator-output.txt
 
@@ -51,14 +86,20 @@ jobs:
           {
             echo "## Generated Issue Description"
             echo
-            echo '```text'
-            cat orchestrator-output.txt
-            echo '```'
+            if [[ -f orchestrator-output.txt ]]; then
+              echo '```text'
+              cat orchestrator-output.txt
+              echo '```'
+            else
+              echo "${{ steps.resolve-target.outputs.status_message }}"
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Create GitHub issue
-        if: always()
+        if: steps.resolve-target.outputs.should_scan == 'true'
         uses: actions/github-script@v9
+        env:
+          SCAN_TICKET_ID: ${{ steps.resolve-target.outputs.ticket_id }}
         with:
           script: |
             const fs = require('fs');
@@ -213,3 +254,28 @@ jobs:
             });
 
             core.info(`Created issue #${issue.data.number}`);
+
+      - name: Mark latest scanned ticket
+        id: mark-scanned
+        if: steps.resolve-target.outputs.should_scan == 'true' && success()
+        shell: bash
+        run: |
+          python Core/scan_auto.py mark-scanned \
+            --ticket-id "${{ steps.resolve-target.outputs.ticket_id }}" \
+            --created-at "${{ steps.resolve-target.outputs.ticket_created_at }}" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Persist auto scan state
+        if: always()
+        shell: bash
+        run: |
+          if git diff --quiet -- .github/scan_auto_state.json; then
+            echo "Auto scan state unchanged."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/scan_auto_state.json
+          git commit -m "Update auto scan state"
+          git push origin HEAD:${GITHUB_REF_NAME}
