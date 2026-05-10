@@ -5,7 +5,7 @@ from typing import Any
 
 MODULE_ID = "spam"
 DISPLAY_NAME = "spam module"
-VERSION = "v1.0"
+VERSION = "v1.7"
 
 SPAM_SENDER_DOMAINS = {
     "elekworld.ltd",
