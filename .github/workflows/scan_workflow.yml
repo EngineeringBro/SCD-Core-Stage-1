@@ -109,7 +109,17 @@ jobs:
             const transcriptLines = transcriptIndex >= 0 ? lines.slice(transcriptIndex + 1) : [];
             const transcript = transcriptLines.join('\n').trim();
 
-            const title = `[${recommendation}] ${parsedTicketId} - ${moduleName}`;
+            let title = `[${recommendation}] ${parsedTicketId} - ${moduleName}`;
+            if (moduleId === 'ringcentral') {
+              const ringcentralModuleName = moduleName && moduleName !== 'unknown'
+                ? moduleName.replace(/^ringcentral module/i, 'Ringcentral Module')
+                : 'Ringcentral Module';
+              if (recommendation === 'ringcentral_spam_safe_to_dismiss') {
+                title = `Spam [${parsedTicketId} - ${ringcentralModuleName}]`;
+              } else {
+                title = `Call Back Needed [${parsedTicketId} - ${ringcentralModuleName}]`;
+              }
+            }
             const bodyParts = [
               issueBody,
               `<!-- module_id: ${moduleId} -->`,
