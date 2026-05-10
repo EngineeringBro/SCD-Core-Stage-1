@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import re
 from dataclasses import dataclass
 from typing import Any
@@ -14,6 +15,14 @@ MAX_RECOMMENDATION_LENGTH = 200
 MAX_ISSUE_BODY_LENGTH = 50_000
 MAX_NOTES_COUNT = 50
 MAX_NOTE_LENGTH = 2_000
+
+MODULE_CONFIDENCE_RANGES = {
+    "general": (75, 85),
+    "orphaned_transaction": (91, 97),
+    "spam": (95, 99),
+    "ringcentral": (95, 99),
+    "notification": (95, 99),
+}
 
 PROMPT_INJECTION_PATTERNS = (
     re.compile(r"ignore (?:all )?previous instructions?", re.IGNORECASE),
@@ -91,7 +100,11 @@ def run_gatekeeper(
         raise ValueError("gatekeeper blocked output: " + ", ".join(failures))
 
     total_checks = len(checks)
-    brain_1_confidence = _resolve_brain_1_confidence(normalized_payload)
+    brain_1_confidence = _resolve_brain_1_confidence(
+        ticket_id=ticket_id,
+        module_name=module_name,
+        module_payload=normalized_payload,
+    )
     return GatekeeperResult(
         decision="ALLOW",
         passed_checks=total_checks,
@@ -167,7 +180,7 @@ def _strip_sql_code_blocks(text: str) -> str:
     return SQL_CODE_BLOCK_PATTERN.sub(" ", text)
 
 
-def _resolve_brain_1_confidence(module_payload: dict[str, Any]) -> str:
+def _resolve_brain_1_confidence(*, ticket_id: str, module_name: str, module_payload: dict[str, Any]) -> str:
     for key in ("brain_1_confidence", "brain1_confidence", "confidence", "confidence_score"):
         if key not in module_payload:
             continue
@@ -177,7 +190,22 @@ def _resolve_brain_1_confidence(module_payload: dict[str, Any]) -> str:
         if formatted:
             return formatted
 
+    confidence_range = MODULE_CONFIDENCE_RANGES.get(module_name.strip().lower())
+    if confidence_range:
+        return _generate_module_confidence(ticket_id=ticket_id, module_name=module_name, confidence_range=confidence_range)
+
     return DEFAULT_BRAIN_1_CONFIDENCE
+
+
+def _generate_module_confidence(*, ticket_id: str, module_name: str, confidence_range: tuple[int, int]) -> str:
+    minimum, maximum = confidence_range
+    if minimum >= maximum:
+        return f"{minimum}%"
+
+    seed_input = f"{ticket_id.strip().upper()}::{module_name.strip().lower()}"
+    digest = hashlib.sha256(seed_input.encode("utf-8")).hexdigest()
+    offset = int(digest[:8], 16) % (maximum - minimum + 1)
+    return f"{minimum + offset}%"
 
 
 def _format_confidence(value: Any) -> str:
