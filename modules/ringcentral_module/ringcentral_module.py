@@ -443,12 +443,12 @@ def build_missing_transcript_message(transcription_notes: list[str], attachment_
 
 def summary_rejects_helpful_articles(refined_summary: str) -> bool:
     normalized = normalize_whitespace(refined_summary).lower()
-    rejection_patterns = (
+    explicit_rejection_patterns = (
         r"no\s+relevant\s+helpful\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
         r"no\s+relevant\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
         r"no\s+helpful\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
     )
-    if any(re.search(pattern, normalized) for pattern in rejection_patterns):
+    if any(re.search(pattern, normalized) for pattern in explicit_rejection_patterns):
         return True
 
     non_technical_patterns = (
@@ -459,6 +459,16 @@ def summary_rejects_helpful_articles(refined_summary: str) -> bool:
         r"josh\s+muir",
     )
     return any(re.search(pattern, normalized) for pattern in non_technical_patterns)
+
+
+def summary_explicitly_rejects_helpful_articles(refined_summary: str) -> bool:
+    normalized = normalize_whitespace(refined_summary).lower()
+    explicit_rejection_patterns = (
+        r"no\s+relevant\s+helpful\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
+        r"no\s+relevant\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
+        r"no\s+helpful\s+articles?\s+apply(?:\s+here|\s+to\s+this\s+voicemail)?",
+    )
+    return any(re.search(pattern, normalized) for pattern in explicit_rejection_patterns)
 
 
 def summary_supports_helpful_articles(refined_summary: str, helpful_articles: list[tuple[str, str]]) -> bool:
@@ -489,12 +499,16 @@ def strip_irrelevant_article_text(refined_summary: str) -> str:
         return ""
 
     lines = [line.strip() for line in cleaned.splitlines() if line.strip()]
-    kept_lines = [line for line in lines if not summary_rejects_helpful_articles(line)]
+    kept_lines = [line for line in lines if not summary_explicitly_rejects_helpful_articles(line)]
     if kept_lines:
         return "\n".join(kept_lines).strip()
 
     sentence_parts = re.split(r"(?<=[.!?])\s+", cleaned)
-    kept_parts = [part.strip() for part in sentence_parts if part.strip() and not summary_rejects_helpful_articles(part)]
+    kept_parts = [
+        part.strip()
+        for part in sentence_parts
+        if part.strip() and not summary_explicitly_rejects_helpful_articles(part)
+    ]
     return " ".join(kept_parts).strip()
 
 
