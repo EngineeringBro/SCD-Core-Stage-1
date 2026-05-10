@@ -51,7 +51,7 @@ def main() -> int:
             f"Spam execute requires root cause '{spam_module.SPAM_OUTPUT_ROOT_CAUSE}', got '{root_cause_name or '(blank)'}'"
         )
 
-    post_internal_comment(base, scd_id, headers)
+    post_internal_comment(base, scd_id, headers, ticket_details)
     assign_to_current_user(base, scd_id, creds)
     log_work(base, scd_id, headers)
     transition_to_spam_resolution(base, scd_id, headers)
@@ -84,26 +84,57 @@ def fetch_ticket_details(base: str, scd_id: str, headers: dict[str, str]) -> dic
     }
 
 
-def post_internal_comment(base: str, scd_id: str, headers: dict[str, str]) -> None:
-    internal_payload = {
-        "body": INTERNAL_COMMENT_TEXT,
-        "public": False,
-    }
-    request = urllib.request.Request(
-        f"{base}/rest/servicedeskapi/request/{scd_id}/comment",
-        data=json.dumps(internal_payload).encode(),
-        headers=headers,
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(request) as response:
-            status = response.status
-    except urllib.error.HTTPError as exc:
-        error_body = exc.read().decode("utf-8") if exc.fp else str(exc)
-        raise RuntimeError(f"9a internal comment failed: HTTP {exc.code}: {error_body}") from exc
+def post_internal_comment(
+    base: str,
+    scd_id: str,
+    headers: dict[str, str],
+    ticket_details: dict[str, object],
+) -> None:
+    issue = ticket_details.get("issue") if isinstance(ticket_details, dict) else None
+    issue_fields = issue.get("fields") if isinstance(issue, dict) else None
+    request_type = issue_fields.get("customfield_10010") if isinstance(issue_fields, dict) else None
 
-    if status != 201:
-        raise RuntimeError(f"9a internal comment failed: expected 201, got {status}")
+    if request_type:
+        internal_payload = {
+            "body": INTERNAL_COMMENT_TEXT,
+            "public": False,
+        }
+        request = urllib.request.Request(
+            f"{base}/rest/servicedeskapi/request/{scd_id}/comment",
+            data=json.dumps(internal_payload).encode(),
+            headers=headers,
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request) as response:
+                status = response.status
+        except urllib.error.HTTPError as exc:
+            error_body = exc.read().decode("utf-8") if exc.fp else str(exc)
+            raise RuntimeError(f"9a internal comment failed: HTTP {exc.code}: {error_body}") from exc
+
+        if status != 201:
+            raise RuntimeError(f"9a internal comment failed: expected 201, got {status}")
+        print(f"9a internal comment: {status}")
+        return
+
+    internal_payload = {
+        "body": build_plain_text_adf(INTERNAL_COMMENT_TEXT),
+        "properties": [
+            {
+                "key": "sd.public.comment",
+                "value": {"internal": True},
+            }
+        ],
+    }
+    status = api_request(
+        base,
+        f"/rest/api/3/issue/{scd_id}/comment",
+        headers,
+        method="POST",
+        payload=internal_payload,
+        expected_status=201,
+        label="9a internal comment",
+    )
     print(f"9a internal comment: {status}")
 
 
@@ -221,6 +252,24 @@ def api_request(
     if status != expected_status:
         raise RuntimeError(f"{label} failed: expected {expected_status}, got {status}")
     return status
+
+
+def build_plain_text_adf(text: str) -> dict[str, object]:
+    return {
+        "type": "doc",
+        "version": 1,
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": text,
+                    }
+                ],
+            }
+        ],
+    }
 
 
 if __name__ == "__main__":
