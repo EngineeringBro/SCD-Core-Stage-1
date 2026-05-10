@@ -69,6 +69,7 @@ class GatekeeperResult:
     total_checks: int
     summary: str
     brain_1_confidence: str
+    brain_3_human_action: str
     check_names: tuple[str, ...]
 
 
@@ -105,12 +106,17 @@ def run_gatekeeper(
         module_name=module_name,
         module_payload=normalized_payload,
     )
+    brain_3_human_action = _resolve_brain_3_human_action(
+        module_name=module_name,
+        recommendation=recommendation,
+    )
     return GatekeeperResult(
         decision="ALLOW",
         passed_checks=total_checks,
         total_checks=total_checks,
         summary=f"ALLOW ({total_checks} checks passed)",
         brain_1_confidence=brain_1_confidence,
+        brain_3_human_action=brain_3_human_action,
         check_names=tuple(name for name, _ in checks),
     )
 
@@ -133,6 +139,7 @@ def build_gatekeeper_table(
         f"| Module | {_escape_table_cell(module_label)} |",
         f"| Brain 1 Confidence | {_escape_table_cell(gatekeeper_result.brain_1_confidence)} |",
         f"| Brain 2 (Gatekeeper) | {_escape_table_cell(gatekeeper_result.summary)} |",
+        f"| Brain 3 (Human action) | {_escape_table_cell(gatekeeper_result.brain_3_human_action)} |",
     ]
     return "\n".join(lines)
 
@@ -206,6 +213,35 @@ def _generate_module_confidence(*, ticket_id: str, module_name: str, confidence_
     digest = hashlib.sha256(seed_input.encode("utf-8")).hexdigest()
     offset = int(digest[:8], 16) % (maximum - minimum + 1)
     return f"{minimum + offset}%"
+
+
+def _resolve_brain_3_human_action(*, module_name: str, recommendation: str) -> str:
+    normalized_module = module_name.strip().lower()
+    normalized_recommendation = recommendation.strip().lower()
+
+    if normalized_module == "orphaned_transaction":
+        return "Insert SQL then resolve"
+
+    if normalized_module == "spam":
+        return "Dismiss ticket as spam"
+
+    if normalized_module == "ringcentral":
+        if normalized_recommendation == "ringcentral_spam_safe_to_dismiss":
+            return "Dismiss Fax/Robocaller as spam"
+        if normalized_recommendation == "ringcentral_voicemail_callback_needed":
+            return "Review then call back"
+        return "Call back"
+
+    if normalized_module == "notification":
+        return "Close and Log notification"
+
+    if normalized_module == "general":
+        if normalized_recommendation in {"knowledge_guidance", "knowledge_guidance_fallback"}:
+            return "Initiate customer assistance"
+        if normalized_recommendation == "knowledge_gap":
+            return "Manual review required"
+
+    return "Review then resolve"
 
 
 def _format_confidence(value: Any) -> str:
