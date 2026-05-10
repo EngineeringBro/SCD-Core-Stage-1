@@ -172,6 +172,14 @@ class StepGroup:
     score: int
 
 
+@dataclass(frozen=True)
+class HelpfulArticleCandidate:
+    article_title: str
+    article_url: str
+    article_excerpt: str
+    relevance_score: int
+
+
 @dataclass
 class Block:
     kind: str
@@ -1027,7 +1035,11 @@ def enrich_voicemail(
         return fallback_summary, [], ["Voicemail enrichment skipped: transcript did not contain searchable text"]
 
     article_candidates = find_article_candidates(query_tokens)
-    helpful_articles = select_helpful_articles(article_candidates, query_tokens, ticket_context.transcript)
+    helpful_articles, article_selection_note = select_helpful_articles_with_llm(
+        ticket_context,
+        article_candidates,
+        query_tokens,
+    )
     prompt = build_voicemail_summary_prompt(ticket_context, helpful_articles)
 
     client = OpenAI(
@@ -1056,7 +1068,10 @@ def enrich_voicemail(
             temperature=0.1,
         )
     except OPENAI_CLIENT_EXCEPTIONS as exc:
-        return fallback_summary, helpful_articles, [f"Voicemail enrichment fallback used: {type(exc).__name__}: {exc}"]
+        notes = [f"Voicemail enrichment fallback used: {type(exc).__name__}: {exc}"]
+        if article_selection_note:
+            notes.insert(0, article_selection_note)
+        return fallback_summary, helpful_articles, notes
 
     refined_summary = str(response.choices[0].message.content or "").strip()
     if refined_summary.startswith("```"):
@@ -1064,12 +1079,18 @@ def enrich_voicemail(
     rejected_helpful_articles = summary_rejects_helpful_articles(refined_summary)
     refined_summary = normalize_refined_summary(refined_summary)
     if not refined_summary:
-        return fallback_summary, helpful_articles, ["Voicemail enrichment fallback used: model returned no usable summary"]
+        notes = ["Voicemail enrichment fallback used: model returned no usable summary"]
+        if article_selection_note:
+            notes.insert(0, article_selection_note)
+        return fallback_summary, helpful_articles, notes
 
     if rejected_helpful_articles:
         helpful_articles = []
 
-    return refined_summary, helpful_articles, [f"Voicemail enrichment model: {resolve_copilot_model()}"]
+    notes = [f"Voicemail enrichment model: {resolve_copilot_model()}"]
+    if article_selection_note:
+        notes.insert(0, article_selection_note)
+    return refined_summary, helpful_articles, notes
 
 
 def build_voicemail_summary_prompt(ticket_context: TicketContext, helpful_articles: list[tuple[str, str]]) -> str:
@@ -1099,6 +1120,39 @@ def build_voicemail_summary_prompt(ticket_context: TicketContext, helpful_articl
     )
 
 
+def build_helpful_article_selection_prompt(
+    ticket_context: TicketContext,
+    candidates: list[HelpfulArticleCandidate],
+) -> str:
+    candidate_payload = [
+        {
+            "title": candidate.article_title,
+            "url": candidate.article_url,
+            "excerpt": candidate.article_excerpt,
+            "retrieval_score": candidate.relevance_score,
+        }
+        for candidate in candidates
+    ]
+    ticket_payload = {
+        "ticket_id": ticket_context.ticket_id,
+        "summary": ticket_context.summary,
+        "transcript": ticket_context.transcript,
+    }
+    return (
+        "Choose the most helpful knowledge base articles for a RingCentral voicemail follow-up.\n\n"
+        "Hard rules:\n"
+        "- Use ONLY the ticket context and candidate articles provided below.\n"
+        "- Return valid JSON only with this shape: {\"selected_articles\": [{\"title\": \"...\", \"url\": \"...\"}]}.\n"
+        "- Select at most 3 articles.\n"
+        "- Prefer articles that directly help the support agent route or answer the voicemail.\n"
+        "- Reject internal operational articles that are only loosely keyword-related, such as generic queues or unrelated ticket maintenance.\n"
+        "- If none fit, return an empty list.\n"
+        "- Do not invent titles or URLs. Use exact candidate values.\n\n"
+        f"Ticket context:\n```json\n{ticket_context_json(ticket_payload)}\n```\n\n"
+        f"Candidate articles:\n```json\n{ticket_context_json(candidate_payload)}\n```"
+    )
+
+
 def ticket_context_json(value: Any) -> str:
     return json.dumps(value, indent=2, ensure_ascii=True)
 
@@ -1112,6 +1166,31 @@ def dedupe_articles(articles: list[tuple[str, str]]) -> list[tuple[str, str]]:
         seen.add(article)
         deduped.append(article)
     return deduped
+
+
+def parse_selected_article_response(response_text: str) -> list[tuple[str, str]]:
+    cleaned = response_text.strip()
+    if cleaned.startswith("```"):
+        cleaned = cleaned.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
+
+    parsed = json.loads(cleaned)
+    if not isinstance(parsed, dict):
+        raise ValueError("article selection response must be a JSON object")
+
+    raw_selected = parsed.get("selected_articles")
+    if not isinstance(raw_selected, list):
+        raise ValueError("selected_articles must be a list")
+
+    selected_articles: list[tuple[str, str]] = []
+    for item in raw_selected:
+        if not isinstance(item, dict):
+            continue
+        title = normalize_whitespace(str(item.get("title") or ""))
+        url = normalize_whitespace(str(item.get("url") or ""))
+        if title and url:
+            selected_articles.append((title, url))
+
+    return dedupe_articles(selected_articles)
 
 
 def build_web_url(page_data: dict[str, Any]) -> str:
@@ -1140,12 +1219,12 @@ def build_article_query_tokens(transcript_text: str) -> set[str]:
     return focused_tokens or transcript_tokens
 
 
-def select_helpful_articles(
+def build_helpful_article_candidates(
     article_candidates: list[PageCandidate],
     query_tokens: set[str],
     transcript_text: str,
-) -> list[tuple[str, str]]:
-    ranked_articles: list[tuple[int, str, str]] = []
+) -> list[HelpfulArticleCandidate]:
+    ranked_articles: list[HelpfulArticleCandidate] = []
     transcript_lower = transcript_text.lower()
 
     for candidate in article_candidates:
@@ -1169,10 +1248,85 @@ def select_helpful_articles(
             relevance_score += 15
         if relevance_score <= 0:
             continue
-        ranked_articles.append((relevance_score, candidate.title, candidate.web_url))
 
-    ranked_articles.sort(key=lambda item: (-item[0], item[1].lower()))
-    return dedupe_articles([(title, url) for _, title, url in ranked_articles])[:3]
+        ranked_articles.append(
+            HelpfulArticleCandidate(
+                article_title=candidate.title,
+                article_url=candidate.web_url,
+                article_excerpt=truncate_text(body_text, 700),
+                relevance_score=relevance_score,
+            )
+        )
+
+    ranked_articles.sort(key=lambda item: (-item.relevance_score, item.article_title.lower()))
+    return ranked_articles
+
+
+def select_helpful_articles_with_llm(
+    ticket_context: TicketContext,
+    article_candidates: list[PageCandidate],
+    query_tokens: set[str],
+) -> tuple[list[tuple[str, str]], str | None]:
+    fallback_articles = select_helpful_articles(article_candidates, query_tokens, ticket_context.transcript)
+    api_key = os.environ.get("COPILOT_TOKEN", "").strip()
+    if not api_key:
+        return fallback_articles, "Voicemail article selection fallback used: COPILOT_TOKEN is not configured"
+    if OpenAI is None:
+        return fallback_articles, "Voicemail article selection fallback used: openai package is not installed"
+
+    ranked_candidates = build_helpful_article_candidates(article_candidates, query_tokens, ticket_context.transcript)
+    bounded_candidates = ranked_candidates[:8]
+    if not bounded_candidates:
+        return [], None
+
+    client = OpenAI(api_key=api_key, base_url=COPILOT_BASE_URL)
+    prompt = build_helpful_article_selection_prompt(ticket_context, bounded_candidates)
+
+    try:
+        response = client.chat.completions.create(
+            model=resolve_copilot_model(),
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You choose the most relevant knowledge base articles for support agents. "
+                        "Use only the supplied candidate set and return exact JSON."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": prompt,
+                },
+            ],
+            max_tokens=220,
+            temperature=0.0,
+        )
+    except OPENAI_CLIENT_EXCEPTIONS as exc:
+        return fallback_articles, f"Voicemail article selection fallback used: {type(exc).__name__}: {exc}"
+
+    response_text = str(response.choices[0].message.content or "")
+    try:
+        selected_articles = parse_selected_article_response(response_text)
+    except (json.JSONDecodeError, ValueError) as exc:
+        return fallback_articles, f"Voicemail article selection fallback used: invalid model response ({type(exc).__name__}: {exc})"
+
+    allowed_articles = {(candidate.article_title, candidate.article_url) for candidate in bounded_candidates}
+    filtered_articles = [article for article in selected_articles if article in allowed_articles]
+    if not filtered_articles:
+        return fallback_articles, "Voicemail article selection fallback used: model returned no usable article choices"
+
+    return filtered_articles[:3], f"Voicemail article selection model: {resolve_copilot_model()}"
+
+
+def select_helpful_articles(
+    article_candidates: list[PageCandidate],
+    query_tokens: set[str],
+    transcript_text: str,
+) -> list[tuple[str, str]]:
+    ranked_articles = build_helpful_article_candidates(article_candidates, query_tokens, transcript_text)
+    return dedupe_articles(
+        [(candidate.article_title, candidate.article_url) for candidate in ranked_articles]
+    )[:3]
 
 
 def read_json(path: Path) -> dict[str, Any]:
