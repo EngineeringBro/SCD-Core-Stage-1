@@ -34,6 +34,7 @@ class RouterResult:
 class ModuleResult:
     ticket_id: str
     module_name: str
+    module_version: str
     module_display_name: str
     recommendation: str
     issue_body: str
@@ -45,9 +46,10 @@ def run() -> str:
     fetch_result = run_step("fetcher", fetch_ticket_details)
     router_result = run_step("router", lambda: route_ticket(fetch_result))
     module_result = run_step("module", lambda: run_module(router_result))
+    gatekeeper_result = run_step("gatekeeper", lambda: run_gatekeeper_step(module_result))
     issue_description = run_step(
         "issue_description",
-        lambda: build_issue_description(module_result),
+        lambda: build_issue_description(module_result, gatekeeper_result),
     )
     return issue_description
 
@@ -223,6 +225,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
 
     module = load_module(module_file_name, f"scd_stage1_{router_result.module_name}_module")
     module_id = str(getattr(module, "MODULE_ID", "")).strip()
+    module_version = str(getattr(module, "VERSION", "")).strip()
     if module_id and module_id != router_result.module_name:
         raise StepFailure(
             f"module step failed: {module_file_name} MODULE_ID '{module_id}' does not match '{router_result.module_name}'"
@@ -231,7 +234,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
     display_name = build_module_display_name(
         router_result.module_name,
         str(getattr(module, "DISPLAY_NAME", "")).strip(),
-        str(getattr(module, "VERSION", "")).strip(),
+        module_version,
     )
 
     run_fn = getattr(module, "run", None)
@@ -244,6 +247,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
     return ModuleResult(
         ticket_id=router_result.ticket_id,
         module_name=router_result.module_name,
+        module_version=module_version,
         module_display_name=display_name,
         recommendation=recommendation,
         issue_body=issue_body,
@@ -252,7 +256,24 @@ def run_module(router_result: RouterResult) -> ModuleResult:
     )
 
 
-def build_issue_description(module_result: ModuleResult) -> str:
+def run_gatekeeper_step(module_result: ModuleResult) -> Any:
+    gatekeeper_module = load_module("Gatekeeper.py", "scd_stage1_gatekeeper")
+    run_gatekeeper_fn = getattr(gatekeeper_module, "run_gatekeeper", None)
+    if run_gatekeeper_fn is None or not hasattr(run_gatekeeper_fn, "__call__"):
+        raise StepFailure("gatekeeper step failed: run_gatekeeper is missing from Gatekeeper.py")
+
+    return run_gatekeeper_fn.__call__(
+        ticket_id=module_result.ticket_id,
+        module_name=module_result.module_name,
+        module_version=module_result.module_version,
+        recommendation=module_result.recommendation,
+        issue_body=module_result.issue_body,
+        notes=module_result.notes,
+        module_payload=module_result.module_payload,
+    )
+
+
+def build_issue_description(module_result: ModuleResult, gatekeeper_result: Any) -> str:
     module_recommendation = module_result.recommendation.strip()
     if not module_recommendation:
         raise StepFailure("issue_description step failed: module recommendation is empty")
@@ -260,6 +281,19 @@ def build_issue_description(module_result: ModuleResult) -> str:
     issue_body = module_result.issue_body.strip()
     if not issue_body:
         raise StepFailure("issue_description step failed: module body is empty")
+
+    gatekeeper_module = load_module("Gatekeeper.py", "scd_stage1_gatekeeper")
+    build_gatekeeper_table_fn = getattr(gatekeeper_module, "build_gatekeeper_table", None)
+    if build_gatekeeper_table_fn is None or not hasattr(build_gatekeeper_table_fn, "__call__"):
+        raise StepFailure("issue_description step failed: build_gatekeeper_table is missing from Gatekeeper.py")
+
+    gatekeeper_table = build_gatekeeper_table_fn.__call__(
+        ticket_id=module_result.ticket_id,
+        module_name=module_result.module_name,
+        module_version=module_result.module_version,
+        gatekeeper_result=gatekeeper_result,
+    )
+    issue_body_with_gatekeeper = f"{gatekeeper_table}\n\n{issue_body}"
 
     formatted_notes = []
     for note in module_result.notes:
@@ -282,7 +316,7 @@ def build_issue_description(module_result: ModuleResult) -> str:
         f"Module ID: {module_result.module_name}",
         f"Module: {module_result.module_display_name}",
         "Issue Body:",
-        issue_body,
+        issue_body_with_gatekeeper,
         "Notes:",
         *formatted_notes,
     ]
