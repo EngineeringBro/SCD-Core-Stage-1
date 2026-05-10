@@ -7,6 +7,9 @@ on:
         description: Single SCD ticket to execute
         required: true
         type: string
+  issues:
+    types:
+      - closed
 
 jobs:
   execute-single-ticket:
@@ -18,7 +21,6 @@ jobs:
 
     env:
       PYTHONIOENCODING: utf-8
-      SCD_TICKET_ID: ${{ inputs.scd_ticket_id }}
       JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
       JIRA_WRITE_API_TOKEN: ${{ secrets.JIRA_WRITE_API_TOKEN }}
       JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
@@ -26,21 +28,109 @@ jobs:
       GH_TOKEN: ${{ github.token }}
 
     steps:
+      - name: Resolve execution ticket
+        id: resolve-ticket
+        uses: actions/github-script@v9
+        env:
+          WORKFLOW_INPUT_TICKET: ${{ inputs.scd_ticket_id }}
+        with:
+          script: |
+            const eventName = context.eventName;
+            const permissionLabel = 'Permission To Execute';
+
+            const exportExecution = (ticketId, statusMessage) => {
+              core.exportVariable('SCD_TICKET_ID', ticketId);
+              core.setOutput('should_execute', 'true');
+              core.setOutput('scd_ticket_id', ticketId);
+              core.setOutput('status_message', statusMessage);
+            };
+
+            const skipExecution = (statusMessage) => {
+              core.notice(statusMessage);
+              core.setOutput('should_execute', 'false');
+              core.setOutput('status_message', statusMessage);
+            };
+
+            if (eventName === 'workflow_dispatch') {
+              const ticketId = String(process.env.WORKFLOW_INPUT_TICKET || '').trim().toUpperCase();
+              if (!ticketId) {
+                core.setFailed('workflow_dispatch requires scd_ticket_id');
+                return;
+              }
+
+              exportExecution(ticketId, `Manual execute requested for ${ticketId}.`);
+              return;
+            }
+
+            const issue = context.payload.issue;
+            if (!issue) {
+              skipExecution('Skipped execute: issue payload is missing.');
+              return;
+            }
+
+            if (issue.pull_request) {
+              skipExecution('Skipped execute: pull request events are not supported.');
+              return;
+            }
+
+            if (String(issue.state_reason || '') !== 'completed') {
+              skipExecution('Skipped execute: issue was not closed as completed.');
+              return;
+            }
+
+            const labelNames = Array.isArray(issue.labels)
+              ? issue.labels.map((label) => String(label.name || '').trim())
+              : [];
+
+            if (!labelNames.includes(permissionLabel)) {
+              skipExecution(`Skipped execute: missing required label '${permissionLabel}'.`);
+              return;
+            }
+
+            const issueBody = String(issue.body || '');
+            const issueTitle = String(issue.title || '');
+            const moduleMatch = issueBody.match(/<!--\s*module_id:\s*([a-z0-9_-]+)\s*-->/i);
+            if (!moduleMatch) {
+              skipExecution('Skipped execute: module marker is missing from the issue body.');
+              return;
+            }
+
+            const ticketMatch = issueBody.match(/(?:^|\n)-\s*Ticket ID:\s*(SCD-\d+)\b/i)
+              || issueTitle.match(/\b(SCD-\d+)\b/i);
+
+            if (!ticketMatch) {
+              skipExecution('Skipped execute: SCD ticket id was not found in the issue body or title.');
+              return;
+            }
+
+            const ticketId = String(ticketMatch[1] || '').trim().toUpperCase();
+            if (!ticketId) {
+              skipExecution('Skipped execute: parsed SCD ticket id was empty.');
+              return;
+            }
+
+            core.exportVariable('EXECUTE_ISSUE_NUMBER', String(issue.number));
+            exportExecution(ticketId, `Auto execute approved for ${ticketId} from closed issue #${issue.number}.`);
+
       - name: Check out repository
+        if: steps.resolve-ticket.outputs.should_execute == 'true'
         uses: actions/checkout@v6
 
       - name: Set up Python
+        if: steps.resolve-ticket.outputs.should_execute == 'true'
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Install Python dependencies
+        if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
           python -m pip install --disable-pip-version-check openai
 
       - name: Resolve execute module
         id: resolve-module
+        if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
           EXECUTE_MODULE=$(python execute_router.py)
@@ -48,6 +138,7 @@ jobs:
           echo "execute_module=$EXECUTE_MODULE" >> "$GITHUB_OUTPUT"
 
       - name: Run execute flow
+        if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
           case "${{ steps.resolve-module.outputs.execute_module }}" in
@@ -73,6 +164,7 @@ jobs:
           esac
 
       - name: Close GitHub issue for executed ticket
+        if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
           python close_execute_issue.py
@@ -84,7 +176,11 @@ jobs:
           {
             echo "## Execute Result"
             echo
-            echo '```text'
-            cat execute-output.txt
-            echo '```'
+            if [[ -f execute-output.txt ]]; then
+              echo '```text'
+              cat execute-output.txt
+              echo '```'
+            else
+              echo "${{ steps.resolve-ticket.outputs.status_message }}"
+            fi
           } >> "$GITHUB_STEP_SUMMARY"

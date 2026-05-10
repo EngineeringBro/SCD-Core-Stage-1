@@ -5,7 +5,7 @@ import os
 import urllib.error
 import urllib.request
 
-from execute_router import fetch_latest_module_issue
+from execute_router import fetch_latest_module_issue, fetch_module_issue_by_number, issue_matches_ticket
 
 
 def main() -> int:
@@ -21,7 +21,14 @@ def main() -> int:
     if not token:
         raise RuntimeError("GH_TOKEN is required")
 
-    issue = fetch_latest_module_issue(repo, scd_id, token)
+    issue_number_override = os.environ.get("EXECUTE_ISSUE_NUMBER", "").strip()
+    if issue_number_override:
+        issue = fetch_module_issue_by_number(repo, issue_number_override, token)
+        if not issue_matches_ticket(issue, scd_id):
+            raise RuntimeError(f"close execute issue failed: issue #{issue_number_override} does not match {scd_id}")
+    else:
+        issue = fetch_latest_module_issue(repo, scd_id, token)
+
     issue_number = str(issue.get("number") or "").strip()
     if not issue_number:
         raise RuntimeError(f"close execute issue failed: latest module issue for {scd_id} has no number")

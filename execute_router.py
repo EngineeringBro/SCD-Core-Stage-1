@@ -21,10 +21,47 @@ def main() -> int:
     if not token:
         raise RuntimeError("GH_TOKEN is required")
 
-    issue = fetch_latest_module_issue(repo, scd_id, token)
+    issue_number = os.environ.get("EXECUTE_ISSUE_NUMBER", "").strip()
+    if issue_number:
+        issue = fetch_module_issue_by_number(repo, issue_number, token)
+        if not issue_matches_ticket(issue, scd_id):
+            raise RuntimeError(f"execute router found issue #{issue_number}, but it does not match {scd_id}")
+    else:
+        issue = fetch_latest_module_issue(repo, scd_id, token)
+
     module_name = resolve_module_name_from_issue(issue, scd_id)
     print(module_name)
     return 0
+
+
+def fetch_module_issue_by_number(repo: str, issue_number: str, token: str) -> dict[str, object]:
+    owner, name = repo.split("/", 1)
+    url = f"https://api.github.com/repos/{owner}/{name}/issues/{issue_number}"
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28",
+        },
+        method="GET",
+    )
+    try:
+        with urllib.request.urlopen(request) as response:
+            payload = json.loads(response.read())
+    except urllib.error.HTTPError as exc:
+        error_body = exc.read().decode("utf-8") if exc.fp else str(exc)
+        raise RuntimeError(
+            f"execute router failed to read issue #{issue_number}: HTTP {exc.code}: {error_body}"
+        ) from exc
+
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"execute router expected a GitHub issue object for #{issue_number}")
+
+    if "pull_request" in payload:
+        raise RuntimeError(f"execute router issue #{issue_number} is a pull request, not a module issue")
+
+    return payload
 
 
 def fetch_latest_module_issue(repo: str, scd_id: str, token: str) -> dict[str, object]:
