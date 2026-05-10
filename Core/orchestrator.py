@@ -13,6 +13,14 @@ class StepFailure(RuntimeError):
     pass
 
 
+CORE_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = CORE_ROOT.parent
+if str(CORE_ROOT) not in sys.path:
+    sys.path.insert(0, str(CORE_ROOT))
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+
 SCD_TICKET_KEY_PATTERN = re.compile(r"\b(SCD-\d+)\b", re.IGNORECASE)
 SCD_TICKET_NUMBER_PATTERN = re.compile(r"^\d+$")
 
@@ -69,7 +77,7 @@ def run_step(name: str, action: Callable[[], Any]) -> Any:
 
 
 def load_module(module_file_name: str, module_label: str) -> Any:
-    module_path = Path(__file__).parent / module_file_name
+    module_path = REPO_ROOT / module_file_name
     spec = spec_from_file_location(module_label, module_path)
     if spec is None or spec.loader is None:
         raise StepFailure(f"could not load {module_file_name}")
@@ -217,7 +225,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
     if not module_file_name:
         raise StepFailure(f"module step failed: unsupported module '{router_result.module_name}'")
 
-    module_path = Path(__file__).parent / module_file_name
+    module_path = REPO_ROOT / module_file_name
     if not module_path.exists():
         raise StepFailure(
             f"module step failed: {module_file_name} does not exist yet for module '{router_result.module_name}'"
@@ -257,7 +265,7 @@ def run_module(router_result: RouterResult) -> ModuleResult:
 
 
 def run_gatekeeper_step(module_result: ModuleResult) -> Any:
-    gatekeeper_module = load_module("Gatekeeper.py", "scd_stage1_gatekeeper")
+    gatekeeper_module = load_module("Core/Gatekeeper.py", "scd_stage1_gatekeeper")
     run_gatekeeper_fn = getattr(gatekeeper_module, "run_gatekeeper", None)
     if run_gatekeeper_fn is None or not hasattr(run_gatekeeper_fn, "__call__"):
         raise StepFailure("gatekeeper step failed: run_gatekeeper is missing from Gatekeeper.py")
@@ -282,7 +290,7 @@ def build_issue_description(module_result: ModuleResult, gatekeeper_result: Any)
     if not issue_body:
         raise StepFailure("issue_description step failed: module body is empty")
 
-    gatekeeper_module = load_module("Gatekeeper.py", "scd_stage1_gatekeeper")
+    gatekeeper_module = load_module("Core/Gatekeeper.py", "scd_stage1_gatekeeper")
     build_gatekeeper_table_fn = getattr(gatekeeper_module, "build_gatekeeper_table", None)
     if build_gatekeeper_table_fn is None or not hasattr(build_gatekeeper_table_fn, "__call__"):
         raise StepFailure("issue_description step failed: build_gatekeeper_table is missing from Gatekeeper.py")
