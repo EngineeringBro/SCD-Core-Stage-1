@@ -132,7 +132,7 @@ def build_gatekeeper_table(
         f"| Ticket | {_escape_table_cell(ticket_id)} |",
         f"| Module | {_escape_table_cell(module_label)} |",
         f"| Brain 1 Confidence | {_escape_table_cell(gatekeeper_result.brain_1_confidence)} |",
-        f"| Gatekeeper | {_escape_table_cell(gatekeeper_result.summary)} |",
+        f"| Brain 2 (Gatekeeper) | {_escape_table_cell(gatekeeper_result.summary)} |",
     ]
     return "\n".join(lines)
 
