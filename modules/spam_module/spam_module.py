@@ -55,24 +55,37 @@ def extract_summary(ticket_details: dict[str, Any]) -> str:
     return str(fields.get("summary") or "").strip()
 
 
-def build_issue_body(ticket_id: str, reporter_email: str, reporter_domain: str, summary: str) -> str:
+def extract_created_at(ticket_details: dict[str, Any]) -> str:
+    issue = ticket_details.get("issue")
+    if not isinstance(issue, dict):
+        return ""
+
+    fields = issue.get("fields")
+    if not isinstance(fields, dict):
+        return ""
+
+    return str(fields.get("created") or "").strip()
+
+
+def build_issue_body(ticket_id: str, reporter_email: str, reporter_domain: str, summary: str, created_at: str) -> str:
     lines = [
-        "## Suggestion",
+        "## Resolution",
         "",
-        "This ticket came from a red-flag sender domain that we treat as spam.",
-        "",
-        "## Output Fields",
-        "",
-        f"- Topic: {SPAM_OUTPUT_TOPIC}",
-        f"- Resolution: {SPAM_OUTPUT_RESOLUTION}",
-        f"- Root cause: {SPAM_OUTPUT_ROOT_CAUSE}",
+        f"This appears to be a Spam ticket, it is safe to dismiss.\n\nRun the Execute workflow to close {ticket_id} automatically:",
+        "1. Leaves an internal AI note.",
+        "2. Assigns ticket to you.",
+        "3. Logs 3 mins to your time.",
+        "4. Fill fields and change status to Dismissed.",
         "",
         "## Detection",
         "",
         f"- Ticket ID: {ticket_id}",
+        f"- Summary: {summary or 'None'}",
         f"- Reporter email: {reporter_email or '(blank)'}",
         f"- Reporter domain: {reporter_domain or '(blank)'}",
-        f"- Summary: {summary or 'None'}",
+        f"- Ticket created at: {created_at or 'Unknown'}",
+        "- Spam subtype: sender_domain",
+        "- Matched signals: sender-domain exact match",
         "",
         "## Red-Flag Domains",
         "",
@@ -85,9 +98,11 @@ def build_issue_body(ticket_id: str, reporter_email: str, reporter_domain: str, 
     lines.extend(
         [
             "",
-            "## Handling",
+            "## Suggested Fields",
             "",
-            "All tickets from these sender domains are routed to the spam module and handled the same way.",
+            f"- Topic: {SPAM_OUTPUT_TOPIC}",
+            f"- Resolution: {SPAM_OUTPUT_RESOLUTION}",
+            f"- Root cause: {SPAM_OUTPUT_ROOT_CAUSE}",
         ]
     )
     return "\n".join(lines)
@@ -110,10 +125,11 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         )
 
     summary = extract_summary(ticket_details)
+    created_at = extract_created_at(ticket_details)
 
     return {
         "recommendation": "spam_sender_match",
-        "body": build_issue_body(normalized_ticket_id, reporter_email, reporter_domain, summary),
+        "body": build_issue_body(normalized_ticket_id, reporter_email, reporter_domain, summary, created_at),
         "notes": [
             f"Reporter email: {reporter_email or '(blank)'}",
             f"Matched spam sender domain: {reporter_domain}",
