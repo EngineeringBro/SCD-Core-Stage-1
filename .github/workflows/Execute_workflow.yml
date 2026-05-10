@@ -36,7 +36,7 @@ jobs:
         with:
           script: |
             const eventName = context.eventName;
-            const permissionLabel = 'Permission To Execute';
+            const permissionLabel = 'permission to execute';
 
             const exportExecution = (ticketId, statusMessage) => {
               core.exportVariable('SCD_TICKET_ID', ticketId);
@@ -79,11 +79,11 @@ jobs:
             }
 
             const labelNames = Array.isArray(issue.labels)
-              ? issue.labels.map((label) => String(label.name || '').trim())
+              ? issue.labels.map((label) => String(label.name || '').trim().toLowerCase())
               : [];
 
             if (!labelNames.includes(permissionLabel)) {
-              skipExecution(`Skipped execute: missing required label '${permissionLabel}'.`);
+              skipExecution("Skipped execute: missing required label 'Permission to Execute'.");
               return;
             }
 
