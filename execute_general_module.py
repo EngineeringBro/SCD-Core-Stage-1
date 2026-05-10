@@ -8,7 +8,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-from execute_comment_utils import post_internal_note_issue_comment
+from execute_comment_utils import post_internal_note_issue_comment, post_public_issue_comment
 from modules import general_module
 
 
@@ -96,14 +96,11 @@ def strip_ticket_handler_section(body: str) -> str:
 
 
 def post_public_comment(base: str, scd_id: str, headers: dict[str, str], comment_markdown: str) -> None:
-    payload = {"body": convert_markdown_comment_to_adf(comment_markdown)}
-    response = api_request(
+    response = post_public_issue_comment(
         base,
-        f"/rest/api/3/issue/{scd_id}/comment",
+        scd_id,
         headers,
-        method="POST",
-        payload=payload,
-        expected_status=201,
+        adf_body=convert_markdown_comment_to_adf(comment_markdown),
         label="9a comment",
     )
     print(f"9a comment: {response}")

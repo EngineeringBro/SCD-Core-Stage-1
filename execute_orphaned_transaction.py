@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from execute_comment_utils import post_internal_note_issue_comment
+from execute_comment_utils import build_plain_text_adf, post_internal_note_issue_comment, post_public_issue_comment
 
 
 PUBLIC_COMMENT_SINGLE = "Hello,\n\nWe have added the transaction. Let us know if you need anything else!"
@@ -87,33 +87,13 @@ def count_sql_inserts(template: dict[str, Any]) -> int:
 
 
 def post_public_comment(base: str, scd_id: str, headers: dict[str, str], comment_text: str) -> None:
-    payload = {
-        "body": {
-            "type": "doc",
-            "version": 1,
-            "content": [
-                {
-                    "type": "paragraph",
-                    "content": [
-                        {
-                            "type": "text",
-                            "text": comment_text,
-                        }
-                    ],
-                }
-            ],
-        }
-    }
-    req = urllib.request.Request(
-        f"{base}/rest/api/3/issue/{scd_id}/comment",
-        data=json.dumps(payload).encode(),
-        headers=headers,
-        method="POST",
+    status = post_public_issue_comment(
+        base,
+        scd_id,
+        headers,
+        adf_body=build_plain_text_adf(comment_text),
+        label="9a comment",
     )
-    with urllib.request.urlopen(req) as response:
-        status = response.status
-    if status != 201:
-        raise RuntimeError(f"9a comment failed: expected 201, got {status}")
     print(f"9a comment: {status}")
 
 
