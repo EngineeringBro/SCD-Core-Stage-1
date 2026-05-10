@@ -57,17 +57,37 @@ def fetch_latest_module_issue(repo: str, scd_id: str, token: str) -> dict[str, o
     if not isinstance(payload, list):
         raise RuntimeError("execute router expected a GitHub issues list")
 
-    title_marker = f"] {scd_id} - "
     for item in payload:
         if not isinstance(item, dict):
             continue
         if "pull_request" in item:
             continue
-        title = str(item.get("title") or "").strip()
-        if title_marker in title:
+        if issue_matches_ticket(item, scd_id):
             return item
 
     raise RuntimeError(f"execute router could not find a module output issue for {scd_id}")
+
+
+def issue_matches_ticket(issue: dict[str, object], scd_id: str) -> bool:
+    normalized_ticket_id = scd_id.strip().upper()
+    if not normalized_ticket_id:
+        return False
+
+    title = str(issue.get("title") or "").strip()
+    if title:
+        # Support both the legacy pattern `[recommendation] SCD-123 - Module`
+        # and the new aligned pattern `Label [SCD-123 - Module]`.
+        title_pattern = re.compile(rf"(?:\]\s*|\[){re.escape(normalized_ticket_id)}\s*-\s+", re.IGNORECASE)
+        if title_pattern.search(title):
+            return True
+
+    body = str(issue.get("body") or "")
+    if body:
+        body_pattern = re.compile(rf"(^|\n)-\s*Ticket ID:\s*{re.escape(normalized_ticket_id)}\b", re.IGNORECASE)
+        if body_pattern.search(body):
+            return True
+
+    return False
 
 
 def resolve_module_name_from_issue(issue: dict[str, object], scd_id: str) -> str:

@@ -18,7 +18,6 @@ RESOLVE_TRANSITION_ID = "81"
 SPAM_TOPIC_ID = "10438"
 RESOLUTION_DISMISSED_ID = "10005"
 ROOT_CAUSE_UNKNOWN_ID = "10501"
-EXPECTED_RECOMMENDATION = "ringcentral_spam_safe_to_dismiss"
 EXPECTED_SUBTYPE = "spam_robocall"
 
 
@@ -55,7 +54,6 @@ def main() -> int:
 
 
 def validate_ringcentral_spam_issue(issue: dict[str, object], scd_id: str) -> None:
-    title = str(issue.get("title") or "").strip()
     body = str(issue.get("body") or "")
 
     module_match = re.search(r"<!--\s*module_id:\s*([a-z0-9_\-]+)\s*-->", body, re.IGNORECASE)
@@ -63,14 +61,6 @@ def validate_ringcentral_spam_issue(issue: dict[str, object], scd_id: str) -> No
     if module_name != "ringcentral":
         raise RuntimeError(
             f"RingCentral spam execute expected module_id 'ringcentral' for {scd_id}, got '{module_name or '(missing)'}'"
-        )
-
-    recommendation_match = re.match(r"\[([^\]]+)\]", title)
-    recommendation = recommendation_match.group(1).strip() if recommendation_match else ""
-    if recommendation != EXPECTED_RECOMMENDATION:
-        raise RuntimeError(
-            f"RingCentral spam execute only supports recommendation '{EXPECTED_RECOMMENDATION}' for {scd_id}, "
-            f"got '{recommendation or '(missing)'}'"
         )
 
     subtype_match = re.search(r"^-\s*RingCentral subtype:\s*(.+)$", body, re.IGNORECASE | re.MULTILINE)
