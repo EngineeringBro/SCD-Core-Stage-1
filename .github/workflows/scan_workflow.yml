@@ -10,14 +10,13 @@ on:
       mode:
         description: Scan mode
         required: true
-        default: manual_ticket
+        default: Manual
         type: choice
         options:
-          - manual_ticket
-          - enable_auto
-          - disable_auto
+          - Auto
+          - Manual
       scan_ticket_id:
-        description: Jira ticket id to process in single-ticket mode
+        description: Jira ticket id to process when mode is Manual
         required: false
         type: string
   schedule:
@@ -59,7 +58,7 @@ jobs:
         run: |
           python Core/scan_auto.py resolve \
             --event-name "$SCAN_EVENT_NAME" \
-            --mode "${SCAN_MODE:-manual_ticket}" \
+            --mode "${SCAN_MODE:-Manual}" \
             --ticket-id "${REQUESTED_TICKET_ID:-}" \
             --github-output "$GITHUB_OUTPUT"
 

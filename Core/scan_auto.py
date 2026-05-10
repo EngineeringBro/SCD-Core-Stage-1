@@ -122,27 +122,33 @@ def resolve_latest_ticket() -> tuple[str, str]:
 
 
 def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]:
-    normalized_mode = str(mode or "manual_ticket").strip() or "manual_ticket"
+    normalized_mode = str(mode or "Manual").strip() or "Manual"
 
     if event_name == "workflow_dispatch":
-        if normalized_mode == "enable_auto":
+        if normalized_mode == "Auto":
             return set_enabled(True)
-        if normalized_mode == "disable_auto":
-            return set_enabled(False)
-        if normalized_mode != "manual_ticket":
+        if normalized_mode != "Manual":
             raise RuntimeError(f"Unsupported workflow_dispatch mode: {normalized_mode}")
+
+        disable_result = set_enabled(False)
 
         normalized_ticket_id = normalize_ticket_id(ticket_id)
         if not normalized_ticket_id:
-            raise RuntimeError("workflow_dispatch manual_ticket mode requires scan_ticket_id")
+            return {
+                "should_scan": False,
+                "state_changed": disable_result["state_changed"],
+                "ticket_id": "",
+                "ticket_created_at": "",
+                "status_message": "Manual mode selected. Auto scan is off.",
+            }
 
         created_at = fetch_issue_created_at(normalized_ticket_id)
         return {
             "should_scan": True,
-            "state_changed": False,
+            "state_changed": disable_result["state_changed"],
             "ticket_id": normalized_ticket_id,
             "ticket_created_at": created_at,
-            "status_message": f"Manual scan requested for {normalized_ticket_id}.",
+            "status_message": f"Manual mode selected. Auto scan is off. Manual scan requested for {normalized_ticket_id}.",
         }
 
     if event_name == "schedule":
