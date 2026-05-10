@@ -8,6 +8,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
+from execute_comment_utils import post_internal_note_issue_comment
 from modules import general_module
 
 
@@ -42,7 +43,7 @@ def main() -> int:
     public_comment_markdown = build_public_comment_markdown(module_response)
 
     post_public_comment(base, scd_id, headers, public_comment_markdown)
-    post_internal_comment(base, scd_id, headers, ticket_details)
+    post_internal_comment(base, scd_id, headers)
     assign_to_current_user(base, scd_id, creds)
     log_work(base, scd_id, headers)
     transition_to_waiting_for_client(base, scd_id, headers)
@@ -112,43 +113,12 @@ def post_internal_comment(
     base: str,
     scd_id: str,
     headers: dict[str, str],
-    ticket_details: dict[str, object],
 ) -> None:
-    issue = ticket_details.get("issue") if isinstance(ticket_details, dict) else None
-    issue_fields = issue.get("fields") if isinstance(issue, dict) else None
-    request_type = issue_fields.get("customfield_10010") if isinstance(issue_fields, dict) else None
-
-    if request_type:
-        internal_payload = {
-            "body": INTERNAL_COMMENT_TEXT,
-            "public": False,
-        }
-        req_internal = urllib.request.Request(
-            f"{base}/rest/servicedeskapi/request/{scd_id}/comment",
-            data=json.dumps(internal_payload).encode(),
-            headers=headers,
-            method="POST",
-        )
-        with urllib.request.urlopen(req_internal) as response:
-            print(f"9b internal comment: {response.status}")
-        return
-
-    internal_payload = {
-        "body": convert_markdown_comment_to_adf(INTERNAL_COMMENT_TEXT),
-        "properties": [
-            {
-                "key": "sd.public.comment",
-                "value": {"internal": True},
-            }
-        ],
-    }
-    response = api_request(
+    response = post_internal_note_issue_comment(
         base,
-        f"/rest/api/3/issue/{scd_id}/comment",
+        scd_id,
         headers,
-        method="POST",
-        payload=internal_payload,
-        expected_status=201,
+        comment_text=INTERNAL_COMMENT_TEXT,
         label="9b internal comment",
     )
     print(f"9b internal comment: {response}")

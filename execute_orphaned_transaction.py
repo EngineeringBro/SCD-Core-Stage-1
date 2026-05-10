@@ -9,6 +9,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from execute_comment_utils import post_internal_note_issue_comment
+
 
 PUBLIC_COMMENT_SINGLE = "Hello,\n\nWe have added the transaction. Let us know if you need anything else!"
 PUBLIC_COMMENT_PLURAL = "Hello,\n\nWe have added the transactions. Let us know if you need anything else!"
@@ -116,20 +118,13 @@ def post_public_comment(base: str, scd_id: str, headers: dict[str, str], comment
 
 
 def post_internal_comment(base: str, scd_id: str, headers: dict[str, str]) -> None:
-    internal_payload = {
-        "body": INTERNAL_COMMENT_TEXT,
-        "public": False,
-    }
-    req_internal = urllib.request.Request(
-        f"{base}/rest/servicedeskapi/request/{scd_id}/comment",
-        data=json.dumps(internal_payload).encode(),
-        headers=headers,
-        method="POST",
+    status = post_internal_note_issue_comment(
+        base,
+        scd_id,
+        headers,
+        comment_text=INTERNAL_COMMENT_TEXT,
+        label="9b internal comment",
     )
-    with urllib.request.urlopen(req_internal) as response:
-        status = response.status
-    if status != 201:
-        raise RuntimeError(f"9b internal comment failed: expected 201, got {status}")
     print(f"9b internal comment: {status}")
 
 

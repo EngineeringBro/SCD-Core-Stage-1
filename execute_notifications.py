@@ -7,6 +7,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
+from execute_comment_utils import post_internal_note_issue_comment
 from modules.notifications_module import notification_module
 
 
@@ -81,25 +82,13 @@ def fetch_ticket_details(base: str, scd_id: str, headers: dict[str, str]) -> dic
 
 
 def post_internal_comment(base: str, scd_id: str, headers: dict[str, str]) -> None:
-    internal_payload = {
-        "body": INTERNAL_COMMENT_TEXT,
-        "public": False,
-    }
-    request = urllib.request.Request(
-        f"{base}/rest/servicedeskapi/request/{scd_id}/comment",
-        data=json.dumps(internal_payload).encode(),
-        headers=headers,
-        method="POST",
+    status = post_internal_note_issue_comment(
+        base,
+        scd_id,
+        headers,
+        comment_text=INTERNAL_COMMENT_TEXT,
+        label="9a internal comment",
     )
-    try:
-        with urllib.request.urlopen(request) as response:
-            status = response.status
-    except urllib.error.HTTPError as exc:
-        error_body = exc.read().decode("utf-8") if exc.fp else str(exc)
-        raise RuntimeError(f"9a internal comment failed: HTTP {exc.code}: {error_body}") from exc
-
-    if status != 201:
-        raise RuntimeError(f"9a internal comment failed: expected 201, got {status}")
     print(f"9a internal comment: {status}")
 
 
