@@ -15,6 +15,9 @@ REPO_ROOT = CORE_ROOT.parent
 STATE_PATH = Path(os.getenv("SCAN_AUTO_STATE_PATH") or (REPO_ROOT / ".github" / "scan_auto_state.json"))
 DEFAULT_LATEST_TICKET_JQL = os.getenv("SCAN_AUTO_LATEST_JQL") or "project = SCD ORDER BY created DESC"
 REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME = os.getenv("SCAN_AUTO_REQUIRED_ASSIGNEE") or "Hussein Chaib"
+AUTO_SCAN_QUEUE_SIZE = int(os.getenv("SCAN_AUTO_QUEUE_SIZE") or "5")
+AUTO_SCAN_SEARCH_WINDOW = int(os.getenv("SCAN_AUTO_SEARCH_WINDOW") or "100")
+SCANNED_TICKET_ID_HISTORY_LIMIT = int(os.getenv("SCAN_AUTO_SCANNED_HISTORY_LIMIT") or "200")
 
 
 def utc_now_iso() -> str:
@@ -27,14 +30,24 @@ def load_state() -> dict[str, Any]:
             "enabled": False,
             "last_scanned_ticket_id": "",
             "last_scanned_created_at": "",
+            "scanned_ticket_ids": [],
             "updated_at": "",
         }
 
     payload = json.loads(STATE_PATH.read_text(encoding="utf-8"))
+    raw_scanned_ticket_ids = payload.get("scanned_ticket_ids")
+    scanned_ticket_ids = []
+    if isinstance(raw_scanned_ticket_ids, list):
+        for ticket_id in raw_scanned_ticket_ids:
+            normalized_ticket_id = normalize_ticket_id(str(ticket_id or ""))
+            if normalized_ticket_id and normalized_ticket_id not in scanned_ticket_ids:
+                scanned_ticket_ids.append(normalized_ticket_id)
+
     return {
         "enabled": bool(payload.get("enabled", False)),
         "last_scanned_ticket_id": str(payload.get("last_scanned_ticket_id") or "").strip().upper(),
         "last_scanned_created_at": str(payload.get("last_scanned_created_at") or "").strip(),
+        "scanned_ticket_ids": scanned_ticket_ids,
         "updated_at": str(payload.get("updated_at") or "").strip(),
     }
 
@@ -121,18 +134,33 @@ def extract_assignee_display_name(issue: dict[str, Any]) -> str:
     return str(assignee.get("displayName") or "").strip()
 
 
-def resolve_latest_ticket() -> tuple[str, str, str]:
+def resolve_recent_assigned_tickets() -> list[dict[str, str]]:
     client = JiraReadClient()
-    issues = client.search(DEFAULT_LATEST_TICKET_JQL, fields=["created", "assignee"], max_results=1)
-    if not issues:
-        return "", "", ""
+    issues = client.search(DEFAULT_LATEST_TICKET_JQL, fields=["created", "assignee"], max_results=AUTO_SCAN_SEARCH_WINDOW)
 
-    latest_issue = issues[0]
-    ticket_id = normalize_ticket_id(latest_issue.get("key"))
-    fields = latest_issue.get("fields") if isinstance(latest_issue, dict) else {}
-    created_at = str(fields.get("created") or "").strip() if isinstance(fields, dict) else ""
-    assignee_display_name = extract_assignee_display_name(latest_issue)
-    return ticket_id, created_at, assignee_display_name
+    assigned_tickets: list[dict[str, str]] = []
+    for issue in issues:
+        assignee_display_name = extract_assignee_display_name(issue)
+        if assignee_display_name != REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME:
+            continue
+
+        ticket_id = normalize_ticket_id(issue.get("key"))
+        fields = issue.get("fields") if isinstance(issue, dict) else {}
+        created_at = str(fields.get("created") or "").strip() if isinstance(fields, dict) else ""
+        if not ticket_id or not created_at:
+            continue
+
+        assigned_tickets.append(
+            {
+                "ticket_id": ticket_id,
+                "ticket_created_at": created_at,
+                "assignee_display_name": assignee_display_name,
+            }
+        )
+        if len(assigned_tickets) >= AUTO_SCAN_QUEUE_SIZE:
+            break
+
+    return assigned_tickets
 
 
 def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]:
@@ -176,41 +204,36 @@ def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]
                 "status_message": "Auto scan is disabled.",
             }
 
-        latest_ticket_id, latest_created_at, latest_assignee_display_name = resolve_latest_ticket()
-        if not latest_ticket_id:
+        recent_assigned_tickets = resolve_recent_assigned_tickets()
+        if not recent_assigned_tickets:
             return {
                 "should_scan": False,
                 "state_changed": False,
                 "ticket_id": "",
                 "ticket_created_at": "",
-                "status_message": "Auto scan found no Jira tickets.",
+                "status_message": f"Auto scan found no recently created tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME}.",
             }
 
-        if latest_assignee_display_name != REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME:
-            assignee_label = latest_assignee_display_name or "unassigned"
-            return {
-                "should_scan": False,
-                "state_changed": False,
-                "ticket_id": latest_ticket_id,
-                "ticket_created_at": latest_created_at,
-                "status_message": f"Latest ticket {latest_ticket_id} is assigned to {assignee_label}, not {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME}. Waiting for a newer ticket assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME}.",
-            }
+        scanned_ticket_ids = set(state.get("scanned_ticket_ids") or [])
+        for ticket in recent_assigned_tickets:
+            ticket_id = ticket["ticket_id"]
+            if ticket_id in scanned_ticket_ids:
+                continue
 
-        if latest_ticket_id == state["last_scanned_ticket_id"]:
             return {
-                "should_scan": False,
+                "should_scan": True,
                 "state_changed": False,
-                "ticket_id": latest_ticket_id,
-                "ticket_created_at": latest_created_at,
-                "status_message": f"Latest ticket {latest_ticket_id} was already scanned. Waiting for a newer ticket.",
+                "ticket_id": ticket_id,
+                "ticket_created_at": ticket["ticket_created_at"],
+                "status_message": f"Auto scan queued for assigned ticket {ticket_id} from the recent assigned queue.",
             }
 
         return {
-            "should_scan": True,
+            "should_scan": False,
             "state_changed": False,
-            "ticket_id": latest_ticket_id,
-            "ticket_created_at": latest_created_at,
-            "status_message": f"Auto scan queued for newest ticket {latest_ticket_id}.",
+            "ticket_id": recent_assigned_tickets[0]["ticket_id"],
+            "ticket_created_at": recent_assigned_tickets[0]["ticket_created_at"],
+            "status_message": f"The {len(recent_assigned_tickets)} most recent tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME} were already scanned. Waiting for a newly created assigned ticket.",
         }
 
     return {
@@ -231,6 +254,13 @@ def mark_scanned(ticket_id: str, created_at: str) -> dict[str, Any]:
         raise RuntimeError("mark-scanned requires created_at")
 
     state = load_state()
+    scanned_ticket_ids = list(state.get("scanned_ticket_ids") or [])
+    scanned_ticket_ids_changed = False
+    if normalized_ticket_id not in scanned_ticket_ids:
+        scanned_ticket_ids.insert(0, normalized_ticket_id)
+        scanned_ticket_ids_changed = True
+    state["scanned_ticket_ids"] = scanned_ticket_ids[:SCANNED_TICKET_ID_HISTORY_LIMIT]
+
     current_created_at = parse_timestamp(state.get("last_scanned_created_at", ""))
     incoming_created_at = parse_timestamp(normalized_created_at)
 
@@ -246,11 +276,15 @@ def mark_scanned(ticket_id: str, created_at: str) -> dict[str, Any]:
         state["last_scanned_ticket_id"] = normalized_ticket_id
         state["last_scanned_created_at"] = normalized_created_at
         state["updated_at"] = utc_now_iso()
+
+    if should_update or scanned_ticket_ids_changed:
+        if not state.get("updated_at"):
+            state["updated_at"] = utc_now_iso()
         save_state(state)
 
     return {
         "should_scan": False,
-        "state_changed": should_update,
+        "state_changed": should_update or scanned_ticket_ids_changed,
         "ticket_id": normalized_ticket_id,
         "ticket_created_at": normalized_created_at,
         "status_message": f"Marked {normalized_ticket_id} as the latest scanned ticket." if should_update else f"Skipped state update for {normalized_ticket_id} because it is older than the current watermark.",

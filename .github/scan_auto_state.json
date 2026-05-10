@@ -2,5 +2,6 @@
   "enabled": false,
   "last_scanned_ticket_id": "",
   "last_scanned_created_at": "",
+  "scanned_ticket_ids": [],
   "updated_at": ""
 }
