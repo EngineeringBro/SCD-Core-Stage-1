@@ -95,6 +95,19 @@ def write_github_output(path: str | None, result: dict[str, Any]) -> None:
         handle.write("\n".join(lines) + "\n")
 
 
+def build_scan_result(ticket_queue: list[dict[str, str]], state_changed: bool, status_message: str) -> dict[str, Any]:
+    primary_ticket = ticket_queue[0] if ticket_queue else {"ticket_id": "", "ticket_created_at": ""}
+    return {
+        "should_scan": bool(ticket_queue),
+        "state_changed": state_changed,
+        "ticket_id": primary_ticket["ticket_id"],
+        "ticket_created_at": primary_ticket["ticket_created_at"],
+        "ticket_count": len(ticket_queue),
+        "ticket_queue_json": json.dumps(ticket_queue),
+        "status_message": status_message,
+    }
+
+
 def set_enabled(enabled: bool) -> dict[str, Any]:
     state = load_state()
     state_changed = state["enabled"] != enabled
@@ -103,13 +116,7 @@ def set_enabled(enabled: bool) -> dict[str, Any]:
         state["updated_at"] = utc_now_iso()
         save_state(state)
 
-    return {
-        "should_scan": False,
-        "state_changed": state_changed,
-        "ticket_id": "",
-        "ticket_created_at": "",
-        "status_message": "Auto scan enabled." if enabled else "Auto scan disabled.",
-    }
+    return build_scan_result([], state_changed, "Auto scan enabled." if enabled else "Auto scan disabled.")
 
 
 def fetch_issue_created_at(ticket_id: str) -> str:
@@ -166,35 +173,33 @@ def resolve_recent_assigned_tickets() -> list[dict[str, str]]:
 def resolve_auto_scan_queue(state: dict[str, Any]) -> dict[str, Any]:
     recent_assigned_tickets = resolve_recent_assigned_tickets()
     if not recent_assigned_tickets:
-        return {
-            "should_scan": False,
-            "state_changed": False,
-            "ticket_id": "",
-            "ticket_created_at": "",
-            "status_message": f"Auto scan found no recently created tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME}.",
-        }
+        return build_scan_result([], False, f"Auto scan found no recently created tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME}.")
 
     scanned_ticket_ids = set(state.get("scanned_ticket_ids") or [])
+    eligible_ticket_queue: list[dict[str, str]] = []
     for ticket in recent_assigned_tickets:
         ticket_id = ticket["ticket_id"]
         if ticket_id in scanned_ticket_ids:
             continue
+        eligible_ticket_queue.append(
+            {
+                "ticket_id": ticket_id,
+                "ticket_created_at": ticket["ticket_created_at"],
+            }
+        )
 
-        return {
-            "should_scan": True,
-            "state_changed": False,
-            "ticket_id": ticket_id,
-            "ticket_created_at": ticket["ticket_created_at"],
-            "status_message": f"Auto scan queued for assigned ticket {ticket_id} from the recent assigned queue.",
-        }
+    if eligible_ticket_queue:
+        return build_scan_result(
+            eligible_ticket_queue,
+            False,
+            f"Auto scan queued {len(eligible_ticket_queue)} assigned ticket(s) from the recent assigned queue.",
+        )
 
-    return {
-        "should_scan": False,
-        "state_changed": False,
-        "ticket_id": recent_assigned_tickets[0]["ticket_id"],
-        "ticket_created_at": recent_assigned_tickets[0]["ticket_created_at"],
-        "status_message": f"The {len(recent_assigned_tickets)} most recent tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME} were already scanned. Waiting for a newly created assigned ticket.",
-    }
+    return build_scan_result(
+        [],
+        False,
+        f"The {len(recent_assigned_tickets)} most recent tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME} were already scanned. Waiting for a newly created assigned ticket.",
+    )
 
 
 def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]:
@@ -223,42 +228,22 @@ def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]
 
         normalized_ticket_id = normalize_ticket_id(ticket_id)
         if not normalized_ticket_id:
-            return {
-                "should_scan": False,
-                "state_changed": disable_result["state_changed"],
-                "ticket_id": "",
-                "ticket_created_at": "",
-                "status_message": "Manual mode selected. Auto scan is off.",
-            }
+            return build_scan_result([], disable_result["state_changed"], "Manual mode selected. Auto scan is off.")
 
         created_at = fetch_issue_created_at(normalized_ticket_id)
-        return {
-            "should_scan": True,
-            "state_changed": disable_result["state_changed"],
-            "ticket_id": normalized_ticket_id,
-            "ticket_created_at": created_at,
-            "status_message": f"Manual mode selected. Auto scan is off. Manual scan requested for {normalized_ticket_id}.",
-        }
+        return build_scan_result(
+            [{"ticket_id": normalized_ticket_id, "ticket_created_at": created_at}],
+            disable_result["state_changed"],
+            f"Manual mode selected. Auto scan is off. Manual scan requested for {normalized_ticket_id}.",
+        )
 
     if event_name == "schedule":
         state = load_state()
         if not state["enabled"]:
-            return {
-                "should_scan": False,
-                "state_changed": False,
-                "ticket_id": "",
-                "ticket_created_at": "",
-                "status_message": "Auto scan is disabled.",
-            }
+            return build_scan_result([], False, "Auto scan is disabled.")
         return resolve_auto_scan_queue(state)
 
-    return {
-        "should_scan": False,
-        "state_changed": False,
-        "ticket_id": "",
-        "ticket_created_at": "",
-        "status_message": f"Unsupported event '{event_name}'.",
-    }
+    return build_scan_result([], False, f"Unsupported event '{event_name}'.")
 
 
 def mark_scanned(ticket_id: str, created_at: str) -> dict[str, Any]:

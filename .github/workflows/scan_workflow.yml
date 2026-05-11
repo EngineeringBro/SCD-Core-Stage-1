@@ -74,9 +74,48 @@ jobs:
         continue-on-error: true
         shell: bash
         env:
-          SCAN_TICKET_ID: ${{ steps.resolve-target.outputs.ticket_id }}
+          SCAN_TICKET_QUEUE_JSON: ${{ steps.resolve-target.outputs.ticket_queue_json }}
         run: |
-          python Core/orchestrator.py | tee orchestrator-output.txt
+          mkdir -p scan-output
+          python - <<'PY'
+          import json
+          import os
+          import pathlib
+          import subprocess
+          import sys
+
+          queue = json.loads(os.environ.get("SCAN_TICKET_QUEUE_JSON") or "[]")
+          if not queue:
+              raise SystemExit("Expected at least one ticket in SCAN_TICKET_QUEUE_JSON")
+
+          output_dir = pathlib.Path("scan-output")
+          output_dir.mkdir(parents=True, exist_ok=True)
+
+          for ticket in queue:
+              ticket_id = str(ticket.get("ticket_id") or "").strip()
+              if not ticket_id:
+                  continue
+
+              env = os.environ.copy()
+              env["SCAN_TICKET_ID"] = ticket_id
+              result = subprocess.run(
+                  [sys.executable, "Core/orchestrator.py"],
+                  check=False,
+                  capture_output=True,
+                  text=True,
+                  env=env,
+              )
+
+              combined_output = result.stdout or ""
+              if result.stderr:
+                  combined_output += result.stderr
+
+              (output_dir / f"{ticket_id}.txt").write_text(combined_output, encoding="utf-8")
+              print(combined_output, end="")
+
+              if result.returncode != 0:
+                  raise SystemExit(result.returncode)
+          PY
 
       - name: Publish issue description output
         if: always()
@@ -85,10 +124,16 @@ jobs:
           {
             echo "## Generated Issue Description"
             echo
-            if [[ -f orchestrator-output.txt ]]; then
-              echo '```text'
-              cat orchestrator-output.txt
-              echo '```'
+            if compgen -G "scan-output/*.txt" > /dev/null; then
+              for output_file in scan-output/*.txt; do
+                ticket_id="$(basename "$output_file" .txt)"
+                echo "### $ticket_id"
+                echo
+                echo '```text'
+                cat "$output_file"
+                echo '```'
+                echo
+              done
             else
               echo "${{ steps.resolve-target.outputs.status_message }}"
             fi
@@ -98,42 +143,11 @@ jobs:
         if: steps.resolve-target.outputs.should_scan == 'true'
         uses: actions/github-script@v9
         env:
-          SCAN_TICKET_ID: ${{ steps.resolve-target.outputs.ticket_id }}
+          SCAN_TICKET_QUEUE_JSON: ${{ steps.resolve-target.outputs.ticket_queue_json }}
         with:
           script: |
             const fs = require('fs');
-
-            const ticketId = process.env.SCAN_TICKET_ID;
-            const filePath = 'orchestrator-output.txt';
-            let rawOutput = '';
-
-            if (fs.existsSync(filePath)) {
-              rawOutput = fs.readFileSync(filePath, 'utf8').trim();
-            }
-
-            if (!rawOutput) {
-              rawOutput = [
-                'Recommendation: error',
-                `Ticket ID: ${ticketId}`,
-                'Module: unknown',
-                'Issue Body:',
-                'No issue body available.',
-                'Notes:',
-                `- No orchestrator output was captured for ${ticketId}.`,
-              ].join('\n');
-            }
-
-            const lines = rawOutput.split(/\r?\n/);
-            const readField = (fieldName) => {
-              const prefix = `${fieldName}:`;
-              const line = lines.find((value) => value.startsWith(prefix));
-              return line ? line.slice(prefix.length).trim() : '';
-            };
-
-            const recommendation = readField('Recommendation') || 'unknown';
-            const parsedTicketId = readField('Ticket ID') || ticketId;
-            const moduleId = readField('Module ID') || 'unknown';
-            const moduleName = readField('Module') || 'unknown';
+            const ticketQueue = JSON.parse(process.env.SCAN_TICKET_QUEUE_JSON || '[]');
 
             const toTitleCase = (value) => value
               .split(/\s+/)
@@ -210,59 +224,126 @@ jobs:
               return `[${recommendation}] ${parsedTicketId} - ${moduleName}`;
             };
 
-            const issueBodyIndex = lines.findIndex((value) => value.trim() === 'Issue Body:');
-            const notesIndex = lines.findIndex((value) => value.trim() === 'Notes:');
-            const transcriptIndex = lines.findIndex((value) => value.trim() === 'Word for word transcript:');
-            const issueBodyLines = issueBodyIndex >= 0
-              ? lines.slice(issueBodyIndex + 1, notesIndex >= 0 ? notesIndex : lines.length)
-              : [];
-            const issueBody = issueBodyLines.join('\n').trim() || recommendation;
-            const notesLines = notesIndex >= 0
-              ? lines.slice(notesIndex + 1, transcriptIndex >= 0 ? transcriptIndex : lines.length)
-              : ['- None'];
-            const notes = notesLines.join('\n').trim() || '- None';
-            const transcriptLines = transcriptIndex >= 0 ? lines.slice(transcriptIndex + 1) : [];
-            const transcript = transcriptLines.join('\n').trim();
+            for (const ticket of ticketQueue) {
+              const ticketId = String(ticket.ticket_id || '').trim();
+              if (!ticketId) {
+                continue;
+              }
 
-            const title = buildAlignedTitle({
-              moduleId,
-              recommendation,
-              parsedTicketId,
-              moduleName,
-              issueBody,
-            });
-            const bodyParts = [
-              issueBody,
-              `<!-- module_id: ${moduleId} -->`,
-              '---',
-              'Notes',
-              notes,
-            ];
+              const filePath = `scan-output/${ticketId}.txt`;
+              let rawOutput = '';
 
-            if (transcript) {
-              bodyParts.push('---', 'Word for word transcript', transcript);
+              if (fs.existsSync(filePath)) {
+                rawOutput = fs.readFileSync(filePath, 'utf8').trim();
+              }
+
+              if (!rawOutput) {
+                rawOutput = [
+                  'Recommendation: error',
+                  `Ticket ID: ${ticketId}`,
+                  'Module: unknown',
+                  'Issue Body:',
+                  'No issue body available.',
+                  'Notes:',
+                  `- No orchestrator output was captured for ${ticketId}.`,
+                ].join('\n');
+              }
+
+              const lines = rawOutput.split(/\r?\n/);
+              const readField = (fieldName) => {
+                const prefix = `${fieldName}:`;
+                const line = lines.find((value) => value.startsWith(prefix));
+                return line ? line.slice(prefix.length).trim() : '';
+              };
+
+              const recommendation = readField('Recommendation') || 'unknown';
+              const parsedTicketId = readField('Ticket ID') || ticketId;
+              const moduleId = readField('Module ID') || 'unknown';
+              const moduleName = readField('Module') || 'unknown';
+
+              const issueBodyIndex = lines.findIndex((value) => value.trim() === 'Issue Body:');
+              const notesIndex = lines.findIndex((value) => value.trim() === 'Notes:');
+              const transcriptIndex = lines.findIndex((value) => value.trim() === 'Word for word transcript:');
+              const issueBodyLines = issueBodyIndex >= 0
+                ? lines.slice(issueBodyIndex + 1, notesIndex >= 0 ? notesIndex : lines.length)
+                : [];
+              const issueBody = issueBodyLines.join('\n').trim() || recommendation;
+              const notesLines = notesIndex >= 0
+                ? lines.slice(notesIndex + 1, transcriptIndex >= 0 ? transcriptIndex : lines.length)
+                : ['- None'];
+              const notes = notesLines.join('\n').trim() || '- None';
+              const transcriptLines = transcriptIndex >= 0 ? lines.slice(transcriptIndex + 1) : [];
+              const transcript = transcriptLines.join('\n').trim();
+
+              const title = buildAlignedTitle({
+                moduleId,
+                recommendation,
+                parsedTicketId,
+                moduleName,
+                issueBody,
+              });
+              const bodyParts = [
+                issueBody,
+                `<!-- module_id: ${moduleId} -->`,
+                '---',
+                'Notes',
+                notes,
+              ];
+
+              if (transcript) {
+                bodyParts.push('---', 'Word for word transcript', transcript);
+              }
+
+              const body = bodyParts.join('\n');
+
+              const issue = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+              });
+
+              core.info(`Created issue #${issue.data.number} for ${parsedTicketId}`);
             }
-
-            const body = bodyParts.join('\n');
-
-            const issue = await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title,
-              body,
-            });
-
-            core.info(`Created issue #${issue.data.number}`);
 
       - name: Mark latest scanned ticket
         id: mark-scanned
         if: steps.resolve-target.outputs.should_scan == 'true' && success()
         shell: bash
+        env:
+          SCAN_TICKET_QUEUE_JSON: ${{ steps.resolve-target.outputs.ticket_queue_json }}
         run: |
-          python Core/scan_auto.py mark-scanned \
-            --ticket-id "${{ steps.resolve-target.outputs.ticket_id }}" \
-            --created-at "${{ steps.resolve-target.outputs.ticket_created_at }}" \
-            --github-output "$GITHUB_OUTPUT"
+          python - <<'PY'
+          import json
+          import os
+          import subprocess
+          import sys
+
+          queue = json.loads(os.environ.get("SCAN_TICKET_QUEUE_JSON") or "[]")
+          if not queue:
+              raise SystemExit("Expected at least one ticket in SCAN_TICKET_QUEUE_JSON")
+
+          for ticket in queue:
+              ticket_id = str(ticket.get("ticket_id") or "").strip()
+              created_at = str(ticket.get("ticket_created_at") or "").strip()
+              if not ticket_id or not created_at:
+                  continue
+
+              subprocess.run(
+                  [
+                      sys.executable,
+                      "Core/scan_auto.py",
+                      "mark-scanned",
+                      "--ticket-id",
+                      ticket_id,
+                      "--created-at",
+                      created_at,
+                      "--github-output",
+                      os.environ["GITHUB_OUTPUT"],
+                  ],
+                  check=True,
+              )
+          PY
 
       - name: Persist auto scan state
         if: always()
