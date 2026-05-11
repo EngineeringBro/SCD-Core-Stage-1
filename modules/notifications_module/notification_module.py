@@ -7,7 +7,7 @@ from modules.notifications_module.notification_matcher import (
     NOTIFICATION_OUTPUT_ROOT_CAUSE,
     classify_ticket,
 )
-from modules.notifications_module.registry import REGISTRY_PATH, register_notification
+from modules.notifications_module.registry import EXECUTE_LOG_PATH, register_notification
 
 
 MODULE_ID = "notification"
@@ -100,7 +100,7 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
     result = classify_ticket(normalized_ticket_id, ticket_details)
     ticket_title = extract_ticket_title(ticket_details)
     created_at = extract_created_at(ticket_details)
-    registry_entry = register_notification(normalized_ticket_id, ticket_title, created_at)
+    log_entry = register_notification(normalized_ticket_id, ticket_title, created_at)
 
     return {
         "recommendation": result.recommendation,
@@ -109,8 +109,8 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         "output_topic": result.output_topic,
         "output_resolution": NOTIFICATION_OUTPUT_RESOLUTION,
         "output_root_cause": NOTIFICATION_OUTPUT_ROOT_CAUSE,
-        "registry_number": registry_entry.get("number"),
-        "ticket_title": registry_entry.get("title"),
-        "ticket_created_at": registry_entry.get("created_at"),
-        "registry_path": str(REGISTRY_PATH),
+        "ticket_title": log_entry.get("title"),
+        "ticket_created_at": log_entry.get("created_at"),
+        "notification_logged_at": log_entry.get("logged_at"),
+        "notification_log_path": str(EXECUTE_LOG_PATH),
     }

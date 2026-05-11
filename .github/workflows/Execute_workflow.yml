@@ -165,14 +165,14 @@ jobs:
         if: steps.resolve-ticket.outputs.should_execute == 'true' && steps.resolve-module.outputs.execute_module == 'notification'
         shell: bash
         run: |
-          if git diff --quiet -- 'modules/notifications_module/output'; then
+          if git diff --quiet -- 'modules/notifications_module/output/Notifications execute log.md'; then
             echo "Notification log unchanged."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add 'modules/notifications_module/output'
+          git add 'modules/notifications_module/output/Notifications execute log.md'
           git commit -m "Update notification log"
           git push origin HEAD:${GITHUB_REF_NAME}
 
