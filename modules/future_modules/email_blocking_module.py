@@ -1,0 +1,1 @@
+"""Placeholder for a future email blocking module."""
