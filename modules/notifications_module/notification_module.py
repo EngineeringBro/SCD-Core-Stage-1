@@ -12,7 +12,7 @@ from modules.notifications_module.registry import NOTIFICATIONS_LOG_PATH, regist
 
 MODULE_ID = "notification"
 DISPLAY_NAME = "notifications module"
-VERSION = "v1.0"
+VERSION = "v1.9"
 
 
 def extract_ticket_title(ticket_details: dict[str, Any]) -> str:

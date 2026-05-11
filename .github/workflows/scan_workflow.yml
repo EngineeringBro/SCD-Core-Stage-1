@@ -278,7 +278,7 @@ jobs:
               }
 
               if (moduleId === 'notification') {
-                const notificationModuleName = formatModuleName(moduleName, 'Notifications Module v1.0');
+                const notificationModuleName = formatModuleName(moduleName, 'Notifications Module v1.9');
                 const notificationWord = extractNotificationTitleWord(issueBody);
                 return `Notification: ${notificationWord} [${parsedTicketId} - ${notificationModuleName}]`;
               }
