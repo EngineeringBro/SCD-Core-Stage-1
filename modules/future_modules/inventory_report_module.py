@@ -1,0 +1,1 @@
+"""Placeholder for a future inventory report module."""

@@ -1,0 +1,1 @@
+"""Placeholder for a future Azure alert module."""

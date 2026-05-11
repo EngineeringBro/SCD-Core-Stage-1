@@ -1,0 +1,1 @@
+"""Placeholder for a future payment method module."""
