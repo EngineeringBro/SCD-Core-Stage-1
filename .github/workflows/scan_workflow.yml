@@ -11,11 +11,11 @@ on:
       auto_mode_selection:
         description: Auto Mode
         required: true
-        default: OFF
+        default: 'OFF'
         type: choice
         options:
-          - ON
-          - OFF
+          - 'ON'
+          - 'OFF'
       scan_ticket_id:
         description: Manual Mode - Enter ticket ID
         required: false
