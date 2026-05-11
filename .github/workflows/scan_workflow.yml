@@ -21,7 +21,7 @@ on:
         required: false
         type: string
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "2-57/5 * * * *"
 
 jobs:
   auto-scan-mode:
