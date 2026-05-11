@@ -1,5 +1,5 @@
 name: Scan
-run-name: ${{ github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id != '' && 'Manual Scan' || github.event_name == 'workflow_dispatch' && inputs.auto_mode == 'ON' && 'Auto Mode ON' || github.event_name == 'workflow_dispatch' && inputs.auto_mode == 'OFF' && 'Auto Mode OFF' || github.event_name == 'schedule' && 'Auto Scan schedule tick' || 'Scan' }}
+run-name: ${{ github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id != '' && 'Manual Scan' || github.event_name == 'workflow_dispatch' && inputs.auto_mode_selection == 'ON' && 'Auto Mode ON' || github.event_name == 'workflow_dispatch' && inputs.auto_mode_selection == 'OFF' && 'Auto Mode OFF' || github.event_name == 'schedule' && 'Auto Scan schedule tick' || 'Scan' }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id != '' && 'manual' || 'auto' }}
@@ -8,7 +8,7 @@ concurrency:
 on:
   workflow_dispatch:
     inputs:
-      auto_mode:
+      auto_mode_selection:
         description: Auto Mode
         required: true
         default: OFF
@@ -66,7 +66,7 @@ jobs:
         shell: bash
         env:
           SCAN_EVENT_NAME: ${{ github.event_name }}
-          SCAN_MODE: ${{ inputs.auto_mode }}
+          SCAN_MODE: ${{ inputs.auto_mode_selection }}
           REQUESTED_TICKET_ID: ${{ inputs.scan_ticket_id }}
         run: |
           python Core/scan_auto.py resolve \
