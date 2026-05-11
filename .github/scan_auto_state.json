@@ -1,7 +1,7 @@
 {
-  "enabled": false,
+  "enabled": true,
   "last_scanned_ticket_id": "",
   "last_scanned_created_at": "",
   "scanned_ticket_ids": [],
-  "updated_at": ""
+  "updated_at": "2026-05-11T06:13:09.962482+00:00"
 }
