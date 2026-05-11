@@ -69,7 +69,7 @@ def load_env_from_environment() -> dict[str, str]:
 
 
 def load_orphaned_ticket_template(scd_id: str) -> dict[str, Any]:
-    template_path = REPO_ROOT / "orphaned_transaction_tickets" / f"{scd_id}.json"
+    template_path = REPO_ROOT / "modules" / "orphaned_module" / "orphaned_transaction_tickets" / f"{scd_id}.json"
     if not template_path.exists():
         raise RuntimeError(f"Execute is only allowed for orphaned transaction tickets with a local file: {scd_id}")
 

@@ -216,39 +216,25 @@ def resolve_auto_scan_queue(state: dict[str, Any]) -> dict[str, Any]:
     )
 
 
-def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]:
-    normalized_mode = str(mode or "Manual").strip() or "Manual"
+def resolve_target(event_name: str, mode: str, _ticket_id: str) -> dict[str, Any]:
+    normalized_mode = str(mode or "OFF").strip() or "OFF"
 
     if event_name == "workflow_dispatch":
-        if normalized_mode == "Auto Scan mode":
+        if normalized_mode in {"Auto Scan mode", "Auto", "On", "ON"}:
             enable_result = set_enabled(True)
             return build_scan_result(
                 [],
                 enable_result["state_changed"],
                 "Auto scan enabled. Waiting for the scheduled cron run.",
             )
-        if normalized_mode == "Auto":
-            enable_result = set_enabled(True)
+        if normalized_mode in {"Disable Auto Scan", "Off", "OFF", "Manual"}:
+            disable_result = set_enabled(False)
             return build_scan_result(
                 [],
-                enable_result["state_changed"],
-                "Auto scan enabled. Waiting for the scheduled cron run.",
+                disable_result["state_changed"],
+                "Auto scan disabled.",
             )
-        if normalized_mode != "Manual":
-            raise RuntimeError(f"Unsupported workflow_dispatch mode: {normalized_mode}")
-
-        disable_result = set_enabled(False)
-
-        normalized_ticket_id = normalize_ticket_id(ticket_id)
-        if not normalized_ticket_id:
-            return build_scan_result([], disable_result["state_changed"], "Manual mode selected. Auto scan is off.")
-
-        created_at = fetch_issue_created_at(normalized_ticket_id)
-        return build_scan_result(
-            [{"ticket_id": normalized_ticket_id, "ticket_created_at": created_at}],
-            disable_result["state_changed"],
-            f"Manual mode selected. Auto scan is off. Manual scan requested for {normalized_ticket_id}.",
-        )
+        raise RuntimeError(f"Unsupported workflow_dispatch mode: {normalized_mode}")
 
     if event_name == "schedule":
         state = load_state()

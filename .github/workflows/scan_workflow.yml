@@ -1,23 +1,23 @@
 name: Scan
-run-name: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'Auto Scan mode' && 'Auto Scan mode' || github.event_name == 'workflow_dispatch' && inputs.mode == 'Manual' && 'Manual Scan' || github.event_name == 'schedule' && 'Auto Scan schedule tick' || 'Scan' }}
+run-name: ${{ github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id != '' && 'Manual Scan' || github.event_name == 'workflow_dispatch' && inputs.auto_mode == 'ON' && 'Auto Mode ON' || github.event_name == 'workflow_dispatch' && inputs.auto_mode == 'OFF' && 'Auto Mode OFF' || github.event_name == 'schedule' && 'Auto Scan schedule tick' || 'Scan' }}
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'Manual' && 'manual' || 'auto' }}
+  group: ${{ github.workflow }}-${{ github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id != '' && 'manual' || 'auto' }}
   cancel-in-progress: false
 
 on:
   workflow_dispatch:
     inputs:
-      mode:
-        description: Scan mode
+      auto_mode:
+        description: Auto Mode - Select ON or OFF
         required: true
-        default: Manual
+        default: OFF
         type: choice
         options:
-          - Auto Scan mode
-          - Manual
+          - ON
+          - OFF
       scan_ticket_id:
-        description: Jira ticket id to process when mode is Manual
+        description: Manual Mode - Enter ticket ID
         required: false
         type: string
   schedule:
@@ -50,7 +50,7 @@ jobs:
           python-version: "3.11"
 
       - name: Resolve scan target
-        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'Manual'
+        if: github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id != ''
         id: resolve-manual
         shell: bash
         env:
@@ -61,17 +61,17 @@ jobs:
             --github-output "$GITHUB_OUTPUT"
 
       - name: Resolve auto scan target
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'Auto Scan mode')
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id == '')
         id: resolve-auto
         shell: bash
         env:
           SCAN_EVENT_NAME: ${{ github.event_name }}
-          SCAN_MODE: ${{ inputs.mode }}
+          SCAN_MODE: ${{ inputs.auto_mode }}
           REQUESTED_TICKET_ID: ${{ inputs.scan_ticket_id }}
         run: |
           python Core/scan_auto.py resolve \
             --event-name "$SCAN_EVENT_NAME" \
-            --mode "${SCAN_MODE:-Manual}" \
+            --mode "${SCAN_MODE:-OFF}" \
             --ticket-id "${REQUESTED_TICKET_ID:-}" \
             --github-output "$GITHUB_OUTPUT"
 
@@ -80,7 +80,7 @@ jobs:
         shell: bash
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
-          GITHUB_SCAN_MODE: ${{ inputs.mode }}
+          GITHUB_SCAN_TICKET_ID: ${{ inputs.scan_ticket_id }}
           MANUAL_SHOULD_SCAN: ${{ steps.resolve-manual.outputs.should_scan }}
           MANUAL_STATE_CHANGED: ${{ steps.resolve-manual.outputs.state_changed }}
           MANUAL_TICKET_ID: ${{ steps.resolve-manual.outputs.ticket_id }}
@@ -113,7 +113,7 @@ jobs:
 
           use_manual = (
               os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch"
-              and os.getenv("GITHUB_SCAN_MODE") == "Manual"
+              and bool(str(os.getenv("GITHUB_SCAN_TICKET_ID") or "").strip())
           )
           selected = select("MANUAL" if use_manual else "AUTO")
 
@@ -369,7 +369,7 @@ jobs:
 
       - name: Mark latest scanned ticket
         id: mark-scanned
-        if: steps.resolve-target.outputs.should_scan == 'true' && success() && !(github.event_name == 'workflow_dispatch' && inputs.mode == 'Manual')
+        if: steps.resolve-target.outputs.should_scan == 'true' && success() && !(github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id != '')
         shell: bash
         env:
           SCAN_TICKET_QUEUE_JSON: ${{ steps.resolve-target.outputs.ticket_queue_json }}
@@ -407,7 +407,7 @@ jobs:
           PY
 
       - name: Persist auto scan state
-        if: always() && !(github.event_name == 'workflow_dispatch' && inputs.mode == 'Manual')
+        if: always() && !(github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id != '')
         shell: bash
         run: |
           if git diff --quiet -- .github/scan_auto_state.json; then
