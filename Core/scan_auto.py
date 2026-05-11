@@ -237,7 +237,7 @@ def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]
             f"Manual mode selected. Auto scan is off. Manual scan requested for {normalized_ticket_id}.",
         )
 
-    if event_name in {"schedule", "repository_dispatch"}:
+    if event_name == "schedule":
         state = load_state()
         if not state["enabled"]:
             return build_scan_result([], False, "Auto scan is disabled.")
