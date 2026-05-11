@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       auto_mode:
-        description: Auto Mode - Select ON or OFF
+        description: Auto Mode
         required: true
         default: OFF
         type: choice
