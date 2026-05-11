@@ -23,7 +23,7 @@ on:
     - cron: "*/5 * * * *"
 
 jobs:
-  scan-run:
+  auto-scan-mode:
     runs-on: ubuntu-latest
     permissions:
       contents: write
