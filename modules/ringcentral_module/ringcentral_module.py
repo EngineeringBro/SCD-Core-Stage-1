@@ -660,6 +660,10 @@ def is_voice_message_summary(summary: str) -> bool:
     return summary.lower().startswith("new voice message from ")
 
 
+def is_missed_call_summary(summary: str) -> bool:
+    return summary.lower().startswith("new call from ")
+
+
 def select_voicemail_text(
     *,
     is_voice_message: bool,
@@ -1434,6 +1438,7 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
     comment_text = extract_comment_text(ticket_details)
     mp3_attachments = extract_mp3_attachments(ticket_details)
     is_voice_message = is_voice_message_summary(summary)
+    is_missed_call = is_missed_call_summary(summary)
     transcription_text = ""
     transcription_notes: list[str] = []
     if is_voice_message:
@@ -1454,7 +1459,7 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         voicemail_text,
         empty_value=build_missing_transcript_message(transcription_notes, len(mp3_attachments)),
     )
-    is_voicemail = is_voice_message or has_transcript(description_text, comment_text)
+    is_voicemail = is_voice_message
 
     if spam_signals:
         return {
@@ -1486,8 +1491,15 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         created_at_display = created_at or "Unknown"
     else:
         created_at_display = str(created_dt)
-    recommendation = "ringcentral_voicemail_callback_needed" if is_voicemail else "ringcentral_missed_call_callback_needed"
-    ringcentral_subtype = "voice_message" if is_voicemail else "missed_call"
+    if is_voicemail:
+        recommendation = "ringcentral_voicemail_callback_needed"
+        ringcentral_subtype = "voice_message"
+    elif is_missed_call:
+        recommendation = "ringcentral_missed_call_callback_needed"
+        ringcentral_subtype = "missed_call"
+    else:
+        recommendation = "ringcentral_missed_call_callback_needed"
+        ringcentral_subtype = "missed_call"
     refined_summary = ""
     helpful_articles: list[tuple[str, str]] = []
     enrichment_notes: list[str] = []
