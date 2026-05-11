@@ -208,19 +208,18 @@ def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]
     if event_name == "workflow_dispatch":
         if normalized_mode == "Auto Scan mode":
             enable_result = set_enabled(True)
-            queue_result = resolve_auto_scan_queue(load_state())
-            queue_result["state_changed"] = enable_result["state_changed"] or queue_result["state_changed"]
-            if queue_result["should_scan"]:
-                queue_result["status_message"] = f"Auto scan enabled. {queue_result['status_message']}"
-            else:
-                queue_result["status_message"] = f"Auto scan enabled. {queue_result['status_message']}"
-            return queue_result
+            return build_scan_result(
+                [],
+                enable_result["state_changed"],
+                "Auto scan enabled. Waiting for the scheduled cron run.",
+            )
         if normalized_mode == "Auto":
             enable_result = set_enabled(True)
-            queue_result = resolve_auto_scan_queue(load_state())
-            queue_result["state_changed"] = enable_result["state_changed"] or queue_result["state_changed"]
-            queue_result["status_message"] = f"Auto scan enabled. {queue_result['status_message']}"
-            return queue_result
+            return build_scan_result(
+                [],
+                enable_result["state_changed"],
+                "Auto scan enabled. Waiting for the scheduled cron run.",
+            )
         if normalized_mode != "Manual":
             raise RuntimeError(f"Unsupported workflow_dispatch mode: {normalized_mode}")
 
