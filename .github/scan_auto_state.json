@@ -1,7 +1,9 @@
 {
   "enabled": true,
-  "last_scanned_ticket_id": "",
-  "last_scanned_created_at": "",
-  "scanned_ticket_ids": [],
-  "updated_at": "2026-05-11T06:13:09.962482+00:00"
+  "last_scanned_ticket_id": "SCD-142323",
+  "last_scanned_created_at": "2026-05-10T12:14:33.462-0400",
+  "scanned_ticket_ids": [
+    "SCD-142323"
+  ],
+  "updated_at": "2026-05-11T06:28:08.759699+00:00"
 }
