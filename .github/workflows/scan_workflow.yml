@@ -13,7 +13,7 @@ on:
         default: Manual
         type: choice
         options:
-          - Auto
+          - Auto Scan mode
           - Manual
       scan_ticket_id:
         description: Jira ticket id to process when mode is Manual
@@ -23,7 +23,7 @@ on:
     - cron: "*/5 * * * *"
 
 jobs:
-  run-single-ticket:
+  scan-run:
     runs-on: ubuntu-latest
     permissions:
       contents: write

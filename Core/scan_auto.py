@@ -163,12 +163,59 @@ def resolve_recent_assigned_tickets() -> list[dict[str, str]]:
     return assigned_tickets
 
 
+def resolve_auto_scan_queue(state: dict[str, Any]) -> dict[str, Any]:
+    recent_assigned_tickets = resolve_recent_assigned_tickets()
+    if not recent_assigned_tickets:
+        return {
+            "should_scan": False,
+            "state_changed": False,
+            "ticket_id": "",
+            "ticket_created_at": "",
+            "status_message": f"Auto scan found no recently created tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME}.",
+        }
+
+    scanned_ticket_ids = set(state.get("scanned_ticket_ids") or [])
+    for ticket in recent_assigned_tickets:
+        ticket_id = ticket["ticket_id"]
+        if ticket_id in scanned_ticket_ids:
+            continue
+
+        return {
+            "should_scan": True,
+            "state_changed": False,
+            "ticket_id": ticket_id,
+            "ticket_created_at": ticket["ticket_created_at"],
+            "status_message": f"Auto scan queued for assigned ticket {ticket_id} from the recent assigned queue.",
+        }
+
+    return {
+        "should_scan": False,
+        "state_changed": False,
+        "ticket_id": recent_assigned_tickets[0]["ticket_id"],
+        "ticket_created_at": recent_assigned_tickets[0]["ticket_created_at"],
+        "status_message": f"The {len(recent_assigned_tickets)} most recent tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME} were already scanned. Waiting for a newly created assigned ticket.",
+    }
+
+
 def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]:
     normalized_mode = str(mode or "Manual").strip() or "Manual"
 
     if event_name == "workflow_dispatch":
+        if normalized_mode == "Auto Scan mode":
+            enable_result = set_enabled(True)
+            queue_result = resolve_auto_scan_queue(load_state())
+            queue_result["state_changed"] = enable_result["state_changed"] or queue_result["state_changed"]
+            if queue_result["should_scan"]:
+                queue_result["status_message"] = f"Auto scan enabled. {queue_result['status_message']}"
+            else:
+                queue_result["status_message"] = f"Auto scan enabled. {queue_result['status_message']}"
+            return queue_result
         if normalized_mode == "Auto":
-            return set_enabled(True)
+            enable_result = set_enabled(True)
+            queue_result = resolve_auto_scan_queue(load_state())
+            queue_result["state_changed"] = enable_result["state_changed"] or queue_result["state_changed"]
+            queue_result["status_message"] = f"Auto scan enabled. {queue_result['status_message']}"
+            return queue_result
         if normalized_mode != "Manual":
             raise RuntimeError(f"Unsupported workflow_dispatch mode: {normalized_mode}")
 
@@ -203,38 +250,7 @@ def resolve_target(event_name: str, mode: str, ticket_id: str) -> dict[str, Any]
                 "ticket_created_at": "",
                 "status_message": "Auto scan is disabled.",
             }
-
-        recent_assigned_tickets = resolve_recent_assigned_tickets()
-        if not recent_assigned_tickets:
-            return {
-                "should_scan": False,
-                "state_changed": False,
-                "ticket_id": "",
-                "ticket_created_at": "",
-                "status_message": f"Auto scan found no recently created tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME}.",
-            }
-
-        scanned_ticket_ids = set(state.get("scanned_ticket_ids") or [])
-        for ticket in recent_assigned_tickets:
-            ticket_id = ticket["ticket_id"]
-            if ticket_id in scanned_ticket_ids:
-                continue
-
-            return {
-                "should_scan": True,
-                "state_changed": False,
-                "ticket_id": ticket_id,
-                "ticket_created_at": ticket["ticket_created_at"],
-                "status_message": f"Auto scan queued for assigned ticket {ticket_id} from the recent assigned queue.",
-            }
-
-        return {
-            "should_scan": False,
-            "state_changed": False,
-            "ticket_id": recent_assigned_tickets[0]["ticket_id"],
-            "ticket_created_at": recent_assigned_tickets[0]["ticket_created_at"],
-            "status_message": f"The {len(recent_assigned_tickets)} most recent tickets assigned to {REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME} were already scanned. Waiting for a newly created assigned ticket.",
-        }
+        return resolve_auto_scan_queue(state)
 
     return {
         "should_scan": False,
