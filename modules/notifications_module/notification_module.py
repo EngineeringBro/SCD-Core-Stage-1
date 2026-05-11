@@ -7,7 +7,7 @@ from modules.notifications_module.notification_matcher import (
     NOTIFICATION_OUTPUT_ROOT_CAUSE,
     classify_ticket,
 )
-from modules.notifications_module.registry import EXECUTE_LOG_PATH, register_notification
+from modules.notifications_module.registry import NOTIFICATIONS_LOG_PATH, register_notification
 
 
 MODULE_ID = "notification"
@@ -112,5 +112,5 @@ def run(ticket_id: str, ticket_details: dict[str, Any] | None = None) -> dict[st
         "ticket_title": log_entry.get("title"),
         "ticket_created_at": log_entry.get("created_at"),
         "notification_logged_at": log_entry.get("logged_at"),
-        "notification_log_path": str(EXECUTE_LOG_PATH),
+        "notification_log_path": str(NOTIFICATIONS_LOG_PATH),
     }
