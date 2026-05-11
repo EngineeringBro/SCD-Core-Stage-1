@@ -24,7 +24,8 @@ on:
     - cron: "2-57/5 * * * *"
 
 jobs:
-  auto-scan-mode:
+  scan-run:
+    name: ${{ github.event_name == 'workflow_dispatch' && inputs.scan_ticket_id != '' && 'Manual Scan Run' || github.event_name == 'schedule' && 'Auto Scan Schedule Run' || github.event_name == 'workflow_dispatch' && inputs.auto_mode_selection == 'ON' && 'Auto Mode ON Run' || github.event_name == 'workflow_dispatch' && inputs.auto_mode_selection == 'OFF' && 'Auto Mode OFF Run' || 'Scan Run' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
