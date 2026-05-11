@@ -50,7 +50,19 @@ jobs:
           python-version: "3.11"
 
       - name: Resolve scan target
-        id: resolve-target
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'Manual'
+        id: resolve-manual
+        shell: bash
+        env:
+          REQUESTED_TICKET_ID: ${{ inputs.scan_ticket_id }}
+        run: |
+          python Core/scan_manual.py resolve \
+            --ticket-id "${REQUESTED_TICKET_ID:-}" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Resolve auto scan target
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'Auto Scan mode')
+        id: resolve-auto
         shell: bash
         env:
           SCAN_EVENT_NAME: ${{ github.event_name }}
@@ -62,6 +74,54 @@ jobs:
             --mode "${SCAN_MODE:-Manual}" \
             --ticket-id "${REQUESTED_TICKET_ID:-}" \
             --github-output "$GITHUB_OUTPUT"
+
+      - name: Select scan target
+        id: resolve-target
+        shell: bash
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_SCAN_MODE: ${{ inputs.mode }}
+          MANUAL_SHOULD_SCAN: ${{ steps.resolve-manual.outputs.should_scan }}
+          MANUAL_STATE_CHANGED: ${{ steps.resolve-manual.outputs.state_changed }}
+          MANUAL_TICKET_ID: ${{ steps.resolve-manual.outputs.ticket_id }}
+          MANUAL_TICKET_CREATED_AT: ${{ steps.resolve-manual.outputs.ticket_created_at }}
+          MANUAL_TICKET_COUNT: ${{ steps.resolve-manual.outputs.ticket_count }}
+          MANUAL_TICKET_QUEUE_JSON: ${{ steps.resolve-manual.outputs.ticket_queue_json }}
+          MANUAL_STATUS_MESSAGE: ${{ steps.resolve-manual.outputs.status_message }}
+          AUTO_SHOULD_SCAN: ${{ steps.resolve-auto.outputs.should_scan }}
+          AUTO_STATE_CHANGED: ${{ steps.resolve-auto.outputs.state_changed }}
+          AUTO_TICKET_ID: ${{ steps.resolve-auto.outputs.ticket_id }}
+          AUTO_TICKET_CREATED_AT: ${{ steps.resolve-auto.outputs.ticket_created_at }}
+          AUTO_TICKET_COUNT: ${{ steps.resolve-auto.outputs.ticket_count }}
+          AUTO_TICKET_QUEUE_JSON: ${{ steps.resolve-auto.outputs.ticket_queue_json }}
+          AUTO_STATUS_MESSAGE: ${{ steps.resolve-auto.outputs.status_message }}
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+
+          def select(prefix: str) -> dict[str, str]:
+              return {
+                  "should_scan": os.getenv(f"{prefix}_SHOULD_SCAN", ""),
+                  "state_changed": os.getenv(f"{prefix}_STATE_CHANGED", ""),
+                  "ticket_id": os.getenv(f"{prefix}_TICKET_ID", ""),
+                  "ticket_created_at": os.getenv(f"{prefix}_TICKET_CREATED_AT", ""),
+                  "ticket_count": os.getenv(f"{prefix}_TICKET_COUNT", ""),
+                  "ticket_queue_json": os.getenv(f"{prefix}_TICKET_QUEUE_JSON", "[]"),
+                  "status_message": os.getenv(f"{prefix}_STATUS_MESSAGE", ""),
+              }
+
+          use_manual = (
+              os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch"
+              and os.getenv("GITHUB_SCAN_MODE") == "Manual"
+          )
+          selected = select("MANUAL" if use_manual else "AUTO")
+
+          output_path = Path(os.environ["GITHUB_OUTPUT"])
+          with output_path.open("a", encoding="utf-8") as handle:
+              for key, value in selected.items():
+                  handle.write(f"{key}={value}\n")
+          PY
 
       - name: Install Python dependencies
         if: steps.resolve-target.outputs.should_scan == 'true'
@@ -309,7 +369,7 @@ jobs:
 
       - name: Mark latest scanned ticket
         id: mark-scanned
-        if: steps.resolve-target.outputs.should_scan == 'true' && success()
+        if: steps.resolve-target.outputs.should_scan == 'true' && success() && !(github.event_name == 'workflow_dispatch' && inputs.mode == 'Manual')
         shell: bash
         env:
           SCAN_TICKET_QUEUE_JSON: ${{ steps.resolve-target.outputs.ticket_queue_json }}
@@ -347,7 +407,7 @@ jobs:
           PY
 
       - name: Persist auto scan state
-        if: always()
+        if: always() && !(github.event_name == 'workflow_dispatch' && inputs.mode == 'Manual')
         shell: bash
         run: |
           if git diff --quiet -- .github/scan_auto_state.json; then

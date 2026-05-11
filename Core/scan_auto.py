@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -18,6 +19,8 @@ REQUIRED_AUTO_ASSIGNEE_DISPLAY_NAME = os.getenv("SCAN_AUTO_REQUIRED_ASSIGNEE") o
 AUTO_SCAN_QUEUE_SIZE = int(os.getenv("SCAN_AUTO_QUEUE_SIZE") or "5")
 AUTO_SCAN_SEARCH_WINDOW = int(os.getenv("SCAN_AUTO_SEARCH_WINDOW") or "100")
 SCANNED_TICKET_ID_HISTORY_LIMIT = int(os.getenv("SCAN_AUTO_SCANNED_HISTORY_LIMIT") or "200")
+SCD_TICKET_KEY_PATTERN = re.compile(r"\b(SCD-\d+)\b", re.IGNORECASE)
+SCD_TICKET_NUMBER_PATTERN = re.compile(r"^\d+$")
 
 
 def utc_now_iso() -> str:
@@ -76,7 +79,18 @@ def parse_timestamp(value: str) -> datetime | None:
 
 
 def normalize_ticket_id(ticket_id: str) -> str:
-    return str(ticket_id or "").strip().upper()
+    normalized = str(ticket_id or "").strip()
+    if not normalized:
+        return ""
+
+    ticket_key_match = SCD_TICKET_KEY_PATTERN.search(normalized)
+    if ticket_key_match:
+        return ticket_key_match.group(1).upper()
+
+    if SCD_TICKET_NUMBER_PATTERN.fullmatch(normalized):
+        return f"SCD-{normalized}"
+
+    return normalized.upper()
 
 
 def write_github_output(path: str | None, result: dict[str, Any]) -> None:
