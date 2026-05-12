@@ -1,0 +1,33 @@
+name: Execute Gate
+
+on:
+  issues:
+    types:
+      - closed
+      - labeled
+
+jobs:
+  dispatch-execute:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+      issues: read
+
+    env:
+      PYTHONIOENCODING: utf-8
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Dispatch Execute when authorized
+        shell: bash
+        run: |
+          python Executes/dispatch_execute_workflow.py

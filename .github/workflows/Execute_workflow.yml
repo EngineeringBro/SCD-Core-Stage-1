@@ -1,18 +1,19 @@
 name: Execute
 
 on:
-  issues:
-    types:
-      - closed
+  workflow_dispatch:
+    inputs:
+      scd_ticket_id:
+        description: Single SCD ticket to execute
+        required: true
+        type: string
+      execute_issue_number:
+        description: GitHub issue number that authorized execute
+        required: true
+        type: string
 
 jobs:
   execute-single-ticket:
-    if: >-
-      github.event_name == 'issues' &&
-      github.event.action == 'closed' &&
-      github.event.issue.pull_request == null &&
-      github.event.issue.state_reason == 'completed' &&
-      contains(github.event.issue.labels.*.name, 'Permission to Execute')
     runs-on: ubuntu-latest
     environment: execute
     permissions:
@@ -40,28 +41,18 @@ jobs:
         id: resolve-ticket
         shell: bash
         env:
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          INPUT_TICKET_ID: ${{ inputs.scd_ticket_id }}
+          INPUT_ISSUE_NUMBER: ${{ inputs.execute_issue_number }}
         run: |
           python - <<'PY'
           import os
-          import re
-          import sys
 
-          issue_title = os.environ.get("ISSUE_TITLE", "")
-          issue_number = os.environ.get("ISSUE_NUMBER", "")
-          title_match = re.search(r"\[(SCD-\d+)\s*-\s*([^\]]+?)\]\s*$", issue_title, re.IGNORECASE)
-          if not title_match:
-              title_match = re.search(r"^\[[^\]]+\]\s*(SCD-\d+)\s*-\s*(.+?)\s*$", issue_title, re.IGNORECASE)
-          if not title_match:
-              raise SystemExit("Issue title does not include a parseable ticket id and module name.")
-
-          ticket_id = str(title_match.group(1) or "").strip().upper()
-          module_name = str(title_match.group(2) or "").strip()
+          ticket_id = str(os.environ.get("INPUT_TICKET_ID") or "").strip().upper()
+          issue_number = str(os.environ.get("INPUT_ISSUE_NUMBER") or "").strip()
           if not ticket_id:
-              raise SystemExit("Parsed SCD ticket id was empty.")
-          if not module_name:
-              raise SystemExit("Parsed module name was empty.")
+            raise SystemExit("Workflow dispatch input scd_ticket_id was empty.")
+          if not issue_number:
+            raise SystemExit("Workflow dispatch input execute_issue_number was empty.")
 
           github_env = os.environ.get("GITHUB_ENV", "")
           github_output = os.environ.get("GITHUB_OUTPUT", "")
@@ -73,10 +64,10 @@ jobs:
               with open(github_output, "a", encoding="utf-8") as handle:
                   handle.write(f"scd_ticket_id={ticket_id}\n")
                   handle.write(
-                      f"status_message=Auto execute approved for {ticket_id} ({module_name}) from closed issue #{issue_number}.\n"
+                  f"status_message=Execute dispatched for {ticket_id} from issue #{issue_number}.\n"
                   )
 
-          print(f"Auto execute approved for {ticket_id} ({module_name}) from closed issue #{issue_number}.")
+            print(f"Execute dispatched for {ticket_id} from issue #{issue_number}.")
           PY
 
       - name: Install Python dependencies
