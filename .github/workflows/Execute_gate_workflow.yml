@@ -4,18 +4,15 @@ on:
   issues:
     types:
       - closed
-      - labeled
 
 jobs:
-  dispatch-execute:
+  authorize-execute:
     runs-on: ubuntu-latest
     permissions:
-      actions: write
-      contents: read
+      contents: write
       issues: read
 
     env:
-      PYTHONIOENCODING: utf-8
       GH_TOKEN: ${{ github.token }}
 
     steps:
@@ -27,7 +24,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Dispatch Execute when authorized
+      - name: Authorize and dispatch execute
         shell: bash
         run: |
           python Executes/dispatch_execute_workflow.py

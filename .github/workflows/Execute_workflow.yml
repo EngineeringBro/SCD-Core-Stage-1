@@ -1,16 +1,9 @@
 name: Execute
 
 on:
-  workflow_dispatch:
-    inputs:
-      scd_ticket_id:
-        description: Single SCD ticket to execute
-        required: true
-        type: string
-      execute_issue_number:
-        description: GitHub issue number that authorized execute
-        required: true
-        type: string
+  repository_dispatch:
+    types:
+      - authorized_execute
 
 jobs:
   execute-single-ticket:
@@ -22,6 +15,8 @@ jobs:
 
     env:
       PYTHONIOENCODING: utf-8
+      SCD_TICKET_ID: ${{ github.event.client_payload.scd_ticket_id }}
+      EXECUTE_ISSUE_NUMBER: ${{ github.event.client_payload.execute_issue_number }}
       JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
       JIRA_WRITE_API_TOKEN: ${{ secrets.JIRA_WRITE_API_TOKEN }}
       JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
@@ -29,6 +24,16 @@ jobs:
       GH_TOKEN: ${{ github.token }}
 
     steps:
+      - name: Initialize execute context
+        id: init-context
+        shell: bash
+        run: |
+          if [[ -z "${SCD_TICKET_ID}" ]]; then
+            echo "Missing SCD_TICKET_ID in repository dispatch payload." >&2
+            exit 1
+          fi
+          echo "status_message=${{ github.event.client_payload.status_message || 'Authorized execute dispatch received.' }}" >> "$GITHUB_OUTPUT"
+
       - name: Check out repository
         uses: actions/checkout@v6
 
@@ -36,39 +41,6 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-
-      - name: Resolve execution ticket
-        id: resolve-ticket
-        shell: bash
-        env:
-          INPUT_TICKET_ID: ${{ inputs.scd_ticket_id }}
-          INPUT_ISSUE_NUMBER: ${{ inputs.execute_issue_number }}
-        run: |
-          python - <<'PY'
-          import os
-
-          ticket_id = str(os.environ.get("INPUT_TICKET_ID") or "").strip().upper()
-          issue_number = str(os.environ.get("INPUT_ISSUE_NUMBER") or "").strip()
-          if not ticket_id:
-            raise SystemExit("Workflow dispatch input scd_ticket_id was empty.")
-          if not issue_number:
-            raise SystemExit("Workflow dispatch input execute_issue_number was empty.")
-
-          github_env = os.environ.get("GITHUB_ENV", "")
-          github_output = os.environ.get("GITHUB_OUTPUT", "")
-          if github_env:
-              with open(github_env, "a", encoding="utf-8") as handle:
-                  handle.write(f"SCD_TICKET_ID={ticket_id}\n")
-                  handle.write(f"EXECUTE_ISSUE_NUMBER={issue_number}\n")
-          if github_output:
-              with open(github_output, "a", encoding="utf-8") as handle:
-                  handle.write(f"scd_ticket_id={ticket_id}\n")
-                  handle.write(
-                  f"status_message=Execute dispatched for {ticket_id} from issue #{issue_number}.\n"
-                  )
-
-            print(f"Execute dispatched for {ticket_id} from issue #{issue_number}.")
-          PY
 
       - name: Install Python dependencies
         shell: bash
@@ -140,6 +112,6 @@ jobs:
               cat execute-output.txt
               echo '```'
             else
-              echo "Execute job was skipped or ended before module output was created."
+              echo "${{ steps.init-context.outputs.status_message }}"
             fi
           } >> "$GITHUB_STEP_SUMMARY"
