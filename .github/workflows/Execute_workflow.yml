@@ -1,12 +1,6 @@
 name: Execute
 
 on:
-  workflow_dispatch:
-    inputs:
-      scd_ticket_id:
-        description: Single SCD ticket to execute
-        required: true
-        type: string
   issues:
     types:
       - closed
@@ -28,112 +22,19 @@ jobs:
       GH_TOKEN: ${{ github.token }}
 
     steps:
-      - name: Resolve execution ticket
-        id: resolve-ticket
-        uses: actions/github-script@v9
-        env:
-          WORKFLOW_INPUT_TICKET: ${{ inputs.scd_ticket_id }}
-        with:
-          script: |
-            const eventName = context.eventName;
-            const permissionLabel = 'permission to execute';
-
-            const exportExecution = (ticketId, statusMessage) => {
-              core.exportVariable('SCD_TICKET_ID', ticketId);
-              core.setOutput('should_execute', 'true');
-              core.setOutput('scd_ticket_id', ticketId);
-              core.setOutput('status_message', statusMessage);
-            };
-
-            const skipExecution = (statusMessage) => {
-              core.notice(statusMessage);
-              core.setOutput('should_execute', 'false');
-              core.setOutput('status_message', statusMessage);
-            };
-
-            if (eventName === 'workflow_dispatch') {
-              const ticketId = String(process.env.WORKFLOW_INPUT_TICKET || '').trim().toUpperCase();
-              if (!ticketId) {
-                core.setFailed('workflow_dispatch requires scd_ticket_id');
-                return;
-              }
-
-              exportExecution(ticketId, `Manual execute requested for ${ticketId}.`);
-              return;
-            }
-
-            const issue = context.payload.issue;
-            if (!issue) {
-              skipExecution('Skipped execute: issue payload is missing.');
-              return;
-            }
-
-            if (issue.pull_request) {
-              skipExecution('Skipped execute: pull request events are not supported.');
-              return;
-            }
-
-            let verifiedIssue;
-            try {
-              const response = await github.rest.issues.get({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-              });
-              verifiedIssue = response.data;
-            } catch (error) {
-              skipExecution(
-                `Skipped execute: could not verify labels for issue #${issue.number} (${error.message}).`
-              );
-              return;
-            }
-
-            if (String(verifiedIssue.state_reason || '') !== 'completed') {
-              skipExecution('Skipped execute: issue was not closed as completed.');
-              return;
-            }
-
-            const labelNames = Array.isArray(verifiedIssue.labels)
-              ? verifiedIssue.labels.map((label) => String(label.name || '').trim().toLowerCase())
-              : [];
-
-            if (!labelNames.includes(permissionLabel)) {
-              skipExecution("Skipped execute: missing required label 'Permission to Execute'.");
-              return;
-            }
-
-            const issueTitle = String(verifiedIssue.title || '');
-            const titleMatch = issueTitle.match(/\[(SCD-\d+)\s*-\s*([^\]]+?)\]\s*$/i)
-              || issueTitle.match(/^\[[^\]]+\]\s*(SCD-\d+)\s*-\s*(.+?)\s*$/i);
-
-            if (!titleMatch) {
-              skipExecution('Skipped execute: issue title does not include a parseable ticket id and module name.');
-              return;
-            }
-
-            const ticketId = String(titleMatch[1] || '').trim().toUpperCase();
-            const moduleName = String(titleMatch[2] || '').trim();
-            if (!ticketId) {
-              skipExecution('Skipped execute: parsed SCD ticket id was empty.');
-              return;
-            }
-            if (!moduleName) {
-              skipExecution('Skipped execute: parsed module name from title was empty.');
-              return;
-            }
-
-            core.exportVariable('EXECUTE_ISSUE_NUMBER', String(verifiedIssue.number));
-            exportExecution(ticketId, `Auto execute approved for ${ticketId} (${moduleName}) from closed issue #${verifiedIssue.number}.`);
-
       - name: Check out repository
-        if: steps.resolve-ticket.outputs.should_execute == 'true'
         uses: actions/checkout@v6
 
       - name: Set up Python
-        if: steps.resolve-ticket.outputs.should_execute == 'true'
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+
+      - name: Resolve execution ticket
+        id: resolve-ticket
+        shell: bash
+        run: |
+          python Executes/resolve_execute_issue.py
 
       - name: Install Python dependencies
         if: steps.resolve-ticket.outputs.should_execute == 'true'
