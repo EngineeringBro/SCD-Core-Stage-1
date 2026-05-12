@@ -7,6 +7,12 @@ on:
 
 jobs:
   execute-single-ticket:
+    if: >-
+      github.event_name == 'issues' &&
+      github.event.action == 'closed' &&
+      github.event.issue.pull_request == null &&
+      github.event.issue.state_reason == 'completed' &&
+      contains(github.event.issue.labels.*.name, 'Permission to Execute')
     runs-on: ubuntu-latest
     environment: execute
     permissions:
@@ -33,18 +39,53 @@ jobs:
       - name: Resolve execution ticket
         id: resolve-ticket
         shell: bash
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
-          python Executes/resolve_execute_issue.py
+          python - <<'PY'
+          import os
+          import re
+          import sys
+
+          issue_title = os.environ.get("ISSUE_TITLE", "")
+          issue_number = os.environ.get("ISSUE_NUMBER", "")
+          title_match = re.search(r"\[(SCD-\d+)\s*-\s*([^\]]+?)\]\s*$", issue_title, re.IGNORECASE)
+          if not title_match:
+              title_match = re.search(r"^\[[^\]]+\]\s*(SCD-\d+)\s*-\s*(.+?)\s*$", issue_title, re.IGNORECASE)
+          if not title_match:
+              raise SystemExit("Issue title does not include a parseable ticket id and module name.")
+
+          ticket_id = str(title_match.group(1) or "").strip().upper()
+          module_name = str(title_match.group(2) or "").strip()
+          if not ticket_id:
+              raise SystemExit("Parsed SCD ticket id was empty.")
+          if not module_name:
+              raise SystemExit("Parsed module name was empty.")
+
+          github_env = os.environ.get("GITHUB_ENV", "")
+          github_output = os.environ.get("GITHUB_OUTPUT", "")
+          if github_env:
+              with open(github_env, "a", encoding="utf-8") as handle:
+                  handle.write(f"SCD_TICKET_ID={ticket_id}\n")
+                  handle.write(f"EXECUTE_ISSUE_NUMBER={issue_number}\n")
+          if github_output:
+              with open(github_output, "a", encoding="utf-8") as handle:
+                  handle.write(f"scd_ticket_id={ticket_id}\n")
+                  handle.write(
+                      f"status_message=Auto execute approved for {ticket_id} ({module_name}) from closed issue #{issue_number}.\n"
+                  )
+
+          print(f"Auto execute approved for {ticket_id} ({module_name}) from closed issue #{issue_number}.")
+          PY
 
       - name: Install Python dependencies
-        if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
           python -m pip install --disable-pip-version-check openai
 
       - name: Resolve execute module
         id: resolve-module
-        if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
           EXECUTE_MODULE=$(python Executes/execute_router.py)
@@ -52,7 +93,6 @@ jobs:
           echo "execute_module=$EXECUTE_MODULE" >> "$GITHUB_OUTPUT"
 
       - name: Run execute flow
-        if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
           case "${{ steps.resolve-module.outputs.execute_module }}" in
@@ -78,7 +118,7 @@ jobs:
           esac
 
       - name: Persist notification log
-        if: steps.resolve-ticket.outputs.should_execute == 'true' && steps.resolve-module.outputs.execute_module == 'notification'
+        if: steps.resolve-module.outputs.execute_module == 'notification'
         shell: bash
         run: |
           if git diff --quiet -- 'modules/notifications_module/output/Notifications log.md'; then
@@ -93,7 +133,6 @@ jobs:
           git push origin HEAD:${GITHUB_REF_NAME}
 
       - name: Close GitHub issue for executed ticket
-        if: steps.resolve-ticket.outputs.should_execute == 'true'
         shell: bash
         run: |
           python Executes/close_execute_issue.py
@@ -110,6 +149,6 @@ jobs:
               cat execute-output.txt
               echo '```'
             else
-              echo "${{ steps.resolve-ticket.outputs.status_message }}"
+              echo "Execute job was skipped or ended before module output was created."
             fi
           } >> "$GITHUB_STEP_SUMMARY"
