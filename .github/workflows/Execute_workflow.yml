@@ -73,13 +73,28 @@ jobs:
               return;
             }
 
-            if (String(issue.state_reason || '') !== 'completed') {
+            let verifiedIssue;
+            try {
+              const response = await github.rest.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+              });
+              verifiedIssue = response.data;
+            } catch (error) {
+              skipExecution(
+                `Skipped execute: could not verify labels for issue #${issue.number} (${error.message}).`
+              );
+              return;
+            }
+
+            if (String(verifiedIssue.state_reason || '') !== 'completed') {
               skipExecution('Skipped execute: issue was not closed as completed.');
               return;
             }
 
-            const labelNames = Array.isArray(issue.labels)
-              ? issue.labels.map((label) => String(label.name || '').trim().toLowerCase())
+            const labelNames = Array.isArray(verifiedIssue.labels)
+              ? verifiedIssue.labels.map((label) => String(label.name || '').trim().toLowerCase())
               : [];
 
             if (!labelNames.includes(permissionLabel)) {
@@ -87,7 +102,7 @@ jobs:
               return;
             }
 
-            const issueTitle = String(issue.title || '');
+            const issueTitle = String(verifiedIssue.title || '');
             const titleMatch = issueTitle.match(/\[(SCD-\d+)\s*-\s*([^\]]+?)\]\s*$/i)
               || issueTitle.match(/^\[[^\]]+\]\s*(SCD-\d+)\s*-\s*(.+?)\s*$/i);
 
@@ -107,8 +122,8 @@ jobs:
               return;
             }
 
-            core.exportVariable('EXECUTE_ISSUE_NUMBER', String(issue.number));
-            exportExecution(ticketId, `Auto execute approved for ${ticketId} (${moduleName}) from closed issue #${issue.number}.`);
+            core.exportVariable('EXECUTE_ISSUE_NUMBER', String(verifiedIssue.number));
+            exportExecution(ticketId, `Auto execute approved for ${ticketId} (${moduleName}) from closed issue #${verifiedIssue.number}.`);
 
       - name: Check out repository
         if: steps.resolve-ticket.outputs.should_execute == 'true'
