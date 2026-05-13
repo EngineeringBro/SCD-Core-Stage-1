@@ -24,7 +24,7 @@ from modules import general_module
 
 
 INTERNAL_COMMENT_TEXT = "This ticket was resolved using SCD Core AI Project."
-PUBLIC_COMMENT_CLOSING = "If you need any further assistance, please let me know. I'd be glad to help."
+PUBLIC_COMMENT_CLOSING = "If you need any further assistance, please let me know. I’d be glad to help!"
 WORKLOG_TIME_SPENT = "30m"
 WAITING_TRANSITION_NAMES = (
     "Waiting for client",
@@ -117,11 +117,46 @@ def ensure_public_comment_closing(body: str) -> str:
     if not stripped:
         return ""
 
-    closing_pattern = re.compile(r"further assistance.*glad to help\.?", re.IGNORECASE)
-    if closing_pattern.search(stripped):
-        return stripped
+    paragraphs = [paragraph.strip() for paragraph in re.split(r"\n\s*\n", stripped) if paragraph.strip()]
+    while paragraphs and is_support_closing_paragraph(paragraphs[-1]):
+        paragraphs.pop()
 
-    return f"{stripped}\n\n{PUBLIC_COMMENT_CLOSING}"
+    normalized = "\n\n".join(paragraphs).strip()
+    if not normalized:
+        return PUBLIC_COMMENT_CLOSING
+
+    if is_exact_public_comment_closing(paragraphs[-1] if paragraphs else ""):
+        return normalized
+
+    return f"{normalized}\n\n{PUBLIC_COMMENT_CLOSING}"
+
+
+def is_exact_public_comment_closing(paragraph: str) -> bool:
+    normalized = normalize_support_closing_text(paragraph)
+    expected = normalize_support_closing_text(PUBLIC_COMMENT_CLOSING)
+    return normalized == expected
+
+
+def is_support_closing_paragraph(paragraph: str) -> bool:
+    normalized = normalize_support_closing_text(paragraph)
+    if not normalized:
+        return False
+
+    if normalized == normalize_support_closing_text(PUBLIC_COMMENT_CLOSING):
+        return True
+
+    patterns = (
+        r"^if you need .*?(assistance|guidance|help|anything else).*$",
+        r"^please let me know .*?(assistance|guidance|help|anything else).*$",
+        r"^let me know .*?(assistance|guidance|help|anything else).*$",
+        r".*support team is happy to .*",
+        r".*(?:i'd|id|i would) be (?:glad|happy) to help.*$",
+    )
+    return any(re.match(pattern, normalized, re.IGNORECASE) for pattern in patterns)
+
+
+def normalize_support_closing_text(value: str) -> str:
+    return re.sub(r"[^a-z0-9 ]+", "", value.casefold()).strip()
 
 
 def post_public_comment(base: str, scd_id: str, headers: dict[str, str], comment_markdown: str) -> None:
