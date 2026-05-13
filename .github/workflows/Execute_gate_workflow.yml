@@ -3,7 +3,7 @@ name: Execute Gate
 on:
   issues:
     types:
-      - closed
+      - labeled
 
 jobs:
   authorize-execute:

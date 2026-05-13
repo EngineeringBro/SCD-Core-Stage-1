@@ -14,6 +14,11 @@ EVENT_TYPE = "authorized_execute"
 
 def main() -> int:
     payload = load_event_payload()
+    action = str(payload.get("action") or "").strip().lower()
+    if action != "labeled":
+        print(f"Skipped execute gate: unsupported issue action '{action or 'unknown'}'.")
+        return 0
+
     issue = payload.get("issue") if isinstance(payload, dict) else None
     if not isinstance(issue, dict):
         print("Skipped execute gate: issue payload is missing.")
@@ -26,6 +31,12 @@ def main() -> int:
     issue_number = str(issue.get("number") or "").strip()
     if not issue_number:
         print("Skipped execute gate: issue number is missing.")
+        return 0
+
+    label = payload.get("label") if isinstance(payload.get("label"), dict) else {}
+    label_name = str(label.get("name") or "").strip().lower()
+    if label_name != PERMISSION_LABEL:
+        print(f"Skipped execute gate: label '{label_name or 'unknown'}' is not authorized for execute.")
         return 0
 
     repo = os.environ.get("GITHUB_REPOSITORY", "").strip()
