@@ -24,7 +24,7 @@ from modules import general_module
 
 
 INTERNAL_COMMENT_TEXT = "This ticket was resolved using SCD Core AI Project."
-PUBLIC_COMMENT_CLOSING = "Let me know in case you need further assistance, I would be happy to help!"
+PUBLIC_COMMENT_CLOSING = "If you need any further assistance, please let me know. I'd be glad to help."
 WORKLOG_TIME_SPENT = "30m"
 WAITING_TRANSITION_NAMES = (
     "Waiting for client",
@@ -93,7 +93,7 @@ def build_public_comment_markdown(module_response: dict[str, object]) -> str:
     if not body:
         raise RuntimeError("General module returned an empty body")
 
-    stripped = ensure_public_comment_closing(strip_ticket_handler_section(body))
+    stripped = ensure_public_comment_closing(strip_markdown_images(strip_ticket_handler_section(body)))
     if not stripped:
         raise RuntimeError("General module body contained no customer-facing comment text")
     return stripped
@@ -108,12 +108,16 @@ def strip_ticket_handler_section(body: str) -> str:
     return re.sub(r"(?:\n\s*(?:---|\*\*\*|___)\s*)+\Z", "", stripped).strip()
 
 
+def strip_markdown_images(body: str) -> str:
+    return re.sub(r"\n?\s*!\[[^\]]*\]\([^)]+\)\s*", "\n", body).strip()
+
+
 def ensure_public_comment_closing(body: str) -> str:
     stripped = body.strip()
     if not stripped:
         return ""
 
-    closing_pattern = re.compile(r"let me know.*further assistance.*happy to help!?", re.IGNORECASE)
+    closing_pattern = re.compile(r"further assistance.*glad to help\.?", re.IGNORECASE)
     if closing_pattern.search(stripped):
         return stripped
 

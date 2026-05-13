@@ -515,10 +515,9 @@ def build_synthesis_prompt(ticket_context: TicketContext, step_groups: list[Step
         "- Keep the response short but still informative.\n"
         "- Provide direct instructions, not background filler.\n"
         "- For every recommended step, include the exact matching article as a support-friendly markdown link using the provided article_url.\n"
-        "- Include helpful markdown images only when they materially help the client follow the step.\n"
         "- Do not mention missing documentation or include a 'What is still missing from the available documentation' section.\n"
         "- If the evidence is limited, say that support can guide the client further, but still use only the evidence provided.\n"
-        "- Use at most 3 images.\n"
+        "- Use article links only. Do not include markdown images or image references.\n"
         "- Do not add any email-style ending such as thanks, regards, best, SCD Support Team, Ticket ID, or similar closing filler.\n"
         "- End immediately after the last helpful support sentence.\n"
         "- End the response body before the Ticket Handler section.\n"
@@ -546,18 +545,11 @@ def build_fallback_body(ticket_context: TicketContext, step_groups: list[StepGro
         "",
     ]
 
-    used_images = 0
     for index, group in enumerate(selected_groups, start=1):
         lines.append(f"{index}. {group.step_text}")
         lines.append(
             f"   For a guided walkthrough, please refer to [{group.article_title}]({group.article_url})."
         )
-        if group.images and used_images < MAX_IMAGES:
-            image = group.images[0]
-            alt = image.get("alt") or f"Reference image {used_images + 1}"
-            lines.append("")
-            lines.append(f"![{alt}]({image.get('src', '')})")
-            used_images += 1
 
     lines.extend(
         [
