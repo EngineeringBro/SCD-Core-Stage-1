@@ -24,6 +24,7 @@ from modules import general_module
 
 
 INTERNAL_COMMENT_TEXT = "This ticket was resolved using SCD Core AI Project."
+PUBLIC_COMMENT_CLOSING = "Let me know in case you need further assistance, I would be happy to help!"
 WORKLOG_TIME_SPENT = "30m"
 WAITING_TRANSITION_NAMES = (
     "Waiting for client",
@@ -92,7 +93,7 @@ def build_public_comment_markdown(module_response: dict[str, object]) -> str:
     if not body:
         raise RuntimeError("General module returned an empty body")
 
-    stripped = strip_ticket_handler_section(body)
+    stripped = ensure_public_comment_closing(strip_ticket_handler_section(body))
     if not stripped:
         raise RuntimeError("General module body contained no customer-facing comment text")
     return stripped
@@ -103,7 +104,20 @@ def strip_ticket_handler_section(body: str) -> str:
         r"\n{0,2}(?:#{1,6}\s*)?\*{0,2}ticket handler\*{0,2}.*\Z",
         re.IGNORECASE | re.DOTALL,
     )
-    return re.sub(pattern, "", body).strip()
+    stripped = re.sub(pattern, "", body).strip()
+    return re.sub(r"(?:\n\s*(?:---|\*\*\*|___)\s*)+\Z", "", stripped).strip()
+
+
+def ensure_public_comment_closing(body: str) -> str:
+    stripped = body.strip()
+    if not stripped:
+        return ""
+
+    closing_pattern = re.compile(r"let me know.*further assistance.*happy to help!?", re.IGNORECASE)
+    if closing_pattern.search(stripped):
+        return stripped
+
+    return f"{stripped}\n\n{PUBLIC_COMMENT_CLOSING}"
 
 
 def post_public_comment(base: str, scd_id: str, headers: dict[str, str], comment_markdown: str) -> None:
