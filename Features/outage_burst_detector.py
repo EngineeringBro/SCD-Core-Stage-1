@@ -6,8 +6,8 @@ from pathlib import Path
 from typing import Any
 
 
-CORE_ROOT = Path(__file__).resolve().parent
-REPO_ROOT = CORE_ROOT.parent
+FEATURES_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = FEATURES_ROOT.parent
 OUTAGE_BURST_STATE_PATH = Path(
     os.getenv("OUTAGE_BURST_STATE_PATH") or (REPO_ROOT / ".github" / "outage_burst_state.json")
 )
