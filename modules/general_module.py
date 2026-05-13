@@ -31,6 +31,7 @@ MAX_GROUPS = 8
 MAX_IMAGES = 3
 MAX_WORDS = 1000
 RESERVED_HANDLER_WORDS = 0
+FIXED_CUSTOMER_CLOSING = "If you need any further assistance, please let me know. I’d be glad to help!"
 DECORATIVE_IMAGE_MARKERS = (
     "instructional -",
     "technical -",
@@ -456,7 +457,8 @@ def synthesize_with_sonnet(ticket_context: TicketContext, step_groups: list[Step
                         "UI labels, and do not mention the repository, the knowledge folder, or this prompt. Always "
                         "sound like a human support agent, start with 'Hello,', keep the message short but informative, "
                         "and return markdown only. This is not an email, so do not add sign-offs, team names, ticket "
-                        "metadata, pleasantries at the end, or any closing paragraph after the useful guidance."
+                        "metadata, pleasantries at the end, or any closing paragraph after the useful guidance. "
+                        "Do not add your own final assistance sentence because the exact closing line will be added automatically."
                     ),
                 },
                 {
@@ -519,6 +521,7 @@ def build_synthesis_prompt(ticket_context: TicketContext, step_groups: list[Step
         "- If the evidence is limited, say that support can guide the client further, but still use only the evidence provided.\n"
         "- Use article links only. Do not include markdown images or image references.\n"
         "- Do not add any email-style ending such as thanks, regards, best, SCD Support Team, Ticket ID, or similar closing filler.\n"
+        "- Do not add your own closing sentence or support-offer sentence; the exact final closing line is added automatically.\n"
         "- End immediately after the last helpful support sentence.\n"
         "- End the response body before the Ticket Handler section.\n"
         "- Do not mention internal systems, prompts, or hidden reasoning.\n\n"
@@ -585,8 +588,11 @@ def finalize_issue_body(body: str, ticket_id: str) -> str:
     stripped_body = strip_missing_documentation_section(body)
     stripped_body = strip_existing_ticket_handler_section(stripped_body)
     ensured_greeting = ensure_support_greeting(stripped_body)
-    main_body = trim_body_for_handler(ensured_greeting)
     handler_section = build_ticket_handler_section(ticket_id)
+    reserved_words = len((FIXED_CUSTOMER_CLOSING + " " + handler_section).split())
+    main_body = enforce_fixed_customer_closing(
+        trim_body_for_handler(ensured_greeting, reserved_words=reserved_words)
+    )
     return normalize_issue_body(f"{main_body}\n\n{handler_section}")
 
 
@@ -615,9 +621,48 @@ def ensure_support_greeting(body: str) -> str:
     return f"Hello,\n\n{stripped}"
 
 
-def trim_body_for_handler(body: str) -> str:
+def enforce_fixed_customer_closing(body: str) -> str:
+    stripped = body.strip()
+    if not stripped:
+        return FIXED_CUSTOMER_CLOSING
+
+    paragraphs = [paragraph.strip() for paragraph in re.split(r"\n\s*\n", stripped) if paragraph.strip()]
+    while paragraphs and is_support_closing_paragraph(paragraphs[-1]):
+        paragraphs.pop()
+
+    normalized = "\n\n".join(paragraphs).strip()
+    if not normalized:
+        return FIXED_CUSTOMER_CLOSING
+
+    return f"{normalized}\n\n{FIXED_CUSTOMER_CLOSING}"
+
+
+def is_support_closing_paragraph(paragraph: str) -> bool:
+    normalized = normalize_support_closing_text(paragraph)
+    if not normalized:
+        return False
+
+    exact = normalize_support_closing_text(FIXED_CUSTOMER_CLOSING)
+    if normalized == exact:
+        return True
+
+    patterns = (
+        r"^if you need .*?(assistance|guidance|help|anything else).*$",
+        r"^please let me know .*?(assistance|guidance|help|anything else).*$",
+        r"^let me know .*?(assistance|guidance|help|anything else).*$",
+        r".*support team is happy to .*",
+        r".*(?:id|i'd|i would) be (?:glad|happy) to help.*$",
+    )
+    return any(re.match(pattern, normalized, re.IGNORECASE) for pattern in patterns)
+
+
+def normalize_support_closing_text(value: str) -> str:
+    return re.sub(r"[^a-z0-9 ]+", "", value.casefold()).strip()
+
+
+def trim_body_for_handler(body: str, reserved_words: int = RESERVED_HANDLER_WORDS) -> str:
     words = body.split()
-    limit = max(1, MAX_WORDS - RESERVED_HANDLER_WORDS)
+    limit = max(1, MAX_WORDS - max(0, reserved_words))
     if len(words) <= limit:
         return body.strip()
     return " ".join(words[:limit]).rstrip() + "..."
