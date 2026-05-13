@@ -298,18 +298,30 @@ def convert_markdown_comment_to_adf(markdown: str) -> dict[str, object]:
                 match = re.match(r"^(\d+)[.-]\s+(.+)$", candidate)
                 if not match:
                     break
+                item_content = convert_paragraph_with_images(match.group(2))
+                if not item_content:
+                    item_content = [
+                        {
+                            "type": "paragraph",
+                            "content": parse_inline_content(match.group(2)),
+                        }
+                    ]
+                index += 1
+                while index < len(lines):
+                    continuation = lines[index].strip()
+                    if not continuation:
+                        index += 1
+                        continue
+                    if re.match(r"^(\d+)[.-]\s+(.+)$", continuation) or re.match(r"^[-*]\s+(.+)$", continuation):
+                        break
+                    item_content.extend(convert_paragraph_with_images(continuation))
+                    index += 1
                 items.append(
                     {
                         "type": "listItem",
-                        "content": [
-                            {
-                                "type": "paragraph",
-                                "content": parse_inline_content(match.group(2)),
-                            }
-                        ],
+                        "content": item_content,
                     }
                 )
-                index += 1
             content.append({"type": "orderedList", "content": items})
             continue
 
