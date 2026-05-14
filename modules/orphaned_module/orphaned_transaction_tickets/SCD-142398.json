@@ -1,0 +1,19 @@
+{
+  "ticket_id": "SCD-142398",
+  "recommendation": "SQL insert required",
+  "intro": "This is an orphaned transaction ticket. Here is everything needed to resolve the issue.",
+  "step_2_text": "Run the Execute workflow to close {ticket_id} automatically:\n1- Posts a comment to the client.\n2- Leaves an internal AI note.\n3- Assigns ticket to you.\n4- Logs 30mins to your time.\n5- Fill fields and resolve.",
+  "transaction_details": {
+    "rq_ticket": "2869585",
+    "customer_id": "1831931",
+    "loc_id": "236",
+    "terminal_id": "277",
+    "pm_id": "358",
+    "amount": "677.20",
+    "card": "Mastercard #2470",
+    "timestamp": "2026-05-11 21:57:45",
+    "staff_user_id": "2771",
+    "transaction_id": "649474159"
+  },
+  "sql_query": "INSERT INTO transaction VALUES (NULL, '2869585', 'Customer', '1831931', '236', '277', 3, '358', '677.20', 'Mastercard #2470', '2026-05-11 21:57:45', '2771', 'in', NULL, '677.20', '649474159', NULL, NULL, NULL, NULL, '0', 0, 0);\nINSERT INTO system_log VALUES (NULL, '2605', '236', NULL, '2869585', 'create', 'transaction', 'amount', NULL, '677.20', NOW(), 'RQ Support added transaction with reference number 649474159 for $677.20', NULL);"
+}
