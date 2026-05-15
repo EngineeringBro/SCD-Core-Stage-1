@@ -1,0 +1,71 @@
+{
+  "ticket_id": "SCD-142437",
+  "recommendation": "SQL insert required",
+  "intro": "This is an orphaned transaction ticket. Here is everything needed to resolve the issue.",
+  "customer_name": "KAUR, JHASANPREET",
+  "staff_name": "Khosla, Ankish",
+  "step_2_text": "Run the Execute workflow to close {ticket_id} automatically:\n1- Posts a comment to the client.\n2- Leaves an internal AI note.\n3- Assigns ticket to you.\n4- Logs 30mins to your time.\n5- Fill fields and resolve.",
+  "display_rows": [
+    {
+      "label": "RQ Ticket",
+      "detail_key": "rq_ticket"
+    },
+    {
+      "label": "Client / Location",
+      "value": "Mobile Klinik Lime Ridge Mall (136)"
+    },
+    {
+      "label": "Customer",
+      "value": "KAUR, JHASANPREET"
+    },
+    {
+      "label": "customerId",
+      "detail_key": "customer_id"
+    },
+    {
+      "label": "loc_id",
+      "detail_key": "loc_id"
+    },
+    {
+      "label": "terminal_id",
+      "detail_key": "terminal_id"
+    },
+    {
+      "label": "GP_payment_method_id",
+      "detail_key": "pm_id"
+    },
+    {
+      "label": "staffUserId (Khosla, Ankish)",
+      "detail_key": "staff_user_id"
+    },
+    {
+      "label": "TransactionID",
+      "detail_key": "transaction_id"
+    },
+    {
+      "label": "Timestamp (local EDT)",
+      "detail_key": "timestamp"
+    },
+    {
+      "label": "Card",
+      "detail_key": "card"
+    },
+    {
+      "label": "Amount",
+      "value": "$30.00"
+    }
+  ],
+  "transaction_details": {
+    "rq_ticket": "2872497",
+    "customer_id": "2022645",
+    "loc_id": "77",
+    "terminal_id": "103",
+    "pm_id": "208",
+    "amount": "30.00",
+    "card": "Mastercard #5433",
+    "timestamp": "2026-05-14 13:04:05",
+    "staff_user_id": "739",
+    "transaction_id": "684886103"
+  },
+  "sql_query": "INSERT INTO transaction VALUES (NULL, '2872497', 'Customer', '2022645', '77', '103', 3, '208', '30.00', 'Mastercard #5433', '2026-05-14 13:04:05', '739', 'in', NULL, '30.00', '684886103', NULL, NULL, NULL, NULL, '0', 0, 0);\nINSERT INTO system_log VALUES (NULL, '2605', '77', NULL, '2872497', 'create', 'transaction', 'amount', NULL, '30.00', NOW(), 'RQ Support added transaction with reference number 684886103 for $30.00', NULL);"
+}

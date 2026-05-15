@@ -29,6 +29,7 @@ REQUIRED_DETAIL_KEYS = [
 ALLOWED_TICKET_IDS = {
     "SCD-142125",
     "SCD-142398",
+    "SCD-142437",
 }
 
 
@@ -86,6 +87,7 @@ def get_detail_values(template: dict[str, Any]) -> tuple[dict[str, str], list[st
 
 
 def build_issue_body(template: dict[str, Any], extracted_values: dict[str, str]) -> str:
+    display_rows = get_display_rows(template, extracted_values)
     customer_name = str(template.get("customer_name") or "").strip()
     staff_name = str(template.get("staff_name") or "").strip()
     intro = str(template.get("intro") or "This is an orphaned transaction ticket.").strip()
@@ -100,18 +102,19 @@ def build_issue_body(template: dict[str, Any], extracted_values: dict[str, str])
     staff_user_id = with_optional_label(extracted_values.get("staff_user_id", "Not found in ticket"), staff_name)
     sql_query = extracted_values.get("sql_query") or "Not found in ticket."
 
-    detail_rows = [
-        ("RQ ticket", extracted_values.get("rq_ticket", "Not found in ticket")),
-        ("customer_id", customer_id),
-        ("loc_id", extracted_values.get("loc_id", "Not found in ticket")),
-        ("terminal_id", extracted_values.get("terminal_id", "Not found in ticket")),
-        ("pm_id", extracted_values.get("pm_id", "Not found in ticket")),
-        ("amount", extracted_values.get("amount", "Not found in ticket")),
-        ("card", extracted_values.get("card", "Not found in ticket")),
-        ("timestamp", extracted_values.get("timestamp", "Not found in ticket")),
-        ("staff_user_id", staff_user_id),
-        ("transaction_id", extracted_values.get("transaction_id", "Not found in ticket")),
-    ]
+    if not display_rows:
+        display_rows = [
+            ("RQ ticket", extracted_values.get("rq_ticket", "Not found in ticket")),
+            ("customer_id", customer_id),
+            ("loc_id", extracted_values.get("loc_id", "Not found in ticket")),
+            ("terminal_id", extracted_values.get("terminal_id", "Not found in ticket")),
+            ("pm_id", extracted_values.get("pm_id", "Not found in ticket")),
+            ("amount", extracted_values.get("amount", "Not found in ticket")),
+            ("card", extracted_values.get("card", "Not found in ticket")),
+            ("timestamp", extracted_values.get("timestamp", "Not found in ticket")),
+            ("staff_user_id", staff_user_id),
+            ("transaction_id", extracted_values.get("transaction_id", "Not found in ticket")),
+        ]
 
     lines = [
         "## Orphaned Transaction Fix",
@@ -124,7 +127,7 @@ def build_issue_body(template: dict[str, Any], extracted_values: dict[str, str])
         "| --- | --- |",
     ]
 
-    for label, value in detail_rows:
+    for label, value in display_rows:
         lines.append(f"| {label} | {escape_table_value(value)} |")
 
     lines.extend(
@@ -145,6 +148,33 @@ def build_issue_body(template: dict[str, Any], extracted_values: dict[str, str])
     )
 
     return "\n".join(lines)
+
+
+def get_display_rows(template: dict[str, Any], extracted_values: dict[str, str]) -> list[tuple[str, str]]:
+    raw_rows = template.get("display_rows")
+    if not isinstance(raw_rows, list):
+        return []
+
+    display_rows: list[tuple[str, str]] = []
+    for raw_row in raw_rows:
+        if not isinstance(raw_row, dict):
+            raise ValueError("display_rows entries must be JSON objects")
+
+        label = str(raw_row.get("label") or "").strip()
+        if not label:
+            raise ValueError("display_rows entries require a label")
+
+        if "value" in raw_row:
+            value = str(raw_row.get("value") or "").strip()
+        else:
+            key = str(raw_row.get("detail_key") or "").strip()
+            if not key:
+                raise ValueError("display_rows entries require either value or detail_key")
+            value = extracted_values.get(key, "Not found in ticket")
+
+        display_rows.append((label, value or "Not found in ticket"))
+
+    return display_rows
 
 
 def with_optional_label(value: str, label: str) -> str:
