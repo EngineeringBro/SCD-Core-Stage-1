@@ -671,7 +671,9 @@ def trim_body_for_handler(body: str, reserved_words: int = RESERVED_HANDLER_WORD
 def build_ticket_handler_section(ticket_id: str) -> str:
     return "\n".join(
         [
-            "**Ticket Handler**",
+            "---",
+            "",
+            "## Ticket Handler",
             "",
             f"Run the Execute workflow to handle {ticket_id} automatically, it will do the following sequence:",
             "",
